@@ -1,10 +1,10 @@
-# (LFS171x) Hyperledger Blockchain Technology
+# **(LFS171x) Hyperledger Blockchain Technology**
 
 LFS171x is part of the Blockchain for Business Professional Certificate. Skills in blockchain are being reported as the top job-skill in demand. This program is designed for the business professional who needs to understand the potential (or threat) of blockchain to their company and industry. Armed with better information of the blockchain landscape, this program will help you rise to new challenges in your current role by giving you a new dimension on which you can add value to your employer.
 
 **Chapter 1. Discovering Blockchain Technologies**
 
-1.  [**Introduction and Learning Objectives**](https://learning.edx.org/course/course-v1:LinuxFoundationX+LFS171x+3T2020/block-v1:LinuxFoundationX+LFS171x+3T2020+type@sequential+block@d694f1dc9ef04695a6d004c96aeb103a)**, 1 minute**
+1.  [**Introduction and Learning Objectives**](https://learning.edx.org/course/course-v1:LinuxFoundationX+LFS171x+3T2020/block-v1:LinuxFoundationX+LFS171x+3T2020+type@sequential+block@d694f1dc9ef04695a6d004c96aeb103a)**, 1 min**
 2.  [**Distributed Ledger Technology (DLT)**](https://learning.edx.org/course/course-v1:LinuxFoundationX+LFS171x+3T2020/block-v1:LinuxFoundationX+LFS171x+3T2020+type@sequential+block@bf7a3e04813b46e79773b5b55f339861)**, 18 minutes**
 3.  [**Bitcoin and Ethereum Blockchains**](https://learning.edx.org/course/course-v1:LinuxFoundationX+LFS171x+3T2020/block-v1:LinuxFoundationX+LFS171x+3T2020+type@sequential+block@ef416cef9de34087a8a5ef3b0abd41f1)**, 7 minutes**
 4.  [**Exploring Permissionless Blockchains**](https://learning.edx.org/course/course-v1:LinuxFoundationX+LFS171x+3T2020/block-v1:LinuxFoundationX+LFS171x+3T2020+type@sequential+block@d827129e4f8343a0ad76ff5b6084c8ac)**, 4 minutes**

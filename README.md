@@ -5,14 +5,13 @@
 ## Table of contents
 1. <a href="#S-1">Discovering Blockchain Technologies</a>
 <ol type="i">
-    <li><a href="#SS-1-1">Introduction & Objectives</a></li>
-    <li><a href="#SS-1-2">Distributed Ledger Technology</a></li>
-    <li><a href="#SS-1-3">Bitcoin & Ethereum Blockchains</a></li>
-    <li><a href="#SS-1-4">Exploring Permissionless Blockchains</a></li>
-    <li><a href="#SS-1-5">Concensus Algorithms</a></i>
-    <li><a href="#SS-1-6">Hyperledger</a></i>
-    <li><a href="#SS-1-7">Other Open Source Permissioned Distributed Ledgers</a></i>
-    <li><a href="#SS-1-8">Challenges in the Adoption/Deployment of Distributed Ledger Technologies</a></i>
+    <li><a href="#SS-1-1">Distributed Ledger Technology</a></li>
+    <li><a href="#SS-1-2">Bitcoin & Ethereum Blockchains</a></li>
+    <li><a href="#SS-1-3">Exploring Permissionless Blockchains</a></li>
+    <li><a href="#SS-1-4">Concensus Algorithms</a></i>
+    <li><a href="#SS-1-5">Hyperledger</a></i>
+    <li><a href="#SS-1-6">Other Open Source Permissioned Distributed Ledgers</a></i>
+    <li><a href="#SS-1-7">Challenges in the Adoption/Deployment of Distributed Ledger Technologies</a></i>
 </ol>
 2. <a href="#S-2">Introduction to Hyperledger</a>
 <ol type="i">
@@ -50,6 +49,8 @@ By the end of this chapter, you should be able to:
 2. Explore permissioned and permissionless blockchains and their key characteristics.
 3. Discuss various components of distributed ledger technologies, including consensus algorithms and smart contracts.
 4. Provide a high-level explanation of what Hyperledger is.
+
+### <a id="S-1-1">1a. Distributed Ledger Technmology (DLT)</a>
 
 In summary, distributed ledger technology (DLT) generally consists of three basic components:
 1. A data model that captures the current state of the ledger.

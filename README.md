@@ -4,7 +4,8 @@
 <!------------------------------------------------------------------------->
 ## Table of contents
 1. <a href="#S-1">Discovering Blockchain Technologies)</a>
-    i. <a href="#SS-1-1">Introduction & Objectives</a>
+2. <ol.n>
+    <li>i. <a href="#SS-1-1">Introduction & Objectives</a></li>
 2. <a href="#S-2">#Introduction to Hyperledger</a>
      i. <a href="#SS-2-1">Hyperledger</a>
     ii. <a href="#SS-2-2">Q & A with Brian Behlendorf, Executive Director, Hyperledger</a>

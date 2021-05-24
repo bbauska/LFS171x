@@ -2,15 +2,15 @@
 &nbsp;|&nbsp;
 <!------------------------------------------------------------------------->
 # Table of contents
-1. (<a href="#S-1">Discovering Blockchain Technologies)</a>
-    i. (<a href="#SS-1-1">Introduction & Objectives</a>
-2. (<a href="#S-2">#Introduction to Hyperledger)</a>
-     i. (<a href="#SS-2-1">Hyperledger)
-    ii. (<a href="#SS-2-2">Q & A with Brian Behlendorf, Executive Director, Hyperledger)</a>
-3. (<a href="#S-3">Hyperledger: Distributed Ledger Frameworks & Domain Specific Blockchains)</a>
-    i.
-4. (<a href="#S-4">Hyperledger Tools)</a>
-5. (<a href="#S-5">Hyperledger Libraries)</a>
+1. <a href="#S-1">Discovering Blockchain Technologies)</a>
+    i. <a href="#SS-1-1">Introduction & Objectives</a>
+2. <a href="#S-2">#Introduction to Hyperledger</a>
+     i. <a href="#SS-2-1">Hyperledger</a>
+    ii. <a href="#SS-2-2">Q & A with Brian Behlendorf, Executive Director, Hyperledger</a>
+3. <a href="#S-3">Hyperledger: Distributed Ledger Frameworks & Domain Specific Blockchains</a>
+    i. 
+4. <a href="#S-4">Hyperledger Tools</a>
+5. <a href="#S-5">Hyperledger Libraries</a>
 
 ## <a id="S-1">Discovering Blockchain Technologies</a>
 By the end of this chapter, you should be able to:

@@ -2,7 +2,7 @@
 <------------------------------------------------------------------------->
 # Table of contents
 1. [Section 1](#Section 1 - Hyperledger Blockchain Technology)
-2. [Sectino 2](#Section 2 - Blockchain)
+2. [Section 2](#Section 2 - Blockchain)
     1. [Sub section](#Section 2 - part A)
     2. [Sub-section](#Section 2 - part B)
 3. [Section 3](#Section 3 - Blockchain)

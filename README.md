@@ -56,15 +56,39 @@ In summary, distributed ledger technology (DLT) generally consists of three basi
 2. A language of transactions that changes the ledger state.
 3. A protocol used to build consensus among participants around which transactions will be accepted, and in what order, by the ledger.
 
+### <a id="S-1-2">1b. Bitcoin and Ethereum Blockchain</a>
+According to hyperledger.org,
+<blockquote>
+"A blockchain is a peer-to-peer distributed ledger forged by consensus, combined with a system for "smart contracts" and other assistive technologies. Together these can be used to build a new generation of transactional applications that establishes trust, accountability, and transparency at their core, while streamlining business processes and legal constraints."
+</blockquote>
+Smart contracts are simply computer programs that execute predefined actions when certain conditions within the system are met.
+Consensus refers to a system of ensuring that parties agree to a certain state of the system as the true state.
+Blockchain is a specific form or subset of distributed ledger technologies (DLTs), which constructs a chronological chain of blocks, hence the name "block-chain". Examples of other DLTs are Chain Core, Corda, Quorum, and IOTA. They will be covered later in this chapter.
+A block refers to a set of transactions that are bundled together and added to the chain at the same time.
+Timestamping is another key feature of blockchain technology. Each block is timestamped, with each new block referring to the previous block. Combined with cryptographic hashes, this timestamped chain of blocks provides an immutable record of all transactions in the network, from the very first (or genesis) block.
+In the Bitcoin blockchain, the miner nodes bundle unconfirmed and valid transactions into a block. Each block contains a given number of transactions. In the Bitcoin network, miners must solve a cryptographic challenge to propose the next block. This process is known as "proof of work", and requires significant computing power. We shall discuss proof of work in more detail in the Consensus Algorithms section. For more information about blockchain technology, please read the following article: "A Brief History of Blockchain" by Vinay Gupta.
+A Bitcoin block consists of four pieces of metadata:
+o	The reference to the previous block
+o	The proof of work, also known as a nonce
+o	The timestamp
+o	The Merkle tree root for the transactions included in this block (Merkle tree is explained next).
+
+
+### <a id="S-1-3">1c. Exploring Permissionless Blockchains</a>
+### <a id="S-1-4">1d. Concensus Algorithms</a>
+### <a id="S-1-5">1e. Hyperledger</a>
+### <a id="S-1-6">1f. Other Open Source Permissioned Distributed Ledgers</a>
+### <a id="S-1-7">1g. Challenges in the Adoption/Deployment of Distributed Ledger Technologies</a>
+
 ## <a id="S-2">2. Introduction to Hyperledger</a>
-### <a id="SS-2-1">Hyperledger</a>
-### <a id="SS-2-2">Q & A with Brian Behlendorf, Executive Director, Hyperledger</a>
+### <a id="SS-2-1">2a. Hyperledger</a>
+### <a id="SS-2-2">2b. Q & A with Brian Behlendorf, Executive Director, Hyperledger</a>
 
 ## <a id="S-3">3. Hyperledger: Distributed Ledger Frameworks and Domain Specific Blockchains</a>
 
 ## <a id="S-4">4. Hyperledger Tools</a>
 
-## <a id="S-5"5. >Hyperledger Libraries</a>
+## <a id="S-5">5. >Hyperledger Libraries</a>
 
 ## <a id="S-6">6. The Promise of Business Blockchain Technologies</a>
 

@@ -3,18 +3,31 @@
 # LFS101x - Introduction to Hyperledger Blockchain Technology
 <!------------------------------------------------------------------------->
 ## Table of contents
-1. <a href="#S-1">Discovering Blockchain Technologies)</a>
+1. <a href="#S-1">Discovering Blockchain Technologies</a>
 <ol type = "i">
     <li><a href="#SS-1-1">Introduction & Objectives</a></li>
+    <li><a href="#SS-1-2">Distributed Ledger Technology</a></li>
+    <li><a href="#SS-1-3">Bitcoin & Ethereum Blockchains</a></li>
+    <li><a href="#SS-1-4">Exploring Permissionless Blockchains</a></li>
+    <li><a href="#SS-1-5">Concensus Algorithms</a></i>
+    <li><a href="#SS-1-6">Hyperledger</a></i>
+    <li><a href="#SS-1-7">Other Open Source Permissioned Distributed Ledgers</a></i>
+    <li><a href="#SS-1-8">Challenges in the Adoption/Deployment of Distributed Ledger Technologies</a></i>
 </ol>
 2. <a href="#S-2">#Introduction to Hyperledger</a>
 <ol type="i">
-     i. <a href="#SS-2-1">Hyperledger</a>
-    ii. <a href="#SS-2-2">Q & A with Brian Behlendorf, Executive Director, Hyperledger</a>
+    <li><a href="#SS-1-1">Introduction & Objectives</a></li>
+    <li><a href="#SS-2-2">Q & A with Brian Behlendorf, Executive Director, Hyperledger</a>
+<a href="#SS-2-1">Hyperledger</a>
 </ol>
 3. <a href="#S-3">Hyperledger: Distributed Ledger Frameworks & Domain Specific Blockchains</a>
 <ol type="i">
-    i. 
+    <li><a href="#SS-3-1">Introduction & Objectives</a></li>
+    <li><a href="#SS-3-2">
+    <li><a href="#SS-3-3">
+    <li><a href="#SS-3-4">
+    <li><a href="#SS-3-5">
+    <li><a href="#SS-3-6">
 </ol>
 4. <a href="#S-4">Hyperledger Tools</a>
 5. <a href="#S-5">Hyperledger Libraries</a>

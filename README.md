@@ -14,25 +14,34 @@
     <li><a href="#SS-1-7">Other Open Source Permissioned Distributed Ledgers</a></i>
     <li><a href="#SS-1-8">Challenges in the Adoption/Deployment of Distributed Ledger Technologies</a></i>
 </ol>
-2. <a href="#S-2">#Introduction to Hyperledger</a>
+2. <a href="#S-2">Introduction to Hyperledger</a>
 <ol type="i">
-    <li><a href="#SS-1-1">Introduction & Objectives</a></li>
+    <li><a href="#SS-2-1">Hyperledger</a></li>
     <li><a href="#SS-2-2">Q & A with Brian Behlendorf, Executive Director, Hyperledger</a>
-<a href="#SS-2-1">Hyperledger</a>
 </ol>
 3. <a href="#S-3">Hyperledger: Distributed Ledger Frameworks & Domain Specific Blockchains</a>
 <ol type="i">
-    <li><a href="#SS-3-1">Introduction & Objectives</a></li>
-    <li><a href="#SS-3-2">
-    <li><a href="#SS-3-3">
-    <li><a href="#SS-3-4">
-    <li><a href="#SS-3-5">
-    <li><a href="#SS-3-6">
+    <li><a href="#SS-3-1">Hyperledger Frameworks</a></li>
+    <li><a href="#SS-3-2">Hyperledger: Domain-Specific Blockchain Technologies</a></li>
 </ol>
 4. <a href="#S-4">Hyperledger Tools</a>
+<ol type="i">
+    <li><a href="#SS-4-1">Hyperledger Tools</a></li>
+</ol>
 5. <a href="#S-5">Hyperledger Libraries</a>
+<ol type="i">
+    <li><a href="#SS-5-1">Hyperledger Libraries</a></li>
+</ol>
 6. <a href="#S-6">The Promise of Business Blockchain Technologies</a>
+<ol type="i">
+    <li><a href="#SS-6-1">Existing Hyperledger Blockchain Use Cases</a></li>
+    <li><a href="#SS-6-2">When to Use or Not to Use Blockchain Technologies</a></li>
+</ol>
 7. <a href="#S-7">What's Next?</a>
+<ol type="i">
+    <li><a href="#SS-7-1">What's Next?</a></li>
+</ol>
+
 &nbsp;
 &nbsp;
 ## <a id="S-1">Discovering Blockchain Technologies</a>

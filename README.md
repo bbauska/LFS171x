@@ -56,8 +56,15 @@ By the end of this chapter, you should be able to:
 ### <a name="SS-2-1">Hyperledger</a>
 ### <a name="SS-2-2">Q & A with Brian Behlendorf, Executive Director, Hyperledger</a>
 
+## <a name="S-3">Hyperledger: Distributed Ledger Frameworks and Domain Specific Blockchains</a>
 
-## <a name="S-3">Distributed Ledger Frameworks & Domain Specific Bockchain"></a>
+## <a name="S-4">Hyperledger Tools</a>
+
+## <a name="S-5">Hyperledger Libraries</a>
+
+## <a name="S-6">The Promise of Business Blockchain Technologies</a>
+
+## <a name="S-7">What's Next?</a>
 
 
 ## Another paragraph <a name="paragraph2"></a>

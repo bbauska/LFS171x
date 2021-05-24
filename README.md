@@ -1,7 +1,8 @@
 [readme.md]
 &nbsp;|&nbsp;
+# LFS101x - Introduction to Hyperledger Blockchain Technology
 <!------------------------------------------------------------------------->
-# Table of contents
+## Table of contents
 1. <a href="#S-1">Discovering Blockchain Technologies)</a>
     i. <a href="#SS-1-1">Introduction & Objectives</a>
 2. <a href="#S-2">#Introduction to Hyperledger</a>
@@ -11,7 +12,10 @@
     i. 
 4. <a href="#S-4">Hyperledger Tools</a>
 5. <a href="#S-5">Hyperledger Libraries</a>
-
+6. <a href="#S-6">The Promise of Business Blockchain Technologies</a>
+7. <a href="#S-7">What's Next?</a>
+&nbsp;
+&nbsp;
 ## <a id="S-1">Discovering Blockchain Technologies</a>
 By the end of this chapter, you should be able to:
 1. Explain the concepts of blockchain and distributed ledger technologies (DLT).

@@ -1,15 +1,21 @@
 [readme.md]
+&nbsp;|&nbsp;
 <!------------------------------------------------------------------------->
 # Table of contents
-1. [Section 1](#Discovering Blockchain Technologies)
-2. [Section 2](#Introduction to Hyperledger)
+1. [Section 1](<a href="S-1">#Discovering Blockchain Technologies)</a>
+2. [Section 2](<a href="S-2">#Introduction to Hyperledger)</a>
     1. [Sub section](#Section 2 - Hyperledger)
     2. [Sub-section](#Section 2 - Q & A with Brian Behlendorf, Executive Director, Hyperledger)
 3. [Section 3](#Hyperledger: Distributed Ledger Frameworks & Domain Specific Blockchains)
 4. [Section 4](#Hyperledger Tools)
 
-## This is Section 1 <a name="blockchain"></a>
-Some introduction text, formatted in heading 2 style
+## This is Section 1 <a name="S-1">Discovering Blockchain Technologies</a>
+By the end of this chapter, you should be able to:
+1. Explain the concepts of blockchain and distributed ledger technologies (DLT).
+2. Explore permissioned and permissionless blockchains and their key characteristics.
+3. Discuss various components of distributed ledger technologies, including consensus algorithms and smart contracts.
+4. Provide a high-level explanation of what Hyperledger is.
+
 
 ## Some section <a name="paragraph1"></a>
 The first paragraph text

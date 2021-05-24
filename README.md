@@ -1,11 +1,12 @@
 [readme.md]
 <!------------------------------------------------------------------------->
 # Table of contents
-1. [Section 1](#Section 1 - Hyperledger Blockchain Technology)
-2. [Section 2](#Section 2 - Blockchain)
-    1. [Sub section](#Section 2 - part A)
-    2. [Sub-section](#Section 2 - part B)
-3. [Section 3](#Section 3 - Blockchain)
+1. [Section 1](#Discovering Blockchain Technologies)
+2. [Section 2](#Introduction to Hyperledger)
+    1. [Sub section](#Section 2 - Hyperledger)
+    2. [Sub-section](#Section 2 - Q & A with Brian Behlendorf, Executive Director, Hyperledger)
+3. [Section 3](#Hyperledger: Distributed Ledger Frameworks & Domain Specific Blockchains)
+4. [Section 4](#Hyperledger Tools)
 
 ## This is Section 1 <a name="blockchain"></a>
 Some introduction text, formatted in heading 2 style

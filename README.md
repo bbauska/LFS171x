@@ -4,7 +4,7 @@
 <!------------------------------------------------------------------------->
 ## Table of contents
 1. <a href="#S-1">Discovering Blockchain Technologies</a>
-<ol type = "i">
+<ol type="i">
     <li><a href="#SS-1-1">Introduction & Objectives</a></li>
     <li><a href="#SS-1-2">Distributed Ledger Technology</a></li>
     <li><a href="#SS-1-3">Bitcoin & Ethereum Blockchains</a></li>
@@ -17,7 +17,7 @@
 2. <a href="#S-2">Introduction to Hyperledger</a>
 <ol type="i">
     <li><a href="#SS-2-1">Hyperledger</a></li>
-    <li><a href="#SS-2-2">Q & A with Brian Behlendorf, Executive Director, Hyperledger</a>
+    <li><a href="#SS-2-2">Q & A with Brian Behlendorf, Executive Director, Hyperledger</a></li>
 </ol>
 3. <a href="#S-3">Hyperledger: Distributed Ledger Frameworks & Domain Specific Blockchains</a>
 <ol type="i">

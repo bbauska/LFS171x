@@ -4,15 +4,15 @@
 # Table of contents
 1. (<a href="#S-1">Discovering Blockchain Technologies)</a>
     i. (<a href="#SS-1-1">Introduction & Objectives</a>
-3. [S-2](<a href="#S-2">#Introduction to Hyperledger)</a>
-     i. (<a href="#SS-2-1">Section 2 - Hyperledger)
+2. (<a href="#S-2">#Introduction to Hyperledger)</a>
+     i. (<a href="#SS-2-1">Hyperledger)
     ii. (<a href="#SS-2-2">Q & A with Brian Behlendorf, Executive Director, Hyperledger)</a>
-3. [S-3](<a href="#S-3">Hyperledger: Distributed Ledger Frameworks & Domain Specific Blockchains)</a>
+3. (<a href="#S-3">Hyperledger: Distributed Ledger Frameworks & Domain Specific Blockchains)</a>
     i.
-5. [S-4](<a href="#S-4">Hyperledger Tools)</a>
-6. [S-5](<a href="#S-5">Hyperledger Libraries)</a>
+4. (<a href="#S-4">Hyperledger Tools)</a>
+5. (<a href="#S-5">Hyperledger Libraries)</a>
 
-## This is Section 1 <a id="S-1">Discovering Blockchain Technologies</a>
+## <a id="S-1">Discovering Blockchain Technologies</a>
 By the end of this chapter, you should be able to:
 1. Explain the concepts of blockchain and distributed ledger technologies (DLT).
 2. Explore permissioned and permissionless blockchains and their key characteristics.
@@ -20,11 +20,13 @@ By the end of this chapter, you should be able to:
 4. Provide a high-level explanation of what Hyperledger is.
 
 
-## Some section <a name="S-2">Introduction to Hyperledger</a>
-The first paragraph text
+## <a name="S-2">Introduction to Hyperledger</a>
+### <a name="SS-2-1">Hyperledger</a>
+### <a name="SS-2-2">Q & A with Brian Behlendorf, Executive Director, Hyperledger</a>
 
-### Sub paragraph <a name="subsectionA"></a>
-This is a sub section, formatted in heading 3 style
+
+## <a name="S-3">Distributed Ledger Frameworks & Domain Specific Bockchain"></a>
+
 
 ## Another paragraph <a name="paragraph2"></a>
 The second paragraph text

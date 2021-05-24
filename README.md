@@ -44,27 +44,31 @@
 
 &nbsp;
 &nbsp;
-## <a id="S-1">Discovering Blockchain Technologies</a>
+## <a id="S-1">1. Discovering Blockchain Technologies</a>
 By the end of this chapter, you should be able to:
 1. Explain the concepts of blockchain and distributed ledger technologies (DLT).
 2. Explore permissioned and permissionless blockchains and their key characteristics.
 3. Discuss various components of distributed ledger technologies, including consensus algorithms and smart contracts.
 4. Provide a high-level explanation of what Hyperledger is.
 
+In summary, distributed ledger technology (DLT) generally consists of three basic components:
+1. A data model that captures the current state of the ledger.
+2. A language of transactions that changes the ledger state.
+3. A protocol used to build consensus among participants around which transactions will be accepted, and in what order, by the ledger.
 
-## <a name="S-2">Introduction to Hyperledger</a>
-### <a name="SS-2-1">Hyperledger</a>
-### <a name="SS-2-2">Q & A with Brian Behlendorf, Executive Director, Hyperledger</a>
+## <a id="S-2">2. Introduction to Hyperledger</a>
+### <a id="SS-2-1">Hyperledger</a>
+### <a id="SS-2-2">Q & A with Brian Behlendorf, Executive Director, Hyperledger</a>
 
-## <a name="S-3">Hyperledger: Distributed Ledger Frameworks and Domain Specific Blockchains</a>
+## <a id="S-3">3. Hyperledger: Distributed Ledger Frameworks and Domain Specific Blockchains</a>
 
-## <a name="S-4">Hyperledger Tools</a>
+## <a id="S-4">4. Hyperledger Tools</a>
 
-## <a name="S-5">Hyperledger Libraries</a>
+## <a id="S-5"5. >Hyperledger Libraries</a>
 
-## <a name="S-6">The Promise of Business Blockchain Technologies</a>
+## <a id="S-6">6. The Promise of Business Blockchain Technologies</a>
 
-## <a name="S-7">What's Next?</a>
+## <a id="S-7">7. What's Next?</a>
 
 
 ## Another paragraph <a name="paragraph2"></a>

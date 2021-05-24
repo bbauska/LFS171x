@@ -4,14 +4,18 @@
 <!------------------------------------------------------------------------->
 ## Table of contents
 1. <a href="#S-1">Discovering Blockchain Technologies)</a>
-<ol>
-    <li>i. <a href="#SS-1-1">Introduction & Objectives</a></li>
+<ol type = "i">
+    <li><a href="#SS-1-1">Introduction & Objectives</a></li>
 </ol>
 2. <a href="#S-2">#Introduction to Hyperledger</a>
+<ol type="i">
      i. <a href="#SS-2-1">Hyperledger</a>
     ii. <a href="#SS-2-2">Q & A with Brian Behlendorf, Executive Director, Hyperledger</a>
+</ol>
 3. <a href="#S-3">Hyperledger: Distributed Ledger Frameworks & Domain Specific Blockchains</a>
+<ol type="i">
     i. 
+</ol>
 4. <a href="#S-4">Hyperledger Tools</a>
 5. <a href="#S-5">Hyperledger Libraries</a>
 6. <a href="#S-6">The Promise of Business Blockchain Technologies</a>

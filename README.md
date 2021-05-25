@@ -1,6 +1,6 @@
 [readme.md]
 &nbsp;|&nbsp;
-# LFS101x - Introduction to Hyperledger Blockchain Technology
+# LFS171x - Introduction to Hyperledger Blockchain Technology
 <!------------------------------------------------------------------------->
 ## Table of contents
 <h3>1. <a href="#S-1">Discovering Blockchain Technologies</a></h3>

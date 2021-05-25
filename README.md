@@ -74,26 +74,32 @@ o	The timestamp
 o	The Merkle tree root for the transactions included in this block (Merkle tree is explained next).
 
 
-### <a id="S-1-3">1c. Exploring Permissionless Blockchains</a>
-### <a id="S-1-4">1d. Concensus Algorithms</a>
-### <a id="S-1-5">1e. Hyperledger</a>
-### <a id="S-1-6">1f. Other Open Source Permissioned Distributed Ledgers</a>
-### <a id="S-1-7">1g. Challenges in the Adoption/Deployment of Distributed Ledger Technologies</a>
+### <a id="SS-1-3">1c. Exploring Permissionless Blockchains</a>
+### <a id="SS-1-4">1d. Concensus Algorithms</a>
+### <a id="SS-1-5">1e. Hyperledger</a>
+### <a id="SS-1-6">1f. Other Open Source Permissioned Distributed Ledgers</a>
+### <a id="SS-1-7">1g. Challenges in the Adoption/Deployment of Distributed Ledger Technologies</a>
 
 ## <a id="S-2">2. Introduction to Hyperledger</a>
 ### <a id="SS-2-1">2a. Hyperledger</a>
 ### <a id="SS-2-2">2b. Q & A with Brian Behlendorf, Executive Director, Hyperledger</a>
 
 ## <a id="S-3">3. Hyperledger: Distributed Ledger Frameworks and Domain Specific Blockchains</a>
+### <a id="SS-3-1">3a. Hyperledger Framework</a>
+### <a id="SS-3-2">3b. Hyperledger: Domain-Specific Blockchain Technologies</a>
 
 ## <a id="S-4">4. Hyperledger Tools</a>
+### <a id="SS-4-1">4a. Hyperledger Tools</a>
 
 ## <a id="S-5">5. >Hyperledger Libraries</a>
+### <a id="SS-5-1">5a. Hyperledger Libraries</a>
 
 ## <a id="S-6">6. The Promise of Business Blockchain Technologies</a>
+### <a id="SS-6-1">6a. Existing Hyperledger Blockchain Use Cases</a>
+### <a id="SS-6-2">6b. When to Use or Not to Use Blockchain Technologies</a>
 
 ## <a id="S-7">7. What's Next?</a>
-
+### <a id="SS-7-1">7a. What's Next?</a>
 
 ## Another paragraph <a name="paragraph2"></a>
 The second paragraph text

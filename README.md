@@ -50,13 +50,13 @@ By the end of this chapter, you should be able to:
 3. Discuss various components of distributed ledger technologies, including consensus algorithms and smart contracts.
 4. Provide a high-level explanation of what Hyperledger is.
 
-### <a id="S-1-1">1a. Distributed Ledger Technology (DLT)</a>
+### <a id="SS-1-1">1a. Distributed Ledger Technology (DLT)</a>
 In summary, distributed ledger technology (DLT) generally consists of three basic components:
 1. A data model that captures the current state of the ledger.
 2. A language of transactions that changes the ledger state.
 3. A protocol used to build consensus among participants around which transactions will be accepted, and in what order, by the ledger.
 
-### <a id="S-1-2">1b. Bitcoin and Ethereum Blockchain</a>
+### <a id="SS-1-2">1b. Bitcoin and Ethereum Blockchain</a>
 According to hyperledger.org,
 <blockquote>
 "A blockchain is a peer-to-peer distributed ledger forged by consensus, combined with a system for "smart contracts" and other assistive technologies. Together these can be used to build a new generation of transactional applications that establishes trust, accountability, and transparency at their core, while streamlining business processes and legal constraints."

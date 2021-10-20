@@ -174,11 +174,75 @@ div.WordSection1
 ul
 	{margin-bottom:0in;}
 -->
+#toc_container {
+    background: #f9f9f9 none repeat scroll 0 0;
+    border: 1px solid #aaa;
+    display: table;
+    font-size: 95%;
+    margin-bottom: 1em;
+    padding: 20px;
+    width: auto;
+}
+
+.toc_title {
+    font-weight: 700;
+    text-align: center;
+}
+
+#toc_container li, #toc_container ul, #toc_container ul li{
+    list-style: outside none none !important;
+}
 </style>
 
 </head>
 
 <body lang=EN-US link=blue vlink="#954F72" style='word-wrap:break-word'>
+<!--- ------------------------------------------------------ -->
+<!------------------------- Contents -------------------------->
+<div id="toc_container">
+<p class="toc_title">Table of Contents</p>
+<ul class="toc_list">
+  <li><a href="#First_Point_Header">1. Intro to Hyperledger Blockchain Technology</a>
+  <ul>
+    <li><a href="#First_Sub_Point_1">a. Intro and Learning Objectives</a></li>
+    <li><a href="#First_Sub_Point_2">b. Distributed Ledger Technology</a></li>
+    <li><a href="#First_Sub_Point_2">c. Bitcoin & Ethereum Blockchains</a></li>
+    <li><a href="#First_Sub_Point_2">d. Exploring Permissionless Blockchains</a></li>
+    <li><a href="#First_Sub_Point_2">e. Consensus Algorithms</a></li>
+    <li><a href="#First_Sub_Point_2">f. Hyperledger</a></li>
+    <li><a href="#First_Sub_Point_2">g. Other Open Source Permissioned Distributed Ledgers</a></li>
+  </ul>
+</li>
+<li><a href="#2nd_Point_Header">2. Introduction to Hyperledger</a></li>
+  <ul>
+    <li><a href="#2nd_Sub_Point_1">a. Intro and Learning Objectives</a></li>
+    <li><a href="#2nd_Sub_Point_2">b. Hyperledger</a></li>
+    <li><a href="#2nd_Sub_Point_3">c. Q/A with Brian Behlendorf, Executive Director of Hyperledger</a></li>
+    </ul>
+<li><a href="#3rd_Point_Header">3. Hyperledger: Distr. Ledger Frameworks & Domain Specific Blockchains</a></li>
+  <ul>
+    <li><a href="#3rd_Sub_Point_1">a. Intro and Learning Objectives</a></li>
+    <li><a href="#3rd_Sub_Point_2">b. Hyperledger Frameworks</a></li>
+    <li><a href="#3rd_Sub_Point_3">c. Hyperledger: Domain-Specific Blockchain Technologies</a></li>
+</ul>
+<li><a href="#4th_Point_Header">4. Hyperledger: Distr. Ledger Frameworks & Domain Specific Blockchains</a></li>
+  <ul>
+    <li><a href="#4th_Sub_Point_1">a. Intro and Learning Objectives</a></li>
+    <li><a href="#4th_Sub_Point_2">b. Hyperledger Tools</a></li>
+</ul>
+<li><a href="#5th_Point_Header">5. Hyperledger Libraries</a></li>
+  <ul>
+    <li><a href="#5th_Sub_Point_1">a. Intro and Learning Objectives</a></li>
+    <li><a href="#5th_Sub_Point_2">b. Hyperledger Libraries</a></li>
+</ul>
+<li><a href="#6th_Point_Header">6. The Promise of Business Blockchain Technologies</a></li>
+  <ul>
+    <li><a href="#6th_Sub_Point_1">a. Intro and Learning Objectives</a></li>
+    <li><a href="#6th_Sub_Point_2">b. Existing Hyperledger Blockchain Use Cases</a></li>
+    <li><a href="#6th_Sub_Point_3">c. When to Use or Not to Use Blockchain Technologies</a></li>
+</ul>
+</div>
+<! ----------------------------------------------------------------------->
 
 <div class=WordSection1>
 
@@ -540,21 +604,21 @@ you should be able to:</span></p>
 
 <p class=MsoNormal style='margin-top:6.0pt;margin-right:0in;margin-bottom:6.0pt;
 margin-left:.5in;text-indent:-.25in;line-height:16.8pt;background:white'><span
-style='font-size:10.0pt;font-family:Wingdings;color:black'>§<span
+style='font-size:10.0pt;font-family:Wingdings;color:black'>Â§<span
 style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span
 style='font-size:10.0pt;font-family:"Inter",sans-serif;color:black'>Explain the
 concepts of blockchain and distributed ledger technologies (DLT).</span></p>
 
 <p class=MsoNormal style='margin-top:6.0pt;margin-right:0in;margin-bottom:6.0pt;
 margin-left:.5in;text-indent:-.25in;line-height:16.8pt;background:white'><span
-style='font-size:10.0pt;font-family:Wingdings;color:black'>§<span
+style='font-size:10.0pt;font-family:Wingdings;color:black'>Â§<span
 style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span
 style='font-size:10.0pt;font-family:"Inter",sans-serif;color:black'>Explore
 permissioned and permissionless blockchains and their key characteristics.</span></p>
 
 <p class=MsoNormal style='margin-top:6.0pt;margin-right:0in;margin-bottom:6.0pt;
 margin-left:.5in;text-indent:-.25in;line-height:16.8pt;background:white'><span
-style='font-size:10.0pt;font-family:Wingdings;color:black'>§<span
+style='font-size:10.0pt;font-family:Wingdings;color:black'>Â§<span
 style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span
 style='font-size:10.0pt;font-family:"Inter",sans-serif;color:black'>Discuss
 various components of distributed ledger technologies, including consensus
@@ -562,7 +626,7 @@ algorithms and smart contracts.</span></p>
 
 <p class=MsoNormal style='margin-top:6.0pt;margin-right:0in;margin-bottom:6.0pt;
 margin-left:.5in;text-indent:-.25in;line-height:16.8pt;background:white'><span
-style='font-size:10.0pt;font-family:Wingdings;color:black'>§<span
+style='font-size:10.0pt;font-family:Wingdings;color:black'>Â§<span
 style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span
 style='font-size:10.0pt;font-family:"Inter",sans-serif;color:black'>Provide a
 high-level explanation of what Hyperledger is.</span></p>
@@ -659,21 +723,21 @@ ledger technology generally consists of three basic components:</span></p>
 
 <p class=MsoNormal style='margin-top:6.0pt;margin-right:0in;margin-bottom:6.0pt;
 margin-left:.5in;text-indent:-.25in;line-height:16.8pt;background:white'><span
-style='font-size:10.0pt;font-family:Wingdings;color:black'>§<span
+style='font-size:10.0pt;font-family:Wingdings;color:black'>Â§<span
 style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span
 style='font-size:10.0pt;font-family:"Inter",sans-serif;color:black'>A data
 model that captures the current state of the ledger</span></p>
 
 <p class=MsoNormal style='margin-top:6.0pt;margin-right:0in;margin-bottom:6.0pt;
 margin-left:.5in;text-indent:-.25in;line-height:16.8pt;background:white'><span
-style='font-size:10.0pt;font-family:Wingdings;color:black'>§<span
+style='font-size:10.0pt;font-family:Wingdings;color:black'>Â§<span
 style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span
 style='font-size:10.0pt;font-family:"Inter",sans-serif;color:black'>A language
 of transactions that changes the ledger state</span></p>
 
 <p class=MsoNormal style='margin-top:6.0pt;margin-right:0in;margin-bottom:6.0pt;
 margin-left:.5in;text-indent:-.25in;line-height:16.8pt;background:white'><span
-style='font-size:10.0pt;font-family:Wingdings;color:black'>§<span
+style='font-size:10.0pt;font-family:Wingdings;color:black'>Â§<span
 style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span
 style='font-size:10.0pt;font-family:"Inter",sans-serif;color:black'>A protocol
 used to build consensus among participants around which transactions will be
@@ -871,7 +935,7 @@ possibilities for solving problems that have plagued us for many years.</span></
 <p class=MsoNormal style='margin-top:6.0pt;margin-right:0in;margin-bottom:6.0pt;
 margin-left:0in;line-height:normal'><span style='font-size:10.0pt;font-family:
 "Inter",sans-serif'>It breaks down to being able to create distributed
-consensus between mutually  distrustful parties, in many ways.</span></p>
+consensus between mutuallyÂ  distrustful parties, in many ways.</span></p>
 
 <p class=MsoNormal style='margin-top:6.0pt;margin-right:0in;margin-bottom:6.0pt;
 margin-left:0in;line-height:normal'><span style='font-size:10.0pt;font-family:
@@ -912,7 +976,7 @@ based around...</span></p>
 <p class=MsoNormal style='margin-top:6.0pt;margin-right:0in;margin-bottom:6.0pt;
 margin-left:0in;line-height:normal'><span style='font-size:10.0pt;font-family:
 "Inter",sans-serif'>If we knew exactly where every bolt was, could we make sure
-that there are always  bolts at the place where they're going to be installed
+that there are alwaysÂ  bolts at the place where they're going to be installed
 two minutes before they are needed... things like that...</span></p>
 
 <p class=MsoNormal style='margin-top:6.0pt;margin-right:0in;margin-bottom:6.0pt;
@@ -1015,7 +1079,7 @@ ledgers are supposed to be distributed...</span></p>
 margin-left:0in;line-height:normal'><span style='font-size:10.0pt;font-family:
 "Inter",sans-serif'>they still are, they're distributed in the sense that the
 blockchain itself is replicated amongst all of the nodes, and so, your data is
-much more resilient to disruption...  resilient against disruption.</span></p>
+much more resilient to disruption...Â  resilient against disruption.</span></p>
 
 <p class=MsoNormal style='margin-top:6.0pt;margin-right:0in;margin-bottom:6.0pt;
 margin-left:0in;line-height:normal'><span style='font-size:10.0pt;font-family:
@@ -1048,7 +1112,7 @@ disconnected at random.</span></p>
 <p class=MsoNormal style='margin-top:6.0pt;margin-right:0in;margin-bottom:6.0pt;
 margin-left:0in;line-height:normal'><span style='font-size:10.0pt;font-family:
 "Inter",sans-serif'>So, their structure is more of a layered network, where the
-end clients' mobile  phones submit transactions to servers, which then, amongst
+end clients' mobileÂ  phones submit transactions to servers, which then, amongst
 the servers, do the distributed ledger.</span></p>
 
 <p class=MsoNormal style='margin-top:6.0pt;margin-right:0in;margin-bottom:6.0pt;
@@ -1484,7 +1548,7 @@ margin-left:0in;line-height:normal'><span style='font-size:10.0pt;font-family:
 
 <h2 style='margin-top:6.0pt;margin-right:0in;margin-bottom:6.0pt;margin-left:
 0in;background:white'><b><u><span style='font-size:13.5pt;line-height:107%;
-font-family:"Inter",sans-serif;color:black'>Bitcoin – A Popular Blockchain
+font-family:"Inter",sans-serif;color:black'>Bitcoin â€“ A Popular Blockchain
 Deployment</span></u></b></h2>
 
 <p class=MsoNormal style='margin-top:6.0pt;margin-right:0in;margin-bottom:6.0pt;
@@ -1673,14 +1737,14 @@ that:</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:6.0pt;
 margin-left:.5in;text-indent:-.25in;line-height:16.8pt;background:white'><span
-style='font-size:10.0pt;font-family:Wingdings;color:black'>§<span
+style='font-size:10.0pt;font-family:Wingdings;color:black'>Â§<span
 style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span
 style='font-size:10.0pt;font-family:"Inter",sans-serif;color:black'>The
 malicious actors cannot take over the network through an escalated attack.</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:6.0pt;
 margin-left:.5in;text-indent:-.25in;line-height:16.8pt;background:white'><span
-style='font-size:10.0pt;font-family:Wingdings;color:black'>§<span
+style='font-size:10.0pt;font-family:Wingdings;color:black'>Â§<span
 style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span
 style='font-size:10.0pt;font-family:"Inter",sans-serif;color:black'>The
 malicious actors cannot collude to undertake an organized majority attack on
@@ -1688,7 +1752,7 @@ the network.</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:6.0pt;
 margin-left:.5in;text-indent:-.25in;line-height:16.8pt;background:white'><span
-style='font-size:10.0pt;font-family:Wingdings;color:black'>§<span
+style='font-size:10.0pt;font-family:Wingdings;color:black'>Â§<span
 style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span
 style='font-size:10.0pt;font-family:"Inter",sans-serif;color:black'>The payoffs
 of securing the network are consistently higher than the cost of attacking the
@@ -1696,7 +1760,7 @@ network.</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:6.0pt;
 margin-left:.5in;text-indent:-.25in;line-height:16.8pt;background:white'><span
-style='font-size:10.0pt;font-family:Wingdings;color:black'>§<span
+style='font-size:10.0pt;font-family:Wingdings;color:black'>Â§<span
 style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span
 style='font-size:10.0pt;font-family:"Inter",sans-serif;color:black'>The cost of
 attacking the network is prohibitively high.</span></p>
@@ -1707,7 +1771,7 @@ color:black'>You can find more about Cryptoeceonomics&nbsp;read&nbsp;&quot;</spa
 style='color:black'><a
 href="https://medium.com/cryptoeconomics-australia/the-blockchain-economy-a-beginners-guide-to-institutional-cryptoeconomics-64bf2f2beec4"
 target="_blank"><i><span style='font-size:10.0pt;font-family:"inherit",serif;
-color:black'>The Blockchain Economy: A Beginner’s Guide to Institutional
+color:black'>The Blockchain Economy: A Beginnerâ€™s Guide to Institutional
 Cryptoeconomics</span></i></a></span><span style='font-size:10.0pt;font-family:
 "Inter",sans-serif;color:black'>&quot;.</span></p>
 
@@ -1715,7 +1779,7 @@ Cryptoeconomics</span></i></a></span><span style='font-size:10.0pt;font-family:
 style='font-size:10.0pt;font-family:"Inter",sans-serif'>&nbsp;</span></p>
 
 <h2 style='margin-top:0in;background:white'><b><u><span style='font-size:13.5pt;
-line-height:107%;font-family:"Inter",sans-serif;color:black'>Ethereum – An
+line-height:107%;font-family:"Inter",sans-serif;color:black'>Ethereum â€“ An
 Alternative to Bitcoin</span></u></b></h2>
 
 <p class=MsoNormal style='margin-bottom:6.0pt;line-height:normal'><span
@@ -1801,7 +1865,7 @@ a public blockchain. It also groups and orders transactions into blocks.</span><
 
 <p class=MsoNormal style='margin-bottom:6.0pt;line-height:normal'><span
 style='font-size:10.0pt;font-family:"Inter",sans-serif'>However, Ethereum may
-be defined as an open source platform that enables  developers to build and
+be defined as an open source platform that enablesÂ  developers to build and
 deploy both smart contracts and decentralized applications, also known as Dapps.</span></p>
 
 <p class=MsoNormal style='margin-bottom:6.0pt;line-height:normal'><span
@@ -1845,7 +1909,7 @@ color:black'>&nbsp;built on the Ethereum platform include:</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:6.0pt;
 margin-left:.5in;text-indent:-.25in;line-height:16.8pt;background:white'><span
-style='font-size:10.0pt;font-family:Wingdings;color:black'>§<span
+style='font-size:10.0pt;font-family:Wingdings;color:black'>Â§<span
 style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span
 style='color:black'><a href="https://augur.net/" target="_blank"><span
 style='font-size:10.0pt;font-family:"inherit",serif;color:black'>Augur</span></a></span><span
@@ -1854,7 +1918,7 @@ a Decentralized Prediction Market</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:6.0pt;
 margin-left:.5in;text-indent:-.25in;line-height:16.8pt;background:white'><span
-style='font-size:10.0pt;font-family:Wingdings;color:black'>§<span
+style='font-size:10.0pt;font-family:Wingdings;color:black'>Â§<span
 style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span
 style='color:black'><a href="https://digix.global/" target="_blank"><span
 style='font-size:10.0pt;font-family:"inherit",serif;color:black'>Digix</span></a></span><span
@@ -1863,7 +1927,7 @@ tokenizes gold on Ethereum</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:6.0pt;
 margin-left:.5in;text-indent:-.25in;line-height:16.8pt;background:white'><span
-style='font-size:10.0pt;font-family:Wingdings;color:black'>§<span
+style='font-size:10.0pt;font-family:Wingdings;color:black'>Â§<span
 style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span
 style='color:black'><a href="https://makerdao.com/" target="_blank"><span
 style='font-size:10.0pt;font-family:"inherit",serif;color:black'>Maker</span></a></span><span
@@ -2012,7 +2076,7 @@ the genesis block of the Bitcoin blockchain.</span></p>
 
 <p class=MsoNormal style='margin-bottom:6.0pt;line-height:normal'><span
 style='font-size:10.0pt;font-family:"Inter",sans-serif;color:black'>Now, moving
-on to the Ethereum  blockchain, we'll look at another blockchain explorer.</span></p>
+on to the EthereumÂ  blockchain, we'll look at another blockchain explorer.</span></p>
 
 <p class=MsoNormal style='margin-bottom:6.0pt;line-height:normal'><span
 style='font-size:10.0pt;font-family:"Inter",sans-serif;color:black'>And this
@@ -2478,7 +2542,7 @@ look at some of the current Hyperledger projects in the coming chapters.&nbsp;</
 <p align=center style='margin-top:0in;margin-right:0in;margin-bottom:6.0pt;
 margin-left:0in;text-align:center;background:white'><em><span style='font-size:
 10.0pt;font-family:"Inter",sans-serif;color:black'>&quot;One of the first
-things people learn when coming to Hyperledger is that Hyperledger isn’t, like
+things people learn when coming to Hyperledger is that Hyperledger isnâ€™t, like
 its name may imply, a ledger. It is a collection of blockchain technology
 projects.&quot;</span></em></p>
 
@@ -2505,7 +2569,7 @@ style='font-size:10.0pt;font-family:"Inter",sans-serif'>&nbsp;</span></p>
 style='font-size:10.0pt;font-family:"Inter",sans-serif;color:black;background:
 white'>Hyperledger blockchains are generally permissioned blockchains, which
 means that the parties that join the network are authenticated and authorized
-to participate on the network. Hyperledger’s main goal is to create enterprise
+to participate on the network. Hyperledgerâ€™s main goal is to create enterprise
 grade, open source, distributed ledger frameworks and code bases to support
 business use cases.</span></p>
 
@@ -2851,42 +2915,42 @@ distributed ledger technologies are:</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:6.0pt;
 margin-left:.5in;text-indent:-.25in;line-height:16.8pt;background:white'><span
-style='font-size:10.0pt;font-family:Wingdings;color:black'>§<span
+style='font-size:10.0pt;font-family:Wingdings;color:black'>Â§<span
 style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span
 style='font-size:10.0pt;font-family:"Inter",sans-serif;color:black'>Resistance
 to change</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:6.0pt;
 margin-left:.5in;text-indent:-.25in;line-height:16.8pt;background:white'><span
-style='font-size:10.0pt;font-family:Wingdings;color:black'>§<span
+style='font-size:10.0pt;font-family:Wingdings;color:black'>Â§<span
 style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span
 style='font-size:10.0pt;font-family:"Inter",sans-serif;color:black'>Scalability
 concerns</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:6.0pt;
 margin-left:.5in;text-indent:-.25in;line-height:16.8pt;background:white'><span
-style='font-size:10.0pt;font-family:Wingdings;color:black'>§<span
+style='font-size:10.0pt;font-family:Wingdings;color:black'>Â§<span
 style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span
 style='font-size:10.0pt;font-family:"Inter",sans-serif;color:black'>Interoperability
 and integration with legacy systems</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:6.0pt;
 margin-left:.5in;text-indent:-.25in;line-height:16.8pt;background:white'><span
-style='font-size:10.0pt;font-family:Wingdings;color:black'>§<span
+style='font-size:10.0pt;font-family:Wingdings;color:black'>Â§<span
 style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span
 style='font-size:10.0pt;font-family:"Inter",sans-serif;color:black'>Unproven
 business case</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:6.0pt;
 margin-left:.5in;text-indent:-.25in;line-height:16.8pt;background:white'><span
-style='font-size:10.0pt;font-family:Wingdings;color:black'>§<span
+style='font-size:10.0pt;font-family:Wingdings;color:black'>Â§<span
 style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span
 style='font-size:10.0pt;font-family:"Inter",sans-serif;color:black'>Lack of
 capital to fund new investments</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:6.0pt;
 margin-left:.5in;text-indent:-.25in;line-height:16.8pt;background:white'><span
-style='font-size:10.0pt;font-family:Wingdings;color:black'>§<span
+style='font-size:10.0pt;font-family:Wingdings;color:black'>Â§<span
 style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span
 style='font-size:10.0pt;font-family:"Inter",sans-serif;color:black'>System
 complexity and costs.</span></p>
@@ -3057,14 +3121,14 @@ the end of this chapter, you should be able to:</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:6.0pt;
 margin-left:.5in;text-indent:-.25in;line-height:16.8pt;background:white'><span
-style='font-size:10.0pt;font-family:Wingdings;color:black'>§<span
+style='font-size:10.0pt;font-family:Wingdings;color:black'>Â§<span
 style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span
 style='font-size:10.0pt;font-family:"Inter",sans-serif;color:black'>Explain the
 differences between Hyperledger and permissionless blockchain technologies.</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:6.0pt;
 margin-left:.5in;text-indent:-.25in;line-height:16.8pt;background:white'><span
-style='font-size:10.0pt;font-family:Wingdings;color:black'>§<span
+style='font-size:10.0pt;font-family:Wingdings;color:black'>Â§<span
 style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span
 style='font-size:10.0pt;font-family:"Inter",sans-serif;color:black'>Discuss how
 Hyperledger leverages open standards and open governance to support business
@@ -3072,14 +3136,14 @@ solutions.</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:6.0pt;
 margin-left:.5in;text-indent:-.25in;line-height:16.8pt;background:white'><span
-style='font-size:10.0pt;font-family:Wingdings;color:black'>§<span
+style='font-size:10.0pt;font-family:Wingdings;color:black'>Â§<span
 style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span
 style='font-size:10.0pt;font-family:"Inter",sans-serif;color:black'>Define what
 a project is according to the Hyperledger documentation.</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:6.0pt;
 margin-left:.5in;text-indent:-.25in;line-height:16.8pt;background:white'><span
-style='font-size:10.0pt;font-family:Wingdings;color:black'>§<span
+style='font-size:10.0pt;font-family:Wingdings;color:black'>Â§<span
 style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span
 style='font-size:10.0pt;font-family:"Inter",sans-serif;color:black'>Discuss the
 project lifecycle process adopted by Hyperledger, and the five possible states.</span></p>
@@ -3510,14 +3574,14 @@ compatible.&quot;</span></em></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:6.0pt;
 margin-left:.5in;text-indent:-.25in;line-height:16.8pt;background:white'><span
-style='font-size:10.0pt;font-family:Wingdings;color:black'>§<span
+style='font-size:10.0pt;font-family:Wingdings;color:black'>Â§<span
 style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span
 style='font-size:10.0pt;font-family:"Inter",sans-serif;color:black'>EEA&nbsp;promotes&nbsp;the
 development of specifications and standards for enterprise blockchain networks</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:6.0pt;
 margin-left:.5in;text-indent:-.25in;line-height:16.8pt;background:white'><span
-style='font-size:10.0pt;font-family:Wingdings;color:black'>§<span
+style='font-size:10.0pt;font-family:Wingdings;color:black'>Â§<span
 style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span
 style='font-size:10.0pt;font-family:"Inter",sans-serif;color:black'>Hyperledger
 advances the development of open source software for establishing, managing and
@@ -3531,7 +3595,7 @@ collaboration:</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:6.0pt;
 margin-left:.5in;text-indent:-.25in;line-height:16.8pt;background:white'><span
-style='font-size:10.0pt;font-family:Wingdings;color:black'>§<span
+style='font-size:10.0pt;font-family:Wingdings;color:black'>Â§<span
 style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span
 style='font-size:10.0pt;font-family:"Inter",sans-serif;color:black'>&nbsp;Hyperledger
 Burrow is an implementation of the Ethereum Virtual Machine (EVM) bytecode
@@ -3539,21 +3603,21 @@ interpreter</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:6.0pt;
 margin-left:.5in;text-indent:-.25in;line-height:16.8pt;background:white'><span
-style='font-size:10.0pt;font-family:Wingdings;color:black'>§<span
+style='font-size:10.0pt;font-family:Wingdings;color:black'>Â§<span
 style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span
 style='font-size:10.0pt;font-family:"Inter",sans-serif;color:black'>Hyperledger
 Sawtooth support for the EVM as a transaction processor (Seth)</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:6.0pt;
 margin-left:.5in;text-indent:-.25in;line-height:16.8pt;background:white'><span
-style='font-size:10.0pt;font-family:Wingdings;color:black'>§<span
+style='font-size:10.0pt;font-family:Wingdings;color:black'>Â§<span
 style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span
 style='font-size:10.0pt;font-family:"Inter",sans-serif;color:black'>Hyperledger
 Fabric support for the EVM</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:6.0pt;
 margin-left:.5in;text-indent:-.25in;line-height:16.8pt;background:white'><span
-style='font-size:10.0pt;font-family:Wingdings;color:black'>§<span
+style='font-size:10.0pt;font-family:Wingdings;color:black'>Â§<span
 style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span
 style='font-size:10.0pt;font-family:"Inter",sans-serif;color:black'>The
 existence of an EEA working group on Trusted Execution Environments, along with
@@ -3891,7 +3955,7 @@ databases and big central services, right?</span></p>
 
 <p class=MsoNormal style='margin-bottom:6.0pt;line-height:normal'><span
 style='font-size:10.0pt;font-family:"Inter",sans-serif'>Think about the move to
-the cloud. The move to the cloud wasn't a move to, you  know, a really
+the cloud. The move to the cloud wasn't a move to, youÂ  know, a really
 dispersed, diffused, decentralized kind of system.</span></p>
 
 <p class=MsoNormal style='margin-bottom:6.0pt;line-height:normal'><span
@@ -4244,7 +4308,7 @@ project lifecycle process that has&nbsp;six possible states:</span></p>
 
 <p class=MsoNormal style='margin-bottom:8.5pt;margin-left:.5in;text-indent:
 -.25in;line-height:16.8pt;background:white'><span style='font-size:10.0pt;
-font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><b><span
+font-family:Wingdings'>Â§<span style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><b><span
 style='font-size:10.0pt;font-family:"Inter",sans-serif;color:black'>Proposal</span></b><span
 style='font-size:10.0pt;font-family:"Inter",sans-serif;color:black'>&nbsp;<br>
 If an open source initiative wants to be hosted under the Hyperledger
@@ -4255,7 +4319,7 @@ maintainers, and must be vendor neutral.&nbsp;</span></p>
 
 <p class=MsoNormal style='margin-bottom:8.5pt;margin-left:.5in;text-indent:
 -.25in;line-height:16.8pt;background:white'><span style='font-size:10.0pt;
-font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><b><span
+font-family:Wingdings'>Â§<span style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><b><span
 style='font-size:10.0pt;font-family:"Inter",sans-serif;color:black'>Incubation</span></b><span
 style='font-size:10.0pt;font-family:"Inter",sans-serif;color:black'><br>
 Once a project proposal is approved, it enters the Incubation phase, and the
@@ -4271,7 +4335,7 @@ to&nbsp;<i>Active</i>&nbsp;state.</span></p>
 
 <p class=MsoNormal style='margin-bottom:8.5pt;margin-left:.5in;text-indent:
 -.25in;line-height:16.8pt;background:white'><span style='font-size:10.0pt;
-font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><b><span
+font-family:Wingdings'>Â§<span style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><b><span
 style='font-size:10.0pt;font-family:"Inter",sans-serif;color:black'>Active</span></b><span
 style='font-size:10.0pt;font-family:"Inter",sans-serif;color:black'><br>
 Projects that successfully exit the Incubation phase are considered&nbsp;<i>Active</i>.
@@ -4279,7 +4343,7 @@ If reasons exist, an Active project can be deprecated.</span></p>
 
 <p class=MsoNormal style='margin-bottom:8.5pt;margin-left:.5in;text-indent:
 -.25in;line-height:16.8pt;background:white'><span style='font-size:10.0pt;
-font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><b><span
+font-family:Wingdings'>Â§<span style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><b><span
 style='font-size:10.0pt;font-family:"Inter",sans-serif;color:black'>First Major
 Release</span></b><span style='font-size:10.0pt;font-family:"Inter",sans-serif;
 color:black'><br>
@@ -4288,7 +4352,7 @@ major release, they will have to obtain approval from the TSC.&nbsp;</span></p>
 
 <p class=MsoNormal style='margin-bottom:8.5pt;margin-left:.5in;text-indent:
 -.25in;line-height:16.8pt;background:white'><span style='font-size:10.0pt;
-font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><b><span
+font-family:Wingdings'>Â§<span style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><b><span
 style='font-size:10.0pt;font-family:"Inter",sans-serif;color:black'>Deprecated</span></b><span
 style='font-size:10.0pt;font-family:"Inter",sans-serif;color:black'><br>
 All deprecated projects are maintained for a six month period by their
@@ -4298,7 +4362,7 @@ deprecation period, projects are labeled&nbsp;<i>End of Life</i>.</span></p>
 
 <p class=MsoNormal style='margin-bottom:8.5pt;margin-left:.5in;text-indent:
 -.25in;line-height:16.8pt;background:white'><span style='font-size:10.0pt;
-font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><b><span
+font-family:Wingdings'>Â§<span style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><b><span
 style='font-size:10.0pt;font-family:"Inter",sans-serif;color:black'>End of Life<br>
 </span></b><span style='font-size:10.0pt;font-family:"Inter",sans-serif;
 color:black'>These are projects that are no longer developed or maintained.</span></p>
@@ -4310,19 +4374,19 @@ projects wanting to join are evaluated on a number of things:</span></p>
 
 <p class=MsoNormal style='margin-bottom:8.5pt;margin-left:.5in;text-indent:
 -.25in;line-height:16.8pt;background:white'><span style='font-size:10.0pt;
-font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span
+font-family:Wingdings'>Â§<span style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span
 style='font-size:10.0pt;font-family:"Inter",sans-serif;color:black'>How do they
 fit with the portfolio of other projects</span></p>
 
 <p class=MsoNormal style='margin-bottom:8.5pt;margin-left:.5in;text-indent:
 -.25in;line-height:16.8pt;background:white'><span style='font-size:10.0pt;
-font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span
+font-family:Wingdings'>Â§<span style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span
 style='font-size:10.0pt;font-family:"Inter",sans-serif;color:black'>How mature
 are they, to understand where they're going</span></p>
 
 <p class=MsoNormal style='margin-bottom:8.5pt;margin-left:.5in;text-indent:
 -.25in;line-height:16.8pt;background:white'><span style='font-size:10.0pt;
-font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span
+font-family:Wingdings'>Â§<span style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span
 style='font-size:10.0pt;font-family:"Inter",sans-serif;color:black'>Who are the
 developers around the projects, etc.</span></p>
 
@@ -4343,31 +4407,31 @@ of June 2019):</span></p>
 
 <p class=MsoNormal style='margin-bottom:8.5pt;margin-left:.5in;text-indent:
 -.25in;line-height:16.8pt;background:white'><span style='font-size:10.0pt;
-font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span
+font-family:Wingdings'>Â§<span style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span
 style='font-size:10.0pt;font-family:"Inter",sans-serif;color:black'>Hyperledger
 Fabric (March 2017)</span></p>
 
 <p class=MsoNormal style='margin-bottom:8.5pt;margin-left:.5in;text-indent:
 -.25in;line-height:16.8pt;background:white'><span style='font-size:10.0pt;
-font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span
+font-family:Wingdings'>Â§<span style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span
 style='font-size:10.0pt;font-family:"Inter",sans-serif;color:black'>Hyperledger
 Sawtooth (May 2017)</span></p>
 
 <p class=MsoNormal style='margin-bottom:8.5pt;margin-left:.5in;text-indent:
 -.25in;line-height:16.8pt;background:white'><span style='font-size:10.0pt;
-font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span
+font-family:Wingdings'>Â§<span style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span
 style='font-size:10.0pt;font-family:"Inter",sans-serif;color:black'>Hyperledger
 Iroha (May 2018)</span></p>
 
 <p class=MsoNormal style='margin-bottom:8.5pt;margin-left:.5in;text-indent:
 -.25in;line-height:16.8pt;background:white'><span style='font-size:10.0pt;
-font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span
+font-family:Wingdings'>Â§<span style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span
 style='font-size:10.0pt;font-family:"Inter",sans-serif;color:black'>Hyperledger
 Indy (March 2019)</span></p>
 
 <p class=MsoNormal style='margin-bottom:8.5pt;margin-left:.5in;text-indent:
 -.25in;line-height:16.8pt;background:white'><span style='font-size:10.0pt;
-font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span
+font-family:Wingdings'>Â§<span style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span
 style='font-size:10.0pt;font-family:"Inter",sans-serif;color:black'>Hyperledger
 Besu (March 2020).</span></p>
 
@@ -4445,7 +4509,7 @@ style='font-size:10.0pt;font-family:"Inter",sans-serif'>&nbsp;</span></p>
 
 <p class=MsoNormal style='margin-bottom:6.0pt;line-height:normal'><span
 style='font-size:10.0pt;font-family:"Inter",sans-serif'>So, many of the
-students taking this course are more familiar with working  with Devs within
+students taking this course are more familiar with workingÂ  with Devs within
 the same room.</span></p>
 
 <p class=MsoNormal style='margin-bottom:6.0pt;line-height:normal'><span
@@ -4575,7 +4639,7 @@ and differences between Hyperledger and Apache in its evolution as an open
 source project?</span></p>
 
 <p class=MsoNormal style='margin-bottom:6.0pt;line-height:normal'><span
-style='font-size:10.0pt;font-family:"Inter",sans-serif'>Right...  Well, on the
+style='font-size:10.0pt;font-family:"Inter",sans-serif'>Right...Â  Well, on the
 Apache web server project, which later became the Apache Software Foundation,</span></p>
 
 <p class=MsoNormal style='margin-bottom:6.0pt;line-height:normal'><span
@@ -4743,7 +4807,7 @@ style='font-size:10.0pt;font-family:"Inter",sans-serif'>&nbsp;</span></p>
 
 <p class=MsoNormal style='margin-bottom:6.0pt;line-height:normal'><span
 style='font-size:10.0pt;font-family:"Inter",sans-serif'>What do you think will
-help foster interoperability between these three  different Hyperledger
+help foster interoperability between these threeÂ  different Hyperledger
 frameworks?</span></p>
 
 <p class=MsoNormal style='margin-bottom:6.0pt;line-height:normal'><span
@@ -4829,13 +4893,13 @@ the end of this chapter, you should be able to:</span></p>
 
 <p class=MsoNormal style='margin-bottom:8.5pt;margin-left:.5in;text-indent:
 -.25in;line-height:16.8pt;background:white'><span style='font-size:10.0pt;
-font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span
+font-family:Wingdings'>Â§<span style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span
 style='font-size:10.0pt;font-family:"Inter",sans-serif;color:black'>List the
 components of Hyperledger frameworks.</span></p>
 
 <p class=MsoNormal style='margin-bottom:8.5pt;margin-left:.5in;text-indent:
 -.25in;line-height:16.8pt;background:white'><span style='font-size:10.0pt;
-font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span
+font-family:Wingdings'>Â§<span style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span
 style='font-size:10.0pt;font-family:"Inter",sans-serif;color:black'>Get a
 high-level understanding of the Hyperledger frameworks and domain-specific
 blockchain technologies: Hyperledger Besu, Hyperledger Burrow, Hyperledger
@@ -4860,25 +4924,25 @@ Bitcoin blockchain and Ethereum. Hyperledger frameworks include:</span></p>
 
 <p class=MsoNormal style='margin-bottom:8.5pt;margin-left:.5in;text-indent:
 -.25in;line-height:16.8pt;background:white'><span style='font-size:10.0pt;
-font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span
+font-family:Wingdings'>Â§<span style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span
 style='font-size:10.0pt;font-family:"Inter",sans-serif;color:black'>An
 append-only distributed ledger</span></p>
 
 <p class=MsoNormal style='margin-bottom:8.5pt;margin-left:.5in;text-indent:
 -.25in;line-height:16.8pt;background:white'><span style='font-size:10.0pt;
-font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span
+font-family:Wingdings'>Â§<span style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span
 style='font-size:10.0pt;font-family:"Inter",sans-serif;color:black'>A consensus
 algorithm&nbsp;for agreeing to changes in the ledger</span></p>
 
 <p class=MsoNormal style='margin-bottom:8.5pt;margin-left:.5in;text-indent:
 -.25in;line-height:16.8pt;background:white'><span style='font-size:10.0pt;
-font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span
+font-family:Wingdings'>Â§<span style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span
 style='font-size:10.0pt;font-family:"Inter",sans-serif;color:black'>Privacy of
 transactions through permissioned access</span></p>
 
 <p class=MsoNormal style='margin-bottom:8.5pt;margin-left:.5in;text-indent:
 -.25in;line-height:16.8pt;background:white'><span style='font-size:10.0pt;
-font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span
+font-family:Wingdings'>Â§<span style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span
 style='font-size:10.0pt;font-family:"Inter",sans-serif;color:black'>Smart contracts
 to process transaction requests.</span></p>
 
@@ -4917,7 +4981,7 @@ Besu</span></a></span><span style='font-size:10.0pt;font-family:"Inter",sans-ser
 color:black'>&nbsp;is an open source Ethereum client developed under the Apache
 2.0 license and written in Java. It can be run on the Ethereum public network
 or on private permissioned networks, as well as test networks such as Rinkeby,
-Ropsten, and Görli. Hyperledger Besu includes several consensus algorithms
+Ropsten, and GÃ¶rli. Hyperledger Besu includes several consensus algorithms
 including PoW, PoA, and IBFT, and has comprehensive permissioning schemes
 designed specifically for uses in a consortium environment. Hyperledger Besu
 joined the Hyperledger Incubator in August 2019; PegaSys has been its primary
@@ -4930,7 +4994,7 @@ color:black'>Among its features:</span></p>
 
 <p class=MsoNormal style='margin-bottom:8.5pt;margin-left:.5in;text-indent:
 -.25in;line-height:16.8pt;background:white'><span style='font-size:10.0pt;
-font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span
+font-family:Wingdings'>Â§<span style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span
 style='font-size:10.0pt;font-family:"Inter",sans-serif;color:black'>Implements
 the&nbsp;</span><span style='color:black'><a href="https://entethalliance.org/"
 target="_blank"><span style='font-size:10.0pt;font-family:"Inter",sans-serif;
@@ -4940,51 +5004,51 @@ specification</span></p>
 
 <p class=MsoNormal style='margin-bottom:8.5pt;margin-left:.5in;text-indent:
 -.25in;line-height:16.8pt;background:white'><span style='font-size:10.0pt;
-font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span
+font-family:Wingdings'>Â§<span style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span
 style='font-size:10.0pt;font-family:"Inter",sans-serif;color:black'>The
 Ethereum Virtual Machine (EVM), which allows deployment and execution of smart
 contracts via transactions within an Ethereum blockchain</span></p>
 
 <p class=MsoNormal style='margin-bottom:8.5pt;margin-left:.5in;text-indent:
 -.25in;line-height:16.8pt;background:white'><span style='font-size:10.0pt;
-font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span
+font-family:Wingdings'>Â§<span style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span
 style='font-size:10.0pt;font-family:"Inter",sans-serif;color:black'>Implements
 various consensus algorithms, such as Proof of Authority (with several
 protocols, such as IBTF 2.0 or Clique) and Proof of Work (Ethash)</span></p>
 
 <p class=MsoNormal style='margin-bottom:8.5pt;margin-left:.5in;text-indent:
 -.25in;line-height:16.8pt;background:white'><span style='font-size:10.0pt;
-font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span
+font-family:Wingdings'>Â§<span style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span
 style='font-size:10.0pt;font-family:"Inter",sans-serif;color:black'>Uses a
 RocksDS key-value database to persist chain data locally</span></p>
 
 <p class=MsoNormal style='margin-bottom:8.5pt;margin-left:.5in;text-indent:
 -.25in;line-height:16.8pt;background:white'><span style='font-size:10.0pt;
-font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span
+font-family:Wingdings'>Â§<span style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span
 style='font-size:10.0pt;font-family:"Inter",sans-serif;color:black'>P2P
 networking</span></p>
 
 <p class=MsoNormal style='margin-bottom:8.5pt;margin-left:.5in;text-indent:
 -.25in;line-height:16.8pt;background:white'><span style='font-size:10.0pt;
-font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span
+font-family:Wingdings'>Â§<span style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span
 style='font-size:10.0pt;font-family:"Inter",sans-serif;color:black'>Provides
 user-facing APIs</span></p>
 
 <p class=MsoNormal style='margin-bottom:8.5pt;margin-left:.5in;text-indent:
 -.25in;line-height:16.8pt;background:white'><span style='font-size:10.0pt;
-font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span
+font-family:Wingdings'>Â§<span style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span
 style='font-size:10.0pt;font-family:"Inter",sans-serif;color:black'>Allows you
 to monitor node and network performance</span></p>
 
 <p class=MsoNormal style='margin-bottom:8.5pt;margin-left:.5in;text-indent:
 -.25in;line-height:16.8pt;background:white'><span style='font-size:10.0pt;
-font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span
+font-family:Wingdings'>Â§<span style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span
 style='font-size:10.0pt;font-family:"Inter",sans-serif;color:black'>Ability to
 keep transactions private between the involved parties</span></p>
 
 <p class=MsoNormal style='margin-bottom:8.5pt;margin-left:.5in;text-indent:
 -.25in;line-height:16.8pt;background:white'><span style='font-size:10.0pt;
-font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span
+font-family:Wingdings'>Â§<span style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span
 style='font-size:10.0pt;font-family:"Inter",sans-serif;color:black'>Allows
 permissioning.</span></p>
 
@@ -5090,7 +5154,7 @@ color:black'>Hyperledger&nbsp;Burrow components are:</span></p>
 
 <p class=MsoNormal style='margin-bottom:8.5pt;margin-left:.5in;text-indent:
 -.25in;line-height:16.8pt;background:white'><span style='font-size:10.0pt;
-font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><strong><span
+font-family:Wingdings'>Â§<span style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><strong><span
 style='font-size:10.0pt;font-family:"Inter",sans-serif;color:black'>Consensus
 Engine</span></strong><span style='font-size:10.0pt;font-family:"Inter",sans-serif;
 color:black'>&nbsp;-&nbsp;Hyperledger Burrow uses the Byzantine
@@ -5102,14 +5166,14 @@ order and finalize transactions</span></p>
 
 <p class=MsoNormal style='margin-bottom:8.5pt;margin-left:.5in;text-indent:
 -.25in;line-height:16.8pt;background:white'><span style='font-size:10.0pt;
-font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span
+font-family:Wingdings'>Â§<span style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span
 style='font-size:10.0pt;font-family:"Inter",sans-serif;color:black'>The&nbsp;<strong><span
 style='font-family:"Inter",sans-serif'>API Gateway</span></strong>&nbsp;provides
 interfaces for systems integration and user interfaces</span></p>
 
 <p class=MsoNormal style='margin-bottom:8.5pt;margin-left:.5in;text-indent:
 -.25in;line-height:16.8pt;background:white'><span style='font-size:10.0pt;
-font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span
+font-family:Wingdings'>Â§<span style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span
 style='font-size:10.0pt;font-family:"Inter",sans-serif;color:black'>The&nbsp;<strong><span
 style='font-family:"Inter",sans-serif'>Smart Contract Application</span></strong>&nbsp;engine&nbsp;facilitates
 integration of complex business logic (maintaining the networking stack between
@@ -5117,7 +5181,7 @@ the nodes and ordering transactions)</span></p>
 
 <p class=MsoNormal style='margin-bottom:8.5pt;margin-left:.5in;text-indent:
 -.25in;line-height:16.8pt;background:white'><span style='font-size:10.0pt;
-font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><strong><span
+font-family:Wingdings'>Â§<span style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><strong><span
 style='font-size:10.0pt;font-family:"Inter",sans-serif;color:black'>Permissioned
 Ethereum Virtual Machine</span></strong><span style='font-size:10.0pt;
 font-family:"Inter",sans-serif;color:black'>&nbsp;- it is built to observe the
@@ -5126,7 +5190,7 @@ been granted</span></p>
 
 <p class=MsoNormal style='margin-bottom:8.5pt;margin-left:.5in;text-indent:
 -.25in;line-height:16.8pt;background:white'><span style='font-size:10.0pt;
-font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><strong><span
+font-family:Wingdings'>Â§<span style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><strong><span
 style='font-size:10.0pt;font-family:"Inter",sans-serif;color:black'>Application
 Binary Interface</span></strong><span style='font-size:10.0pt;font-family:"Inter",sans-serif;
 color:black'>&nbsp;(ABI) - transactions must be formulated in a binary format,
@@ -5134,7 +5198,7 @@ which is processed by the blockchain node.</span></p>
 
 <p class=MsoNormal style='margin-bottom:8.5pt;margin-left:.5in;text-indent:
 -.25in;line-height:16.8pt;background:white'><span style='font-size:10.0pt;
-font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span
+font-family:Wingdings'>Â§<span style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span
 style='font-size:10.0pt;font-family:"Inter",sans-serif;color:black'>The&nbsp;<strong><span
 style='font-family:"Inter",sans-serif'>Application Blockchain Interface</span></strong>&nbsp;(ABCI)
 provides interface specification for the consensus engine and smart contract
@@ -5243,20 +5307,20 @@ color:black'>Key characteristics of Hyperledger Fabric are:</span></p>
 
 <p class=MsoNormal style='margin-bottom:8.5pt;margin-left:.5in;text-indent:
 -.25in;line-height:16.8pt;background:white'><span style='font-size:10.0pt;
-font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span
+font-family:Wingdings'>Â§<span style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span
 style='font-size:10.0pt;font-family:"Inter",sans-serif;color:black'>High-performance,
 secure, permissioned blockchain network</span></p>
 
 <p class=MsoNormal style='margin-bottom:8.5pt;margin-left:.5in;text-indent:
 -.25in;line-height:16.8pt;background:white'><span style='font-size:10.0pt;
-font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span
+font-family:Wingdings'>Â§<span style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span
 style='font-size:10.0pt;font-family:"Inter",sans-serif;color:black'>Features
 powerful container technology to host any mainstream language for smart
 contracts development</span></p>
 
 <p class=MsoNormal style='margin-bottom:8.5pt;margin-left:.5in;text-indent:
 -.25in;line-height:16.8pt;background:white'><span style='font-size:10.0pt;
-font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span
+font-family:Wingdings'>Â§<span style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span
 style='font-size:10.0pt;font-family:"Inter",sans-serif;color:black'>Code
 written in Go, chaincode written in Go, Javascript, or Java, SDKs written in
 Node.js, Java, Go, REST and Python.</span></p>
@@ -5332,7 +5396,7 @@ controls what data they want to provide access to and for how long.</span></p>
 
 <p class=MsoNormal style='margin-bottom:6.0pt;line-height:normal'><span
 style='font-size:10.0pt;font-family:"Inter",sans-serif'>Indy provides strong
-privacy guarantees because private data is not written on  the ledger, but
+privacy guarantees because private data is not written onÂ  the ledger, but
 exchanged over peer-to-peer encrypted connections.</span></p>
 
 <p class=MsoNormal style='margin-bottom:6.0pt;line-height:normal'><span
@@ -5391,7 +5455,7 @@ aspects of who you are.</span></p>
 
 <p class=MsoNormal style='margin-bottom:6.0pt;line-height:normal'><span
 style='font-size:10.0pt;font-family:"Inter",sans-serif'>And when you control
-your identity, it makes it so that you are also a party to  the kinds of data
+your identity, it makes it so that you are also a party toÂ  the kinds of data
 sharing, claims, and proofs that can be made about you, as information is
 shared across all the different interactions you might do online.</span></p>
 
@@ -5616,43 +5680,43 @@ Byzantine fault-tolerant consensus. Among&nbsp;its key features are:</span></p>
 
 <p class=MsoNormal style='margin-bottom:8.5pt;margin-left:.5in;text-indent:
 -.25in;line-height:16.8pt;background:white'><span style='font-size:10.0pt;
-font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span
+font-family:Wingdings'>Â§<span style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span
 style='font-size:10.0pt;font-family:"Inter",sans-serif;color:black'>Simple
 deployment and maintenance</span></p>
 
 <p class=MsoNormal style='margin-bottom:8.5pt;margin-left:.5in;text-indent:
 -.25in;line-height:16.8pt;background:white'><span style='font-size:10.0pt;
-font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span
+font-family:Wingdings'>Â§<span style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span
 style='font-size:10.0pt;font-family:"Inter",sans-serif;color:black'>Variety of
 libraries for developers</span></p>
 
 <p class=MsoNormal style='margin-bottom:8.5pt;margin-left:.5in;text-indent:
 -.25in;line-height:16.8pt;background:white'><span style='font-size:10.0pt;
-font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span
+font-family:Wingdings'>Â§<span style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span
 style='font-size:10.0pt;font-family:"Inter",sans-serif;color:black'>Role-based
 access control</span></p>
 
 <p class=MsoNormal style='margin-bottom:8.5pt;margin-left:.5in;text-indent:
 -.25in;line-height:16.8pt;background:white'><span style='font-size:10.0pt;
-font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span
+font-family:Wingdings'>Â§<span style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span
 style='font-size:10.0pt;font-family:"Inter",sans-serif;color:black'>Modular
 design, driven by command-query separation principle</span></p>
 
 <p class=MsoNormal style='margin-bottom:8.5pt;margin-left:.5in;text-indent:
 -.25in;line-height:16.8pt;background:white'><span style='font-size:10.0pt;
-font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span
+font-family:Wingdings'>Â§<span style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span
 style='font-size:10.0pt;font-family:"Inter",sans-serif;color:black'>Ready-to-use
 set of commands and queries</span></p>
 
 <p class=MsoNormal style='margin-bottom:8.5pt;margin-left:.5in;text-indent:
 -.25in;line-height:16.8pt;background:white'><span style='font-size:10.0pt;
-font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span
+font-family:Wingdings'>Â§<span style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span
 style='font-size:10.0pt;font-family:"Inter",sans-serif;color:black'>Multi-signature
 transactions</span></p>
 
 <p class=MsoNormal style='margin-bottom:8.5pt;margin-left:.5in;text-indent:
 -.25in;line-height:16.8pt;background:white'><span style='font-size:10.0pt;
-font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span
+font-family:Wingdings'>Â§<span style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span
 style='font-size:10.0pt;font-family:"Inter",sans-serif;color:black'>Uses a
 high-performance Byzantine fault-tolerant consensus algorithm called&nbsp;</span><span
 style='color:black'><a
@@ -5792,33 +5856,33 @@ Hyperledger Incubator. Some of its key characteristics are:</span></p>
 
 <p class=MsoNormal style='margin-bottom:8.5pt;margin-left:.5in;text-indent:
 -.25in;line-height:16.8pt;background:white'><span style='font-size:10.0pt;
-font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span
+font-family:Wingdings'>Â§<span style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span
 style='font-size:10.0pt;font-family:"Inter",sans-serif;color:black'>Uses
 pluggable consensus algorithms, which allows consensus to be changed by
 transaction on the fly</span></p>
 
 <p class=MsoNormal style='margin-bottom:8.5pt;margin-left:.5in;text-indent:
 -.25in;line-height:16.8pt;background:white'><span style='font-size:10.0pt;
-font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span
+font-family:Wingdings'>Â§<span style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span
 style='font-size:10.0pt;font-family:"Inter",sans-serif;color:black'>Smart
 contracts can be written in almost any language</span></p>
 
 <p class=MsoNormal style='margin-bottom:8.5pt;margin-left:.5in;text-indent:
 -.25in;line-height:16.8pt;background:white'><span style='font-size:10.0pt;
-font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span
+font-family:Wingdings'>Â§<span style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span
 style='font-size:10.0pt;font-family:"Inter",sans-serif;color:black'>Parallel
 transaction execution for added throughput, while at the same time preventing
 double spending</span></p>
 
 <p class=MsoNormal style='margin-bottom:8.5pt;margin-left:.5in;text-indent:
 -.25in;line-height:16.8pt;background:white'><span style='font-size:10.0pt;
-font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span
+font-family:Wingdings'>Â§<span style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span
 style='font-size:10.0pt;font-family:"Inter",sans-serif;color:black'>Ethereum
 contract support via Hyperledger Burrow integration</span></p>
 
 <p class=MsoNormal style='margin-bottom:8.5pt;margin-left:.5in;text-indent:
 -.25in;line-height:16.8pt;background:white'><span style='font-size:10.0pt;
-font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span
+font-family:Wingdings'>Â§<span style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span
 style='font-size:10.0pt;font-family:"Inter",sans-serif;color:black'>No central
 authority or implementation. This increases security as there is no centralized
 service that could leak transaction patterns or any other confidential
@@ -5826,7 +5890,7 @@ information</span></p>
 
 <p class=MsoNormal style='margin-bottom:8.5pt;margin-left:.5in;text-indent:
 -.25in;line-height:16.8pt;background:white'><span style='font-size:10.0pt;
-font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span
+font-family:Wingdings'>Â§<span style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span
 style='font-size:10.0pt;font-family:"Inter",sans-serif;color:black'>Supports
 creating and broadcasting events.</span></p>
 
@@ -5944,8 +6008,8 @@ style='font-size:10.0pt;font-family:"Inter",sans-serif'>Fortunately for Rich
 and others in the seafood industry,</span></p>
 
 <p class=MsoNormal style='margin-bottom:6.0pt;line-height:normal'><span
-style='font-size:10.0pt;font-family:"Inter",sans-serif'>Sawtooth Lake  blockchain
-technology can provide an immutable record of the provenance and  lineage of
+style='font-size:10.0pt;font-family:"Inter",sans-serif'>Sawtooth LakeÂ  blockchain
+technology can provide an immutable record of the provenance andÂ  lineage of
 various goods, like fish.</span></p>
 
 <p class=MsoNormal style='margin-bottom:6.0pt;line-height:normal'><span
@@ -5956,7 +6020,7 @@ journey of fish from ocean to table.</span></p>
 <p class=MsoNormal style='margin-bottom:6.0pt;line-height:normal'><span
 style='font-size:10.0pt;font-family:"Inter",sans-serif'>Sensors can be attached
 to fish the moment they are harvested, immediately and continuously recording
-data such as the location and  temperature of the fish.</span></p>
+data such as the location andÂ  temperature of the fish.</span></p>
 
 <p class=MsoNormal style='margin-bottom:6.0pt;line-height:normal'><span
 style='font-size:10.0pt;font-family:"Inter",sans-serif'>Now, Rich can validate
@@ -5975,7 +6039,7 @@ standards and feels comfortable doing business with new tradesmen.</span></p>
 
 <p class=MsoNormal style='margin-bottom:6.0pt;line-height:normal'><span
 style='font-size:10.0pt;font-family:"Inter",sans-serif'>When he serves up a new
-special to a  cherished customer, he can confidently and accurately assure her it's
+special to aÂ  cherished customer, he can confidently and accurately assure her it's
 the type of fish she ordered, it was stored at safe temperatures, when and
 where it was caught, how long it took to get to her plate, and the fish's
 name... just kidding.</span></p>
@@ -6041,7 +6105,7 @@ for their industry or market model. It intends to:</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:6.0pt;
 margin-left:.5in;text-indent:-.25in;line-height:16.8pt;background:white'><span
-style='font-size:10.0pt;font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;
+style='font-size:10.0pt;font-family:Wingdings'>Â§<span style='font:7.0pt "Times New Roman"'>&nbsp;
 </span></span><span style='font-size:10.0pt;font-family:"Inter",sans-serif;
 color:black'>Provide reference implementations of supply chain-centric data
 types, data models, and smart contract-based business logic based on existing
@@ -6049,7 +6113,7 @@ open standards and industry best practices</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:6.0pt;
 margin-left:.5in;text-indent:-.25in;line-height:16.8pt;background:white'><span
-style='font-size:10.0pt;font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;
+style='font-size:10.0pt;font-family:Wingdings'>Â§<span style='font:7.0pt "Times New Roman"'>&nbsp;
 </span></span><span style='font-size:10.0pt;font-family:"Inter",sans-serif;
 color:black'>Provide authentic, practical ways to combine components from the
 Hyperledger Stack into a single, effective business solution.</span></p>
@@ -6068,7 +6132,7 @@ standardization, consistency, credibility, neutrality and interoperability:</spa
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:6.0pt;
 margin-left:.5in;text-indent:-.25in;line-height:16.8pt;background:white'><span
-style='font-size:10.0pt;font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;
+style='font-size:10.0pt;font-family:Wingdings'>Â§<span style='font:7.0pt "Times New Roman"'>&nbsp;
 </span></span><span style='font-size:10.0pt;font-family:"Inter",sans-serif;
 color:black'>Global Trade Item Number (GTIN) - this is a unique product
 identifier with a critical role in global commerce, composed of numbers that
@@ -6078,7 +6142,7 @@ where it is in the supply chain, and this is key for blockchain implementation.<
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:6.0pt;
 margin-left:.5in;text-indent:-.25in;line-height:16.8pt;background:white'><span
-style='font-size:10.0pt;font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;
+style='font-size:10.0pt;font-family:Wingdings'>Â§<span style='font:7.0pt "Times New Roman"'>&nbsp;
 </span></span><span style='font-size:10.0pt;font-family:"Inter",sans-serif;
 color:black'>Global Location Numbers (GLN) - These are numbers that uniquely
 identify organizations and locations in the supply chain, and contribute to
@@ -6086,7 +6150,7 @@ enhanced visibility in the supply chain.</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:6.0pt;
 margin-left:.5in;text-indent:-.25in;line-height:16.8pt;background:white'><span
-style='font-size:10.0pt;font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;
+style='font-size:10.0pt;font-family:Wingdings'>Â§<span style='font:7.0pt "Times New Roman"'>&nbsp;
 </span></span><span style='font-size:10.0pt;font-family:"Inter",sans-serif;
 color:black'>GS1 barcodes - These barcode labels must be captured in order to allow
 data to be shared among trading partners. They provide product specific
@@ -6095,7 +6159,7 @@ they are going.</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:6.0pt;
 margin-left:.5in;text-indent:-.25in;line-height:16.8pt;background:white'><span
-style='font-size:10.0pt;font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;
+style='font-size:10.0pt;font-family:Wingdings'>Â§<span style='font:7.0pt "Times New Roman"'>&nbsp;
 </span></span><span style='font-size:10.0pt;font-family:"Inter",sans-serif;
 color:black'>Electronic Product Code Information Services (EPCIS) - This is
 similar to a standardized API, capturing and sharing information about the
@@ -6147,13 +6211,13 @@ the end of this chapter, you should be able to:</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:6.0pt;
 margin-left:.5in;text-indent:-.25in;line-height:16.8pt;background:white'><span
-style='font-size:10.0pt;font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;
+style='font-size:10.0pt;font-family:Wingdings'>Â§<span style='font:7.0pt "Times New Roman"'>&nbsp;
 </span></span><span style='font-size:10.0pt;font-family:"Inter",sans-serif;
 color:black'>Understand the role of Hyperledger tools.</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:6.0pt;
 margin-left:.5in;text-indent:-.25in;line-height:16.8pt;background:white'><span
-style='font-size:10.0pt;font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;
+style='font-size:10.0pt;font-family:Wingdings'>Â§<span style='font:7.0pt "Times New Roman"'>&nbsp;
 </span></span><span style='font-size:10.0pt;font-family:"Inter",sans-serif;
 color:black'>Get a high-level understanding of the Hyperledger tools (as of
 November 2020): Hyperledger Avalon, Hyperledger Cactus, Hyperledger Caliper,
@@ -6199,19 +6263,19 @@ color:black'>Hyperledger Avalon:</span></p>
 
 <p class=MsoNormal style='margin-bottom:8.5pt;margin-left:.5in;text-indent:
 -.25in;line-height:16.8pt;background:white'><span style='font-size:10.0pt;
-font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span
+font-family:Wingdings'>Â§<span style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span
 style='font-size:10.0pt;font-family:"Inter",sans-serif;color:black'>Enables
 developers to accelerate throughput and improve data privacy</span></p>
 
 <p class=MsoNormal style='margin-bottom:8.5pt;margin-left:.5in;text-indent:
 -.25in;line-height:16.8pt;background:white'><span style='font-size:10.0pt;
-font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span
+font-family:Wingdings'>Â§<span style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span
 style='font-size:10.0pt;font-family:"Inter",sans-serif;color:black'>The initial
 implementation of Hyperledger Avalon uses Intel Software Guard Extensions (SGX)</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:6.0pt;
 margin-left:.5in;text-indent:-.25in;line-height:16.8pt;background:white'><span
-style='font-size:10.0pt;font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;
+style='font-size:10.0pt;font-family:Wingdings'>Â§<span style='font:7.0pt "Times New Roman"'>&nbsp;
 </span></span><span style='font-size:10.0pt;font-family:"Inter",sans-serif;
 color:black'>Uses the Off-Chain Trusted Compute Specification as
 a&nbsp;starting point to apply a consistent and compatible approach to all
@@ -6426,28 +6490,28 @@ key features are:</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:6.0pt;
 margin-left:.5in;text-indent:-.25in;line-height:16.8pt;background:white'><span
-style='font-size:10.0pt;font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;
+style='font-size:10.0pt;font-family:Wingdings'>Â§<span style='font:7.0pt "Times New Roman"'>&nbsp;
 </span></span><span style='font-size:10.0pt;font-family:"Inter",sans-serif;
 color:black'>Deploy, manage and operate blockchains efficiently and
 automatically</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:6.0pt;
 margin-left:.5in;text-indent:-.25in;line-height:16.8pt;background:white'><span
-style='font-size:10.0pt;font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;
+style='font-size:10.0pt;font-family:Wingdings'>Â§<span style='font:7.0pt "Times New Roman"'>&nbsp;
 </span></span><span style='font-size:10.0pt;font-family:"Inter",sans-serif;
 color:black'>Support&nbsp;customized blockchain requests&nbsp;(support for
 Hyperledger Fabric)</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:6.0pt;
 margin-left:.5in;text-indent:-.25in;line-height:16.8pt;background:white'><span
-style='font-size:10.0pt;font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;
+style='font-size:10.0pt;font-family:Wingdings'>Â§<span style='font:7.0pt "Times New Roman"'>&nbsp;
 </span></span><span style='font-size:10.0pt;font-family:"Inter",sans-serif;
 color:black'>Support various infrastructures (baremetal, VM platforms,
 container cloud)</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:6.0pt;
 margin-left:.5in;text-indent:-.25in;line-height:16.8pt;background:white'><span
-style='font-size:10.0pt;font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;
+style='font-size:10.0pt;font-family:Wingdings'>Â§<span style='font:7.0pt "Times New Roman"'>&nbsp;
 </span></span><span style='font-size:10.0pt;font-family:"Inter",sans-serif;
 color:black'>Support advanced operational analytics for system status and
 ledger behavior</span></p>
@@ -6501,31 +6565,31 @@ Explorer can view, invoke, deploy, or query:</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:6.0pt;
 margin-left:.5in;text-indent:-.25in;line-height:16.8pt;background:white'><span
-style='font-size:10.0pt;font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;
+style='font-size:10.0pt;font-family:Wingdings'>Â§<span style='font:7.0pt "Times New Roman"'>&nbsp;
 </span></span><span style='font-size:10.0pt;font-family:"Inter",sans-serif;
 color:black'>Blocks</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:6.0pt;
 margin-left:.5in;text-indent:-.25in;line-height:16.8pt;background:white'><span
-style='font-size:10.0pt;font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;
+style='font-size:10.0pt;font-family:Wingdings'>Â§<span style='font:7.0pt "Times New Roman"'>&nbsp;
 </span></span><span style='font-size:10.0pt;font-family:"Inter",sans-serif;
 color:black'>Transactions and associated data</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:6.0pt;
 margin-left:.5in;text-indent:-.25in;line-height:16.8pt;background:white'><span
-style='font-size:10.0pt;font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;
+style='font-size:10.0pt;font-family:Wingdings'>Â§<span style='font:7.0pt "Times New Roman"'>&nbsp;
 </span></span><span style='font-size:10.0pt;font-family:"Inter",sans-serif;
 color:black'>Network information (name, status, list of nodes)</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:6.0pt;
 margin-left:.5in;text-indent:-.25in;line-height:16.8pt;background:white'><span
-style='font-size:10.0pt;font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;
+style='font-size:10.0pt;font-family:Wingdings'>Â§<span style='font:7.0pt "Times New Roman"'>&nbsp;
 </span></span><span style='font-size:10.0pt;font-family:"Inter",sans-serif;
 color:black'>Smart contracts (chain codes and transaction families)</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:6.0pt;
 margin-left:.5in;text-indent:-.25in;line-height:16.8pt;background:white'><span
-style='font-size:10.0pt;font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;
+style='font-size:10.0pt;font-family:Wingdings'>Â§<span style='font:7.0pt "Times New Roman"'>&nbsp;
 </span></span><span style='font-size:10.0pt;font-family:"Inter",sans-serif;
 color:black'>Other relevant information stored in the ledger.</span></p>
 
@@ -6575,13 +6639,13 @@ the end of this chapter, you should be able to:</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:6.0pt;
 margin-left:.5in;text-indent:-.25in;line-height:16.8pt;background:white'><span
-style='font-size:10.0pt;font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;
+style='font-size:10.0pt;font-family:Wingdings'>Â§<span style='font:7.0pt "Times New Roman"'>&nbsp;
 </span></span><span style='font-size:10.0pt;font-family:"Inter",sans-serif;
 color:black'>Understand the role of Hyperledger libraries.</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:6.0pt;
 margin-left:.5in;text-indent:-.25in;line-height:16.8pt;background:white'><span
-style='font-size:10.0pt;font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;
+style='font-size:10.0pt;font-family:Wingdings'>Â§<span style='font:7.0pt "Times New Roman"'>&nbsp;
 </span></span><span style='font-size:10.0pt;font-family:"Inter",sans-serif;
 color:black'>Get a high-level understanding of the Hyperledger&nbsp;libraries
 (as of November 2020): Hyperledger Aries, Hyperledger Quilt, Hyperledger
@@ -6723,21 +6787,21 @@ ledgers). Among its key characteristics are:</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:6.0pt;
 margin-left:.5in;text-indent:-.25in;line-height:16.8pt;background:white'><span
-style='font-size:10.0pt;font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;
+style='font-size:10.0pt;font-family:Wingdings'>Â§<span style='font:7.0pt "Times New Roman"'>&nbsp;
 </span></span><span style='font-size:10.0pt;font-family:"Inter",sans-serif;
 color:black'>Provides a set of rules for enabling ledger interoperability with
 basic escrow semantics</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:6.0pt;
 margin-left:.5in;text-indent:-.25in;line-height:16.8pt;background:white'><span
-style='font-size:10.0pt;font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;
+style='font-size:10.0pt;font-family:Wingdings'>Â§<span style='font:7.0pt "Times New Roman"'>&nbsp;
 </span></span><span style='font-size:10.0pt;font-family:"Inter",sans-serif;
 color:black'>Furnishes a standard for ledger-independent address and data
 packet formats that enable connectors to route payments</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:6.0pt;
 margin-left:.5in;text-indent:-.25in;line-height:16.8pt;background:white'><span
-style='font-size:10.0pt;font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;
+style='font-size:10.0pt;font-family:Wingdings'>Â§<span style='font:7.0pt "Times New Roman"'>&nbsp;
 </span></span><span style='font-size:10.0pt;font-family:"Inter",sans-serif;
 color:black'>Supplies a framework for designing higher-level use case specific
 protocols.</span></p>
@@ -6785,31 +6849,31 @@ short-term:</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:6.0pt;
 margin-left:.5in;text-indent:-.25in;line-height:16.8pt;background:white'><span
-style='font-size:10.0pt;font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;
+style='font-size:10.0pt;font-family:Wingdings'>Â§<span style='font:7.0pt "Times New Roman"'>&nbsp;
 </span></span><span style='font-size:10.0pt;font-family:"Inter",sans-serif;
 color:black'>Serial and parallel transaction scheduling</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:6.0pt;
 margin-left:.5in;text-indent:-.25in;line-height:16.8pt;background:white'><span
-style='font-size:10.0pt;font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;
+style='font-size:10.0pt;font-family:Wingdings'>Â§<span style='font:7.0pt "Times New Roman"'>&nbsp;
 </span></span><span style='font-size:10.0pt;font-family:"Inter",sans-serif;
 color:black'>Pluggable state backend</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:6.0pt;
 margin-left:.5in;text-indent:-.25in;line-height:16.8pt;background:white'><span
-style='font-size:10.0pt;font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;
+style='font-size:10.0pt;font-family:Wingdings'>Â§<span style='font:7.0pt "Times New Roman"'>&nbsp;
 </span></span><span style='font-size:10.0pt;font-family:"Inter",sans-serif;
 color:black'>Transaction receipts</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:6.0pt;
 margin-left:.5in;text-indent:-.25in;line-height:16.8pt;background:white'><span
-style='font-size:10.0pt;font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;
+style='font-size:10.0pt;font-family:Wingdings'>Â§<span style='font:7.0pt "Times New Roman"'>&nbsp;
 </span></span><span style='font-size:10.0pt;font-family:"Inter",sans-serif;
 color:black'>Events that can be generated by smart contracts</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:6.0pt;
 margin-left:.5in;text-indent:-.25in;line-height:16.8pt;background:white'><span
-style='font-size:10.0pt;font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;
+style='font-size:10.0pt;font-family:Wingdings'>Â§<span style='font:7.0pt "Times New Roman"'>&nbsp;
 </span></span><span style='font-size:10.0pt;font-family:"Inter",sans-serif;
 color:black'>Support for Sabre and Seth, etc.</span></p>
 
@@ -6925,21 +6989,21 @@ the end of this chapter, you should be able to:</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:6.0pt;
 margin-left:.5in;text-indent:-.25in;line-height:16.8pt;background:white'><span
-style='font-size:10.0pt;font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;
+style='font-size:10.0pt;font-family:Wingdings'>Â§<span style='font:7.0pt "Times New Roman"'>&nbsp;
 </span></span><span style='font-size:10.0pt;font-family:"Inter",sans-serif;
 color:black'>Examine several use cases where blockchain technology is actively
 used to solve real world business problems.</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:6.0pt;
 margin-left:.5in;text-indent:-.25in;line-height:16.8pt;background:white'><span
-style='font-size:10.0pt;font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;
+style='font-size:10.0pt;font-family:Wingdings'>Â§<span style='font:7.0pt "Times New Roman"'>&nbsp;
 </span></span><span style='font-size:10.0pt;font-family:"Inter",sans-serif;
 color:black'>Discover the factors to look at when evaluating if blockchain
 technology is right for a particular project.</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:6.0pt;
 margin-left:.5in;text-indent:-.25in;line-height:16.8pt;background:white'><span
-style='font-size:10.0pt;font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;
+style='font-size:10.0pt;font-family:Wingdings'>Â§<span style='font:7.0pt "Times New Roman"'>&nbsp;
 </span></span><span style='font-size:10.0pt;font-family:"Inter",sans-serif;
 color:black'>Decide when to use and when not to use blockchain technology.</span></p>
 
@@ -7070,7 +7134,7 @@ long, they don't owe anybody a fee, a license fee, a patent license, nothing,</s
 <p class=MsoNormal style='margin-bottom:6.0pt;line-height:normal'><span
 style='font-size:10.0pt;font-family:"Inter",sans-serif'>and, if they feel like
 it, if they want to contribute, there should be an easy glide path to having
-their technical teams get  deeper into the code,</span></p>
+their technical teams getÂ  deeper into the code,</span></p>
 
 <p class=MsoNormal style='margin-bottom:6.0pt;line-height:normal'><span
 style='font-size:10.0pt;font-family:"Inter",sans-serif'>become contributors,
@@ -7100,7 +7164,7 @@ created.</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:6.0pt;
 margin-left:.5in;text-indent:-.25in;line-height:16.8pt;background:white'><span
-style='font-size:10.0pt;font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;
+style='font-size:10.0pt;font-family:Wingdings'>Â§<span style='font:7.0pt "Times New Roman"'>&nbsp;
 </span></span><span style='font-size:10.0pt;font-family:"Inter",sans-serif;
 color:black'>Smart contracts eliminate the middleman and add accountability
 (used in various industry sectors, such as real estate, healthcare, government,
@@ -7108,7 +7172,7 @@ music, etc.)</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:6.0pt;
 margin-left:.5in;text-indent:-.25in;line-height:16.8pt;background:white'><span
-style='font-size:10.0pt;font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;
+style='font-size:10.0pt;font-family:Wingdings'>Â§<span style='font:7.0pt "Times New Roman"'>&nbsp;
 </span></span><span style='font-size:10.0pt;font-family:"Inter",sans-serif;
 color:black'>Internet of Things (IoT)-based blockchain applications add a
 higher level of security,&nbsp; and transparency (in industries like supply
@@ -7117,7 +7181,7 @@ etc.). Hyperledger Fabric is at the forefront of this revolution.&nbsp;</span></
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:6.0pt;
 margin-left:.5in;text-indent:-.25in;line-height:16.8pt;background:white'><span
-style='font-size:10.0pt;font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;
+style='font-size:10.0pt;font-family:Wingdings'>Â§<span style='font:7.0pt "Times New Roman"'>&nbsp;
 </span></span><span style='font-size:10.0pt;font-family:"Inter",sans-serif;
 color:black'>Identity security is a key area where enterprise blockchain
 technologies can make a difference,&nbsp;bringing, for example, a much-needed
@@ -7128,7 +7192,7 @@ used in production in this area.</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:6.0pt;
 margin-left:.5in;text-indent:-.25in;line-height:16.8pt;background:white'><span
-style='font-size:10.0pt;font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;
+style='font-size:10.0pt;font-family:Wingdings'>Â§<span style='font:7.0pt "Times New Roman"'>&nbsp;
 </span></span><span style='font-size:10.0pt;font-family:"Inter",sans-serif;
 color:black'>Blockchain adds data transparency and automation to supply
 management and logistics, building trust and enabling leaner, more
@@ -7263,7 +7327,7 @@ solution successfully being used in production:</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:6.0pt;
 margin-left:.5in;text-indent:-.25in;line-height:16.8pt;background:white'><span
-style='font-size:10.0pt;font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;
+style='font-size:10.0pt;font-family:Wingdings'>Â§<span style='font:7.0pt "Times New Roman"'>&nbsp;
 </span></span><strong><span style='font-size:10.0pt;font-family:"Inter",sans-serif;
 color:black'>Supply Chain</span></strong><span style='font-size:10.0pt;
 font-family:"Inter",sans-serif;color:black'><br>
@@ -7286,7 +7350,7 @@ customers' trust in the products and validate their provenance.</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:6.0pt;
 margin-left:.5in;text-indent:-.25in;line-height:16.8pt;background:white'><span
-style='font-size:10.0pt;font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;
+style='font-size:10.0pt;font-family:Wingdings'>Â§<span style='font:7.0pt "Times New Roman"'>&nbsp;
 </span></span><strong><span style='font-size:10.0pt;font-family:"Inter",sans-serif;
 color:black'>Airline Industry</span></strong><span style='font-size:10.0pt;
 font-family:"Inter",sans-serif;color:black'><br>
@@ -7302,7 +7366,7 @@ and agility, and ultimately, reducing operational costs.</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:6.0pt;
 margin-left:.5in;text-indent:-.25in;line-height:16.8pt;background:white'><span
-style='font-size:10.0pt;font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;
+style='font-size:10.0pt;font-family:Wingdings'>Â§<span style='font:7.0pt "Times New Roman"'>&nbsp;
 </span></span><strong><span style='font-size:10.0pt;font-family:"Inter",sans-serif;
 color:black'>Enterprise Operations Management</span></strong><span
 style='font-size:10.0pt;font-family:"Inter",sans-serif;color:black'><br>
@@ -7319,7 +7383,7 @@ Hyperledger Fabric.</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:6.0pt;
 margin-left:.5in;text-indent:-.25in;line-height:16.8pt;background:white'><span
-style='font-size:10.0pt;font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;
+style='font-size:10.0pt;font-family:Wingdings'>Â§<span style='font:7.0pt "Times New Roman"'>&nbsp;
 </span></span><strong><span style='font-size:10.0pt;font-family:"Inter",sans-serif;
 color:black'>Insurance Compliance Data</span></strong><span style='font-size:
 10.0pt;font-family:"Inter",sans-serif;color:black'><br>
@@ -7333,7 +7397,7 @@ to automate insurance regulatory reporting.</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:6.0pt;
 margin-left:.5in;text-indent:-.25in;line-height:16.8pt;background:white'><span
-style='font-size:10.0pt;font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;
+style='font-size:10.0pt;font-family:Wingdings'>Â§<span style='font:7.0pt "Times New Roman"'>&nbsp;
 </span></span><strong><span style='font-size:10.0pt;font-family:"Inter",sans-serif;
 color:black'>Decentralized Identities and Trusted Credentials</span></strong><span
 style='font-size:10.0pt;font-family:"Inter",sans-serif;color:black'><br>
@@ -7400,7 +7464,7 @@ funds, raw materials, components, or finished products. This lack of
 transparency is often intentional, as companies don't want to expose their
 competitive advantages (e.g., an inexpensive supplier who delivers quality
 products on time). Additionally, a company could be cut out of a supply chain
-if members start transacting directly with that company’s suppliers.</span></p>
+if members start transacting directly with that companyâ€™s suppliers.</span></p>
 
 <p class=MsoNormal style='margin-bottom:6.0pt;line-height:normal'><span
 style='font-size:10.0pt;font-family:"Inter",sans-serif'>&nbsp;</span></p>
@@ -7488,7 +7552,7 @@ color:black'>&quot;The Hyperledger Fabric blockchain-based food traceability
 system built for the two products worked. For pork in China, it allowed
 uploading certificates of authenticity to the blockchain, bringing more trust
 to a system where that used to be a serious issue. And for mangoes in the US,
-the time needed to trace their provenance went from 7 days to… 2.2
+the time needed to trace their provenance went from 7 days toâ€¦ 2.2
 seconds!&quot; As a result, Walmart and IBM worked on expanding the system,
 both within and outside of Walmart;&nbsp;</span><span style='color:black'><a
 href="https://www.ibm.com/blockchain/solutions/food-trust" target="_blank"><span
@@ -7549,11 +7613,11 @@ implementations.&nbsp;</span></p>
 
 <p style='margin-top:0in;margin-right:0in;margin-bottom:6.0pt;margin-left:0in;
 background:white'><span style='font-size:10.0pt;font-family:"Inter",sans-serif;
-color:black'>“ScanTrust plans to use the Hyperledger Sawtooth-based solution
+color:black'>â€œScanTrust plans to use the Hyperledger Sawtooth-based solution
 for other projects. Besides enhancing traceability in the supply chain, the
-team sees other uses for the technology… A brand could create its own token to
+team sees other uses for the technologyâ€¦ A brand could create its own token to
 incentivize consumers to share data; or it could develop ways to allow
-consumers to tip the farmer who produced their coffee.”</span></p>
+consumers to tip the farmer who produced their coffee.â€</span></p>
 
 <p style='margin-top:0in;margin-right:0in;margin-bottom:6.0pt;margin-left:0in;
 background:white'><span style='font-size:10.0pt;font-family:"Inter",sans-serif;
@@ -7593,7 +7657,7 @@ a plot of land, you have the right to use that land. However, the usage of the
 land is most likely limited by the government. The right to use the land may be
 taken away from&nbsp;you by foreclosure if you do not pay property taxes.
 Similarly,&nbsp;your right to use the land is limited to permitted uses per
-that areas’ zoning laws. It is unlikely that you will be allowed to operate a
+that areasâ€™ zoning laws. It is unlikely that you will be allowed to operate a
 pesticide manufacturing plant in the middle of a residential neighborhood.
 If&nbsp;you lease out the plot of land,&nbsp;your right to use the property is
 transferred to the tenant, but&nbsp;you are still able to sell the plot of land
@@ -7766,13 +7830,13 @@ identifying products, and certifying their authenticity. Alternatively, these
 trusted third parties can leverage blockchains by recording their audits and
 inspections on blockchains. This would reduce the overhead needed to certify
 products. For example, a manufacturer could prove that its sources also abide
-by the certification authorities’ standards if those sources are listed on
-blockchains as having passed all requirements. The timing of the source’s
+by the certification authoritiesâ€™ standards if those sources are listed on
+blockchains as having passed all requirements. The timing of the sourceâ€™s
 original certification and renewals could be viewed by any interested party.</span></p>
 
 <p class=MsoNormal style='margin-bottom:6.0pt;line-height:normal;background:
 white'><span style='font-size:10.0pt;font-family:"Inter",sans-serif;color:black'>As
-a consumer reading from a blockchain, you would be able to verify a product’s
+a consumer reading from a blockchain, you would be able to verify a productâ€™s
 authenticity by seeing the full chain of custody for an item. Hyperledger
 frameworks allow consumers to view important data attached to the goods,
 without necessarily viewing exactly who conducted each transfer down the supply
@@ -7933,14 +7997,14 @@ every trade has its own lifecycle, generally, the following steps will occur:</s
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:6.0pt;
 margin-left:.5in;text-indent:-.25in;line-height:16.8pt;background:white'><span
-style='font-size:10.0pt;font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;
+style='font-size:10.0pt;font-family:Wingdings'>Â§<span style='font:7.0pt "Times New Roman"'>&nbsp;
 </span></span><span style='font-size:10.0pt;font-family:"Inter",sans-serif;
 color:black'>Parties execute a trade. Executing a trade occurs when parties
 agree on the details of a trade and are willing to enter into the deal.</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:6.0pt;
 margin-left:.5in;text-indent:-.25in;line-height:16.8pt;background:white'><span
-style='font-size:10.0pt;font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;
+style='font-size:10.0pt;font-family:Wingdings'>Â§<span style='font:7.0pt "Times New Roman"'>&nbsp;
 </span></span><span style='font-size:10.0pt;font-family:"Inter",sans-serif;
 color:black'>One party will draft an inception document, capturing all the
 terms of the trade, and will send it to the other party to get the trade
@@ -7948,7 +8012,7 @@ confirmed.</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:6.0pt;
 margin-left:.5in;text-indent:-.25in;line-height:16.8pt;background:white'><span
-style='font-size:10.0pt;font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;
+style='font-size:10.0pt;font-family:Wingdings'>Â§<span style='font:7.0pt "Times New Roman"'>&nbsp;
 </span></span><span style='font-size:10.0pt;font-family:"Inter",sans-serif;
 color:black'>The recipient of the inception document will check the details of
 the trade and confirm the trade by signing and returning the document.
@@ -7956,7 +8020,7 @@ Confirmation communication is done often by Fax, SWIFT, or Telex.</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:6.0pt;
 margin-left:.5in;text-indent:-.25in;line-height:16.8pt;background:white'><span
-style='font-size:10.0pt;font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;
+style='font-size:10.0pt;font-family:Wingdings'>Â§<span style='font:7.0pt "Times New Roman"'>&nbsp;
 </span></span><span style='font-size:10.0pt;font-family:"Inter",sans-serif;
 color:black'>The trade is allocated. For flexibility of profit and loss
 booking, parties will often allocate the trade to various sub-entities within
@@ -7964,7 +8028,7 @@ their organization.</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:6.0pt;
 margin-left:.5in;text-indent:-.25in;line-height:16.8pt;background:white'><span
-style='font-size:10.0pt;font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;
+style='font-size:10.0pt;font-family:Wingdings'>Â§<span style='font:7.0pt "Times New Roman"'>&nbsp;
 </span></span><span style='font-size:10.0pt;font-family:"Inter",sans-serif;
 color:black'>Each trade will be stored by the party who was allocated the trade
 on an internal database. For ease of identification, the trade is assigned a
@@ -7972,7 +8036,7 @@ unique Trade ID as a standard identifier.</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:6.0pt;
 margin-left:.5in;text-indent:-.25in;line-height:16.8pt;background:white'><span
-style='font-size:10.0pt;font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;
+style='font-size:10.0pt;font-family:Wingdings'>Â§<span style='font:7.0pt "Times New Roman"'>&nbsp;
 </span></span><span style='font-size:10.0pt;font-family:"Inter",sans-serif;
 color:black'>Post-Trade Changes are sometimes made by the parties. This can
 occur when:<br>
@@ -7985,7 +8049,7 @@ entail a termination fee.</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:6.0pt;
 margin-left:.5in;text-indent:-.25in;line-height:16.8pt;background:white'><span
-style='font-size:10.0pt;font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;
+style='font-size:10.0pt;font-family:Wingdings'>Â§<span style='font:7.0pt "Times New Roman"'>&nbsp;
 </span></span><span style='font-size:10.0pt;font-family:"Inter",sans-serif;
 color:black'>Payment is made. These payments may be at the close of a trade, or
 at intermediate stages while a trade is still open. When the payments are made
@@ -7995,7 +8059,7 @@ due to events that occurred after trade execution.</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:6.0pt;
 margin-left:.5in;text-indent:-.25in;line-height:16.8pt;background:white'><span
-style='font-size:10.0pt;font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;
+style='font-size:10.0pt;font-family:Wingdings'>Â§<span style='font:7.0pt "Times New Roman"'>&nbsp;
 </span></span><span style='font-size:10.0pt;font-family:"Inter",sans-serif;
 color:black'>Audit of the trade and associated payments is performed by the
 parties. If a dispute occurs, the parties must communicate and come to a
@@ -8061,11 +8125,11 @@ line-height:107%;font-family:"Inter",sans-serif;color:black'>Finance (Part V)</s
 <p class=MsoNormal style='margin-bottom:6.0pt;line-height:normal;background:
 white'><span style='font-size:10.0pt;font-family:"Inter",sans-serif;color:black'>There
 are both advantages and disadvantages to controlling funds on blockchain. If
-funds aren’t under the control of the smart contract, then there is no
-way&nbsp;a payment can be guaranteed. If funds are controlled by the parties’
+funds arenâ€™t under the control of the smart contract, then there is no
+way&nbsp;a payment can be guaranteed. If funds are controlled by the partiesâ€™
 smart contract agreement, then those payments can indeed be guaranteed at the
 close of the trade. However, this also means that those funds cannot be used by
-the parties’ for anything else throughout the lifecycle of the smart contract.
+the partiesâ€™ for anything else throughout the lifecycle of the smart contract.
 Today, a party may use the funds separate from the contract. This exposes the
 other party to the risk of nonpayment, but frees up capital for other purposes.
 The connection between risk and return is not a problem that blockchains can
@@ -8153,10 +8217,10 @@ fulfillment processes on blockchain since they involve gathering and checking
 information from many sources. Insurance benefits investigation eligibility
 checks are performed to see if insurance will pay. Prior authorization and step
 therapy requirements are checked to see if a patient is able to receive a
-particular drug, or if other drugs are preferred. Formulary checks, patients’
+particular drug, or if other drugs are preferred. Formulary checks, patientsâ€™
 assistance checks, and pharmacy stock checks must all be performed. The
 healthcare industry has also used DLT to handle online identity management, by
-uploading verified pieces of a healthcare professional’s credentials for
+uploading verified pieces of a healthcare professionalâ€™s credentials for
 license verification.</span></p>
 
 <p style='margin-top:0in;margin-right:0in;margin-bottom:6.0pt;margin-left:0in;
@@ -8211,7 +8275,7 @@ distributed ledger technologies:</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:6.0pt;
 margin-left:.5in;text-indent:-.25in;line-height:16.8pt;background:white'><span
-style='font-size:10.0pt;font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;
+style='font-size:10.0pt;font-family:Wingdings'>Â§<span style='font:7.0pt "Times New Roman"'>&nbsp;
 </span></span><span style='font-size:10.0pt;font-family:"Inter",sans-serif;
 color:black'>Streamlining verification procedures for academic credentials,
 thus reducing fraudulent claims and bringing more transparency, ease of use,
@@ -8219,51 +8283,51 @@ and speed to this process.</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:6.0pt;
 margin-left:.5in;text-indent:-.25in;line-height:16.8pt;background:white'><span
-style='font-size:10.0pt;font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;
+style='font-size:10.0pt;font-family:Wingdings'>Â§<span style='font:7.0pt "Times New Roman"'>&nbsp;
 </span></span><span style='font-size:10.0pt;font-family:"Inter",sans-serif;
 color:black'>Verifying e-portfolios of digital badges&nbsp;</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:6.0pt;
 margin-left:.5in;text-indent:-.25in;line-height:16.8pt;background:white'><span
-style='font-size:10.0pt;font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;
+style='font-size:10.0pt;font-family:Wingdings'>Â§<span style='font:7.0pt "Times New Roman"'>&nbsp;
 </span></span><span style='font-size:10.0pt;font-family:"Inter",sans-serif;
 color:black'>Securing and sharing student records</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:6.0pt;
 margin-left:.5in;text-indent:-.25in;line-height:16.8pt;background:white'><span
-style='font-size:10.0pt;font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;
+style='font-size:10.0pt;font-family:Wingdings'>Â§<span style='font:7.0pt "Times New Roman"'>&nbsp;
 </span></span><span style='font-size:10.0pt;font-family:"Inter",sans-serif;
 color:black'>Identity management</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:6.0pt;
 margin-left:.5in;text-indent:-.25in;line-height:16.8pt;background:white'><span
-style='font-size:10.0pt;font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;
+style='font-size:10.0pt;font-family:Wingdings'>Â§<span style='font:7.0pt "Times New Roman"'>&nbsp;
 </span></span><span style='font-size:10.0pt;font-family:"Inter",sans-serif;
 color:black'>Sharing security data (from security cameras and sensors, for
 example) across device networks</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:6.0pt;
 margin-left:.5in;text-indent:-.25in;line-height:16.8pt;background:white'><span
-style='font-size:10.0pt;font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;
+style='font-size:10.0pt;font-family:Wingdings'>Â§<span style='font:7.0pt "Times New Roman"'>&nbsp;
 </span></span><span style='font-size:10.0pt;font-family:"Inter",sans-serif;
 color:black'>Creating learning marketplaces</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:6.0pt;
 margin-left:.5in;text-indent:-.25in;line-height:16.8pt;background:white'><span
-style='font-size:10.0pt;font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;
+style='font-size:10.0pt;font-family:Wingdings'>Â§<span style='font:7.0pt "Times New Roman"'>&nbsp;
 </span></span><span style='font-size:10.0pt;font-family:"Inter",sans-serif;
 color:black'>Records management</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:6.0pt;
 margin-left:.5in;text-indent:-.25in;line-height:16.8pt;background:white'><span
-style='font-size:10.0pt;font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;
+style='font-size:10.0pt;font-family:Wingdings'>Â§<span style='font:7.0pt "Times New Roman"'>&nbsp;
 </span></span><span style='font-size:10.0pt;font-family:"Inter",sans-serif;
 color:black'>Increasing accountability and transparency for charitable school
 donations</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:6.0pt;
 margin-left:.5in;text-indent:-.25in;line-height:16.8pt;background:white'><span
-style='font-size:10.0pt;font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;
+style='font-size:10.0pt;font-family:Wingdings'>Â§<span style='font:7.0pt "Times New Roman"'>&nbsp;
 </span></span><span style='font-size:10.0pt;font-family:"Inter",sans-serif;
 color:black'>Streamlining the public assistance system for families and
 students.</span></p>
@@ -8352,7 +8416,7 @@ the Netherlands and Germany:</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:6.0pt;
 margin-left:.5in;text-indent:-.25in;line-height:16.8pt;background:white'><span
-style='font-size:10.0pt;font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;
+style='font-size:10.0pt;font-family:Wingdings'>Â§<span style='font:7.0pt "Times New Roman"'>&nbsp;
 </span></span><span style='font-size:10.0pt;font-family:"Inter",sans-serif;
 color:black'>TenneT is focusing on finding new sustainable ways to cope with
 the increasing dependency on and demand for electricity.&nbsp;In their quest to
@@ -8363,7 +8427,7 @@ in the energy grid.&nbsp;</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:6.0pt;
 margin-left:.5in;text-indent:-.25in;line-height:16.8pt;background:white'><span
-style='font-size:10.0pt;font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;
+style='font-size:10.0pt;font-family:Wingdings'>Â§<span style='font:7.0pt "Times New Roman"'>&nbsp;
 </span></span><span style='font-size:10.0pt;font-family:"Inter",sans-serif;
 color:black'>TenneT and Vandebron are running a pilot project in the
 Netherlands to test this potential solution.&nbsp;<em><span style='font-family:
@@ -8376,7 +8440,7 @@ action in response to signals from TenneT.&quot;</span></em>&nbsp;</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:6.0pt;
 margin-left:.5in;text-indent:-.25in;line-height:16.8pt;background:white'><span
-style='font-size:10.0pt;font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;
+style='font-size:10.0pt;font-family:Wingdings'>Â§<span style='font:7.0pt "Times New Roman"'>&nbsp;
 </span></span><span style='font-size:10.0pt;font-family:"Inter",sans-serif;
 color:black'>TenneT and sonnen are running another pilot project in Germany,
 focusing on re-dispatch&nbsp;efforts to prevent regional overloads on the
@@ -8426,14 +8490,14 @@ bureaucracy. Below we highlight just a few of the Smart Dubai initiatives:</span
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:6.0pt;
 margin-left:.5in;text-indent:-.25in;line-height:16.8pt;background:white'><span
-style='font-size:10.0pt;font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;
+style='font-size:10.0pt;font-family:Wingdings'>Â§<span style='font:7.0pt "Times New Roman"'>&nbsp;
 </span></span><span style='font-size:10.0pt;font-family:"Inter",sans-serif;
 color:black'>The Dubai Blockchain Strategy aims to enable the execution of all
 applicable government transactions through blockchain by 2020.</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:6.0pt;
 margin-left:.5in;text-indent:-.25in;line-height:16.8pt;background:white'><span
-style='font-size:10.0pt;font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;
+style='font-size:10.0pt;font-family:Wingdings'>Â§<span style='font:7.0pt "Times New Roman"'>&nbsp;
 </span></span><span style='font-size:10.0pt;font-family:"Inter",sans-serif;
 color:black'>The Decentralized Data Marketplace leverages blockchain technology
 to ensure the security and immutability of transactions, tokenization to hide
@@ -8441,7 +8505,7 @@ sensitive information, etc.</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:6.0pt;
 margin-left:.5in;text-indent:-.25in;line-height:16.8pt;background:white'><span
-style='font-size:10.0pt;font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;
+style='font-size:10.0pt;font-family:Wingdings'>Â§<span style='font:7.0pt "Times New Roman"'>&nbsp;
 </span></span><span style='font-size:10.0pt;font-family:"Inter",sans-serif;
 color:black'>The&nbsp;</span><span style='color:black'><a
 href="https://www.smartdubai.ae/apps-services/details/uae-pass" target="_blank"><span
@@ -8454,7 +8518,7 @@ authenticate and sign documents digitally.</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:6.0pt;
 margin-left:.5in;text-indent:-.25in;line-height:16.8pt;background:white'><span
-style='font-size:10.0pt;font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;
+style='font-size:10.0pt;font-family:Wingdings'>Â§<span style='font:7.0pt "Times New Roman"'>&nbsp;
 </span></span><span style='font-size:10.0pt;font-family:"Inter",sans-serif;
 color:black'>The&nbsp;</span><span style='color:black'><a
 href="https://www.smartdubai.ae/apps-services/details/dubai-now" target="_blank"><span
@@ -8473,14 +8537,14 @@ among other things.</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:6.0pt;
 margin-left:.5in;text-indent:-.25in;line-height:16.8pt;background:white'><span
-style='font-size:10.0pt;font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;
+style='font-size:10.0pt;font-family:Wingdings'>Â§<span style='font:7.0pt "Times New Roman"'>&nbsp;
 </span></span><span style='font-size:10.0pt;font-family:"Inter",sans-serif;
 color:black'>Paperless government&nbsp;by 2020 is another goal of the Smart
 Dubai initiative, allowing officials and citizens to save time and resources,
-and protect the environment as well.&nbsp;<em><span style='font-family:"Inter",sans-serif'>“Adopting
+and protect the environment as well.&nbsp;<em><span style='font-family:"Inter",sans-serif'>â€œAdopting
 Blockchain technology Dubai stands to unlock 5.5 billion dirhams in savings
-annually in document processing alone - equal to the one Burj Khalifa’s worth
-of value every year.”</span></em></span></p>
+annually in document processing alone - equal to the one Burj Khalifaâ€™s worth
+of value every year.â€</span></em></span></p>
 
 <p style='margin-top:0in;margin-right:0in;margin-bottom:6.0pt;margin-left:0in;
 background:white'><span style='font-size:10.0pt;font-family:"Inter",sans-serif;
@@ -8547,7 +8611,7 @@ practices must be considered:</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:6.0pt;
 margin-left:.5in;text-indent:-.25in;line-height:16.8pt;background:white'><span
-style='font-size:10.0pt;font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;
+style='font-size:10.0pt;font-family:Wingdings'>Â§<span style='font:7.0pt "Times New Roman"'>&nbsp;
 </span></span><b><span style='font-size:10.0pt;font-family:"Inter",sans-serif;
 color:black'>Security for the long term</span></b><span style='font-size:10.0pt;
 font-family:"Inter",sans-serif;color:black'>&nbsp;&nbsp;<br>
@@ -8563,7 +8627,7 @@ PII, on their blockchains.&nbsp;</i></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:6.0pt;
 margin-left:.5in;text-indent:-.25in;line-height:16.8pt;background:white'><span
-style='font-size:10.0pt;font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;
+style='font-size:10.0pt;font-family:Wingdings'>Â§<span style='font:7.0pt "Times New Roman"'>&nbsp;
 </span></span><b><span style='font-size:10.0pt;font-family:"Inter",sans-serif;
 color:black'>File storage on the blockchain</span></b><span style='font-size:
 10.0pt;font-family:"Inter",sans-serif;color:black'><br>
@@ -8577,7 +8641,7 @@ network, instead of the actual data.</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:6.0pt;
 margin-left:.5in;text-indent:-.25in;line-height:16.8pt;background:white'><span
-style='font-size:10.0pt;font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;
+style='font-size:10.0pt;font-family:Wingdings'>Â§<span style='font:7.0pt "Times New Roman"'>&nbsp;
 </span></span><b><span style='font-size:10.0pt;font-family:"Inter",sans-serif;
 color:black'>Permissioned blockchain for private data</span></b><span
 style='font-size:10.0pt;font-family:"Inter",sans-serif;color:black'><br>
@@ -8590,7 +8654,7 @@ want their data to remain private.</i></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:6.0pt;
 margin-left:.5in;text-indent:-.25in;line-height:16.8pt;background:white'><span
-style='font-size:10.0pt;font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;
+style='font-size:10.0pt;font-family:Wingdings'>Â§<span style='font:7.0pt "Times New Roman"'>&nbsp;
 </span></span><b><span style='font-size:10.0pt;font-family:"Inter",sans-serif;
 color:black'>Blockchain governance</span></b><span style='font-size:10.0pt;
 font-family:"Inter",sans-serif;color:black'>&nbsp;<b>structure</b><br>
@@ -8605,7 +8669,7 @@ time, and as such, the governance procedures may change as well.</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:6.0pt;
 margin-left:.5in;text-indent:-.25in;line-height:16.8pt;background:white'><span
-style='font-size:10.0pt;font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;
+style='font-size:10.0pt;font-family:Wingdings'>Â§<span style='font:7.0pt "Times New Roman"'>&nbsp;
 </span></span><b><span style='font-size:10.0pt;font-family:"Inter",sans-serif;
 color:black'>Performance and scalability requirements</span></b><span
 style='font-size:10.0pt;font-family:"Inter",sans-serif;color:black'><br>
@@ -8617,7 +8681,7 @@ to use.&nbsp;</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:6.0pt;
 margin-left:.5in;text-indent:-.25in;line-height:16.8pt;background:white'><span
-style='font-size:10.0pt;font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;
+style='font-size:10.0pt;font-family:Wingdings'>Â§<span style='font:7.0pt "Times New Roman"'>&nbsp;
 </span></span><b><span style='font-size:10.0pt;font-family:"Inter",sans-serif;
 color:black'>Goals of blockchain business cases</span></b><span
 style='font-size:10.0pt;font-family:"Inter",sans-serif;color:black'><br>
@@ -8674,31 +8738,31 @@ blockchain technologies? The KPMG survey outlines some of them:</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:6.0pt;
 margin-left:.5in;text-indent:-.25in;line-height:16.8pt;background:white'><span
-style='font-size:10.0pt;font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;
+style='font-size:10.0pt;font-family:Wingdings'>Â§<span style='font:7.0pt "Times New Roman"'>&nbsp;
 </span></span><span style='font-size:10.0pt;font-family:"Inter",sans-serif;
 color:black'>Improved business efficiencies</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:6.0pt;
 margin-left:.5in;text-indent:-.25in;line-height:16.8pt;background:white'><span
-style='font-size:10.0pt;font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;
+style='font-size:10.0pt;font-family:Wingdings'>Â§<span style='font:7.0pt "Times New Roman"'>&nbsp;
 </span></span><span style='font-size:10.0pt;font-family:"Inter",sans-serif;
 color:black'>Product/service differentiation</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:6.0pt;
 margin-left:.5in;text-indent:-.25in;line-height:16.8pt;background:white'><span
-style='font-size:10.0pt;font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;
+style='font-size:10.0pt;font-family:Wingdings'>Â§<span style='font:7.0pt "Times New Roman"'>&nbsp;
 </span></span><span style='font-size:10.0pt;font-family:"Inter",sans-serif;
 color:black'>Increased profitability</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:6.0pt;
 margin-left:.5in;text-indent:-.25in;line-height:16.8pt;background:white'><span
-style='font-size:10.0pt;font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;
+style='font-size:10.0pt;font-family:Wingdings'>Â§<span style='font:7.0pt "Times New Roman"'>&nbsp;
 </span></span><span style='font-size:10.0pt;font-family:"Inter",sans-serif;
 color:black'>Cost reductions</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:6.0pt;
 margin-left:.5in;text-indent:-.25in;line-height:16.8pt;background:white'><span
-style='font-size:10.0pt;font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;
+style='font-size:10.0pt;font-family:Wingdings'>Â§<span style='font:7.0pt "Times New Roman"'>&nbsp;
 </span></span><span style='font-size:10.0pt;font-family:"Inter",sans-serif;
 color:black'>New business insights from incremental data, etc.</span></p>
 
@@ -8861,26 +8925,26 @@ where one or more of the following conditions apply:</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:6.0pt;
 margin-left:.5in;text-indent:-.25in;line-height:16.8pt;background:white'><span
-style='font-size:10.0pt;font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;
+style='font-size:10.0pt;font-family:Wingdings'>Â§<span style='font:7.0pt "Times New Roman"'>&nbsp;
 </span></span><span style='font-size:10.0pt;font-family:"Inter",sans-serif;
 color:black'>There is a need for a shared common database</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:6.0pt;
 margin-left:.5in;text-indent:-.25in;line-height:16.8pt;background:white'><span
-style='font-size:10.0pt;font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;
+style='font-size:10.0pt;font-family:Wingdings'>Â§<span style='font:7.0pt "Times New Roman"'>&nbsp;
 </span></span><span style='font-size:10.0pt;font-family:"Inter",sans-serif;
 color:black'>The parties involved with the process have conflicting incentives,
 or do not have trust among participants</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:6.0pt;
 margin-left:.5in;text-indent:-.25in;line-height:16.8pt;background:white'><span
-style='font-size:10.0pt;font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;
+style='font-size:10.0pt;font-family:Wingdings'>Â§<span style='font:7.0pt "Times New Roman"'>&nbsp;
 </span></span><span style='font-size:10.0pt;font-family:"Inter",sans-serif;
 color:black'>There are multiple parties involved or writers to a database</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:6.0pt;
 margin-left:.5in;text-indent:-.25in;line-height:16.8pt;background:white'><span
-style='font-size:10.0pt;font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;
+style='font-size:10.0pt;font-family:Wingdings'>Â§<span style='font:7.0pt "Times New Roman"'>&nbsp;
 </span></span><span style='font-size:10.0pt;font-family:"Inter",sans-serif;
 color:black'>There are currently trusted third parties involved in the process
 that facilitate interactions between multiple parties who must trust the third
@@ -8889,7 +8953,7 @@ authorities, or a notary public</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:6.0pt;
 margin-left:.5in;text-indent:-.25in;line-height:16.8pt;background:white'><span
-style='font-size:10.0pt;font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;
+style='font-size:10.0pt;font-family:Wingdings'>Â§<span style='font:7.0pt "Times New Roman"'>&nbsp;
 </span></span><span style='font-size:10.0pt;font-family:"Inter",sans-serif;
 color:black'>Cryptography is currently being used or should be used.
 Cryptography facilitates data confidentiality, data integrity, authentication,
@@ -8897,7 +8961,7 @@ and non-repudiation</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:6.0pt;
 margin-left:.5in;text-indent:-.25in;line-height:16.8pt;background:white'><span
-style='font-size:10.0pt;font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;
+style='font-size:10.0pt;font-family:Wingdings'>Â§<span style='font:7.0pt "Times New Roman"'>&nbsp;
 </span></span><span style='font-size:10.0pt;font-family:"Inter",sans-serif;
 color:black'>Data for a business process is being entered into many different
 databases along the lifecycle of the process. It is important that this data is
@@ -8906,27 +8970,27 @@ desired</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:6.0pt;
 margin-left:.5in;text-indent:-.25in;line-height:16.8pt;background:white'><span
-style='font-size:10.0pt;font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;
+style='font-size:10.0pt;font-family:Wingdings'>Â§<span style='font:7.0pt "Times New Roman"'>&nbsp;
 </span></span><span style='font-size:10.0pt;font-family:"Inter",sans-serif;
 color:black'>There are uniform rules governing participants in the system</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:6.0pt;
 margin-left:.5in;text-indent:-.25in;line-height:16.8pt;background:white'><span
-style='font-size:10.0pt;font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;
+style='font-size:10.0pt;font-family:Wingdings'>Â§<span style='font:7.0pt "Times New Roman"'>&nbsp;
 </span></span><span style='font-size:10.0pt;font-family:"Inter",sans-serif;
 color:black'>Decision making of the parties is transparent, rather than
 confidential</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:6.0pt;
 margin-left:.5in;text-indent:-.25in;line-height:16.8pt;background:white'><span
-style='font-size:10.0pt;font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;
+style='font-size:10.0pt;font-family:Wingdings'>Â§<span style='font:7.0pt "Times New Roman"'>&nbsp;
 </span></span><span style='font-size:10.0pt;font-family:"Inter",sans-serif;
 color:black'>There is a need for an objective, immutable history or log of
-facts for parties’ reference</span></p>
+facts for partiesâ€™ reference</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:6.0pt;
 margin-left:.5in;text-indent:-.25in;line-height:16.8pt;background:white'><span
-style='font-size:10.0pt;font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;
+style='font-size:10.0pt;font-family:Wingdings'>Â§<span style='font:7.0pt "Times New Roman"'>&nbsp;
 </span></span><span style='font-size:10.0pt;font-family:"Inter",sans-serif;
 color:black'>Transaction frequency does not exceed 10,000 transactions per
 second.</span></p>
@@ -8945,26 +9009,26 @@ well suited to blockchain-based solutions:</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:6.0pt;
 margin-left:.5in;text-indent:-.25in;line-height:16.8pt;background:white'><span
-style='font-size:10.0pt;font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;
+style='font-size:10.0pt;font-family:Wingdings'>Â§<span style='font:7.0pt "Times New Roman"'>&nbsp;
 </span></span><span style='font-size:10.0pt;font-family:"Inter",sans-serif;
 color:black'>The process involves confidential data</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:6.0pt;
 margin-left:.5in;text-indent:-.25in;line-height:16.8pt;background:white'><span
-style='font-size:10.0pt;font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;
+style='font-size:10.0pt;font-family:Wingdings'>Â§<span style='font:7.0pt "Times New Roman"'>&nbsp;
 </span></span><span style='font-size:10.0pt;font-family:"Inter",sans-serif;
 color:black'>The process stores a lot of static data, or the data is quite
 large</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:6.0pt;
 margin-left:.5in;text-indent:-.25in;line-height:16.8pt;background:white'><span
-style='font-size:10.0pt;font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;
+style='font-size:10.0pt;font-family:Wingdings'>Â§<span style='font:7.0pt "Times New Roman"'>&nbsp;
 </span></span><span style='font-size:10.0pt;font-family:"Inter",sans-serif;
 color:black'>Rules of transactions change frequently</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:6.0pt;
 margin-left:.5in;text-indent:-.25in;line-height:16.8pt;background:white'><span
-style='font-size:10.0pt;font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;
+style='font-size:10.0pt;font-family:Wingdings'>Â§<span style='font:7.0pt "Times New Roman"'>&nbsp;
 </span></span><span style='font-size:10.0pt;font-family:"Inter",sans-serif;
 color:black'>The use of&nbsp;external services to gather/store data.</span></p>
 
@@ -9123,7 +9187,7 @@ color:#454545'>You too can join the Hyperledger Community:</span></p>
 
 <p class=MsoNormal style='margin-bottom:8.5pt;margin-left:.5in;text-indent:
 -.25in;line-height:16.8pt;background:white'><span style='font-size:10.0pt;
-font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><strong><span
+font-family:Wingdings'>Â§<span style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><strong><span
 style='font-size:10.0pt;font-family:"Inter",sans-serif;color:black'>For
 developers</span></strong><span style='font-size:10.0pt;font-family:"Inter",sans-serif;
 color:black'><br>
@@ -9137,13 +9201,13 @@ style='font-size:10.5pt;font-family:"inherit",serif;color:black'>Rocket.Chat</sp
 style='font-size:10.0pt;font-family:"Inter",sans-serif;color:black'>. Search
 for open bugs, or report a new one in the&nbsp;</span><span style='color:black'><a
 href="https://jira.hyperledger.org/secure/Dashboard.jspa" target="_blank"><span
-style='font-size:10.5pt;font-family:"inherit",serif;color:black'>Hyperledger’s
+style='font-size:10.5pt;font-family:"inherit",serif;color:black'>Hyperledgerâ€™s
 bug database</span></a></span><span style='font-size:10.0pt;font-family:"Inter",sans-serif;
 color:black'>.</span></p>
 
 <p class=MsoNormal style='margin-bottom:8.5pt;margin-left:.5in;text-indent:
 -.25in;line-height:16.8pt;background:white'><span style='font-size:10.0pt;
-font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><strong><span
+font-family:Wingdings'>Â§<span style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><strong><span
 style='font-size:10.0pt;font-family:"Inter",sans-serif;color:black'>For
 business leaders</span></strong><span style='font-size:10.0pt;font-family:"Inter",sans-serif;
 color:black'><br>
@@ -9159,7 +9223,7 @@ color:black'>.</span></p>
 
 <p class=MsoNormal style='margin-bottom:8.5pt;margin-left:.5in;text-indent:
 -.25in;line-height:16.8pt;background:white'><span style='font-size:10.0pt;
-font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><strong><span
+font-family:Wingdings'>Â§<span style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><strong><span
 style='font-size:10.0pt;font-family:"Inter",sans-serif;color:black'>For
 educators and community leaders</span></strong><span style='font-size:10.0pt;
 font-family:"Inter",sans-serif;color:black'><br>
@@ -9203,8 +9267,8 @@ Working Groups</span></u></b></h2>
 
 <p style='margin-top:0in;margin-right:0in;margin-bottom:6.0pt;margin-left:0in;
 background:white'><span style='font-size:10.0pt;font-family:"Inter",sans-serif;
-color:black'>The Hyperledger Community’s working groups are open to the public.
-Developers and tech leaders can engage with any of the Hyperledger’s open
+color:black'>The Hyperledger Communityâ€™s working groups are open to the public.
+Developers and tech leaders can engage with any of the Hyperledgerâ€™s open
 community channels at this&nbsp;</span><span style='color:black'><a
 href="https://wiki.hyperledger.org/display/HYP/Calendar+of+Public+Meetings"
 target="_blank"><span style='font-size:10.0pt;font-family:"Inter",sans-serif;
@@ -9213,11 +9277,11 @@ color:black'>page</span></a></span><span style='font-size:10.0pt;font-family:
 
 <p style='margin-top:0in;margin-right:0in;margin-bottom:6.0pt;margin-left:0in;
 background:white'><span style='font-size:10.0pt;font-family:"Inter",sans-serif;
-color:black'>Below, you can see an overview of Hyperledger’s working groups:</span></p>
+color:black'>Below, you can see an overview of Hyperledgerâ€™s working groups:</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:6.0pt;
 margin-left:.5in;text-indent:-.25in;line-height:16.8pt;background:white'><span
-style='font-size:10.0pt;font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;
+style='font-size:10.0pt;font-family:Wingdings'>Â§<span style='font:7.0pt "Times New Roman"'>&nbsp;
 </span></span><span style='color:black'><a
 href="https://wiki.hyperledger.org/display/AWG/Architecture+Working+Group"
 target="_blank"><span style='font-size:10.0pt;font-family:"Inter",sans-serif;
@@ -9229,7 +9293,7 @@ architecture.</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:6.0pt;
 margin-left:.5in;text-indent:-.25in;line-height:16.8pt;background:white'><span
-style='font-size:10.0pt;font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;
+style='font-size:10.0pt;font-family:Wingdings'>Â§<span style='font:7.0pt "Times New Roman"'>&nbsp;
 </span></span><span style='color:black'><a
 href="https://wiki.hyperledger.org/display/IWG/Identity+Working+Group"
 target="_blank"><span style='font-size:10.0pt;font-family:"Inter",sans-serif;
@@ -9241,7 +9305,7 @@ umbrella.</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:6.0pt;
 margin-left:.5in;text-indent:-.25in;line-height:16.8pt;background:white'><span
-style='font-size:10.0pt;font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;
+style='font-size:10.0pt;font-family:Wingdings'>Â§<span style='font:7.0pt "Times New Roman"'>&nbsp;
 </span></span><span style='color:black'><a
 href="https://wiki.hyperledger.org/display/LMDWG/Learning+Materials+Development+Working+Group"
 target="_blank"><span style='font-size:10.0pt;font-family:"Inter",sans-serif;
@@ -9252,7 +9316,7 @@ people on Hyperledger and its projects.</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:6.0pt;
 margin-left:.5in;text-indent:-.25in;line-height:16.8pt;background:white'><span
-style='font-size:10.0pt;font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;
+style='font-size:10.0pt;font-family:Wingdings'>Â§<span style='font:7.0pt "Times New Roman"'>&nbsp;
 </span></span><span style='color:black'><a
 href="https://wiki.hyperledger.org/display/PSWG/Performance+and+Scale+Working+Group"
 target="_blank"><span style='font-size:10.0pt;font-family:"Inter",sans-serif;
@@ -9264,7 +9328,7 @@ technologies.</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:6.0pt;
 margin-left:.5in;text-indent:-.25in;line-height:16.8pt;background:white'><span
-style='font-size:10.0pt;font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;
+style='font-size:10.0pt;font-family:Wingdings'>Â§<span style='font:7.0pt "Times New Roman"'>&nbsp;
 </span></span><span style='color:black'><a
 href="https://wiki.hyperledger.org/display/SCWG/Smart+Contracts+Working+Group"
 target="_blank"><span style='font-size:10.0pt;font-family:"Inter",sans-serif;
@@ -9277,7 +9341,7 @@ everyday software solution scenarios.</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:6.0pt;
 margin-left:.5in;text-indent:-.25in;line-height:16.8pt;background:white'><span
-style='font-size:10.0pt;font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;
+style='font-size:10.0pt;font-family:Wingdings'>Â§<span style='font:7.0pt "Times New Roman"'>&nbsp;
 </span></span><span style='color:black'><a
 href="https://wiki.hyperledger.org/display/TWGC/Technical+Working+Group+China"
 target="_blank"><span style='font-size:10.0pt;font-family:"Inter",sans-serif;
@@ -9344,7 +9408,7 @@ these groups and their focus:</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:6.0pt;
 margin-left:.5in;text-indent:-.25in;line-height:16.8pt;background:white'><span
-style='font-size:10.0pt;font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;
+style='font-size:10.0pt;font-family:Wingdings'>Â§<span style='font:7.0pt "Times New Roman"'>&nbsp;
 </span></span><span style='color:black'><a
 href="https://wiki.hyperledger.org/display/HCSIG/Healthcare+SIG" target="_blank"><span
 style='font-size:10.0pt;font-family:"inherit",serif;color:black'>Healthcare SIG
@@ -9357,7 +9421,7 @@ Hyperledger greenhouse of business blockchain frameworks and tools.</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:6.0pt;
 margin-left:.5in;text-indent:-.25in;line-height:16.8pt;background:white'><span
-style='font-size:10.0pt;font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;
+style='font-size:10.0pt;font-family:Wingdings'>Â§<span style='font:7.0pt "Times New Roman"'>&nbsp;
 </span></span><span style='color:black'><a
 href="https://wiki.hyperledger.org/display/PSSIG/Public+Sector+SIG"
 target="_blank"><span style='font-size:10.0pt;font-family:"inherit",serif;
@@ -9368,7 +9432,7 @@ in particular, to the public sector uses and needs.</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:6.0pt;
 margin-left:.5in;text-indent:-.25in;line-height:16.8pt;background:white'><span
-style='font-size:10.0pt;font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;
+style='font-size:10.0pt;font-family:Wingdings'>Â§<span style='font:7.0pt "Times New Roman"'>&nbsp;
 </span></span><span style='color:black'><a
 href="https://wiki.hyperledger.org/display/SISIG/Social+Impact+SIG"
 target="_blank"><span style='font-size:10.0pt;font-family:"inherit",serif;
@@ -9380,7 +9444,7 @@ good.&nbsp;</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:6.0pt;
 margin-left:.5in;text-indent:-.25in;line-height:16.8pt;background:white'><span
-style='font-size:10.0pt;font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;
+style='font-size:10.0pt;font-family:Wingdings'>Â§<span style='font:7.0pt "Times New Roman"'>&nbsp;
 </span></span><span style='color:black'><a
 href="https://wiki.hyperledger.org/display/TCSIG/Telecom+SIG" target="_blank"><span
 style='font-size:10.0pt;font-family:"inherit",serif;color:black'>Telecom SIG</span></a></span><span
@@ -9390,7 +9454,7 @@ blockchain use cases in the Telecom industry.</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:6.0pt;
 margin-left:.5in;text-indent:-.25in;line-height:16.8pt;background:white'><span
-style='font-size:10.0pt;font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;
+style='font-size:10.0pt;font-family:Wingdings'>Â§<span style='font:7.0pt "Times New Roman"'>&nbsp;
 </span></span><span style='color:black'><a
 href="https://wiki.hyperledger.org/display/TFSIG/Trade+Finance+SIG"
 target="_blank"><span style='font-size:10.0pt;font-family:"inherit",serif;
@@ -9435,3 +9499,5 @@ line-height:107%;font-family:"Inter",sans-serif'>&nbsp;</span></p>
 </body>
 
 </html>
+
+

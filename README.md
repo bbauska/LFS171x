@@ -1,5 +1,9 @@
 ## Linux FoundationX - LFS171x
 
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/41387907/138567819-bfda7273-5457-4e5e-89b6-104d5356f46a.png" />
+</p>
+
 ### Introduction to Hyperledger Blockchain Technology
 
 **Welcome to LFS171x: Introduction to Hyperledger Blockchain Technology**  
@@ -22,8 +26,8 @@ LFS171x is part of the Blockchain for Business Professional Certificate. Skills 
 3.  **[Chapter 3. Hyperledger: Distributed Ledger Frameworks and Domain Specific Blockchains](#ch3)**<br>
     **a. Introduction and Learning Objectives**  
     **b. Hyperledger Frameworks**  
-    **c. Hyperledger: Domain-Specific Blockchain Technologies**<br>
-4.  **[Chapter 4. Hyperledger Tools[(#ch4)**
+    **c. Hyperledger: Domain-Specific Blockchain Technologies**
+4.  **[Chapter 4. Hyperledger Tools](#ch4)**<br>
     **a. Introduction and Learning Objectives**
     **b. Hyperledger Tools**
 5.  **[Chapter 5. Hyperledger Libraries](#ch5)**<br>

@@ -69,7 +69,6 @@ LFS171x is part of the Blockchain for Business Professional Certificate. Skills 
 
 
 ## <a id="ch1"></a>1. Discovering Blockchain Technologies
-
 A Word from Brian Behlendorf, Executive Director at Hyperledge  
 Hi, I'm Brian Behlendorf. I'm Executive Director of Hyperledger, a collaborative project hosted at the Linux Foundation.  
 I want to welcome you to the first ever training course for Hyperledger and our related technology projects.  
@@ -85,7 +84,7 @@ Chapter 1 introduces the building blocks of distributed ledger technologies, inc
 
 By the end of this chapter, you should be able to: 1. Explain the concepts of blockchain and distributed ledger technologies (DLT). 2. Explore permissioned and permissionless blockchains and their key characteristics. 3. Discuss various components of distributed ledger technologies, including consensus algorithms and smart contracts. 4. Provide a high-level explanation of what Hyperledger is.
 
-### 1b. Distributed Ledger Technology (DLT)
+### <a id="ch1b"></a>1b. Distributed Ledger Technology (DLT)
 Background - The Rising Interest in Distributed Ledger Technologies  
 Looking back to the last half century of computer technologies and architectures, you may observe a trend of fluctuation between the centralization and subsequent decentralization of computing power, storage, infrastructure, protocols, and code.  
 Mainframe computers are largely centralized. They typically house all computing power, memory, data storage, and code. Access to mainframes is mainly by "dumb terminals", which only take inputs and outputs, and do not store or process data.  
@@ -102,7 +101,7 @@ In summary, **distributed ledger technology (dlt)** generally consists of three 
 2.  A language of transactions that changes the ledger state
 3.  A protocol used to build consensus among participants around which transactions will be accepted, and in what order, by the ledger.
 
-### 1c. Blockchain
+### Blockchain
 According to hyperledger.org,  
 "A blockchain is a peer-to-peer distributed ledger forged by consensus, combined with a system for "smart contracts" and other assistive technologies. Together these can be used to build a new generation of transactional applications that establishes trust, accountability, and transparency at their core, while streamlining business processes and legal constraints."  
 Smart contracts are simply computer programs that execute predefined actions when certain conditions within the system are met.  
@@ -127,7 +126,7 @@ The Merkle tree, also known as a binary hash tree, is a data structure that is u
 **Bitcoin Block Data**  
 (licensed under Creative Commons Attribution-Share-Alike 3.0 Unported, retrieved from Wikipedia)
 
-### 1e. What is a Blockchain?
+### What is a Blockchain?
 So, what is blockchain?  
 As the Security Maven at Hyperledger, I have somewhat of a different perspective on what a blockchain is.  
 I'm a developer, primarily, and I look at the world in an adversarial way.  
@@ -178,7 +177,7 @@ That's all I've got to say about security. And thanks for taking our course.
 The record of an event, cryptographically secured with a digital signature, that is verified, ordered, and bundled together into blocks, form the transactions in the blockchain. In the Bitcoin blockchain, transactions involve the transfer of bitcoins, while in other blockchains, transactions may involve the transfer of any asset or a record of some service being rendered. Furthermore, a smart contract within the blockchain may allow automatic execution of transactions upon meeting predefined criteria.  
 Cryptography has a key role to play both in the security, as well as in the immutability of the transactions recorded on blockchains. Cryptography is the study of the techniques used to allow secure communication between different parties and to ensure the authenticity and immutability of the data being communicated. For blockchain technologies, cryptography is used to prove that a transaction was created by the right person. It is also used to link transactions into a block in a tamper-proof way, as well as create the links between blocks, to form a blockchain.
 
-### 1g. Differences Between Blockchains & Databases
+### Differences Between Blockchains & Databases
 Blockchain technology has some key differentiators from databases.  
 A blockchain is a write-only data structure, where new entries get appended onto the end of the ledger. Every new block gets appended to the blockchain by linking to the previous block's "hash" (you can check the Glossary tab for a refresher on hash functions). There are no administrator permissions within a blockchain that allow editing or deleting of data.  
 In a relational database, data can be easily modified or deleted. Typically, there are database administrators who may make changes to any part of the data and/or its structure. Additionally, blockchains were designed for decentralized applications, whereas relational databases, in general, were originally designed for centralized applications, where a single entity controls the data.

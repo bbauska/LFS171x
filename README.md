@@ -11,20 +11,21 @@ LFS171x is part of the Blockchain for Business Professional Certificate. Skills 
 
 ## 1. [**Discovering Blockchain Technologies**](#ch1)
 
-### >a. [**Introduction and Learning Objectives**](#ch1a)
+>### a. [**Introduction and Learning Objectives**](#ch1a)
 
-### > b. [**Distributed Ledger Technology (DLT)**](#ch1b)
+>### b. [**Distributed Ledger Technology (DLT)**](#ch1b)
 
-### c. [**Bitcoin and Ethereum Blockchains**](#ch1c)
+>### c. [**Bitcoin and Ethereum Blockchains**](#ch1c)
 
-### d. [**Exploring Permissionless Blockchains**](#ch1d)
+>### d. [**Exploring Permissionless Blockchains**](#ch1d)
 
-### > e. [**Consensus Algorithms**](#ch1e)
+>### e. [**Consensus Algorithms**](#ch1e)
 
-> f. [**Hyperledger(#ch1f)**](ch1f)
-> g. [**Other Open Source Permissioned Distributed Ledgers**](#ch1g)
+>### f. [**Hyperledger(#ch1f)**](ch1f)
 
-### h. [**Challenges in the Adoption/Deployment of Distributed Ledger Technologies**](#ch1h)
+>### g. [**Other Open Source Permissioned Distributed Ledgers**](#ch1g)
+
+>### h. [**Challenges in the Adoption/Deployment of Distributed Ledger Technologies**](#ch1h)
 
 ## 2. [**Introduction to Hyperledger**](#ch2)
 
@@ -36,35 +37,35 @@ LFS171x is part of the Blockchain for Business Professional Certificate. Skills 
 
 ## 3. [**Hyperledger: Distributed Ledger Frameworks and Domain Specific Blockchains**](#ch3)
 
-### a. [**Introduction and Learning Objectives**](#ch3a)
+>### a. [**Introduction and Learning Objectives**](#ch3a)
 
-### b. [**Hyperledger Frameworks**](#ch3b)
+>### b. [**Hyperledger Frameworks**](#ch3b)
 
-### c. [**Hyperledger: Domain-Specific Blockchain Technologies**](#ch3c)
+>### c. [**Hyperledger: Domain-Specific Blockchain Technologies**](#ch3c)
 
 ## 4. [**Hyperledger Tools**](#ch4)
 
-### a. [**Introduction and Learning Objectives**](ch4a)
+>### a. [**Introduction and Learning Objectives**](ch4a)
 
-### b. [**Hyperledger Tools**](ch4b)
+>### b. [**Hyperledger Tools**](ch4b)
 
 ## 5. [**Hyperledger Libraries**](#ch5)
 
-### a. [**Introduction and Learning Objectives**](ch5a)
+>### a. [**Introduction and Learning Objectives**](ch5a)
 
-### b. [**Hyperledger Libraries**](ch5b)
+>### b. [**Hyperledger Libraries**](ch5b)
 
 ## 6. [**The Promise of Business Blockchain Technologies**](#ch6)
 
-### a. [**Introduction and Learning Objectives**](ch6a)
+>### a. [**Introduction and Learning Objectives**](ch6a)
 
-### b. [**Existing Hyperledger Blockchain Use Cases**](ch6b)
+>### b. [**Existing Hyperledger Blockchain Use Cases**](ch6b)
 
-### c. [**When to Use or Not to Use Blockchain Technologies**](ch6c)
+>### c. [**When to Use or Not to Use Blockchain Technologies**](ch6c)
 
 ## 7. [**What's Next?**](#ch7)
 
-### **What's Next?**
+>### **What's Next?**
 
 
 ## 1. Discovering Blockchain Technologies

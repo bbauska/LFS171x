@@ -10,19 +10,19 @@
 LFS171x is part of the Blockchain for Business Professional Certificate. Skills in blockchain are being reported as the top job-skill in demand. This program is designed for the business professional who needs to understand the potential (or threat) of blockchain to their company and industry. Armed with better information of the blockchain landscape, this program will help you rise to new challenges in your current role by giving you a new dimension on which you can add value to your employer.
 ## <a id="toc"></a>Table of Contents
 
-## 1. ## **[Chapter 1. Discovering Blockchain Technologies](#ch1)**<br>
-    **a. Introduction and Learning Objectives**  
-    **b. Distributed Ledger Technology (DLT)**  
-    **c. Bitcoin and Ethereum Blockchains**  
-    **d. Exploring Permissionless Blockchains**  
-    **e. Consensus Algorithms**  
-    **f. Hyperledger**  
-    **g. Other Open Source Permissioned Distributed Ledgers**  
-    **h. Challenges in the Adoption/Deployment of Distributed Ledger Technologies**
+## 1. **[Chapter 1. Discovering Blockchain Technologies](#ch1)**<br>
+### **a. [Introduction and Learning Objectives](#ch1a)**<br>
+### **b. [Distributed Ledger Technology (DLT)](#ch1b)**<br>
+### **c. [Bitcoin and Ethereum Blockchains](#ch1c)**<br>
+### **d. [Exploring Permissionless Blockchains](#ch1d)**<br>
+### **e. [Consensus Algorithms](#ch1e)**<br>
+### **f. [Hyperledger(#ch1f)]**<br>
+### **g. [Other Open Source Permissioned Distributed Ledgers](#ch1g)**<br>
+### **h. [Challenges in the Adoption/Deployment of Distributed Ledger Technologies](#ch1h)**<br>
 ## 2.  **[Chapter 2. Introduction to Hyperledger](#ch2)**<br>
-    **[a. Introduction and Learning Objectives](#ch2a)**<br>
-    **[b. Hyperledger](#ch2b)**<br>
-    **[c. Q/A with Brian Behlendorf, Executive Director of Hyperledger](#ch2c)**<br>
+### **[a. Introduction and Learning Objectives](#ch2a)**<br>
+### **[b. Hyperledger](#ch2b)**<br>
+### **[c. Q/A with Brian Behlendorf, Executive Director of Hyperledger](#ch2c)**<br>
 ## 3.  **[Chapter 3. Hyperledger: Distributed Ledger Frameworks and Domain Specific Blockchains](#ch3)**<br>
     **[a. Introduction and Learning Objectives](#ch3a)**<br>
     **[b. Hyperledger Frameworks](#ch3b)**<br>

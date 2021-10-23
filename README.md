@@ -1425,13 +1425,17 @@ The development of the Hyperledger projects is led by a diverse group of technic
 
 #### Joining the Hyperledger Community
 You too can join the Hyperledger Community:  
+
 **For developers**
-Read the Hyperledger code on GitHub. Join the Hyperledger discussion at Rocket.Chat. Search for open bugs, or report a new one in the Hyperledger’s bug database.  
+Read the Hyperledger code on GitHub. Join the Hyperledger discussion at Rocket.Chat. Search for open bugs, or report a new one in the Hyperledger’s bug database. 
+
 **For business leaders**
 For key updates from Hyperledger, join the mailing list. Explore all Hyperledger business solutions.  
+
 **For educators and community leaders**
 You can start or join a Hyperledger meetup. Development updates from Wiki can be found here.
 
+![image](https://user-images.githubusercontent.com/41387907/138567410-7039e221-879b-4214-9b21-091947e04495.png)
 #### Hyperledger Global Meetups (as of 06/24/2019)
 
 #### Hyperledger Working Groups

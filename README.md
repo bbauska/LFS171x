@@ -77,12 +77,15 @@ And that means using distributed ledger technologies in a permissioned setting, 
 In this course, you'll learn about these different projects.  
 This course is designed for people on the full spectrum, from working on purely as a software developer, all the way to those who just really want a business level understanding of what these technologies can accomplish, and what are the kinds of use cases that you might apply this to.  
 So, this is really designed for the full breadth of those technologies  
-Introduction  
+Introduction
 Chapter 1 introduces the building blocks of distributed ledger technologies, including blockchains. It lays the foundation for an in-depth understanding of the content that follows in the course. You should engage with the content in this chapter both to learn, as well as brush up your blockchain knowledge.
 
 #### Learning Objectives
-
-By the end of this chapter, you should be able to: 1. Explain the concepts of blockchain and distributed ledger technologies (DLT). 2. Explore permissioned and permissionless blockchains and their key characteristics. 3. Discuss various components of distributed ledger technologies, including consensus algorithms and smart contracts. 4. Provide a high-level explanation of what Hyperledger is.
+By the end of this chapter, you should be able to:
+1. Explain the concepts of blockchain and distributed ledger technologies (DLT).
+2. Explore permissioned and permissionless blockchains and their key characteristics.
+3. Discuss various components of distributed ledger technologies, including consensus algorithms and smart contracts.
+4. Provide a high-level explanation of what Hyperledger is.
 
 ### <a id="ch1b"></a>1b. Distributed Ledger Technology (DLT)
 Background - The Rising Interest in Distributed Ledger Technologies  
@@ -111,13 +114,12 @@ A block refers to a set of transactions that are bundled together and added to t
 Timestamping is another key feature of blockchain technology. Each block is timestamped, with each new block referring to the previous block. Combined with cryptographic hashes, this timestamped chain of blocks provides an immutable record of all transactions in the network, from the very first (or genesis) block.  
 In the Bitcoin blockchain, the miner nodes bundle unconfirmed and valid transactions into a block. Each block contains a given number of transactions. In the Bitcoin network, miners must solve a cryptographic challenge to propose the next block. This process is known as "proof of work", and requires significant computing power. We shall discuss proof of work in more detail in the Consensus Algorithms section. For more information about blockchain technology, please read the following article: "A Brief History of Blockchain" by Vinay Gupta.  
 A Bitcoin block consists of four pieces of metadata:
+1. The reference to the previous block
+2. The proof of work, also known as a nonce
+3. The timestamp
+4. The Merkle tree root for the transactions included in this block (Merkle tree is explained next).
 
-1.  The reference to the previous block
-2.  The proof of work, also known as a nonce
-3.  The timestamp
-4.  The Merkle tree root for the transactions included in this block (Merkle tree is explained next).
-
-### 1d. Merkle Tree
+### Merkle Tree
 The Merkle tree, also known as a binary hash tree, is a data structure that is used to store hashes of the individual data in large datasets in a way to make the verification of the dataset efficient. It is an anti-tamper mechanism to ensure that the large dataset has not been changed. The word "tree" is used to refer to a branching data structure in computer science, as seen in the image below. According to Andreas M. Antonopoulos, in the Bitcoin protocol,  
 "Merkle trees are used to summarize all the transactions in a block, producing an overall digital fingerprint of the entire set of transactions, providing a very efficient process to verify whether a transaction is included in a block".
 
@@ -221,7 +223,6 @@ A more exhaustive list of companies using blockchain technology for identity man
 For more details about blockchain applications, you can refer to Daniel Palmer's article entitled "7 Cool Decentralized Apps Being Built on Ethereum".
 
 ### Smart Contracts
-
 What is a smart contract?  
 Back in 1996, a man named Nick Szabo coined the term 'smart contract'.  
 You can think of them as computer protocols used to facilitate, verify, or enforce the negotiation of a legal contract.  

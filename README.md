@@ -15,28 +15,28 @@ LFS171x is part of the Blockchain for Business Professional Certificate. Skills 
     **f. Hyperledger**  
     **g. Other Open Source Permissioned Distributed Ledgers**  
     **h. Challenges in the Adoption/Deployment of Distributed Ledger Technologies**
-2.  **[Chapter 2. Introduction to Hyperledger](#ch2)**
+2.  **[Chapter 2. Introduction to Hyperledger](#ch2)**<br>
     **a. Introduction and Learning Objectives**  
     **b. Hyperledger**  
     **c. Q/A with Brian Behlendorf, Executive Director of Hyperledger**
-3.  **[Chapter 3. Hyperledger: Distributed Ledger Frameworks and Domain Specific Blockchains](#ch3)**
+3.  **[Chapter 3. Hyperledger: Distributed Ledger Frameworks and Domain Specific Blockchains](#ch3)**<br>
     **a. Introduction and Learning Objectives**  
     **b. Hyperledger Frameworks**  
-    **c. Hyperledger: Domain-Specific Blockchain Technologies**
+    **c. Hyperledger: Domain-Specific Blockchain Technologies**<br>
 4.  **[Chapter 4. Hyperledger Tools[(#ch4)**
     **a. Introduction and Learning Objectives**
     **b. Hyperledger Tools**
-5.  **[Chapter 5. Hyperledger Libraries](#ch5)**
+5.  **[Chapter 5. Hyperledger Libraries](#ch5)**<br>
     **a. Introduction and Learning Objectives**  
     **b. Hyperledger Libraries**
-6.  **[Chapter 6. The Promise of Business Blockchain Technologies](#ch6)**
+6.  **[Chapter 6. The Promise of Business Blockchain Technologies](#ch6)**<br>
     **a. Introduction and Learning Objectives**  
     **b. Existing Hyperledger Blockchain Use Cases**  
     **c. When to Use or Not to Use Blockchain Technologies**
-7.  **[Chapter 7. What's Next?](#ch7)**
+7.  **[Chapter 7. What's Next?](#ch7)**<br>
     **What's Next?**
 
-### 1a. Introduction and Learning Objectives
+### <a id="ch1"></a>1a. Introduction and Learning Objectives
 A Word from Brian Behlendorf, Executive Director at Hyperledge  
 Hi, I'm Brian Behlendorf. I'm Executive Director of Hyperledger, a collaborative project hosted at the Linux Foundation.  
 I want to welcome you to the first ever training course for Hyperledger and our related technology projects.  
@@ -336,7 +336,7 @@ MODERATE *****
 GOOD *
 POOR
 
-## 1. Hyperledger
+### <a id="ch2"></a>Chapter 2. Hyperledger
 Hyperledger is an open source effort created to advance cross-industry blockchain technologies. Hosted by The Linux Foundation, it is a global collaboration of members from various industries, including finance, banking, Internet of Things (IoT), supply chain, manufacturing, healthcare and more. Hyperledger boasts a host of enterprise-ready solutions. Hyperledger is about communities of software developers building blockchain frameworks and platforms. We will take a closer look at some of the current Hyperledger projects in the coming chapters.  
 "One of the first things people learn when coming to Hyperledger is that Hyperledger isn’t, like its name may imply, a ledger. It is a collection of blockchain technology projects."  
 Dan Middleton, All Are Welcome Here (2018)

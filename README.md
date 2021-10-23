@@ -27,7 +27,7 @@ LFS171x is part of the Blockchain for Business Professional Certificate. Skills 
     **b. Hyperledger Tools**
 5.  **Chapter 5. Hyperledger Libraries**  
     **a. Introduction and Learning Objectives**  
-    **b. Hyperledger Libraries**
+    **b. Hyperledger Libraries** 
 6.  **Chapter 6. The Promise of Business Blockchain Technologies**  
     **a. Introduction and Learning Objectives**  
     **b. Existing Hyperledger Blockchain Use Cases**  

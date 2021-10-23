@@ -68,7 +68,7 @@ LFS171x is part of the Blockchain for Business Professional Certificate. Skills 
 >### **What's Next?**
 
 
-## <a id="ch1"</a>1. Discovering Blockchain Technologies
+## <a id="ch1"></a>1. Discovering Blockchain Technologies
 
 A Word from Brian Behlendorf, Executive Director at Hyperledge  
 Hi, I'm Brian Behlendorf. I'm Executive Director of Hyperledger, a collaborative project hosted at the Linux Foundation.  

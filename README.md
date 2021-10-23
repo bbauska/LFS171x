@@ -1272,6 +1272,7 @@ Although every trade has its own lifecycle, generally, the following steps will 
 
 ### Finance (Part IV)
 Smart contracts may greatly improve the process of post-trade settlement, by reducing disputes and errors. Smart contracts will ensure that final settlement will happen when the execution of a trade occurs. With smart contract technology, a legal agreement can automatically execute clauses within it.
+![image](https://user-images.githubusercontent.com/41387907/138567328-649aad18-c51d-4672-8c6c-8ee3630ea466.png)
 
 The image above shows the automation of back-office processes involved in trade confirmation and post-trade settlement via DLT. An asset ledger stores ownership and transactions. Smart contracts allow the asset ledger to handle collateral management and initiate payments per contract terms. Venues (e.g. exchanges, MTFs, bilateral voice conversations) still match trade requests with a counterparty, and provide price discovery. Querying information on the asset ledger may assist with price discovery. The asset ledger verifies the parties and asset ownership. It will then either accept, or reject the trade. If, for example, the seller does not own the asset in question, or the new trade would result in an illegal overexposure on the buyer side, the trade would be rejected. When a trade is valid and accepted onto the blockchain, the blockchain automates an immediate change in ownership, or a delayed, or contingent asset transfer. The changes in asset ownership or contract terms are securely recorded onto the asset ledger. The contract is programmed to execute automatically, exchanging payments and other assets per the terms agreed to by the parties.  
 It is still unclear whether courts will enforce blockchain contracts in the same way that they enforce traditional written contracts, with inked paper signatures. Therefore, the current best practice is to record trades on blockchain, alongside traditional legal documentation. The operative clauses in the traditional written contract are converted into smart contract templates to be placed on blockchain once a trade is confirmed. For example, a full ISDA master agreement document would be stored on blockchain, and tied to the smart contract governing the underlying swap or derivative trade. This leverages the predictable outcomes of a legal contract with the efficiencies that can be gained from distributed ledger technologies.
@@ -1286,80 +1287,82 @@ In 2015, the US spent 27.42% of the federal budget, or $1.05 trillion, on health
 The healthcare industry has already placed medical insurance enrollment information on blockchain for verification, and plans to incorporate many other aspects of medical insurance claims processing on blockchain. One cost borne by health insurance providers is auditing care providers. Health insurance providers must verify whether a practitioner actually delivered the care that he or she was obliged to deliver to the patient. Health insurance providers must also audit the financial aspects incurred as part of this care, to ensure that care was paid, and the charges were accurate. Tying the care auditability with the payment auditability provides a key advantage to reducing the potential for fraud.  
 Healthcare (Part I)  
 The healthcare industry has examined placing prescription drug fulfillment processes on blockchain since they involve gathering and checking information from many sources. Insurance benefits investigation eligibility checks are performed to see if insurance will pay. Prior authorization and step therapy requirements are checked to see if a patient is able to receive a particular drug, or if other drugs are preferred. Formulary checks, patients’ assistance checks, and pharmacy stock checks must all be performed. The healthcare industry has also used DLT to handle online identity management, by uploading verified pieces of a healthcare professional’s credentials for license verification.
+![image](https://user-images.githubusercontent.com/41387907/138567356-a002ee52-de31-4e07-895c-8b0fe1e634c5.png)
 
-By The BlockRx Project, retrieved from the Hyperledger Healthcare Working Group, August 22nd, 2017 Meeting  
+#### By The BlockRx Project, retrieved from the Hyperledger Healthcare Working Group, August 22nd, 2017 Meeting
 Another area blockchain is used in healthcare is to protect data from cybercrime. Data breaches happen on a daily basis across all industries, and healthcare is no different. In fact, 1 in 4 data breaches occur in the healthcare sector, affecting millions of people: more exactly, 1 in 13 patients in the U.S. are affected by breaches. Why is healthcare data so sought after by hackers? Because it's personal, permanent and detailed: from social security numbers, to address, to family history, to confidential medical history.
 
-Education  
+### Education
 Blockchain solutions are being successfully implemented across various industries. As the technologies advance, more and more potential use cases arise. Education is one such area that could stand to benefit from distributed ledger technologies:  
- Streamlining verification procedures for academic credentials, thus reducing fraudulent claims and bringing more transparency, ease of use, and speed to this process.  
- Verifying e-portfolios of digital badges  
- Securing and sharing student records  
- Identity management  
- Sharing security data (from security cameras and sensors, for example) across device networks  
- Creating learning marketplaces  
- Records management  
- Increasing accountability and transparency for charitable school donations  
- Streamlining the public assistance system for families and students.  
+- Streamlining verification procedures for academic credentials, thus reducing fraudulent claims and bringing more transparency, ease of use, and speed to this process.  
+- Verifying e-portfolios of digital badges  
+- Securing and sharing student records  
+- Identity management  
+- Sharing security data (from security cameras and sensors, for example) across device networks  
+- Creating learning marketplaces  
+- Records management  
+- Increasing accountability and transparency for charitable school donations  
+- Streamlining the public assistance system for families and students.  
 You can learn more about the potential advantages of using blockchain solutions for education from the following article: 20 Ways Blockchain Will Transform (Okay, May Improve) Education.
 
-Education Case Study: Sony Global Education  
+### Education Case Study: Sony Global Education
 We've all experienced the process of enrolling in higher education or applying for a skilled job - no two applications are the same, as each institution uses their own individual application and validation processes. Similarly, the credentials we must have when applying each require different validation process as well. Needless to say, this is a rather long and complicated process. Sony Global Education has identified in Japan the need to create a comprehensive, open and trusted system to record educational and training credentials of Japanese citizens. But this need is not limited to Japan alone - it spans worldwide. As such, Sony Global Education aims to create a system that will store this siloed data into one system, gathering people's academic and training credentials and then controlling access to this recorded data.  
 Sony Global Education decided to use Hyperledger Fabric, as it is a trusted, secure, open source, platform. The solution they designed was already tested successfully. Moreover, Sony Global Education is working with the Japanese Ministry of Internal Affairs and Communications to develop a next-generation system for managing digital transcripts based on their tested solution, aiming to secure the authenticity of transcripts and allow them to be safely shared within a trusted network.  
-You can learn more about this use case reading Sony Global Education Chooses Hyperledger Fabric for a Next-Generation Credentials Platform.  
-Smart Energy Management  
+You can learn more about this use case reading Sony Global Education Chooses Hyperledger Fabric for a Next-Generation Credentials Platform.
+
+### Smart Energy Management
 We live in an increasingly connected and energy-dependent world. Balance between supply and demand is imperative to ensure electricity demand is met. However, the increasing demand in electricity adds increased pressure on conventional energy sources. For the most part, the existing electricity grid is coping with the existing demand; however, when unexpected events occur (weather-related, for example), the pressure exerted on this grid can reach dangerous, unsustainable levels. And with the advent of increased dependency on electricity in day-to-day life, time will come when conventional resources will no longer be sufficient. Drastic times require out-of-the-box solutions.  
 Enterprise-grade blockchain technologies are playing an increasingly important and innovative role in an increasing number of industry sectors, including the energy sector. In 2017, IBM partnered with TenneT, sonnen and Vandebron to develop a distributed database for managing the electricity grid in the Netherlands and Germany:  
- TenneT is focusing on finding new sustainable ways to cope with the increasing dependency on and demand for electricity. In their quest to maintain the supply-demand balance, TenneT is exploring the use of a Hyperledger Fabric-based permissioned blockchain network that will integrate renewable electricity sources (such as electric cars and household batteries) in the energy grid.  
- TenneT and Vandebron are running a pilot project in the Netherlands to test this potential solution. "Vandebron will work with customers who own an electric vehicle to make the capacity of their car batteries available to help TenneT balance the grid. Vandebron will provide this service to its customers without compromising the availability of their car battery. The blockchain enables each car to participate by recording their availability and their action in response to signals from TenneT."  
- TenneT and sonnen are running another pilot project in Germany, focusing on re-dispatch efforts to prevent regional overloads on the energy grid by integrating renewable energy sources into the electricity supply network. In Germany, this would be needed, for example, when wind energy produced in northern Germany cannot be transported to industrial centers in the southern part of the country. To solve this issue, a network of residential solar batteries aims to reduce the pressure of the distribution limitations. The blockchain network will allow the TenneT operator to see available, ready-to-activate residential solar batteries, and then record the batteries' input to the electricity grid.  
+- TenneT is focusing on finding new sustainable ways to cope with the increasing dependency on and demand for electricity. In their quest to maintain the supply-demand balance, TenneT is exploring the use of a Hyperledger Fabric-based permissioned blockchain network that will integrate renewable electricity sources (such as electric cars and household batteries) in the energy grid.  
+- TenneT and Vandebron are running a pilot project in the Netherlands to test this potential solution. "Vandebron will work with customers who own an electric vehicle to make the capacity of their car batteries available to help TenneT balance the grid. Vandebron will provide this service to its customers without compromising the availability of their car battery. The blockchain enables each car to participate by recording their availability and their action in response to signals from TenneT."  
+- TenneT and sonnen are running another pilot project in Germany, focusing on re-dispatch efforts to prevent regional overloads on the energy grid by integrating renewable energy sources into the electricity supply network. In Germany, this would be needed, for example, when wind energy produced in northern Germany cannot be transported to industrial centers in the southern part of the country. To solve this issue, a network of residential solar batteries aims to reduce the pressure of the distribution limitations. The blockchain network will allow the TenneT operator to see available, ready-to-activate residential solar batteries, and then record the batteries' input to the electricity grid.  
 If tests are successful, this Hyperledger Fabric-based implementation could then be implemented worldwide, adding much needed flexibility and security in the energy management system.
 
-Smart Cities Use Case: Smart Dubai  
+### Smart Cities Use Case: Smart Dubai
 Dubai is known for being a world-class business, cultural, and touristic destination. Dubai aims to become the world's first government fully powered by blockchain technologies by 2020. Smart Dubai is a city-wide effort to empower residents and visitors alike via digital transformation, an effort that relies on the partnership between the private sector and government entities. It aims "to make Dubai the happiest city on earth through technology innovation" by creating an efficient, blockchain-based city government, digitizing all of its services to add increased transparency, security, efficiency and reduce bureaucracy. Below we highlight just a few of the Smart Dubai initiatives:  
- The Dubai Blockchain Strategy aims to enable the execution of all applicable government transactions through blockchain by 2020.  
- The Decentralized Data Marketplace leverages blockchain technology to ensure the security and immutability of transactions, tokenization to hide sensitive information, etc.  
- The UAEPASS is the national digital identity platform, giving UAE citizens, residents and visitors access to local and federal government services, as well as those of private companies, all on a single smart application, allowing them to authenticate and sign documents digitally.  
- The DubaiNow mobile application is a one-stop shop for smart services, unifying more than 55 key services from 22 government agencies. This application allows users to manage their bills, register their cars, renew licenses, track visa applications, obtain general information in real-time (from weather, to public transport, to health, etc.), and much more. This application also enables the Dubai government to implement various social responsibility-related activities: donations are collected and then distributed to a variety of beneficiaries, in collaboration with charities and government agencies. It also allows you to direct how money collected from fines you pay (e.g. traffic fines) are used, among other things.  
- Paperless government by 2020 is another goal of the Smart Dubai initiative, allowing officials and citizens to save time and resources, and protect the environment as well. “Adopting Blockchain technology Dubai stands to unlock 5.5 billion dirhams in savings annually in document processing alone - equal to the one Burj Khalifa’s worth of value every year.”  
+- The Dubai Blockchain Strategy aims to enable the execution of all applicable government transactions through blockchain by 2020.  
+- The Decentralized Data Marketplace leverages blockchain technology to ensure the security and immutability of transactions, tokenization to hide sensitive information, etc.  
+- The UAEPASS is the national digital identity platform, giving UAE citizens, residents and visitors access to local and federal government services, as well as those of private companies, all on a single smart application, allowing them to authenticate and sign documents digitally.  
+- The DubaiNow mobile application is a one-stop shop for smart services, unifying more than 55 key services from 22 government agencies. This application allows users to manage their bills, register their cars, renew licenses, track visa applications, obtain general information in real-time (from weather, to public transport, to health, etc.), and much more. This application also enables the Dubai government to implement various social responsibility-related activities: donations are collected and then distributed to a variety of beneficiaries, in collaboration with charities and government agencies. It also allows you to direct how money collected from fines you pay (e.g. traffic fines) are used, among other things.  
+- Paperless government by 2020 is another goal of the Smart Dubai initiative, allowing officials and citizens to save time and resources, and protect the environment as well. “Adopting Blockchain technology Dubai stands to unlock 5.5 billion dirhams in savings annually in document processing alone - equal to the one Burj Khalifa’s worth of value every year.”  
 Smart Dubai is embracing a multi-blockchain business model to deliver services, such as IBM's Hyperledger Fabric-based and ConsenSys' private blockchain implementation based on Ethereum. In October 2018, Smart Dubai and IBM launched the Dubai Blockchain Platform, the first government-endorsed blockchain-as-a-service platform in the UAE.  
 Through its ground-breaking, innovative initiatives and forward thinking, Dubai is transforming the life of its residents and visitors alike, creating a high benchmark for other cities looking to leverage innovation and state-of-the-art technologies. And while Dubai has achieved great successes in the past few years, their mission will not stop in 2021. They already have a vision toward Dubai 2050.  
 "Smart technology has firmly established itself as the engine driving the cities of the future, transforming human communities and activities - from the most mundane of tasks to the most complex. We are constantly on the lookout for new opportunities to meet representatives from other like-minded organisations who share our vision for a smart, connected future that allows people to enjoy seamless city experiences." (Khaleej Times)
 
 *   Dr. Aisha Bint Butti Bin Bishr, Director General of the Smart Dubai Office
 
-Blockchain Best Practices for Enterprises  
+### Blockchain Best Practices for Enterprises
 The use of distributed ledger technologies in production across various industries continues to expand and reach new horizons, as businesses explore new ways to incorporate blockchain in their day-to-day activities. However, in order to increase the success of blockchain business applications, some best practices must be considered:  
- Security for the long term  
+- Security for the long term  
 While blockchain transactions are secure and cryptographically protected when it comes to the current technological advancements, we should always keep in mind that nothing is static, and technology continues to advance at an incredibly fast pace. What is secure today may not be so in the near future. Hackers and other bad actors are constantly focusing on breaking the cryptographic algorithms that protect blockchain data today.  
 To avoid the potential security disruptions of tomorrow, a critical best practice is that users should never put personally identifiable information, or PII, on their blockchains.  
- File storage on the blockchain  
+- File storage on the blockchain  
 Due to the way blockchains work to store data, replicating it on every other node or peer in the network, storage and compute costs can be incredibly high. To avoid added storage costs, it is recommended that other storage and replication methods to be used - this includes cloud networks like AWS S3, GCP Filestore, etc. This way, nodes and peers can have pointers or links to the data files kept outside of the blockchain network, instead of the actual data.  
- Permissioned blockchain for private data  
+- Permissioned blockchain for private data  
 On public blockchains, anybody has access to the information stored on the network: they can add transactions and read the data that is in it. When it comes to permissioned blockchains, data can be stored, accessed and used only between partners that have access to it. Permissioned blockchains, such as the Hyperledger technologies, are a great solution for businesses, as they want their data to remain private.  
- Blockchain governance structure  
+- Blockchain governance structure  
 Most blockchain-related challenges are related to the governance model that is chosen. To keep things straightforward, you should define the governance structure upfront very early in the process, even before diving into blockchain: decide how new users/organizations are added to a blockchain network, how to determine if a user/organization should be removed from the blockchain network, include a mechanism that deals with and removes bad actors previously allowed in the network, etc. Keep in mind that things change over time, and as such, the governance procedures may change as well.  
- Performance and scalability requirements  
+- Performance and scalability requirements  
 Blockchain architects must have a clear understanding of the requirements for their specific use cases, and they must ensure that their blockchains meet those requirements. Based on these requirements, decisions must be made early on with each deployment and use case in regards to what technologies to use.  
- Goals of blockchain business cases  
+- Goals of blockchain business cases  
 Not every project or solution is successful, unless it is carefully planned, designed and implemented. A carefully thought out strategy must be designed and implemented for each project, to ensure that goals are achieved.  
 Blockchain can be a great solution for numerous business use cases that rely on security, controlled access, accountability, transparency, and efficiency, spanning a wide range of industries, from finance to banking, supply chains, manufacturing, healthcare, telecom, etc. Having well laid plans, goals and best practices can all help enterprise IT leaders explore the growing blockchain ecosystem as they work to capture its strengths for their businesses.
 
-The Outlook of Blockchain for Business  
+### The Outlook of Blockchain for Business
 The 2019 Technology Industry Innovation conducted by KPMG around the adoption of blockchain technologies suggests that 41 percent of businesses are likely to adopt and implement blockchain into their business operations in the next three years. Another important aspect revealed by this survey is that 48 percent of enterprises believe that blockchain will change the way they conduct and manage their business activities in the near future.  
 What areas are expecting significant disruptions due to increased adoption of blockchain technologies? The survey shows that IoT processes are expected to be impacted the most (27%), followed by processes involved in trading (22%), reduced cybersecurity risk (20%), contracts (18%), etc. Industries that are believed to see the greatest blockchain adoption in the near future are financial services, industrial manufacturing and telecommunications.  
 What advantages would businesses have by adopting blockchain technologies? The KPMG survey outlines some of them:  
- Improved business efficiencies  
- Product/service differentiation  
- Increased profitability  
- Cost reductions  
- New business insights from incremental data, etc.  
+- Improved business efficiencies  
+- Product/service differentiation  
+- Increased profitability  
+- Cost reductions  
+- New business insights from incremental data, etc.  
 Blockchain is viewed as one of the top 10 technologies that will transform businesses over the next three years, and beyond. The 2019 KPMG survey ranked blockchain at number 4, compared to 7 just a year ago. And, according to the Worldwide Semiannual Blockchain Spending Guide (March 2019) from International Data Corporation (IDC), worldwide spending on blockchain-related solutions is expected to reach $2.9 billion in 2019 (an increase of over 88% from the previous year), and $12.4 billion by 2022.  
 Want to be at the forefront of the blockchain technological innovation? Start assessing your needs to see if blockchain would be a good solution for your business.
 
-What Enterprises Look for When Evaluating Whether or Not to Use Hyperledger (Brian Behlendorf)
+### What Enterprises Look for When Evaluating Whether or Not to Use Hyperledger (Brian Behlendorf)
 
-What should an enterprise look for when evaluating whether or not to use Hyperledger?  
+#### What should an enterprise look for when evaluating whether or not to use Hyperledger?
 So, I always try to start... suggest that people start with the business need, right, trying to look at what are you doing in your enterprise, and probably, it will mean what are you doing with your business partners, with your suppliers, with your customers, maybe even with your competitors, right?  
 What is it... what are some business processes, or some provenance tracking problems, or a registry somewhere that, you know, you're putting too much trust in a central org somewhere, where is there an opportunity to take a decentralized ledger approach, and a smart contract approach to solving those issues?  
 Start with the need, right?  
@@ -1375,7 +1378,7 @@ This is still very early days, and you still need to be smart about how do we ap
 So, at some point, those two teams should meet up, right, and say "Here's what we think is really the MVP \[Minimum Viable Product\] or a proof of concept", and the other team should... that comes from the technology side of the house, should say "Okay, we understand how to build this, you know, if we, you know, shave these corners, we can do something in a week", right? and let's just see that, you know, cheap and dirty, what it looks like.  
 And then, over time, start to promulgate that amongst the other partners that you think you'd involve in a distributed ledger project.
 
-When to Use Blockchain  
+#### When to Use Blockchain
 There are certain factors to consider when evaluating blockchain distributed ledger technology for your business. How many participants are in your system? What is the geographical distribution of the participants? What sort of performance requirements do you have? Defining the rules, risks, and responsibilities of each party in your blockchain system is useful as you consider transferring a database to a decentralized environment such as one of the Hyperledger frameworks. Blockchain is best suited for business applications where one or more of the following conditions apply:  
 - There is a need for a shared common database
 - The parties involved with the process have conflicting incentives, or do not have trust among participants

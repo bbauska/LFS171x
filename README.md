@@ -9,88 +9,65 @@ LFS171x is part of the Blockchain for Business Professional Certificate. Skills 
 
 ## Table of Contents
 
-## 1\. [**Discovering Blockchain Technologies**](#ch1)  
- 
+## 1. [**Discovering Blockchain Technologies**](#ch1)
 
-### \*tabspace\* a. [**Introduction and Learning Objectives**](#ch1a)  
- 
+### >a. [**Introduction and Learning Objectives**](#ch1a)
 
-### \*tabspace\* b. [**Distributed Ledger Technology (DLT)**](#ch1b)  
- 
+### > b. [**Distributed Ledger Technology (DLT)**](#ch1b)
 
-### \*tabspace\* c. [**Bitcoin and Ethereum Blockchains**](#ch1c)  
- 
+### c. [**Bitcoin and Ethereum Blockchains**](#ch1c)
 
-### \*tabspace\* d. [**Exploring Permissionless Blockchains**](#ch1d)  
-\*tabspace\* e. [**Consensus Algorithms**](#ch1e)  
-\*tabspace\* f. [**Hyperledger(#ch1f)**](ch1f)  
-\*tabspace\* g. [**Other Open Source Permissioned Distributed Ledgers**](#ch1g)  
- 
+### d. [**Exploring Permissionless Blockchains**](#ch1d)
 
-### h. [**Challenges in the Adoption/Deployment of Distributed Ledger Technologies**](#ch1h)  
- 
+> e. [**Consensus Algorithms**](#ch1e)
 
-## 2\. [**Introduction to Hyperledger**](#ch2)  
- 
+> f. [**Hyperledger(#ch1f)**](ch1f)
+> g. [**Other Open Source Permissioned Distributed Ledgers**](#ch1g)
 
-### "tabspace" a. [**Introduction and Learning Objectives**](#ch2a)  
- 
+### h. [**Challenges in the Adoption/Deployment of Distributed Ledger Technologies**](#ch1h)
 
-### b. [**Hyperledger**](#ch2b)  
- 
+## 2. [**Introduction to Hyperledger**](#ch2)
 
-### c. [**Q/A with Brian Behlendorf, Executive Director of Hyperledger**](#ch2c)  
- 
+### a. [**Introduction and Learning Objectives**](#ch2a)
 
-## 3\. [**Hyperledger: Distributed Ledger Frameworks and Domain Specific Blockchains**](#ch3)  
- 
+### b. [**Hyperledger**](#ch2b)
 
-### a. [**Introduction and Learning Objectives**](#ch3a)  
- 
+### c. [**Q/A with Brian Behlendorf, Executive Director of Hyperledger**](#ch2c)
 
-### b. [**Hyperledger Frameworks**](#ch3b)  
- 
+## 3. [**Hyperledger: Distributed Ledger Frameworks and Domain Specific Blockchains**](#ch3)
 
-### c. [**Hyperledger: Domain-Specific Blockchain Technologies**](#ch3c)  
- 
+### a. [**Introduction and Learning Objectives**](#ch3a)
 
-## 4\. [**Hyperledger Tools**](#ch4)  
- 
+### b. [**Hyperledger Frameworks**](#ch3b)
 
-### a. [**Introduction and Learning Objectives**](ch4a)  
- 
+### c. [**Hyperledger: Domain-Specific Blockchain Technologies**](#ch3c)
 
-### b. [**Hyperledger Tools**](ch4b)  
- 
+## 4. [**Hyperledger Tools**](#ch4)
 
-## 5\. [**Hyperledger Libraries**](#ch5)  
- 
+### a. [**Introduction and Learning Objectives**](ch4a)
 
-### a. [**Introduction and Learning Objectives**](ch5a)  
- 
+### b. [**Hyperledger Tools**](ch4b)
 
-### b. [**Hyperledger Libraries**](ch5b)  
- 
+## 5. [**Hyperledger Libraries**](#ch5)
 
-## 6\. [**The Promise of Business Blockchain Technologies**](#ch6)  
- 
+### a. [**Introduction and Learning Objectives**](ch5a)
 
-### a. [**Introduction and Learning Objectives**](ch6a)  
- 
+### b. [**Hyperledger Libraries**](ch5b)
 
-### b. [**Existing Hyperledger Blockchain Use Cases**](ch6b)  
- 
+## 6. [**The Promise of Business Blockchain Technologies**](#ch6)
 
-### c. [**When to Use or Not to Use Blockchain Technologies**](ch6c)  
- 
+### a. [**Introduction and Learning Objectives**](ch6a)
 
-## 7\. [**What's Next?**](#ch7)  
- 
+### b. [**Existing Hyperledger Blockchain Use Cases**](ch6b)
 
-### **What's Next?**  
- 
+### c. [**When to Use or Not to Use Blockchain Technologies**](ch6c)
 
-## 1a. Introduction and Learning Objectives
+## 7. [**What's Next?**](#ch7)
+
+### **What's Next?**
+
+
+## 1. Discovering Blockchain Technologies
 
 A Word from Brian Behlendorf, Executive Director at Hyperledge  
 Hi, I'm Brian Behlendorf. I'm Executive Director of Hyperledger, a collaborative project hosted at the Linux Foundation.  
@@ -1426,8 +1403,7 @@ Although every trade has its own lifecycle, generally, the following steps will 
 
 ### Finance (Part IV)
 
-Smart contracts may greatly improve the process of post-trade settlement, by reducing disputes and errors. Smart contracts will ensure that final settlement will happen when the execution of a trade occurs. With smart contract technology, a legal agreement can automatically execute clauses within it.  
- 
+Smart contracts may greatly improve the process of post-trade settlement, by reducing disputes and errors. Smart contracts will ensure that final settlement will happen when the execution of a trade occurs. With smart contract technology, a legal agreement can automatically execute clauses within it.  
 
 ![image](https://user-images.githubusercontent.com/41387907/138567328-649aad18-c51d-4672-8c6c-8ee3630ea466.png)
 
@@ -1445,8 +1421,7 @@ A number of multi-party processes in the healthcare industry can leverage distri
 In 2015, the US spent 27.42% of the federal budget, or $1.05 trillion, on healthcare (National Priorities Project). Because these costs are so high, the US government, in particular, has invested resources into healthcare blockchain technology. The Office of National Coordinator for Health Information Technology (ONC) is responsible for health information technology. It has recognized a need for nationwide interoperability and standards for electronic health records, claims processing, and verification of provider credentials. To that end, it has sponsored many government blockchain initiatives in healthcare.  
 The healthcare industry has already placed medical insurance enrollment information on blockchain for verification, and plans to incorporate many other aspects of medical insurance claims processing on blockchain. One cost borne by health insurance providers is auditing care providers. Health insurance providers must verify whether a practitioner actually delivered the care that he or she was obliged to deliver to the patient. Health insurance providers must also audit the financial aspects incurred as part of this care, to ensure that care was paid, and the charges were accurate. Tying the care auditability with the payment auditability provides a key advantage to reducing the potential for fraud.  
 Healthcare (Part I)  
-The healthcare industry has examined placing prescription drug fulfillment processes on blockchain since they involve gathering and checking information from many sources. Insurance benefits investigation eligibility checks are performed to see if insurance will pay. Prior authorization and step therapy requirements are checked to see if a patient is able to receive a particular drug, or if other drugs are preferred. Formulary checks, patients’ assistance checks, and pharmacy stock checks must all be performed. The healthcare industry has also used DLT to handle online identity management, by uploading verified pieces of a healthcare professional’s credentials for license verification.  
- 
+The healthcare industry has examined placing prescription drug fulfillment processes on blockchain since they involve gathering and checking information from many sources. Insurance benefits investigation eligibility checks are performed to see if insurance will pay. Prior authorization and step therapy requirements are checked to see if a patient is able to receive a particular drug, or if other drugs are preferred. Formulary checks, patients’ assistance checks, and pharmacy stock checks must all be performed. The healthcare industry has also used DLT to handle online identity management, by uploading verified pieces of a healthcare professional’s credentials for license verification.  
 
 ![image](https://user-images.githubusercontent.com/41387907/138567356-a002ee52-de31-4e07-895c-8b0fe1e634c5.png)
 

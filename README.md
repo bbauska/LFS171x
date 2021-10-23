@@ -21,7 +21,7 @@ LFS171x is part of the Blockchain for Business Professional Certificate. Skills 
 
 >### e. [**Consensus Algorithms**](#ch1e)
 
->### f. [**Hyperledger(#ch1f)**](ch1f)
+>### f. [**Hyperledger(#ch1f)**](#ch1f)
 
 >### g. [**Other Open Source Permissioned Distributed Ledgers**](#ch1g)
 

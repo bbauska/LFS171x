@@ -11,16 +11,16 @@ LFS171x is part of the Blockchain for Business Professional Certificate. Skills 
 ## <a id="toc"></a>Table of Contents
 
 ## 1. **[Discovering Blockchain Technologies](#ch1)**<br>
-  ### a. **[Introduction and Learning Objectives](#ch1a)**<br>
-  ### b. **[Distributed Ledger Technology (DLT)](#ch1b)**<br>
-  ### c. **[Bitcoin and Ethereum Blockchains](#ch1c)**<br>
-  ### d. **[Exploring Permissionless Blockchains](#ch1d)**<br>
-  ### e. **[Consensus Algorithms](#ch1e)**<br>
-  ### f. **[Hyperledger(#ch1f)](ch1f)**<br>
-  ### g. **[Other Open Source Permissioned Distributed Ledgers](#ch1g)**<br>
-  ### h. **[Challenges in the Adoption/Deployment of Distributed Ledger Technologies](#ch1h)**<br>
+### a. **[Introduction and Learning Objectives](#ch1a)**<br>
+### b. **[Distributed Ledger Technology (DLT)](#ch1b)**<br>
+### c. **[Bitcoin and Ethereum Blockchains](#ch1c)**<br>
+### d. **[Exploring Permissionless Blockchains](#ch1d)**<br>
+### e. **[Consensus Algorithms](#ch1e)**<br>
+### f. **[Hyperledger(#ch1f)](ch1f)**<br>
+### g. **[Other Open Source Permissioned Distributed Ledgers](#ch1g)**<br>
+### h. **[Challenges in the Adoption/Deployment of Distributed Ledger Technologies](#ch1h)**<br>
 ## 2.  **[Introduction to Hyperledger](#ch2)**<br>
-### a. **[Introduction and Learning Objectives](#ch2a)**<br>
+### "tabspace" a. **[Introduction and Learning Objectives](#ch2a)**<br>
 ### b. **[Hyperledger](#ch2b)**<br>
 ### c. **[Q/A with Brian Behlendorf, Executive Director of Hyperledger](#ch2c)**<br>
 ## 3.  **[Hyperledger: Distributed Ledger Frameworks and Domain Specific Blockchains](#ch3)**<br>

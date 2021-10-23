@@ -28,11 +28,11 @@ LFS171x is part of the Blockchain for Business Professional Certificate. Skills 
 
 ## 2. [**Introduction to Hyperledger**](#ch2)
 
-### a. [**Introduction and Learning Objectives**](#ch2a)
+>### a. [**Introduction and Learning Objectives**](#ch2a)
 
-### b. [**Hyperledger**](#ch2b)
+>### b. [**Hyperledger**](#ch2b)
 
-### c. [**Q/A with Brian Behlendorf, Executive Director of Hyperledger**](#ch2c)
+>### c. [**Q/A with Brian Behlendorf, Executive Director of Hyperledger**](#ch2c)
 
 ## 3. [**Hyperledger: Distributed Ledger Frameworks and Domain Specific Blockchains**](#ch3)
 

@@ -20,9 +20,9 @@ LFS171x is part of the Blockchain for Business Professional Certificate. Skills 
     **g. Other Open Source Permissioned Distributed Ledgers**  
     **h. Challenges in the Adoption/Deployment of Distributed Ledger Technologies**
 2.  **[Chapter 2. Introduction to Hyperledger](#ch2)**<br>
-    **a. Introduction and Learning Objectives**  
-    **b. Hyperledger**  
-    **c. Q/A with Brian Behlendorf, Executive Director of Hyperledger**
+    **[a. Introduction and Learning Objectives](#ch2a)**<br>
+    **[b. Hyperledger](#ch2b)**<br>
+    **[c. Q/A with Brian Behlendorf, Executive Director of Hyperledger](#ch2c)**<br>
 3.  **[Chapter 3. Hyperledger: Distributed Ledger Frameworks and Domain Specific Blockchains](#ch3)**<br>
     **a. Introduction and Learning Objectives**  
     **b. Hyperledger Frameworks**  
@@ -40,7 +40,7 @@ LFS171x is part of the Blockchain for Business Professional Certificate. Skills 
 7.  **[Chapter 7. What's Next?](#ch7)**<br>
     **What's Next?**
 
-### <a id="ch1"></a>1a. Introduction and Learning Objectives
+## <a id="ch1"></a>1a. Introduction and Learning Objectives
 A Word from Brian Behlendorf, Executive Director at Hyperledge  
 Hi, I'm Brian Behlendorf. I'm Executive Director of Hyperledger, a collaborative project hosted at the Linux Foundation.  
 I want to welcome you to the first ever training course for Hyperledger and our related technology projects.  
@@ -90,6 +90,9 @@ A Bitcoin block consists of four pieces of metadata:
 ### 1d. Merkle Tree
 The Merkle tree, also known as a binary hash tree, is a data structure that is used to store hashes of the individual data in large datasets in a way to make the verification of the dataset efficient. It is an anti-tamper mechanism to ensure that the large dataset has not been changed. The word "tree" is used to refer to a branching data structure in computer science, as seen in the image below. According to Andreas M. Antonopoulos, in the Bitcoin protocol,  
 "Merkle trees are used to summarize all the transactions in a block, producing an overall digital fingerprint of the entire set of transactions, providing a very efficient process to verify whether a transaction is included in a block".
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/41387907/138568538-44ec3e90-eca6-4137-99d3-e1462ac29ec5.png" />
+</p>
 
 **Bitcoin Block Data**  
 (licensed under Creative Commons Attribution-Share-Alike 3.0 Unported, retrieved from Wikipedia)
@@ -149,6 +152,8 @@ Cryptography has a key role to play both in the security, as well as in the immu
 Blockchain technology has some key differentiators from databases.  
 A blockchain is a write-only data structure, where new entries get appended onto the end of the ledger. Every new block gets appended to the blockchain by linking to the previous block's "hash" (you can check the Glossary tab for a refresher on hash functions). There are no administrator permissions within a blockchain that allow editing or deleting of data.  
 In a relational database, data can be easily modified or deleted. Typically, there are database administrators who may make changes to any part of the data and/or its structure. Additionally, blockchains were designed for decentralized applications, whereas relational databases, in general, were originally designed for centralized applications, where a single entity controls the data.
+
+![image](https://user-images.githubusercontent.com/41387907/138568551-2a6cd403-cc18-43d5-b8f4-e63dee008508.png)
 
 **Types of Blockchains**  
 A blockchain can be both permissionless (like Bitcoin or Ethereum) or permissioned (like the different Hyperledger blockchain frameworks). A permissionless blockchain is also known as a public blockchain, because anyone can join the network. A permissioned blockchain, or private blockchain, requires pre-verification of the participating parties within the network, and these parties are usually known to each other.  
@@ -340,7 +345,7 @@ MODERATE *****
 GOOD *
 POOR
 
-### <a id="ch2"></a>Chapter 2. Hyperledger
+## <a id="ch2"></a>Chapter 2. Hyperledger
 Hyperledger is an open source effort created to advance cross-industry blockchain technologies. Hosted by The Linux Foundation, it is a global collaboration of members from various industries, including finance, banking, Internet of Things (IoT), supply chain, manufacturing, healthcare and more. Hyperledger boasts a host of enterprise-ready solutions. Hyperledger is about communities of software developers building blockchain frameworks and platforms. We will take a closer look at some of the current Hyperledger projects in the coming chapters.  
 "One of the first things people learn when coming to Hyperledger is that Hyperledger isn’t, like its name may imply, a ledger. It is a collection of blockchain technology projects."  
 Dan Middleton, All Are Welcome Here (2018)
@@ -417,14 +422,13 @@ The lack of regulation around transactions on the blockchain creates an environm
 Similarly, there are no regulatory guidelines governing smart contracts, causing much anxiety among various players like lawyers, regulators, programmers, and businesses. The lack of regulatory guidelines, along with a lack of industry standards, exacerbates hindrances to rapid adoption of DLT.
 
 ### Lack of Know-How
-
 The lack of know-how (and know-whom and know-where) around distributed ledger technologies and the availability of experts in the area is a major challenge in the adoption of distributed ledger technologies. While there has been an exponential increase in the interest around 'blockchain', as indicated in the figure below, there is a huge lag of technical talent in the space. In fact, the origin of this course stems from the need to address this gap in know-how.
 
 ### Blockchain Search Volume
 Retrieved from https://coin.dance/stats/blockchain on November 6, 2020  
 Jobs in the blockchain development space are among the top 20 fastest growing, and the number of positions available increased over 200% in 2018 over those available the previous year. However, there is not a large enough pool of qualified blockchain developers, and this is a major concern. The emergence of more and more blockchain training courses and certifications is aiming to slowly close this gap.
 
-## Chapter 2 - Introduction
+### <a id="ch2a"></a>Chapter 2 - Introduction to Hyperledger
 This chapter provides an overview of Hyperledger, a collaborative project hosted by The Linux Foundation that is focused on business blockchain technologies. It also provides a brief introduction to the projects advanced under the Hyperledger greenhouse, as of November 2020.
 
 ### Learning Objectives
@@ -750,7 +754,7 @@ so that we can get to an ideal, where you could pick the Ethereum virtual machin
 and, in fact, the Sawtooth and Burrow communities have now actually progressed, and you can now run Ethereum smart contracts on top of Sawtooth, which is pretty cool.  
 So, I think we'll see more activity like that.
 
-## Chapter 3: Introduction
+##<a id="ch3"></a> Chapter 3: Introduction
 In this chapter, we will briefly explore the frameworks developed under the Hyperledger umbrella (as of November 2020), highlighting their key features and use cases. We will dive deeper in discussing use cases in the last chapter of this course.
 
 ### Learning Objectives
@@ -1423,7 +1427,7 @@ For some applications, other options are simply more efficient. When evaluating 
 ![image](https://user-images.githubusercontent.com/41387907/138567204-200dc8b5-a140-4b7f-b649-020c862c0181.png)
 
 #### Blockchain Decision Path
-The following diagram provides generalized, high-level decision points about when to use or not to use blockchain technology for your business.
+The above diagram provides generalized, high-level decision points about when to use or not to use blockchain technology for your business.
 
 #### Hyperledger Community
 The development of the Hyperledger projects is led by a diverse group of technical, open source contributors. We are always looking for help to build an open source ecosystem of business blockchain technologies. If you are interested in contributing to and learning from the community, we welcome you to join the Hyperledger effort.

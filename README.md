@@ -379,7 +379,7 @@ The following table offers an at-a-glance view of the main considerations and pr
 
 ![image](https://user-images.githubusercontent.com/41387907/138574948-4f8e4a52-b320-41aa-81e9-bc126d649c4e.png)
 
-## Chapter 2. Hyperledger
+## <a id="ch2"></a> Chapter 2. Hyperledger
 Hyperledger is an open source effort created to advance cross-industry blockchain technologies. Hosted by The Linux Foundation, it is a global collaboration of members from various industries, including finance, banking, Internet of Things (IoT), supply chain, manufacturing, healthcare and more. Hyperledger boasts a host of enterprise-ready solutions. Hyperledger is about communities of software developers building blockchain frameworks and platforms. We will take a closer look at some of the current Hyperledger projects in the coming chapters.  
 "One of the first things people learn when coming to Hyperledger is that Hyperledger isn’t, like its name may imply, a ledger. It is a collection of blockchain technology projects."  
 Dan Middleton, All Are Welcome Here (2018)
@@ -448,30 +448,29 @@ Other challenges encountered when it comes to the adoption and deployment of dis
     We hope you go on to address some of these challenges and contribute to building a secure digital future!
 
 ### Standards
-
 Since we are still witnessing the early days of blockchain technology, there is very little agreement on standards in the developer and business community, as of yet. Standards are key in ensuring interoperability and avoiding risks associated with a fragmented ecosystem. Standards are critical not just for the distributed ledger itself, but also for supporting services, like identity, privacy, and data governance. Furthermore, the management of keys, as well as protocols and standards around key loss and theft, will be critical (Deshpande, Stewart, Lepetit, & Gunashekar, 2017).  
 As a result, the International Organization for Standardization for Blockchain and Distributed Ledger Technologies was established in 2016 and has defined areas for future standardization work (Clare Naden, 2017). More about the ISO/TC 307 technical committee can be found at the ISO/TC 307 website.
 
-### Regulation
+![image](https://user-images.githubusercontent.com/41387907/138574995-d5b3afa4-dcd0-4caf-9533-52f0ec24999d.png)
 
+### Regulation
 The lack of regulation around transactions on the blockchain creates an environment of uncertainty for all players. Highly regulated industries like financial services are treading carefully in the DLT space. The Securities and Exchange Commission of the United States has clarified its stance on Initial Coin Offerings (ICOs) in 2017. The Chinese government has, in fact, banned all ICOs, while 60 major ICO platforms are being investigated (Saheli Roy Choudhury, 2017).  
 Similarly, there are no regulatory guidelines governing smart contracts, causing much anxiety among various players like lawyers, regulators, programmers, and businesses. The lack of regulatory guidelines, along with a lack of industry standards, exacerbates hindrances to rapid adoption of DLT.
 
 ### Lack of Know-How
-
 The lack of know-how (and know-whom and know-where) around distributed ledger technologies and the availability of experts in the area is a major challenge in the adoption of distributed ledger technologies. While there has been an exponential increase in the interest around 'blockchain', as indicated in the figure below, there is a huge lag of technical talent in the space. In fact, the origin of this course stems from the need to address this gap in know-how.
 
 ### Blockchain Search Volume
-
 Retrieved from https://coin.dance/stats/blockchain on November 6, 2020  
+
+![image](https://user-images.githubusercontent.com/41387907/138575010-3b9dadc7-51ab-4252-96a4-11d8606e92ca.png)
+
 Jobs in the blockchain development space are among the top 20 fastest growing, and the number of positions available increased over 200% in 2018 over those available the previous year. However, there is not a large enough pool of qualified blockchain developers, and this is a major concern. The emergence of more and more blockchain training courses and certifications is aiming to slowly close this gap.
 
 ### Chapter 2 - Introduction to Hyperledger
-
 This chapter provides an overview of Hyperledger, a collaborative project hosted by The Linux Foundation that is focused on business blockchain technologies. It also provides a brief introduction to the projects advanced under the Hyperledger greenhouse, as of November 2020.
 
 ### Learning Objectives
-
 By the end of this chapter, you should be able to:
 
 *   Explain the differences between Hyperledger and permissionless blockchain technologies.
@@ -480,7 +479,6 @@ By the end of this chapter, you should be able to:
 *   Discuss the project lifecycle process adopted by Hyperledger, and the five possible states.
 
 ### Hyperledger (Navroop Sahdev)
-
 Hyperledger is an open source effort created to advance cross-industry blockchain technologies.  
 It's a global collaboration hosted by The Linux Foundation that encompasses various industries and organizations worldwide.  
 You may think of Hyperledger as an operating system for marketplaces, data sharing networks, microcurrencies, and decentralized digital communities.  
@@ -493,16 +491,16 @@ Rather than displaying the record of the transactions to the whole network, they
 So, Hyperledger provides all the capabilities of blockchain architecture, data privacy, information sharing, immutability, with a full stack of security protocols, all for the enterprise.
 
 ### Hyperledger
-
 Hyperledger incubates and promotes a range of business blockchain technologies, including distributed ledger frameworks, smart contract engines, client libraries, graphical interfaces, utility libraries, and sample applications. Hosted by The Linux Foundation, collaborators include industry leaders in technology, finance, banking, supply chain management, manufacturing, and IoT.  
 As of November 2020, there are 16 projects in the Hyperledger greenhouse, six of which are distributed ledger and domain specific frameworks. The other 10 projects are tools and libraries that support these frameworks.
+
+![image](https://user-images.githubusercontent.com/41387907/138575021-89ffa40e-3a0a-4fae-a1a4-55b31e472350.png)
 
 As Arnaud Le Hors, member of the Hyperledger Technical Steering Committee, emphasized,  
 "these projects show how broadly applicable blockchain technology really is. This goes way beyond cryptocurrencies".  
 Hyperledger provides an alternative to the cryptocurrency-based blockchain model, and focuses on developing blockchain frameworks, tools and libraries to support global enterprise solutions. The focus of Hyperledger is to provide a transparent and collaborative approach to blockchain development.
 
 ### The Birth of Hyperledger
-
 It's amazing how quickly Hyperledger has developed and evolved over the past few years.  
 I was wondering if you could tell me a bit about the journey of how Hyperledger has come to be.  
 So, the Hyperledger Project began when a set of companies who were starting to pay attention to this Bitcoin space, this cryptocurrency space, this blockchain space, approached The Linux Foundation and said "Let's do a project together".  
@@ -521,11 +519,11 @@ I joined in May of 2016, so, a little bit of a late comer, I guess, to the launc
 But, I joined partly because I saw how transparent, and how engaging, even from day one, all of these processes have been.
 
 ### Hyperledger Goals
-
 Hyperledger has taken a leadership role to develop cross-industry standards and provide a neutral space for software collaboration. The financial services industry, in particular, is witnessing an unprecedented level of collaboration between institutions that have traditionally been competitors. The advent of a new foundational or infrastructural technology like the blockchain - much like the Internet - requires collaboration of various actors in order to realize the full benefits of the technology. Unless all actors use a certain standard, the pace of technological dissemination will continue to be slow. Technological adoption is characterized by network effects, where the costs decrease with the increase in use of a certain technology. Since shifting to distributed ledger technology involves significant costs, open source software, communities and ecosystems that develop around these have a significant part to play.
 
-### The Importance of Open Source
+![image](https://user-images.githubusercontent.com/41387907/138575026-76ac68b2-101e-464d-95e7-4f9d122e5ea4.png)
 
+### The Importance of Open Source
 So, you had mentioned before how Hyperledger is different from other consortiums because of its focus on creating an open community, not just open sourcing code.  
 Can you tell us a little bit about why this is important?  
 So, open source communities, I believe, live and breathe on not just, you know, reporting bugs or, you know, downloading code, but, actually, live and breathe on true collaboration, on saying not just, you know, "I have a bug and somebody needs to fix it", but, instead, saying "Here's how I'd like to solve this", right? What do people think?  
@@ -541,7 +539,6 @@ This will be their system of record, right? So, it's essential that we develop t
 And what I hope is that, through these processes, they can rest assured that, when they pick up Hyperledger, anything, right, that anything will be software that they can trust.
 
 ### Open Standards
-
 "Only an Open Source, collaborative software development approach can ensure the transparency, longevity, interoperability and support required to bring blockchain technologies forward to mainstream commercial adoption. That is what Hyperledger is about - communities of software developers building blockchain frameworks and platforms".
 
 *   hyperledger.org  
@@ -553,7 +550,6 @@ And what I hope is that, through these processes, they can rest assured that, wh
     John Palfreyman, ibm.com
 
 ### Open Source and Open Standards
-
 The Enterprise Ethereum Alliance (EEA) and Hyperledger formally joined each other's organizations as Associate Members in October 2018. This strategic partnership aims to grow the blockchain ecosystem by enabling "active and mutual cross-community collaboration through event participation, connecting with other members, and finding ways for our respective efforts to be complementary and compatible."
 
 *   EEA promotes the development of specifications and standards for enterprise blockchain networks
@@ -567,7 +563,6 @@ The Enterprise Ethereum Alliance (EEA) and Hyperledger formally joined each othe
     While working together, the two organizations will also continue to collaborate with other standard bodies and open source communities, all with the common goal of accelerating the adoption of enterprise blockchain technologies.
 
 ### Open Source and Open Governance
-
 "Today, most people understand the concept of Open Source. What many people don't get, and something we here at Hyperledger and The Linux Foundation pride ourselves on doing well, is Open Governance".
 
 *   hyperledger.org  
@@ -606,13 +601,11 @@ We're going to discover over time how these projects differentiate with each oth
 and it's the role of the Technical Steering Committee, and a bunch of other committees we have around identity, and architecture, and white papers, and things, to try to weave these different efforts together in something that looks coherent, something that makes sense for developers.
 
 ### Strength Through Diversity
-
 As you familiarize yourself more with Hyperledger and the blockchain technologies it fosters in its greenhouse, you will notice the similarities between some of its projects, but most importantly, what differentiates them from one another and the use cases they were designed to address. The idea behind this approach was and continues to be that there is no one solution to address the myriad of needs, requirements and use cases.  
 "Having a portfolio of projects, though, enables us to have the variety of ideas and contributors to become a strong open source community... It's not that our multiplicity of projects has given us strength through numbers, but rather strength through diversity."  
 Dan Middleton, All Are Welcome Here (2018)
 
 ### Blockchain Security at Hyperledger (David Huseby)
-
 So, security with distributed ledgers really begins here at Hyperledger with our culture of secure software development.  
 Every aspect of the software, from development, through testing, through bug fixing, and vulnerability resolution, it's done in a completely open process.  
 It's open to anybody to participate.  
@@ -627,7 +620,6 @@ So, once we can ship a product, a piece of software that's been built to the bes
 So, it's a very holistic approach to security here at Hyperledger: everything, from the way we write software to the way the software works.
 
 ### How Will Hyperledger Change the Blockchain Ecosystem? (Brian Behlendorf)
-
 How do you think Hyperledger will change the industries that adopt the technology?  
 So, in the Internet era, we, as technologists, have gotten really good at building big central databases and big central services, right?  
 Think about the move to the cloud. The move to the cloud wasn't a move to, you know, a really dispersed, diffused, decentralized kind of system.  
@@ -647,7 +639,6 @@ especially in a more decentralized setting.
 We can avoid the over-centralization of industries, and the over-centralization of society through the use of these technologies.
 
 ### Blockchain for Business
-
 The cryptocurrency-based blockchain model, popularized by public blockchains like Bitcoin and Ethereum, currently falls short of fulfilling a host of requirements that many types of organizations would have to fulfill in order to be compliant when using blockchain and distributed ledger technologies - for instance, in the areas of financial services, healthcare, and government.  
 Hyperledger is a unique platform that is developing permissioned distributed ledger frameworks specifically designed for enterprises, including those in industries with strong compliance requirements. Enterprise use cases require capabilities such as scalability and throughput, built-in or interoperable identity modules for the parties involved in a transaction or a network, or even access to regulators who can access all data in the ledger as read-only to ensure compliance. The latter is particularly important because, regardless of the innovation, it has to operate within the current regulatory framework, as well as comply with any new rules that come into place specifically targeted at blockchain technologies.  
 The enterprise continues to be at the heart of this course.  
@@ -670,7 +661,6 @@ So, that's really what we're trying to build, and that's why we believe companie
 And hopefully, become contributors to them, as well.
 
 ### Hyperledger, A Greenhouse for Blockchain Projects
-
 Welcome to the Hyperledger greenhouse: an incubator for open source blockchain technologies for business hosted by the Linux Foundation.  
 So, what does that mean exactly?  
 Let's start here, with you: you're a business, large or small, participating in a commercial ecosystem.  
@@ -697,7 +687,6 @@ Of course, this only represents a fraction of what open source blockchain techno
 So it's time to ask yourself: who will you trust with your trust network?
 
 ### Project Lifecycle and Hyperledger Incubator
-
 According to the Hyperledger documentation, a project refers to a collaborative endeavor to deliver a work item. Projects can vary in terms of scope: some are intended to produce a document, some may develop new capabilities or refactor/remove an existing capability.  
 In general, open source initiatives use an incubation process for new work items: this allows members of the community to contribute new ideas and code in a more structured and transparent workflow. Hyperledger has adopted a rigorous project lifecycle process that has six possible states:
 
@@ -727,17 +716,14 @@ In general, open source initiatives use an incubation process for new work items
     The other projects are still working through the process, and the goal is to get every one of them out of the Incubator.
 
 ### Hyperledger Labs
-
 Currently, the Hyperledger Project Lifecycle is a very rigorous process that includes 6 possible states. For a project to join the Hyperledger Greenhouse, it must have a certain degree of maturity even in the early proposal and incubation stages.  
 Hyperledger Labs provides a space where work can easily be started without the creation of an official Hyperledger project. Developers working on projects that are immature (incomplete code, not ready from a production-quality point of view, with small communities) or experimental will thus get the opportunity to work in a space suitable for innovation and testing of new ideas; moreover, they will work within a legal framework that would ease the transition to the Hyperledger Incubator (if the project matures enough and reaches that stage). Hyperledger Labs have similarities with the Apache Labs and the W3C Community Groups.  
 There is a specific process that must be followed when proposing a new lab. Labs that become dormant or unresponsive for 6 months or more, or are deemed deprecated or obsoleted by their committers are archived.
 
 ### Q/A with Brian Behlendorf, Executive Director of Hyperledger
-
 Before diving deeper into the projects advanced under the Hyperledger umbrella, we asked Brian Behlendorf, Executive Director of Hyperledger at The Linux Foundation, some questions.
 
 ### Reasons Why Developers Would Become Interested in Open Source Software
-
 So, many of the students taking this course are more familiar with working with Devs within the same room.  
 But why do you think developers would be excited in becoming involved with open source projects, such as Hyperledger?  
 Well, open source software represents, generally, the largest software development classroom ever, right?  
@@ -763,7 +749,6 @@ and not just technical, but also your communication skills, your collaboration s
 So, all of that means working on open source projects can be tremendously beneficial to your own ongoing education, as well as your ability to build your career.
 
 ### Hyperledger vs. Apache
-
 While at Apache, you were able to successfully build an open software developer community.  
 What are some similarities and differences between Hyperledger and Apache in its evolution as an open source project?  
 Right... Well, on the Apache web server project, which later became the Apache Software Foundation,  
@@ -801,7 +786,6 @@ So, this balancing act of, you know... as I mentioned, there's a developer commu
 That's the balancing act... that The Linux Foundation has really developed a process for, a template for, and a real science around, and that's what we're bringing to bear on the Hyperledger project.
 
 ### Interoperability Between Hyperledger Frameworks
-
 What do you think will help foster interoperability between these three different Hyperledger frameworks?  
 So, there's a number of things that we can do to assist in the interoperability between the different projects at Hyperledger.  
 One thing we're working on is kind of an overall architectural view of all the different projects, right?  
@@ -819,14 +803,12 @@ So, I think we'll see more activity like that.
 In this chapter, we will briefly explore the frameworks developed under the Hyperledger umbrella (as of November 2020), highlighting their key features and use cases. We will dive deeper in discussing use cases in the last chapter of this course.
 
 ### Learning Objectives
-
 By the end of this chapter, you should be able to:
 
 *   List the components of Hyperledger frameworks.
 *   Get a high-level understanding of the Hyperledger frameworks and domain-specific blockchain technologies: Hyperledger Besu, Hyperledger Burrow, Hyperledger Fabric, Hyperledger Grid, Hyperledger Indy, Hyperledger Iroha, and Hyperledger Sawtooth.
 
 ### Components of Hyperledger Frameworks
-
 Hyperledger business blockchain frameworks are used to build enterprise blockchains for a consortium of organizations. They are different than public ledgers like the Bitcoin blockchain and Ethereum. Hyperledger frameworks include:
 
 *   An append-only distributed ledger
@@ -851,7 +833,6 @@ Among its features:
 *   Allows permissioning.
 
 ### Hyperledger Burrow
-
 Welcome to the Hyperledger greenhouse, an open source consortium for developing business blockchain technologies hosted by the Linux Foundation.  
 Within the greenhouse, diverse global communities collaboratively develop open source projects that uniquely approach enterprise blockchain challenges.  
 These technologies can cross-pollinate and interoperate, just like how the community is driving the projects, collaborate in an open and neutral environment.  
@@ -876,7 +857,6 @@ Hyperledger Burrow components are:
 *   The Application Blockchain Interface (ABCI) provides interface specification for the consensus engine and smart contract application engine to connect.
 
 ### Hyperledger Fabric
-
 Welcome to the Hyperledger greenhouse, an open source consortium for developing business blockchain technologies hosted by the Linux Foundation.  
 Within the greenhouse, diverse global communities collaboratively develop open source projects that uniquely approach enterprise blockchain challenges.  
 These technologies can cross-pollinate and interoperate, just like how the community is driving the projects collaborate in an open and neutral environment.  
@@ -900,7 +880,6 @@ Key characteristics of Hyperledger Fabric are:
 Its modular architecture allows components such as consensus and membership services to be plug-and-play. One of the key advantages of Hyperledger Fabric is that it allows entities to conduct confidential transactions without passing information through a central authority. This is accomplished through different channels that run within the network, as well as the division of labor that characterizes the different nodes within the network.
 
 ### Hyperledger Indy
-
 Welcome to the Hyperledger greenhouse, an open source consortium for developing business blockchain technologies hosted by the Linux Foundation.  
 Within the greenhouse, diverse global communities collaboratively develop open source projects that uniquely approach enterprise blockchain challenges.  
 These technologies can cross-pollinate and interoperate, just like how the community is driving the projects, collaborate in an open and neutral environment.  
@@ -940,7 +919,6 @@ One of the key principles of Hyperledger Indy is its "privacy by design" approac
     Further information about the history of the project can be found at the Sovrin's website.
 
 ### Hyperledger Iroha
-
 Welcome to the Hyperledger greenhouse, an open source consortium for developing business blockchain technologies hosted by the Linux Foundation.  
 Within the greenhouse, diverse global communities collaboratively develop open source projects that uniquely approach enterprise blockchain challenges.  
 These technologies can cross-pollinate and interoperate, just like how the community is driving the projects collaborate in an open and neutral environment.  
@@ -973,7 +951,7 @@ Hyperledger Iroha is a free, open source blockchain framework contributed by Sor
     Hyperledger Iroha emphasizes mobile application development with client libraries for Android and iOS, making it distinct from other Hyperledger frameworks. Inspired by Hyperledger Fabric, Hyperledger Iroha seeks to complement Hyperledger Fabric and Hyperledger Sawtooth, while providing a development environment for C++ developers to contribute to Hyperledger.  
     Hyperledger Iroha is an active project, and reached a significant milestone in May 2019, the 1.0 release. To learn more about it, you can read the announcement.
 
-Hyperledger Sawtooth  
+### Hyperledger Sawtooth
 Welcome to the Hyperledger greenhouse, an open source consortium for developing business blockchain technologies hosted by the Linux Foundation.  
 Within the greenhouse, diverse global communities collaboratively develop open source projects that uniquely approach enterprise blockchain challenges.  
 These technologies can cross-pollinate and interoperate, just like how the community is driving the projects collaborate in an open and neutral environment.  
@@ -1002,7 +980,6 @@ Hyperledger Sawtooth, is an open source blockchain framework that utilizes a hig
     Distributed ledger solutions built with Hyperledger Sawtooth can utilize various consensus algorithms based on the size of the network (PoET SGX, Raft, etc.). Hyperledger Sawtooth is designed for versatility, with support for both permissioned and permissionless deployments. This technology simplifies blockchain application development and deployment by clearly separating the core system from the application domain.
 
 ### Hyperledger Sawtooth Characteristics Relative to Use Cases (Dan Middleton)
-
 So, unique characteristics of Sawtooth... There's several, but one that comes to mind for a provenance or supply chain use case,  
 is that that network will probably grow over time.  
 The reason that a lot of us are starting blockchain networks, a lot of companies are invested in looking at blockchain networks, because we think that we're going to be in them for a long time and they're going to continue to grow.  
@@ -1011,7 +988,6 @@ I think this is a unique characteristic of Sawtooth amongst all of the other led
 It allows you to have tens, or hundreds, or potentially thousands of different nodes on your network, and you really can't beat that kind of availability and integrity guarantees, or that kind of flexibility for a network that needs to be up for years.
 
 ### Hyperledger Sawtooth - Supply Chain Use Case Example (Courtesy of Sawtooth)
-
 Meet Rich: he owns a popular seafood restaurant in Boston, Massachusetts.  
 Rich strives to serve only the freshest, highest quality fish to his patrons, but he often has difficulty knowing exactly where it was caught, how it got to his restaurant, or if it's even the right species of fish.  
 From ocean to table, the fish supply chain is difficult to track, and usually follows this pattern: the fish is caught by a commercial fisherman in the ocean,  
@@ -1037,7 +1013,6 @@ The blockchain will ensure the data is secure and tamper-proof, so that you know
 Sawtooth Lake creates a digital platform enabling physical traceability in a trustless world.
 
 ### Hyperledger Grid
-
 Hyperledger Grid is a domain-specific business blockchain technology for building supply chain solutions that include distributed ledger components; it's an ecosystem of technologies, frameworks, and libraries that work together, allowing application developers to chose which components are best for their industry or market model. It intends to:
 
 *   Provide reference implementations of supply chain-centric data types, data models, and smart contract-based business logic based on existing open standards and industry best practices
@@ -1050,19 +1025,16 @@ Hyperledger Grid is a domain-specific business blockchain technology for buildin
 *   Electronic Product Code Information Services (EPCIS) - This is similar to a standardized API, capturing and sharing information about the movement and status of products, logistic units, and other assets in the supply chain.  
     You can learn more about Hyperledger Grid from its website and wiki pages, where more resources are provided as well.
 
-## Chapter 4: Hyperledger Tools
-
+## <a id="ch4"></a>Chapter 4: Hyperledger Tools
 The Hyperledger frameworks which we examined in the previous chapter are used to build blockchains and distributed ledgers. The Hyperledger tools, which we will look at next, are auxiliary softwares used for things like deploying and maintaining blockchains, examining the data on the ledgers, as well as tools to design, prototype, and extend blockchain networks.
 
 ### Learning Objectives
-
 By the end of this chapter, you should be able to:
 
 *   Understand the role of Hyperledger tools.
 *   Get a high-level understanding of the Hyperledger tools (as of November 2020): Hyperledger Avalon, Hyperledger Cactus, Hyperledger Caliper, Hyperledger Cello, Hyperledger Explorer.
 
 ### Hyperledger Avalon
-
 Hyperledger Avalon is a ledger independent implementation of the Off-Chain Trusted Compute Specification published by the Enterprise Ethereum Alliance (EEA). It joined the Hyperledger Incubator in October of 2019, bringing together sponsorship from Intel, iExec Blockchain Tech, Alibaba Cloud, Baidu, BGI, Chainlink, Consensys, EEA, Espeo, IBM, Kaleido, Microsoft, Banco Santander, Wipro, Oracle, and Monax. It aims to enable the secure movement of blockchain processing off the main chain to dedicated computing resources. Avalon is designed to help developers gain the benefits of computational trust and mitigate its drawbacks. It is released under the Apache License Version 2.0.  
 Hyperledger Avalon:
 
@@ -1072,12 +1044,10 @@ Hyperledger Avalon:
     You can learn more about Hyperledger Avalon from Eugene (Yevgeniy) Yarmosh's An Introduction to Hyperledger Avalon presentation.
 
 ### Hyperledger Cactus
-
 Hyperledger Cactus is an open source project jointly contributed by Accenture and Fujitsu; it joined the Hyperledger Greenhouse in May 2020. Formerly known as the Blockchain Integration Framework, this blockchain integration tool aims to provide decentralized, secure and adaptable integration between blockchain networks. Developers are currently working on refactoring the Hyperledger Cactus architecture to ensure it will enable plug-in based collaborative development, thus increasing the breadth of use cases and ledgers supported. Hyperledger Cactus is licensed under an Apache License Version 2.0.  
 To learn more about Hyperledger Cactus, you can watch Peter Somogyvari's Hyperledger Cactus - A Framework for Integrating Distributed Ledgers presentation.
 
 ### Hyperledger Caliper
-
 Welcome to the Hyperledger greenhouse, an open source consortium for developing business blockchain technologies hosted by the Linux Foundation.  
 Within the greenhouse, diverse global communities collaboratively develop open source projects that uniquely approach enterprise blockchain challenges.  
 These technologies can cross-pollinate and interoperate, just like how the community is driving the projects collaborate in an open and neutral environment.  
@@ -1099,7 +1069,6 @@ Currently in incubation, Hyperledger Caliper was initially contributed in 2018 b
     Hyperledger Caliper is a blockchain benchmark tool, which allows users to measure the performance of a specific blockchain implementation with a set of predefined use cases.
 
 ### Hyperledger Cello
-
 Hyperledger Cello is a blockchain module toolkit helping businesses use and manage blockchains in a more efficient way. Particularly for lean businesses and small enterprises, who want to reduce or eliminate the effort required in creating, managing, and terminating blockchains, Hyperledger Cello allows blockchains deployment to the cloud. Operators can create and manage such blockchains through a dashboard, and users (typically, chaincode developers) can obtain a blockchain instance immediately.  
 Currently in Incubation, "Cello aims to bring the on-demand 'as-a-service' deployment model to the blockchain ecosystem", thus helping in furthering the development and deployment of Hyperledger's frameworks. Hyperledger Cello was initially contributed by IBM, with sponsors from Soramitsu, Huawei, and Intel (2017).  
 Application developers and system administrators using Cello can provision and maintain Hyperledger networks. For instance, you can create a group of distributed ledger networks in virtual clouds known as 'container clusters', and then, manage and monitor those networks with a configurable dashboard. Additionally, you can build a Blockchain-as-a-Service (BaaS) platform.  
@@ -1114,7 +1083,6 @@ Hyperledger Cello
 (Source: https://www.hyperledger.org/blog/2017/01/17/hyperledger-says-hello-to-cello)
 
 ### Hyperledger Explorer
-
 Hyperledger Explorer is a simple, but powerful open source tool for visualizing blockchain operations. It is the first tool to examine permissioned ledgers, allowing anyone to explore the distributed ledger projects being created by Hyperledger's members from the inside, without compromising their privacy. Currently in Incubation, the project was contributed by DTCC, Intel, and IBM in 2016.  
 Designed to create a user-friendly web application, Hyperledger Explorer can view, invoke, deploy, or query:
 
@@ -1127,25 +1095,21 @@ Designed to create a user-friendly web application, Hyperledger Explorer can vie
 The ability to visualize data is of critical importance, in order to extract business value from it. Hyperledger Explorer provides this much needed functionality. Key components include a web server, a web UI, web sockets, a database, a security repository, and a blockchain implementation.  
 Hyperledger Explorer supports Hyperledger Fabric and Hyperledger Iroha.
 
-## Chapter 5: Hyperledger Libraries
-
+## <a id="ch5"></a>Chapter 5: Hyperledger Libraries
 In the previous chapter we looked at the Hyperledger tools, which are auxiliary softwares used for things like deploying and maintaining blockchains, examining the data on the ledgers, as well as tools to design, prototype, and extend blockchain networks. In this chapter we will take a look at the Hyperledger libraries for enterprise-grade blockchain deployments.
 
 #### Learning Objectives
-
 By the end of this chapter, you should be able to:
 
 *   Understand the role of Hyperledger libraries.
 *   Get a high-level understanding of the Hyperledger libraries (as of November 2020): Hyperledger Aries, Hyperledger Quilt, Hyperledger Transact, and Hyperledger Ursa.
 
 ### Hyperledger `Aries`
-
 Hyperledger Aries "provides a shared, reusable, and interoperable tool kit designed for initiatives and solutions focused on creating, transmitting and storing verifiable digital credentials. It is infrastructure for blockchain-rooted, peer-to-peer interactions; it's not a blockchain and it's not an application. This open source project joined the Hyperledger greenhouse in May 2019 and was initially contributed by developers from the Sovrin Foundation, the Government of British Columbia, and other Indy community developers.  
 Hyperledger Aries is related to both Hyperledger Indy and Hyperledger Ursa (we will talk about this project later in this chapter). This project aims "to change the client layers in Hyperledger Indy to be interoperable with other identity projects. The ultimate goal of Hyperledger Aries is to provide a dynamic set of capabilities to store and exchange data related to blockchain-based identity. These capabilities will range from the secured, secret storage of data such as private keys, up to the capability of globally accessible data that can be viewed and accessed by anyone. An example of such support is the creation of a secure storage solution similar to the wallet available in Hyperledger Indy today."  
 Hyperledger Aries developers aim to eventually have a scalable, searchable storage layer capable of storing other associated data necessary for identity maintenance, such as pictures, health records, or other personal information.
 
 ### Hyperledger `Quilt`
-
 Welcome to the Hyperledger greenhouse, an open source consortium for developing business blockchain technologies hosted by the LinuxFoundation.  
 Within the greenhouse, diverse global communities collaboratively develop open source projects that uniquely approach enterprise blockchain challenges.  
 These technologies can cross pollinate and interoperate just like how the community's driving the projects collaborate in an open and neutral environment.  
@@ -1165,7 +1129,6 @@ Hyperledger Quilt is an open source business blockchain tool that offers interop
 *   Currently in Incubation, Hyperledger Quilt was initially contributed by NTT Data and Ripple in 2017.
 
 ### Hyperledger `Transact`
-
 Hyperledger Transact is a transaction execution platform designed to be used as a library or as a component when implementing distributed ledger, including blockchains. Hyperledger framework-level projects and custom distributed ledgers can make use of Transact's advanced transaction execution and state management to simplify the transaction execution code required within their projects or to gain additional features. Transact provides an extensible approach to implementing new smart contract languages called smart contract engines.  
 Currently in Incubation, it was originally contributed by Bitwise, Cargill, Intel, IBM and Hacera in 2019. Some of the following features are already supported by Hyperledger Transact, or planned in the short-term:
 
@@ -1176,13 +1139,11 @@ Currently in Incubation, it was originally contributed by Bitwise, Cargill, Inte
 *   Support for Sabre and Seth, etc.
 
 ### Hyperledger Ursa
-
 Hyperledger Ursa is a shared cryptographic library that would enable people and projects to avoid duplicating existing cryptographic work and hopefully increase security in the process. Rather than having each Hyperledger project implement its own cryptographic protocols, it would be more desirable to collaborate on a shared library - this will simplify cross-platform interoperability and increase modularity for distributed ledger platforms.  
 In the long run, the goal is for Hyperledger Ursa to provide open source blockchain developers with reliable, secure, easy-to-use, and pluggable cryptographic implementations.  
 The project was proposed by Fujitsu, The Linux Foundation, Sovrin Foundation, Intel, DFINITY, State Street, IBM, Sai Infratel, and Bitwise, and is currently in incubation (since November 2018).
 
-## Chapter 6: The Promise of Business Blockchain Technologies
-
+## <a id="ch6"></a>Chapter 6: The Promise of Business Blockchain Technologies
 This chapter is designed to help you evaluate whether blockchain tech, including the Hyperledger frameworks, are right for your business, and where best to implement this new technology. We will cover the ways different industries are using blockchain technologies today, and show you some common features of blockchains that can provide efficiencies in business.  
 The finance industry, in particular, put a lot of resources behind blockchain tech early on. They have created blockchains and distributed ledgers for transferring assets and recording trade agreements. Many types of transactions, such as private company stock sales, bonds, options, and cash transactions have all been recorded on permissioned blockchains.  
 Blockchain technologies are very good at recording state transitions. Just as the finance industry uses blockchain to record who owns an asset at any given moment in time, the legal industry has also implemented blockchain technologies to record property rights and the transfer of those rights. It will be interesting to see how the courts adapt to recording contractual agreements on both public and permissioned blockchains going forward.  
@@ -1192,7 +1153,6 @@ Several industries that deal with materials and product supply chains have began
 Let's take a look at different use cases for Hyperledger blockchain technologies and see what advantages they can bring to your business.
 
 ### Learning Objectives
-
 By the end of this chapter, you should be able to:
 
 *   Examine several use cases where blockchain technology is actively used to solve real world business problems.
@@ -1200,7 +1160,6 @@ By the end of this chapter, you should be able to:
 *   Decide when to use and when not to use blockchain technology.
 
 #### Business Blockchain Technologies Overview
-
 Blockchain is a data structure with an automated way to enforce trust among participants. Consensus algorithms ensure that all participants agree on the data stored within the blockchain. Blockchain opens the door to disrupt any industry that relies on a central authority to confirm authenticity. It also allows independent, and even competing organizations, to share information to gain efficiencies across an industry.  
 In permissioned blockchains, a consortium of organizations are responsible for authenticating and controlling the participants in a blockchain. In public blockchains, no central authority or administration is required to exchange data. Blockchains can drive business innovation through controlled data-sharing networks for industry consortiums.  
 The promise of distributed ledger technologies (DLT) to simplify and automate key work functions has many industries taking notice. Businesses recognize the efficiency gains from transitioning from closed and proprietary solutions to standard open source capabilities, such as Hyperledger business blockchain technologies. Several common project features of blockchain applications are taking shape as the technology matures.  
@@ -1209,7 +1168,6 @@ How exactly are businesses using these emerging technologies today? Next, we wil
 ### Hyperledger Advantages for Businesses (Brian Behlendorf)
 
 ### Technologists are studying the Hyperledger protocol and applications.
-
 What should business professionals know about the Hyperledger project?  
 So, business professionals who should... when they see the word 'hyperledger', right,  
 they should associate that with a set of principles that have to do with the creation of high-quality, trustworthy software, right?  
@@ -1230,16 +1188,14 @@ and, if they feel like it, if they want to contribute, there should be an easy g
 become contributors, and even help set the direction for the technology.
 
 ### Business Interest in Hyperledger
-
-When we first launched this course, in 2017, enterprise blockchain technologies were still in the initial stages of their production implementation. The concept of blockchain was at the time mostly associated with bitcoin and cryptocurrency. But the situation has significantly changed in the meantime, and while still considered revolutionary and in early stages, enterprise-grade blockchain technologies are now used in production, changing not only the way we do business, but also the way we envision doing business in the future, as more and more use cases and opportunities are created.  
- Smart contracts eliminate the middleman and add accountability (used in various industry sectors, such as real estate, healthcare, government, music, etc.)  
- Internet of Things (IoT)-based blockchain applications add a higher level of security, and transparency (in industries like supply chain, healthcare, banking and financial services, automotive, cybersecurity, etc.). Hyperledger Fabric is at the forefront of this revolution.  
- Identity security is a key area where enterprise blockchain technologies can make a difference, bringing, for example, a much-needed reduction in identity fraud and theft claims, cutting the red tape of government and local administration bureaucracy, and more. Hyperledger Indy, Hyperledger Fabric, etc. are just a couple of technology examples successfully used in production in this area.  
- Blockchain adds data transparency and automation to supply management and logistics, building trust and enabling leaner, more cost-effective processes.  
+When we first launched this course, in 2017, enterprise blockchain technologies were still in the initial stages of their production implementation. The concept of blockchain was at the time mostly associated with bitcoin and cryptocurrency. But the situation has significantly changed in the meantime, and while still considered revolutionary and in early stages, enterprise-grade blockchain technologies are now used in production, changing not only the way we do business, but also the way we envision doing business in the future, as more and more use cases and opportunities are created.
+- Smart contracts eliminate the middleman and add accountability (used in various industry sectors, such as real estate, healthcare, government, music, etc.)
+- Internet of Things (IoT)-based blockchain applications add a higher level of security, and transparency (in industries like supply chain, healthcare, banking and financial services, automotive, cybersecurity, etc.). Hyperledger Fabric is at the forefront of this revolution.
+- Identity security is a key area where enterprise blockchain technologies can make a difference, bringing, for example, a much-needed reduction in identity fraud and theft claims, cutting the red tape of government and local administration bureaucracy, and more. Hyperledger Indy, Hyperledger Fabric, etc. are just a couple of technology examples successfully used in production in this area.
+- Blockchain adds data transparency and automation to supply management and logistics, building trust and enabling leaner, more cost-effective processes.
 From smart companies, to smart cities, to smart energy management, to streamlining supply chains and financial services, from logistics to digital identities, across both public and private sectors, the opportunities provided by enterprise blockchain technologies are astounding. Talking about blockchain is now in the past; it's now time to walk the talk! And the sky is the limit it seems!
 
 ### Blockchain Use Case (Brian Behlendorf)
-
 What is your favorite blockchain use case?  
 So, you know, what gets me up in the morning isn't so much making Wall Street, you know, a few milliseconds faster or...  
 I mean, to some degree, it's nice to be able to talk about, you know, bank payments taking five minutes, rather than three days, okay?  
@@ -1258,7 +1214,6 @@ And so, that's really what gets me excited.
 There are numerous blockchain case studies and cross-industry projects showcased on the Hyperledger website. Feel free to check them out to learn more about the business potential of blockchain technologies, and in particular, of Hyperledger technologies.
 
 ### Hyperledger Blockchains in Production
-
 Over the past few years, there has been a lot of talk about blockchain and its potential in the enterprise landscape. Today, blockchain is no longer a hype: it has become a reality, and is transforming processes and how enterprises do business, across a wide range of industries.  
 Below is just a small sample of blockchain-based enterprise solution successfully being used in production:
 
@@ -1276,20 +1231,17 @@ Below is just a small sample of blockchain-based enterprise solution successfull
     Next, we will dive deeper into some of the industries that are using blockchain-based solutions, as well as specific use cases.
 
 ### Supply Chain Management (Part I)
-
 Supply chain management is an important piece of enterprise resource planning (ERP). Supply chain management is the oversight of funds, raw materials, components, and finished products, as they move from suppliers, to manufacturers, to wholesalers, to retailers, to consumers. This movement can occur both within one company, or among several companies. As assumptions change over time, the supply chain models can begin to show weak performance metrics. Good supply chain management will keep product quality consistent, and also prevent either understocking or overstocking of inventory.  
 Stocking the right amount of inventory over time is also known as supply demand synchronization, and is the key component in just-in-time lean manufacturing and distribution. Companies want to ensure that products are available when needed, but overstocking inventory is costly. Companies that overstock perishable goods must discard items. Companies that overstock non-perishable goods cannot use the money paid for those goods for other purposes until the inventory is used. Furthermore, if the price of a good drops while a company is storing excess inventory, then the company will lose money.  
 Currently, there are weak points in the supply chain management. These weak points occur where there are multiple ERP systems in use across organizations. Data doesn't flow well through the handshakes or interface points between systems. These weak points usually happen during transference of ownership, or change in status between two parties. Visibility is limited at the hand-off points of funds, raw materials, components, or finished products. This lack of transparency is often intentional, as companies don't want to expose their competitive advantages (e.g., an inexpensive supplier who delivers quality products on time). Additionally, a company could be cut out of a supply chain if members start transacting directly with that company’s suppliers.
 
 ### Supply Chain Management (Part II)
-
 Blockchains are being used to solve problems in supply chain management by eliminating the need for a trusted third party to certify raw materials, components, or finished products, as they travel through a supply chain. Every participant, or node, contains a copy of all transactions. This provides an audit trail of every transaction that has occurred in the system. A change would be validated or rejected by the nodes in the system. Because all participants have a copy of all past transactions in the network, any participant can detect if a product is not as advertised. Instead of examining raw materials, components, or finished products at several points in the supply chain, a record of the inspection would be available and bound to the item as it flows through the supply chain. Although a record of the transaction is public and tied to the movement of physical items across the network, specifics such as the quantity of goods, or the identity of the parties transacting, can be done pseudo-anonymously in a blockchain. Such a granular view of movement through supply chains improves resource allocation.  
 The trade finance industry can also leverage information visible in a supply chain blockchain. In its broadest sense, trade finance manages capital required for international trade. Trade financing has become the norm for cross border transactions, with the World Trade Organization estimating that "up to 80 percent of global trade is supported by some sort of financing or credit insurance" (2016). An exporter needs to mitigate the risk of non-payment, while an importer wants to mitigate the supply risk. The function of trade finance is to act as a third party to remove the payment risk and the supply risk, whilst providing the exporter with accelerated receivables, and the importer with extended credit. Institutions that provide capital during these trades can leverage the information visible in a supply chain blockchain to better evaluate companies for lending.
 
 Source: Nishan Degnarain (used with permission)
 
 ### Supply Chain Case Study: Walmart
-
 As one of the world's leading businesses in the supply chain industry, Walmart is constantly looking for ways to enhance transparency and traceability in the food system, and over the years has tried numerous solutions and approaches to solve this problem. Then, the hype of blockchain caught their attention. They looked into various blockchain technologies that could potentially be used to create a traceability system for their supply ecosystem, such as Ethereum, Burrow, Hyperledger Fabric, etc.  
 In partnership with IBM, they decided that Hyperledger Fabric was the best fit for their needs (enterprisegrade, permissioned, open source, vendor neutral, modular, plug-and-play). In October 2016, Walmart and IBM announced the two projects they were focusing on: one on tracing the origin of mangoes sold in US Walmart stores, and the other project was focusing on tracing pork sold in its China stores.  
 "The Hyperledger Fabric blockchain-based food traceability system built for the two products worked. For pork in China, it allowed uploading certificates of authenticity to the blockchain, bringing more trust to a system where that used to be a serious issue. And for mangoes in the US, the time needed to trace their provenance went from 7 days to… 2.2 seconds!" As a result, Walmart and IBM worked on expanding the system, both within and outside of Walmart; IBM Food Trust, an ecosystem of producers, suppliers, manufacturers, retailers, etc., working together to create a smarter, safer and more sustainable global food system, was born.  
@@ -1297,7 +1249,6 @@ Today, Walmart traces over 25 products from five different suppliers using the I
 You can learn more about Walmart's successful use of blockchain technologies from this article: How Walmart brought unprecedented transparency to the food supply chain with Hyperledger Fabric.
 
 ### Supply Chain Case Study: ScanTrust
-
 Another great example of how blockchain technologies can be a great solution for transparency and traceability in the supply chain industry is that of Cambio coffee: if you buy a pack of Cambio coffee and scan the label with your smartphone, you will be able to see all the details of the coffee's journey, from harvest in Peru, to shipment, to roasting in Shanghai, and delivery to your home. Cambio Coffee is a direct trade organic coffee company that prides itself on building a direct link from coffee farmers to consumers, and the immutable records that are stored on the blockchain are proof that they stay true to their mission.  
 Cambio Coffee worked with ScanTrust to implement a traceability system built on top on Hyperledger Sawtooth. When ScanTrust decided to implement a blockchain solution to enhance trust, transparency and traceability in the supply chain, they wanted a reliable, proven, open source technology, supported by an active community, and they decided that Hyperledger Sawtooth was the best fit for what they needed, as it is also focused on IoT implementations.  
 “ScanTrust plans to use the Hyperledger Sawtooth-based solution for other projects. Besides enhancing traceability in the supply chain, the team sees other uses for the technology… A brand could create its own token to incentivize consumers to share data; or it could develop ways to allow consumers to tip the farmer who produced their coffee.”  
@@ -1312,12 +1263,10 @@ Property Rights (Part II)
 Companies may use blockchain technologies to record ownership rights and responsibilities. Specifically, governments have put land registry records on blockchain (Laura Shin, forbes.com, 2016). Companies have also put intellectual property registration and ownership on blockchain (poex.io). Intellectual property includes copyright, trademark, and patents. To legally protect ownership rights in these, one registers their production, or invention, or otherwise proves when the work was established, and that they are the origin of the work.
 
 ### Property Titles on a Blockchain via a Smart Contract
-
 Companies with strong brand value in particular, such as the fashion industry and luxury good providers, are interested in more efficient ways to protect their intellectual property. When data is added to a blockchain, it can provide an immutable, secure, timestamped record for the creation of intellectual property, and any changes to the data can be easily detected. Blockchains establish this in a variety of ways.  
 A blockchain may record a hash of a document. As an example, photographers could place a hash of their unique digital photographs on the blockchain. The hash of a digital photograph will be constant so long as the photograph file has not been altered. Therefore, the blockchain can control and track the distribution of the photograph, detect the introduction of counterfeit images, and be used to resolve disputes as to who first introduced the image. By placing a hash of intellectual property documents on the blockchain, a party can publicly demonstrate data ownership, and prove the existence of certain documents at a given moment in time, without revealing the actual data. In addition to the hash, you may also choose to store the location of the file in the blockchain, which could be used for retrieval.
 
 ### Provenance (Part I)
-
 As the previous section on blockchains for supply chain management illustrated, blockchain data improves insight into products, as they move through their lifecycle. Large enterprises are not the only parties to benefit from this increased visibility. Consumers can also benefit from blockchain technology.  
 Provenance is a record of ownership used as a guide to authenticity or quality. Because of the overhead involved in traditional provenance records, they were only available for very large ticket items, such as works of art. With the efficiencies gained from blockchain technology, provenance records can be available for a wider range of goods. This improved information can aid consumers as they make purchasing decisions.
 
@@ -1328,31 +1277,26 @@ How do you, as a consumer, really know that you purchased an authentic item? Why
 It turns out that counterfeit products are a global problem affecting several industries. For example, the European Union Intellectual Property Office (EUIPO), in collaboration with the International Telecommunication Union (ITU), estimates that $48 billion worth of smartphone sales were lost to phoney phones in 2015 (Karen Gilchrist, cnbc.com, 2017). Also, "the Interprofessional Council of Bordeaux Wine estimates that 30,000 bottles of fake imported wine are sold per hour in China", whereby some estimate half of the wines retailing for more than $35 in China are counterfeit (Pamela Ambler, forbes.com, 2017).
 
 ### Provenance (Part II)
-
 In order to be certain that your product is authentic, you would need either a record of all the transactions for the life of the item, or a trusted third party. Trusted third parties certify the authenticity or quality of an item. They function as a new data layer between data silos, and increase costs of transactions by charging for providing data and certifying products. Some examples of such trusted third parties are the National Organic Program (USDA Organic) for produce, Fair Trade USA for human worker conditions, or the Gemological Laboratory of America (GLA) for jewelry, diamonds, and gemstones. Blockchains can serve the function of these trusted third parties by uniquely identifying products, and certifying their authenticity. Alternatively, these trusted third parties can leverage blockchains by recording their audits and inspections on blockchains. This would reduce the overhead needed to certify products. For example, a manufacturer could prove that its sources also abide by the certification authorities’ standards if those sources are listed on blockchains as having passed all requirements. The timing of the source’s original certification and renewals could be viewed by any interested party.  
 As a consumer reading from a blockchain, you would be able to verify a product’s authenticity by seeing the full chain of custody for an item. Hyperledger frameworks allow consumers to view important data attached to the goods, without necessarily viewing exactly who conducted each transfer down the supply chain line. Therefore, the promise is that you will be assured that the product you are purchasing is an authentic product, without necessarily allowing the public to view your purchasing habits, all leveraging distributed ledger technology.
 
 ### Provenance Use Case: Circular
-
 For years, consumers have been looking for ethically-sourced products, and a well-known example is that of diamonds provenance. A much less known conflict mineral is tantalum - a rare mineral used to make capacitors found in devices like smartphones and laptops. Rwanda is the world's largest supplier of tantalum; however, at times, tantalum is also smuggled in from Congo, where children or enslaved workers are used to mine it. As a result, there are many regulations passed by OECD (Organisation for Economic Cooperation and Development), US, and EU (US Dodd-Frank Act of 2010, EU Conflict Minerals law, etc.) aimed at improving traceability. Despite this regulations, there has not been a reliable way to prove the source of tantalum.  
 Blockchain technologies have been a game changer. Circulor, a UK-based company, has developed a system that traces the origin of tantalum, ensuring it is mined, transported, and processed according to approved regulations. This system is built on Hyperledger Fabric and delivers the first mine-to-manufacturer traceability of tantalum. How were they able to succeed? By creating a very tightly controlled system, that recorded the tantalum journey every step of the way: from mining in Rwanda, to refining in Macedonia, to manufacturing in USA, shipping from USA, final assembly in China, and the distribution to consumers.  
 The system went smoothly into production in the fall of 2018, and included, to start with, three mines in Rwanda and a refinery in Macedonia. And the plan is to bring more mines into the system. On top of that, Circulor aims to expand the system they built to cover other minerals and countries.  
 You can read more about tantalum traceability success story on the Hyperledger website: Circulor achieves first-ever mine-to-manufacturer traceability of a conflict mineral with Hyperledger Fabric.
 
 ### Finance (Part I)
-
 "Blockchain has huge potential to move the financial services industry away from messaged based models, slow reconciliation processes and inefficiency of fragmented data stores. With blockchain, financial services can move to a shared data construct, driving down costs, increasing efficiency and opening up entirely new business models".
 
 *   David Treat, Accenture  
     The Bitcoin blockchain was created as a "peer-to-peer electronic cash system" (Satoshi Nakamoto, Bitcoin). Therefore, the first blockchain use case in existence was payments. However, Bitcoin proved to be quite slow to process payments, "somewhere in the region of 7 transactions per second", when compared to Visa, which "averages around 2,000 transactions per second, with peak capacity of perhaps 50,000 transactions per second" (Guy Brandon, due.com, February 2017). Developers are actively working to increase the throughput capacity of Bitcoin and other blockchain payment systems (lightning.network). Payments, especially international payments, can be quite costly. Blockchain technologies plan to decrease the costs associated with payments, by allowing parties to interact directly, instead of transferring through an intermediary, such as a bank. In addition, having a record of all past payments is useful to auditors and regulators. Financial institutions have heavily researched blockchain payment systems because a universally recorded world state of payment information can decrease the number of payment disputes among institutions.
 
 ### Finance (Part II)
-
 The finance industry, in particular, has shown early interest in blockchain technology. R3, a fintech company that is a member of the Hyperledger consortium, has brought together more than 100 leading financial institutions to examine blockchain technology. The finance industry has already recorded business transaction agreements on blockchain. Currently, bonds, invoice financing, letter of credit transactions, and interest rate swaps governed by an ISDA master agreement have all been recorded on blockchain.  
 The financial industry would like to improve transaction settlement through blockchain technology by leveraging smart contract functionality for executing trades. Absent blockchain technology, a complex process known as the post-trade cycle is initiated once parties "execute" a trade. The post-trade cycle involves a series of steps to verify the terms of a trade, and to transfer assets involved in the trade in order to effectuate and settle the trade. Some trades are currently required by law to go through a separate central clearing organization. This organization steps in as the counterparty to each trade, creating two distinct contracts for each trade. These organizations are central securities depositories, whose role is to minimize the risk of trade default, and also to enforce rules against overexposure to certain types of trades.
 
 ### Finance (Part III)
-
 Although every trade has its own lifecycle, generally, the following steps will occur:
 
 *   Parties execute a trade. Executing a trade occurs when parties agree on the details of a trade and are willing to enter into the deal.
@@ -1369,7 +1313,6 @@ Although every trade has its own lifecycle, generally, the following steps will 
     *   Audit of the trade and associated payments is performed by the parties. If a dispute occurs, the parties must communicate and come to a resolution for such discrepancies. This is a manual and costly process.
 
 ### Finance (Part IV)
-
 Smart contracts may greatly improve the process of post-trade settlement, by reducing disputes and errors. Smart contracts will ensure that final settlement will happen when the execution of a trade occurs. With smart contract technology, a legal agreement can automatically execute clauses within it.  
 
 ![image](https://user-images.githubusercontent.com/41387907/138567328-649aad18-c51d-4672-8c6c-8ee3630ea466.png)
@@ -1378,12 +1321,10 @@ The image above shows the automation of back-office processes involved in trade 
 It is still unclear whether courts will enforce blockchain contracts in the same way that they enforce traditional written contracts, with inked paper signatures. Therefore, the current best practice is to record trades on blockchain, alongside traditional legal documentation. The operative clauses in the traditional written contract are converted into smart contract templates to be placed on blockchain once a trade is confirmed. For example, a full ISDA master agreement document would be stored on blockchain, and tied to the smart contract governing the underlying swap or derivative trade. This leverages the predictable outcomes of a legal contract with the efficiencies that can be gained from distributed ledger technologies.
 
 ### Finance (Part V)
-
 There are both advantages and disadvantages to controlling funds on blockchain. If funds aren’t under the control of the smart contract, then there is no way a payment can be guaranteed. If funds are controlled by the parties’ smart contract agreement, then those payments can indeed be guaranteed at the close of the trade. However, this also means that those funds cannot be used by the parties’ for anything else throughout the lifecycle of the smart contract. Today, a party may use the funds separate from the contract. This exposes the other party to the risk of nonpayment, but frees up capital for other purposes. The connection between risk and return is not a problem that blockchains can solve.  
 Conducting post-trade settlement in an automated way through smart contracts promises to introduce efficiencies, and reduce friction associated with trades. However, the industry has experienced some barriers to the adoption of blockchain technologies. Primarily, data privacy rules have come into conflict with the way standard blockchain protocols operate. Some regulations in the finance industry will not allow you to share information, or store it on a shared medium, even if it is encrypted. In addition, regulations covering securities professionals specify how ownership of certain assets must be recorded and properly transferred. Securities professionals include broker-dealers and investment advisers. These rules were written without the anticipation of blockchain technologies, and are at odds with the fully digital transference of assets over blockchain technologies. Either these regulations will need to adapt to blockchain technologies, or blockchain technologies will need to introduce new features conforming to existing regulations. The adoption of blockchain technologies for post-trade settlement will likely change the role of governments in the financial oversight. There will be less of a need to enforce individual trades and resolve settlement disputes, but the government may collect better data on existing trades by viewing and querying the blockchain. With this increased insight into the market, the government may or may not develop stronger standards for trades through smart contracts.
 
 ### Healthcare (Part I)
-
 A number of multi-party processes in the healthcare industry can leverage distributed ledger technology. By streamlining these multi-party processes, the healthcare industry can reduce the time and expense of collecting and verifying multiple pieces of information in order to deliver quality care to patients. Healthcare providers and insurance companies have begun to explore how blockchain can improve the delivery of patient care.  
 In 2015, the US spent 27.42% of the federal budget, or $1.05 trillion, on healthcare (National Priorities Project). Because these costs are so high, the US government, in particular, has invested resources into healthcare blockchain technology. The Office of National Coordinator for Health Information Technology (ONC) is responsible for health information technology. It has recognized a need for nationwide interoperability and standards for electronic health records, claims processing, and verification of provider credentials. To that end, it has sponsored many government blockchain initiatives in healthcare.  
 The healthcare industry has already placed medical insurance enrollment information on blockchain for verification, and plans to incorporate many other aspects of medical insurance claims processing on blockchain. One cost borne by health insurance providers is auditing care providers. Health insurance providers must verify whether a practitioner actually delivered the care that he or she was obliged to deliver to the patient. Health insurance providers must also audit the financial aspects incurred as part of this care, to ensure that care was paid, and the charges were accurate. Tying the care auditability with the payment auditability provides a key advantage to reducing the potential for fraud.  
@@ -1393,11 +1334,9 @@ The healthcare industry has examined placing prescription drug fulfillment proce
 ![image](https://user-images.githubusercontent.com/41387907/138567356-a002ee52-de31-4e07-895c-8b0fe1e634c5.png)
 
 #### By The BlockRx Project, retrieved from the Hyperledger Healthcare Working Group, August 22nd, 2017 Meeting
-
 Another area blockchain is used in healthcare is to protect data from cybercrime. Data breaches happen on a daily basis across all industries, and healthcare is no different. In fact, 1 in 4 data breaches occur in the healthcare sector, affecting millions of people: more exactly, 1 in 13 patients in the U.S. are affected by breaches. Why is healthcare data so sought after by hackers? Because it's personal, permanent and detailed: from social security numbers, to address, to family history, to confidential medical history.
 
 ### Education
-
 Blockchain solutions are being successfully implemented across various industries. As the technologies advance, more and more potential use cases arise. Education is one such area that could stand to benefit from distributed ledger technologies:
 
 *   Streamlining verification procedures for academic credentials, thus reducing fraudulent claims and bringing more transparency, ease of use, and speed to this process.
@@ -1412,13 +1351,11 @@ Blockchain solutions are being successfully implemented across various industrie
     You can learn more about the potential advantages of using blockchain solutions for education from the following article: 20 Ways Blockchain Will Transform (Okay, May Improve) Education.
 
 ### Education Case Study: Sony Global Education
-
 We've all experienced the process of enrolling in higher education or applying for a skilled job - no two applications are the same, as each institution uses their own individual application and validation processes. Similarly, the credentials we must have when applying each require different validation process as well. Needless to say, this is a rather long and complicated process. Sony Global Education has identified in Japan the need to create a comprehensive, open and trusted system to record educational and training credentials of Japanese citizens. But this need is not limited to Japan alone - it spans worldwide. As such, Sony Global Education aims to create a system that will store this siloed data into one system, gathering people's academic and training credentials and then controlling access to this recorded data.  
 Sony Global Education decided to use Hyperledger Fabric, as it is a trusted, secure, open source, platform. The solution they designed was already tested successfully. Moreover, Sony Global Education is working with the Japanese Ministry of Internal Affairs and Communications to develop a next-generation system for managing digital transcripts based on their tested solution, aiming to secure the authenticity of transcripts and allow them to be safely shared within a trusted network.  
 You can learn more about this use case reading Sony Global Education Chooses Hyperledger Fabric for a Next-Generation Credentials Platform.
 
 ### Smart Energy Management
-
 We live in an increasingly connected and energy-dependent world. Balance between supply and demand is imperative to ensure electricity demand is met. However, the increasing demand in electricity adds increased pressure on conventional energy sources. For the most part, the existing electricity grid is coping with the existing demand; however, when unexpected events occur (weather-related, for example), the pressure exerted on this grid can reach dangerous, unsustainable levels. And with the advent of increased dependency on electricity in day-to-day life, time will come when conventional resources will no longer be sufficient. Drastic times require out-of-the-box solutions.  
 Enterprise-grade blockchain technologies are playing an increasingly important and innovative role in an increasing number of industry sectors, including the energy sector. In 2017, IBM partnered with TenneT, sonnen and Vandebron to develop a distributed database for managing the electricity grid in the Netherlands and Germany:
 
@@ -1428,7 +1365,6 @@ Enterprise-grade blockchain technologies are playing an increasingly important a
     If tests are successful, this Hyperledger Fabric-based implementation could then be implemented worldwide, adding much needed flexibility and security in the energy management system.
 
 ### Smart Cities Use Case: Smart Dubai
-
 Dubai is known for being a world-class business, cultural, and touristic destination. Dubai aims to become the world's first government fully powered by blockchain technologies by 2020. Smart Dubai is a city-wide effort to empower residents and visitors alike via digital transformation, an effort that relies on the partnership between the private sector and government entities. It aims "to make Dubai the happiest city on earth through technology innovation" by creating an efficient, blockchain-based city government, digitizing all of its services to add increased transparency, security, efficiency and reduce bureaucracy. Below we highlight just a few of the Smart Dubai initiatives:
 
 The Dubai Blockchain Strategy aims to enable the execution of all applicable government transactions through blockchain by 2020.
@@ -1447,7 +1383,6 @@ Through its ground-breaking, innovative initiatives and forward thinking, Dubai 
 Dr. Aisha Bint Butti Bin Bishr, Director General of the Smart Dubai Office
 
 ### Blockchain Best Practices for Enterprises
-
 The use of distributed ledger technologies in production across various industries continues to expand and reach new horizons, as businesses explore new ways to incorporate blockchain in their day-to-day activities. However, in order to increase the success of blockchain business applications, some best practices must be considered:
 
 *   Security for the long term  
@@ -1466,7 +1401,6 @@ The use of distributed ledger technologies in production across various industri
     Blockchain can be a great solution for numerous business use cases that rely on security, controlled access, accountability, transparency, and efficiency, spanning a wide range of industries, from finance to banking, supply chains, manufacturing, healthcare, telecom, etc. Having well laid plans, goals and best practices can all help enterprise IT leaders explore the growing blockchain ecosystem as they work to capture its strengths for their businesses.
 
 ### The Outlook of Blockchain for Business
-
 The 2019 Technology Industry Innovation conducted by KPMG around the adoption of blockchain technologies suggests that 41 percent of businesses are likely to adopt and implement blockchain into their business operations in the next three years. Another important aspect revealed by this survey is that 48 percent of enterprises believe that blockchain will change the way they conduct and manage their business activities in the near future.  
 What areas are expecting significant disruptions due to increased adoption of blockchain technologies? The survey shows that IoT processes are expected to be impacted the most (27%), followed by processes involved in trading (22%), reduced cybersecurity risk (20%), contracts (18%), etc. Industries that are believed to see the greatest blockchain adoption in the near future are financial services, industrial manufacturing and telecommunications.  
 What advantages would businesses have by adopting blockchain technologies? The KPMG survey outlines some of them:
@@ -1482,7 +1416,6 @@ What advantages would businesses have by adopting blockchain technologies? The K
 ### What Enterprises Look for When Evaluating Whether or Not to Use Hyperledger (Brian Behlendorf)
 
 #### What should an enterprise look for when evaluating whether or not to use Hyperledger?
-
 So, I always try to start... suggest that people start with the business need, right, trying to look at what are you doing in your enterprise, and probably, it will mean what are you doing with your business partners, with your suppliers, with your customers, maybe even with your competitors, right?  
 What is it... what are some business processes, or some provenance tracking problems, or a registry somewhere that, you know, you're putting too much trust in a central org somewhere, where is there an opportunity to take a decentralized ledger approach, and a smart contract approach to solving those issues?  
 Start with the need, right?  
@@ -1499,7 +1432,6 @@ So, at some point, those two teams should meet up, right, and say "Here's what w
 And then, over time, start to promulgate that amongst the other partners that you think you'd involve in a distributed ledger project.
 
 #### When to Use Blockchain
-
 There are certain factors to consider when evaluating blockchain distributed ledger technology for your business. How many participants are in your system? What is the geographical distribution of the participants? What sort of performance requirements do you have? Defining the rules, risks, and responsibilities of each party in your blockchain system is useful as you consider transferring a database to a decentralized environment such as one of the Hyperledger frameworks. Blockchain is best suited for business applications where one or more of the following conditions apply:
 
 *   There is a need for a shared common database
@@ -1514,7 +1446,6 @@ There are certain factors to consider when evaluating blockchain distributed led
 *   Transaction frequency does not exceed 10,000 transactions per second.
 
 #### When Not to Use Blockchain
-
 Blockchain technology is a powerful tool, but it is not always the right tool for the job at hand. If you are contemplating using blockchain technology, be sure to evaluate the problem fully. The following conditions are not currently well suited to blockchain-based solutions:
 
 *   The process involves confidential data
@@ -1524,24 +1455,19 @@ Blockchain technology is a powerful tool, but it is not always the right tool fo
     Next, we will discuss in more detail the conditions that are not well suited to blockchain-based solutions.
 
 ### I. The Process Involves Confidential Data
-
 The biggest advantage and challenge in deploying blockchains is the radical transparency which they provide. Methods are being developed to hide confidential data on the blockchain, while sharing it only to relevant parties. Regulations for data privacy often do not allow for blockchain solutions. A thorough review of the relevant privacy rules governing your business case should be examined to see whether blockchain is appropriate. For example, is leaking data in encrypted form allowed? What level of encryption is required when transmitting data?
 
 ### II. The Process Stores a Lot of Static Data/Data Is Quite Large
-
 With blockchain technology, the entire database is stored across many nodes in a blockchain system. Because the replication factor of these systems is so high, they are best suited to databases that have many state changes, or store only the minimum necessary amount of information. If the data is relatively static, or if the files to be stored are quite large, a different technical solution may be more appropriate.
 
 ### III. Rules of Transactions Change Frequently
-
 If the rules around how your business processes are conducted change frequently, or change in unexpected ways, then blockchain may not be well suited for your use case. The rules of transactions in blockchain are often pre-set, and smart contracts do not change execution paths once they have been initiated. Everything that takes place on a blockchain must be completely deterministic. Additionally, blockchains are append-only databases. A relational database may be more suitable if you need to make many changes to your data as the rules of your transactions change.
 
 ### IV. The Use of External Services to Gather/Store Data
-
 A blockchain smart contract does not currently initiate the retrieval of external data. Instead, one or more trusted parties ("oracles") must create a transaction which embeds that data in the chain. This data is often gathered and stored in a traditional database by the oracle. Any interaction between a blockchain and the outside world is restricted to regular database operations.  
 In other words, an oracle pushes data onto the blockchain, rather than a smart contract pulling it in. Once the oracle pushes the data, every node will have an identical copy of this data. This allows for the data to be safely used in a smart contract computation. While oracles allow for blockchain interface with external data, they undermine the goal of a decentralized system. Examine when such a trusted authority should be retained. When the trusted authority would or should be retained, efficiencies in the blockchain are not as high as in other applications.
 
 ### V. Simpler Alternatives
-
 For some applications, other options are simply more efficient. When evaluating blockchain technology, consider whether regular file storage, a centralized database, or database replication with master/slave relationship between the original and copies is suitable. If those structures are suitable, then you can deploy your application with reduced complexity. Do you need a smart contract or are stored procedures written in an extension of SQL sufficient? Similarly, some applications can simply utilize cryptographic methods common in blockchains, without the database replication mechanisms of a blockchain.
 
 ![image](https://user-images.githubusercontent.com/41387907/138567204-200dc8b5-a140-4b7f-b649-020c862c0181.png)
@@ -1551,11 +1477,9 @@ For some applications, other options are simply more efficient. When evaluating 
 The above diagram provides generalized, high-level decision points about when to use or not to use blockchain technology for your business.
 
 #### Hyperledger Community
-
 The development of the Hyperledger projects is led by a diverse group of technical, open source contributors. We are always looking for help to build an open source ecosystem of business blockchain technologies. If you are interested in contributing to and learning from the community, we welcome you to join the Hyperledger effort.
 
 #### Joining the Hyperledger Community
-
 You too can join the Hyperledger Community:
 
 **For developers**  
@@ -1572,7 +1496,6 @@ You can start or join a Hyperledger meetup. Development updates from Wiki can be
 #### Hyperledger Global Meetups (as of 06/24/2019)
 
 #### Hyperledger Working Groups
-
 The Hyperledger Community’s working groups are open to the public. Developers and tech leaders can engage with any of the Hyperledger’s open community channels at this page.  
 Below, you can see an overview of Hyperledger’s working groups:
 
@@ -1590,13 +1513,11 @@ Below, you can see an overview of Hyperledger’s working groups:
     This group acts as a bridge between the global Hyperledger community and the emerging technical user and contributor community in China.
 
 ### Learning Materials Development Working Group
-
 The Hyperledger Learning Materials Development Working Group is focused on developing training materials that aims to expand people's knowledge of Hyperledger and its projects. Members of this group collaborate with other Hyperledger working groups, Hyperledger team members, project maintainers, and volunteers from all over the world to identify training needs, identify strategies and solution to address those needs, and develop training material that targets both technical and non-technical audiences.  
 Among other things, members of this working group support the development of this MOOC by reviewing existing content and contributing new material, suggesting improvements, as well as providing assistance in the course forum when needed.  
 If you would like to contribute to Hyperledger projects, you don't have to be a technical guru to do so. There are many ways to help, and working on developing training materials is one of them. Anyone is welcome to join this group to learn more about how to get involved.
 
 ### Hyperledger Special Interest Groups (SIGs)
-
 There are also a number of Special Interest Groups in the Hyperledger Community, focused on specific industries. You can learn more about these groups and their focus:
 
 *   Healthcare SIG (HC-SIG) This group represents an international membership of healthcare and technology professionals united in advancing the state of the healthcare industry through the implementation of enterprise-grade technology solutions utilizing the Hyperledger greenhouse of business blockchain frameworks and tools.
@@ -1606,7 +1527,6 @@ There are also a number of Special Interest Groups in the Hyperledger Community,
 *   Trade Finance SIG This group is focused on DLT and Hyperledger technologies applications to the trade finance uses and needs.
 
 ### Conclusions
-
 This concludes the LFS171x "Introduction to Hyperledger Technologies" course! We have introduced you to the current Hyperledger frameworks and tools, and we have highlighted some of the business blockchain applications.  
 We hope this course inspires you and helps you continue your journey into the business blockchain technology world. Whether you are an engineer, entrepreneur, developer, educator, or business person, we look forward to seeing what you build, as well as hearing from you in the course forum.  
 Good luck to all of you in your future endeavors!

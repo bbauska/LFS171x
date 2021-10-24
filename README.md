@@ -67,6 +67,7 @@ LFS171x is part of the Blockchain for Business Professional Certificate. Skills 
 
 >### **What's Next?**
 
+---
 
 ## <a id="ch1"></a>1. Discovering Blockchain Technologies
 A Word from Brian Behlendorf, Executive Director at Hyperledge  
@@ -190,6 +191,7 @@ In a relational database, data can be easily modified or deleted. Typically, the
 A blockchain can be both permissionless (like Bitcoin or Ethereum) or permissioned (like the different Hyperledger blockchain frameworks). A permissionless blockchain is also known as a public blockchain, because anyone can join the network. A permissioned blockchain, or private blockchain, requires pre-verification of the participating parties within the network, and these parties are usually known to each other.  
 
 ![image](https://user-images.githubusercontent.com/41387907/138574861-da0c6881-188a-491f-be3c-c9942c522eaa.png)
+
 The choice between permissionless versus permissioned blockchains should be driven by the particular application at hand (or use case). Most enterprise use cases involve extensive vetting before parties agree to do business with each other. An example where a number of businesses exchange information is supply chain management. The supply chain management is an ideal use case for permissioned blockchains. You would only want trusted parties participating in the network. Each participant that is involved in the supply chain would require permissions to execute transactions on the blockchain. These transactions would allow other companies to understand where in the supply chain a particular item is.  
 On the contrary, when a network can "commoditize" trust, facilitating parties to transact without necessarily having to verify each other's identity, like the Bitcoin blockchain, a permissionless blockchain is more suitable. Many of these instances involve the sale or distribution to the public. Cryptocurrencies and Initial Coin Offerings (which are not backed by national governments) usually involve implementations of permissionless blockchains.  
 You will learn about a variety of use cases in Chapter 6, "The Promise of Business Blockchain Technologies".  
@@ -379,7 +381,7 @@ The following table offers an at-a-glance view of the main considerations and pr
 
 ![image](https://user-images.githubusercontent.com/41387907/138574948-4f8e4a52-b320-41aa-81e9-bc126d649c4e.png)
 
-## <a id="ch2"></a> Chapter 2. Hyperledger
+## <a id="ch2"></a>Chapter 2. Hyperledger
 Hyperledger is an open source effort created to advance cross-industry blockchain technologies. Hosted by The Linux Foundation, it is a global collaboration of members from various industries, including finance, banking, Internet of Things (IoT), supply chain, manufacturing, healthcare and more. Hyperledger boasts a host of enterprise-ready solutions. Hyperledger is about communities of software developers building blockchain frameworks and platforms. We will take a closer look at some of the current Hyperledger projects in the coming chapters.  
 "One of the first things people learn when coming to Hyperledger is that Hyperledger isn’t, like its name may imply, a ledger. It is a collection of blockchain technology projects."  
 Dan Middleton, All Are Welcome Here (2018)
@@ -500,7 +502,7 @@ As Arnaud Le Hors, member of the Hyperledger Technical Steering Committee, empha
 "these projects show how broadly applicable blockchain technology really is. This goes way beyond cryptocurrencies".  
 Hyperledger provides an alternative to the cryptocurrency-based blockchain model, and focuses on developing blockchain frameworks, tools and libraries to support global enterprise solutions. The focus of Hyperledger is to provide a transparent and collaborative approach to blockchain development.
 
-### The Birth of Hyperledger
+### <a id="ch2b"></a>The Birth of Hyperledger
 It's amazing how quickly Hyperledger has developed and evolved over the past few years.  
 I was wondering if you could tell me a bit about the journey of how Hyperledger has come to be.  
 So, the Hyperledger Project began when a set of companies who were starting to pay attention to this Bitcoin space, this cryptocurrency space, this blockchain space, approached The Linux Foundation and said "Let's do a project together".  
@@ -748,7 +750,7 @@ They're going to want to know about your history of contributions to open source
 and not just technical, but also your communication skills, your collaboration skills...  
 So, all of that means working on open source projects can be tremendously beneficial to your own ongoing education, as well as your ability to build your career.
 
-### Hyperledger vs. Apache
+### <a id="ch2z"></a>Hyperledger vs. Apache
 While at Apache, you were able to successfully build an open software developer community.  
 What are some similarities and differences between Hyperledger and Apache in its evolution as an open source project?  
 Right... Well, on the Apache web server project, which later became the Apache Software Foundation,  
@@ -799,7 +801,7 @@ so that we can get to an ideal, where you could pick the Ethereum virtual machin
 and, in fact, the Sawtooth and Burrow communities have now actually progressed, and you can now run Ethereum smart contracts on top of Sawtooth, which is pretty cool.  
 So, I think we'll see more activity like that.
 
-## Chapter 3: Hyperledger: Distributed Ledger Frameworks and Domain Specific Blockchains
+## <a id="ch3"></a>Chapter 3: Hyperledger: Distributed Ledger Frameworks and Domain Specific Blockchains
 In this chapter, we will briefly explore the frameworks developed under the Hyperledger umbrella (as of November 2020), highlighting their key features and use cases. We will dive deeper in discussing use cases in the last chapter of this course.
 
 ### Learning Objectives
@@ -820,8 +822,9 @@ Hyperledger business blockchain frameworks are used to build enterprise blockcha
 
 Now, let's explore the Hyperledger frameworks (as of November 2020)!
 
-### Hyperledger Besu
+### <a id="ch3a"></a>Hyperledger Besu
 ![image](https://user-images.githubusercontent.com/41387907/138575460-35b419be-65bd-438d-a752-f047835d12bd.png)
+
 **Hyperledger Besu** is an open source Ethereum client developed under the Apache 2.0 license and written in Java. It can be run on the Ethereum public network or on private permissioned networks, as well as test networks such as Rinkeby, Ropsten, and Görli. Hyperledger Besu includes several consensus algorithms including PoW, PoA, and IBFT, and has comprehensive permissioning schemes designed specifically for uses in a consortium environment. Hyperledger Besu joined the Hyperledger Incubator in August 2019; PegaSys has been its primary contributor and maintainer since its launch in November 2018, when it was known as Pantheon.  
 Among its features:
 
@@ -835,8 +838,9 @@ Among its features:
 *   Ability to keep transactions private between the involved parties
 *   Allows permissioning.
 
-### Hyperledger Burrow
+### <a id="ch3b"></a>Hyperledger Burrow
 ![image](https://user-images.githubusercontent.com/41387907/138575472-9d1aec50-3591-4324-9f5c-0973a32809dc.png)
+
 Welcome to the Hyperledger greenhouse, an open source consortium for developing business blockchain technologies hosted by the Linux Foundation.  
 Within the greenhouse, diverse global communities collaboratively develop open source projects that uniquely approach enterprise blockchain challenges.  
 These technologies can cross-pollinate and interoperate, just like how the community is driving the projects, collaborate in an open and neutral environment.  
@@ -860,8 +864,9 @@ Hyperledger Burrow components are:
 *   Application Binary Interface (ABI) - transactions must be formulated in a binary format, which is processed by the blockchain node.
 *   The Application Blockchain Interface (ABCI) provides interface specification for the consensus engine and smart contract application engine to connect.
 
-### Hyperledger Fabric
+### <a id="ch3c"></a>Hyperledger Fabric
 ![image](https://user-images.githubusercontent.com/41387907/138575480-0a337383-2046-4aeb-ac95-e68e3ab29e36.png)
+
 Welcome to the Hyperledger greenhouse, an open source consortium for developing business blockchain technologies hosted by the Linux Foundation.  
 Within the greenhouse, diverse global communities collaboratively develop open source projects that uniquely approach enterprise blockchain challenges.  
 These technologies can cross-pollinate and interoperate, just like how the community is driving the projects collaborate in an open and neutral environment.  
@@ -884,8 +889,9 @@ Key characteristics of Hyperledger Fabric are:
 - Code written in Go, chaincode written in Go, Javascript, or Java, SDKs written in Node.js, Java, Go, REST and Python.
 Its modular architecture allows components such as consensus and membership services to be plug-and-play. One of the key advantages of Hyperledger Fabric is that it allows entities to conduct confidential transactions without passing information through a central authority. This is accomplished through different channels that run within the network, as well as the division of labor that characterizes the different nodes within the network.
 
-### Hyperledger Indy
+### <a id="ch3d"></a>Hyperledger Indy
 ![image](https://user-images.githubusercontent.com/41387907/138575485-e6cd7161-2c55-4a37-a97b-97177cc9665f.png)
+
 Welcome to the Hyperledger greenhouse, an open source consortium for developing business blockchain technologies hosted by the Linux Foundation.  
 Within the greenhouse, diverse global communities collaboratively develop open source projects that uniquely approach enterprise blockchain challenges.  
 These technologies can cross-pollinate and interoperate, just like how the community is driving the projects, collaborate in an open and neutral environment.  
@@ -924,8 +930,9 @@ One of the key principles of Hyperledger Indy is its "privacy by design" approac
 *   Nathan George, Maintainer, Hyperledger Indy  
     Further information about the history of the project can be found at the Sovrin's website.
 
-### Hyperledger Iroha
+### <a id="ch3e"></a>Hyperledger Iroha
 ![image](https://user-images.githubusercontent.com/41387907/138575523-62fc4933-7ada-4d3b-adc6-e48b7144058b.png)
+
 Welcome to the Hyperledger greenhouse, an open source consortium for developing business blockchain technologies hosted by the Linux Foundation.  
 Within the greenhouse, diverse global communities collaboratively develop open source projects that uniquely approach enterprise blockchain challenges.  
 These technologies can cross-pollinate and interoperate, just like how the community is driving the projects collaborate in an open and neutral environment.  
@@ -958,8 +965,9 @@ Hyperledger Iroha is a free, open source blockchain framework contributed by Sor
     Hyperledger Iroha emphasizes mobile application development with client libraries for Android and iOS, making it distinct from other Hyperledger frameworks. Inspired by Hyperledger Fabric, Hyperledger Iroha seeks to complement Hyperledger Fabric and Hyperledger Sawtooth, while providing a development environment for C++ developers to contribute to Hyperledger.  
     Hyperledger Iroha is an active project, and reached a significant milestone in May 2019, the 1.0 release. To learn more about it, you can read the announcement.
 
-### Hyperledger Sawtooth
+### <a id="ch3f"></a>Hyperledger Sawtooth
 ![image](https://user-images.githubusercontent.com/41387907/138575534-bf8c8a84-4c23-472c-9e07-6668e789540f.png)
+
 Welcome to the Hyperledger greenhouse, an open source consortium for developing business blockchain technologies hosted by the Linux Foundation.  
 Within the greenhouse, diverse global communities collaboratively develop open source projects that uniquely approach enterprise blockchain challenges.  
 These technologies can cross-pollinate and interoperate, just like how the community is driving the projects collaborate in an open and neutral environment.  
@@ -1020,8 +1028,9 @@ This technology could be added to any package or sensitive good you're entrustin
 The blockchain will ensure the data is secure and tamper-proof, so that you know what you're getting, and that you get what you pay for.  
 Sawtooth Lake creates a digital platform enabling physical traceability in a trustless world.
 
-### Hyperledger Grid
+### <a id="ch3g"></a>Hyperledger Grid
 ![image](https://user-images.githubusercontent.com/41387907/138575543-c953e474-d30d-4ad2-818c-7f7dce930ad2.png)
+
 Hyperledger Grid is a domain-specific business blockchain technology for building supply chain solutions that include distributed ledger components; it's an ecosystem of technologies, frameworks, and libraries that work together, allowing application developers to chose which components are best for their industry or market model. It intends to:
 
 *   Provide reference implementations of supply chain-centric data types, data models, and smart contract-based business logic based on existing open standards and industry best practices

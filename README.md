@@ -799,7 +799,7 @@ so that we can get to an ideal, where you could pick the Ethereum virtual machin
 and, in fact, the Sawtooth and Burrow communities have now actually progressed, and you can now run Ethereum smart contracts on top of Sawtooth, which is pretty cool.  
 So, I think we'll see more activity like that.
 
-\## Chapter 3: Introduction  
+## Chapter 3: Hyperledger: Distributed Ledger Frameworks and Domain Specific Blockchains
 In this chapter, we will briefly explore the frameworks developed under the Hyperledger umbrella (as of November 2020), highlighting their key features and use cases. We will dive deeper in discussing use cases in the last chapter of this course.
 
 ### Learning Objectives
@@ -816,8 +816,9 @@ Hyperledger business blockchain frameworks are used to build enterprise blockcha
 *   Privacy of transactions through permissioned access
 *   Smart contracts to process transaction requests.
 
-Now, let's explore the Hyperledger frameworks (as of November 2020)!  
-Hyperledger Besu
+Now, let's explore the Hyperledger frameworks (as of November 2020)!
+
+### Hyperledger Besu
 
 **Hyperledger Besu** is an open source Ethereum client developed under the Apache 2.0 license and written in Java. It can be run on the Ethereum public network or on private permissioned networks, as well as test networks such as Rinkeby, Ropsten, and Görli. Hyperledger Besu includes several consensus algorithms including PoW, PoA, and IBFT, and has comprehensive permissioning schemes designed specifically for uses in a consortium environment. Hyperledger Besu joined the Hyperledger Incubator in August 2019; PegaSys has been its primary contributor and maintainer since its launch in November 2018, when it was known as Pantheon.  
 Among its features:
@@ -873,10 +874,10 @@ Get started with Hyperledger Fabric today by downloading the source code, access
 hyperledger.org.
 
 Hyperledger Fabric is an open source, production ready, permissioned blockchain framework implementation that was designed to serve as a foundation for developing applications or solutions with a modular architecture. It was the first proposal for a codebase (2016), combining previous work done by Digital Asset Holdings, Blockstream's libconsensus, and IBM's OpenBlockchain. It graduated from the Hyperledger Incubator in March of 2017.  
-Key characteristics of Hyperledger Fabric are:  
- High-performance, secure, permissioned blockchain network  
- Features powerful container technology to host any mainstream language for smart contracts development  
- Code written in Go, chaincode written in Go, Javascript, or Java, SDKs written in Node.js, Java, Go, REST and Python.  
+Key characteristics of Hyperledger Fabric are:
+- High-performance, secure, permissioned blockchain network
+- Features powerful container technology to host any mainstream language for smart contracts development
+- Code written in Go, chaincode written in Go, Javascript, or Java, SDKs written in Node.js, Java, Go, REST and Python.
 Its modular architecture allows components such as consensus and membership services to be plug-and-play. One of the key advantages of Hyperledger Fabric is that it allows entities to conduct confidential transactions without passing information through a central authority. This is accomplished through different channels that run within the network, as well as the division of labor that characterizes the different nodes within the network.
 
 ### Hyperledger Indy

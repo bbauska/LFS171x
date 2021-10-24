@@ -9,67 +9,95 @@ LFS171x is part of the Blockchain for Business Professional Certificate. Skills 
 
 ## Table of Contents
 
-## 1. [**Discovering Blockchain Technologies**](#ch1)
+## 1. [**Introduction to Blockchain**](#ch1)
 
->### a. [**Introduction and Learning Objectives**](#ch1a)
+>### a. [**Introduction & Learning Objectives**](#ch1a)
 
->### b. [**Distributed Ledger Technology (DLT)**](#ch1b)
+>### b. [**Basis of Blockchain**](#ch1b)
 
->### c. [**Bitcoin and Ethereum Blockchains**](#ch1c)
+>### c. [**Distributed Ledgers Technology (dlt)**](#ch1c)
 
->### d. [**Exploring Permissionless Blockchains**](#ch1d)
+>### d. [**Cryptography**](#ch1d)
 
->### e. [**Consensus Algorithms**](#ch1e)
+>### e. [**Transparency**](#ch1e)
 
->### f. [**Hyperledger**](#ch1f)
+>### f. [**Immutability**](#ch1f)
 
->### g. [**Other Open Source Permissioned Distributed Ledgers**](#ch1g)
+>### g. [**Smart Contracts**](#ch1g)
 
->### h. [**Challenges in the Adoption/Deployment of Distributed Ledger Technologies**](#ch1h)
+>### h. [**Blockchain Security**](#ch1h)
 
-## 2. [**Introduction to Hyperledger**](#ch2)
+>### i. [**Public & Permissioned Blockchains**](#ch1j)
 
->### a. [**Introduction and Learning Objectives**](#ch2a)
+>### j. [**Blockchain Flow**](#ch1j)
 
->### b. [**Hyperledger**](#ch2b)
+>### k. [**Consensus & Fault Tolerance**](#ch1k)
 
->### c. [**Q/A with Brian Behlendorf, Executive Director of Hyperledger**](#ch2c)
+>### l. [**Governance & Blockchain**](#ch1l)
 
-## 3. [**Hyperledger: Distributed Ledger Frameworks and Domain Specific Blockchains**](#ch3)
+>### m. [**Identity & Anonymity on Blockchain**](#ch1m)
+
+>### n. [**Trust & Trustless**](#ch1n)
+
+>### o. [**Summary**](#ch1o)
+
+## 2. [**Governance and Consensus**](#ch2)
+
+>### a. [**Introduction & Learning Objectives**](#ch2a)
+
+>### b. [**Standard vs Blockchain Governance**](#ch2b)
+
+>### c. [**Consensus**](#ch2c)
+
+>### d. [**Governance with Autonomy**](#ch2d)
+
+>### e. [**Governance for Enterprise**](#ch2e)
+
+>### f. [**Summary**](#ch2f)
+
+## 3. [**Blockchain Problem Solving**](#ch3)
 
 >### a. [**Introduction and Learning Objectives**](#ch3a)
 
->### b. [**Hyperledger Frameworks**](#ch3b)
+>### b. [**Immutablity**](#ch3b)
 
->### c. [**Hyperledger: Domain-Specific Blockchain Technologies**](#ch3c)
+>### c. [**Transparency**](#ch3c)
 
-## 4. [**Hyperledger Tools**](#ch4)
+>### d. [**Autonomy**](#ch3d)
+
+>### e. [**Multi-Party Transactions**](#ch3e)
+
+>### f. [**Double Spend**](#ch3f)
+
+>### g. [**Summary**](#ch3g)
+
+## 4. [**Blockchain `Use` Cases**](#ch4)
 
 >### a. [**Introduction and Learning Objectives**](ch4a)
 
->### b. [**Hyperledger Tools**](ch4b)
+>### b. [**Blockchain Use Cases**](ch4b)
 
-## 5. [**Hyperledger Libraries**](#ch5)
+>### c. [**Healthchare**](ch4c)
 
->### a. [**Introduction and Learning Objectives**](ch5a)
+>### d. [**Voting**](ch4d)
 
->### b. [**Hyperledger Libraries**](ch5b)
+>### e. [**Identity Management**](ch4e)
 
-## 6. [**The Promise of Business Blockchain Technologies**](#ch6)
+>### f. [**Land Records and Governance**](ch4f)
 
->### a. [**Introduction and Learning Objectives**](ch6a)
+>### g. [**Blockchain with Supply Chain**](ch4g)
 
->### b. [**Existing Hyperledger Blockchain Use Cases**](ch6b)
+>### h. [**Internet of Things (IoT)**](ch4h)
 
->### c. [**When to Use or Not to Use Blockchain Technologies**](ch6c)
+>### i. [**Energy**](ch4i)
 
-## 7. [**What's Next?**](#ch7)
+>### j. [**Future of Blockchain**](ch4j)
 
->### **What's Next?**
+>### k. [**Summary**](ch4k)
 
 ---
 
-## <a id="ch1"></a>1. Discovering Blockchain Technologies
+## <a id="ch1"></a>1. Introduction to Blockchain
 A Word from Brian Behlendorf, Executive Director at Hyperledge  
 Hi, I'm Brian Behlendorf. I'm Executive Director of Hyperledger, a collaborative project hosted at the Linux Foundation.  
 I want to welcome you to the first ever training course for Hyperledger and our related technology projects.  
@@ -78,17 +106,17 @@ And that means using distributed ledger technologies in a permissioned setting, 
 In this course, you'll learn about these different projects.  
 This course is designed for people on the full spectrum, from working on purely as a software developer, all the way to those who just really want a business level understanding of what these technologies can accomplish, and what are the kinds of use cases that you might apply this to.  
 So, this is really designed for the full breadth of those technologies  
-Introduction
+
+### <a id="ch1a"></a>Introduction & Learning Objectives
 Chapter 1 introduces the building blocks of distributed ledger technologies, including blockchains. It lays the foundation for an in-depth understanding of the content that follows in the course. You should engage with the content in this chapter both to learn, as well as brush up your blockchain knowledge.
 
-#### Learning Objectives
 By the end of this chapter, you should be able to:
 1. Explain the concepts of blockchain and distributed ledger technologies (DLT).
 2. Explore permissioned and permissionless blockchains and their key characteristics.
 3. Discuss various components of distributed ledger technologies, including consensus algorithms and smart contracts.
 4. Provide a high-level explanation of what Hyperledger is.
 
-### <a id="ch1b"></a>1b. Distributed Ledger Technology (DLT)
+### <a id="ch1c"></a>Distributed Ledger Technology (DLT)
 Background - The Rising Interest in Distributed Ledger Technologies  
 Looking back to the last half century of computer technologies and architectures, you may observe a trend of fluctuation between the centralization and subsequent decentralization of computing power, storage, infrastructure, protocols, and code.  
 Mainframe computers are largely centralized. They typically house all computing power, memory, data storage, and code. Access to mainframes is mainly by "dumb terminals", which only take inputs and outputs, and do not store or process data.  

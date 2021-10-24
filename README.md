@@ -19,27 +19,25 @@ LFS171x is part of the Blockchain for Business Professional Certificate. Skills 
 
 >### d. [**Cryptography**](#ch1d)
 
->### e. [**Transparency**](#ch1e)
+>### e. [**Immutability**](#ch1e)
 
->### f. [**Immutability**](#ch1f)
+>### f. [**Smart Contracts**](#ch1f)
 
->### g. [**Smart Contracts**](#ch1g)
+>### g. [**Blockchain Security**](#ch1g)
 
->### h. [**Blockchain Security**](#ch1h)
+>### h. [**Public & Permissioned Blockchains**](#ch1h)
 
->### i. [**Public & Permissioned Blockchains**](#ch1j)
+>### i. [**Blockchain Flow**](#ch1i)
 
->### j. [**Blockchain Flow**](#ch1j)
+>### j. [**Simplified Byzantine Fault Tolerance**](#ch1j)
 
->### k. [**Consensus & Fault Tolerance**](#ch1k)
+>### k. [**Governance & Blockchain**](#ch1k)
 
->### l. [**Governance & Blockchain**](#ch1l)
+>### l. [**Identity & Anonymity on Blockchain**](#ch1l)
 
->### m. [**Identity & Anonymity on Blockchain**](#ch1m)
+>### m. [**Trust & Trustless**](#ch1m)
 
->### n. [**Trust & Trustless**](#ch1n)
-
->### o. [**Summary**](#ch1o)
+>### n. [**Summary**](#ch1n)
 
 ## 2. [**Governance and Consensus**](#ch2)
 
@@ -133,7 +131,7 @@ In summary, **distributed ledger technology (dlt)** generally consists of three 
 2.  A language of transactions that changes the ledger state
 3.  A protocol used to build consensus among participants around which transactions will be accepted, and in what order, by the ledger.
 
-### Blockchain
+### <a id="ch1b"></a>Blockchain
 According to hyperledger.org,  
 "A blockchain is a peer-to-peer distributed ledger forged by consensus, combined with a system for "smart contracts" and other assistive technologies. Together these can be used to build a new generation of transactional applications that establishes trust, accountability, and transparency at their core, while streamlining business processes and legal constraints."  
 Smart contracts are simply computer programs that execute predefined actions when certain conditions within the system are met.  
@@ -204,7 +202,7 @@ The immutability of the distributed ledger is guaranteed by the cryptography, bu
 You want to deploy it behind a firewall, you want to use tunneling to connect between nodes across the Internet, and you want to maintain it, just like any other service that deals with Internet traffic...you have firewalls, and load balancers, and things like that.  
 That's all I've got to say about security. And thanks for taking our course.
 
-### 1f. Transactions
+### <a id="ch1d"></a>Transactions / Cryptography
 The record of an event, cryptographically secured with a digital signature, that is verified, ordered, and bundled together into blocks, form the transactions in the blockchain. In the Bitcoin blockchain, transactions involve the transfer of bitcoins, while in other blockchains, transactions may involve the transfer of any asset or a record of some service being rendered. Furthermore, a smart contract within the blockchain may allow automatic execution of transactions upon meeting predefined criteria.  
 Cryptography has a key role to play both in the security, as well as in the immutability of the transactions recorded on blockchains. Cryptography is the study of the techniques used to allow secure communication between different parties and to ensure the authenticity and immutability of the data being communicated. For blockchain technologies, cryptography is used to prove that a transaction was created by the right person. It is also used to link transactions into a block in a tamper-proof way, as well as create the links between blocks, to form a blockchain.
 
@@ -244,7 +242,7 @@ There are a number of consensus mechanisms or algorithms.
 **Bitcoin uses Proof of Work**, while **Ethereum uses Proof of Work** currently, but is moving towards **Proof of Stake**.  
 The **Hyperledger Sawtooth uses Proof of Elapsed Time**.
 
-### Immutability of Data
+### <a id="ch1e"></a>Immutability of Data
 The immutability of the data which sits on the blockchain is perhaps the most powerful and convincing reason to deploy blockchain-based solutions for a variety of socio-economic processes which are currently recorded on centralized servers. This immutability, or "unchanging over time" feature makes the blockchain useful for accounting, financial transactions, identity management, and asset ownership, management and transfer, just to name a few examples. Once a transaction is written onto the blockchain, no one can change it, or, at least, it would be extremely difficult to change it.  
 According to Antony Lewis, the Director of Research at R3,  
 "When people say that blockchains are immutable, they don't mean that the data can't be changed, they mean it is extremely hard to change without collusion, and if you try, it's extremely easy to detect the attempt".  
@@ -258,7 +256,7 @@ Since blockchain is a form of digital infrastructure, applications built on top 
 A more exhaustive list of companies using blockchain technology for identity management and authentication can be found in the following article: "21 Companies Leveraging Blockchain for Identity Management and Authentication" by Elena Mesropyan.  
 For more details about blockchain applications, you can refer to Daniel Palmer's article entitled "7 Cool Decentralized Apps Being Built on Ethereum".
 
-### Smart Contracts
+### <a id="ch1f"></a>Smart Contracts
 What is a smart contract?  
 Back in 1996, a man named Nick Szabo coined the term 'smart contract'.  
 You can think of them as computer protocols used to facilitate, verify, or enforce the negotiation of a legal contract.  
@@ -275,11 +273,11 @@ According to the Coin Market Capitalizations website, as of November 2020, bitco
 
 ![image](https://user-images.githubusercontent.com/41387907/138574896-b923c968-2909-4c47-8333-fbe77d089177.png)
 
-### Bitcoin Charts
+### <a id="ch1i"></a>Bitcoin Charts
 (Source: https://coinmarketcap.com/currencies/bitcoin/)  
 According to AngelList, over five thousand startups have been created to leverage Bitcoin and blockchain-related technologies since the inception of the Bitcoin payment system. Hundreds of large companies, and dozens of governments and universities have become actively involved in researching, testing, and prototyping blockchain protocols, platforms, and applications. In particular, the financial services sector has been actively investing in exploring wider applications of distributed ledger technologies (of which, blockchain is a subset) since late 2015.
 
-###<a id="ch2"</a>Bitcoin & Ethereum
+### <a id="ch2"></a>Bitcoin & Ethereum
 And so, why were Bitcoin and Ethereum created? What problems do they solve?  
 Bitcoin was first launched in January of 2009, as a response to the global financial crisis at the time.  
 Part of the motivation for the system was to be able to transfer value over the internet, without an intermediary.  
@@ -295,7 +293,7 @@ Some of its key features include the immutability of data, that unauthorized use
 That is because the applications on the network are decentralized, and on many, many machines,  
 if some of those machines go down, the Ethereum network maintains a stable state of the Ethereum network.
 
-### Bitcoin and Cryptoeconomics
+### <a id="ch2a"></a>Bitcoin and Cryptoeconomics
 Bitcoin has also ushered in tremendous academic and research interest in the area of Cryptoeconomics and Cryptoeconomic security.  
 According to Vitalik Buterin,  
 "Cryptoeconomics is about building systems that have certain desired properties using cryptography to prove properties about messages that happened in the past while using economic incentives defined inside the system to encourage desired properties to hold into the future".  
@@ -336,7 +334,7 @@ Since they are cryptographically secured, Dapps are referred to as "secure appli
 *   Maker, which is a Decentralized Autonomous Organization (DAO).  
     The Ethereum network is a distributed global public network, which means it is not run on central servers in a certain geographical location. Instead, the computing power that runs the network is contributed by nodes that are spread across the globe. In other words, Dapps have "zero downtime" - they never go down and, in general, cannot be switched off.
 
-### Ethereum Smart Contracts
+### <a id="ch2b"></a>Ethereum Smart Contracts
 A hypothetical example of an Ethereum-based smart contract may involve the following transaction: in an equity raise, transfer amount X from the investor to the company upon receiving the given shares from the company. The monetary amount X, which was pre-validated by the company for the transaction (much like in a credit card purchase), is held in escrow by the smart contract, until the shares have been received by the investor. Any kind of arbitrary sophisticated business logic can be committed to the blockchain. The Ethereum blockchain only encodes these "rules of the games". The actual payoffs occur by interacting with the blockchain.  
 The illustration below describes this process. The smart contract encodes the agreement between the company raising funds and its investors (Panel 1). The smart contract sits on the Ethereum public blockchain, and is run on the Ethereum Virtual Machine (EVM). Once hitting a triggering event, like an expiration date or a strike price that has been pre-coded, the smart contract automatically executes as per the business logic (Panel 2). As an added benefit, regulators are able to scrutinize the market activity on an ongoing basis, without compromising the identity of specific players in a permissionless public blockchain, as Ethereum (Panel 3).
 
@@ -371,7 +369,7 @@ Notice that the value of that is close to 3 million dollars.
 So, you can examine these transactions on both the Bitcoin and Ethereum blockchains, and many other blockchains.  
 In Chapter 2 of this course, we'll touch upon the Hyperledger Explorer, which can be configured to examine blockchains you might develop with other of the Hyperledger frameworks.
 
-### Consensus Algorithms
+### <a id="ch1j"></a>Consensus Algorithms
 Consensus in the network refers to the process of achieving agreement among the network participants as to the correct state of data on the system. Consensus leads to all nodes sharing the exact same data. A consensus algorithm, hence, does two things: it ensures that the data on the ledger is the same for all the nodes in the network, and, in turn, prevents malicious actors from manipulating the data. The consensus algorithm varies with different blockchain implementations.  
 While the Bitcoin blockchain uses Proof of Work as the consensus algorithm, other blockchains and distributed ledgers are deploying a variety of consensus algorithms, like the Proof of Stake, Proof of Burn, Proof of Capacity, Proof of Elapsed Time, and many others, depending on their unique requirements.  
 Next, we will briefly explain some of these algorithms.
@@ -394,8 +392,7 @@ Developed by Intel, the Proof of Elapsed Time consensus algorithm emulates the B
 *   `sawtooth.hyperledger.org`  
     This "leader" gets to create the next block on the chain.
 
-### Simplified Byzantine Fault Tolerance (SBFT)
-
+### <a id="ch1j"></a>Simplified Byzantine Fault Tolerance (SBFT)
 The Simplified Byzantine Fault Tolerant consensus algorithm implements an adopted version of the Practical Byzantine Fault Tolerant (PBFT) algorithm, and seeks to provide significant improvements over Bitcoin's Proof of Work consensus protocol. The basic idea involves a single validator who bundles proposed transactions and forms a new block. Note that, unlike the Bitcoin blockchain, the validator is a known party, given the permissioned nature of the ledger. Consensus is achieved as a result of a minimum number of other nodes in the network ratifying the new block. In order to be tolerant of a Byzantine fault, the number of nodes that must reach consensus is 2f+1 in a system containing 3f+1 nodes, where f is the number of faults in the system. For example, if we have 7 nodes in the system, then 5 of those nodes must agree if 2 of the nodes are acting in a faulty manner.  
 The practical example would be that of ByzCoin, which seeks to make key improvements over the original Bitcoin protocol. Addressing the challenge around scalability due to high latency, ByzCoin transactions are irreversibly committed to the blockchain within seconds. The added advantage is the communication trees to "(...) optimize transaction commitments and verification under normal operations" (2016 Kudelski Security report).
 
@@ -635,7 +632,7 @@ As you familiarize yourself more with Hyperledger and the blockchain technologie
 "Having a portfolio of projects, though, enables us to have the variety of ideas and contributors to become a strong open source community... It's not that our multiplicity of projects has given us strength through numbers, but rather strength through diversity."  
 Dan Middleton, All Are Welcome Here (2018)
 
-### Blockchain Security at Hyperledger (David Huseby)
+### <a id="ch1g"></a>Blockchain Security at Hyperledger (David Huseby)
 So, security with distributed ledgers really begins here at Hyperledger with our culture of secure software development.  
 Every aspect of the software, from development, through testing, through bug fixing, and vulnerability resolution, it's done in a completely open process.  
 It's open to anybody to participate.  

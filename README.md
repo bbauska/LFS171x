@@ -10,7 +10,6 @@ LFS171x is part of the Blockchain for Business Professional Certificate. Skills 
 ## [Table of Contents](#table-of-contents)
 
 ## 1. [**Introduction to Blockchain**](#ch1)
-
 >### a. [**Introduction & Learning Objectives**](#ch1a)
 >### b. [**Basis of Blockchain**](#ch1b)
 >### c. [**Distributed Ledgers Technology (dlt)**](#ch1c)

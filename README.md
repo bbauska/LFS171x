@@ -27,57 +27,33 @@ LFS171x is part of the Blockchain for Business Professional Certificate. Skills 
 >### n. [**Summary**](#ch1n)
 
 ## 2. [**Governance and Consensus**](#ch2)
-
 >### a. [**Introduction & Learning Objectives**](#ch2a)
-
 >### b. [**Standard vs Blockchain Governance**](#ch2b)
-
 >### c. [**Consensus**](#ch2c)
-
 >### d. [**Governance with Autonomy**](#ch2d)
-
 >### e. [**Governance for Enterprise**](#ch2e)
-
 >### f. [**Summary**](#ch2f)
 
 ## 3. [**Blockchain Problem Solving**](#ch3)
-
 >### a. [**Introduction and Learning Objectives**](#ch3a)
-
 >### b. [**Immutablity**](#ch3b)
-
 >### c. [**Transparency**](#ch3c)
-
 >### d. [**Autonomy**](#ch3d)
-
 >### e. [**Multi-Party Transactions**](#ch3e)
-
 >### f. [**Double Spend**](#ch3f)
-
 >### g. [**Summary**](#ch3g)
 
 ## 4. [**Blockchain `Use` Cases**](#ch4)
-
 >### a. [**Introduction and Learning Objectives**](ch4a)
-
 >### b. [**Blockchain Use Cases**](ch4b)
-
 >### c. [**Healthchare**](ch4c)
-
 >### d. [**Voting**](ch4d)
-
 >### e. [**Identity Management**](ch4e)
-
 >### f. [**Land Records and Governance**](ch4f)
-
 >### g. [**Blockchain with Supply Chain**](ch4g)
-
 >### h. [**Internet of Things (IoT)**](ch4h)
-
 >### i. [**Energy**](ch4i)
-
 >### j. [**Future of Blockchain**](ch4j)
-
 >### k. [**Summary**](ch4k)
 
 ---

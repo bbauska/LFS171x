@@ -7,7 +7,7 @@
 **Welcome to LFS171x: Introduction to Hyperledger Blockchain Technology**  
 LFS171x is part of the Blockchain for Business Professional Certificate. Skills in blockchain are being reported as the top job-skill in demand. This program is designed for the business professional who needs to understand the potential (or threat) of blockchain to their company and industry. Armed with better information of the blockchain landscape, this program will help you rise to new challenges in your current role by giving you a new dimension on which you can add value to your employer.
 
-## Table of Contents
+## [Table of Contents](#table-of-contents)
 
 ## 1. [**Introduction to Blockchain**](#ch1)
 
@@ -392,6 +392,8 @@ Developed by Intel, the Proof of Elapsed Time consensus algorithm emulates the B
 
 *   `sawtooth.hyperledger.org`  
     This "leader" gets to create the next block on the chain.
+
+**[⬆ back to top](#table-of-contents)**
 
 ### <a id="ch1j"></a>Simplified Byzantine Fault Tolerance (SBFT)
 The Simplified Byzantine Fault Tolerant consensus algorithm implements an adopted version of the Practical Byzantine Fault Tolerant (PBFT) algorithm, and seeks to provide significant improvements over Bitcoin's Proof of Work consensus protocol. The basic idea involves a single validator who bundles proposed transactions and forms a new block. Note that, unlike the Bitcoin blockchain, the validator is a known party, given the permissioned nature of the ledger. Consensus is achieved as a result of a minimum number of other nodes in the network ratifying the new block. In order to be tolerant of a Byzantine fault, the number of nodes that must reach consensus is 2f+1 in a system containing 3f+1 nodes, where f is the number of faults in the system. For example, if we have 7 nodes in the system, then 5 of those nodes must agree if 2 of the nodes are acting in a faulty manner.  

@@ -9,51 +9,38 @@ LFS171x is part of the Blockchain for Business Professional Certificate. Skills 
 
 ## [Table of Contents](#table-of-contents)
 
-## 1. [**Introduction to Blockchain**](#ch1)
+## 1. [**Discovering Blockchain Technologies**](#ch1)
 >### a. [**Introduction & Learning Objectives**](#ch1a)
->### b. [**Basis of Blockchain**](#ch1b)
->### c. [**Distributed Ledgers Technology (dlt)**](#ch1c)
->### d. [**Cryptography**](#ch1d)
->### e. [**Immutability**](#ch1e)
->### f. [**Smart Contracts**](#ch1f)
->### g. [**Blockchain Security**](#ch1g)
->### h. [**Public & Permissioned Blockchains**](#ch1h)
->### i. [**Blockchain Flow**](#ch1i)
->### j. [**Simplified Byzantine Fault Tolerance**](#ch1j)
->### k. [**Governance & Blockchain**](#ch1k)
->### l. [**Identity & Anonymity on Blockchain**](#ch1l)
->### m. [**Trust & Trustless**](#ch1m)
->### n. [**Summary**](#ch1n)
+>### b. [**Distributed Ledgers Technology (DLT)**](#ch1b)
+>### c. [**Bitcoin & Ethereum Blockchains**](#ch1c)
+>### d. [**Exploring Permissionless Blockchains**](#ch1d)
+>### e. [**Consensus Algorithms**](#ch1e)
+>### f. [**Hyperledger**](#ch1f)
+>### g. [**Other Open Source Permissioned Distributed Ledgers**](#ch1g)
+>### h. [**Challenges in the Adoption/Deployment of Distributed Ledger Technologies**](#ch1h)
 
-## 2. [**Governance and Consensus**](#ch2)
+## 2. [**Introduction to Hyperledger**](#ch2)
 >### a. [**Introduction & Learning Objectives**](#ch2a)
->### b. [**Standard vs Blockchain Governance**](#ch2b)
->### c. [**Consensus**](#ch2c)
->### d. [**Governance with Autonomy**](#ch2d)
->### e. [**Governance for Enterprise**](#ch2e)
->### f. [**Summary**](#ch2f)
+>### b. [**Hyperledger**](#ch2b)
+>### c. [**Q/A with Brian Behlendorf, Executive Director of Hyperledger**](#ch2c)
 
-## 3. [**Blockchain Problem Solving**](#ch3)
+## 3. [**Hyperledger: Distr. Ledger Frameworks & Domain Specific Blockchains**](#ch3)
 >### a. [**Introduction and Learning Objectives**](#ch3a)
->### b. [**Immutablity**](#ch3b)
->### c. [**Transparency**](#ch3c)
->### d. [**Autonomy**](#ch3d)
->### e. [**Multi-Party Transactions**](#ch3e)
->### f. [**Double Spend**](#ch3f)
->### g. [**Summary**](#ch3g)
+>### b. [**Hyperledger Frameworks**](#ch3b)
+>### c. [**Hyperledger: Domain-Specific Blockchain Technologies**](#ch3c)
 
-## 4. [**Blockchain `Use` Cases**](#ch4)
+## 4. [**Hyperledger Tools**](#ch4)
 >### a. [**Introduction and Learning Objectives**](ch4a)
->### b. [**Blockchain Use Cases**](ch4b)
->### c. [**Healthchare**](ch4c)
->### d. [**Voting**](ch4d)
->### e. [**Identity Management**](ch4e)
->### f. [**Land Records and Governance**](ch4f)
->### g. [**Blockchain with Supply Chain**](ch4g)
->### h. [**Internet of Things (IoT)**](ch4h)
->### i. [**Energy**](ch4i)
->### j. [**Future of Blockchain**](ch4j)
->### k. [**Summary**](ch4k)
+>### b. [**Hyperledger Tools**](ch4b)
+
+## 5. [**Hyperledger Libraries**](#ch5)
+>### a. [**Introduction and Learning Objectives**](ch5a)
+>### b. [**Hyperledger Libraries**](ch5b)
+
+## 6. [**The Promise of Business Blockchain Technologies**](#ch6)
+>### a. [**Introduction and Learning Objectives**](ch6a)
+>### b. [**Existing Hyperledger Blockchain Use Cases**](ch6b)
+>### c. [**When to Use or Not to Use Blockchain Technologies**](ch6c)
 
 ---
 **[`^        back to top        ^`](#)**
@@ -1365,10 +1352,11 @@ Conducting post-trade settlement in an automated way through smart contracts pro
 A number of multi-party processes in the healthcare industry can leverage distributed ledger technology. By streamlining these multi-party processes, the healthcare industry can reduce the time and expense of collecting and verifying multiple pieces of information in order to deliver quality care to patients. Healthcare providers and insurance companies have begun to explore how blockchain can improve the delivery of patient care.  
 In 2015, the US spent 27.42% of the federal budget, or $1.05 trillion, on healthcare (National Priorities Project). Because these costs are so high, the US government, in particular, has invested resources into healthcare blockchain technology. The Office of National Coordinator for Health Information Technology (ONC) is responsible for health information technology. It has recognized a need for nationwide interoperability and standards for electronic health records, claims processing, and verification of provider credentials. To that end, it has sponsored many government blockchain initiatives in healthcare.  
 The healthcare industry has already placed medical insurance enrollment information on blockchain for verification, and plans to incorporate many other aspects of medical insurance claims processing on blockchain. One cost borne by health insurance providers is auditing care providers. Health insurance providers must verify whether a practitioner actually delivered the care that he or she was obliged to deliver to the patient. Health insurance providers must also audit the financial aspects incurred as part of this care, to ensure that care was paid, and the charges were accurate. Tying the care auditability with the payment auditability provides a key advantage to reducing the potential for fraud.  
-Healthcare (Part I)  
+Healthcare (Part I)
 The healthcare industry has examined placing prescription drug fulfillment processes on blockchain since they involve gathering and checking information from many sources. Insurance benefits investigation eligibility checks are performed to see if insurance will pay. Prior authorization and step therapy requirements are checked to see if a patient is able to receive a particular drug, or if other drugs are preferred. Formulary checks, patients’ assistance checks, and pharmacy stock checks must all be performed. The healthcare industry has also used DLT to handle online identity management, by uploading verified pieces of a healthcare professional’s credentials for license verification.  
 
 ![image](https://user-images.githubusercontent.com/41387907/138567356-a002ee52-de31-4e07-895c-8b0fe1e634c5.png)
+
 <h5>By The BlockRx Project, retrieved from the Hyperledger Healthcare Working Group, August 22nd, 2017 Meeting</h5>
 Another area blockchain is used in healthcare is to protect data from cybercrime. Data breaches happen on a daily basis across all industries, and healthcare is no different. In fact, 1 in 4 data breaches occur in the healthcare sector, affecting millions of people: more exactly, 1 in 13 patients in the U.S. are affected by breaches. Why is healthcare data so sought after by hackers? Because it's personal, permanent and detailed: from social security numbers, to address, to family history, to confidential medical history.
 

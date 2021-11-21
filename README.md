@@ -541,6 +541,8 @@ The Enterprise Ethereum Alliance (EEA) and Hyperledger formally joined each othe
     "...simultaneously developing community-driven open standards and production-quality open source reference implementations is a best practice of Internet-scale software development work."  
     While working together, the two organizations will also continue to collaborate with other standard bodies and open source communities, all with the common goal of accelerating the adoption of enterprise blockchain technologies.
 
+**[`^        back to top        ^`](#)**
+
 ### Open Source and Open Governance
 "Today, most people understand the concept of Open Source. What many people don't get, and something we here at Hyperledger and The Linux Foundation pride ourselves on doing well, is Open Governance".
 
@@ -597,6 +599,8 @@ Because we're radically transparent, and because we do the correct things from a
 And then, building on top of our process, comes all of the cryptography and the data resiliency that you get with a distributed ledger.  
 So, once we can ship a product, a piece of software that's been built to the best of our ability, then the guarantees provided by the cryptography really carry weight, or really, are ironclad.  
 So, it's a very holistic approach to security here at Hyperledger: everything, from the way we write software to the way the software works.
+
+**[`^        back to top        ^`](#)**
 
 ### How Will Hyperledger Change the Blockchain Ecosystem? (Brian Behlendorf)
 How do you think Hyperledger will change the industries that adopt the technology?  
@@ -665,6 +669,8 @@ These are all open source projects, and anyone is welcome to pick them up and us
 Of course, this only represents a fraction of what open source blockchain technologies can do now and in the future.  
 So it's time to ask yourself: who will you trust with your trust network?
 
+**[`^        back to top        ^`](#)**
+
 ### Project Lifecycle and Hyperledger Incubator
 According to the Hyperledger documentation, a project refers to a collaborative endeavor to deliver a work item. Projects can vary in terms of scope: some are intended to produce a document, some may develop new capabilities or refactor/remove an existing capability.  
 In general, open source initiatives use an incubation process for new work items: this allows members of the community to contribute new ideas and code in a more structured and transparent workflow. Hyperledger has adopted a rigorous project lifecycle process that has six possible states:
@@ -701,6 +707,8 @@ There is a specific process that must be followed when proposing a new lab. Labs
 
 ### Q/A with Brian Behlendorf, Executive Director of Hyperledger
 Before diving deeper into the projects advanced under the Hyperledger umbrella, we asked Brian Behlendorf, Executive Director of Hyperledger at The Linux Foundation, some questions.
+
+**[`^        back to top        ^`](#)**
 
 ### Reasons Why Developers Would Become Interested in Open Source Software
 So, many of the students taking this course are more familiar with working with Devs within the same room.  
@@ -764,6 +772,8 @@ When a journalist calls us and asks us for a story about somebody doing somethin
 So, this balancing act of, you know... as I mentioned, there's a developer community, and there's a commercial community, a corporate community...  
 That's the balancing act... that The Linux Foundation has really developed a process for, a template for, and a real science around, and that's what we're bringing to bear on the Hyperledger project.
 
+**[`^        back to top        ^`](#)**
+
 ### Interoperability Between Hyperledger Frameworks
 What do you think will help foster interoperability between these three different Hyperledger frameworks?  
 So, there's a number of things that we can do to assist in the interoperability between the different projects at Hyperledger.  
@@ -798,6 +808,8 @@ Hyperledger business blockchain frameworks are used to build enterprise blockcha
 ![image](https://user-images.githubusercontent.com/41387907/138575454-df0b58de-1185-4558-b507-3a861a8bd63b.png)
 
 Now, let's explore the Hyperledger frameworks (as of November 2020)!
+
+**[`^        back to top        ^`](#)**
 
 ### Hyperledger `Besu`
 ![image](https://user-images.githubusercontent.com/41387907/138575460-35b419be-65bd-438d-a752-f047835d12bd.png)

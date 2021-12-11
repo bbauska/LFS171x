@@ -30,17 +30,17 @@ LFS171x is part of the Blockchain for Business Professional Certificate. Skills 
 >### c. [**Hyperledger: Domain-Specific Blockchain Technologies**](#ch3c)
 
 ## 4. [**Hyperledger Tools**](#ch4)
->### a. [**Introduction and Learning Objectives**](ch4a)
->### b. [**Hyperledger Tools**](ch4b)
+>### a. [**Introduction and Learning Objectives**](#ch4a)
+>### b. [**Hyperledger Tools**](#ch4b)
 
 ## 5. [**Hyperledger Libraries**](#ch5)
->### a. [**Introduction and Learning Objectives**](ch5a)
->### b. [**Hyperledger Libraries**](ch5b)
+>### a. [**Introduction and Learning Objectives**](#ch5a)
+>### b. [**Hyperledger Libraries**](#ch5b)
 
 ## 6. [**The Promise of Business Blockchain Technologies**](#ch6)
->### a. [**Introduction and Learning Objectives**](ch6a)
->### b. [**Existing Hyperledger Blockchain Use Cases**](ch6b)
->### c. [**When to Use or Not to Use Blockchain Technologies**](ch6c)
+>### a. [**Introduction and Learning Objectives**](#ch6a)
+>### b. [**Existing Hyperledger Blockchain Use Cases**](#ch6b)
+>### c. [**When to Use or Not to Use Blockchain Technologies**](#ch6c)
 
 ---
 **[`^        back to top        ^`](#)**

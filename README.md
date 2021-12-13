@@ -356,6 +356,9 @@ Developed by Intel, the Proof of Elapsed Time consensus algorithm emulates the B
 
 **[⬆ back to top](#table-of-contents)**
 
+
+**[`^        back to top        ^`](#)**
+
 ### <a id="ch1j"></a>Simplified Byzantine Fault Tolerance (SBFT)
 The Simplified Byzantine Fault Tolerant consensus algorithm implements an adopted version of the Practical Byzantine Fault Tolerant (PBFT) algorithm, and seeks to provide significant improvements over Bitcoin's Proof of Work consensus protocol. The basic idea involves a single validator who bundles proposed transactions and forms a new block. Note that, unlike the Bitcoin blockchain, the validator is a known party, given the permissioned nature of the ledger. Consensus is achieved as a result of a minimum number of other nodes in the network ratifying the new block. In order to be tolerant of a Byzantine fault, the number of nodes that must reach consensus is 2f+1 in a system containing 3f+1 nodes, where f is the number of faults in the system. For example, if we have 7 nodes in the system, then 5 of those nodes must agree if 2 of the nodes are acting in a faulty manner.  
 The practical example would be that of ByzCoin, which seeks to make key improvements over the original Bitcoin protocol. Addressing the challenge around scalability due to high latency, ByzCoin transactions are irreversibly committed to the blockchain within seconds. The added advantage is the communication trees to "(...) optimize transaction commitments and verification under normal operations" (2016 Kudelski Security report).
@@ -1531,8 +1534,6 @@ In other words, an oracle pushes data onto the blockchain, rather than a smart c
 
 ### V. Simpler Alternatives
 For some applications, other options are simply more efficient. When evaluating blockchain technology, consider whether regular file storage, a centralized database, or database replication with master/slave relationship between the original and copies is suitable. If those structures are suitable, then you can deploy your application with reduced complexity. Do you need a smart contract or are stored procedures written in an extension of SQL sufficient? Similarly, some applications can simply utilize cryptographic methods common in blockchains, without the database replication mechanisms of a blockchain.
-
-**[`^        back to top        ^`](#)**
 
 #### Blockchain Decision Path
 ![image](https://user-images.githubusercontent.com/41387907/138575694-cfe33539-cddc-4dd5-b44f-f8b7519f5264.png)

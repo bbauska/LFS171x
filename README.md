@@ -1623,7 +1623,11 @@ In other words, an oracle pushes data onto the blockchain, rather than a smart c
 For some applications, other options are simply more efficient. When evaluating blockchain technology, consider whether regular file storage, a centralized database, or database replication with master/slave relationship between the original and copies is suitable. If those structures are suitable, then you can deploy your application with reduced complexity. Do you need a smart contract or are stored procedures written in an extension of SQL sufficient? Similarly, some applications can simply utilize cryptographic methods common in blockchains, without the database replication mechanisms of a blockchain.
 
 #### Blockchain Decision Path
-![image](https://user-images.githubusercontent.com/41387907/138575694-cfe33539-cddc-4dd5-b44f-f8b7519f5264.png)
+
+<p align="center" width="100%">
+  <img width="100%" src="https://user-images.githubusercontent.com/41387907/138575694-cfe33539-cddc-4dd5-b44f-f8b7519f5264.png" alt="Blockchain decision path"/>
+</p>
+
 The above diagram provides generalized, high-level decision points about when to use or not to use blockchain technology for your business.
 
 #### Hyperledger Community
@@ -1642,11 +1646,11 @@ For key updates from Hyperledger, join the mailing list. Explore all Hyperledger
 You can start or join a Hyperledger meetup. Development updates from Wiki can be found here.
 
 <p align="center" width="100%">
-  <img width="33%" src="https://user-images.githubusercontent.com/41387907/138567410-7039e221-879b-4214-9b21-091947e04495.png" 
+  <img width="100%" src="https://user-images.githubusercontent.com/41387907/138567410-7039e221-879b-4214-9b21-091947e04495.png" 
        alt="Hyperledger Global Meetups (as of 06/24/2019)"/>
 </p>
 
-<h5>Hyperledger Global Meetups (as of 06/24/2019)</h5>
+<h5 align="center">Hyperledger Global Meetups (as of 06/24/2019)</h5>
 
 **[`^        back to top        ^`](#)**
 

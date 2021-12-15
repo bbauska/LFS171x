@@ -492,7 +492,9 @@ So, Hyperledger provides all the capabilities of blockchain architecture, data p
 Hyperledger incubates and promotes a range of business blockchain technologies, including distributed ledger frameworks, smart contract engines, client libraries, graphical interfaces, utility libraries, and sample applications. Hosted by The Linux Foundation, collaborators include industry leaders in technology, finance, banking, supply chain management, manufacturing, and IoT.  
 As of November 2020, there are 16 projects in the Hyperledger greenhouse, six of which are distributed ledger and domain specific frameworks. The other 10 projects are tools and libraries that support these frameworks.
 
+<p align="center">
 ![image](https://user-images.githubusercontent.com/41387907/138575021-89ffa40e-3a0a-4fae-a1a4-55b31e472350.png)
+</p>
 
 As Arnaud Le Hors, member of the Hyperledger Technical Steering Committee, emphasized,  
 "these projects show how broadly applicable blockchain technology really is. This goes way beyond cryptocurrencies".  
@@ -523,7 +525,9 @@ But, I joined partly because I saw how transparent, and how engaging, even from 
 ### Hyperledger Goals
 Hyperledger has taken a leadership role to develop cross-industry standards and provide a neutral space for software collaboration. The financial services industry, in particular, is witnessing an unprecedented level of collaboration between institutions that have traditionally been competitors. The advent of a new foundational or infrastructural technology like the blockchain - much like the Internet - requires collaboration of various actors in order to realize the full benefits of the technology. Unless all actors use a certain standard, the pace of technological dissemination will continue to be slow. Technological adoption is characterized by network effects, where the costs decrease with the increase in use of a certain technology. Since shifting to distributed ledger technology involves significant costs, open source software, communities and ecosystems that develop around these have a significant part to play.
 
+<p align="center">
 ![image](https://user-images.githubusercontent.com/41387907/138575026-76ac68b2-101e-464d-95e7-4f9d122e5ea4.png)
+</p>
 
 ### The Importance of Open Source
 So, you had mentioned before how Hyperledger is different from other consortiums because of its focus on creating an open community, not just open sourcing code.  
@@ -836,7 +840,9 @@ Hyperledger business blockchain frameworks are used to build enterprise blockcha
 *   Privacy of transactions through permissioned access
 *   Smart contracts to process transaction requests.
 
+<p align="center">
 ![image](https://user-images.githubusercontent.com/41387907/138575454-df0b58de-1185-4558-b507-3a861a8bd63b.png)
+</p>
 
 Now, let's explore the Hyperledger frameworks (as of November 2020)!
 
@@ -844,7 +850,9 @@ Now, let's explore the Hyperledger frameworks (as of November 2020)!
 
 ### Hyperledger `Besu`
 
-![image](https://user-images.githubusercontent.com/41387907/138575460-35b419be-65bd-438d-a752-f047835d12bd.png)
+<p align="center">
+![Besu](https://user-images.githubusercontent.com/41387907/138575460-35b419be-65bd-438d-a752-f047835d12bd.png)
+</p>
 
 **Hyperledger Besu** is an open source Ethereum client developed under the Apache 2.0 license and written in Java. It can be run on the Ethereum public network or on private permissioned networks, as well as test networks such as Rinkeby, Ropsten, and Görli. Hyperledger Besu includes several consensus algorithms including PoW, PoA, and IBFT, and has comprehensive permissioning schemes designed specifically for uses in a consortium environment. Hyperledger Besu joined the Hyperledger Incubator in August 2019; PegaSys has been its primary contributor and maintainer since its launch in November 2018, when it was known as Pantheon.  
 Among its features:
@@ -861,7 +869,9 @@ Among its features:
 
 ### <a id="ch3b"></a>Hyperledger Burrow
 
+<p align="center">
 ![image](https://user-images.githubusercontent.com/41387907/138575472-9d1aec50-3591-4324-9f5c-0973a32809dc.png)
+<//p>
 
 Welcome to the Hyperledger greenhouse, an open source consortium for developing business blockchain technologies hosted by the Linux Foundation.  
 Within the greenhouse, diverse global communities collaboratively develop open source projects that uniquely approach enterprise blockchain challenges.  
@@ -888,7 +898,9 @@ Hyperledger Burrow components are:
 
 ### Hyperledger `Fabric`
 
+<p align="center">
 ![image](https://user-images.githubusercontent.com/41387907/138575480-0a337383-2046-4aeb-ac95-e68e3ab29e36.png)
+</p>
 
 Welcome to the Hyperledger greenhouse, an open source consortium for developing business blockchain technologies hosted by the Linux Foundation.  
 Within the greenhouse, diverse global communities collaboratively develop open source projects that uniquely approach enterprise blockchain challenges.  
@@ -914,7 +926,9 @@ Its modular architecture allows components such as consensus and membership serv
 
 ### Hyperledger `Indy`
 
-![image](https://user-images.githubusercontent.com/41387907/138575485-e6cd7161-2c55-4a37-a97b-97177cc9665f.png)
+<p align="center">
+![Indy](https://user-images.githubusercontent.com/41387907/138575485-e6cd7161-2c55-4a37-a97b-97177cc9665f.png)
+</p>
 
 Welcome to the Hyperledger greenhouse, an open source consortium for developing business blockchain technologies hosted by the Linux Foundation.  
 Within the greenhouse, diverse global communities collaboratively develop open source projects that uniquely approach enterprise blockchain challenges.  
@@ -956,7 +970,9 @@ One of the key principles of Hyperledger Indy is its "privacy by design" approac
 
 ### Hyperledger `Iroha`
 
-![image](https://user-images.githubusercontent.com/41387907/138575523-62fc4933-7ada-4d3b-adc6-e48b7144058b.png)
+<p align="center">
+![Iroha](https://user-images.githubusercontent.com/41387907/138575523-62fc4933-7ada-4d3b-adc6-e48b7144058b.png)
+</p>
 
 Welcome to the Hyperledger greenhouse, an open source consortium for developing business blockchain technologies hosted by the Linux Foundation.  
 Within the greenhouse, diverse global communities collaboratively develop open source projects that uniquely approach enterprise blockchain challenges.  
@@ -992,7 +1008,9 @@ Hyperledger Iroha is a free, open source blockchain framework contributed by Sor
 
 ### Hyperledger `Sawtooth`
 
+<p align="center">
 ![image](https://user-images.githubusercontent.com/41387907/138575534-bf8c8a84-4c23-472c-9e07-6668e789540f.png)
+</p>
 
 Welcome to the Hyperledger greenhouse, an open source consortium for developing business blockchain technologies hosted by the Linux Foundation.  
 Within the greenhouse, diverse global communities collaboratively develop open source projects that uniquely approach enterprise blockchain challenges.  
@@ -1056,7 +1074,9 @@ Sawtooth Lake creates a digital platform enabling physical traceability in a tru
 
 ### Hyperledger `Grid`
 
+<p align="center">
 ![image](https://user-images.githubusercontent.com/41387907/138575543-c953e474-d30d-4ad2-818c-7f7dce930ad2.png)
+</p>
 
 Hyperledger Grid is a domain-specific business blockchain technology for building supply chain solutions that include distributed ledger components; it's an ecosystem of technologies, frameworks, and libraries that work together, allowing application developers to chose which components are best for their industry or market model. It intends to:
 
@@ -1081,7 +1101,9 @@ By the end of this chapter, you should be able to:
 
 ### Hyperledger `Avalon`
 
+<p align="center">
 ![image](https://user-images.githubusercontent.com/41387907/138575551-ce0c30a8-ebb3-486d-85d8-98f383cf0414.png)
+</p>
 
 Hyperledger Avalon is a ledger independent implementation of the Off-Chain Trusted Compute Specification published by the Enterprise Ethereum Alliance (EEA). It joined the Hyperledger Incubator in October of 2019, bringing together sponsorship from Intel, iExec Blockchain Tech, Alibaba Cloud, Baidu, BGI, Chainlink, Consensys, EEA, Espeo, IBM, Kaleido, Microsoft, Banco Santander, Wipro, Oracle, and Monax. It aims to enable the secure movement of blockchain processing off the main chain to dedicated computing resources. Avalon is designed to help developers gain the benefits of computational trust and mitigate its drawbacks. It is released under the Apache License Version 2.0.  
 Hyperledger Avalon:
@@ -1100,7 +1122,9 @@ To learn more about Hyperledger Cactus, you can watch Peter Somogyvari's Hyperle
 
 ### Hyperledger `Caliper`
 
+<p align="center">
 ![image](https://user-images.githubusercontent.com/41387907/138575566-78794fc1-2d06-455a-b40e-cee3cc59e0d4.png)
+</p>
 
 Welcome to the Hyperledger greenhouse, an open source consortium for developing business blockchain technologies hosted by the Linux Foundation.  
 Within the greenhouse, diverse global communities collaboratively develop open source projects that uniquely approach enterprise blockchain challenges.  
@@ -1124,7 +1148,9 @@ Currently in incubation, Hyperledger Caliper was initially contributed in 2018 b
 
 ### Hyperledger `Cello`
 
+<p align="center">
 ![image](https://user-images.githubusercontent.com/41387907/138575573-0a0eb676-0a88-436d-be56-ad113e6d70e3.png)
+</p>
 
 Hyperledger Cello is a blockchain module toolkit helping businesses use and manage blockchains in a more efficient way. Particularly for lean businesses and small enterprises, who want to reduce or eliminate the effort required in creating, managing, and terminating blockchains, Hyperledger Cello allows blockchains deployment to the cloud. Operators can create and manage such blockchains through a dashboard, and users (typically, chaincode developers) can obtain a blockchain instance immediately.  
 Currently in Incubation, "Cello aims to bring the on-demand 'as-a-service' deployment model to the blockchain ecosystem", thus helping in furthering the development and deployment of Hyperledger's frameworks. Hyperledger Cello was initially contributed by IBM, with sponsors from Soramitsu, Huawei, and Intel (2017).  
@@ -1136,14 +1162,18 @@ Some key features are:
 *   Support various infrastructures (baremetal, VM platforms, container cloud)
 *   Support advanced operational analytics for system status and ledger behavior
 
+<p align="center">
 ![image](https://user-images.githubusercontent.com/41387907/138575585-50c35d4d-4f56-4378-81e7-5a6ad5b9faa0.png)
+</p>
 
 <h5>Hyperledger Cello</h5>
 (Source: https://www.hyperledger.org/blog/2017/01/17/hyperledger-says-hello-to-cello)
 
 ### Hyperledger `Explorer`
 
+<p align="center">
 ![image](https://user-images.githubusercontent.com/41387907/138575604-de11d640-967d-486a-8ddf-b302785cfdb0.png)
+</p>
 
 Hyperledger Explorer is a simple, but powerful open source tool for visualizing blockchain operations. It is the first tool to examine permissioned ledgers, allowing anyone to explore the distributed ledger projects being created by Hyperledger's members from the inside, without compromising their privacy. Currently in Incubation, the project was contributed by DTCC, Intel, and IBM in 2016.  
 Designed to create a user-friendly web application, Hyperledger Explorer can view, invoke, deploy, or query:
@@ -1168,7 +1198,9 @@ By the end of this chapter, you should be able to:
 
 ### Hyperledger `Aries`
 
+<p align="center">
 ![image](https://user-images.githubusercontent.com/41387907/138575614-766de503-e703-4de7-9608-46e3b8d8a8e9.png)
+</p>
 
 Hyperledger Aries "provides a shared, reusable, and interoperable tool kit designed for initiatives and solutions focused on creating, transmitting and storing verifiable digital credentials. It is infrastructure for blockchain-rooted, peer-to-peer interactions; it's not a blockchain and it's not an application. This open source project joined the Hyperledger greenhouse in May 2019 and was initially contributed by developers from the Sovrin Foundation, the Government of British Columbia, and other Indy community developers.  
 Hyperledger Aries is related to both Hyperledger Indy and Hyperledger Ursa (we will talk about this project later in this chapter). This project aims "to change the client layers in Hyperledger Indy to be interoperable with other identity projects. The ultimate goal of Hyperledger Aries is to provide a dynamic set of capabilities to store and exchange data related to blockchain-based identity. These capabilities will range from the secured, secret storage of data such as private keys, up to the capability of globally accessible data that can be viewed and accessed by anyone. An example of such support is the creation of a secure storage solution similar to the wallet available in Hyperledger Indy today."  
@@ -1176,7 +1208,9 @@ Hyperledger Aries developers aim to eventually have a scalable, searchable stora
 
 ### Hyperledger `Quilt`
 
+<p align="center">
 ![image](https://user-images.githubusercontent.com/41387907/138575616-4c0479e6-21cc-4e68-a45d-142a8af5c591.png)
+</p>
 
 Welcome to the Hyperledger greenhouse, an open source consortium for developing business blockchain technologies hosted by the LinuxFoundation.  
 Within the greenhouse, diverse global communities collaboratively develop open source projects that uniquely approach enterprise blockchain challenges.  
@@ -1198,7 +1232,9 @@ Hyperledger Quilt is an open source business blockchain tool that offers interop
 
 ### Hyperledger `Transact`
 
+<p align="center">
 ![image](https://user-images.githubusercontent.com/41387907/138575628-447fa51e-a4a4-4a4a-bb38-939f932086d9.png)
+</p>
 
 Hyperledger Transact is a transaction execution platform designed to be used as a library or as a component when implementing distributed ledger, including blockchains. Hyperledger framework-level projects and custom distributed ledgers can make use of Transact's advanced transaction execution and state management to simplify the transaction execution code required within their projects or to gain additional features. Transact provides an extensible approach to implementing new smart contract languages called smart contract engines.  
 Currently in Incubation, it was originally contributed by Bitwise, Cargill, Intel, IBM and Hacera in 2019. Some of the following features are already supported by Hyperledger Transact, or planned in the short-term:
@@ -1211,7 +1247,9 @@ Currently in Incubation, it was originally contributed by Bitwise, Cargill, Inte
 
 ### Hyperledger Ursa
 
+<p align="center">
 ![image](https://user-images.githubusercontent.com/41387907/138575637-f0524bb3-3716-4c8f-af1d-e01bc31d5920.png)
+</p>
 
 Hyperledger Ursa is a shared cryptographic library that would enable people and projects to avoid duplicating existing cryptographic work and hopefully increase security in the process. Rather than having each Hyperledger project implement its own cryptographic protocols, it would be more desirable to collaborate on a shared library - this will simplify cross-platform interoperability and increase modularity for distributed ledger platforms.  
 In the long run, the goal is for Hyperledger Ursa to provide open source blockchain developers with reliable, secure, easy-to-use, and pluggable cryptographic implementations.  
@@ -1319,7 +1357,9 @@ Currently, there are weak points in the supply chain management. These weak poin
 Blockchains are being used to solve problems in supply chain management by eliminating the need for a trusted third party to certify raw materials, components, or finished products, as they travel through a supply chain. Every participant, or node, contains a copy of all transactions. This provides an audit trail of every transaction that has occurred in the system. A change would be validated or rejected by the nodes in the system. Because all participants have a copy of all past transactions in the network, any participant can detect if a product is not as advertised. Instead of examining raw materials, components, or finished products at several points in the supply chain, a record of the inspection would be available and bound to the item as it flows through the supply chain. Although a record of the transaction is public and tied to the movement of physical items across the network, specifics such as the quantity of goods, or the identity of the parties transacting, can be done pseudo-anonymously in a blockchain. Such a granular view of movement through supply chains improves resource allocation.  
 The trade finance industry can also leverage information visible in a supply chain blockchain. In its broadest sense, trade finance manages capital required for international trade. Trade financing has become the norm for cross border transactions, with the World Trade Organization estimating that "up to 80 percent of global trade is supported by some sort of financing or credit insurance" (2016). An exporter needs to mitigate the risk of non-payment, while an importer wants to mitigate the supply risk. The function of trade finance is to act as a third party to remove the payment risk and the supply risk, whilst providing the exporter with accelerated receivables, and the importer with extended credit. Institutions that provide capital during these trades can leverage the information visible in a supply chain blockchain to better evaluate companies for lending.
 
+<p align="center">
 ![image](https://user-images.githubusercontent.com/41387907/138575655-6f978bd0-04e5-404b-a5b9-9849e805f4aa.png)
+</p>
 
 Source: Nishan Degnarain (used with permission)
 
@@ -1355,8 +1395,10 @@ A blockchain may record a hash of a document. As an example, photographers could
 As the previous section on blockchains for supply chain management illustrated, blockchain data improves insight into products, as they move through their lifecycle. Large enterprises are not the only parties to benefit from this increased visibility. Consumers can also benefit from blockchain technology.  
 Provenance is a record of ownership used as a guide to authenticity or quality. Because of the overhead involved in traditional provenance records, they were only available for very large ticket items, such as works of art. With the efficiencies gained from blockchain technology, provenance records can be available for a wider range of goods. This improved information can aid consumers as they make purchasing decisions.
 
+<p align="center">
 ![image](https://user-images.githubusercontent.com/41387907/138575669-26c3feb9-72c2-4a6a-a098-08d39871c89b.png)
-
+<</p>
+    
 #### How Provenance Works
 (by Project Provenance Ltd, used with permission)
 
@@ -1398,13 +1440,15 @@ Although every trade has its own lifecycle, generally, the following steps will 
 *   One party may assign its position in the trade to a different party
 *   A partial termination of the trade may be triggered if a change in the notional of the trade that is not pre-fixed according to the agreement occurs
 *   Termination of the deal before maturity of the trade may occur, which may entail a termination fee.
-    *   Payment is made. These payments may be at the close of a trade, or at intermediate stages while a trade is still open. When the payments are made on an open contract, this is known as 'revaluation' and is done to minimize the risk of nonpayment by a counterparty whose position has weakened in the trade due to events that occurred after trade execution.
-    *   Audit of the trade and associated payments is performed by the parties. If a dispute occurs, the parties must communicate and come to a resolution for such discrepancies. This is a manual and costly process.
+*   Payment is made. These payments may be at the close of a trade, or at intermediate stages while a trade is still open. When the payments are made on an open contract, this is known as 'revaluation' and is done to minimize the risk of nonpayment by a counterparty whose position has weakened in the trade due to events that occurred after trade execution.
+*   Audit of the trade and associated payments is performed by the parties. If a dispute occurs, the parties must communicate and come to a resolution for such discrepancies. This is a manual and costly process.
 
 ### Finance (Part IV)
 Smart contracts may greatly improve the process of post-trade settlement, by reducing disputes and errors. Smart contracts will ensure that final settlement will happen when the execution of a trade occurs. With smart contract technology, a legal agreement can automatically execute clauses within it.  
 
+<p align="center">
 ![image](https://user-images.githubusercontent.com/41387907/138575675-e4e11f59-196e-4c1a-b4b5-7c91c16322e6.png)
+</p>
 
 The image above shows the automation of back-office processes involved in trade confirmation and post-trade settlement via DLT. An asset ledger stores ownership and transactions. Smart contracts allow the asset ledger to handle collateral management and initiate payments per contract terms. Venues (e.g. exchanges, MTFs, bilateral voice conversations) still match trade requests with a counterparty, and provide price discovery. Querying information on the asset ledger may assist with price discovery. The asset ledger verifies the parties and asset ownership. It will then either accept, or reject the trade. If, for example, the seller does not own the asset in question, or the new trade would result in an illegal overexposure on the buyer side, the trade would be rejected. When a trade is valid and accepted onto the blockchain, the blockchain automates an immediate change in ownership, or a delayed, or contingent asset transfer. The changes in asset ownership or contract terms are securely recorded onto the asset ledger. The contract is programmed to execute automatically, exchanging payments and other assets per the terms agreed to by the parties.  
 It is still unclear whether courts will enforce blockchain contracts in the same way that they enforce traditional written contracts, with inked paper signatures. Therefore, the current best practice is to record trades on blockchain, alongside traditional legal documentation. The operative clauses in the traditional written contract are converted into smart contract templates to be placed on blockchain once a trade is confirmed. For example, a full ISDA master agreement document would be stored on blockchain, and tied to the smart contract governing the underlying swap or derivative trade. This leverages the predictable outcomes of a legal contract with the efficiencies that can be gained from distributed ledger technologies.
@@ -1423,7 +1467,9 @@ The healthcare industry has already placed medical insurance enrollment informat
 ### Healthcare (Part I)
 The healthcare industry has examined placing prescription drug fulfillment processes on blockchain since they involve gathering and checking information from many sources. Insurance benefits investigation eligibility checks are performed to see if insurance will pay. Prior authorization and step therapy requirements are checked to see if a patient is able to receive a particular drug, or if other drugs are preferred. Formulary checks, patients’ assistance checks, and pharmacy stock checks must all be performed. The healthcare industry has also used DLT to handle online identity management, by uploading verified pieces of a healthcare professional’s credentials for license verification.  
 
+<p align="center">
 ![image](https://user-images.githubusercontent.com/41387907/138567356-a002ee52-de31-4e07-895c-8b0fe1e634c5.png)
+</p>
 
 <h5>By The BlockRx Project, retrieved from the Hyperledger Healthcare Working Group, August 22nd, 2017 Meeting</h5>
 Another area blockchain is used in healthcare is to protect data from cybercrime. Data breaches happen on a daily basis across all industries, and healthcare is no different. In fact, 1 in 4 data breaches occur in the healthcare sector, affecting millions of people: more exactly, 1 in 13 patients in the U.S. are affected by breaches. Why is healthcare data so sought after by hackers? Because it's personal, permanent and detailed: from social security numbers, to address, to family history, to confidential medical history.

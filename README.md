@@ -1595,7 +1595,9 @@ For key updates from Hyperledger, join the mailing list. Explore all Hyperledger
 **For educators and community leaders**  
 You can start or join a Hyperledger meetup. Development updates from Wiki can be found here.
 
+<p align="center">
 ![image](https://user-images.githubusercontent.com/41387907/138567410-7039e221-879b-4214-9b21-091947e04495.png)
+</p>
 
 <h5>Hyperledger Global Meetups (as of 06/24/2019)</h5>
 

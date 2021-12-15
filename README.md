@@ -1275,7 +1275,7 @@ From smart companies, to smart cities, to smart energy management, to streamlini
 
 **[`^        back to top        ^`](#)**
 
-### Blockchain Use Case (Brian Behlendorf)
+### <a id="ch6b"></a>Blockchain Use Case (Brian Behlendorf)
 What is your favorite blockchain use case?  
 So, you know, what gets me up in the morning isn't so much making Wall Street, you know, a few milliseconds faster or...  
 I mean, to some degree, it's nice to be able to talk about, you know, bank payments taking five minutes, rather than three days, okay?  

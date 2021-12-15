@@ -1356,12 +1356,12 @@ Currently, there are weak points in the supply chain management. These weak poin
 ### Supply Chain Management (Part II)
 Blockchains are being used to solve problems in supply chain management by eliminating the need for a trusted third party to certify raw materials, components, or finished products, as they travel through a supply chain. Every participant, or node, contains a copy of all transactions. This provides an audit trail of every transaction that has occurred in the system. A change would be validated or rejected by the nodes in the system. Because all participants have a copy of all past transactions in the network, any participant can detect if a product is not as advertised. Instead of examining raw materials, components, or finished products at several points in the supply chain, a record of the inspection would be available and bound to the item as it flows through the supply chain. Although a record of the transaction is public and tied to the movement of physical items across the network, specifics such as the quantity of goods, or the identity of the parties transacting, can be done pseudo-anonymously in a blockchain. Such a granular view of movement through supply chains improves resource allocation.  
 The trade finance industry can also leverage information visible in a supply chain blockchain. In its broadest sense, trade finance manages capital required for international trade. Trade financing has become the norm for cross border transactions, with the World Trade Organization estimating that "up to 80 percent of global trade is supported by some sort of financing or credit insurance" (2016). An exporter needs to mitigate the risk of non-payment, while an importer wants to mitigate the supply risk. The function of trade finance is to act as a third party to remove the payment risk and the supply risk, whilst providing the exporter with accelerated receivables, and the importer with extended credit. Institutions that provide capital during these trades can leverage the information visible in a supply chain blockchain to better evaluate companies for lending.
-
-<p align="center">
-![image](https://user-images.githubusercontent.com/41387907/138575655-6f978bd0-04e5-404b-a5b9-9849e805f4aa.png)
+<p align="center" width="100%">
+  <img width="66%" src="https://user-images.githubusercontent.com/41387907/138575655-6f978bd0-04e5-404b-a5b9-9849e805f4aa.png"
+       alt="Supply chain management"/>
 </p>
-
-Source: Nishan Degnarain (used with permission)
+<p align="center">Source: Nishan Degnarain (used with permission)
+</p>
 
 ### Supply Chain Case Study: Walmart
 As one of the world's leading businesses in the supply chain industry, Walmart is constantly looking for ways to enhance transparency and traceability in the food system, and over the years has tried numerous solutions and approaches to solve this problem. Then, the hype of blockchain caught their attention. They looked into various blockchain technologies that could potentially be used to create a traceability system for their supply ecosystem, such as Ethereum, Burrow, Hyperledger Fabric, etc.  
@@ -1384,8 +1384,10 @@ Ownership for a particular asset may be transferred in whole, or in part. As a r
 
 ### Property Rights (Part II)
 Companies may use blockchain technologies to record ownership rights and responsibilities. Specifically, governments have put land registry records on blockchain (Laura Shin, forbes.com, 2016). Companies have also put intellectual property registration and ownership on blockchain (poex.io). Intellectual property includes copyright, trademark, and patents. To legally protect ownership rights in these, one registers their production, or invention, or otherwise proves when the work was established, and that they are the origin of the work.
-
-![image](https://user-images.githubusercontent.com/41387907/138575662-4e4c0c8d-c5b1-4983-8065-7b3307af029e.png)
+<p align="center" width="100%">
+  <img width="66%" src="https://user-images.githubusercontent.com/41387907/138575662-4e4c0c8d-c5b1-4983-8065-7b3307af029e.png"
+       alt="Property titles"/>
+</p>
 
 ### Property Titles on a Blockchain via a Smart Contract
 Companies with strong brand value in particular, such as the fashion industry and luxury good providers, are interested in more efficient ways to protect their intellectual property. When data is added to a blockchain, it can provide an immutable, secure, timestamped record for the creation of intellectual property, and any changes to the data can be easily detected. Blockchains establish this in a variety of ways.  
@@ -1394,10 +1396,10 @@ A blockchain may record a hash of a document. As an example, photographers could
 ### Provenance (Part I)
 As the previous section on blockchains for supply chain management illustrated, blockchain data improves insight into products, as they move through their lifecycle. Large enterprises are not the only parties to benefit from this increased visibility. Consumers can also benefit from blockchain technology.  
 Provenance is a record of ownership used as a guide to authenticity or quality. Because of the overhead involved in traditional provenance records, they were only available for very large ticket items, such as works of art. With the efficiencies gained from blockchain technology, provenance records can be available for a wider range of goods. This improved information can aid consumers as they make purchasing decisions.
-
-<p align="center">
-![image](https://user-images.githubusercontent.com/41387907/138575669-26c3feb9-72c2-4a6a-a098-08d39871c89b.png)
-<</p>
+<p align="center" width="100%">
+  <img width="66%" src="https://user-images.githubusercontent.com/41387907/138575669-26c3feb9-72c2-4a6a-a098-08d39871c89b.png"
+       alt="Provenance"/>
+</p>
     
 #### How Provenance Works
 (by Project Provenance Ltd, used with permission)

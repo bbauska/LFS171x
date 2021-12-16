@@ -1,6 +1,6 @@
 ## Linux FoundationX - LFS171x
 <p align="center" width="100%">
-  <img width="66%" src="https://user-images.githubusercontent.com/41387907/138567819-bfda7273-5457-4e5e-89b6-104d5356f46a.png"
+  <img width="50%" src="https://user-images.githubusercontent.com/41387907/138567819-bfda7273-5457-4e5e-89b6-104d5356f46a.png"
     alt="Linux logo"</>
 </p>
 

@@ -173,6 +173,7 @@ In a relational database, data can be easily modified or deleted. Typically, the
   <img width="66%" src="https://user-images.githubusercontent.com/41387907/138568551-2a6cd403-cc18-43d5-b8f4-e63dee008508.png"
     alt="Differences between blockchain and databases"</>
 </p>
+
 **[`^        back to top        ^`](#)**
 
 **Types of Blockchains**  

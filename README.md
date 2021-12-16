@@ -1,6 +1,6 @@
 ## Linux FoundationX - LFS171x
 <p align="center" width="100%">
-  <img width="66%" src="https://user-images.githubusercontent.com/41387907/138567819-bfda7273-5457-4e5e-89b6-104d5356f46a.png
+  <img width="66%" src="https://user-images.githubusercontent.com/41387907/138567819-bfda7273-5457-4e5e-89b6-104d5356f46a.png"
     alt="Linux logo"</>
 </p>
 
@@ -104,7 +104,7 @@ A Bitcoin block consists of four pieces of metadata:
 The Merkle tree, also known as a binary hash tree, is a data structure that is used to store hashes of the individual data in large datasets in a way to make the verification of the dataset efficient. It is an anti-tamper mechanism to ensure that the large dataset has not been changed. The word "tree" is used to refer to a branching data structure in computer science, as seen in the image below. According to Andreas M. Antonopoulos, in the Bitcoin protocol,  
 "Merkle trees are used to summarize all the transactions in a block, producing an overall digital fingerprint of the entire set of transactions, providing a very efficient process to verify whether a transaction is included in a block".
 <p align="center" width="100%">
-  <img width="66%" src="https://user-images.githubusercontent.com/41387907/138568538-44ec3e90-eca6-4137-99d3-e1462ac29ec5.png
+  <img width="66%" src="https://user-images.githubusercontent.com/41387907/138568538-44ec3e90-eca6-4137-99d3-e1462ac29ec5.png"
     alt="Merkle tree"</>
 </p>
 **Bitcoin Block Data**  
@@ -170,7 +170,7 @@ Blockchain technology has some key differentiators from databases.
 A blockchain is a write-only data structure, where new entries get appended onto the end of the ledger. Every new block gets appended to the blockchain by linking to the previous block's "hash" (you can check the Glossary tab for a refresher on hash functions). There are no administrator permissions within a blockchain that allow editing or deleting of data.  
 In a relational database, data can be easily modified or deleted. Typically, there are database administrators who may make changes to any part of the data and/or its structure. Additionally, blockchains were designed for decentralized applications, whereas relational databases, in general, were originally designed for centralized applications, where a single entity controls the data.
 <p align="center" width="100%">
-  <img width="66%" src="https://user-images.githubusercontent.com/41387907/138568551-2a6cd403-cc18-43d5-b8f4-e63dee008508.png
+  <img width="66%" src="https://user-images.githubusercontent.com/41387907/138568551-2a6cd403-cc18-43d5-b8f4-e63dee008508.png"
     alt="Differences between blockchain and databases"</>
 </p>
 **[`^        back to top        ^`](#)**
@@ -178,7 +178,7 @@ In a relational database, data can be easily modified or deleted. Typically, the
 **Types of Blockchains**  
 A blockchain can be both permissionless (like Bitcoin or Ethereum) or permissioned (like the different Hyperledger blockchain frameworks). A permissionless blockchain is also known as a public blockchain, because anyone can join the network. A permissioned blockchain, or private blockchain, requires pre-verification of the participating parties within the network, and these parties are usually known to each other.  
 <p align="center" width="100%">
-  <img width="66%" src="https://user-images.githubusercontent.com/41387907/138574861-da0c6881-188a-491f-be3c-c9942c522eaa.png
+  <img width="66%" src="https://user-images.githubusercontent.com/41387907/138574861-da0c6881-188a-491f-be3c-c9942c522eaa.png"
     alt="Types of blockchain"</>
 </p>
 The choice between permissionless versus permissioned blockchains should be driven by the particular application at hand (or use case). Most enterprise use cases involve extensive vetting before parties agree to do business with each other. An example where a number of businesses exchange information is supply chain management. The supply chain management is an ideal use case for permissioned blockchains. You would only want trusted parties participating in the network. Each participant that is involved in the supply chain would require permissions to execute transactions on the blockchain. These transactions would allow other companies to understand where in the supply chain a particular item is.  
@@ -191,7 +191,7 @@ Permissionless P2P systems do not require a set amount of peers to be online and
 
 **[`^        back to top        ^`](#)**
 <p align="center" width="100%">
-  <img width="66%" src="https://user-images.githubusercontent.com/41387907/138574872-11c869e9-b46a-486a-b5e5-d32cdd861937.png
+  <img width="66%" src="https://user-images.githubusercontent.com/41387907/138574872-11c869e9-b46a-486a-b5e5-d32cdd861937.png"
     alt="Peer to peer network"</>
 </p>
 **Peer-to-Peer Networks (Robert Schwentker)**  
@@ -218,7 +218,7 @@ Let's look at an example of how this works. In the following diagram, we see the
 **[`^        back to top        ^`](#)**
 
 <p align="center" width="100%">
-  <img width="66%" src="https://user-images.githubusercontent.com/41387907/138574881-d72df080-3619-4c0e-adc8-b4f6d761082b.png
+  <img width="66%" src="https://user-images.githubusercontent.com/41387907/138574881-d72df080-3619-4c0e-adc8-b4f6d761082b.png"
     alt="Immutability of data"</>
 </p>
 ### Blockchain Applications
@@ -235,14 +235,14 @@ Today, Ethereum smart contracts are designed to run on all nodes of the Ethereum
 Those smart contracts facilitate the exchange of value, including money, content, property, or shares between a fixed number of parties.  
 Smart contracts are simply computer programs that execute predefined actions when certain conditions within the system are met. Smart contracts provide the language of transactions that allow the ledger state to be modified. They can facilitate the exchange and transfer of anything of value (e.g. shares, money, content, property).
 <p align="center" width="100%">
-  <img width="66%" src="https://user-images.githubusercontent.com/41387907/138574893-8aac4d02-8a64-428b-99c2-999a445dc2ae.png
+  <img width="66%" src="https://user-images.githubusercontent.com/41387907/138574893-8aac4d02-8a64-428b-99c2-999a445dc2ae.png"
     alt="Smart contracts"</>
 </p>
 ### Bitcoin – A Popular Blockchain Deployment
 With the invention of the peer-to-peer (P2P) cash system known as Bitcoin in 2008, we have an example of a global decentralized payment network with a distributed and publicly-owned infrastructure, operating as a "permissionless" system. There is a persuasive case that Bitcoin is the first "killer application" of decentralized computing. One can send and receive bitcoins anywhere in the world in a completely P2P manner, without having to intermediate through a trusted third party, such as a bank.  
 According to the Coin Market Capitalizations website, as of November 2020, bitcoin's market capitalization (market cap) was over $286 billion.
 <p align="center" width="100%">
-  <img width="66%" src="https://user-images.githubusercontent.com/41387907/138574896-b923c968-2909-4c47-8333-fbe77d089177.png
+  <img width="66%" src="https://user-images.githubusercontent.com/41387907/138574896-b923c968-2909-4c47-8333-fbe77d089177.png"
        alt="Bitcoin - a popular blockchain deployment"</>
 </p>
 ### <a id="ch1i"></a>Bitcoin Charts
@@ -284,7 +284,7 @@ According to Ethereum's official documentation,
 The Ethereum blockchain platform facilitates scripting functionality, or "smart contracts", which are run through the nodes in the network. As a result, unlike the Bitcoin blockchain, it does not just track transactions, it also programs them. Technically, Ethereum is a Turing-complete virtual machine with its native cryptocurrency called "ether". The platform was proposed in 2013 in a white paper by the then 19-year old Vitalik Buterin.  
 As of November 2020, Ethereum had a market cap of over $49 billion, making Ether the second most valuable cryptocurrency after Bitcoin.
 <p align="center" width="100%">
-  <img width="66%" src="https://user-images.githubusercontent.com/41387907/138574908-341e5a60-7337-42d2-9ac5-988144beab2b.png
+  <img width="66%" src="https://user-images.githubusercontent.com/41387907/138574908-341e5a60-7337-42d2-9ac5-988144beab2b.png"
     alt="Ethereum - an alternative to bitcoin"</>
 </p>
 Ether Historical Market Capitalization Chart  
@@ -313,7 +313,7 @@ Since they are cryptographically secured, Dapps are referred to as "secure appli
 A hypothetical example of an Ethereum-based smart contract may involve the following transaction: in an equity raise, transfer amount X from the investor to the company upon receiving the given shares from the company. The monetary amount X, which was pre-validated by the company for the transaction (much like in a credit card purchase), is held in escrow by the smart contract, until the shares have been received by the investor. Any kind of arbitrary sophisticated business logic can be committed to the blockchain. The Ethereum blockchain only encodes these "rules of the games". The actual payoffs occur by interacting with the blockchain.  
 The illustration below describes this process. The smart contract encodes the agreement between the company raising funds and its investors (Panel 1). The smart contract sits on the Ethereum public blockchain, and is run on the Ethereum Virtual Machine (EVM). Once hitting a triggering event, like an expiration date or a strike price that has been pre-coded, the smart contract automatically executes as per the business logic (Panel 2). As an added benefit, regulators are able to scrutinize the market activity on an ongoing basis, without compromising the identity of specific players in a permissionless public blockchain, as Ethereum (Panel 3).
 <p align="center" width="100%">
-  <img width="66%" src="https://user-images.githubusercontent.com/41387907/138574916-7517cbeb-780a-48ad-b96c-062caf795147.png
+  <img width="66%" src="https://user-images.githubusercontent.com/41387907/138574916-7517cbeb-780a-48ad-b96c-062caf795147.png"
        alt="Ethereum smart contracts"</>
 </p>
 Note: With the advent of the Ethereum blockchain platform and the scripting functionality or smart contracts that it enables, there are ongoing attempts to do the same for the Bitcoin blockchain, which does not allow for this, due to security reasons. RSK is one such smart contract platform that seeks to achieve this "with a 2-way peg to Bitcoin". The added functionality can go a long way in making the Bitcoin blockchain useful for use cases other than cash transfers.
@@ -386,7 +386,7 @@ Consensus can be implemented in different ways, such as through the use of lotte
 Lottery-based algorithms are advantageous in that they can scale to a large number of nodes. Voting-based algorithms provide low-latency finality.  
 The following table offers an at-a-glance view of the main considerations and pros and cons of different business blockchain approaches to reaching consensus.  
 <p align="center" width="100%">
-  <img width="66%" src="https://user-images.githubusercontent.com/41387907/138574948-4f8e4a52-b320-41aa-81e9-bc126d649c4e.png
+  <img width="66%" src="https://user-images.githubusercontent.com/41387907/138574948-4f8e4a52-b320-41aa-81e9-bc126d649c4e.png"
     alt="Comparing permissed consensus approaches and standard PoW"</>
 </p>
 ## <a id="ch2"></a>Chapter 2. Hyperledger
@@ -562,7 +562,7 @@ And what I hope is that, through these processes, they can rest assured that, wh
 ### Open Standards
 "Only an Open Source, collaborative software development approach can ensure the transparency, longevity, interoperability and support required to bring blockchain technologies forward to mainstream commercial adoption. That is what Hyperledger is about - communities of software developers building blockchain frameworks and platforms".
 
-*   hyperledger.org  
+*   hyperledger.org
     As we learned in Chapter 1: "Discovering Blockchain Technologies", the non-availability of standards in distributed ledger technologies is one of the major hurdles in scaling them. One of Hyperledger's key goals is to facilitate the process of standards formation, not by promoting its own distributed ledger(s), but by providing a space for a variety of standards to co-exist simultaneously:  
     "Rather than declaring a single blockchain standard, it encourages a collaborative approach to developing blockchain technologies via a community process, with intellectual property rights that encourage open development and the adoption of key standards over time".
 *   hyperledger-fabric.readthedocs.io  
@@ -865,11 +865,10 @@ Now, let's explore the Hyperledger frameworks (as of November 2020)!
 **[`^        back to top        ^`](#)**
 
 ### Hyperledger `Besu`
-
-<p align="center">
-![Besu](https://user-images.githubusercontent.com/41387907/138575460-35b419be-65bd-438d-a752-f047835d12bd.png)
+<p align="center" width="100%">
+  <img width="50%" src="https://user-images.githubusercontent.com/41387907/138575460-35b419be-65bd-438d-a752-f047835d12bd.png"
+  alt="Hyperledger 'Besu'"</>
 </p>
-
 **Hyperledger Besu** is an open source Ethereum client developed under the Apache 2.0 license and written in Java. It can be run on the Ethereum public network or on private permissioned networks, as well as test networks such as Rinkeby, Ropsten, and Görli. Hyperledger Besu includes several consensus algorithms including PoW, PoA, and IBFT, and has comprehensive permissioning schemes designed specifically for uses in a consortium environment. Hyperledger Besu joined the Hyperledger Incubator in August 2019; PegaSys has been its primary contributor and maintainer since its launch in November 2018, when it was known as Pantheon.  
 Among its features:
 

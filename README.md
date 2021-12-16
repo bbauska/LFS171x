@@ -884,6 +884,7 @@ Among its features:
 *   Allows permissioning.
 
 ### <a id="ch3b"></a>Hyperledger Burrow
+
 <p align="center" width="100%">
   <img width="50%" src="https://user-images.githubusercontent.com/41387907/138575472-9d1aec50-3591-4324-9f5c-0973a32809dc.png"
        alt="Hyperledger Burrow"</>
@@ -974,6 +975,7 @@ Hyperledger Indy was contributed to the Hyperledger greenhouse by the Sovrin Fou
 According to Brian Behlendorf,  
 "(...) identity is a toxic asset that could present a liability to organizations".  
 Indeed, since 2013, over 14 billion data records were lost or stolen. What is striking is that, out of these, only 4% were encrypted, and hence, rendered useless after being stolen (also called "secure breaches"). You can find detailed statistics at the Breach Level Index website.
+
 <p align="center" width="100%">
   <img width="50%" src="https://user-images.githubusercontent.com/41387907/138575517-527507d7-cb6f-4ac4-811c-2767ea494268.png"
        alt="Hyperledger Indy and its 'privacy by design' approach"</>
@@ -1219,7 +1221,6 @@ Hyperledger Aries developers aim to eventually have a scalable, searchable stora
   <img width="50%" src="https://user-images.githubusercontent.com/41387907/138575616-4c0479e6-21cc-4e68-a45d-142a8af5c591.png"
        alt="Hyperledger 'Quilt'"</>
 </p>
-
 Welcome to the Hyperledger greenhouse, an open source consortium for developing business blockchain technologies hosted by the LinuxFoundation.  
 Within the greenhouse, diverse global communities collaboratively develop open source projects that uniquely approach enterprise blockchain challenges.  
 These technologies can cross pollinate and interoperate just like how the community's driving the projects collaborate in an open and neutral environment.  
@@ -1240,7 +1241,7 @@ Hyperledger Quilt is an open source business blockchain tool that offers interop
 
 ### Hyperledger `Transact`
 <p align="center" width="100%">
-  <img width="50" src="https://user-images.githubusercontent.com/41387907/138575628-447fa51e-a4a4-4a4a-bb38-939f932086d9.png"
+  <img width="50%" src="https://user-images.githubusercontent.com/41387907/138575628-447fa51e-a4a4-4a4a-bb38-939f932086d9.png"
        alt="Hyperledger 'Transact'"</>
 </p>
 Hyperledger Transact is a transaction execution platform designed to be used as a library or as a component when implementing distributed ledger, including blockchains. Hyperledger framework-level projects and custom distributed ledgers can make use of Transact's advanced transaction execution and state management to simplify the transaction execution code required within their projects or to gain additional features. Transact provides an extensible approach to implementing new smart contract languages called smart contract engines.  

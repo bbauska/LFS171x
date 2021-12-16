@@ -1,6 +1,8 @@
 ## Linux FoundationX - LFS171x
-
-![Linux logo](https://user-images.githubusercontent.com/41387907/138567819-bfda7273-5457-4e5e-89b6-104d5356f46a.png)
+<p align="center" width="100%">
+  <img width="66%" src="https://user-images.githubusercontent.com/41387907/138567819-bfda7273-5457-4e5e-89b6-104d5356f46a.png
+    alt="Linux logo"</>
+</p>
 
 ### Introduction to Hyperledger Blockchain Technology
 
@@ -101,9 +103,10 @@ A Bitcoin block consists of four pieces of metadata:
 ### Merkle Tree
 The Merkle tree, also known as a binary hash tree, is a data structure that is used to store hashes of the individual data in large datasets in a way to make the verification of the dataset efficient. It is an anti-tamper mechanism to ensure that the large dataset has not been changed. The word "tree" is used to refer to a branching data structure in computer science, as seen in the image below. According to Andreas M. Antonopoulos, in the Bitcoin protocol,  
 "Merkle trees are used to summarize all the transactions in a block, producing an overall digital fingerprint of the entire set of transactions, providing a very efficient process to verify whether a transaction is included in a block".
-
-![Merkle tree](https://user-images.githubusercontent.com/41387907/138568538-44ec3e90-eca6-4137-99d3-e1462ac29ec5.png)
-
+<p align="center" width="100%">
+  <img width="66%" src="https://user-images.githubusercontent.com/41387907/138568538-44ec3e90-eca6-4137-99d3-e1462ac29ec5.png
+    alt="Merkle tree"</>
+</p>
 **Bitcoin Block Data**  
 (licensed under Creative Commons Attribution-Share-Alike 3.0 Unported, retrieved from Wikipedia)
 
@@ -166,16 +169,18 @@ Cryptography has a key role to play both in the security, as well as in the immu
 Blockchain technology has some key differentiators from databases.  
 A blockchain is a write-only data structure, where new entries get appended onto the end of the ledger. Every new block gets appended to the blockchain by linking to the previous block's "hash" (you can check the Glossary tab for a refresher on hash functions). There are no administrator permissions within a blockchain that allow editing or deleting of data.  
 In a relational database, data can be easily modified or deleted. Typically, there are database administrators who may make changes to any part of the data and/or its structure. Additionally, blockchains were designed for decentralized applications, whereas relational databases, in general, were originally designed for centralized applications, where a single entity controls the data.
-
-![image](https://user-images.githubusercontent.com/41387907/138568551-2a6cd403-cc18-43d5-b8f4-e63dee008508.png)
-
+<p align="center" width="100%">
+  <img width="66%" src="https://user-images.githubusercontent.com/41387907/138568551-2a6cd403-cc18-43d5-b8f4-e63dee008508.png
+    alt="Differences between blockchain and databases"</>
+</p>
 **[`^        back to top        ^`](#)**
 
 **Types of Blockchains**  
 A blockchain can be both permissionless (like Bitcoin or Ethereum) or permissioned (like the different Hyperledger blockchain frameworks). A permissionless blockchain is also known as a public blockchain, because anyone can join the network. A permissioned blockchain, or private blockchain, requires pre-verification of the participating parties within the network, and these parties are usually known to each other.  
-
-![image](https://user-images.githubusercontent.com/41387907/138574861-da0c6881-188a-491f-be3c-c9942c522eaa.png)
-
+<p align="center" width="100%">
+  <img width="66%" src="https://user-images.githubusercontent.com/41387907/138574861-da0c6881-188a-491f-be3c-c9942c522eaa.png
+    alt="Types of blockchain"</>
+</p>
 The choice between permissionless versus permissioned blockchains should be driven by the particular application at hand (or use case). Most enterprise use cases involve extensive vetting before parties agree to do business with each other. An example where a number of businesses exchange information is supply chain management. The supply chain management is an ideal use case for permissioned blockchains. You would only want trusted parties participating in the network. Each participant that is involved in the supply chain would require permissions to execute transactions on the blockchain. These transactions would allow other companies to understand where in the supply chain a particular item is.  
 On the contrary, when a network can "commoditize" trust, facilitating parties to transact without necessarily having to verify each other's identity, like the Bitcoin blockchain, a permissionless blockchain is more suitable. Many of these instances involve the sale or distribution to the public. Cryptocurrencies and Initial Coin Offerings (which are not backed by national governments) usually involve implementations of permissionless blockchains.  
 You will learn about a variety of use cases in Chapter 6, "The Promise of Business Blockchain Technologies".  
@@ -185,9 +190,10 @@ Peer-to-peer (P2P) networks were first made popular by Napster (and later BitTor
 Permissionless P2P systems do not require a set amount of peers to be online and are generally slower. Permissioned P2P networks have to guarantee uptime and require a high level of quality of service on the communication links.
 
 **[`^        back to top        ^`](#)**
-
-![image](https://user-images.githubusercontent.com/41387907/138574872-11c869e9-b46a-486a-b5e5-d32cdd861937.png)
-
+<p align="center" width="100%">
+  <img width="66%" src="https://user-images.githubusercontent.com/41387907/138574872-11c869e9-b46a-486a-b5e5-d32cdd861937.png
+    alt="Peer to peer network"</>
+</p>
 **Peer-to-Peer Networks (Robert Schwentker)**  
 What is a Peer-to-Peer network, and how do peers come to agreement about what is on the blockchain?  
 A blockchain network is a group of computers that informally are organized in a Peer-to-Peer architecture.  
@@ -211,8 +217,10 @@ Let's look at an example of how this works. In the following diagram, we see the
 
 **[`^        back to top        ^`](#)**
 
-![image](https://user-images.githubusercontent.com/41387907/138574881-d72df080-3619-4c0e-adc8-b4f6d761082b.png)
-
+<p align="center" width="100%">
+  <img width="66%" src="https://user-images.githubusercontent.com/41387907/138574881-d72df080-3619-4c0e-adc8-b4f6d761082b.png
+    alt="Immutability of data"</>
+</p>
 ### Blockchain Applications
 Since blockchain is a form of digital infrastructure, applications built on top of a blockchain provide a gateway to accessing information that sits on that blockchain. In other words, clients/users interact with the blockchain through applications. Starting from the simple wallets that hold bitcoins, sophisticated applications which encompass applications addressing digital identity (e.g. UPort, KYC-Chain, Netki, etc.), and complex financial transactions are being built on the blockchain.  
 A more exhaustive list of companies using blockchain technology for identity management and authentication can be found in the following article: "21 Companies Leveraging Blockchain for Identity Management and Authentication" by Elena Mesropyan.  
@@ -226,15 +234,17 @@ A smart contract is a phrase to describe computer code.
 Today, Ethereum smart contracts are designed to run on all nodes of the Ethereum network.  
 Those smart contracts facilitate the exchange of value, including money, content, property, or shares between a fixed number of parties.  
 Smart contracts are simply computer programs that execute predefined actions when certain conditions within the system are met. Smart contracts provide the language of transactions that allow the ledger state to be modified. They can facilitate the exchange and transfer of anything of value (e.g. shares, money, content, property).
-
-![image](https://user-images.githubusercontent.com/41387907/138574893-8aac4d02-8a64-428b-99c2-999a445dc2ae.png)
-
+<p align="center" width="100%">
+  <img width="66%" src="https://user-images.githubusercontent.com/41387907/138574893-8aac4d02-8a64-428b-99c2-999a445dc2ae.png
+    alt="Smart contracts"</>
+</p>
 ### Bitcoin – A Popular Blockchain Deployment
 With the invention of the peer-to-peer (P2P) cash system known as Bitcoin in 2008, we have an example of a global decentralized payment network with a distributed and publicly-owned infrastructure, operating as a "permissionless" system. There is a persuasive case that Bitcoin is the first "killer application" of decentralized computing. One can send and receive bitcoins anywhere in the world in a completely P2P manner, without having to intermediate through a trusted third party, such as a bank.  
 According to the Coin Market Capitalizations website, as of November 2020, bitcoin's market capitalization (market cap) was over $286 billion.
-
-![image](https://user-images.githubusercontent.com/41387907/138574896-b923c968-2909-4c47-8333-fbe77d089177.png)
-
+<p align="center" width="100%">
+  <img width="66%" src="https://user-images.githubusercontent.com/41387907/138574896-b923c968-2909-4c47-8333-fbe77d089177.png
+       alt="Bitcoin - a popular blockchain deployment"</>
+</p>
 ### <a id="ch1i"></a>Bitcoin Charts
 (Source: https://coinmarketcap.com/currencies/bitcoin/)  
 According to AngelList, over five thousand startups have been created to leverage Bitcoin and blockchain-related technologies since the inception of the Bitcoin payment system. Hundreds of large companies, and dozens of governments and universities have become actively involved in researching, testing, and prototyping blockchain protocols, platforms, and applications. In particular, the financial services sector has been actively investing in exploring wider applications of distributed ledger technologies (of which, blockchain is a subset) since late 2015.
@@ -250,7 +260,7 @@ While Bitcoin is focused upon transferring monetary value between parties, it ha
 Ethereum, on the other hand, uses a more expansive set of programming languages and tools to allow for many other types of programs and applications.  
 The core invention of Ethereum is it's EVM, or Ethereum Virtual Machine.  
 The EVM runs on the Ethereum network, and it runs a Turing-complete software.  
-Vitalik Buterin is the person who wrote the white paper for Ethereum.  
++Vitalik Buterin is the person who wrote the white paper for Ethereum.  
 Some of its key features include the immutability of data, that unauthorized users cannot make changes to that data, the Ethereum development platform is designed to make corruption and tamper proof applications, the secure apps are sent decentralized and secured with cryptography, and they're protected against hacking attacks and fraudulent activities, and lastly, it's designed with zero downtime.  
 That is because the applications on the network are decentralized, and on many, many machines,  
 if some of those machines go down, the Ethereum network maintains a stable state of the Ethereum network.
@@ -273,9 +283,10 @@ According to Ethereum's official documentation,
 "Ethereum is an open blockchain platform that lets anyone build and use decentralized applications that run on blockchain technology".  
 The Ethereum blockchain platform facilitates scripting functionality, or "smart contracts", which are run through the nodes in the network. As a result, unlike the Bitcoin blockchain, it does not just track transactions, it also programs them. Technically, Ethereum is a Turing-complete virtual machine with its native cryptocurrency called "ether". The platform was proposed in 2013 in a white paper by the then 19-year old Vitalik Buterin.  
 As of November 2020, Ethereum had a market cap of over $49 billion, making Ether the second most valuable cryptocurrency after Bitcoin.
-
-![image](https://user-images.githubusercontent.com/41387907/138574908-341e5a60-7337-42d2-9ac5-988144beab2b.png)
-
+<p align="center" width="100%">
+  <img width="66%" src="https://user-images.githubusercontent.com/41387907/138574908-341e5a60-7337-42d2-9ac5-988144beab2b.png
+    alt="Ethereum - an alternative to bitcoin"</>
+</p>
 Ether Historical Market Capitalization Chart  
 (Source: https://etherscan.io/chart/marketcap)
 
@@ -301,9 +312,10 @@ Since they are cryptographically secured, Dapps are referred to as "secure appli
 ### <a id="ch2b"></a>Ethereum Smart Contracts
 A hypothetical example of an Ethereum-based smart contract may involve the following transaction: in an equity raise, transfer amount X from the investor to the company upon receiving the given shares from the company. The monetary amount X, which was pre-validated by the company for the transaction (much like in a credit card purchase), is held in escrow by the smart contract, until the shares have been received by the investor. Any kind of arbitrary sophisticated business logic can be committed to the blockchain. The Ethereum blockchain only encodes these "rules of the games". The actual payoffs occur by interacting with the blockchain.  
 The illustration below describes this process. The smart contract encodes the agreement between the company raising funds and its investors (Panel 1). The smart contract sits on the Ethereum public blockchain, and is run on the Ethereum Virtual Machine (EVM). Once hitting a triggering event, like an expiration date or a strike price that has been pre-coded, the smart contract automatically executes as per the business logic (Panel 2). As an added benefit, regulators are able to scrutinize the market activity on an ongoing basis, without compromising the identity of specific players in a permissionless public blockchain, as Ethereum (Panel 3).
-
-![image](https://user-images.githubusercontent.com/41387907/138574916-7517cbeb-780a-48ad-b96c-062caf795147.png)
-
+<p align="center" width="100%">
+  <img width="66%" src="https://user-images.githubusercontent.com/41387907/138574916-7517cbeb-780a-48ad-b96c-062caf795147.png
+       alt="Ethereum smart contracts"</>
+</p>
 Note: With the advent of the Ethereum blockchain platform and the scripting functionality or smart contracts that it enables, there are ongoing attempts to do the same for the Bitcoin blockchain, which does not allow for this, due to security reasons. RSK is one such smart contract platform that seeks to achieve this "with a 2-way peg to Bitcoin". The added functionality can go a long way in making the Bitcoin blockchain useful for use cases other than cash transfers.
 
 ### Exploring Permissionless Blockchains
@@ -373,9 +385,10 @@ Proof-of-Authority (PoA) is a consensus algorithm which can be used for permissi
 Consensus can be implemented in different ways, such as through the use of lottery-based algorithms (PoET or PoW), or through the use of voting-based methods (SBFT), each targeting different network requirements and fault tolerance models.  
 Lottery-based algorithms are advantageous in that they can scale to a large number of nodes. Voting-based algorithms provide low-latency finality.  
 The following table offers an at-a-glance view of the main considerations and pros and cons of different business blockchain approaches to reaching consensus.  
-
-![image](https://user-images.githubusercontent.com/41387907/138574948-4f8e4a52-b320-41aa-81e9-bc126d649c4e.png)
-
+<p align="center" width="100%">
+  <img width="66%" src="https://user-images.githubusercontent.com/41387907/138574948-4f8e4a52-b320-41aa-81e9-bc126d649c4e.png
+    alt="Comparing permissed consensus approaches and standard PoW"</>
+</p>
 ## <a id="ch2"></a>Chapter 2. Hyperledger
 Hyperledger is an open source effort created to advance cross-industry blockchain technologies. Hosted by The Linux Foundation, it is a global collaboration of members from various industries, including finance, banking, Internet of Things (IoT), supply chain, manufacturing, healthcare and more. Hyperledger boasts a host of enterprise-ready solutions. Hyperledger is about communities of software developers building blockchain frameworks and platforms. We will take a closer look at some of the current Hyperledger projects in the coming chapters.  
 "One of the first things people learn when coming to Hyperledger is that Hyperledger isn’t, like its name may imply, a ledger. It is a collection of blockchain technology projects."  
@@ -1392,7 +1405,6 @@ Provenance is a record of ownership used as a guide to authenticity or quality. 
   <img width="66%" src="https://user-images.githubusercontent.com/41387907/138575669-26c3feb9-72c2-4a6a-a098-08d39871c89b.png"
        alt="Provenance"/>
 </p>
-    
 #### How Provenance Works
 (by Project Provenance Ltd, used with permission)
 

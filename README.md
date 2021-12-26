@@ -877,7 +877,6 @@ Hyperledger business blockchain frameworks are used to build enterprise blockcha
   <img width="50%" src="https://user-images.githubusercontent.com/41387907/138575454-df0b58de-1185-4558-b507-3a861a8bd63b.png"
        alt="Hyperledger frameworks (as of November 2020"</>
 </p>
-
 Now, let's explore the Hyperledger frameworks (as of November 2020)!
 
 **[`^        back to top        ^`](#table-of-contents)**

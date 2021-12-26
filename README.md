@@ -1280,7 +1280,7 @@ Hyperledger Quilt is an open source business blockchain tool that offers interop
 *   Supplies a framework for designing higher-level use case specific protocols.
 *   Currently in Incubation, Hyperledger Quilt was initially contributed by NTT Data and Ripple in 2017.
 
-**[`^        back to top        ^`](#)**
+**[`^        back to top        ^`](#table-of-contents)**
 
 ### Hyperledger `Transact`
 <p align="center" width="100%">
@@ -1307,7 +1307,7 @@ The project was proposed by Fujitsu, The Linux Foundation, Sovrin Foundation, In
 
 **[⬆ back to top](#table-of-contents)**
 
-**[`^        back to top        ^`](#)**
+**[`^        back to top        ^`](#table-of-contents)**
 
 ## <a id="ch6"></a>Chapter 6: The Promise of Business Blockchain Technologies
 This chapter is designed to help you evaluate whether blockchain tech, including the Hyperledger frameworks, are right for your business, and where best to implement this new technology. We will cover the ways different industries are using blockchain technologies today, and show you some common features of blockchains that can provide efficiencies in business.  
@@ -1353,7 +1353,7 @@ they can use it all day long, they don't owe anybody a fee, a license fee, a pat
 and, if they feel like it, if they want to contribute, there should be an easy glide path to having their technical teams get deeper into the code,  
 become contributors, and even help set the direction for the technology.
 
-**[`^        back to top        ^`](#)**
+**[`^        back to top        ^`](#table-of-contents)**
 
 ### Business Interest in Hyperledger
 When we first launched this course, in 2017, enterprise blockchain technologies were still in the initial stages of their production implementation. The concept of blockchain was at the time mostly associated with bitcoin and cryptocurrency. But the situation has significantly changed in the meantime, and while still considered revolutionary and in early stages, enterprise-grade blockchain technologies are now used in production, changing not only the way we do business, but also the way we envision doing business in the future, as more and more use cases and opportunities are created.
@@ -1381,7 +1381,7 @@ we can actually come up with systems that make management of the distribution of
 And so, that's really what gets me excited.  
 There are numerous blockchain case studies and cross-industry projects showcased on the Hyperledger website. Feel free to check them out to learn more about the business potential of blockchain technologies, and in particular, of Hyperledger technologies.
 
-**[`^        back to top        ^`](#)**
+**[`^        back to top        ^`](#table-of-contents)**
 
 ### Hyperledger Blockchains in Production
 Over the past few years, there has been a lot of talk about blockchain and its potential in the enterprise landscape. Today, blockchain is no longer a hype: it has become a reality, and is transforming processes and how enterprises do business, across a wide range of industries.  
@@ -1415,7 +1415,7 @@ The trade finance industry can also leverage information visible in a supply cha
 <p align="center">Source: Nishan Degnarain (used with permission)
 </p>
 
-**[`^        back to top        ^`](#)**
+**[`^        back to top        ^`](#table-of-contents)**
 
 ### Supply Chain Case Study: Walmart
 As one of the world's leading businesses in the supply chain industry, Walmart is constantly looking for ways to enhance transparency and traceability in the food system, and over the years has tried numerous solutions and approaches to solve this problem. Then, the hype of blockchain caught their attention. They looked into various blockchain technologies that could potentially be used to create a traceability system for their supply ecosystem, such as Ethereum, Burrow, Hyperledger Fabric, etc.  
@@ -1441,7 +1441,7 @@ Companies may use blockchain technologies to record ownership rights and respons
        alt="Property titles"/>
 </p>
 
-**[`^        back to top        ^`](#)**
+**[`^        back to top        ^`](#table-of-contents)**
 
 ### Property Titles on a Blockchain via a Smart Contract
 Companies with strong brand value in particular, such as the fashion industry and luxury good providers, are interested in more efficient ways to protect their intellectual property. When data is added to a blockchain, it can provide an immutable, secure, timestamped record for the creation of intellectual property, and any changes to the data can be easily detected. Blockchains establish this in a variety of ways.  
@@ -1470,7 +1470,7 @@ Blockchain technologies have been a game changer. Circulor, a UK-based company, 
 The system went smoothly into production in the fall of 2018, and included, to start with, three mines in Rwanda and a refinery in Macedonia. And the plan is to bring more mines into the system. On top of that, Circulor aims to expand the system they built to cover other minerals and countries.  
 You can read more about tantalum traceability success story on the Hyperledger website: Circulor achieves first-ever mine-to-manufacturer traceability of a conflict mineral with Hyperledger Fabric.
 
-**[`^        back to top        ^`](#)**
+**[`^        back to top        ^`](#table-of-contents)**
 
 ### Finance (Part I)
 "Blockchain has huge potential to move the financial services industry away from messaged based models, slow reconciliation processes and inefficiency of fragmented data stores. With blockchain, financial services can move to a shared data construct, driving down costs, increasing efficiency and opening up entirely new business models".
@@ -1498,7 +1498,7 @@ Although every trade has its own lifecycle, generally, the following steps will 
 *   Payment is made. These payments may be at the close of a trade, or at intermediate stages while a trade is still open. When the payments are made on an open contract, this is known as 'revaluation' and is done to minimize the risk of nonpayment by a counterparty whose position has weakened in the trade due to events that occurred after trade execution.
 *   Audit of the trade and associated payments is performed by the parties. If a dispute occurs, the parties must communicate and come to a resolution for such discrepancies. This is a manual and costly process.
 
-**[`^        back to top        ^`](#)**
+**[`^        back to top        ^`](#table-of-contents)**
 
 ### Finance (Part IV)
 Smart contracts may greatly improve the process of post-trade settlement, by reducing disputes and errors. Smart contracts will ensure that final settlement will happen when the execution of a trade occurs. With smart contract technology, a legal agreement can automatically execute clauses within it.  
@@ -1528,7 +1528,7 @@ The healthcare industry has examined placing prescription drug fulfillment proce
 <h5 align="center">By The BlockRx Project, retrieved from the Hyperledger Healthcare Working Group, August 22nd, 2017 Meeting</h5>
 Another area blockchain is used in healthcare is to protect data from cybercrime. Data breaches happen on a daily basis across all industries, and healthcare is no different. In fact, 1 in 4 data breaches occur in the healthcare sector, affecting millions of people: more exactly, 1 in 13 patients in the U.S. are affected by breaches. Why is healthcare data so sought after by hackers? Because it's personal, permanent and detailed: from social security numbers, to address, to family history, to confidential medical history.
 
-**[`^        back to top        ^`](#)**
+**[`^        back to top        ^`](#table-of-contents)**
 
 ### Education
 Blockchain solutions are being successfully implemented across various industries. As the technologies advance, more and more potential use cases arise. Education is one such area that could stand to benefit from distributed ledger technologies:
@@ -1549,7 +1549,7 @@ We've all experienced the process of enrolling in higher education or applying f
 Sony Global Education decided to use Hyperledger Fabric, as it is a trusted, secure, open source, platform. The solution they designed was already tested successfully. Moreover, Sony Global Education is working with the Japanese Ministry of Internal Affairs and Communications to develop a next-generation system for managing digital transcripts based on their tested solution, aiming to secure the authenticity of transcripts and allow them to be safely shared within a trusted network.  
 You can learn more about this use case reading Sony Global Education Chooses Hyperledger Fabric for a Next-Generation Credentials Platform.
 
-**[`^        back to top        ^`](#)**
+**[`^        back to top        ^`](#table-of-contents)**
 
 ### Smart Energy Management
 We live in an increasingly connected and energy-dependent world. Balance between supply and demand is imperative to ensure electricity demand is met. However, the increasing demand in electricity adds increased pressure on conventional energy sources. For the most part, the existing electricity grid is coping with the existing demand; however, when unexpected events occur (weather-related, for example), the pressure exerted on this grid can reach dangerous, unsustainable levels. And with the advent of increased dependency on electricity in day-to-day life, time will come when conventional resources will no longer be sufficient. Drastic times require out-of-the-box solutions.  
@@ -1578,7 +1578,7 @@ Through its ground-breaking, innovative initiatives and forward thinking, Dubai 
 
 Dr. Aisha Bint Butti Bin Bishr, Director General of the Smart Dubai Office
 
-**[`^        back to top        ^`](#)**
+**[`^        back to top        ^`](#table-of-contents)**
 
 ### Blockchain Best Practices for Enterprises
 The use of distributed ledger technologies in production across various industries continues to expand and reach new horizons, as businesses explore new ways to incorporate blockchain in their day-to-day activities. However, in order to increase the success of blockchain business applications, some best practices must be considered:
@@ -1598,7 +1598,7 @@ The use of distributed ledger technologies in production across various industri
     Not every project or solution is successful, unless it is carefully planned, designed and implemented. A carefully thought out strategy must be designed and implemented for each project, to ensure that goals are achieved.  
     Blockchain can be a great solution for numerous business use cases that rely on security, controlled access, accountability, transparency, and efficiency, spanning a wide range of industries, from finance to banking, supply chains, manufacturing, healthcare, telecom, etc. Having well laid plans, goals and best practices can all help enterprise IT leaders explore the growing blockchain ecosystem as they work to capture its strengths for their businesses.
 
-**[`^        back to top        ^`](#)**
+**[`^        back to top        ^`](#table-of-contents)**
 
 ### The Outlook of Blockchain for Business
 The 2019 Technology Industry Innovation conducted by KPMG around the adoption of blockchain technologies suggests that 41 percent of businesses are likely to adopt and implement blockchain into their business operations in the next three years. Another important aspect revealed by this survey is that 48 percent of enterprises believe that blockchain will change the way they conduct and manage their business activities in the near future.  
@@ -1613,7 +1613,7 @@ What advantages would businesses have by adopting blockchain technologies? The K
     Blockchain is viewed as one of the top 10 technologies that will transform businesses over the next three years, and beyond. The 2019 KPMG survey ranked blockchain at number 4, compared to 7 just a year ago. And, according to the Worldwide Semiannual Blockchain Spending Guide (March 2019) from International Data Corporation (IDC), worldwide spending on blockchain-related solutions is expected to reach $2.9 billion in 2019 (an increase of over 88% from the previous year), and $12.4 billion by 2022.  
     Want to be at the forefront of the blockchain technological innovation? Start assessing your needs to see if blockchain would be a good solution for your business.
 
-**[`^        back to top        ^`](#)**
+**[`^        back to top        ^`](#table-of-contents)**
 
 ### What Enterprises Look for When Evaluating Whether or Not to Use Hyperledger (Brian Behlendorf)
 
@@ -1656,7 +1656,7 @@ Blockchain technology is a powerful tool, but it is not always the right tool fo
 *   The use of external services to gather/store data.  
     Next, we will discuss in more detail the conditions that are not well suited to blockchain-based solutions.
 
-**[`^        back to top        ^`](#)**
+**[`^        back to top        ^`](#table-of-contents)**
 
 ### I. The Process Involves Confidential Data
 The biggest advantage and challenge in deploying blockchains is the radical transparency which they provide. Methods are being developed to hide confidential data on the blockchain, while sharing it only to relevant parties. Regulations for data privacy often do not allow for blockchain solutions. A thorough review of the relevant privacy rules governing your business case should be examined to see whether blockchain is appropriate. For example, is leaking data in encrypted form allowed? What level of encryption is required when transmitting data?
@@ -1700,7 +1700,7 @@ You can start or join a Hyperledger meetup. Development updates from Wiki can be
 </p>
 <h5 align="center">Hyperledger Global Meetups (as of 06/24/2019)</h5>
 
-**[`^        back to top        ^`](#)**
+**[`^        back to top        ^`](#table-of-contents)**
 
 #### Hyperledger Working Groups
 The Hyperledger Community’s working groups are open to the public. Developers and tech leaders can engage with any of the Hyperledger’s open community channels at this page.  
@@ -1733,7 +1733,7 @@ There are also a number of Special Interest Groups in the Hyperledger Community,
 *   Telecom SIG This group focuses on technical and business-level conversations about blockchain use cases in the Telecom industry.
 *   Trade Finance SIG This group is focused on DLT and Hyperledger technologies applications to the trade finance uses and needs.
 
-**[`^        back to top        ^`](#)**
+**[`^        back to top        ^`](#table-of-contents)**
 
 ### Conclusions
 This concludes the LFS171x "Introduction to Hyperledger Technologies" course! We have introduced you to the current Hyperledger frameworks and tools, and we have highlighted some of the business blockchain applications.  

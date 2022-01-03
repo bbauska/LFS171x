@@ -1324,7 +1324,7 @@ By the end of this chapter, you should be able to:
 *   Discover the factors to look at when evaluating if blockchain technology is right for a particular project.
 *   Decide when to use and when not to use blockchain technology.
 
-#### Business Blockchain Technologies Overview
+#### <a id="ch6a"></a> Business Blockchain Technologies Overview
 Blockchain is a data structure with an automated way to enforce trust among participants. Consensus algorithms ensure that all participants agree on the data stored within the blockchain. Blockchain opens the door to disrupt any industry that relies on a central authority to confirm authenticity. It also allows independent, and even competing organizations, to share information to gain efficiencies across an industry.  
 In permissioned blockchains, a consortium of organizations are responsible for authenticating and controlling the participants in a blockchain. In public blockchains, no central authority or administration is required to exchange data. Blockchains can drive business innovation through controlled data-sharing networks for industry consortiums.  
 The promise of distributed ledger technologies (DLT) to simplify and automate key work functions has many industries taking notice. Businesses recognize the efficiency gains from transitioning from closed and proprietary solutions to standard open source capabilities, such as Hyperledger business blockchain technologies. Several common project features of blockchain applications are taking shape as the technology matures.  
@@ -1614,7 +1614,7 @@ What advantages would businesses have by adopting blockchain technologies? The K
 
 **[`^        back to top        ^`](#table-of-contents)**
 
-### What Enterprises Look for When Evaluating Whether or Not to Use Hyperledger (Brian Behlendorf)
+### <a id="ch6c"></a>What Enterprises Look for When Evaluating Whether or Not to Use Hyperledger (Brian Behlendorf)
 
 #### What should an enterprise look for when evaluating whether or not to use Hyperledger?
 So, I always try to start... suggest that people start with the business need, right, trying to look at what are you doing in your enterprise, and probably, it will mean what are you doing with your business partners, with your suppliers, with your customers, maybe even with your competitors, right?  
@@ -1632,7 +1632,7 @@ This is still very early days, and you still need to be smart about how do we ap
 So, at some point, those two teams should meet up, right, and say "Here's what we think is really the MVP \[Minimum Viable Product\] or a proof of concept", and the other team should... that comes from the technology side of the house, should say "Okay, we understand how to build this, you know, if we, you know, shave these corners, we can do something in a week", right? and let's just see that, you know, cheap and dirty, what it looks like.  
 And then, over time, start to promulgate that amongst the other partners that you think you'd involve in a distributed ledger project.
 
-#### <a id="ch6c"></a>When to Use Blockchain
+#### When to Use Blockchain
 There are certain factors to consider when evaluating blockchain distributed ledger technology for your business. How many participants are in your system? What is the geographical distribution of the participants? What sort of performance requirements do you have? Defining the rules, risks, and responsibilities of each party in your blockchain system is useful as you consider transferring a database to a decentralized environment such as one of the Hyperledger frameworks. Blockchain is best suited for business applications where one or more of the following conditions apply:
 
 *   There is a need for a shared common database

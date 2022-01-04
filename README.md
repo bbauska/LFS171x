@@ -1705,17 +1705,17 @@ You can start or join a Hyperledger meetup. Development updates from Wiki can be
 The Hyperledger Community’s working groups are open to the public. Developers and tech leaders can engage with any of the Hyperledger’s open community channels at this page.  
 Below, you can see an overview of Hyperledger’s working groups:
 
-*   Architecture Working Group (AWG)  
+  * Architecture Working Group (AWG)  
     This is a technical workgroup focused on developing an architectural framework for Enterprise class distributed ledgers, towards convergence on a modular architecture.
-*   Identity Working Group  
+  * Identity Working Group  
     This group discusses, researches, and documents ways to capture, store, transmit and use identities on DLT, with a focus on projects under the Hyperledger umbrella.
-*   Learning Materials Development Working Group  
+  * Learning Materials Development Working Group  
     This group is focused on developing open source training material to educate people on Hyperledger and its projects.
-*   Performance and Scale Working Group  
+  * Performance and Scale Working Group  
     This group discusses, researches, and identifies key metrics that relate to the performance and scalability of a blockchain and blockchain related technologies.
-*   Smart Contracts Working Group  
+  * Smart Contracts Working Group  
     This group focuses on giving an academic perspective to this research topic and also on practical ways to utilize them on different DLTs that are under the Hyperledger umbrella, and explores all potentials from deploying them in everyday software solution scenarios.
-*   Technical Working Group China  
+  * Technical Working Group China  
     This group acts as a bridge between the global Hyperledger community and the emerging technical user and contributor community in China.
 
 ### Learning Materials Development Working Group

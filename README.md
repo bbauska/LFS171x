@@ -68,7 +68,7 @@ By the end of this chapter, you should be able to:
 3. Discuss various components of distributed ledger technologies, including consensus algorithms and smart contracts.
 4. Provide a high-level explanation of what Hyperledger is.
 
-### <a id="ch1c"></a>Distributed Ledger Technology (DLT)
+### <a id="ch1b"></a>Distributed Ledger Technology (DLT)
 Background - The Rising Interest in Distributed Ledger Technologies  
 Looking back to the last half century of computer technologies and architectures, you may observe a trend of fluctuation between the centralization and subsequent decentralization of computing power, storage, infrastructure, protocols, and code.  
 Mainframe computers are largely centralized. They typically house all computing power, memory, data storage, and code. Access to mainframes is mainly by "dumb terminals", which only take inputs and outputs, and do not store or process data.  
@@ -90,7 +90,7 @@ In summary, **distributed ledger technology (dlt)** generally consists of three 
 
 **[`^        back to top        ^`](#table-of-contents)**
 
-### <a id="ch1b"></a>Blockchain
+### <a id="ch1c"></a>Blockchain
 According to hyperledger.org,  
 "A blockchain is a peer-to-peer distributed ledger forged by consensus, combined with a system for "smart contracts" and other assistive technologies. Together these can be used to build a new generation of transactional applications that establishes trust, accountability, and transparency at their core, while streamlining business processes and legal constraints."  
 Smart contracts are simply computer programs that execute predefined actions when certain conditions within the system are met.  
@@ -327,7 +327,7 @@ Since they are cryptographically secured, Dapps are referred to as "secure appli
 
 **[`^        back to top        ^`](#table-of-contents)**
 
-### <a id="ch2b"></a>Ethereum Smart Contracts
+### <a id="ch2b"></a> Ethereum Smart Contracts
 A hypothetical example of an Ethereum-based smart contract may involve the following transaction: in an equity raise, transfer amount X from the investor to the company upon receiving the given shares from the company. The monetary amount X, which was pre-validated by the company for the transaction (much like in a credit card purchase), is held in escrow by the smart contract, until the shares have been received by the investor. Any kind of arbitrary sophisticated business logic can be committed to the blockchain. The Ethereum blockchain only encodes these "rules of the games". The actual payoffs occur by interacting with the blockchain.  
 The illustration below describes this process. The smart contract encodes the agreement between the company raising funds and its investors (Panel 1). The smart contract sits on the Ethereum public blockchain, and is run on the Ethereum Virtual Machine (EVM). Once hitting a triggering event, like an expiration date or a strike price that has been pre-coded, the smart contract automatically executes as per the business logic (Panel 2). As an added benefit, regulators are able to scrutinize the market activity on an ongoing basis, without compromising the identity of specific players in a permissionless public blockchain, as Ethereum (Panel 3).
 <p align="center" width="100%">
@@ -338,7 +338,7 @@ Note: With the advent of the Ethereum blockchain platform and the scripting func
 
 **[`^        back to top        ^`](#table-of-contents)**
 
-### Exploring Permissionless Blockchains
+### <a id="ch1d"></a>Exploring Permissionless Blockchains
 We will examine the Bitcoin and Ethereum blockchains, both of which are permissionless, public blockchains. We will examine several large transactions, and the genesis block for each blockchain. We will look at block heights, transaction times, mining pools, timestamps, and block rewards.
 
 ### Exploring Bitcoin and Ethereum Blockchains
@@ -367,7 +367,7 @@ In Chapter 2 of this course, we'll touch upon the Hyperledger Explorer, which ca
 
 **[`^        back to top        ^`](#table-of-contents)**
 
-### <a id="ch1j"></a>Consensus Algorithms
+### <a id="ch1e"></a>Consensus Algorithms
 Consensus in the network refers to the process of achieving agreement among the network participants as to the correct state of data on the system. Consensus leads to all nodes sharing the exact same data. A consensus algorithm, hence, does two things: it ensures that the data on the ledger is the same for all the nodes in the network, and, in turn, prevents malicious actors from manipulating the data. The consensus algorithm varies with different blockchain implementations.  
 While the Bitcoin blockchain uses Proof of Work as the consensus algorithm, other blockchains and distributed ledgers are deploying a variety of consensus algorithms, like the Proof of Stake, Proof of Burn, Proof of Capacity, Proof of Elapsed Time, and many others, depending on their unique requirements.  
 Next, we will briefly explain some of these algorithms.
@@ -412,7 +412,7 @@ The following table offers an at-a-glance view of the main considerations and pr
   <img width="66%" src="https://user-images.githubusercontent.com/41387907/138574948-4f8e4a52-b320-41aa-81e9-bc126d649c4e.png"
     alt="Comparing permissed consensus approaches and standard PoW"</>
 </p>
-## <a id="ch2"></a>Chapter 2. Hyperledger
+## <a id="ch1f"></a>Chapter 2. Hyperledger
 Hyperledger is an open source effort created to advance cross-industry blockchain technologies. Hosted by The Linux Foundation, it is a global collaboration of members from various industries, including finance, banking, Internet of Things (IoT), supply chain, manufacturing, healthcare and more. Hyperledger boasts a host of enterprise-ready solutions. Hyperledger is about communities of software developers building blockchain frameworks and platforms. We will take a closer look at some of the current Hyperledger projects in the coming chapters.  
 "One of the first things people learn when coming to Hyperledger is that Hyperledger isn’t, like its name may imply, a ledger. It is a collection of blockchain technology projects."  
 Dan Middleton, All Are Welcome Here (2018)
@@ -426,7 +426,7 @@ Hyperledger blockchains are generally permissioned blockchains, which means that
 If you look at permissionless blockchains, like the Bitcoin blockchain or the Ethereum blockchain, anyone can join the network, as well as write and read transactions. The actors in the system are not known, which means there could be some malicious actors within the network.  
 Hyperledger reduces these security risks and ensures that only the parties that want to transact are the ones that are part of the transaction and, rather than displaying the record of the transactions to the whole network, they remain visible only to the parties involved. So, Hyperledger provides all the capabilities of the blockchain architecture - data privacy, information sharing, immutability, with a full stack of security protocols - all for the enterprise. Permissioned blockchains offer more efficient transaction performance, thus being highly scalable, and have a clearly defined governance structure.
 
-### Hyperledger vs. Other Permissioned Ledgers (Brian Behlendorf)
+### <a id="ch1g"></a>Hyperledger vs. Other Permissioned Ledgers (Brian Behlendorf)
 What makes Hyperledger so unique, compared to other permissioned ledgers?  
 So, Hyperledger is a really unique community in the open source landscape of different blockchain technologies.  
 We kind of model ourselves a little bit after Apache, and some of the other organizations out there that really are communities of communities, right?  
@@ -476,17 +476,17 @@ Additionally, the use of the platform with connected devices or the Internet of 
 *   Roger Aitken, 2017  
     IOTA focuses mainly on enabling the emerging Internet of Things (IoT), but also plans to go beyond this, on being the transaction settlement and data integrity layer for the Internet of Everything (IoE).
 
-### Challenges in the Adoption/Deployment of Distributed Ledger Technologies
+### <a id="ch1h"></a>Challenges in the Adoption/Deployment of Distributed Ledger Technologies
 There are a number of challenges to the widespread use of permissioned distributed ledger technologies. Key among them are challenges around the lack of standards, regulatory challenges, and the lack of knowledge about distributed ledger technologies. These challenges are inherent to any new technological infrastructure that replaces an older infrastructure.  
 Other challenges encountered when it comes to the adoption and deployment of distributed ledger technologies are:
 
-*   Resistance to change
-*   Scalability concerns
-*   Interoperability and integration with legacy systems
-*   Unproven business case
-*   Lack of capital to fund new investments
-*   System complexity and costs.  
-    We hope you go on to address some of these challenges and contribute to building a secure digital future!
+  * Resistance to change
+  * Scalability concerns
+  * Interoperability and integration with legacy systems
+  * Unproven business case
+  * Lack of capital to fund new investments
+  * System complexity and costs.  
+We hope you go on to address some of these challenges and contribute to building a secure digital future!
 
 **[`^        back to top        ^`](#table-of-contents)**
 
@@ -517,18 +517,18 @@ Jobs in the blockchain development space are among the top 20 fastest growing, a
 
 **[⬆ back to top](#table-of-contents)**
 
-### Chapter 2 - Introduction to Hyperledger
+## <a id="ch2"></a>Chapter 2 - Introduction to Hyperledger
 This chapter provides an overview of Hyperledger, a collaborative project hosted by The Linux Foundation that is focused on business blockchain technologies. It also provides a brief introduction to the projects advanced under the Hyperledger greenhouse, as of November 2020.
 
-### Learning Objectives
+### <a id="ch2a"></a>Learning Objectives
 By the end of this chapter, you should be able to:
 
-*   Explain the differences between Hyperledger and permissionless blockchain technologies.
-*   Discuss how Hyperledger leverages open standards and open governance to support business solutions.
-*   Define what a project is according to the Hyperledger documentation.
-*   Discuss the project lifecycle process adopted by Hyperledger, and the five possible states.
+  * Explain the differences between Hyperledger and permissionless blockchain technologies.
+  * Discuss how Hyperledger leverages open standards and open governance to support business solutions.
+  * Define what a project is according to the Hyperledger documentation.
+  * Discuss the project lifecycle process adopted by Hyperledger, and the five possible states.
 
-### Hyperledger (Navroop Sahdev)
+### <a id="ch2b"></a>Hyperledger (Navroop Sahdev)
 Hyperledger is an open source effort created to advance cross-industry blockchain technologies.  
 It's a global collaboration hosted by The Linux Foundation that encompasses various industries and organizations worldwide.  
 You may think of Hyperledger as an operating system for marketplaces, data sharing networks, microcurrencies, and decentralized digital communities.  
@@ -556,7 +556,7 @@ Hyperledger provides an alternative to the cryptocurrency-based blockchain model
 
 **[`^        back to top        ^`](#table-of-contents)**
 
-### <a id="ch2b"></a>The Birth of Hyperledger
+### The Birth of Hyperledger
 It's amazing how quickly Hyperledger has developed and evolved over the past few years.  
 I was wondering if you could tell me a bit about the journey of how Hyperledger has come to be.  
 So, the Hyperledger Project began when a set of companies who were starting to pay attention to this Bitcoin space, this cryptocurrency space, this blockchain space, approached The Linux Foundation and said "Let's do a project together".  
@@ -797,7 +797,7 @@ Currently, the Hyperledger Project Lifecycle is a very rigorous process that inc
 Hyperledger Labs provides a space where work can easily be started without the creation of an official Hyperledger project. Developers working on projects that are immature (incomplete code, not ready from a production-quality point of view, with small communities) or experimental will thus get the opportunity to work in a space suitable for innovation and testing of new ideas; moreover, they will work within a legal framework that would ease the transition to the Hyperledger Incubator (if the project matures enough and reaches that stage). Hyperledger Labs have similarities with the Apache Labs and the W3C Community Groups.  
 There is a specific process that must be followed when proposing a new lab. Labs that become dormant or unresponsive for 6 months or more, or are deemed deprecated or obsoleted by their committers are archived.
 
-### Q/A with Brian Behlendorf, Executive Director of Hyperledger
+### <a id="ch2c"></a>Q/A with Brian Behlendorf, Executive Director of Hyperledger
 Before diving deeper into the projects advanced under the Hyperledger umbrella, we asked Brian Behlendorf, Executive Director of Hyperledger at The Linux Foundation, some questions.
 
 **[`^        back to top        ^`](#table-of-contents)**
@@ -829,25 +829,35 @@ So, all of that means working on open source projects can be tremendously benefi
 
 **[`^        back to top        ^`](#table-of-contents)**
 
-### <a id="ch2z"></a>Hyperledger vs. Apache
-While at Apache, you were able to successfully build an open software developer community.  
-What are some similarities and differences between Hyperledger and Apache in its evolution as an open source project?  
-Right... Well, on the Apache web server project, which later became the Apache Software Foundation,  
-a lot of what happened was due to luck, was due to inheriting a tradition that had been established since the beginning of the internet,  
-of technologists working together on common standards and common code.  
-And so, there was kind of a DNA that was built-in and, you know, the web was not that complicated at that point in time, either.  
-These standards were pretty simple, right?  
-So, we just kind of did what seemed natural. We started a mailing list.  
-We started an issue tracking system, a version control system, and we just started working together, very ad hoc, very informally.  
-And we became a non-profit about three years after we got started, when we realized we wanted a little more formalism, and a little more protection for the developers.  
-But it was all very informal, ad hoc, and many developers took on roles beyond development, such as marketing, such as legal, such as accounting, right?  
-And so, Apache's culture has been very much almost like a guild, right? Almost like a user community... a very community-driven kind of thing,  
-where there's this validity that comes from that grassroots-kind-of-sense, right?  
-Which is great for the kinds of projects that Apache was interested in.  
-And Apache has become a home for over 300 different individual software development projects, beyond the web server, right?  
+### Hyperledger vs. Apache
+While at Apache, you were able to successfully build an open software developer community.
+What are some similarities and differences between Hyperledger and Apache in its evolution as an open source project?
+Right... Well, on the Apache web server project, which later became the Apache Software Foundation, a lot of what happened was due to luck, was due to inheriting a tradition that had been established since the beginning of the internet, of technologists working together on common standards and common code.
+
+And so, there was kind of a DNA that was built-in and, you know, the web was not that complicated at that point in time, either.
+These standards were pretty simple, right?
+
+So, we just kind of did what seemed natural.
+
+We started a mailing list.
+
+We started an issue tracking system, a version control system, and we just started working together, very ad hoc, very informally.
+
+And we became a non-profit about three years after we got started, when we realized we wanted a little more formalism, and a little more protection for the developers.
+
+But it was all very informal, ad hoc, and many developers took on roles beyond development, such as marketing, such as legal, such as accounting, right?
+
+And so, Apache's culture has been very much almost like a guild, right?
+
+Almost like a user community... a very community-driven kind of thing, where there's this validity that comes from that grassroots-kind-of-sense, right?
+
+Which is great for the kinds of projects that Apache was interested in.
+
+And, Apache has become a home for over 300 different individual software development projects, beyond the web server, right?
+
 But it has always grown by happenstance, and it's always been open to whatever technology project wanted to come in.  
-So, there are some upsides and downsides to that all, right?  
-One of the downsides is, by not having a full time staff, it's hard for Apache to really take advantage of all the opportunities out there, to get the word out about who they are.  
+So, there are some upsides and downsides to that all, right?
+One of the downsides is, by not having a full time staff, it's hard for Apache to really take advantage of all the opportunities out there, to get the word out about who they are.
 It means that developers, you know, have to do these non-developer activities, right?  
 And it's hard to do things like police your trademark usage, right, when people are working as volunteers.  
 So, The Linux Foundation took a slightly different approach.  
@@ -887,19 +897,26 @@ So, I think we'll see more activity like that.
 ## <a id="ch3"></a>Chapter 3: Hyperledger: Distributed Ledger Frameworks and Domain Specific Blockchains
 In this chapter, we will briefly explore the frameworks developed under the Hyperledger umbrella (as of November 2020), highlighting their key features and use cases. We will dive deeper in discussing use cases in the last chapter of this course.
 
-### Learning Objectives
+### <a id="ch3a"></a>Learning Objectives
 By the end of this chapter, you should be able to:
-
-*   List the components of Hyperledger frameworks.
-*   Get a high-level understanding of the Hyperledger frameworks and domain-specific blockchain technologies: Hyperledger Besu, Hyperledger Burrow, Hyperledger Fabric, Hyperledger Grid, Hyperledger Indy, Hyperledger Iroha, and Hyperledger Sawtooth.
+  * List the components of Hyperledger frameworks.
+  * Get a high-level understanding of the Hyperledger frameworks and domain-specific blockchain technologies: 
+	- Hyperledger Besu, 
+	- Hyperledger Burrow, 
+	- Hyperledger Fabric, 
+	- Hyperledger Grid, 
+	- Hyperledger Indy, 
+	- Hyperledger Iroha, and 
+	- Hyperledger Sawtooth.
 
 ### Components of Hyperledger Frameworks
-Hyperledger business blockchain frameworks are used to build enterprise blockchains for a consortium of organizations. They are different than public ledgers like the Bitcoin blockchain and Ethereum. Hyperledger frameworks include:
+Hyperledger business blockchain frameworks are used to build enterprise blockchains for a consortium of organizations. They are different than public ledgers like the Bitcoin blockchain and Ethereum. 
+Hyperledger frameworks include:
 
-*   An append-only distributed ledger
-*   A consensus algorithm for agreeing to changes in the ledger
-*   Privacy of transactions through permissioned access
-*   Smart contracts to process transaction requests.
+  * An append-only distributed ledger
+  * A consensus algorithm for agreeing to changes in the ledger
+  * Privacy of transactions through permissioned access
+  * Smart contracts to process transaction requests.
 
 <p align="center" width="100%">
   <img width="50%" src="https://user-images.githubusercontent.com/41387907/138575454-df0b58de-1185-4558-b507-3a861a8bd63b.png"

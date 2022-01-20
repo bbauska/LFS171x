@@ -4,6 +4,11 @@
     alt="Linux logo"</>
 </p>
 
+<!-------------------------------------------------------------------------------------------------------->
+<!---------------------------------- readme.md of LFS171x.bauska.site ------------------------------------>
+<!-------------------------------------------------------------------------------------------------------->
+
+
 ### Introduction to Hyperledger Blockchain Technology
 
 **Welcome to LFS171x: Introduction to Hyperledger Blockchain Technology**  
@@ -3524,73 +3529,93 @@ Dr. Aisha Bint Butti Bin Bishr, Director General of the Smart Dubai Office
 **[`^        back to top        ^`](#table-of-contents)**
 
 ### Blockchain Best Practices for Enterprises
-The use of distributed ledger technologies in production across various industries continues to expand and reach new horizons, as businesses explore new ways to incorporate blockchain in their day-to-day activities. However, in order to increase the success of blockchain business applications, some best practices must be considered:
+The use of distributed ledger technologies in production across various industries continues to expand and reach new horizons, as businesses explore new ways to incorporate blockchain in their day-to-day activities.
+However, in order to increase the success of blockchain business applications, some best practices must be considered:
 
-*   Security for the long term  
-    While blockchain transactions are secure and cryptographically protected when it comes to the current technological advancements, we should always keep in mind that nothing is static, and technology continues to advance at an incredibly fast pace. What is secure today may not be so in the near future. Hackers and other bad actors are constantly focusing on breaking the cryptographic algorithms that protect blockchain data today.  
+  * **Security for the long term**
+    While blockchain transactions are secure and cryptographically protected when it comes to the current technological advancements, we should always keep in mind that nothing is static, and technology continues to advance at an incredibly fast pace. What is secure today may not be so in the near future. Hackers and other bad actors are constantly focusing on breaking the cryptographic algorithms that protect blockchain data today.
     To avoid the potential security disruptions of tomorrow, a critical best practice is that users should never put personally identifiable information, or PII, on their blockchains.
-*   File storage on the blockchain  
-    Due to the way blockchains work to store data, replicating it on every other node or peer in the network, storage and compute costs can be incredibly high. To avoid added storage costs, it is recommended that other storage and replication methods to be used - this includes cloud networks like AWS S3, GCP Filestore, etc. This way, nodes and peers can have pointers or links to the data files kept outside of the blockchain network, instead of the actual data.
-*   Permissioned blockchain for private data  
+  * File storage on the blockchain  
+    Due to the way blockchains work to store data, replicating it on every other node or peer in the network, storage and compute costs can be incredibly high. To avoid added storage costs, it is recommended that other storage and replication methods to be used - this includes cloud networks like AWS S3, GCP Filestore, etc. 
+	This way, nodes and peers can have pointers or links to the data files kept outside of the blockchain network, instead of the actual data.
+  * Permissioned blockchain for private data  
     On public blockchains, anybody has access to the information stored on the network: they can add transactions and read the data that is in it. When it comes to permissioned blockchains, data can be stored, accessed and used only between partners that have access to it. Permissioned blockchains, such as the Hyperledger technologies, are a great solution for businesses, as they want their data to remain private.
-*   Blockchain governance structure  
+  * Blockchain governance structure  
     Most blockchain-related challenges are related to the governance model that is chosen. To keep things straightforward, you should define the governance structure upfront very early in the process, even before diving into blockchain: decide how new users/organizations are added to a blockchain network, how to determine if a user/organization should be removed from the blockchain network, include a mechanism that deals with and removes bad actors previously allowed in the network, etc. Keep in mind that things change over time, and as such, the governance procedures may change as well.
-*   Performance and scalability requirements  
+  * Performance and scalability requirements  
     Blockchain architects must have a clear understanding of the requirements for their specific use cases, and they must ensure that their blockchains meet those requirements. Based on these requirements, decisions must be made early on with each deployment and use case in regards to what technologies to use.
-*   Goals of blockchain business cases  
-    Not every project or solution is successful, unless it is carefully planned, designed and implemented. A carefully thought out strategy must be designed and implemented for each project, to ensure that goals are achieved.  
+  * Goals of blockchain business cases
+    Not every project or solution is successful, unless it is carefully planned, designed and implemented.
+	A carefully thought out strategy must be designed and implemented for each project, to ensure that goals are achieved.
     Blockchain can be a great solution for numerous business use cases that rely on security, controlled access, accountability, transparency, and efficiency, spanning a wide range of industries, from finance to banking, supply chains, manufacturing, healthcare, telecom, etc. Having well laid plans, goals and best practices can all help enterprise IT leaders explore the growing blockchain ecosystem as they work to capture its strengths for their businesses.
 
 **[`^        back to top        ^`](#table-of-contents)**
 
 ### The Outlook of Blockchain for Business
-The 2019 Technology Industry Innovation conducted by KPMG around the adoption of blockchain technologies suggests that 41 percent of businesses are likely to adopt and implement blockchain into their business operations in the next three years. Another important aspect revealed by this survey is that 48 percent of enterprises believe that blockchain will change the way they conduct and manage their business activities in the near future.  
-What areas are expecting significant disruptions due to increased adoption of blockchain technologies? The survey shows that IoT processes are expected to be impacted the most (27%), followed by processes involved in trading (22%), reduced cybersecurity risk (20%), contracts (18%), etc. Industries that are believed to see the greatest blockchain adoption in the near future are financial services, industrial manufacturing and telecommunications.  
+The 2019 Technology Industry Innovation conducted by KPMG around the adoption of blockchain technologies suggests that 41 percent of businesses are likely to adopt and implement blockchain into their business operations in the next three years. Another important aspect revealed by this survey is that 48 percent of enterprises believe that blockchain will change the way they conduct and manage their business activities in the near future.
+
+What areas are expecting significant disruptions due to increased adoption of blockchain technologies?
+
+The survey shows that IoT processes are expected to be impacted the most (27%), followed by processes involved in trading (22%), reduced cybersecurity risk (20%), contracts (18%), etc. Industries that are believed to see the greatest blockchain adoption in the near future are financial services, industrial manufacturing and telecommunications.
+
 What advantages would businesses have by adopting blockchain technologies? The KPMG survey outlines some of them:
 
-*   Improved business efficiencies
-*   Product/service differentiation
-*   Increased profitability
-*   Cost reductions
-*   New business insights from incremental data, etc.  
-    Blockchain is viewed as one of the top 10 technologies that will transform businesses over the next three years, and beyond. The 2019 KPMG survey ranked blockchain at number 4, compared to 7 just a year ago. And, according to the Worldwide Semiannual Blockchain Spending Guide (March 2019) from International Data Corporation (IDC), worldwide spending on blockchain-related solutions is expected to reach $2.9 billion in 2019 (an increase of over 88% from the previous year), and $12.4 billion by 2022.  
-    Want to be at the forefront of the blockchain technological innovation? Start assessing your needs to see if blockchain would be a good solution for your business.
+  * Improved business efficiencies.
+  * Product/service differentiation.
+  * Increased profitability.
+  * Cost reductions.
+  * New business insights from incremental data, etc.
+
+Blockchain is viewed as one of the top 10 technologies that will transform businesses over the next three years, and beyond. The 2019 KPMG survey ranked blockchain at number 4, compared to 7 just a year ago. And, according to the Worldwide Semiannual Blockchain Spending Guide (March 2019) from International Data Corporation (IDC), worldwide spending on blockchain-related solutions is expected to reach $2.9 billion in 2019 (an increase of over 88% from the previous year), and $12.4 billion by 2022.
+
+Want to be at the forefront of the blockchain technological innovation? Start assessing your needs to see if blockchain would be a good solution for your business.
 
 **[`^        back to top        ^`](#table-of-contents)**
 
-### <a id="ch6c"></a>What Enterprises Look for When Evaluating Whether or Not to Use Hyperledger (Brian Behlendorf)
+### What Enterprises Look for When Evaluating Whether or Not to Use Hyperledger (Brian Behlendorf)
 
 #### What should an enterprise look for when evaluating whether or not to use Hyperledger?
-So, I always try to start... suggest that people start with the business need, right, trying to look at what are you doing in your enterprise, and probably, it will mean what are you doing with your business partners, with your suppliers, with your customers, maybe even with your competitors, right?  
+I always try to start... suggest that people start with the business need, right, trying to look at what are you doing in your enterprise, and probably, it will mean what are you doing with your business partners, with your suppliers, with your customers, maybe even with your competitors, right?  
+
 What is it... what are some business processes, or some provenance tracking problems, or a registry somewhere that, you know, you're putting too much trust in a central org somewhere, where is there an opportunity to take a decentralized ledger approach, and a smart contract approach to solving those issues?  
+
 Start with the need, right?  
+
 In fact, one way to explore that is, you know, every industry has a consortium somewhere in that industry talking about technical standards, talking about common business processes, and those are often the right kinds of organizations to look at doing a proof of concept with, right?  
-Because they often have kind of this overarching kind of view of the industry, and they tend to be trusted by the participants in that industry.  
+
+Because they often have kind of this overarching kind of view of the industry, and they tend to be trusted by the participants in that industry.
+
 So, often, they could come up with what's the right kind of proof of concept, or maybe even a Minimum Viable Product kind of project, because there really is no blockchain of one, right?  
-It's really hard just to think about solving your own problems with a block, with a distributed ledger.  
-You really need to think about an industry-wide kind of approach, even from the earliest day.  
+
+It's really hard just to think about solving your own problems with a block, with a distributed ledger.
+
+You really need to think about an industry-wide kind of approach, even from the earliest day.
+
 Once you've identified like that kind of opportunity, you should start to ask yourself what are the characteristics of that need, is it from a transaction rate perspective, from a number of nodes, from how geographically distributed those nodes might be, and then, also ask yourself who are the developers that I'm expecting to be able to tap, to bring this technology to bear, and have they started to investigate distributed ledger technology, have they started to learn how Fabric works, how Sawtooth works...  
-So, I think that that's another important side of it.  
+
+I think that that's another important side of it.  
 As the business side of the house is trying to understand the use cases, you should really let your technology teams explore this technology, allow them to get their hands dirty, to go to a hackathon, to take this course, to start playing with these technologies to get a more intuitive sense for what they do, and what they can't do, right, what their limitations might be.  
 This is still very early days, and you still need to be smart about how do we apply these and how do we use them.  
-So, at some point, those two teams should meet up, right, and say "Here's what we think is really the MVP \[Minimum Viable Product\] or a proof of concept", and the other team should... that comes from the technology side of the house, should say "Okay, we understand how to build this, you know, if we, you know, shave these corners, we can do something in a week", right? and let's just see that, you know, cheap and dirty, what it looks like.  
+
+At some point, those two teams should meet up, right, and say "Here's what we think is really the MVP \[Minimum Viable Product\] or a proof of concept", and the other team should... that comes from the technology side of the house, should say "Okay, we understand how to build this, you know, if we, you know, shave these corners, we can do something in a week", right? and let's just see that, you know, cheap and dirty, what it looks like.  
 And then, over time, start to promulgate that amongst the other partners that you think you'd involve in a distributed ledger project.
 
 **[`^        back to top        ^`](#table-of-contents)**
 
-#### When to Use Blockchain
+####  <a id="ch6-3"></a>6.3 When to Use Blockchain
 There are certain factors to consider when evaluating blockchain distributed ledger technology for your business. How many participants are in your system? What is the geographical distribution of the participants? What sort of performance requirements do you have? Defining the rules, risks, and responsibilities of each party in your blockchain system is useful as you consider transferring a database to a decentralized environment such as one of the Hyperledger frameworks. Blockchain is best suited for business applications where one or more of the following conditions apply:
 
-*   There is a need for a shared common database
-*   The parties involved with the process have conflicting incentives, or do not have trust among participants
-*   There are multiple parties involved or writers to a database
-*   There are currently trusted third parties involved in the process that facilitate interactions between multiple parties who must trust the third party. This could include escrow services, data feed providers, licensing authorities, or a notary public
-*   Cryptography is currently being used or should be used. Cryptography facilitates data confidentiality, data integrity, authentication, and non-repudiation
-*   Data for a business process is being entered into many different databases along the lifecycle of the process. It is important that this data is consistent across all entities, and/or digitization of such a process is desired
-*   There are uniform rules governing participants in the system
-*   Decision making of the parties is transparent, rather than confidential
-*   There is a need for an objective, immutable history or log of facts for parties’ reference
-*   Transaction frequency does not exceed 10,000 transactions per second.
+  * There is a need for a shared common database.
+  * The parties involved with the process have conflicting incentives, or do not have trust among participants.
+  * There are multiple parties involved or writers to a database.
+  * There are currently trusted third parties involved in the process that facilitate interactions between multiple parties who must trust the third party. This could include escrow services, data feed providers, licensing authorities, or a notary public.
+  * Cryptography is currently being used or should be used.
+    Cryptography facilitates data confidentiality, data integrity, authentication, and non-repudiation.
+  * Data for a business process is being entered into many different databases along the lifecycle of the process. It is important that this data is consistent across all entities, and/or digitization of such a process is desired.
+  * There are uniform rules governing participants in the system.
+  * Decision making of the parties is transparent, rather than confidential.
+  * There is a need for an objective, immutable history or log of facts for parties’ reference.
+  * Transaction frequency does not exceed 10,000 transactions per second.
 
 #### When Not to Use Blockchain
 Blockchain technology is a powerful tool, but it is not always the right tool for the job at hand. If you are contemplating using blockchain technology, be sure to evaluate the problem fully. The following conditions are not currently well suited to blockchain-based solutions:

@@ -17,19 +17,19 @@ LFS171x is part of the Blockchain for Business Professional Certificate. Skills 
 ## [Table of Contents](#table-of-contents)
 
 ## 1. [**Discovering Blockchain Technologies**](#ch1)
->### a. [**Introduction & Learning Objectives**](#ch1a)
->### b. [**Distributed Ledgers Technology (DLT)**](#ch1b)
->### c. [**Bitcoin & Ethereum Blockchains**](#ch1c)
->### d. [**Exploring Permissionless Blockchains**](#ch1d)
->### e. [**Consensus Algorithms**](#ch1e)
->### f. [**Hyperledger**](#ch1f)
->### g. [**Other Open Source Permissioned Distributed Ledgers**](#ch1g)
->### h. [**Challenges in the Adoption/Deployment of Distributed Ledger Technologies**](#ch1h)
+>### 1.1 [**Introduction & Learning Objectives**](#ch1-1)
+>### 1.2 [**Distributed Ledgers Technology (DLT)**](#ch1-2)
+>### 1.3 [**Bitcoin & Ethereum Blockchains**](#ch1-3)
+>### 1.4 [**Exploring Permissionless Blockchains**](#ch1-4)
+>### 1.5 [**Consensus Algorithms**](#ch1-5)
+>### 1.6 [**Hyperledger**](#ch1-6)
+>### 1.7 [**Other Open Source Permissioned Distributed Ledgers**](#ch1-7)
+>### 1.8 [**Challenges in the Adoption/Deployment of Distributed Ledger Technologies**](#ch1-8)
 
 ## 2. [**Introduction to Hyperledger**](#ch2)
->### a. [**Introduction & Learning Objectives**](#ch2a)
->### b. [**Hyperledger**](#ch2b)
->### c. [**Q/A with Brian Behlendorf, Executive Director of Hyperledger**](#ch2c)
+>### 2.1 [**Introduction & Learning Objectives**](#ch2-1)
+>### 2.2 [**Hyperledger**](#ch2-2)
+>### 2.3 [**Q/A with Brian Behlendorf, Executive Director of Hyperledger**](#ch2-3
 
 ## 3. [**Hyperledger: Distr. Ledger Frameworks & Domain Specific Blockchains**](#ch3)
 >### a. [**Introduction and Learning Objectives**](#ch3a)
@@ -64,7 +64,7 @@ In this course, you'll learn about these different projects.
 This course is designed for people on the full spectrum, from working on purely as a software developer, all the way to those who just really want a business level understanding of what these technologies can accomplish, and what are the kinds of use cases that you might apply this to.  
 So, this is really designed for the full breadth of those technologies  
 
-### <a id="ch1a"></a>Introduction & Learning Objectives
+### <a id="ch1-1"></a>1.1 Introduction & Learning Objectives
 Chapter 1 introduces the building blocks of distributed ledger technologies, including blockchains. It lays the foundation for an in-depth understanding of the content that follows in the course. You should engage with the content in this chapter both to learn, as well as brush up your blockchain knowledge.
 
 By the end of this chapter, you should be able to:
@@ -73,7 +73,7 @@ By the end of this chapter, you should be able to:
 3. Discuss various components of distributed ledger technologies, including consensus algorithms and smart contracts.
 4. Provide a high-level explanation of what Hyperledger is.
 
-### <a id="ch1b"></a>Distributed Ledger Technology (DLT)
+### <a id="ch1-2"></a>1.2 Distributed Ledger Technology (DLT)
 Background - The Rising Interest in Distributed Ledger Technologies  
 Looking back to the last half century of computer technologies and architectures, you may observe a trend of fluctuation between the centralization and subsequent decentralization of computing power, storage, infrastructure, protocols, and code.  
 Mainframe computers are largely centralized. They typically house all computing power, memory, data storage, and code. Access to mainframes is mainly by "dumb terminals", which only take inputs and outputs, and do not store or process data.  
@@ -95,7 +95,7 @@ In summary, **distributed ledger technology (dlt)** generally consists of three 
 
 **[`^        back to top        ^`](#table-of-contents)**
 
-### <a id="ch1c"></a>Blockchain
+### <a id="ch1-3"></a>1.3 Blockchain
 According to hyperledger.org,  
 "A blockchain is a peer-to-peer distributed ledger forged by consensus, combined with a system for "smart contracts" and other assistive technologies. Together these can be used to build a new generation of transactional applications that establishes trust, accountability, and transparency at their core, while streamlining business processes and legal constraints."  
 Smart contracts are simply computer programs that execute predefined actions when certain conditions within the system are met.  
@@ -171,7 +171,7 @@ That's all I've got to say about security. And thanks for taking our course.
 
 **[`^        back to top        ^`](#table-of-contents)**
 
-### <a id="ch1d"></a>Transactions / Cryptography
+### Transactions / Cryptography
 The record of an event, cryptographically secured with a digital signature, that is verified, ordered, and bundled together into blocks, form the transactions in the blockchain. In the Bitcoin blockchain, transactions involve the transfer of bitcoins, while in other blockchains, transactions may involve the transfer of any asset or a record of some service being rendered. Furthermore, a smart contract within the blockchain may allow automatic execution of transactions upon meeting predefined criteria.  
 Cryptography has a key role to play both in the security, as well as in the immutability of the transactions recorded on blockchains. Cryptography is the study of the techniques used to allow secure communication between different parties and to ensure the authenticity and immutability of the data being communicated. For blockchain technologies, cryptography is used to prove that a transaction was created by the right person. It is also used to link transactions into a block in a tamper-proof way, as well as create the links between blocks, to form a blockchain.
 
@@ -218,7 +218,7 @@ There are a number of consensus mechanisms or algorithms.
 **Bitcoin uses Proof of Work**, while **Ethereum uses Proof of Work** currently, but is moving towards **Proof of Stake**.  
 The **Hyperledger Sawtooth uses Proof of Elapsed Time**.
 
-### <a id="ch1e"></a>Immutability of Data
+### Immutability of Data
 The immutability of the data which sits on the blockchain is perhaps the most powerful and convincing reason to deploy blockchain-based solutions for a variety of socio-economic processes which are currently recorded on centralized servers. This immutability, or "unchanging over time" feature makes the blockchain useful for accounting, financial transactions, identity management, and asset ownership, management and transfer, just to name a few examples. Once a transaction is written onto the blockchain, no one can change it, or, at least, it would be extremely difficult to change it.  
 According to Antony Lewis, the Director of Research at R3,  
 "When people say that blockchains are immutable, they don't mean that the data can't be changed, they mean it is extremely hard to change without collusion, and if you try, it's extremely easy to detect the attempt".  
@@ -240,7 +240,7 @@ For more details about blockchain applications, you can refer to Daniel Palmer's
 
 **[`^        back to top        ^`](#table-of-contents)**
 
-### <a id="ch1f"></a>Smart Contracts
+### Smart Contracts
 What is a smart contract?  
 Back in 1996, a man named Nick Szabo coined the term 'smart contract'.  
 You can think of them as computer protocols used to facilitate, verify, or enforce the negotiation of a legal contract.  
@@ -264,7 +264,7 @@ According to the Coin Market Capitalizations website, as of November 2020, bitco
 
 **[`^        back to top        ^`](#table-of-contents)**
 
-### <a id="ch1i"></a>Bitcoin Charts
+### Bitcoin Charts
 (Source: https://coinmarketcap.com/currencies/bitcoin/)  
 According to AngelList, over five thousand startups have been created to leverage Bitcoin and blockchain-related technologies since the inception of the Bitcoin payment system. Hundreds of large companies, and dozens of governments and universities have become actively involved in researching, testing, and prototyping blockchain protocols, platforms, and applications. In particular, the financial services sector has been actively investing in exploring wider applications of distributed ledger technologies (of which, blockchain is a subset) since late 2015.
 
@@ -343,7 +343,7 @@ Note: With the advent of the Ethereum blockchain platform and the scripting func
 
 **[`^        back to top        ^`](#table-of-contents)**
 
-### <a id="ch1d"></a>Exploring Permissionless Blockchains
+### <a id="ch1-4"></a>1.4 Exploring Permissionless Blockchains
 We will examine the Bitcoin and Ethereum blockchains, both of which are permissionless, public blockchains. We will examine several large transactions, and the genesis block for each blockchain. We will look at block heights, transaction times, mining pools, timestamps, and block rewards.
 
 ### Exploring Bitcoin and Ethereum Blockchains
@@ -372,7 +372,7 @@ In Chapter 2 of this course, we'll touch upon the Hyperledger Explorer, which ca
 
 **[`^        back to top        ^`](#table-of-contents)**
 
-### <a id="ch1e"></a>Consensus Algorithms
+### <a id="ch1-5"></a>1.5 Consensus Algorithms
 Consensus in the network refers to the process of achieving agreement among the network participants as to the correct state of data on the system. Consensus leads to all nodes sharing the exact same data. A consensus algorithm, hence, does two things: it ensures that the data on the ledger is the same for all the nodes in the network, and, in turn, prevents malicious actors from manipulating the data. The consensus algorithm varies with different blockchain implementations.  
 While the Bitcoin blockchain uses Proof of Work as the consensus algorithm, other blockchains and distributed ledgers are deploying a variety of consensus algorithms, like the Proof of Stake, Proof of Burn, Proof of Capacity, Proof of Elapsed Time, and many others, depending on their unique requirements.  
 Next, we will briefly explain some of these algorithms.
@@ -403,7 +403,7 @@ This "leader" gets to create the next block on the chain.
 
 **[`^        back to top        ^`](#table-of-contents)**
 
-### <a id="ch1j"></a>Simplified Byzantine Fault Tolerance (SBFT)
+### Simplified Byzantine Fault Tolerance (SBFT)
 The Simplified Byzantine Fault Tolerant consensus algorithm implements an adopted version of the Practical Byzantine Fault Tolerant (PBFT) algorithm, and seeks to provide significant improvements over Bitcoin's Proof of Work consensus protocol.
 The basic idea involves a single validator who bundles proposed transactions and forms a new block.
 Note that, unlike the Bitcoin blockchain, the validator is a known party, given the permissioned nature of the ledger.
@@ -428,7 +428,7 @@ The following table offers an at-a-glance view of the main considerations and pr
   <img width="66%" src="https://user-images.githubusercontent.com/41387907/138574948-4f8e4a52-b320-41aa-81e9-bc126d649c4e.png"
     alt="Comparing permissed consensus approaches and standard PoW"</>
 </p>
-## <a id="ch2"></a>Chapter 2. Hyperledger
+## <a id="ch1-6"></a>1.6 Hyperledger
 Hyperledger is an open source effort created to advance cross-industry blockchain technologies.
 Hosted by The Linux Foundation, it is a global collaboration of members from various industries, including finance, banking, Internet of Things (IoT), supply chain, manufacturing, healthcare and more.
 Hyperledger boasts a host of enterprise-ready solutions.
@@ -446,7 +446,7 @@ Hyperledger blockchains are generally permissioned blockchains, which means that
 If you look at permissionless blockchains, like the Bitcoin blockchain or the Ethereum blockchain, anyone can join the network, as well as write and read transactions. The actors in the system are not known, which means there could be some malicious actors within the network.  
 Hyperledger reduces these security risks and ensures that only the parties that want to transact are the ones that are part of the transaction and, rather than displaying the record of the transactions to the whole network, they remain visible only to the parties involved. So, Hyperledger provides all the capabilities of the blockchain architecture - data privacy, information sharing, immutability, with a full stack of security protocols - all for the enterprise. Permissioned blockchains offer more efficient transaction performance, thus being highly scalable, and have a clearly defined governance structure.
 
-### <a id="ch1g"></a>Hyperledger vs. Other Permissioned Ledgers (Brian Behlendorf)
+### <a id="ch1-7"></a>1.7 Hyperledger vs. Other Permissioned Ledgers (Brian Behlendorf)
 What makes Hyperledger so unique, compared to other permissioned ledgers?  
 So, Hyperledger is a really unique community in the open source landscape of different blockchain technologies.  
 We kind of model ourselves a little bit after Apache, and some of the other organizations out there that really are communities of communities, right?  
@@ -496,7 +496,7 @@ Additionally, the use of the platform with connected devices or the Internet of 
 *   Roger Aitken, 2017  
     IOTA focuses mainly on enabling the emerging Internet of Things (IoT), but also plans to go beyond this, on being the transaction settlement and data integrity layer for the Internet of Everything (IoE).
 
-### <a id="ch1h"></a>Challenges in the Adoption/Deployment of Distributed Ledger Technologies
+### <a id="ch1-8"></a>1.8 Challenges in the Adoption/Deployment of Distributed Ledger Technologies
 There are a number of challenges to the widespread use of permissioned distributed ledger technologies. Key among them are challenges around the lack of standards, regulatory challenges, and the lack of knowledge about distributed ledger technologies. These challenges are inherent to any new technological infrastructure that replaces an older infrastructure.  
 Other challenges encountered when it comes to the adoption and deployment of distributed ledger technologies are:
 
@@ -540,7 +540,7 @@ Jobs in the blockchain development space are among the top 20 fastest growing, a
 ## <a id="ch2"></a>Chapter 2 - Introduction to Hyperledger
 This chapter provides an overview of Hyperledger, a collaborative project hosted by The Linux Foundation that is focused on business blockchain technologies. It also provides a brief introduction to the projects advanced under the Hyperledger greenhouse, as of November 2020.
 
-### <a id="ch2a"></a>Learning Objectives
+### <a id="ch2-1"></a>2.1 Intro & Learning Objectives
 By the end of this chapter, you should be able to:
 
   * Explain the differences between Hyperledger and permissionless blockchain technologies.
@@ -548,7 +548,7 @@ By the end of this chapter, you should be able to:
   * Define what a project is according to the Hyperledger documentation.
   * Discuss the project lifecycle process adopted by Hyperledger, and the five possible states.
 
-### <a id="ch2b"></a>Hyperledger (Navroop Sahdev)
+### Hyperledger (Navroop Sahdev)
 Hyperledger is an open source effort created to advance cross-industry blockchain technologies.  
 It's a global collaboration hosted by The Linux Foundation that encompasses various industries and organizations worldwide.  
 You may think of Hyperledger as an operating system for marketplaces, data sharing networks, microcurrencies, and decentralized digital communities.  
@@ -562,7 +562,7 @@ So, Hyperledger provides all the capabilities of blockchain architecture, data p
 
 **[`^        back to top        ^`](#table-of-contents)**
 
-### Hyperledger
+### <a id="ch2-2"></a>2.2 Hyperledger
 Hyperledger incubates and promotes a range of business blockchain technologies, including distributed ledger frameworks, smart contract engines, client libraries, graphical interfaces, utility libraries, and sample applications. Hosted by The Linux Foundation, collaborators include industry leaders in technology, finance, banking, supply chain management, manufacturing, and IoT.  
 As of November 2020, there are 16 projects in the Hyperledger greenhouse, six of which are distributed ledger and domain specific frameworks. The other 10 projects are tools and libraries that support these frameworks.
 <p align="center" width="100%">
@@ -692,7 +692,7 @@ Dan Middleton, All Are Welcome Here (2018)
 
 **[`^        back to top        ^`](#table-of-contents)**
 
-### <a id="ch1g"></a>Blockchain Security at Hyperledger (David Huseby)
+### <a id="ch1-7"></a>1.7 Blockchain Security at Hyperledger (David Huseby)
 So, security with distributed ledgers really begins here at Hyperledger with our culture of secure software development.  
 Every aspect of the software, from development, through testing, through bug fixing, and vulnerability resolution, it's done in a completely open process.  
 It's open to anybody to participate.  
@@ -817,918 +817,7 @@ Currently, the Hyperledger Project Lifecycle is a very rigorous process that inc
 Hyperledger Labs provides a space where work can easily be started without the creation of an official Hyperledger project. Developers working on projects that are immature (incomplete code, not ready from a production-quality point of view, with small communities) or experimental will thus get the opportunity to work in a space suitable for innovation and testing of new ideas; moreover, they will work within a legal framework that would ease the transition to the Hyperledger Incubator (if the project matures enough and reaches that stage). Hyperledger Labs have similarities with the Apache Labs and the W3C Community Groups.  
 There is a specific process that must be followed when proposing a new lab. Labs that become dormant or unresponsive for 6 months or more, or are deemed deprecated or obsoleted by their committers are archived.
 
-### <a id="ch2c"></a>Q/A with Brian Behlendorf, Executive Director of Hyperledger
-Before diving deeper into the projects advanced under the Hyperledger umbrella, we asked Brian Behlendorf, Executive Director of Hyperledger at The Linux Foundation, some questions.
-
-**[`^        back to top        ^`](#table-of-contents)**
-
-### Reasons Why Developers Would Become Interested in Open Source Software
-So, many of the students taking this course are more familiar with working with Devs within the same room.  
-But why do you think developers would be excited in becoming involved with open source projects, such as Hyperledger?  
-Well, open source software represents, generally, the largest software development classroom ever, right?  
-When I was learning about software development as an undergraduate at the University of California at Berkeley,  
-I was taking classes, you know, I was learning kind of the formal bits about, you know, data structures and algorithms,  
-but the biggest education came from sitting on development mailing lists around the standards around HTTP and HTML,  
-and, eventually, the software development mailing lists and open source communities for the early days of the web.  
-And seeing, really, how software gets built, right, what are the trade-offs, what are the negotiations, the back-and-forths, the messiness of software development,  
-which doesn't look that different than, say, how Congress, you know, works on the bills sometimes, right?  
-Sometimes, it can be, you know, not very pretty, but you realize that software engineering is as much a technical pursuit, as it is a social pursuit.  
-And, in open source projects, I think we've figured out how do we have technical differences of opinion and work through them,  
-how do we create the best software, the software with the greatest longevity, right? why should we document our code...  
-Well, it's because we don't want to have to answer silly questions from the next person trying to understand what we wrote, right?  
-So, all of this is a really great education, I think, in understanding how to write higher quality code, whether that ends up being open source code or not...  
-That's one reason, I think, for developers to participate in open source projects, whether at Hyperledger or any place else.  
-The other is that open source projects are a really good way for you, as a software engineer, to understand what are the kinds of companies I want to work for, right?  
-The ones that are actively involved in open source projects, right?  
-How do I get to know people at those companies, right? And also, make them aware of my own skills, right?  
-And start to develop my own public history of my contributions.  
-These days, if you're a software engineer, if you're a software engineer and you're applying to any place interesting, they're going to look at your GitHub repository, right?  
-They're going to want to know about your history of contributions to open source projects as a way to evaluate your skills,  
-and not just technical, but also your communication skills, your collaboration skills...  
-So, all of that means working on open source projects can be tremendously beneficial to your own ongoing education, as well as your ability to build your career.
-
-**[`^        back to top        ^`](#table-of-contents)**
-
-### Hyperledger vs. Apache
-While at Apache, you were able to successfully build an open software developer community.
-What are some similarities and differences between Hyperledger and Apache in its evolution as an open source project?
-Right... Well, on the Apache web server project, which later became the Apache Software Foundation, a lot of what happened was due to luck, was due to inheriting a tradition that had been established since the beginning of the internet, of technologists working together on common standards and common code.
-
-And so, there was kind of a DNA that was built-in and, you know, the web was not that complicated at that point in time, either.
-These standards were pretty simple, right?
-
-So, we just kind of did what seemed natural.
-
-We started a mailing list.
-
-We started an issue tracking system, a version control system, and we just started working together, very ad hoc, very informally.
-
-And we became a non-profit about three years after we got started, when we realized we wanted a little more formalism, and a little more protection for the developers.
-
-But it was all very informal, ad hoc, and many developers took on roles beyond development, such as marketing, such as legal, such as accounting, right?
-
-And so, Apache's culture has been very much almost like a guild, right?
-
-Almost like a user community... a very community-driven kind of thing, where there's this validity that comes from that grassroots-kind-of-sense, right?
-
-Which is great for the kinds of projects that Apache was interested in.
-
-And, Apache has become a home for over 300 different individual software development projects, beyond the web server, right?
-
-But it has always grown by happenstance, and it's always been open to whatever technology project wanted to come in.  
-So, there are some upsides and downsides to that all, right?
-One of the downsides is, by not having a full time staff, it's hard for Apache to really take advantage of all the opportunities out there, to get the word out about who they are.
-It means that developers, you know, have to do these non-developer activities, right?  
-And it's hard to do things like police your trademark usage, right, when people are working as volunteers.  
-So, The Linux Foundation took a slightly different approach.  
-The Linux Foundation said "We don't..." You know, just like with Apache, "we don't want to write software, we don't want to have to pay all the software developers",  
-because there's actually a lot to the validity that comes from all of the software development happening by volunteers,  
-but there's a lot of non-software development things: marketing, legal, PR, and even the hosting of meetings, the hosting of phone calls,  
-all of the logistics of helping these communities operate that perhaps can be taken on, right, by a full-time staff.  
-Now, how do you pay that staff, right? You could ask for, you know, cutting charity contributions, right?  
-But, a better, more scalable approach is to ask companies to join as corporate members of an organization, right?  
-And, they don't get any special privileges on the code, right?  
-Well, they don't get their patches in by default, they don't get to veto anyone else's work.  
-If you're a developer from IBM, there's no special status.  
-You have to still prove your worth, and to which, you would, you know, and be seen as a peer to, say, a 15 year old kid in Romania, who also is really eager to work on distributed ledgers and smart contract systems.  
-And so, but what members do get is some help in marketing their activities, building on top of Hyperledger projects, ways to participate at the events that we do.  
-When a journalist calls us and asks us for a story about somebody doing something interesting with Hyperledger, we've got a set of members that we... whose stories we can draw from, right?  
-So, this balancing act of, you know... as I mentioned, there's a developer community, and there's a commercial community, a corporate community...  
-That's the balancing act... that The Linux Foundation has really developed a process for, a template for, and a real science around, and that's what we're bringing to bear on the Hyperledger project.
-
-**[`^        back to top        ^`](#table-of-contents)**
-
-### Interoperability Between Hyperledger Frameworks
-What do you think will help foster interoperability between these three different Hyperledger frameworks?  
-So, there's a number of things that we can do to assist in the interoperability between the different projects at Hyperledger.  
-One thing we're working on is kind of an overall architectural view of all the different projects, right?  
-What are the technologies that sit at kind of the DLT layer, at the smart contract layer, where does identity sit in, right?  
-And then, we can start to look at these projects and go, "Okay, could we put Fabric down here, could we put Burrow up here?"  
-Maybe we start to tease apart the distributed ledger part of Fabric from the smart contract part of Fabric, right,  
-into separate components, so that, when somebody new arrives at the project, or they take a training course like this,  
-they can start to pick and choose, you know, as building blocks, as appropriate for whatever use case that they want to target, right?  
-And so, that's something over time, this kind of modularity approach... Along with that, defining standardized APIs between these different levels, right,  
-so that we can get to an ideal, where you could pick the Ethereum virtual machine from Burrow, and run that on top of Fabric or on top of Sawtooth,  
-and, in fact, the Sawtooth and Burrow communities have now actually progressed, and you can now run Ethereum smart contracts on top of Sawtooth, which is pretty cool.  
-So, I think we'll see more activity like that.
-
-**[⬆ back to top](#table-of-contents)**
-
-## <a id="ch3"></a>Chapter 3: Hyperledger: Distributed Ledger Frameworks and Domain Specific Blockchains
-In this chapter, we will briefly explore the frameworks developed under the Hyperledger umbrella (as of November 2020), highlighting their key features and use cases. We will dive deeper in discussing use cases in the last chapter of this course.
-
-### <a id="ch3a"></a>Learning Objectives
-By the end of this chapter, you should be able to:
-  * List the components of Hyperledger frameworks.
-  * Get a high-level understanding of the Hyperledger frameworks and domain-specific blockchain technologies: 
-	- Hyperledger Besu, 
-	- Hyperledger Burrow, 
-	- Hyperledger Fabric, 
-	- Hyperledger Grid, 
-	- Hyperledger Indy, 
-	- Hyperledger Iroha, and 
-	- Hyperledger Sawtooth.
-
-### ## Linux FoundationX - LFS171x
-<p align="center" width="100%">
-  <img width="50%" src="https://user-images.githubusercontent.com/41387907/138567819-bfda7273-5457-4e5e-89b6-104d5356f46a.png"
-    alt="Linux logo"</>
-</p>
-
-### Introduction to Hyperledger Blockchain Technology
-
-**Welcome to LFS171x: Introduction to Hyperledger Blockchain Technology**  
-LFS171x is part of the Blockchain for Business Professional Certificate. Skills in blockchain are being reported as the top job-skill in demand. This program is designed for the business professional who needs to understand the potential (or threat) of blockchain to their company and industry. Armed with better information of the blockchain landscape, this program will help you rise to new challenges in your current role by giving you a new dimension on which you can add value to your employer.
-
-## [Table of Contents](#table-of-contents)
-
-## 1. [**Discovering Blockchain Technologies**](#ch1)
->### a. [**Introduction & Learning Objectives**](#ch1a)
->### b. [**Distributed Ledgers Technology (DLT)**](#ch1b)
->### c. [**Bitcoin & Ethereum Blockchains**](#ch1c)
->### d. [**Exploring Permissionless Blockchains**](#ch1d)
->### e. [**Consensus Algorithms**](#ch1e)
->### f. [**Hyperledger**](#ch1f)
->### g. [**Other Open Source Permissioned Distributed Ledgers**](#ch1g)
->### h. [**Challenges in the Adoption/Deployment of Distributed Ledger Technologies**](#ch1h)
-
-## 2. [**Introduction to Hyperledger**](#ch2)
->### a. [**Introduction & Learning Objectives**](#ch2a)
->### b. [**Hyperledger**](#ch2b)
->### c. [**Q/A with Brian Behlendorf, Executive Director of Hyperledger**](#ch2c)
-
-## 3. [**Hyperledger: Distr. Ledger Frameworks & Domain Specific Blockchains**](#ch3)
->### a. [**Introduction and Learning Objectives**](#ch3a)
->### b. [**Hyperledger Frameworks**](#ch3b)
->### c. [**Hyperledger: Domain-Specific Blockchain Technologies**](#ch3c)
-
-## 4. [**Hyperledger Tools**](#ch4)
->### a. [**Introduction and Learning Objectives**](#ch4a)
->### b. [**Hyperledger Tools**](#ch4b)
-
-## 5. [**Hyperledger Libraries**](#ch5)
->### a. [**Introduction and Learning Objectives**](#ch5a)
->### b. [**Hyperledger Libraries**](#ch5b)
-
-## 6. [**The Promise of Business Blockchain Technologies**](#ch6)
->### a. [**Introduction and Learning Objectives**](#ch6a)
->### b. [**Existing Hyperledger Blockchain Use Cases**](#ch6b)
->### c. [**When to Use or Not to Use Blockchain Technologies**](#ch6c)
-
----
-
-**[⬆ back to top](#table-of-contents)**
-
-
-## <a id="ch1"></a>1. Introduction to Blockchain
-A Word from Brian Behlendorf, Executive Director at Hyperledge  
-Hi, I'm Brian Behlendorf. I'm Executive Director of Hyperledger, a collaborative project hosted at the Linux Foundation.  
-I want to welcome you to the first ever training course for Hyperledger and our related technology projects.  
-Hyperledger is really the first series of projects focused on enterprise blockchain applications.  
-And that means using distributed ledger technologies in a permissioned setting, it means using smart contracts to automate various business processes, and it means building a really exciting new world of secure, trustworthy information systems and automation of business processes.  
-In this course, you'll learn about these different projects.  
-This course is designed for people on the full spectrum, from working on purely as a software developer, all the way to those who just really want a business level understanding of what these technologies can accomplish, and what are the kinds of use cases that you might apply this to.  
-So, this is really designed for the full breadth of those technologies  
-
-### <a id="ch1a"></a>Introduction & Learning Objectives
-Chapter 1 introduces the building blocks of distributed ledger technologies, including blockchains. It lays the foundation for an in-depth understanding of the content that follows in the course. You should engage with the content in this chapter both to learn, as well as brush up your blockchain knowledge.
-
-By the end of this chapter, you should be able to:
-1. Explain the concepts of blockchain and distributed ledger technologies (DLT).
-2. Explore permissioned and permissionless blockchains and their key characteristics.
-3. Discuss various components of distributed ledger technologies, including consensus algorithms and smart contracts.
-4. Provide a high-level explanation of what Hyperledger is.
-
-### <a id="ch1b"></a>Distributed Ledger Technology (DLT)
-Background - The Rising Interest in Distributed Ledger Technologies  
-Looking back to the last half century of computer technologies and architectures, you may observe a trend of fluctuation between the centralization and subsequent decentralization of computing power, storage, infrastructure, protocols, and code.  
-Mainframe computers are largely centralized. They typically house all computing power, memory, data storage, and code. Access to mainframes is mainly by "dumb terminals", which only take inputs and outputs, and do not store or process data.  
-With the advent of personal computers and private networks, similar computational capabilities were now housed both on the clients, as well as the servers. This, in part, gave rise to the "client-server" architecture, which supported the development of relational database systems. Massive data sets, which are housed on mainframes, could move onto a distributed architecture. This data could replicate from server to server, and subsets of the data could be accessed and processed on clients, and then, synced back to the server.
-
-**[`^        back to top        ^`](#table-of-contents)**
-
-Over time, Internet and cloud computing architectures enabled global access from a variety of computing devices; whereas mainframes were largely designed to address the needs of large corporations and governments. Even though this "cloud architecture" is decentralized in terms of hardware, it has given rise to application-level centralization (e.g. Facebook, Twitter, Google, etc.).  
-Currently, we are witnessing the transition from centralized computing, storage, and processing to decentralized architectures and systems. According to Muneeb Ali, these systems aim to  
-"give explicit control of digital assets to end-users and remove the need to trust any third-party servers and infrastructure".  
-Distributed ledger technology is one of the key innovations making this shift possible.  
-A distributed ledger is a type of data structure which resides across multiple computer devices, generally spread across locations or regions.  
-Distributed ledger technology (DLT) includes blockchain technologies and smart contracts. While distributed ledgers existed prior to Bitcoin, the Bitcoin blockchain marks the convergence of a host of technologies, including timestamping of transactions, Peer-to-Peer (P2P) networks, cryptography, and shared computational power, along with a new consensus algorithm.  
-In summary, **distributed ledger technology (dlt)** generally consists of three basic components:
-
-1.  A data model that captures the current state of the ledger
-2.  A language of transactions that changes the ledger state
-3.  A protocol used to build consensus among participants around which transactions will be accepted, and in what order, by the ledger.
-
-**[`^        back to top        ^`](#table-of-contents)**
-
-### <a id="ch1c"></a>Blockchain
-According to hyperledger.org,  
-"A blockchain is a peer-to-peer distributed ledger forged by consensus, combined with a system for "smart contracts" and other assistive technologies. Together these can be used to build a new generation of transactional applications that establishes trust, accountability, and transparency at their core, while streamlining business processes and legal constraints."  
-Smart contracts are simply computer programs that execute predefined actions when certain conditions within the system are met.  
-Consensus refers to a system of ensuring that parties agree to a certain state of the system as the true state.  
-Blockchain is a specific form or subset of distributed ledger technologies (DLTs), which constructs a chronological chain of blocks, hence the name "block-chain". Examples of other DLTs are Chain Core, Corda, Quorum, and IOTA. They will be covered later in this chapter.  
-A block refers to a set of transactions that are bundled together and added to the chain at the same time.  
-Timestamping is another key feature of blockchain technology. Each block is timestamped, with each new block referring to the previous block. Combined with cryptographic hashes, this timestamped chain of blocks provides an immutable record of all transactions in the network, from the very first (or genesis) block.  
-In the Bitcoin blockchain, the miner nodes bundle unconfirmed and valid transactions into a block. Each block contains a given number of transactions. In the Bitcoin network, miners must solve a cryptographic challenge to propose the next block. This process is known as "proof of work", and requires significant computing power. We shall discuss proof of work in more detail in the Consensus Algorithms section. For more information about blockchain technology, please read the following article: "A Brief History of Blockchain" by Vinay Gupta.  
-A Bitcoin block consists of four pieces of metadata:
-1. The reference to the previous block
-2. The proof of work, also known as a nonce
-3. The timestamp
-4. The Merkle tree root for the transactions included in this block (Merkle tree is explained next).
-
-### Merkle Tree
-The Merkle tree, also known as a binary hash tree, is a data structure that is used to store hashes of the individual data in large datasets in a way to make the verification of the dataset efficient. It is an anti-tamper mechanism to ensure that the large dataset has not been changed. The word "tree" is used to refer to a branching data structure in computer science, as seen in the image below. According to Andreas M. Antonopoulos, in the Bitcoin protocol,  
-"Merkle trees are used to summarize all the transactions in a block, producing an overall digital fingerprint of the entire set of transactions, providing a very efficient process to verify whether a transaction is included in a block".
-<p align="center" width="100%">
-  <img width="66%" src="https://user-images.githubusercontent.com/41387907/138568538-44ec3e90-eca6-4137-99d3-e1462ac29ec5.png"
-    alt="Merkle tree"</>
-</p>
-**Bitcoin Block Data**  
-(licensed under Creative Commons Attribution-Share-Alike 3.0 Unported, retrieved from Wikipedia)
-
-**[`^        back to top        ^`](#table-of-contents)**
-
-### What is a Blockchain?
-So, what is blockchain?  
-As the Security Maven at Hyperledger, I have somewhat of a different perspective on what a blockchain is.  
-I'm a developer, primarily, and I look at the world in an adversarial way.  
-It's usually my software versus the world kind of thing.  
-Blockchains, to me, definitely open up the world of possibilities for solving problems that have plagued us for many years.  
-It breaks down to being able to create distributed consensus between mutually distrustful parties, in many ways.  
-It also allows us to create an instantaneous single source of truth.  
-In the past, we've always had problems with trying to figure out what really happened over the course of a day.  
-Banks reconcile their books, inventory systems clear sales and deliveries...  
-With blockchains, we're recording things in real time, and it provides us with sort of an up-to-date accounting of the state of the world.  
-So, a lot of these old systems are going away, a lot of the work load management systems are going away. We're not doing batch processing at night anymore.  
-Instead, we're doing validation in real time, and we always know the state of the world.  
-This opens up a whole new host of applications that can be based around...  
-If we knew exactly where every bolt was, could we make sure that there are always bolts at the place where they're going to be installed two minutes before they are needed... things like that...  
-So, like lean manufacturing is one case...  
-But, it also applies to every other process in the world where we have to track materials and effort, and money, things like that.  
-Let me think...  
-So, the blockchain, for me, actually is just sort of rethinking of our existing business processes around how we can be more effective when we know the state of the world as it is right now, and we know it in two minutes, and we know it in two hours, rather than having to wait until the end of the day for everything to be reconciled.  
-This is actually a transition from human scale to computer scale.  
-This was... all of these processes were done on a daily basis, and things like that, and with blockchain, we're now... we're doing it instantaneous, because computers have made it that way.  
-From a security perspective, blockchains are not a silver bullet.  
-They're not going to replace the existing business logic.  
-They're more of a log-based system, so recording what has happened, as it is happening, rather than being the source of what to do with money from a customer, and things like that.  
-It's not business process type of software.  
-Because it is a log, and because it is the source of truth, and because a lot of other business logic will be based upon it, the security concerns on it, related to blockchain, are roughly the same as existing business practices, or business logic.  
-You have to think of all the members of a distributed ledger as participating in a closed network, because that's what they are, at least in permissioned networks, we're not operating on the public Internet, we're not operating in a trustless environment.  
-It's the exact opposite. We... all the participants in the distributed ledger are known, they're permissioned, that's where that term comes from, and they all participate as if they are in a private network.  
-So, when deploying blockchain software, it's typically done behind a firewall, and, anytime you have multiple organizations participating in the distributed ledger, we will use tunneling technology and other VPN firewall tricks to make a virtual LAN exist, so that all of their organizations can talk over it.  
-Different Hyperledger projects have different trade-offs.  
-Fabric, for instance, has a more centralized ordering service, and so, it makes more sense to organize one of those networks into a hub-and-spoke model, where each peer connects to the ordering service, which is run either on one of the nodes, or on a neutral third party, and all of the gossip messages that do the consensus mechanism go through a central hub.  
-Now, that sounds counterintuitive because just distributed ledgers are supposed to be distributed...  
-they still are, they're distributed in the sense that the blockchain itself is replicated amongst all of the nodes, and so, your data is much more resilient to disruption... resilient against disruption.  
-But, the coordination can still be done in a fairly centralized manner.  
-With Sawtooth, it is not so much the case, right?  
-The organization of the network for Sawtooth is probably more of like a star model, where you pick some subset of nodes, and your node connects to those and, as long as all nodes are fairly well connected, they can all eventually talk to each other, either one hop, or two hops, or three hops away, depending on the size of your network.  
-With Iroha, they... their topology is a lot different than the others, because they designed their distributed ledger to function well in a mobile environment, where a lot of the clients are intermittently connected.  
-So, they're mobile phones that can be connected and disconnected at random.  
-So, their structure is more of a layered network, where the end clients' mobile phones submit transactions to servers, which then, amongst the servers, do the distributed ledger.  
-And there's no right answer, right?  
-The business process dictates which one you choose, but the security is pretty much the same in all of these.  
-We use cryptography and digital signatures to validate all the messages.  
-So, tampering with messages is essentially impossible.  
-The immutability of the distributed ledger is guaranteed by the cryptography, but the nature of the trusted network, of the permissioned network, means that we have to treat it like any other back-office service.  
-You want to deploy it behind a firewall, you want to use tunneling to connect between nodes across the Internet, and you want to maintain it, just like any other service that deals with Internet traffic...you have firewalls, and load balancers, and things like that.  
-That's all I've got to say about security. And thanks for taking our course.
-
-**[`^        back to top        ^`](#table-of-contents)**
-
-### <a id="ch1d"></a>Transactions / Cryptography
-The record of an event, cryptographically secured with a digital signature, that is verified, ordered, and bundled together into blocks, form the transactions in the blockchain. In the Bitcoin blockchain, transactions involve the transfer of bitcoins, while in other blockchains, transactions may involve the transfer of any asset or a record of some service being rendered. Furthermore, a smart contract within the blockchain may allow automatic execution of transactions upon meeting predefined criteria.  
-Cryptography has a key role to play both in the security, as well as in the immutability of the transactions recorded on blockchains. Cryptography is the study of the techniques used to allow secure communication between different parties and to ensure the authenticity and immutability of the data being communicated. For blockchain technologies, cryptography is used to prove that a transaction was created by the right person. It is also used to link transactions into a block in a tamper-proof way, as well as create the links between blocks, to form a blockchain.
-
-### Differences Between Blockchains & Databases
-Blockchain technology has some key differentiators from databases.  
-A blockchain is a write-only data structure, where new entries get appended onto the end of the ledger. Every new block gets appended to the blockchain by linking to the previous block's "hash" (you can check the Glossary tab for a refresher on hash functions). There are no administrator permissions within a blockchain that allow editing or deleting of data.  
-In a relational database, data can be easily modified or deleted. Typically, there are database administrators who may make changes to any part of the data and/or its structure. Additionally, blockchains were designed for decentralized applications, whereas relational databases, in general, were originally designed for centralized applications, where a single entity controls the data.
-<p align="center" width="100%">
-  <img width="66%" src="https://user-images.githubusercontent.com/41387907/138568551-2a6cd403-cc18-43d5-b8f4-e63dee008508.png"
-    alt="Differences between blockchain and databases"</>
-</p>
-
-**Types of Blockchains**  
-A blockchain can be both permissionless (like Bitcoin or Ethereum) or permissioned (like the different Hyperledger blockchain frameworks). A permissionless blockchain is also known as a public blockchain, because anyone can join the network. A permissioned blockchain, or private blockchain, requires pre-verification of the participating parties within the network, and these parties are usually known to each other.  
-<p align="center" width="100%">
-  <img width="66%" src="https://user-images.githubusercontent.com/41387907/138574861-da0c6881-188a-491f-be3c-c9942c522eaa.png"
-    alt="Types of blockchain"</>
-</p>
-The choice between permissionless versus permissioned blockchains should be driven by the particular application at hand (or use case). Most enterprise use cases involve extensive vetting before parties agree to do business with each other. An example where a number of businesses exchange information is supply chain management. The supply chain management is an ideal use case for permissioned blockchains. You would only want trusted parties participating in the network. Each participant that is involved in the supply chain would require permissions to execute transactions on the blockchain. These transactions would allow other companies to understand where in the supply chain a particular item is.  
-On the contrary, when a network can "commoditize" trust, facilitating parties to transact without necessarily having to verify each other's identity, like the Bitcoin blockchain, a permissionless blockchain is more suitable. Many of these instances involve the sale or distribution to the public. Cryptocurrencies and Initial Coin Offerings (which are not backed by national governments) usually involve implementations of permissionless blockchains.  
-You will learn about a variety of use cases in Chapter 6, "The Promise of Business Blockchain Technologies".  
-**Peer-to-Peer Network Architecture**  
-Historically, most applications utilize a central server (or servers). For one user/client to send a message to another user/client in the network, the request has to be sent to the hub or a central server, which then directs it to the right computer.  
-Peer-to-peer (P2P) networks were first made popular by Napster (and later BitTorrent) and consist of computer systems which are directly connected to each other via the Internet, without a central server. Peers contribute to the computing power and storage that is required for the upkeep of the network. P2P networks are generally considered to be more secure than centralized networks, as they do not have a single point of attack, as in the case of a server-based network, where the security of the entire network can be compromised if the central server is successfully attacked. The Global Risks Report 2018, created by the World Economic Forum, reveals a grim picture: cyberattacks are on the rise at an alarming rate, and financial costs related to them are skyrocketing, with more than 25% increase year-over-year. It is estimated that cybercrime will cost businesses more than $8 trillion over the next five years. And the damages go far beyond financial costs: they affect critical, strategic infrastructure, such as telecommunications providers, energy companies, government agencies, banks, hospitals, and much more. As a result, large corporations and federal governments invest significant amounts of financial resources to fortify their central servers.  
-Permissionless P2P systems do not require a set amount of peers to be online and are generally slower. Permissioned P2P networks have to guarantee uptime and require a high level of quality of service on the communication links.
-
-**[`^        back to top        ^`](#table-of-contents)**
-
-<p align="center" width="100%">
-  <img width="66%" src="https://user-images.githubusercontent.com/41387907/138574872-11c869e9-b46a-486a-b5e5-d32cdd861937.png"
-    alt="Peer to peer network"</>
-</p>
-**Peer-to-Peer Networks (Robert Schwentker)**  
-What is a Peer-to-Peer network, and how do peers come to agreement about what is on the blockchain?  
-A blockchain network is a group of computers that informally are organized in a Peer-to-Peer architecture.  
-Consensus is a process whereby the peers synchronize the data on the blockchain.  
-There are a number of consensus mechanisms or algorithms.
-
-1.  One is **Proof of Work**,
-2.  Another is **Proof of Stake**,
-3.  There's also **Proof of Elapsed Time**,
-4.  as well as **Simplified Byzantine Fault Tolerance**.
-
-**Bitcoin uses Proof of Work**, while **Ethereum uses Proof of Work** currently, but is moving towards **Proof of Stake**.  
-The **Hyperledger Sawtooth uses Proof of Elapsed Time**.
-
-### <a id="ch1e"></a>Immutability of Data
-The immutability of the data which sits on the blockchain is perhaps the most powerful and convincing reason to deploy blockchain-based solutions for a variety of socio-economic processes which are currently recorded on centralized servers. This immutability, or "unchanging over time" feature makes the blockchain useful for accounting, financial transactions, identity management, and asset ownership, management and transfer, just to name a few examples. Once a transaction is written onto the blockchain, no one can change it, or, at least, it would be extremely difficult to change it.  
-According to Antony Lewis, the Director of Research at R3,  
-"When people say that blockchains are immutable, they don't mean that the data can't be changed, they mean it is extremely hard to change without collusion, and if you try, it's extremely easy to detect the attempt".  
-Let's dig into this statement a bit further. It is extremely hard to change the transactions in a blockchain, because each block is linked to the previous block by including the previous block's hash. This hash includes the Merkle root hash of all the transactions in the previous block. If a single transaction were to change, not only would the Merkle root hash change, but so too would the hash contained in the changed block. In addition, each subsequent block would need to be updated to reflect this change. In the case of proof of work, the amount of energy required to recalculate the nonce for this block and each subsequent block would be prohibitive. On the other hand, if someone did modify a transaction in a block without going through the necessary steps to update the subsequent blocks, it would be easy to recalculate the hashes used in the blocks and determine that something is amiss.  
-Let's look at an example of how this works. In the following diagram, we see the original blocks and the transactions for Block 11. Specifically, we see that the Merkle root for the transactions in Block 11 is Hash #ABCD, which is the combined hash for the four transactions in this block. Now, let's say that someone comes in and attempts to change Transaction A to Transaction A'. This, in turn, modifies the hashes that are stored in the Merkle tree, and the Merkle root changes to Hash #A'BCD. In addition, the Previous Block hash stored in Block 12 also needs to be modified to reflect the overall change in the hash for Block 11.
-
-**[`^        back to top        ^`](#table-of-contents)**
-
-<p align="center" width="100%">
-  <img width="66%" src="https://user-images.githubusercontent.com/41387907/138574881-d72df080-3619-4c0e-adc8-b4f6d761082b.png"
-    alt="Immutability of data"</>
-</p>
-
-### Blockchain Applications
-
-Since blockchain is a form of digital infrastructure, applications built on top of a blockchain provide a gateway to accessing information that sits on that blockchain. In other words, clients/users interact with the blockchain through applications. Starting from the simple wallets that hold bitcoins, sophisticated applications which encompass applications addressing digital identity (e.g. UPort, KYC-Chain, Netki, etc.), and complex financial transactions are being built on the blockchain.  
-A more exhaustive list of companies using blockchain technology for identity management and authentication can be found in the following article: "21 Companies Leveraging Blockchain for Identity Management and Authentication" by Elena Mesropyan.  
-For more details about blockchain applications, you can refer to Daniel Palmer's article entitled "7 Cool Decentralized Apps Being Built on Ethereum".
-
-**[`^        back to top        ^`](#table-of-contents)**
-
-### <a id="ch1f"></a>Smart Contracts
-What is a smart contract?  
-Back in 1996, a man named Nick Szabo coined the term 'smart contract'.  
-You can think of them as computer protocols used to facilitate, verify, or enforce the negotiation of a legal contract.  
-A smart contract is a phrase to describe computer code.  
-Today, Ethereum smart contracts are designed to run on all nodes of the Ethereum network.  
-Those smart contracts facilitate the exchange of value, including money, content, property, or shares between a fixed number of parties.  
-Smart contracts are simply computer programs that execute predefined actions when certain conditions within the system are met. Smart contracts provide the language of transactions that allow the ledger state to be modified. They can facilitate the exchange and transfer of anything of value (e.g. shares, money, content, property).
-<p align="center" width="100%">
-  <img width="66%" src="https://user-images.githubusercontent.com/41387907/138574893-8aac4d02-8a64-428b-99c2-999a445dc2ae.png"
-    alt="Smart contracts"</>
-</p>
-
-### Bitcoin – A Popular Blockchain Deployment
-
-With the invention of the peer-to-peer (P2P) cash system known as Bitcoin in 2008, we have an example of a global decentralized payment network with a distributed and publicly-owned infrastructure, operating as a "permissionless" system. There is a persuasive case that Bitcoin is the first "killer application" of decentralized computing. One can send and receive bitcoins anywhere in the world in a completely P2P manner, without having to intermediate through a trusted third party, such as a bank.  
-According to the Coin Market Capitalizations website, as of November 2020, bitcoin's market capitalization (market cap) was over $286 billion.
-<p align="center" width="100%">
-  <img width="66%" src="https://user-images.githubusercontent.com/41387907/138574896-b923c968-2909-4c47-8333-fbe77d089177.png"
-       alt="Bitcoin - a popular blockchain deployment"</>
-</p>
-
-**[`^        back to top        ^`](#table-of-contents)**
-
-### <a id="ch1i"></a>Bitcoin Charts
-(Source: https://coinmarketcap.com/currencies/bitcoin/)  
-According to AngelList, over five thousand startups have been created to leverage Bitcoin and blockchain-related technologies since the inception of the Bitcoin payment system. Hundreds of large companies, and dozens of governments and universities have become actively involved in researching, testing, and prototyping blockchain protocols, platforms, and applications. In particular, the financial services sector has been actively investing in exploring wider applications of distributed ledger technologies (of which, blockchain is a subset) since late 2015.
-
-### Bitcoin & Ethereum
-And so, why were Bitcoin and Ethereum created? What problems do they solve?  
-Bitcoin was first launched in January of 2009, as a response to the global financial crisis at the time.  
-Part of the motivation for the system was to be able to transfer value over the internet, without an intermediary.  
-One of the biggest inventions and problems that it solved was that of the 'double spend' problem.  
-Bitcoin, in fact, is programmable money.  
-Ethereum, on the other hand, was created as a response to Bitcoin.  
-While Bitcoin is focused upon transferring monetary value between parties, it has a very limited programming language.  
-Ethereum, on the other hand, uses a more expansive set of programming languages and tools to allow for many other types of programs and applications.  
-The core invention of Ethereum is it's EVM, or Ethereum Virtual Machine.  
-The EVM runs on the Ethereum network, and it runs a Turing-complete software.  
-+Vitalik Buterin is the person who wrote the white paper for Ethereum.  
-Some of its key features include the immutability of data, that unauthorized users cannot make changes to that data, the Ethereum development platform is designed to make corruption and tamper proof applications, the secure apps are sent decentralized and secured with cryptography, and they're protected against hacking attacks and fraudulent activities, and lastly, it's designed with zero downtime.  
-That is because the applications on the network are decentralized, and on many, many machines,  
-if some of those machines go down, the Ethereum network maintains a stable state of the Ethereum network.
-
-**[`^        back to top        ^`](#table-of-contents)**
-
-### Bitcoin and Cryptoeconomics
-Bitcoin has also ushered in tremendous academic and research interest in the area of Cryptoeconomics and Cryptoeconomic security.  
-According to Vitalik Buterin,  
-"Cryptoeconomics is about building systems that have certain desired properties using cryptography to prove properties about messages that happened in the past while using economic incentives defined inside the system to encourage desired properties to hold into the future".  
-In other words, the field of Cryptoeconomics explores the intersection of cryptography and economic incentives. While cryptography is used for ensuring network security at various levels and functions, the built-in economic incentives provided to the participating nodes in the network ensures that, at any given point, the majority of players in the network operate in a desirable way.  
-Rather than imposing barriers to entry, permissionless blockchains are public and open for anyone to join. Since such networks can reasonably expect all kind of agents - including malicious actors - the key lies in incentivizing good behavior in a critical majority of the network, such that:
-
-*   The malicious actors cannot take over the network through an escalated attack.
-*   The malicious actors cannot collude to undertake an organized majority attack on the network.
-*   The payoffs of securing the network are consistently higher than the cost of attacking the network.
-*   The cost of attacking the network is prohibitively high.  
-    You can find more about Cryptoeceonomics read "The Blockchain Economy: A Beginner’s Guide to Institutional Cryptoeconomics".
-
-**[`^        back to top        ^`](#table-of-contents)**
-
-### Ethereum – An Alternative to Bitcoin
-According to Ethereum's official documentation,  
-"Ethereum is an open blockchain platform that lets anyone build and use decentralized applications that run on blockchain technology".  
-The Ethereum blockchain platform facilitates scripting functionality, or "smart contracts", which are run through the nodes in the network. As a result, unlike the Bitcoin blockchain, it does not just track transactions, it also programs them. Technically, Ethereum is a Turing-complete virtual machine with its native cryptocurrency called "ether". The platform was proposed in 2013 in a white paper by the then 19-year old Vitalik Buterin.  
-As of November 2020, Ethereum had a market cap of over $49 billion, making Ether the second most valuable cryptocurrency after Bitcoin.
-<p align="center" width="100%">
-  <img width="66%" src="https://user-images.githubusercontent.com/41387907/138574908-341e5a60-7337-42d2-9ac5-988144beab2b.png"
-    alt="Ethereum - an alternative to bitcoin"</>
-</p>
-Ether Historical Market Capitalization Chart  
-(Source: https://etherscan.io/chart/marketcap)
-
-As the second best known public blockchain after the Bitcoin blockchain, Ethereum has ushered in an era of unprecedented activity around blockchain and distributed ledger technology.
-
-### Ethereum
-Can you give another example of a production blockchain system, such as Ethereum, and how is it different from Bitcoin?  
-Sure. Ehereum also has a public blockchain. It also groups and orders transactions into blocks.  
-However, Ethereum may be defined as an open source platform that enables developers to build and deploy both smart contracts and decentralized applications, also known as Dapps.  
-In addition to the Ethereum public blockchain, there are numerous versions of Ethereum which are designed to be private and are permissioned.
-
-### Dapps
-As Stephan Tual explains, Ethereum applications do not have a middleman; instead, users interact in a P2P fashion with other users through a variety of interfaces - social, financial, gaming, etc. Since the applications are developed on the decentralized consensus-based network itself, third-party censorship is virtually impossible. Malicious actors cannot secretly tamper with the application by changing the code and compromise all application users (or nodes that are actively interacting with it). These Decentralized Applications have come to be known as Dapps.  
-Since they are cryptographically secured, Dapps are referred to as "secure applications". Some of the high profile Dapps built on the Ethereum platform include:
-
-*   Augur, which is a Decentralized Prediction Market
-*   Digix, which tokenizes gold on Ethereum
-*   Maker, which is a Decentralized Autonomous Organization (DAO).  
-    The Ethereum network is a distributed global public network, which means it is not run on central servers in a certain geographical location. Instead, the computing power that runs the network is contributed by nodes that are spread across the globe. In other words, Dapps have "zero downtime" - they never go down and, in general, cannot be switched off.
-
-**[`^        back to top        ^`](#table-of-contents)**
-
-### Ethereum Smart Contracts
-A hypothetical example of an Ethereum-based smart contract may involve the following transaction: in an equity raise, transfer amount X from the investor to the company upon receiving the given shares from the company. The monetary amount X, which was pre-validated by the company for the transaction (much like in a credit card purchase), is held in escrow by the smart contract, until the shares have been received by the investor. Any kind of arbitrary sophisticated business logic can be committed to the blockchain. The Ethereum blockchain only encodes these "rules of the games". The actual payoffs occur by interacting with the blockchain.  
-The illustration below describes this process. The smart contract encodes the agreement between the company raising funds and its investors (Panel 1). The smart contract sits on the Ethereum public blockchain, and is run on the Ethereum Virtual Machine (EVM). Once hitting a triggering event, like an expiration date or a strike price that has been pre-coded, the smart contract automatically executes as per the business logic (Panel 2). As an added benefit, regulators are able to scrutinize the market activity on an ongoing basis, without compromising the identity of specific players in a permissionless public blockchain, as Ethereum (Panel 3).
-<p align="center" width="100%">
-  <img width="66%" src="https://user-images.githubusercontent.com/41387907/138574916-7517cbeb-780a-48ad-b96c-062caf795147.png"
-       alt="Ethereum smart contracts"</>
-</p>
-Note: With the advent of the Ethereum blockchain platform and the scripting functionality or smart contracts that it enables, there are ongoing attempts to do the same for the Bitcoin blockchain, which does not allow for this, due to security reasons. RSK is one such smart contract platform that seeks to achieve this "with a 2-way peg to Bitcoin". The added functionality can go a long way in making the Bitcoin blockchain useful for use cases other than cash transfers.
-
-**[`^        back to top        ^`](#table-of-contents)**
-
-### <a id="ch1d"></a>Exploring Permissionless Blockchains
-We will examine the Bitcoin and Ethereum blockchains, both of which are permissionless, public blockchains. We will examine several large transactions, and the genesis block for each blockchain. We will look at block heights, transaction times, mining pools, timestamps, and block rewards.
-
-### Exploring Bitcoin and Ethereum Blockchains
-Let's take a look at a couple of public blockchains: those of Bitcoin and Ethereum,  
-and let's examine the genesis block, or the first block, of each one of them.  
-Then, we'll take a look at a couple of large transactions, including the most famous transaction in cryptocurrency history: the purchase of a pizza for 10,000 bitcoins.  
-So, first, we'll go to this blockchain explorer, and see that there is a Height column, which indicates the number of blocks in this particular blockchain; it's nearing a half a million.  
-These blocks are created approximately every 10 minutes,  
-and there's a Transactions column that shows how many transactions are included in each block, as well as the Total Sent, or the amount of Bitcoin that was transferred in each of those blocks.  
-Finally, you can notice that there's... they relate by column, which is essentially the miner or mining pool that created that block.  
-So, from here, let's take a look at another blockchain explorer, and you can see here the genesis block of the Bitcoin blockchain.  
-Notice that the timestamp is January 3rd 2009.  
-So, that's the genesis block of the Bitcoin blockchain.  
-Now, moving on to the Ethereum blockchain, we'll look at another blockchain explorer.  
-And this one shows you that there's approximately 5 million blocks in the Ethereum blockchain.  
-Notice that each block is created much more quickly than in the Bitcoin blockchain.  
-From here, we'll examine the genesis block of the Ethereum blockchain, and notice that it was mined about two years ago, and the mining reward for this was approximately five ether.  
-From here, we'll take a look at the very interesting transaction: that of the pizza transaction.  
-On Bitcoin Forum, there was somebody on May 18th of 2010 who was requesting that they would pay 10,000 bitcoins for a pizza.  
-They provided their address and someone in fact sent them a pizza. In fact, it was from Europe.  
-And you can see here that that was this transaction here: of 10,000 bitcoins.  
-And lastly, a very large and interesting transaction of 658 bitcoins, done recently.  
-Notice that the value of that is close to 3 million dollars.  
-So, you can examine these transactions on both the Bitcoin and Ethereum blockchains, and many other blockchains.  
-In Chapter 2 of this course, we'll touch upon the Hyperledger Explorer, which can be configured to examine blockchains you might develop with other of the Hyperledger frameworks.
-
-**[`^        back to top        ^`](#table-of-contents)**
-
-### <a id="ch1e"></a>Consensus Algorithms
-Consensus in the network refers to the process of achieving agreement among the network participants as to the correct state of data on the system. Consensus leads to all nodes sharing the exact same data. A consensus algorithm, hence, does two things: it ensures that the data on the ledger is the same for all the nodes in the network, and, in turn, prevents malicious actors from manipulating the data. The consensus algorithm varies with different blockchain implementations.  
-While the Bitcoin blockchain uses Proof of Work as the consensus algorithm, other blockchains and distributed ledgers are deploying a variety of consensus algorithms, like the Proof of Stake, Proof of Burn, Proof of Capacity, Proof of Elapsed Time, and many others, depending on their unique requirements.  
-Next, we will briefly explain some of these algorithms.
-
-**[`^        back to top        ^`](#table-of-contents)**
-
-### Proof-of-Work (PoW)
-The Proof of Work consensus algorithm involves solving a computational challenging puzzle in order to create new blocks in the Bitcoin blockchain. Colloquially, the process is known as 'mining', and the nodes in the network that engage in mining are known as "miners". The incentive for mining transactions lies in economic payoffs, where competing miners are rewarded with 12.5 bitcoins and a small transaction fee.  
-As described in the 2016 Kudelski Security report,  
-"Proof-of-work (PoW) is the outcome of a successful mining process and, although the proof is hard to create, \[it\] is easy to verify".  
-For better understanding, please consider the following example provided by Ofir Beigel:  
-"(...) guessing a combination to a lock is a proof to a challenge. It is very hard to produce this since you will need to guess many different combinations; but once produced, it is easy to validate. Just enter the combination and see if the lock opens".  
-Multiple criticisms exist for the PoW consensus algorithm. PoW requires a huge amount of energy to be expended, given the computationally heavy algorithm. In addition, PoW has a high latency of transaction validation, and the concentration of mining power is located in countries where electricity is cheap. In terms of the network security, PoW is susceptible to the "51% attack", which refers to an attack on a blockchain by a group of miners controlling more than 50% of the network's computing power.
-
-### Proof-of-Stake (PoS)
-The Proof of Stake algorithm is a generalization of the Proof of Work algorithm. In PoS, the nodes are known as the "validators" and, rather than mining the blockchain, they validate the transactions to earn a transaction fee. There is no mining to be done, as all coins exist from day one. Simply put, nodes are randomly selected to validate blocks, and the probability of this random selection depends on the amount of stake held. So, if node X owns 2 coins and node Y owns 1 coin, node X is twice as likely to be called upon to validate a block of transactions. The specific implementation of PoS can vary, depending on the use case, or as a matter of software design. Instances include Proof of Deposit and Proof of Burn. The PoS algorithm saves expensive computational resources that are spent in mining under a PoW consensus regime.
-
-### Proof of Elapsed Time (PoET)
-Developed by Intel, the Proof of Elapsed Time consensus algorithm emulates the Bitcoin-style Proof of Work. Hyperledger's Sawtooth implementation is an example of PoET at work. Instead of competing to solve the cryptographic challenge and mine the next block, as in the Bitcoin blockchain, the PoET consensus algorithm is a hybrid of a random lottery and first-come-first-serve basis. In PoET, each validator is given a random wait time.  
-"The validator with the shortest wait time for a particular transaction block is elected the leader".
-
-*   `sawtooth.hyperledger.org`  
-    This "leader" gets to create the next block on the chain.
-
-**[⬆ back to top](#table-of-contents)**
-**[`^        back to top        ^`](#table-of-contents)**
-
-### <a id="ch1j"></a>Simplified Byzantine Fault Tolerance (SBFT)
-The Simplified Byzantine Fault Tolerant consensus algorithm implements an adopted version of the Practical Byzantine Fault Tolerant (PBFT) algorithm, and seeks to provide significant improvements over Bitcoin's Proof of Work consensus protocol. The basic idea involves a single validator who bundles proposed transactions and forms a new block. Note that, unlike the Bitcoin blockchain, the validator is a known party, given the permissioned nature of the ledger. Consensus is achieved as a result of a minimum number of other nodes in the network ratifying the new block. In order to be tolerant of a Byzantine fault, the number of nodes that must reach consensus is 2f+1 in a system containing 3f+1 nodes, where f is the number of faults in the system. For example, if we have 7 nodes in the system, then 5 of those nodes must agree if 2 of the nodes are acting in a faulty manner.  
-The practical example would be that of ByzCoin, which seeks to make key improvements over the original Bitcoin protocol. Addressing the challenge around scalability due to high latency, ByzCoin transactions are irreversibly committed to the blockchain within seconds. The added advantage is the communication trees to "(...) optimize transaction commitments and verification under normal operations" (2016 Kudelski Security report).
-
-### Proof-of-Authority (PoA)
-Proof-of-Authority (PoA) is a consensus algorithm which can be used for permissioned ledgers. It uses a set of "authorities", which are designated nodes that are allowed to create new blocks and secure the ledger. Ledgers using PoA require sign-off by a majority of authorities in order for a block to be created.
-
-**[`^        back to top        ^`](#table-of-contents)**
-
-### Comparing Permissioned Consensus Approaches and Standard PoW
-Consensus can be implemented in different ways, such as through the use of lottery-based algorithms (PoET or PoW), or through the use of voting-based methods (SBFT), each targeting different network requirements and fault tolerance models.  
-Lottery-based algorithms are advantageous in that they can scale to a large number of nodes. Voting-based algorithms provide low-latency finality.  
-The following table offers an at-a-glance view of the main considerations and pros and cons of different business blockchain approaches to reaching consensus.  
-<p align="center" width="100%">
-  <img width="66%" src="https://user-images.githubusercontent.com/41387907/138574948-4f8e4a52-b320-41aa-81e9-bc126d649c4e.png"
-    alt="Comparing permissed consensus approaches and standard PoW"</>
-</p>
-## <a id="ch1f"></a>Chapter 2. Hyperledger
-Hyperledger is an open source effort created to advance cross-industry blockchain technologies. Hosted by The Linux Foundation, it is a global collaboration of members from various industries, including finance, banking, Internet of Things (IoT), supply chain, manufacturing, healthcare and more. Hyperledger boasts a host of enterprise-ready solutions. Hyperledger is about communities of software developers building blockchain frameworks and platforms. We will take a closer look at some of the current Hyperledger projects in the coming chapters.  
-"One of the first things people learn when coming to Hyperledger is that Hyperledger isn’t, like its name may imply, a ledger. It is a collection of blockchain technology projects."  
-Dan Middleton, All Are Welcome Here (2018)
-
-### Hyperledger Blockchains: Permissioned or Permissionless?
-Hyperledger blockchains are generally permissioned blockchains, which means that the parties that join the network are authenticated and authorized to participate on the network. Hyperledger’s main goal is to create enterprise grade, open source, distributed ledger frameworks and code bases to support business use cases.
-
-**[`^        back to top        ^`](#table-of-contents)**
-
-### Advantages of Using a Permissioned Blockchain over a Permissionless Blockchain
-If you look at permissionless blockchains, like the Bitcoin blockchain or the Ethereum blockchain, anyone can join the network, as well as write and read transactions. The actors in the system are not known, which means there could be some malicious actors within the network.  
-Hyperledger reduces these security risks and ensures that only the parties that want to transact are the ones that are part of the transaction and, rather than displaying the record of the transactions to the whole network, they remain visible only to the parties involved. So, Hyperledger provides all the capabilities of the blockchain architecture - data privacy, information sharing, immutability, with a full stack of security protocols - all for the enterprise. Permissioned blockchains offer more efficient transaction performance, thus being highly scalable, and have a clearly defined governance structure.
-
-### <a id="ch1g"></a>Hyperledger vs. Other Permissioned Ledgers (Brian Behlendorf)
-What makes Hyperledger so unique, compared to other permissioned ledgers?  
-So, Hyperledger is a really unique community in the open source landscape of different blockchain technologies.  
-We kind of model ourselves a little bit after Apache, and some of the other organizations out there that really are communities of communities, right?  
-Within Hyperledger, we have different technology code projects, essentially.  
-Projects like Fabric and Sawtooth, and a lot of the others that all of you will be finding out about, but, what these projects have in common is a set of development principles around working in the public, around, you know... even from the earliest ideas, you know, developers should be sharing that with other developers, right, not just something they build privately, then throw over the wall, and release this open code, but that starts out from day one as a public process, right, and multi-stakeholder as well.  
-So, while projects do often start out as the work of one company or one small set of developers, we really come to trust technologies when we see that there's lots of people both using it and contributing to it.  
-And so, that way, we know this is actually a project that will likely outlast any one company's commitment to it, right?  
-That's a good basis for deciding what open source technologies to build on.  
-So, at Hyperledger, we're trying to make sure that each of these projects fulfills that goal of being multi-stakeholder, of being active software development projects that get as quickly as possible to a production release, something that organizations can actually use in real production environments, and yet, still has the flexibility to explore a new concept, to explore a new consensus mechanism, a new way of writing smart contracts, right?  
-So, that balancing act is really what we're trying to strive for inside of Hyperledger.
-
-**[`^        back to top        ^`](#table-of-contents)**
-
-### Other Distributed Ledger Technologies (Robert Schwentker)
-What are some examples of other blockchain and distributed ledger technology systems, and what are their benefits?  
-Chain Core, created by chain.com, has initially been designed for financial service institutions, and for things like securities, bonds, and currencies.  
-Their company has strong ties with Visa, Citigroup, and Nasdaq.  
-The Corda distributed ledger platform is designed to record, manage, and automate legal agreements between businesses.  
-It was created by the R3 company, which is a consortium of over a hundred global financial institutions.  
-Quorum is a permissioned implementation of Ethereum, which supports data privacy.  
-Quorum achieves this data privacy through allowing data visibility on need-to-know basis by a voting-based consensus algorithm. Interestingly, Quorum was created and open sourced by JPMorgan.
-
-**[`^        back to top        ^`](#table-of-contents)**
-
-### Chain Core
-Chain Core is an enterprise permissioned blockchain system that is mostly focused on financial services, like currencies, securities, derivatives, gift cards, and loyalty points. The company partners with clients to launch and operate a network under the client's brand. Thanks to its strategic partnerships with companies such as Capital One, Citigroup, Fiserv, Nasdaq, Orange, Visa, etc., the company raised over $40 million in funding since 2014.  
-Within the Chain Core network, the creation and transfer of assets is decentralized. However, as stated in the 2016 Kudelski Security report,  
-"the operation of the network is governed by a designated set of entities known as a federation".  
-The platform features the Chain Testnet, which allows decentralized application development on Chain Core, operated by Chain, Microsoft, and the Initiative for Cryptocurrencies and Contracts (IC3).
-
-### Corda
-R3 is an enterprise blockchain software firm that works with over three hundred members and partners across multiple industries, that seeks to leverage distributed ledger technologies to record, manage, and automate legal agreements between businesses through its software solution, called Corda.  
-Launched in 2016, Corda is an open source distributed ledger platform, which features a blockchain-style P2P network; however, it is not a blockchain platform. Unlike blockchains, which involve global availability of data across the network and third party validators, Corda only allows information access and validation functions to parties actually involved in the transaction. Featuring a different software architecture, "Corda achieves consensus between firms at the level of individual deals, not the level of the system" (Richard Gendal Brown, 2016), while supporting a variety of consensus mechanisms.
-
-### Quorum
-Created by JPMorgan, Quorum is, in fact, a fork of the Ethereum public blockchain, which uses a voting-based consensus algorithm to facilitate an enterprise-focused distributed ledger and smart contract platform. Data privacy is achieved within the network by allowing data visibility on a need-to-know basis. This open source blockchain platform is designed to support "both transaction-level privacy and network-wide transparency". The network validates all smart contracts and overall system state through the involvement of all running nodes. As with other permissioned ledgers, regulatory compliance is front and center in the Quorum platform.
-
-**[`^        back to top        ^`](#table-of-contents)**
-
-### IOTA
-IOTA is an open source permissionless distributed ledger technology that has been around since 2015; it has a cryptocurrency called mIOTA. According to Martin Rosulek, "It is the first cryptocurrency that provides the whole ecosystem based on blockless blockchain" to enable machine-to-machine (M2M) transactions.  
-IOTA, however, is more than just a cryptocurrency. Essentially, the platform entails a generalization of the blockchain protocol (the technology called Tangle) that sits at the backend of the IOTA platform. The platform uses a Decentralized Acyclic Graph (DAG) instead of a blockchain to store its ledger.  
-Instead of paying miners to validate the transactions, the architecture of the network involves peer-based validation. We can think of a simple analogy, that of a teacher grading students' homework: the students are the clients/users in the Bitcoin protocol, and the teacher is the miner/validator. Tangle technology asks students (users) to grade each other's homework, making the need for a teacher (external validator) redundant, and avoiding expenses related to the teacher's/validator's work. This allows the platform to be completely free of cost, without facing the scaling challenges that are inherent in the first generation of blockchains.  
-Additionally, the use of the platform with connected devices or the Internet of Things  
-"enables companies to explore new business-to-business models by making every technological resource a potential service to be traded on an open market in real time, with no fees".
-
-*   Roger Aitken, 2017  
-    IOTA focuses mainly on enabling the emerging Internet of Things (IoT), but also plans to go beyond this, on being the transaction settlement and data integrity layer for the Internet of Everything (IoE).
-
-### <a id="ch1h"></a>Challenges in the Adoption/Deployment of Distributed Ledger Technologies
-There are a number of challenges to the widespread use of permissioned distributed ledger technologies. Key among them are challenges around the lack of standards, regulatory challenges, and the lack of knowledge about distributed ledger technologies. These challenges are inherent to any new technological infrastructure that replaces an older infrastructure.  
-Other challenges encountered when it comes to the adoption and deployment of distributed ledger technologies are:
-
-  * Resistance to change
-  * Scalability concerns
-  * Interoperability and integration with legacy systems
-  * Unproven business case
-  * Lack of capital to fund new investments
-  * System complexity and costs.  
-We hope you go on to address some of these challenges and contribute to building a secure digital future!
-
-**[`^        back to top        ^`](#table-of-contents)**
-
-### Standards
-Since we are still witnessing the early days of blockchain technology, there is very little agreement on standards in the developer and business community, as of yet. Standards are key in ensuring interoperability and avoiding risks associated with a fragmented ecosystem. Standards are critical not just for the distributed ledger itself, but also for supporting services, like identity, privacy, and data governance. Furthermore, the management of keys, as well as protocols and standards around key loss and theft, will be critical (Deshpande, Stewart, Lepetit, & Gunashekar, 2017).  
-As a result, the International Organization for Standardization for Blockchain and Distributed Ledger Technologies was established in 2016 and has defined areas for future standardization work (Clare Naden, 2017). More about the ISO/TC 307 technical committee can be found at the ISO/TC 307 website.
-<p align="center" width="100%">
-  <img width="50%" src="https://user-images.githubusercontent.com/41387907/138574995-d5b3afa4-dcd0-4caf-9533-52f0ec24999d.png"
-       alt="I don't know"</>
-</p>
-### Regulation
-The lack of regulation around transactions on the blockchain creates an environment of uncertainty for all players. Highly regulated industries like financial services are treading carefully in the DLT space. The Securities and Exchange Commission of the United States has clarified its stance on Initial Coin Offerings (ICOs) in 2017. The Chinese government has, in fact, banned all ICOs, while 60 major ICO platforms are being investigated (Saheli Roy Choudhury, 2017).  
-Similarly, there are no regulatory guidelines governing smart contracts, causing much anxiety among various players like lawyers, regulators, programmers, and businesses. The lack of regulatory guidelines, along with a lack of industry standards, exacerbates hindrances to rapid adoption of DLT.
-
-### Lack of Know-How
-The lack of know-how (and know-whom and know-where) around distributed ledger technologies and the availability of experts in the area is a major challenge in the adoption of distributed ledger technologies. While there has been an exponential increase in the interest around 'blockchain', as indicated in the figure below, there is a huge lag of technical talent in the space. In fact, the origin of this course stems from the need to address this gap in know-how.
-
-**[`^        back to top        ^`](#table-of-contents)**
-
-### Blockchain Search Volume
-
-Retrieved from https://coin.dance/stats/blockchain on November 6, 2020  
-<p align="center" width="100%">
-  <img width="50%" src="https://user-images.githubusercontent.com/41387907/138575010-3b9dadc7-51ab-4252-96a4-11d8606e92ca.png"
-       alt="Blockchain"</>
-</p>
-Jobs in the blockchain development space are among the top 20 fastest growing, and the number of positions available increased over 200% in 2018 over those available the previous year. However, there is not a large enough pool of qualified blockchain developers, and this is a major concern. The emergence of more and more blockchain training courses and certifications is aiming to slowly close this gap.
-
-**[⬆ back to top](#table-of-contents)**
-
-## <a id="ch2"></a>Chapter 2 - Introduction to Hyperledger
-This chapter provides an overview of Hyperledger, a collaborative project hosted by The Linux Foundation that is focused on business blockchain technologies. It also provides a brief introduction to the projects advanced under the Hyperledger greenhouse, as of November 2020.
-
-### <a id="ch2a"></a>Learning Objectives
-By the end of this chapter, you should be able to:
-
-  * Explain the differences between Hyperledger and permissionless blockchain technologies.
-  * Discuss how Hyperledger leverages open standards and open governance to support business solutions.
-  * Define what a project is according to the Hyperledger documentation.
-  * Discuss the project lifecycle process adopted by Hyperledger, and the five possible states.
-
-### <a id="ch2b"></a>Hyperledger (Navroop Sahdev)
-Hyperledger is an open source effort created to advance cross-industry blockchain technologies.  
-It's a global collaboration hosted by The Linux Foundation that encompasses various industries and organizations worldwide.  
-You may think of Hyperledger as an operating system for marketplaces, data sharing networks, microcurrencies, and decentralized digital communities.  
-A shared goal is to significantly reduce the cost and complexity of doing business.  
-Hyperledger blockchains are permissioned blockchains, which means that the parties that join the network are generally authenticated via an identity module.  
-Essentially, Hyperledger blockchains are specifically designed to be enterprise solutions.  
-If you look at permissionless blockchains, like the Bitcoin blockchain or the Ethereum blockchain, anyone can join the network, which means there would invariably be some malicious actors within the network.  
-Hyperledger reduces these security risks, and ensures that only the parties that want to transact are the ones that are part of the transaction.  
-Rather than displaying the record of the transactions to the whole network, they remain within the parties involved.  
-So, Hyperledger provides all the capabilities of blockchain architecture, data privacy, information sharing, immutability, with a full stack of security protocols, all for the enterprise.
-
-**[`^        back to top        ^`](#table-of-contents)**
-
-### Hyperledger
-Hyperledger incubates and promotes a range of business blockchain technologies, including distributed ledger frameworks, smart contract engines, client libraries, graphical interfaces, utility libraries, and sample applications. Hosted by The Linux Foundation, collaborators include industry leaders in technology, finance, banking, supply chain management, manufacturing, and IoT.  
-As of November 2020, there are 16 projects in the Hyperledger greenhouse, six of which are distributed ledger and domain specific frameworks. The other 10 projects are tools and libraries that support these frameworks.
-<p align="center" width="100%">
-  <img width="50%" src="https://user-images.githubusercontent.com/41387907/138575021-89ffa40e-3a0a-4fae-a1a4-55b31e472350.png"
-       alt="Hyperledger"</>
-</p>
-As Arnaud Le Hors, member of the Hyperledger Technical Steering Committee, emphasized,  
-"these projects show how broadly applicable blockchain technology really is. This goes way beyond cryptocurrencies".  
-Hyperledger provides an alternative to the cryptocurrency-based blockchain model, and focuses on developing blockchain frameworks, tools and libraries to support global enterprise solutions. The focus of Hyperledger is to provide a transparent and collaborative approach to blockchain development.
-
-
-**[`^        back to top        ^`](#table-of-contents)**
-
-### The Birth of Hyperledger
-It's amazing how quickly Hyperledger has developed and evolved over the past few years.  
-I was wondering if you could tell me a bit about the journey of how Hyperledger has come to be.  
-So, the Hyperledger Project began when a set of companies who were starting to pay attention to this Bitcoin space, this cryptocurrency space, this blockchain space, approached The Linux Foundation and said "Let's do a project together".  
-The Linux Foundation has been at the heart of the Linux ecosystem, bringing together companies and developers to try to, you know, serve, say, air traffic control to the development of a common technology platform.  
-And, over the last few years, it has grown into other related technology spaces: software-defined networking, cloud computing, all these kinds of things... domains that also needed this focused effort to bring these two kinds of communities together.  
-So, it's very natural when companies like IBM, or even new ones, that had never worked with The Linux Foundation before, like JPMorgan, or startups in this space, like Digital Asset, when they started to talk with each other, and tried to figure out where a good home for this would be, they approached The Linux Foundation, right?  
-So, some conversations got started, and there was a sense that what was interesting about this space wasn't so much the cryptocurrencies, and, you know, the make-money-fast kind of mentality, but the underlying distributed ledger and smart contract technology platforms, right?  
-And there's still a lot of hard work to do to figure out the right approaches to this.  
-So, in December of 2015, The Linux Foundation, in conjunction with those companies, and about 30 more, announced the launch of the Hyperledger effort.  
-Alright, the Hyperledger Project, which we really just call Hyperledger now.  
-The first code drop, meaning the first release of software, happened just two months later, in February of 2016, when the Fabric codebase came over.  
-Initially, it had been built inside of IBM, but, when it came over, it was now part of the community, right, followed soon after by Sawtooth Lake.  
-And it wasn't just code; the community started to meet face to face on a pretty regular basis, about once every two months.  
-And this was because there was a lot to sort out, a lot of knowledge to share.  
-I joined in May of 2016, so, a little bit of a late comer, I guess, to the launch of it.  
-But, I joined partly because I saw how transparent, and how engaging, even from day one, all of these processes have been.
-
-### Hyperledger Goals
-Hyperledger has taken a leadership role to develop cross-industry standards and provide a neutral space for software collaboration. The financial services industry, in particular, is witnessing an unprecedented level of collaboration between institutions that have traditionally been competitors. The advent of a new foundational or infrastructural technology like the blockchain - much like the Internet - requires collaboration of various actors in order to realize the full benefits of the technology. Unless all actors use a certain standard, the pace of technological dissemination will continue to be slow. Technological adoption is characterized by network effects, where the costs decrease with the increase in use of a certain technology. Since shifting to distributed ledger technology involves significant costs, open source software, communities and ecosystems that develop around these have a significant part to play.
-Now, let's explore the Hyperledger frameworks (as of November 2020)
-<p align="center" width="100%">
-  <img width="50%" src="https://user-images.githubusercontent.com/41387907/138575026-76ac68b2-101e-464d-95e7-4f9d122e5ea4.png"
-       alt="Hyperledger frameworks (as of November, 2020)"</>
-</p>
-
-**[`^        back to top        ^`](#table-of-contents)**
-
-### The Importance of Open Source
-So, you had mentioned before how Hyperledger is different from other consortiums because of its focus on creating an open community, not just open sourcing code.  
-Can you tell us a little bit about why this is important?  
-So, open source communities, I believe, live and breathe on not just, you know, reporting bugs or, you know, downloading code, but, actually, live and breathe on true collaboration, on saying not just, you know, "I have a bug and somebody needs to fix it", but, instead, saying "Here's how I'd like to solve this", right? What do people think?  
-"Here is a design for implementing a new feature." What do people think?  
-And I think the evidence shows that that creates higher quality code. It also creates more long lasting code.  
-I don't think you have a project like the Linux kernel, which has now been around for 26 years, right, without having a mechanism for a community to develop an institutional memory, right?  
-Why were certain decisions made? What were some ideas that were proposed and, ultimately, found to either be shot down or not really good enough, right, so that we don't end up changing things back and forth, right, we don't end up making mistakes that we could have avoided before or learning from previous...how do we make sure we learn from previous mistakes, right?  
-And that's only possible in an open source community if, on top of just releasing code, you're also engaging in the creative process itself, and making that public facing.  
-And I think, really, we found out over 25 years of open source that that's the best way to build trustworthy software.  
-I believe it leads to higher security software and higher quality software, but really, the question is trust.  
-This is code that sits... At Hyperledger, this is code that will sit at the heart of these enterprises.  
-This will be their system of record, right? So, it's essential that we develop this code in a trustworthy way and, while we do all sorts of things to help them trust the data in the system, ultimately, they have to trust the software, as well.  
-And what I hope is that, through these processes, they can rest assured that, when they pick up Hyperledger, anything, right, that anything will be software that they can trust.
-
-### Open Standards
-"Only an Open Source, collaborative software development approach can ensure the transparency, longevity, interoperability and support required to bring blockchain technologies forward to mainstream commercial adoption. That is what Hyperledger is about - communities of software developers building blockchain frameworks and platforms".
-
-*   hyperledger.org
-    As we learned in Chapter 1: "Discovering Blockchain Technologies", the non-availability of standards in distributed ledger technologies is one of the major hurdles in scaling them. One of Hyperledger's key goals is to facilitate the process of standards formation, not by promoting its own distributed ledger(s), but by providing a space for a variety of standards to co-exist simultaneously:  
-    "Rather than declaring a single blockchain standard, it encourages a collaborative approach to developing blockchain technologies via a community process, with intellectual property rights that encourage open development and the adoption of key standards over time".
-*   hyperledger-fabric.readthedocs.io  
-    Hyperledger aims to adhere to "open standards", which means they are  
-    "(...) interoperable through open published interfaces and services".  
-    John Palfreyman, ibm.com
-
-**[`^        back to top        ^`](#table-of-contents)**
-
-### Open Source and Open Standards
-The Enterprise Ethereum Alliance (EEA) and Hyperledger formally joined each other's organizations as Associate Members in October 2018. This strategic partnership aims to grow the blockchain ecosystem by enabling "active and mutual cross-community collaboration through event participation, connecting with other members, and finding ways for our respective efforts to be complementary and compatible."
-
-*   EEA promotes the development of specifications and standards for enterprise blockchain networks
-*   Hyperledger advances the development of open source software for establishing, managing and connecting enterprise blockchain networks.  
-    This announcement came as a confirmation of an already fruitful collaboration between the two organizations; some examples of this collaboration:
-*   Hyperledger Burrow is an implementation of the Ethereum Virtual Machine (EVM) bytecode interpreter
-*   Hyperledger Sawtooth support for the EVM as a transaction processor (Seth)
-*   Hyperledger Fabric support for the EVM
-*   The existence of an EEA working group on Trusted Execution Environments, along with a prototype implementation of the proposed standards, Private Data Objects, built as a lab at Hyperledger.  
-    "...simultaneously developing community-driven open standards and production-quality open source reference implementations is a best practice of Internet-scale software development work."  
-    While working together, the two organizations will also continue to collaborate with other standard bodies and open source communities, all with the common goal of accelerating the adoption of enterprise blockchain technologies.
-
-**[`^        back to top        ^`](#table-of-contents)**
-
-### Open Source and Open Governance
-"Today, most people understand the concept of Open Source. What many people don't get, and something we here at Hyperledger and The Linux Foundation pride ourselves on doing well, is Open Governance".
-
-*   hyperledger.org  
-    Open source software is software that is made freely available and may be redistributed and modified. In other words, anyone has the ability to view the code, use the code, copy the code, change the code, and, depending on the open source license, contribute back changes.  
-    Open governance means that technical decisions for an open source project are made by a group of community-elected developers drawn from a pool of active participants. These decisions include things such as which features to add, how, and when to add them.  
-    To learn more about the specifics of Hyperledger's open governance read the following article "ABCs of Open Governance".  
-    Software Governance of the Hyperledger Projects (Brian Behlendorf)
-
-How does the software governance of all of the Hyperledger projects work?  
-So, in open source projects you do... it's not a free-for-all, right? It's not just everybody throwing in every line of code, hoping that what, you know, it sticks to the wall, and that everything is fine, right?  
-There actually is a development process that involves decision-making about what comes in and what doesn't, right?  
-At the core of each of the projects at Hyperledger is a set of maintainers.  
-These are individuals who either were with the project when it came in, as initial maintainers, right,  
-because they had been working on the code before, or were invited in by that initial set of maintainers to become maintainers, after demonstrating, you know, a history of contributions to the project, alright?  
-These are now individuals who are trusted.  
-Once you're in that group, obviously, everything those maintainers do is public.  
-If they commit to the source code repository, approve a a patch, a commit request, or pull request,  
-everything they do is public anyway, so there's always that accountability for their actions.  
-If somebody does something wrong, anybody can always say "I think that's wrong", and the set of maintainers can sometimes come to a decision to reverse a commit, right?  
-That's within their power.  
-But, it's really up to those maintainers to also chart the path forward: what's the roadmap, when will we do the next release, right, the next minor point released, the next major release.  
-But, obviously, they do that in a public way.  
-Sometimes, they'll use a phone call, sometimes, they'll use chat on Rocket Chat, sometimes, they'll use email, but they know that their job is to be accountable and responsible to the broader development community.  
-Now, from a Hyperledger perspective, if we leave it up to the projects to really decide the roadmap of what they're trying to solve, there's a group called the Technical Steering Committee, though, that is elected by all the contributors across all the projects, not even just the maintainer...anybody who has contributed a line of code, contributed to the wiki in some substantial way, they elect a group of eleven developers who form this Technical Steering Committee.  
-And the TSC is kind of an oversight body.  
-They make sure that the projects are growing, and that they're healthy.  
-They review activity in those projects, they also approve new projects when they come in, and they approve the graduation from the Incubator, right?  
-What they don't get to do is, you know, tell us, tell a project "Hey, you're working on the wrong thing. Go work on this, instead", right?  
-They really have to depend on this kind of decentralized governance, right, to aim in the right direction.  
-By and large, we try to make sure though that every project has some sort of relation to distributed ledgers and smart contracts.  
-Our goal is not to be the GitHub of distributed ledgers and smart contracts projects.  
-There's already a GitHub for that, alright?  
-We want these projects to be a curated, you know, coherent portfolio of different projects that might even compete with each other, right?  
-In many ways, Fabric and Sawtooth and Iroha do overlap, and you can build an implementation of something in all three of those. That's okay, right?  
-We're going to discover over time how these projects differentiate with each other,  
-and it's the role of the Technical Steering Committee, and a bunch of other committees we have around identity, and architecture, and white papers, and things, to try to weave these different efforts together in something that looks coherent, something that makes sense for developers.
-
-### Strength Through Diversity
-As you familiarize yourself more with Hyperledger and the blockchain technologies it fosters in its greenhouse, you will notice the similarities between some of its projects, but most importantly, what differentiates them from one another and the use cases they were designed to address. The idea behind this approach was and continues to be that there is no one solution to address the myriad of needs, requirements and use cases.  
-"Having a portfolio of projects, though, enables us to have the variety of ideas and contributors to become a strong open source community... It's not that our multiplicity of projects has given us strength through numbers, but rather strength through diversity."  
-Dan Middleton, All Are Welcome Here (2018)
-
-**[`^        back to top        ^`](#table-of-contents)**
-
-### <a id="ch1g"></a>Blockchain Security at Hyperledger (David Huseby)
-So, security with distributed ledgers really begins here at Hyperledger with our culture of secure software development.  
-Every aspect of the software, from development, through testing, through bug fixing, and vulnerability resolution, it's done in a completely open process.  
-It's open to anybody to participate.  
-We have maintainers that do all the code reviews.  
-Changes to code is driven by requirements, and patches come in to implement those requirements...  
-They're reviewed... we have requirements for tests to be written before it's accepted, and we have pretty rigorous testing infrastructure in place.  
-We use continuous integration, so, it's always building, and we have also initiated security reviews outside security audits of all our projects as they approach 1.0.  
-And it's that culture that really builds the foundation of trust for the Hyperledger projects.  
-Because we're radically transparent, and because we do the correct things from a software engineering perspective, we deserve the trust that consumers of our products put in our hands.  
-And then, building on top of our process, comes all of the cryptography and the data resiliency that you get with a distributed ledger.  
-So, once we can ship a product, a piece of software that's been built to the best of our ability, then the guarantees provided by the cryptography really carry weight, or really, are ironclad.  
-So, it's a very holistic approach to security here at Hyperledger: everything, from the way we write software to the way the software works.
-
-**[`^        back to top        ^`](#table-of-contents)**
-
-### How Will Hyperledger Change the Blockchain Ecosystem? (Brian Behlendorf)
-How do you think Hyperledger will change the industries that adopt the technology?  
-So, in the Internet era, we, as technologists, have gotten really good at building big central databases and big central services, right?  
-Think about the move to the cloud. The move to the cloud wasn't a move to, you know, a really dispersed, diffused, decentralized kind of system.  
-It often meant a move to one company's servers, right, or one company's products, right?  
-And I feel like, today, the Internet is more decentralized... more centralized than it used to be, right?  
-And that decentralized systems tend to grow quicker, they tend to be more adaptable, that nature looks a little bit more decentralized, right?  
-And, for businesses, I think you often don't want to be just sitting on the outside as a satellite on another centralized business, right?  
-Everyone would want to be the Uber of this, or the Uber of that.  
-Well, that's great for Uber and its investors. It's not so great when you're sitting on the outside, right?  
-So, a lot of industries kind of want... don't want to see their own industry move into that centralized approach.  
-And, typically, today, to be able to facilitate that, they have lots of point-to-point integrations, right?  
-Something like Hyperledger offers the potential for integration of an industry at a time, right, into a system that can not only become a system of record for recording transactions between parties in a network, in a marketplace, but also allow for the automation of a whole bunch of business processes through the use of smart contracts, right?  
-And, in a permissioned ledger, you still have an organization that acts somewhat like the referee on a football field, right, sets the rules of the game, watches how players play and, if somebody acts out of turn, even if the technology allows it, if they violate the spirit of the contract so-to-speak, or the human conditions, then, the referee can kick them out. And, by the way, if the referee does their job poorly, the two teams can kick the referee out, right?  
-So, this type of governance mechanism for something like a football game, right, is actually not too far from the kind of governance mechanisms that many industries deploy today, right?  
-With distributed ledger technologies like Hyperledger, we can actually have the information systems work and look a lot more like the way that the business processes look and work,  
-especially in a more decentralized setting.  
-We can avoid the over-centralization of industries, and the over-centralization of society through the use of these technologies.
-
-**[`^        back to top        ^`](#table-of-contents)**
-
-### Blockchain for Business
-The cryptocurrency-based blockchain model, popularized by public blockchains like Bitcoin and Ethereum, currently falls short of fulfilling a host of requirements that many types of organizations would have to fulfill in order to be compliant when using blockchain and distributed ledger technologies - for instance, in the areas of financial services, healthcare, and government.  
-Hyperledger is a unique platform that is developing permissioned distributed ledger frameworks specifically designed for enterprises, including those in industries with strong compliance requirements. Enterprise use cases require capabilities such as scalability and throughput, built-in or interoperable identity modules for the parties involved in a transaction or a network, or even access to regulators who can access all data in the ledger as read-only to ensure compliance. The latter is particularly important because, regardless of the innovation, it has to operate within the current regulatory framework, as well as comply with any new rules that come into place specifically targeted at blockchain technologies.  
-The enterprise continues to be at the heart of this course.  
-Why Businesses Choose to Use Hyperledger? (Brian Behlendorf)
-
-And, as a follow-up, why are businesses choosing to use Hyperledger over other distributed ledger technologies?  
-So, companies, when they decide what open source technologies to use, right, they should evaluate an open source project based on a number of factors,  
-not just, you know, is the code available, does it run, how mature is it, right, have they released a 1.0, and a 1.1, and a 1.2...  
-You want to see a kind of a regular stream of these things.  
-We also believe companies make decisions... I believe companies make decisions about what open source technologies to choose based on the health of the community, right?  
-And how many other companies are embedding this technology inside of their own solutions, right, inside of other products and services, how many people out there are using it... that sort of thing.  
-And so, at Hyperledger, what we're trying to do is not just build a very healthy developer ecosystem around our technologies.  
-We also do a lot to try to talk with our members and others who are using Fabric, or using Hyperledger Sawtooth, or these other technologies, to understand where are they using it and what's the value that they're getting from it.  
-And can we talk about that to the outside world, alright, which is hard.  
-Sometimes, people don't want to talk about their behind-the-scenes projects, right?  
-But, when we can talk about the application of that in music licensing, or food supply chain projects, alright,  
-and start to talk about kind of a higher level impact that these projects can have, then, that I think gets companies really interested.  
-But, they don't make the decision to jump in, unless they can see that this is not just a piece of code, that this is a movement.  
-So, that's really what we're trying to build, and that's why we believe companies can confidently decide to pull down and start using Hyperledger Fabric, Hyperledger Sawtooth, and any of these projects.  
-And hopefully, become contributors to them, as well.
-
-**[`^        back to top        ^`](#table-of-contents)**
-
-### Hyperledger, A Greenhouse for Blockchain Projects
-Welcome to the Hyperledger greenhouse: an incubator for open source blockchain technologies for business hosted by the Linux Foundation.  
-So, what does that mean exactly?  
-Let's start here, with you: you're a business, large or small, participating in a commercial ecosystem.  
-Your business partners and peers want to do business with you, but in order to do that, you'll need a ledger.  
-This ledger contains a record of your transactions, along with many, if not all of the other transactions in the network.  
-It is vitally important to know that your copy of the ledger is identical to everyone else's, so you'll need a distributed ledger.  
-It's a new kind of network database that lets everyone in an ecosystem keep a copy of a common system of record.  
-But how does everyone agree on which transactions succeed or fail?  
-That's where Hyperledger software comes in.  
-This plant is actually software. Software that each business runs on systems it controls to broadcast out its transactions with other parties and receive, validate, and interact with messages delivered by others.  
-With any network like this, a particular software standard is used to keep everyone in sync.  
-But there are other ways to build these kinds of networks, using different consensus algorithms and different smart contract languages.  
-There will be many different ledger networks out there.  
-Ideally, they would all be able to interoperate due to certain common properties, much like how the Linux community uses various operating systems with a common kernel.  
-At Hyperledger, we're growing many different kinds of ledger technologies.  
-Here, you'll find communities of software developers working together to propel open source blockchain frameworks and tools into the future to deployment and adoption.  
-Businesses with strict blockchain requirements trust Hyperledger because it's hosted by the Linux Foundation, and its projects are developed by an open source community.  
-Developers can collaborate on a global level across company and industry lines to create innovative, modular, open source components and platforms.  
-It's this open source approach that allows for the kind of transparency, longevity, collaboration, community, and, of course, security that blockchain needs to become more mainstream, which is what Hyperledger is all about.  
-Hyperledger projects are meant to help you focus on developing your business solutions and feel confident that the legal, technical and organizational infrastructure is in place,  
-thanks to Hyperledger and the Linux Foundation.  
-These are all open source projects, and anyone is welcome to pick them up and use them, no fee or permission required.  
-Of course, this only represents a fraction of what open source blockchain technologies can do now and in the future.  
-So it's time to ask yourself: who will you trust with your trust network?
-
-**[`^        back to top        ^`](#table-of-contents)**
-
-### Project Lifecycle and Hyperledger Incubator
-According to the Hyperledger documentation, a project refers to a collaborative endeavor to deliver a work item. Projects can vary in terms of scope: some are intended to produce a document, some may develop new capabilities or refactor/remove an existing capability.  
-In general, open source initiatives use an incubation process for new work items: this allows members of the community to contribute new ideas and code in a more structured and transparent workflow. Hyperledger has adopted a rigorous project lifecycle process that has six possible states:
-
-*   Proposal  
-    If an open source initiative wants to be hosted under the Hyperledger greenhouse, a proposal is submitted to the TSC for review. The proposal must have a clear description and a well-defined scope, must identify the development resources that are committed to the project, as well as the initial maintainers, and must be vendor neutral.
-*   Incubation  
-    Once a project proposal is approved, it enters the Incubation phase, and the community has a chance to explore different idea related to the project. When a project reaches a mature-enough stage and qualifies to be declared Active, the maintainers will vote to submit a graduation review request to the TSC. All projects ready to graduate from Incubation must have a fully functional code base, test coverage commensurate with other Active projects, an active and diverse community of developers, and a history of releases that follow the Active release process. A project in the Incubation stage is not guaranteed to eventually graduate - some projects never get to Active state.
-*   Active  
-    Projects that successfully exit the Incubation phase are considered Active. If reasons exist, an Active project can be deprecated.
-*   First Major Release  
-    If the maintainers of a project are looking to publish the project's first major release, they will have to obtain approval from the TSC.
-*   Deprecated  
-    All deprecated projects are maintained for a six month period by their communities; after that, the projects are removed from subsequent formal releases. A deprecation notice is given to the public. After a six-month deprecation period, projects are labeled End of Life.
-*   End of Life  
-    These are projects that are no longer developed or maintained.  
-    New projects wanting to join are evaluated on a number of things:
-*   How do they fit with the portfolio of other projects
-*   How mature are they, to understand where they're going
-*   Who are the developers around the projects, etc.  
-    When a project goes through a rigorous vetting process and graduates from the incubator, it signals to the public that they can now trust the code, that the code can be used to build applications upon it.  
-    There are sixteen projects in the Hyperledger greenhouse, as of June 2019. And the door is open to new projects joining. There are four fully-fledged Hyperledger projects, that have graduated from the Incubator and are in an Active state (as of June 2019):
-*   Hyperledger Fabric (March 2017)
-*   Hyperledger Sawtooth (May 2017)
-*   Hyperledger Iroha (May 2018)
-*   Hyperledger Indy (March 2019)
-*   Hyperledger Besu (March 2020).  
-    The other projects are still working through the process, and the goal is to get every one of them out of the Incubator.
-
-**[`^        back to top        ^`](#table-of-contents)**
-
-### Hyperledger Labs
-Currently, the Hyperledger Project Lifecycle is a very rigorous process that includes 6 possible states. For a project to join the Hyperledger Greenhouse, it must have a certain degree of maturity even in the early proposal and incubation stages.  
-Hyperledger Labs provides a space where work can easily be started without the creation of an official Hyperledger project. Developers working on projects that are immature (incomplete code, not ready from a production-quality point of view, with small communities) or experimental will thus get the opportunity to work in a space suitable for innovation and testing of new ideas; moreover, they will work within a legal framework that would ease the transition to the Hyperledger Incubator (if the project matures enough and reaches that stage). Hyperledger Labs have similarities with the Apache Labs and the W3C Community Groups.  
-There is a specific process that must be followed when proposing a new lab. Labs that become dormant or unresponsive for 6 months or more, or are deemed deprecated or obsoleted by their committers are archived.
-
-### <a id="ch2c"></a>Q/A with Brian Behlendorf, Executive Director of Hyperledger
+### <a id="ch2-3"></a>2.3 Q/A with Brian Behlendorf, Executive Director of Hyperledger
 Before diving deeper into the projects advanced under the Hyperledger umbrella, we asked Brian Behlendorf, Executive Director of Hyperledger at The Linux Foundation, some questions.
 
 **[`^        back to top        ^`](#table-of-contents)**

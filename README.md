@@ -90,7 +90,7 @@ Over time, Internet and cloud computing architectures enabled global access from
 Even though this "cloud architecture" is decentralized in terms of hardware, it has given rise to application-level centralization (e.g. Facebook, Twitter, Google, etc.).  
 Currently, we are witnessing the transition from centralized computing, storage, and processing to decentralized architectures and systems. 
 According to Muneeb Ali, these systems aim to
->> "give explicit control of digital assets to end-users and remove the need to trust any third-party servers and infrastructure".  
+> "give explicit control of digital assets to end-users and remove the need to trust any third-party servers and infrastructure".  
 Distributed ledger technology is one of the key innovations making this shift possible.  
 A distributed ledger is a type of data structure which resides across multiple computer devices, generally spread across locations or regions.  
 Distributed ledger technology (DLT) includes blockchain technologies and smart contracts. While distributed ledgers existed prior to Bitcoin, the Bitcoin blockchain marks the convergence of a host of technologies, including timestamping of transactions, Peer-to-Peer (P2P) networks, cryptography, and shared computational power, along with a new consensus algorithm.

@@ -12,7 +12,9 @@
 ### Introduction to Hyperledger Blockchain Technology
 
 **Welcome to LFS171x: Introduction to Hyperledger Blockchain Technology**  
-LFS171x is part of the Blockchain for Business Professional Certificate. Skills in blockchain are being reported as the top job-skill in demand. This program is designed for the business professional who needs to understand the potential (or threat) of blockchain to their company and industry. Armed with better information of the blockchain landscape, this program will help you rise to new challenges in your current role by giving you a new dimension on which you can add value to your employer.
+LFS171x is part of the Blockchain for Business Professional Certificate. Skills in blockchain are being reported as the top job-skill in demand. 
+This program is designed for the business professional who needs to understand the potential (or threat) of blockchain to their company and industry. 
+Armed with better information of the blockchain landscape, this program will help you rise to new challenges in your current role by giving you a new dimension on which you can add value to your employer.
 
 ## [Table of Contents](#table-of-contents)
 
@@ -77,16 +79,22 @@ By the end of this chapter, you should be able to:
 Background - The Rising Interest in Distributed Ledger Technologies  
 Looking back to the last half century of computer technologies and architectures, you may observe a trend of fluctuation between the centralization and subsequent decentralization of computing power, storage, infrastructure, protocols, and code.  
 Mainframe computers are largely centralized. They typically house all computing power, memory, data storage, and code. Access to mainframes is mainly by "dumb terminals", which only take inputs and outputs, and do not store or process data.  
-With the advent of personal computers and private networks, similar computational capabilities were now housed both on the clients, as well as the servers. This, in part, gave rise to the "client-server" architecture, which supported the development of relational database systems. Massive data sets, which are housed on mainframes, could move onto a distributed architecture. This data could replicate from server to server, and subsets of the data could be accessed and processed on clients, and then, synced back to the server.
+With the advent of personal computers and private networks, similar computational capabilities were now housed both on the clients, as well as the servers. 
+This, in part, gave rise to the "client-server" architecture, which supported the development of relational database systems. 
+Massive data sets, which are housed on mainframes, could move onto a distributed architecture. 
+This data could replicate from server to server, and subsets of the data could be accessed and processed on clients, and then, synced back to the server.
 
 **[`^        back to top        ^`](#table-of-contents)**
 
-Over time, Internet and cloud computing architectures enabled global access from a variety of computing devices; whereas mainframes were largely designed to address the needs of large corporations and governments. Even though this "cloud architecture" is decentralized in terms of hardware, it has given rise to application-level centralization (e.g. Facebook, Twitter, Google, etc.).  
-Currently, we are witnessing the transition from centralized computing, storage, and processing to decentralized architectures and systems. According to Muneeb Ali, these systems aim to  
-"give explicit control of digital assets to end-users and remove the need to trust any third-party servers and infrastructure".  
+Over time, Internet and cloud computing architectures enabled global access from a variety of computing devices; whereas mainframes were largely designed to address the needs of large corporations and governments. 
+Even though this "cloud architecture" is decentralized in terms of hardware, it has given rise to application-level centralization (e.g. Facebook, Twitter, Google, etc.).  
+Currently, we are witnessing the transition from centralized computing, storage, and processing to decentralized architectures and systems. 
+According to Muneeb Ali, these systems aim to
+>> "give explicit control of digital assets to end-users and remove the need to trust any third-party servers and infrastructure".  
 Distributed ledger technology is one of the key innovations making this shift possible.  
 A distributed ledger is a type of data structure which resides across multiple computer devices, generally spread across locations or regions.  
-Distributed ledger technology (DLT) includes blockchain technologies and smart contracts. While distributed ledgers existed prior to Bitcoin, the Bitcoin blockchain marks the convergence of a host of technologies, including timestamping of transactions, Peer-to-Peer (P2P) networks, cryptography, and shared computational power, along with a new consensus algorithm.  
+Distributed ledger technology (DLT) includes blockchain technologies and smart contracts. While distributed ledgers existed prior to Bitcoin, the Bitcoin blockchain marks the convergence of a host of technologies, including timestamping of transactions, Peer-to-Peer (P2P) networks, cryptography, and shared computational power, along with a new consensus algorithm.
+
 In summary, **distributed ledger technology (dlt)** generally consists of three basic components:
 
 1.  A data model that captures the current state of the ledger
@@ -96,8 +104,10 @@ In summary, **distributed ledger technology (dlt)** generally consists of three 
 **[`^        back to top        ^`](#table-of-contents)**
 
 ### <a id="ch1-3"></a>1.3 Blockchain
-According to hyperledger.org,  
+According to hyperledger.org,
+<blockquote>
 "A blockchain is a peer-to-peer distributed ledger forged by consensus, combined with a system for "smart contracts" and other assistive technologies. Together these can be used to build a new generation of transactional applications that establishes trust, accountability, and transparency at their core, while streamlining business processes and legal constraints."  
+</blockquote>
 Smart contracts are simply computer programs that execute predefined actions when certain conditions within the system are met.  
 Consensus refers to a system of ensuring that parties agree to a certain state of the system as the true state.  
 Blockchain is a specific form or subset of distributed ledger technologies (DLTs), which constructs a chronological chain of blocks, hence the name "block-chain". Examples of other DLTs are Chain Core, Corda, Quorum, and IOTA. They will be covered later in this chapter.  

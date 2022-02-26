@@ -1,13 +1,15 @@
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------- readme.md of LFS171x.bauska.site ------------------------------->
+<!------------------------------------------------------------------------------------------------>
 ## Linux FoundationX - LFS171x
+
+<!------------------------------------------------------------------------------------------------>
+<!----------------------------------------- linux logo ------------------------------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
   <img width="50%" src="https://user-images.githubusercontent.com/41387907/138567819-bfda7273-5457-4e5e-89b6-104d5356f46a.png"
     alt="Linux logo"</>
 </p>
-
-<!-------------------------------------------------------------------------------------------------------->
-<!---------------------------------- readme.md of LFS171x.bauska.site ------------------------------------>
-<!-------------------------------------------------------------------------------------------------------->
-
 
 ### Introduction to Hyperledger Blockchain Technology
 
@@ -103,7 +105,7 @@ In summary, **distributed ledger technology (dlt)** generally consists of three 
 
 **[`^        back to top        ^`](#table-of-contents)**
 
-### <a id="ch1-3"></a>1.3 Blockchain
+### <a id="ch1-3"></a>1.3 Bitcoin and Ethereum Blockchains
 According to hyperledger.org,
 <blockquote>
 "A blockchain is a peer-to-peer distributed ledger forged by consensus, combined with a system for "smart contracts" and other assistive technologies. Together these can be used to build a new generation of transactional applications that establishes trust, accountability, and transparency at their core, while streamlining business processes and legal constraints."  
@@ -190,6 +192,10 @@ Cryptography has a key role to play both in the security, as well as in the immu
 Blockchain technology has some key differentiators from databases.  
 A blockchain is a write-only data structure, where new entries get appended onto the end of the ledger. Every new block gets appended to the blockchain by linking to the previous block's "hash" (you can check the Glossary tab for a refresher on hash functions). There are no administrator permissions within a blockchain that allow editing or deleting of data.  
 In a relational database, data can be easily modified or deleted. Typically, there are database administrators who may make changes to any part of the data and/or its structure. Additionally, blockchains were designed for decentralized applications, whereas relational databases, in general, were originally designed for centralized applications, where a single entity controls the data.
+
+<!------------------------------------------------------------------------------------------------>
+<!-------------------------- differences between blockchain & databases -------------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
   <img width="66%" src="https://user-images.githubusercontent.com/41387907/138568551-2a6cd403-cc18-43d5-b8f4-e63dee008508.png"
     alt="Differences between blockchain and databases"</>
@@ -197,6 +203,10 @@ In a relational database, data can be easily modified or deleted. Typically, the
 
 **Types of Blockchains**  
 A blockchain can be both permissionless (like Bitcoin or Ethereum) or permissioned (like the different Hyperledger blockchain frameworks). A permissionless blockchain is also known as a public blockchain, because anyone can join the network. A permissioned blockchain, or private blockchain, requires pre-verification of the participating parties within the network, and these parties are usually known to each other.  
+
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------------ types of blockchain --------------------------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
   <img width="66%" src="https://user-images.githubusercontent.com/41387907/138574861-da0c6881-188a-491f-be3c-c9942c522eaa.png"
     alt="Types of blockchain"</>
@@ -211,6 +221,9 @@ Permissionless P2P systems do not require a set amount of peers to be online and
 
 **[`^        back to top        ^`](#table-of-contents)**
 
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------------ peer to peer network -------------------------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
   <img width="66%" src="https://user-images.githubusercontent.com/41387907/138574872-11c869e9-b46a-486a-b5e5-d32cdd861937.png"
     alt="Peer to peer network"</>
@@ -238,6 +251,9 @@ Let's look at an example of how this works. In the following diagram, we see the
 
 **[`^        back to top        ^`](#table-of-contents)**
 
+<!------------------------------------------------------------------------------------------------>
+<!----------------------------------- immutability of data --------------------------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
   <img width="66%" src="https://user-images.githubusercontent.com/41387907/138574881-d72df080-3619-4c0e-adc8-b4f6d761082b.png"
     alt="Immutability of data"</>
@@ -259,6 +275,10 @@ A smart contract is a phrase to describe computer code.
 Today, Ethereum smart contracts are designed to run on all nodes of the Ethereum network.  
 Those smart contracts facilitate the exchange of value, including money, content, property, or shares between a fixed number of parties.  
 Smart contracts are simply computer programs that execute predefined actions when certain conditions within the system are met. Smart contracts provide the language of transactions that allow the ledger state to be modified. They can facilitate the exchange and transfer of anything of value (e.g. shares, money, content, property).
+
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------------- smart contracts ------------------------------------------>
+<!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
   <img width="66%" src="https://user-images.githubusercontent.com/41387907/138574893-8aac4d02-8a64-428b-99c2-999a445dc2ae.png"
     alt="Smart contracts"</>
@@ -268,6 +288,10 @@ Smart contracts are simply computer programs that execute predefined actions whe
 
 With the invention of the peer-to-peer (P2P) cash system known as Bitcoin in 2008, we have an example of a global decentralized payment network with a distributed and publicly-owned infrastructure, operating as a "permissionless" system. There is a persuasive case that Bitcoin is the first "killer application" of decentralized computing. One can send and receive bitcoins anywhere in the world in a completely P2P manner, without having to intermediate through a trusted third party, such as a bank.  
 According to the Coin Market Capitalizations website, as of November 2020, bitcoin's market capitalization (market cap) was over $286 billion.
+
+<!------------------------------------------------------------------------------------------------>
+<!------------------------- bitcoin - a popular blockchain deployment ---------------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
   <img width="66%" src="https://user-images.githubusercontent.com/41387907/138574896-b923c968-2909-4c47-8333-fbe77d089177.png"
        alt="Bitcoin - a popular blockchain deployment"</>
@@ -317,6 +341,10 @@ According to Ethereum's official documentation,
 "Ethereum is an open blockchain platform that lets anyone build and use decentralized applications that run on blockchain technology".  
 The Ethereum blockchain platform facilitates scripting functionality, or "smart contracts", which are run through the nodes in the network. As a result, unlike the Bitcoin blockchain, it does not just track transactions, it also programs them. Technically, Ethereum is a Turing-complete virtual machine with its native cryptocurrency called "ether". The platform was proposed in 2013 in a white paper by the then 19-year old Vitalik Buterin.  
 As of November 2020, Ethereum had a market cap of over $49 billion, making Ether the second most valuable cryptocurrency after Bitcoin.
+
+<!------------------------------------------------------------------------------------------------>
+<!---------------------------- ethereum - an alternative to bitcoin ------------------------------>
+<!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
   <img width="66%" src="https://user-images.githubusercontent.com/41387907/138574908-341e5a60-7337-42d2-9ac5-988144beab2b.png"
     alt="Ethereum - an alternative to bitcoin"</>
@@ -346,6 +374,10 @@ Since they are cryptographically secured, Dapps are referred to as "secure appli
 ### Ethereum Smart Contracts
 A hypothetical example of an Ethereum-based smart contract may involve the following transaction: in an equity raise, transfer amount X from the investor to the company upon receiving the given shares from the company. The monetary amount X, which was pre-validated by the company for the transaction (much like in a credit card purchase), is held in escrow by the smart contract, until the shares have been received by the investor. Any kind of arbitrary sophisticated business logic can be committed to the blockchain. The Ethereum blockchain only encodes these "rules of the games". The actual payoffs occur by interacting with the blockchain.  
 The illustration below describes this process. The smart contract encodes the agreement between the company raising funds and its investors (Panel 1). The smart contract sits on the Ethereum public blockchain, and is run on the Ethereum Virtual Machine (EVM). Once hitting a triggering event, like an expiration date or a strike price that has been pre-coded, the smart contract automatically executes as per the business logic (Panel 2). As an added benefit, regulators are able to scrutinize the market activity on an ongoing basis, without compromising the identity of specific players in a permissionless public blockchain, as Ethereum (Panel 3).
+
+<!------------------------------------------------------------------------------------------------>
+<!--------------------------------- ethereum smart contracts ------------------------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
   <img width="66%" src="https://user-images.githubusercontent.com/41387907/138574916-7517cbeb-780a-48ad-b96c-062caf795147.png"
        alt="Ethereum smart contracts"</>
@@ -435,6 +467,7 @@ Consensus can be implemented in different ways, such as through the use of lotte
 Lottery-based algorithms are advantageous in that they can scale to a large number of nodes.
 Voting-based algorithms provide low-latency finality.
 The following table offers an at-a-glance view of the main considerations and pros and cons of different business blockchain approaches to reaching consensus.
+
 <p align="center" width="100%">
   <img width="66%" src="https://user-images.githubusercontent.com/41387907/138574948-4f8e4a52-b320-41aa-81e9-bc126d649c4e.png"
     alt="Comparing permissed consensus approaches and standard PoW"</>
@@ -457,7 +490,7 @@ Hyperledger blockchains are generally permissioned blockchains, which means that
 If you look at permissionless blockchains, like the Bitcoin blockchain or the Ethereum blockchain, anyone can join the network, as well as write and read transactions. The actors in the system are not known, which means there could be some malicious actors within the network.  
 Hyperledger reduces these security risks and ensures that only the parties that want to transact are the ones that are part of the transaction and, rather than displaying the record of the transactions to the whole network, they remain visible only to the parties involved. So, Hyperledger provides all the capabilities of the blockchain architecture - data privacy, information sharing, immutability, with a full stack of security protocols - all for the enterprise. Permissioned blockchains offer more efficient transaction performance, thus being highly scalable, and have a clearly defined governance structure.
 
-### <a id="ch1-7"></a>1.7 Hyperledger vs. Other Permissioned Ledgers (Brian Behlendorf)
+### <a id="ch1-x"></a>Hyperledger vs. Other Permissioned Ledgers (Brian Behlendorf)
 What makes Hyperledger so unique, compared to other permissioned ledgers?  
 So, Hyperledger is a really unique community in the open source landscape of different blockchain technologies.  
 We kind of model ourselves a little bit after Apache, and some of the other organizations out there that really are communities of communities, right?  
@@ -608,6 +641,7 @@ But, I joined partly because I saw how transparent, and how engaging, even from 
 ### Hyperledger Goals
 Hyperledger has taken a leadership role to develop cross-industry standards and provide a neutral space for software collaboration. The financial services industry, in particular, is witnessing an unprecedented level of collaboration between institutions that have traditionally been competitors. The advent of a new foundational or infrastructural technology like the blockchain - much like the Internet - requires collaboration of various actors in order to realize the full benefits of the technology. Unless all actors use a certain standard, the pace of technological dissemination will continue to be slow. Technological adoption is characterized by network effects, where the costs decrease with the increase in use of a certain technology. Since shifting to distributed ledger technology involves significant costs, open source software, communities and ecosystems that develop around these have a significant part to play.
 Now, let's explore the Hyperledger frameworks (as of November 2020)
+
 <p align="center" width="100%">
   <img width="50%" src="https://user-images.githubusercontent.com/41387907/138575026-76ac68b2-101e-464d-95e7-4f9d122e5ea4.png"
        alt="Hyperledger frameworks (as of November, 2020)"</>

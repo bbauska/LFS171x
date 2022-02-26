@@ -34,22 +34,22 @@ Armed with better information of the blockchain landscape, this program will hel
 >### 2.3 [**Q/A with Brian Behlendorf, Executive Director of Hyperledger**](#ch2-3
 
 ## 3. [**Hyperledger: Distr. Ledger Frameworks & Domain Specific Blockchains**](#ch3)
->### a. [**Introduction and Learning Objectives**](#ch3a)
->### b. [**Hyperledger Frameworks**](#ch3b)
->### c. [**Hyperledger: Domain-Specific Blockchain Technologies**](#ch3c)
+>### 3.1 [**Introduction and Learning Objectives**](#ch3-1)
+>### 3.2 [**Hyperledger Frameworks**](#ch3-2)
+>### 3.3 [**Hyperledger: Domain-Specific Blockchain Technologies**](#ch3-3)
 
 ## 4. [**Hyperledger Tools**](#ch4)
->### a. [**Introduction and Learning Objectives**](#ch4a)
->### b. [**Hyperledger Tools**](#ch4b)
+>### 4.1 [**Introduction and Learning Objectives**](#ch4-1)
+>### 4.2 [**Hyperledger Tools**](#ch4-2)
 
 ## 5. [**Hyperledger Libraries**](#ch5)
->### a. [**Introduction and Learning Objectives**](#ch5a)
->### b. [**Hyperledger Libraries**](#ch5b)
+>### 5. [**Introduction and Learning Objectives**](#ch5-1)
+>### b. [**Hyperledger Libraries**](#ch5-2)
 
 ## 6. [**The Promise of Business Blockchain Technologies**](#ch6)
->### a. [**Introduction and Learning Objectives**](#ch6a)
->### b. [**Existing Hyperledger Blockchain Use Cases**](#ch6b)
->### c. [**When to Use or Not to Use Blockchain Technologies**](#ch6c)
+>### 6.1 [**Introduction and Learning Objectives**](#ch6-1)
+>### 6.2 [**Existing Hyperledger Blockchain Use Cases**](#ch6-2)
+>### 6.3 [**When to Use or Not to Use Blockchain Technologies**](#ch6-3)
 
 ---
 
@@ -121,7 +121,8 @@ A Bitcoin block consists of four pieces of metadata:
 4. The Merkle tree root for the transactions included in this block (Merkle tree is explained next).
 
 ### Merkle Tree
-The Merkle tree, also known as a binary hash tree, is a data structure that is used to store hashes of the individual data in large datasets in a way to make the verification of the dataset efficient. It is an anti-tamper mechanism to ensure that the large dataset has not been changed. The word "tree" is used to refer to a branching data structure in computer science, as seen in the image below. According to Andreas M. Antonopoulos, in the Bitcoin protocol,  
+The Merkle tree, also known as a binary hash tree, is a data structure that is used to store hashes of the individual data in large datasets in a way to make the verification of the dataset efficient. It is an anti-tamper mechanism to ensure that the large dataset has not been changed. The word "tree" is used to refer to a branching data structure in computer science, as seen in the image below. According to Andrea
+s M. Antonopoulos, in the Bitcoin protocol,  
 "Merkle trees are used to summarize all the transactions in a block, producing an overall digital fingerprint of the entire set of transactions, providing a very efficient process to verify whether a transaction is included in a block".
 <p align="center" width="100%">
   <img width="66%" src="https://user-images.githubusercontent.com/41387907/138568538-44ec3e90-eca6-4137-99d3-e1462ac29ec5.png"
@@ -1446,7 +1447,7 @@ By the end of this chapter, you should be able to:
   * Discover the factors to look at when evaluating if blockchain technology is right for a particular project,
   * Decide when to use and when not to use blockchain technology.
 
-#### <a id="ch6a"></a> Business Blockchain Technologies Overview
+#### <a id="ch6-1"></a> Business Blockchain Technologies Overview
 Blockchain is a data structure with an automated way to enforce trust among participants.
 Consensus algorithms ensure that all participants agree on the data stored within the blockchain.
 Blockchain opens the door to disrupt any industry that relies on a central authority to confirm authenticity.
@@ -1497,7 +1498,7 @@ From smart companies, to smart cities, to smart energy management, to streamlini
 
 **[`^        back to top        ^`](#table-of-contents)**
 
-### <a id="ch6b"></a>Blockchain Use Case (Brian Behlendorf)
+### <a id="ch6-2"></a>Blockchain Use Case (Brian Behlendorf)
 What is your favorite blockchain use case?  
 So, you know, what gets me up in the morning isn't so much making Wall Street, you know, a few milliseconds faster or...  
 I mean, to some degree, it's nice to be able to talk about, you know, bank payments taking five minutes, rather than three days, okay?  
@@ -1770,7 +1771,7 @@ What advantages would businesses have by adopting blockchain technologies? The K
 
 **[`^        back to top        ^`](#table-of-contents)**
 
-### <a id="ch6c"></a>What Enterprises Look for When Evaluating Whether or Not to Use Hyperledger (Brian Behlendorf)
+### <a id="ch6-3"></a>What Enterprises Look for When Evaluating Whether or Not to Use Hyperledger (Brian Behlendorf)
 
 #### What should an enterprise look for when evaluating whether or not to use Hyperledger?
 So, I always try to start... suggest that people start with the business need, right, trying to look at what are you doing in your enterprise, and probably, it will mean what are you doing with your business partners, with your suppliers, with your customers, maybe even with your competitors, right?  
@@ -2384,7 +2385,7 @@ By the end of this chapter, you should be able to:
   * Discover the factors to look at when evaluating if blockchain technology is right for a particular project,
   * Decide when to use and when not to use blockchain technology.
 
-#### <a id="ch6a"></a> Business Blockchain Technologies Overview
+#### <a id="ch6-1"></a> Business Blockchain Technologies Overview
 Blockchain is a data structure with an automated way to enforce trust among participants. Consensus algorithms ensure that all participants agree on the data stored within the blockchain. Blockchain opens the door to disrupt any industry that relies on a central authority to confirm authenticity. It also allows independent, and even competing organizations, to share information to gain efficiencies across an industry.  
 In permissioned blockchains, a consortium of organizations are responsible for authenticating and controlling the participants in a blockchain. In public blockchains, no central authority or administration is required to exchange data. Blockchains can drive business innovation through controlled data-sharing networks for industry consortiums.  
 The promise of distributed ledger technologies (DLT) to simplify and automate key work functions has many industries taking notice. Businesses recognize the efficiency gains from transitioning from closed and proprietary solutions to standard open source capabilities, such as Hyperledger business blockchain technologies. Several common project features of blockchain applications are taking shape as the technology matures.  
@@ -2426,7 +2427,7 @@ From smart companies, to smart cities, to smart energy management, to streamlini
 
 **[`^        back to top        ^`](#table-of-contents)**
 
-### <a id="ch6b"></a>Blockchain Use Case (Brian Behlendorf)
+### <a id="ch6-2"></a>Blockchain Use Case (Brian Behlendorf)
 What is your favorite blockchain use case?  
 So, you know, what gets me up in the morning isn't so much making Wall Street, you know, a few milliseconds faster or...  
 I mean, to some degree, it's nice to be able to talk about, you know, bank payments taking five minutes, rather than three days, okay?  

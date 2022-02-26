@@ -43,8 +43,8 @@ Armed with better information of the blockchain landscape, this program will hel
 >### 4.2 [**Hyperledger Tools**](#ch4-2)
 
 ## 5. [**Hyperledger Libraries**](#ch5)
->### 5. [**Introduction and Learning Objectives**](#ch5-1)
->### b. [**Hyperledger Libraries**](#ch5-2)
+>### 5.1 [**Introduction and Learning Objectives**](#ch5-1)
+>### 5.2 [**Hyperledger Libraries**](#ch5-2)
 
 ## 6. [**The Promise of Business Blockchain Technologies**](#ch6)
 >### 6.1 [**Introduction and Learning Objectives**](#ch6-1)
@@ -928,7 +928,7 @@ So, I think we'll see more activity like that.
 ## <a id="ch3"></a>Chapter 3: Hyperledger: Distributed Ledger Frameworks and Domain Specific Blockchains
 In this chapter, we will briefly explore the frameworks developed under the Hyperledger umbrella (as of November 2020), highlighting their key features and use cases. We will dive deeper in discussing use cases in the last chapter of this course.
 
-### <a id="ch3a"></a>Learning Objectives
+### <a id="ch3-1"></a>3.1 Learning Objectives
 By the end of this chapter, you should be able to:
   * List the components of Hyperledger frameworks.
   * Get a high-level understanding of the Hyperledger frameworks and domain-specific blockchain technologies: 
@@ -979,7 +979,7 @@ Among its features:
 
 **[`^        back to top        ^`](#table-of-contents)**
 
-### <a id="ch3b"></a>Hyperledger Burrow
+### <a id="ch3-2"></a>3.2 Hyperledger Frameworks: Burrow
 
 <p align="center" width="100%">
   <img width="50%" src="https://user-images.githubusercontent.com/41387907/138575472-9d1aec50-3591-4324-9f5c-0973a32809dc.png"
@@ -1224,7 +1224,7 @@ You can learn more about Hyperledger Grid from its website and wiki pages, where
 ## <a id="ch4"></a>Chapter 4: Hyperledger Tools
 The Hyperledger frameworks which we examined in the previous chapter are used to build blockchains and distributed ledgers. The Hyperledger tools, which we will look at next, are auxiliary softwares used for things like deploying and maintaining blockchains, examining the data on the ledgers, as well as tools to design, prototype, and extend blockchain networks.
 
-### Learning Objectives
+### <a id="ch4-1"></a>4.1 Learning Objectives
 By the end of this chapter, you should be able to:
 
 *   Understand the role of Hyperledger tools.
@@ -1232,7 +1232,7 @@ By the end of this chapter, you should be able to:
 
 **[`^        back to top        ^`](#table-of-contents)**
 
-### Hyperledger `Avalon`
+### <a id="ch4-2"></a>4.2 Hyperledger Tools: `Avalon`
 <p align="center" width="100%">
   <img width="50%" src="https://user-images.githubusercontent.com/41387907/138575551-ce0c30a8-ebb3-486d-85d8-98f383cf0414.png"
        alt="Hyperledger 'Avalon'"</>
@@ -1332,14 +1332,14 @@ Hyperledger Explorer supports Hyperledger Fabric and Hyperledger Iroha.
 ## <a id="ch5"></a>Chapter 5: Hyperledger Libraries
 In the previous chapter we looked at the Hyperledger tools, which are auxiliary softwares used for things like deploying and maintaining blockchains, examining the data on the ledgers, as well as tools to design, prototype, and extend blockchain networks. In this chapter we will take a look at the Hyperledger libraries for enterprise-grade blockchain deployments.
 
-#### Learning Objectives
+#### <a id="ch5-1"></a>5.1 Learning Objectives
 By the end of this chapter, you should be able to:
   * Understand the role of Hyperledger libraries.
   * Get a high-level understanding of the Hyperledger libraries (as of November 2020): Hyperledger Aries, Hyperledger Quilt, Hyperledger Transact, and Hyperledger Ursa.
 
 **[`^        back to top        ^`](#table-of-contents)**
 
-### Hyperledger `Aries`
+### <a id="ch5-2"></a>5.2 Hyperledger Libraries: `Aries`
 <p align="center" width="100%">
   <img width="50%" src="https://user-images.githubusercontent.com/41387907/138575614-766de503-e703-4de7-9608-46e3b8d8a8e9.png"
        alt="Hyperledger 'Aries'"</>
@@ -1945,7 +1945,7 @@ Among its features:
 
 **[`^        back to top        ^`](#table-of-contents)**
 
-### <a id="ch3b"></a>Hyperledger Burrow
+### <a id="ch3-2"></a>3.2 Hyperledger Burrow
 
 <p align="center" width="100%">
   <img width="50%" src="https://user-images.githubusercontent.com/41387907/138575472-9d1aec50-3591-4324-9f5c-0973a32809dc.png"

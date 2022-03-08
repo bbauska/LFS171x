@@ -2134,7 +2134,7 @@ Hyperledger Iroha is an active project, and reached a significant milestone in M
 
 ### Hyperledger `Sawtooth`
 <p align="center" width="100%">
-  <img width="50%" src="https://user-images.githubusercontent.com/41387907/138575534-bf8c8a84-4c23-472c-9e07-6668e789540f.png"
+  <img width="50%" height="25%" src="https://user-images.githubusercontent.com/41387907/138575534-bf8c8a84-4c23-472c-9e07-6668e789540f.png"
        alt="Hyperledger 'Sawtooth'"</>
 </p>
 Welcome to the Hyperledger greenhouse, an open source consortium for developing business blockchain technologies hosted by the Linux Foundation.  
@@ -2341,7 +2341,7 @@ By the end of this chapter, you should be able to:
 
 ### Hyperledger `Aries`
 <p align="center" width="100%">
-  <img width="50%" src="https://user-images.githubusercontent.com/41387907/138575614-766de503-e703-4de7-9608-46e3b8d8a8e9.png"
+  <img width="50%" height="25%" src="https://user-images.githubusercontent.com/41387907/138575614-766de503-e703-4de7-9608-46e3b8d8a8e9.png"
        alt="Hyperledger 'Aries'"</>
 </p>
 Hyperledger Aries "provides a shared, reusable, and interoperable tool kit designed for initiatives and solutions focused on creating, transmitting and storing verifiable digital credentials. It is infrastructure for blockchain-rooted, peer-to-peer interactions; it's not a blockchain and it's not an application. This open source project joined the Hyperledger greenhouse in May 2019 and was initially contributed by developers from the Sovrin Foundation, the Government of British Columbia, and other Indy community developers.

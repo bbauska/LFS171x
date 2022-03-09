@@ -609,6 +609,7 @@ So, Hyperledger provides all the capabilities of blockchain architecture, data p
 ### <a id="ch2-2"></a>2.2 Hyperledger
 Hyperledger incubates and promotes a range of business blockchain technologies, including distributed ledger frameworks, smart contract engines, client libraries, graphical interfaces, utility libraries, and sample applications. Hosted by The Linux Foundation, collaborators include industry leaders in technology, finance, banking, supply chain management, manufacturing, and IoT.  
 As of November 2020, there are 16 projects in the Hyperledger greenhouse, six of which are distributed ledger and domain specific frameworks. The other 10 projects are tools and libraries that support these frameworks.
+
 <p align="center" width="100%">
   <img width="50%" src="https://user-images.githubusercontent.com/41387907/138575021-89ffa40e-3a0a-4fae-a1a4-55b31e472350.png"
        alt="Hyperledger"</>

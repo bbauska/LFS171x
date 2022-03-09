@@ -33,7 +33,7 @@ Armed with better information of the blockchain landscape, this program will hel
 ## 2. [**Introduction to Hyperledger**](#ch2)
 >### 2.1 [**Introduction & Learning Objectives**](#ch2-1)
 >### 2.2 [**Hyperledger**](#ch2-2)
->### 2.3 [**Q/A with Brian Behlendorf, Executive Director of Hyperledger**](#ch2-3
+>### 2.3 [**Q/A with Brian Behlendorf, Executive Director of Hyperledger**](#ch2-3)
 
 ## 3. [**Hyperledger: Distr. Ledger Frameworks & Domain Specific Blockchains**](#ch3)
 >### 3.1 [**Introduction and Learning Objectives**](#ch3-1)
@@ -619,7 +619,7 @@ Hyperledger incubates and promotes a range of business blockchain technologies, 
 As of November 2020, there are 16 projects in the Hyperledger greenhouse, six of which are distributed ledger and domain specific frameworks. The other 10 projects are tools and libraries that support these frameworks.
 
 <p align="center" width="100%">
-  <img width="50%" src="https://user-images.githubusercontent.com/41387907/138575021-89ffa40e-3a0a-4fae-a1a4-55b31e472350.png"
+  <img width="100%" src="https://user-images.githubusercontent.com/41387907/138575021-89ffa40e-3a0a-4fae-a1a4-55b31e472350.png"
        alt="Hyperledger"</>
 </p>
 As Arnaud Le Hors, member of the Hyperledger Technical Steering Committee, emphasized,  
@@ -1382,9 +1382,9 @@ By the end of this chapter, you should be able to:
 
 **[`^        back to top        ^`](#table-of-contents)**
 
-### <a id="ch5-2"></a>5.2 Hyperledger Libraries: `Aries`
+### <a id="ch5-2"></a>5.2 Hyperledger `Aries`
 <p align="center" width="100%">
-  <img width="50%" src="https://user-images.githubusercontent.com/41387907/138575614-766de503-e703-4de7-9608-46e3b8d8a8e9.png"
+  <img width="50%;height=10%" src="https://user-images.githubusercontent.com/41387907/138575614-766de503-e703-4de7-9608-46e3b8d8a8e9.png"
        alt="Hyperledger 'Aries'"</>
 </p>
 Hyperledger Aries "provides a shared, reusable, and interoperable tool kit designed for initiatives and solutions focused on creating, transmitting and storing verifiable digital credentials. It is infrastructure for blockchain-rooted, peer-to-peer interactions; it's not a blockchain and it's not an application. This open source project joined the Hyperledger greenhouse in May 2019 and was initially contributed by developers from the Sovrin Foundation, the Government of British Columbia, and other Indy community developers.

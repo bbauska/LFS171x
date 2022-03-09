@@ -1,4 +1,4 @@
-<!------------------------------------------------------------------------------------------------>
+1<!------------------------------------------------------------------------------------------------>
 <!------------------------------- readme.md of LFS171x.bauska.site ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 ## LFS171x - Linux Foundation
@@ -59,49 +59,51 @@ Armed with better information of the blockchain landscape, this program will hel
 
 
 ## <a id="ch1"></a>Chapter 1. Discovering Blockchain Technologies
-A Word from Brian Behlendorf, Executive Director at Hyperledger  
+### A Word from Brian Behlendorf, Executive Director at Hyperledger  
 Hi, I'm Brian Behlendorf. I'm Executive Director of Hyperledger, a collaborative project hosted at the Linux Foundation.  
 I want to welcome you to the first ever training course for Hyperledger and our related technology projects.  
 Hyperledger is really the first series of projects focused on enterprise blockchain applications.  
 And that means using distributed ledger technologies in a permissioned setting, it means using smart contracts to automate various business processes, and it means building a really exciting new world of secure, trustworthy information systems and automation of business processes.  
 In this course, you'll learn about these different projects.  
 This course is designed for people on the full spectrum, from working on purely as a software developer, all the way to those who just really want a business level understanding of what these technologies can accomplish, and what are the kinds of use cases that you might apply this to.  
-So, this is really designed for the full breadth of those technologies  
+This is really designed for the full breadth of those technologies.  
 
 ### <a id="ch1-1"></a>1.1 Introduction & Learning Objectives
 Chapter 1 introduces the building blocks of distributed ledger technologies, including blockchains. It lays the foundation for an in-depth understanding of the content that follows in the course. You should engage with the content in this chapter both to learn, as well as brush up your blockchain knowledge.
 
 By the end of this chapter, you should be able to:
-1. Explain the concepts of blockchain and distributed ledger technologies (DLT).
-2. Explore permissioned and permissionless blockchains and their key characteristics.
-3. Discuss various components of distributed ledger technologies, including consensus algorithms and smart contracts.
-4. Provide a high-level explanation of what Hyperledger is.
+  - Explain the concepts of blockchain and distributed ledger technologies (DLT),
+  - Explore permissioned and permissionless blockchains and their key characteristics,
+  - Discuss various components of distributed ledger technologies, including consensus algorithms and smart contracts,
+  - Provide a high-level explanation of what Hyperledger is.
 
 ### <a id="ch1-2"></a>1.2 Distributed Ledger Technology (DLT)
-Background - The Rising Interest in Distributed Ledger Technologies  
-Looking back to the last half century of computer technologies and architectures, you may observe a trend of fluctuation between the centralization and subsequent decentralization of computing power, storage, infrastructure, protocols, and code.  
-Mainframe computers are largely centralized. They typically house all computing power, memory, data storage, and code. Access to mainframes is mainly by "dumb terminals", which only take inputs and outputs, and do not store or process data.  
-With the advent of personal computers and private networks, similar computational capabilities were now housed both on the clients, as well as the servers. 
+#### Background - The Rising Interest in Distributed Ledger Technologies  
+Looking back to the last half century of computer technologies and architectures, you may observe a trend of fluctuation between the centralization and subsequent decentralization of computing power, storage, infrastructure, protocols, and code.  <b/>
+Mainframe computers are largely centralized. They typically house all computing power, memory, data storage, and code. Access to mainframes is mainly by "dumb terminals", which only take inputs and outputs, and do not store or process data.  <b/>
+With the advent of personal computers and private networks, similar computational capabilities were now housed both on the clients, as well as the servers.<b/>
 This, in part, gave rise to the "client-server" architecture, which supported the development of relational database systems. 
 Massive data sets, which are housed on mainframes, could move onto a distributed architecture. 
-This data could replicate from server to server, and subsets of the data could be accessed and processed on clients, and then, synced back to the server.
+This data could replicate from server to server, and subsets of the data could be accessed and processed on clients, and then, synced back to the server.<b/>
 
 **[`^        back to top        ^`](#table-of-contents)**
 
-Over time, Internet and cloud computing architectures enabled global access from a variety of computing devices; whereas mainframes were largely designed to address the needs of large corporations and governments. 
-Even though this "cloud architecture" is decentralized in terms of hardware, it has given rise to application-level centralization (e.g. Facebook, Twitter, Google, etc.).  
-Currently, we are witnessing the transition from centralized computing, storage, and processing to decentralized architectures and systems. 
+Over time, Internet and cloud computing architectures enabled global access from a variety of computing devices; whereas mainframes were largely designed to address the needs of large corporations and governments. <b/>
+Even though this "cloud architecture" is decentralized in terms of hardware, it has given rise to application-level centralization (e.g. Facebook, Twitter, Google, etc.).  <b/>
+Currently, we are witnessing the transition from centralized computing, storage, and processing to decentralized architectures and systems. <b/>
 According to Muneeb Ali, these systems aim to
-> "give explicit control of digital assets to end-users and remove the need to trust any third-party servers and infrastructure".  
-Distributed ledger technology is one of the key innovations making this shift possible.  
-A distributed ledger is a type of data structure which resides across multiple computer devices, generally spread across locations or regions.  
-Distributed ledger technology (DLT) includes blockchain technologies and smart contracts. While distributed ledgers existed prior to Bitcoin, the Bitcoin blockchain marks the convergence of a host of technologies, including timestamping of transactions, Peer-to-Peer (P2P) networks, cryptography, and shared computational power, along with a new consensus algorithm.
-
+<blockquote>
+"give explicit control of digital assets to end-users and remove the need to trust any third-party servers and infrastructure".
+</blockquote>
+Distributed ledger technology is one of the key innovations making this shift possible.  <b/>
+A distributed ledger is a type of data structure which resides across multiple computer devices, generally spread across locations or regions.  <b/>
+Distributed ledger technology (DLT) includes blockchain technologies and smart contracts.<b/>
+While distributed ledgers existed prior to Bitcoin, the Bitcoin blockchain marks the convergence of a host of technologies, including timestamping of transactions, Peer-to-Peer (P2P) networks, cryptography, and shared computational power, along with a new consensus algorithm.<b/>
 In summary, **distributed ledger technology (dlt)** generally consists of three basic components:
 
-1.  A data model that captures the current state of the ledger
-2.  A language of transactions that changes the ledger state
-3.  A protocol used to build consensus among participants around which transactions will be accepted, and in what order, by the ledger.
+  1.  A data model that captures the current state of the ledger,
+  2.  A language of transactions that changes the ledger state,
+  3.  A protocol used to build consensus among participants around which transactions will be accepted, and in what order, by the ledger.
 
 **[`^        back to top        ^`](#table-of-contents)**
 
@@ -110,27 +112,31 @@ According to hyperledger.org,
 <blockquote>
 "A blockchain is a peer-to-peer distributed ledger forged by consensus, combined with a system for "smart contracts" and other assistive technologies. Together these can be used to build a new generation of transactional applications that establishes trust, accountability, and transparency at their core, while streamlining business processes and legal constraints."  
 </blockquote>
-Smart contracts are simply computer programs that execute predefined actions when certain conditions within the system are met.  
-Consensus refers to a system of ensuring that parties agree to a certain state of the system as the true state.  
-Blockchain is a specific form or subset of distributed ledger technologies (DLTs), which constructs a chronological chain of blocks, hence the name "block-chain". Examples of other DLTs are Chain Core, Corda, Quorum, and IOTA. They will be covered later in this chapter.  
-A block refers to a set of transactions that are bundled together and added to the chain at the same time.  
-Timestamping is another key feature of blockchain technology. Each block is timestamped, with each new block referring to the previous block. Combined with cryptographic hashes, this timestamped chain of blocks provides an immutable record of all transactions in the network, from the very first (or genesis) block.  
-In the Bitcoin blockchain, the miner nodes bundle unconfirmed and valid transactions into a block. Each block contains a given number of transactions. In the Bitcoin network, miners must solve a cryptographic challenge to propose the next block. This process is known as "proof of work", and requires significant computing power. We shall discuss proof of work in more detail in the Consensus Algorithms section. For more information about blockchain technology, please read the following article: "A Brief History of Blockchain" by Vinay Gupta.  
+Smart contracts are simply computer programs that execute predefined actions when certain conditions within the system are met.  <b/>
+Consensus refers to a system of ensuring that parties agree to a certain state of the system as the true state.  <b/>
+Blockchain is a specific form or subset of distributed ledger technologies (DLTs), which constructs a chronological chain of blocks, hence the name "block-chain". <b/>
+Examples of other DLTs are Chain Core, Corda, Quorum, and IOTA. They will be covered later in this chapter.  <b/>
+A block refers to a set of transactions that are bundled together and added to the chain at the same time.  <b/>
+Timestamping is another key feature of blockchain technology. Each block is timestamped, with each new block referring to the previous block. Combined with cryptographic hashes, this timestamped chain of blocks provides an immutable record of all transactions in the network, from the very first (or genesis) block.  <b/>
+In the Bitcoin blockchain, the miner nodes bundle unconfirmed and valid transactions into a block. Each block contains a given number of transactions. In the Bitcoin network, miners must solve a cryptographic challenge to propose the next block. This process is known as "proof of work", and requires significant computing power. We shall discuss proof of work in more detail in the Consensus Algorithms section. For more information about blockchain technology, please read the following article: "A Brief History of Blockchain" by Vinay Gupta.  <b/>
 A Bitcoin block consists of four pieces of metadata:
-1. The reference to the previous block
-2. The proof of work, also known as a nonce
-3. The timestamp
-4. The Merkle tree root for the transactions included in this block (Merkle tree is explained next).
+  1. The **reference** to the previous block,
+  2. The proof of work, also known as a **nonce**,
+  3. The **timestamp**,
+  4. The **Merkle tree root** for the transactions included in this block (Merkle tree is explained next).
 
 ### Merkle Tree
-The Merkle tree, also known as a binary hash tree, is a data structure that is used to store hashes of the individual data in large datasets in a way to make the verification of the dataset efficient. It is an anti-tamper mechanism to ensure that the large dataset has not been changed. The word "tree" is used to refer to a branching data structure in computer science, as seen in the image below. According to Andrea
-s M. Antonopoulos, in the Bitcoin protocol,  
+The Merkle tree, also known as a binary hash tree, is a data structure that is used to store hashes of the individual data in large datasets in a way to make the verification of the dataset efficient. It is an anti-tamper mechanism to ensure that the large dataset has not been changed. The word "tree" is used to refer to a branching data structure in computer science, as seen in the image below. <b/>
+According to Andreas M. Antonopoulos, in the Bitcoin protocol,  <b/>
+<blockquote>
 "Merkle trees are used to summarize all the transactions in a block, producing an overall digital fingerprint of the entire set of transactions, providing a very efficient process to verify whether a transaction is included in a block".
+</blockquote>
 <p align="center" width="100%">
   <img width="66%" src="https://user-images.githubusercontent.com/41387907/138568538-44ec3e90-eca6-4137-99d3-e1462ac29ec5.png"
     alt="Merkle tree"</>
 </p>
-**Bitcoin Block Data**  
+
+### **Bitcoin Block Data**  
 (licensed under Creative Commons Attribution-Share-Alike 3.0 Unported, retrieved from Wikipedia)
 
 **[`^        back to top        ^`](#table-of-contents)**
@@ -472,6 +478,7 @@ The following table offers an at-a-glance view of the main considerations and pr
   <img width="66%" src="https://user-images.githubusercontent.com/41387907/138574948-4f8e4a52-b320-41aa-81e9-bc126d649c4e.png"
     alt="Comparing permissed consensus approaches and standard PoW"</>
 </p>
+
 ## <a id="ch1-6"></a>1.6 Hyperledger
 Hyperledger is an open source effort created to advance cross-industry blockchain technologies.
 Hosted by The Linux Foundation, it is a global collaboration of members from various industries, including finance, banking, Internet of Things (IoT), supply chain, manufacturing, healthcare and more.
@@ -738,7 +745,7 @@ Dan Middleton, All Are Welcome Here (2018)
 
 **[`^        back to top        ^`](#table-of-contents)**
 
-### <a id="ch1-7"></a>1.7 Blockchain Security at Hyperledger (David Huseby)
+### <a id="ch1-7"></a>1.7 Other Open Source Permissioned Distributed Ledgers (David Huseby)
 So, security with distributed ledgers really begins here at Hyperledger with our culture of secure software development.  
 Every aspect of the software, from development, through testing, through bug fixing, and vulnerability resolution, it's done in a completely open process.  
 It's open to anybody to participate.  

@@ -79,12 +79,13 @@ By the end of this chapter, you should be able to:
 
 ### <a id="ch1-2"></a>1.2 Distributed Ledger Technology (DLT)
 #### Background - The Rising Interest in Distributed Ledger Technologies
-Looking back to the last half century of computer technologies and architectures, you may observe a trend of fluctuation between the centralization and subsequent decentralization of computing power, storage, infrastructure, protocols, and code.<b/>
-Mainframe computers are largely centralized. They typically house all computing power, memory, data storage, and code. Access to mainframes is mainly by "dumb terminals", which only take inputs and outputs, and do not store or process data.<b/>
-With the advent of personal computers and private networks, similar computational capabilities were now housed both on the clients, as well as the servers.<b/>
+Looking back to the last half century of computer technologies and architectures, you may observe a trend of fluctuation between the centralization and subsequent decentralization of computing power, storage, infrastructure, protocols, and code. <b/>
+
+Mainframe computers are largely centralized. They typically house all computing power, memory, data storage, and code. Access to mainframes is mainly by "dumb terminals", which only take inputs and outputs, and do not store or process data. <b/>
+With the advent of personal computers and private networks, similar computational capabilities were now housed both on the clients, as well as the servers. <b/>
 This, in part, gave rise to the "client-server" architecture, which supported the development of relational database systems. 
 Massive data sets, which are housed on mainframes, could move onto a distributed architecture. 
-This data could replicate from server to server, and subsets of the data could be accessed and processed on clients, and then, synced back to the server.<b/>
+This data could replicate from server to server, and subsets of the data could be accessed and processed on clients, and then, synced back to the server. <b/>
 
 **[`^        back to top        ^`](#table-of-contents)**
 

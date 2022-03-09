@@ -1,4 +1,4 @@
-1<!------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------>
 <!------------------------------- readme.md of LFS171x.bauska.site ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 ## LFS171x - Linux Foundation
@@ -78,9 +78,9 @@ By the end of this chapter, you should be able to:
   - Provide a high-level explanation of what Hyperledger is.
 
 ### <a id="ch1-2"></a>1.2 Distributed Ledger Technology (DLT)
-#### Background - The Rising Interest in Distributed Ledger Technologies  
-Looking back to the last half century of computer technologies and architectures, you may observe a trend of fluctuation between the centralization and subsequent decentralization of computing power, storage, infrastructure, protocols, and code.  <b/>
-Mainframe computers are largely centralized. They typically house all computing power, memory, data storage, and code. Access to mainframes is mainly by "dumb terminals", which only take inputs and outputs, and do not store or process data.  <b/>
+#### Background - The Rising Interest in Distributed Ledger Technologies
+Looking back to the last half century of computer technologies and architectures, you may observe a trend of fluctuation between the centralization and subsequent decentralization of computing power, storage, infrastructure, protocols, and code.<b/>
+Mainframe computers are largely centralized. They typically house all computing power, memory, data storage, and code. Access to mainframes is mainly by "dumb terminals", which only take inputs and outputs, and do not store or process data.<b/>
 With the advent of personal computers and private networks, similar computational capabilities were now housed both on the clients, as well as the servers.<b/>
 This, in part, gave rise to the "client-server" architecture, which supported the development of relational database systems. 
 Massive data sets, which are housed on mainframes, could move onto a distributed architecture. 
@@ -101,9 +101,9 @@ Distributed ledger technology (DLT) includes blockchain technologies and smart c
 While distributed ledgers existed prior to Bitcoin, the Bitcoin blockchain marks the convergence of a host of technologies, including timestamping of transactions, Peer-to-Peer (P2P) networks, cryptography, and shared computational power, along with a new consensus algorithm.<b/>
 In summary, **distributed ledger technology (dlt)** generally consists of three basic components:
 
-  1.  A data model that captures the current state of the ledger,
-  2.  A language of transactions that changes the ledger state,
-  3.  A protocol used to build consensus among participants around which transactions will be accepted, and in what order, by the ledger.
+  1. A data model that captures the current state of the ledger,
+  2. A language of transactions that changes the ledger state,
+  3. A protocol used to build consensus among participants around which transactions will be accepted, and in what order, by the ledger.
 
 **[`^        back to top        ^`](#table-of-contents)**
 

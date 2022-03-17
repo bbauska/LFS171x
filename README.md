@@ -7,7 +7,8 @@
 <!----------------------------------------- linux logo ------------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-  <img width="50%" src="https://user-images.githubusercontent.com/41387907/138567819-bfda7273-5457-4e5e-89b6-104d5356f46a.png"
+<img src="/images/image001.jpg?raw=true"
+	width="50%" 
     alt="Linux logo"</>
 </p>
 
@@ -132,9 +133,14 @@ According to Andreas M. Antonopoulos, in the Bitcoin protocol,  <b/>
 <blockquote>
 "Merkle trees are used to summarize all the transactions in a block, producing an overall digital fingerprint of the entire set of transactions, providing a very efficient process to verify whether a transaction is included in a block".
 </blockquote>
+
+<!------------------------------------------------------------------------------------------------>
+<!----------------------------------------- merkle tree ------------------------------------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-  <img width="66%" src="https://user-images.githubusercontent.com/41387907/138568538-44ec3e90-eca6-4137-99d3-e1462ac29ec5.png"
-    alt="Merkle tree"</>
+<img src="/images/image002.png?raw=true"
+	width="66%" 
+    alt="Merkle Tree"</>
 </p>
 
 ### **Bitcoin Block Data**  
@@ -204,8 +210,9 @@ In a relational database, data can be easily modified or deleted. Typically, the
 <!-------------------------- differences between blockchain & databases -------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-  <img width="66%" src="https://user-images.githubusercontent.com/41387907/138568551-2a6cd403-cc18-43d5-b8f4-e63dee008508.png"
-    alt="Differences between blockchain and databases"</>
+<img src="/images/image003.png?raw=true"
+	width="66%" 
+    alt="Differences Between Blockchain and Databases"</>
 </p>
 
 **Types of Blockchains**  
@@ -215,9 +222,11 @@ A blockchain can be both permissionless (like Bitcoin or Ethereum) or permission
 <!------------------------------------ types of blockchain --------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-  <img width="66%" src="https://user-images.githubusercontent.com/41387907/138574861-da0c6881-188a-491f-be3c-c9942c522eaa.png"
+<img src="/images/image004.png?raw=true"
+	width="66%" 
     alt="Types of blockchain"</>
 </p>
+
 The choice between permissionless versus permissioned blockchains should be driven by the particular application at hand (or use case). Most enterprise use cases involve extensive vetting before parties agree to do business with each other. An example where a number of businesses exchange information is supply chain management. The supply chain management is an ideal use case for permissioned blockchains. You would only want trusted parties participating in the network. Each participant that is involved in the supply chain would require permissions to execute transactions on the blockchain. These transactions would allow other companies to understand where in the supply chain a particular item is.  
 On the contrary, when a network can "commoditize" trust, facilitating parties to transact without necessarily having to verify each other's identity, like the Bitcoin blockchain, a permissionless blockchain is more suitable. Many of these instances involve the sale or distribution to the public. Cryptocurrencies and Initial Coin Offerings (which are not backed by national governments) usually involve implementations of permissionless blockchains.  
 You will learn about a variety of use cases in Chapter 6, "The Promise of Business Blockchain Technologies".  
@@ -232,9 +241,11 @@ Permissionless P2P systems do not require a set amount of peers to be online and
 <!------------------------------------ peer to peer network -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-  <img width="66%" src="https://user-images.githubusercontent.com/41387907/138574872-11c869e9-b46a-486a-b5e5-d32cdd861937.png"
+<img src="/images/image005.png?raw=true"
+	width="66%" 
     alt="Peer to peer network"</>
 </p>
+
 **Peer-to-Peer Networks (Robert Schwentker)**  
 What is a Peer-to-Peer network, and how do peers come to agreement about what is on the blockchain?  
 A blockchain network is a group of computers that informally are organized in a Peer-to-Peer architecture.  
@@ -262,7 +273,8 @@ Let's look at an example of how this works. In the following diagram, we see the
 <!----------------------------------- immutability of data --------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-  <img width="66%" src="https://user-images.githubusercontent.com/41387907/138574881-d72df080-3619-4c0e-adc8-b4f6d761082b.png"
+<img src="/images/image006.png?raw=true"
+	width="50%" 
     alt="Immutability of data"</>
 </p>
 
@@ -567,7 +579,7 @@ Since we are still witnessing the early days of blockchain technology, there is 
 As a result, the International Organization for Standardization for Blockchain and Distributed Ledger Technologies was established in 2016 and has defined areas for future standardization work (Clare Naden, 2017). More about the ISO/TC 307 technical committee can be found at the ISO/TC 307 website.
 <p align="center" width="100%">
   <img width="50%" src="https://user-images.githubusercontent.com/41387907/138574995-d5b3afa4-dcd0-4caf-9533-52f0ec24999d.png"
-       alt="I don't know"</>
+       alt="Standards Role in Supporting Blockchain/DLT"</>
 </p>
 ### Regulation
 The lack of regulation around transactions on the blockchain creates an environment of uncertainty for all players. Highly regulated industries like financial services are treading carefully in the DLT space. The Securities and Exchange Commission of the United States has clarified its stance on Initial Coin Offerings (ICOs) in 2017. The Chinese government has, in fact, banned all ICOs, while 60 major ICO platforms are being investigated (Saheli Roy Choudhury, 2017).  
@@ -2878,6 +2890,7 @@ Below, you can see an overview of Hyperledger’s working groups:
 **[`^        back to top        ^`](#table-of-contents)**
 
 ### Learning Materials Development Working Group
+https://wiki.hyperledger.org/display/LMDWG/Learning+Materials+Development+Working+Group
 The Hyperledger Learning Materials Development Working Group is focused on developing training materials that aims to expand people's knowledge of Hyperledger and its projects. Members of this group collaborate with other Hyperledger working groups, Hyperledger team members, project maintainers, and volunteers from all over the world to identify training needs, identify strategies and solution to address those needs, and develop training material that targets both technical and non-technical audiences.  
 Among other things, members of this working group support the development of this MOOC by reviewing existing content and contributing new material, suggesting improvements, as well as providing assistance in the course forum when needed.  
 If you would like to contribute to Hyperledger projects, you don't have to be a technical guru to do so. There are many ways to help, and working on developing training materials is one of them. Anyone is welcome to join this group to learn more about how to get involved.

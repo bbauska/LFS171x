@@ -1189,7 +1189,9 @@ It's time to ask yourself: who will you trust with your trust network?
 <h3>Project Lifecycle and Hyperledger Incubator</h3>
 According to the Hyperledger documentation, a <b>project</b> refers to a collaborative endeavor to deliver a work item. Projects can vary in terms of scope: some are intended to produce a document, some may develop new capabilities or refactor/remove an existing capability.  
 
-In general, open source initiatives use an incubation process for new work items: this allows members of the community to contribute new ideas and code in a more structured and transparent workflow. Hyperledger has adopted a rigorous project lifecycle process that has six possible states:
+In general, open source initiatives use an incubation process for new work items: this allows members of the community to contribute new ideas and code in a more structured and transparent workflow. 
+
+Hyperledger has adopted a rigorous project lifecycle process that has six possible states:
 <ul>
 <li><b>Proposal</b></li>
     If an open source initiative wants to be hosted under the Hyperledger greenhouse, a proposal is submitted to the TSC for review. The proposal must have a clear description and a well-defined scope, must identify the development resources that are committed to the project, as well as the initial maintainers, and must be vendor neutral.
@@ -1197,7 +1199,7 @@ In general, open source initiatives use an incubation process for new work items
     Once a project proposal is approved, it enters the Incubation phase, and the community has a chance to explore different idea related to the project. When a project reaches a mature-enough stage and qualifies to be declared Active, the maintainers will vote to submit a graduation review request to the TSC. All projects ready to graduate from Incubation must have a fully functional code base, test coverage commensurate with other Active projects, an active and diverse community of developers, and a history of releases that follow the Active release process. A project in the Incubation stage is not guaranteed to eventually graduate - some projects never get to Active state.
 <li><b>Active</b></li>
     Projects that successfully exit the Incubation phase are considered Active. If reasons exist, an Active project can be deprecated.
-<li><b>First Major Release  </li>
+<li><b>First Major Release</b></li>
     If the maintainers of a project are looking to publish the project's first major release, they will have to obtain approval from the TSC.
 <li><b>Deprecated</b></li>
     All deprecated projects are maintained for a six month period by their communities; after that, the projects are removed from subsequent formal releases. A deprecation notice is given to the public. After a six-month deprecation period, projects are labeled End of Life.
@@ -1229,9 +1231,9 @@ The other projects are still working through the process, and the goal is to get
 <h3>Hyperledger Labs</h3>
 Currently, the Hyperledger Project Lifecycle is a very rigorous process that includes 6 possible states. For a project to join the Hyperledger Greenhouse, it must have a certain degree of maturity even in the early proposal and incubation stages.  
 
-```
+<blockquote>
 Hyperledger Labs provides a space where work can easily be started without the creation of an official Hyperledger project. Developers working on projects that are immature (incomplete code, not ready from a production-quality point of view, with small communities) or experimental will thus get the opportunity to work in a space suitable for innovation and testing of new ideas; moreover, they will work within a legal framework that would ease the transition to the Hyperledger Incubator (if the project matures enough and reaches that stage). Hyperledger Labs have similarities with the Apache Labs and the W3C Community Groups.  
-```
+</blockquote>
 
 There is a specific process that must be followed when proposing a new lab. Labs that become dormant or unresponsive for 6 months or more, or are deemed deprecated or obsoleted by their committers are archived.
 
@@ -2424,44 +2426,70 @@ Its modular architecture allows components such as consensus and membership serv
 
 **[`^        back to top        ^`](#table-of-contents)**
 
-<h3>Hyperledger `Indy`</h3>
+<h3>Hyperledger _Indy_</h3>
 <p align="center" width="100%">
   <img width="50%" src="https://user-images.githubusercontent.com/41387907/138575485-e6cd7161-2c55-4a37-a97b-97177cc9665f.png"
        alt="Hypereledger 'Indy'"</>
 </p>
 <p>
 Welcome to the Hyperledger greenhouse, an open source consortium for developing business blockchain technologies hosted by the Linux Foundation.  
+
 Within the greenhouse, diverse global communities collaboratively develop open source projects that uniquely approach enterprise blockchain challenges.  
+
 These technologies can cross-pollinate and interoperate, just like how the community is driving the projects, collaborate in an open and neutral environment.  
+
 Hyperledger Indy, one of the frameworks in the Hyperledger greenhouse, is a distributed ledger that provides tools, libraries,and reusable components for creating and using independent decentralized identities.  
+
 As the world becomes more interconnected, individuals are disclosing personal information creating multiple usernames and passwords and leaving digital traces across platforms.  
 Indy represents the idea of a self-sovereign identity, which would dispose of the need for multiple logins and passwords.  
+
 Rooted on a distributed ledger, this digital identity interoperates across different domains, applications and organizational silos.  
+
 Additionally, Indy puts identity control in the hands of the user, not the organization.
 
 Individuals will not have to rely on big organizations to store and share their personal data.  
+
 Instead, the user controls what data they want to provide access to and for how long.  
+
 Indy provides strong privacy guarantees because private data is not written on the ledger, but exchanged over peer-to-peer encrypted connections.  
+
 A unique ID for each relationship ensures that data doesn't leak from one relationship to the next.  
+
 Indy also ensures that both individuals and institutions always know who they are dealing with.  
+
 Companies can store less personal data and spend less time and money trying to protect it.  
+
 This combination of privacy and trust enables meaningful interactions.  
+
 By providing a solution for digital credentials that preserves privacy, Indy makes self-sovereign identities possible and practical for individuals, institutions and Internet of Things.  
+
 Get started with Hyperledger Indy today by downloading the source code, accessing the documentation and joining our community from our website: hyperledger.org.  
+
 The Hyperledger consortium has many different projects that focus on different aspects of how ledgers can work and what use cases they can be applied for.  
+
 Hyperledger Indy is a distributed ledger purpose-built for doing distributed identity,  
 and what that means is, it allows you to have a route of trust to manage the keys, schemas, proofs, and other information that you need to, in order to enable trusted peer interactions between different identities, as stored on a Hyperledger Indy blockchain instance.  
-So, if you have an identity it belongs to you, and only you, and no one can pull the plug on you.  
+
+If you have an identity it belongs to you, and only you, and no one can pull the plug on you.  
+
 And you can use that identity to manifest different correlatable pieces of data between you and other identities you want to interact with, without leaking private information or disclosing information that you don't want shared across all those different aspects of who you are.  
+
 And when you control your identity, it makes it so that you are also a party to the kinds of data sharing, claims, and proofs that can be made about you, as information is shared across all the different interactions you might do online.  
+
 One of the main use cases of Hyperledger Indy is to create a global public utility for identity that's being created by the Sovrin Foundation, which allows us to take these identifiers, and to anchor them on a public ledger, so that different pieces of truth or pieces of information can be trusted and shared with other people across the world, and they can be trusted and validated, so that self-attested data can be shared, as well as third-party attestations can be shared across all kinds of interactions and across all kinds of data silos,  
 and what this makes possible is the ability to no longer have to function as an identity provider as a business, but to rather let users authenticate based on the attributes that they're willing to store and share themselves, which allows for GDPR-compliant use cases, where you're expressing consent on behalf of the user, and also reducing the amount of liability contained within a business,  
 because the data can be kept with the user and presented to you again in a way that you can trust and validate, that what has been said, really was said, and is trusted by the other parties you do business with.  
+
+<blockquote>
 Hyperledger Indy is a distributed ledger purpose-built for decentralized identity, that upholds the standards mandated by GDPR. Hyperledger Indy "provides tools, libraries, and reusable components for providing digital identities rooted on blockchains or other distributed ledgers so that they are interoperable across administrative domains, applications, and any other silo."  
+</blockquote>
+
 Hyperledger Indy was contributed to the Hyperledger greenhouse by the Sovrin Foundation in 2017, and it graduated from the Incubator in March of 2019. It allows individuals to manage and control their digital identities. Rather than having businesses store huge amounts of personal data of individuals, Hyperledger Indy allows businesses to store pointers to identity. Once the company verifies the other party's identity, it throws it away.
 
 According to Brian Behlendorf,  
+```
 "(...) identity is a toxic asset that could present a liability to organizations".  
+```
 Indeed, since 2013, over 14 billion data records were lost or stolen. What is striking is that, out of these, only 4% were encrypted, and hence, rendered useless after being stolen (also called "secure breaches"). You can find detailed statistics at the Breach Level Index website.
 </p>
 <p align="center" width="100%">
@@ -2469,55 +2497,76 @@ Indeed, since 2013, over 14 billion data records were lost or stolen. What is st
        alt="Hyperledger Indy and its 'privacy by design' approach"</>
 </p>
 One of the key principles of Hyperledger Indy is its "privacy by design" approach. Given the immutable nature of the DLT, it is all the more important that digital identities be handled with the utmost care, keeping human values front and center.  
+<blockquote>
 "Hyperledger Indy lets users authenticate identity based on the attributes they are willing to store and share themselves. This can reduce the amount of liability contained within a business because the data can be kept with the user and presented to you again in a way that you can trust and validate that what has been said really was said and is trusted by the other parties you do business with".
-
+</blockquote>
 *   Nathan George, Maintainer, Hyperledger Indy
     Further information about the history of the project can be found at the Sovrin's website.
 
 **[`^        back to top        ^`](#table-of-contents)**
 
-<h3>Hyperledger `Iroha`</h3>
+<h3>Hyperledger _Iroha_</h3>
 <p align="center" width="100%">
   <img width="50%" src="https://user-images.githubusercontent.com/41387907/138575523-62fc4933-7ada-4d3b-adc6-e48b7144058b.png"
        alt="Hyperledger 'Iroha'"</>
 </p>
 Welcome to the Hyperledger greenhouse, an open source consortium for developing business blockchain technologies hosted by the Linux Foundation.  
-Within the greenhouse, diverse global communities collaboratively develop open source projects that uniquely approach enterprise blockchain challenges.  
-These technologies can cross-pollinate and interoperate, just like how the community is driving the projects collaborate in an open and neutral environment.  
-Hyperledger Iroha is a permissioned blockchain framework in the Hyperledger greenhouse designed for simple and easy management of digital assets.  
-Iroha helps bring greater trust and reliability into business.  
-Only participants granted access to a Hyperledger Iroha network may join the network, query data, or perform commands.  
-Iroha' robust permission system ensures that all interactions within the system are secure and controlled.  
-Iroha's features are helpful for creating applications for end users.  
-With Iroha, a business can create and manage simple or complex digital assets, from cryptocurrency to personal medical data.  
-Iroha's built-in smart contracts, called commands, allow developers to incorporate blockchain into their business processes.  
-Iroha presents users with lower complexity and lower risk by allowing them to perform common functions using built-in commands.  
-This simplifies tasks, improves performance efficiency, and allows less room for error.  
-Compared to other platforms, these commands also free up developers by ridding them of the need to write complex smart contracts.  
-In Iroha, you can set up a network, create assets, and make a transaction in about 5 minutes time.  
-Iroha's consensus algorithm allows full Byzantine fault tolerance with no mining, making it ideal for businesses that require verifiable data consistency at low cost.  
-Users are able to interact with Iroha similarly to how they would with a client server, so while some knowledge is required,  
-you don't need to be a blockchain guru to incorporate Iroha into your business.  
-Get started with Hyperledger Iroha today by downloading the source code, accessing thedocumentation and joining our community from our website:  
-hyperledger.org.  
-Hyperledger Iroha is a free, open source blockchain framework contributed by Soramitsu, Hitachi, NTT Data, and Colu (2016). Hyperledger Iroha is a simple blockchain platform that can be used to make trusted, secure, and fast applications that leverage the power of permission-based blockchain with Byzantine fault-tolerant consensus. 
-Among its key features are:
 
-  * Simple deployment and maintenance
-  * Variety of libraries for developers
-  * Role-based access control
-  * Modular design, driven by command-query separation principle
-  * Ready-to-use set of commands and queries
-  * Multi-signature transactions
-  * Uses a high-performance Byzantine fault-tolerant consensus algorithm called YAC.
-  
+Within the greenhouse, diverse global communities collaboratively develop open source projects that uniquely approach enterprise blockchain challenges.  
+
+These technologies can cross-pollinate and interoperate, just like how the community is driving the projects collaborate in an open and neutral environment.  
+
+Hyperledger Iroha is a permissioned blockchain framework in the Hyperledger greenhouse designed for simple and easy management of digital assets.  
+
+Iroha helps bring greater trust and reliability into business.  
+
+Only participants granted access to a Hyperledger Iroha network may join the network, query data, or perform commands.  
+
+Iroha's robust permission system ensures that all interactions within the system are secure and controlled.  
+
+Iroha's features are helpful for creating applications for end users.  
+
+With Iroha, a business can create and manage simple or complex digital assets, from cryptocurrency to personal medical data.  
+
+Iroha's built-in smart contracts, called commands, allow developers to incorporate blockchain into their business processes.  
+
+Iroha presents users with lower complexity and lower risk by allowing them to perform common functions using built-in commands.  
+
+This simplifies tasks, improves performance efficiency, and allows less room for error.  
+
+Compared to other platforms, these commands also free up developers by ridding them of the need to write complex smart contracts.  
+
+In Iroha, you can set up a network, create assets, and make a transaction in about 5 minutes time.  
+
+Iroha's consensus algorithm allows full Byzantine fault tolerance with no mining, making it ideal for businesses that require verifiable data consistency at low cost.  
+
+Users are able to interact with Iroha similarly to how they would with a client server, so while some knowledge is required,  
+
+you don't need to be a blockchain guru to incorporate Iroha into your business.  
+
+Get started with Hyperledger Iroha today by downloading the source code, accessing thedocumentation and joining our community from our website:  
+hyperledger.org. 
+
+Hyperledger Iroha is a free, open source blockchain framework contributed by Soramitsu, Hitachi, NTT Data, and Colu (2016). Hyperledger Iroha is a simple blockchain platform that can be used to make trusted, secure, and fast applications that leverage the power of permission-based blockchain with Byzantine fault-tolerant consensus. 
+
+Among its key features are:
+<ul>
+<li>Simple deployment and maintenance</li>
+<li>Variety of libraries for developers</li>
+<li>Role-based access control</li>
+<li>Modular design, driven by command-query separation principle</li>
+<li>Ready-to-use set of commands and queries</li>
+<li>Multi-signature transactions</li>
+<li>Uses a high-performance Byzantine fault-tolerant consensus algorithm called YAC.</li>
+</ul>
+
 According to the Hyperledger Iroha documentation, "it can be used to manage digital assets, identity and serialized data, and can be useful for applications such as interbank settlement, central bank digital currencies, payment systems, national IDs, and logistics, among others". Its documentation provides an extensive list of use cases, and specific advantages the use of Hyperledger Iroha can introduce - you can read about these use case scenarios online.
 Hyperledger Iroha emphasizes mobile application development with client libraries for Android and iOS, making it distinct from other Hyperledger frameworks. Inspired by Hyperledger Fabric, Hyperledger Iroha seeks to complement Hyperledger Fabric and Hyperledger Sawtooth, while providing a development environment for C++ developers to contribute to Hyperledger.  
 Hyperledger Iroha is an active project, and reached a significant milestone in May 2019, the 1.0 release. To learn more about it, you can read the announcement.
 
 **[`^        back to top        ^`](#table-of-contents)**
 
-<h3>Hyperledger `Sawtooth`</h3>
+<h3>Hyperledger Sawtooth</h3>
 <p align="center" width="100%">
   <img width="50%" height="25%" src="https://user-images.githubusercontent.com/41387907/138575534-bf8c8a84-4c23-472c-9e07-6668e789540f.png"
        alt="Hyperledger 'Sawtooth'"</>

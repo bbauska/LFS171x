@@ -1228,9 +1228,10 @@ The other projects are still working through the process, and the goal is to get
 
 <h3>Hyperledger Labs</h3>
 Currently, the Hyperledger Project Lifecycle is a very rigorous process that includes 6 possible states. For a project to join the Hyperledger Greenhouse, it must have a certain degree of maturity even in the early proposal and incubation stages.  
-<span style="color:green;font-weight:700;font-size:20px">
+
+<font size="-2">
 Hyperledger Labs provides a space where work can easily be started without the creation of an official Hyperledger project. Developers working on projects that are immature (incomplete code, not ready from a production-quality point of view, with small communities) or experimental will thus get the opportunity to work in a space suitable for innovation and testing of new ideas; moreover, they will work within a legal framework that would ease the transition to the Hyperledger Incubator (if the project matures enough and reaches that stage). Hyperledger Labs have similarities with the Apache Labs and the W3C Community Groups.  
-</span>
+</font>
 There is a specific process that must be followed when proposing a new lab. Labs that become dormant or unresponsive for 6 months or more, or are deemed deprecated or obsoleted by their committers are archived.
 
 <h3 id="ch2-3">2.3 Q/A with Brian Behlendorf, Executive Director of Hyperledger</h3>

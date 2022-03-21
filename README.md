@@ -149,22 +149,36 @@ Consensus refers to a system of ensuring that parties agree to a certain state o
 
 Blockchain is a specific form or subset of distributed ledger technologies (DLTs), which constructs a chronological chain of blocks, hence the name "block-chain". <br/>
 
-Examples of other DLTs are Chain Core, Corda, Quorum, and IOTA. They will be covered later in this chapter.  <br/>
+Examples of other DLTs are Chain Core, Corda, Quorum, and IOTA.  They will be covered later in this chapter.  <br/>
 
 A block refers to a set of transactions that are bundled together and added to the chain at the same time.  <br/>
 
-Timestamping is another key feature of blockchain technology. Each block is timestamped, with each new block referring to the previous block. Combined with cryptographic hashes, this timestamped chain of blocks provides an immutable record of all transactions in the network, from the very first (or genesis) block.  <br/>
+Timestamping is another key feature of blockchain technology. Each block is timestamped, with each new block referring to the previous block. 
 
-In the Bitcoin blockchain, the miner nodes bundle unconfirmed and valid transactions into a block. Each block contains a given number of transactions. In the Bitcoin network, miners must solve a cryptographic challenge to propose the next block. This process is known as "proof of work", and requires significant computing power. We shall discuss proof of work in more detail in the Consensus Algorithms section. For more information about blockchain technology, please read the following article: "A Brief History of Blockchain" by Vinay Gupta.  <br/>
+Combined with cryptographic hashes, this timestamped chain of blocks provides an immutable record of all transactions in the network, from the very first (or genesis) block.  <br/>
+
+In the Bitcoin blockchain, the miner nodes bundle unconfirmed and valid transactions into a block. Each block contains a given number of transactions. 
+
+In the Bitcoin network, miners must solve a cryptographic challenge to propose the next block. 
+
+This process is known as "proof of work", and requires significant computing power. 
+
+We shall discuss proof of work in more detail in the Consensus Algorithms section. 
+
+For more information about blockchain technology, please read the following article: "A Brief History of Blockchain" by Vinay Gupta.  <br/>
 
 A Bitcoin block consists of four pieces of metadata:
-  1. The **reference** to the previous block,
-  2. The proof of work, also known as a **nonce**,
-  3. The **timestamp**,
-  4. The **Merkle tree root** for the transactions included in this block (Merkle tree is explained next).
+<ol>
+<li>The **reference** to the previous block,</li>
+<li>The proof of work, also known as a **nonce**,</li>
+<li>The **timestamp**,</li>
+<li>The **Merkle tree root** for the transactions incl</li>uded in this block (Merkle tree is explained next).</li>
+</ol>
 
 <h3>Merkle Tree</h3>
-The Merkle tree, also known as a binary hash tree, is a data structure that is used to store hashes of the individual data in large datasets in a way to make the verification of the dataset efficient. It is an anti-tamper mechanism to ensure that the large dataset has not been changed. The word "tree" is used to refer to a branching data structure in computer science, as seen in the image below. <br/>
+The Merkle tree, also known as a binary hash tree, is a data structure that is used to store hashes of the individual data in large datasets in a way to make the verification of the dataset efficient. 
+
+It is an anti-tamper mechanism to ensure that the large dataset has not been changed. The word "tree" is used to refer to a branching data structure in computer science, as seen in the image below. <br/>
 
 According to Andreas M. Antonopoulos, in the Bitcoin protocol,  <br/>
 
@@ -357,10 +371,14 @@ Peers contribute to the computing power and storage that is required for the upk
 P2P networks are generally considered to be more secure than centralized networks, as they do not have a single point of attack, as in the case of a server-based network, where the security of the entire network can be compromised if the central server is successfully attacked. 
 
 The Global Risks Report 2018, created by the World Economic Forum, reveals a grim picture: cyberattacks are on the rise at an alarming rate, and financial costs related to them are skyrocketing, with more than 25% increase year-over-year. It is estimated that cybercrime will cost businesses more than $8 trillion over the next five years. 
+
 And the damages go far beyond financial costs: they affect critical, strategic infrastructure, such as telecommunications providers, energy companies, government agencies, banks, hospitals, and much more. 
+
 As a result, large corporations and federal governments invest significant amounts of financial resources to fortify their central servers. 
  
-Permissionless P2P systems do not require a set amount of peers to be online and are generally slower. Permissioned P2P networks have to guarantee uptime and require a high level of quality of service on the communication links.
+Permissionless P2P systems do not require a set amount of peers to be online and are generally slower. 
+
+Permissioned P2P networks have to guarantee uptime and require a high level of quality of service on the communication links.
 
 **[`^        back to top        ^`](#table-of-contents)**
 
@@ -405,9 +423,13 @@ Let's dig into this statement a bit further. It is extremely hard to change the 
 
 This hash includes the Merkle root hash of all the transactions in the previous block. 
 
-If a single transaction were to change, not only would the Merkle root hash change, but so too would the hash contained in the changed block. In addition, each subsequent block would need to be updated to reflect this change. 
+If a single transaction were to change, not only would the Merkle root hash change, but so too would the hash contained in the changed block. 
 
-In the case of proof of work, the amount of energy required to recalculate the nonce for this block and each subsequent block would be prohibitive. On the other hand, if someone did modify a transaction in a block without going through the necessary steps to update the subsequent blocks, it would be easy to recalculate the hashes used in the blocks and determine that something is amiss.  
+In addition, each subsequent block would need to be updated to reflect this change. 
+
+In the case of proof of work, the amount of energy required to recalculate the nonce for this block and each subsequent block would be prohibitive. 
+
+On the other hand, if someone did modify a transaction in a block without going through the necessary steps to update the subsequent blocks, it would be easy to recalculate the hashes used in the blocks and determine that something is amiss.  
 
 Let's look at an example of how this works. 
 
@@ -523,7 +545,7 @@ The core invention of Ethereum is it's EVM, or Ethereum Virtual Machine.
 
 The EVM runs on the Ethereum network, and it runs a Turing-complete software.  
 
-+Vitalik Buterin is the person who wrote the white paper for Ethereum.  
+Vitalik Buterin is the person who wrote the white paper for Ethereum.  
 
 Some of its key features include the immutability of data, that unauthorized users cannot make changes to that data, the Ethereum development platform is designed to make corruption and tamper proof applications, the secure apps are sent decentralized and secured with cryptography, and they're protected against hacking attacks and fraudulent activities, and lastly, it's designed with zero downtime.  
 
@@ -656,42 +678,78 @@ We will look at block heights, transaction times, mining pools, timestamps, and 
 <h3>Exploring Bitcoin and Ethereum Blockchains</h3>
 Let's take a look at a couple of public blockchains: those of Bitcoin and Ethereum,  
 and let's examine the genesis block, or the first block, of each one of them.  
+
 Then, we'll take a look at a couple of large transactions, including the most famous transaction in cryptocurrency history: the purchase of a pizza for 10,000 bitcoins.  
+
 So, first, we'll go to this blockchain explorer, and see that there is a Height column, which indicates the number of blocks in this particular blockchain; it's nearing a half a million.  
+
 These blocks are created approximately every 10 minutes,  
 and there's a Transactions column that shows how many transactions are included in each block, as well as the Total Sent, or the amount of Bitcoin that was transferred in each of those blocks.  
+
 Finally, you can notice that there's... they relate by column, which is essentially the miner or mining pool that created that block.  
+
 So, from here, let's take a look at another blockchain explorer, and you can see here the genesis block of the Bitcoin blockchain.  
+
 Notice that the timestamp is January 3rd 2009.  
+
 So, that's the genesis block of the Bitcoin blockchain.  
+
 Now, moving on to the Ethereum blockchain, we'll look at another blockchain explorer.  
+
 And this one shows you that there's approximately 5 million blocks in the Ethereum blockchain.  
+
 Notice that each block is created much more quickly than in the Bitcoin blockchain.  
+
 From here, we'll examine the genesis block of the Ethereum blockchain, and notice that it was mined about two years ago, and the mining reward for this was approximately five ether.  
+
 From here, we'll take a look at the very interesting transaction: that of the pizza transaction.  
+
 On Bitcoin Forum, there was somebody on May 18th of 2010 who was requesting that they would pay 10,000 bitcoins for a pizza.  
+
 They provided their address and someone in fact sent them a pizza. In fact, it was from Europe.  
-And you can see here that that was this transaction here: of 10,000 bitcoins.  
+
+And you can see here that that was this transaction here: of 10,000 bitcoins.
+
 And lastly, a very large and interesting transaction of 658 bitcoins, done recently.  
+
 Notice that the value of that is close to 3 million dollars.  
-So, you can examine these transactions on both the Bitcoin and Ethereum blockchains, and many other blockchains.  
+
+You can examine these transactions on both the Bitcoin and Ethereum blockchains, and many other blockchains.  
+
 In Chapter 2 of this course, we'll touch upon the Hyperledger Explorer, which can be configured to examine blockchains you might develop with other of the Hyperledger frameworks.
 
 **[`^        back to top        ^`](#table-of-contents)**
 
 <h3 id="ch1-5">1.5 Consensus Algorithms</h3>
-Consensus in the network refers to the process of achieving agreement among the network participants as to the correct state of data on the system. Consensus leads to all nodes sharing the exact same data. A consensus algorithm, hence, does two things: it ensures that the data on the ledger is the same for all the nodes in the network, and, in turn, prevents malicious actors from manipulating the data. The consensus algorithm varies with different blockchain implementations.  
+Consensus in the network refers to the process of achieving agreement among the network participants as to the correct state of data on the system. Consensus leads to all nodes sharing the exact same data. 
+
+A consensus algorithm, hence, does two things: it ensures that the data on the ledger is the same for all the nodes in the network, and, in turn, prevents malicious actors from manipulating the data. 
+
+The consensus algorithm varies with different blockchain implementations.  
+
 While the Bitcoin blockchain uses Proof of Work as the consensus algorithm, other blockchains and distributed ledgers are deploying a variety of consensus algorithms, like the Proof of Stake, Proof of Burn, Proof of Capacity, Proof of Elapsed Time, and many others, depending on their unique requirements.  
+
 Next, we will briefly explain some of these algorithms.
 
 **[`^        back to top        ^`](#table-of-contents)**
 
 <h3>Proof-of-Work (PoW)</h3>
-The Proof of Work consensus algorithm involves solving a computational challenging puzzle in order to create new blocks in the Bitcoin blockchain. Colloquially, the process is known as 'mining', and the nodes in the network that engage in mining are known as "miners". The incentive for mining transactions lies in economic payoffs, where competing miners are rewarded with 12.5 bitcoins and a small transaction fee.
+The Proof of Work consensus algorithm involves solving a computational challenging puzzle in order to create new blocks in the Bitcoin blockchain. 
+
+Colloquially, the process is known as 'mining', and the nodes in the network that engage in mining are known as "miners". 
+
+The incentive for mining transactions lies in economic payoffs, where competing miners are rewarded with 12.5 bitcoins and a small transaction fee.
+
 As described in the 2016 Kudelski Security report,  
+<blockquote>
 "Proof-of-work (PoW) is the outcome of a successful mining process and, although the proof is hard to create, \[it\] is easy to verify".  
+</blockquote>
+
 For better understanding, please consider the following example provided by Ofir Beigel:  
+<blockquote>
 "(...) guessing a combination to a lock is a proof to a challenge. It is very hard to produce this since you will need to guess many different combinations; but once produced, it is easy to validate. Just enter the combination and see if the lock opens".  
+</blockquote>
+
 Multiple criticisms exist for the PoW consensus algorithm. PoW requires a huge amount of energy to be expended, given the computationally heavy algorithm. In addition, PoW has a high latency of transaction validation, and the concentration of mining power is located in countries where electricity is cheap. In terms of the network security, PoW is susceptible to the "51% attack", which refers to an attack on a blockchain by a group of miners controlling more than 50% of the network's computing power.
 
 <h3>Proof-of-Stake (PoS)</h3>
@@ -701,6 +759,7 @@ The Proof of Stake algorithm is a generalization of the Proof of Work algorithm.
 Developed by Intel, the Proof of Elapsed Time consensus algorithm emulates the Bitcoin-style Proof of Work.
 Hyperledger's Sawtooth implementation is an example of PoET at work.
 Instead of competing to solve the cryptographic challenge and mine the next block, as in the Bitcoin blockchain, the PoET consensus algorithm is a hybrid of a random lottery and first-come-first-serve basis.
+
 In PoET, each validator is given a random wait time.
 "The validator with the shortest wait time for a particular transaction block is elected the leader".
 
@@ -757,31 +816,45 @@ Hyperledger reduces these security risks and ensures that only the parties that 
 
 <h3 id="ch1-x">Hyperledger vs. Other Permissioned Ledgers (Brian Behlendorf)</h3>
 What makes Hyperledger so unique, compared to other permissioned ledgers?  
-So, Hyperledger is a really unique community in the open source landscape of different blockchain technologies.  
+
+Hyperledger is a really unique community in the open source landscape of different blockchain technologies.  
+
 We kind of model ourselves a little bit after Apache, and some of the other organizations out there that really are communities of communities, right?  
+
 Within Hyperledger, we have different technology code projects, essentially.  
+
 Projects like Fabric and Sawtooth, and a lot of the others that all of you will be finding out about, but, what these projects have in common is a set of development principles around working in the public, around, you know... even from the earliest ideas, you know, developers should be sharing that with other developers, right, not just something they build privately, then throw over the wall, and release this open code, but that starts out from day one as a public process, right, and multi-stakeholder as well.  
-So, while projects do often start out as the work of one company or one small set of developers, we really come to trust technologies when we see that there's lots of people both using it and contributing to it.  
-And so, that way, we know this is actually a project that will likely outlast any one company's commitment to it, right?  
+
+While projects do often start out as the work of one company or one small set of developers, we really come to trust technologies when we see that there's lots of people both using it and contributing to it.  
+
+That way, we know this is actually a project that will likely outlast any one company's commitment to it, right?  
+
 That's a good basis for deciding what open source technologies to build on.  
-So, at Hyperledger, we're trying to make sure that each of these projects fulfills that goal of being multi-stakeholder, of being active software development projects that get as quickly as possible to a production release, something that organizations can actually use in real production environments, and yet, still has the flexibility to explore a new concept, to explore a new consensus mechanism, a new way of writing smart contracts, right?  
-So, that balancing act is really what we're trying to strive for inside of Hyperledger.
+
+At Hyperledger, we're trying to make sure that each of these projects fulfills that goal of being multi-stakeholder, of being active software development projects that get as quickly as possible to a production release, something that organizations can actually use in real production environments, and yet, still has the flexibility to explore a new concept, to explore a new consensus mechanism, a new way of writing smart contracts, right?  
+
+That balancing act is really what we're trying to strive for inside of Hyperledger.
 
 **[`^        back to top        ^`](#table-of-contents)**
 
 <h3>Other Distributed Ledger Technologies (Robert Schwentker)</h3>
 What are some examples of other blockchain and distributed ledger technology systems, and what are their benefits?  
+
 Chain Core, created by chain.com, has initially been designed for financial service institutions, and for things like securities, bonds, and currencies.  
+
 Their company has strong ties with Visa, Citigroup, and Nasdaq.  
+
 The Corda distributed ledger platform is designed to record, manage, and automate legal agreements between businesses.  
 It was created by the R3 company, which is a consortium of over a hundred global financial institutions.  
+
 Quorum is a permissioned implementation of Ethereum, which supports data privacy.  
+
 Quorum achieves this data privacy through allowing data visibility on need-to-know basis by a voting-based consensus algorithm. Interestingly, Quorum was created and open sourced by JPMorgan.
 
 **[`^        back to top        ^`](#table-of-contents)**
 
 <h3>Chain Core</h3>
-Chain Core is an enterprise permissioned blockchain system that is mostly focused on financial services, like currencies, securities, derivatives, gift cards, and loyalty points. The company partners with clients to launch and operate a network under the client's brand. Thanks to its strategic partnerships with companies such as Capital One, Citigroup, Fiserv, Nasdaq, Orange, Visa, etc., the company raised over $40 million in funding since 2014.  
+'Chain Core' is an enterprise permissioned blockchain system that is mostly focused on financial services, like currencies, securities, derivatives, gift cards, and loyalty points. The company partners with clients to launch and operate a network under the client's brand. Thanks to its strategic partnerships with companies such as Capital One, Citigroup, Fiserv, Nasdaq, Orange, Visa, etc., the company raised over $40 million in funding since 2014.  
 Within the Chain Core network, the creation and transfer of assets is decentralized. However, as stated in the 2016 Kudelski Security report,  
 "the operation of the network is governed by a designated set of entities known as a federation".  
 The platform features the Chain Testnet, which allows decentralized application development on Chain Core, operated by Chain, Microsoft, and the Initiative for Cryptocurrencies and Contracts (IC3).
@@ -1066,66 +1139,99 @@ And hopefully, become contributors to them, as well.
 
 <h3>Hyperledger, A Greenhouse for Blockchain Projects</h3>
 Welcome to the Hyperledger greenhouse: an incubator for open source blockchain technologies for business hosted by the Linux Foundation.  
-So, what does that mean exactly?  
+
+What does that mean exactly?  
+
 Let's start here, with you: you're a business, large or small, participating in a commercial ecosystem.  
-Your business partners and peers want to do business with you, but in order to do that, you'll need a ledger.  
+
+Your business partners and peers want to do business with you, but in order to do that, you'll need a ledger.
+
 This ledger contains a record of your transactions, along with many, if not all of the other transactions in the network.  
+
 It is vitally important to know that your copy of the ledger is identical to everyone else's, so you'll need a distributed ledger.  
+
 It's a new kind of network database that lets everyone in an ecosystem keep a copy of a common system of record.  
 But how does everyone agree on which transactions succeed or fail?  
+
 That's where Hyperledger software comes in.  
+
 This plant is actually software. Software that each business runs on systems it controls to broadcast out its transactions with other parties and receive, validate, and interact with messages delivered by others.  
+
 With any network like this, a particular software standard is used to keep everyone in sync.  
+
 But there are other ways to build these kinds of networks, using different consensus algorithms and different smart contract languages.  
+
 There will be many different ledger networks out there.  
+
 Ideally, they would all be able to interoperate due to certain common properties, much like how the Linux community uses various operating systems with a common kernel.  
+
 At Hyperledger, we're growing many different kinds of ledger technologies.  
+
 Here, you'll find communities of software developers working together to propel open source blockchain frameworks and tools into the future to deployment and adoption.  
+
 Businesses with strict blockchain requirements trust Hyperledger because it's hosted by the Linux Foundation, and its projects are developed by an open source community.  
+
 Developers can collaborate on a global level across company and industry lines to create innovative, modular, open source components and platforms.  
+
 It's this open source approach that allows for the kind of transparency, longevity, collaboration, community, and, of course, security that blockchain needs to become more mainstream, which is what Hyperledger is all about.  
+
 Hyperledger projects are meant to help you focus on developing your business solutions and feel confident that the legal, technical and organizational infrastructure is in place,  
 thanks to Hyperledger and the Linux Foundation.  
-These are all open source projects, and anyone is welcome to pick them up and use them, no fee or permission required.  
+
+These are all open source projects, and anyone is welcome to pick them up and use them, no fee or permission required. 
+ 
 Of course, this only represents a fraction of what open source blockchain technologies can do now and in the future.  
-So it's time to ask yourself: who will you trust with your trust network?
+
+It's time to ask yourself: who will you trust with your trust network?
 
 **[`^        back to top        ^`](#table-of-contents)**
 
 <h3>Project Lifecycle and Hyperledger Incubator</h3>
-According to the Hyperledger documentation, a project refers to a collaborative endeavor to deliver a work item. Projects can vary in terms of scope: some are intended to produce a document, some may develop new capabilities or refactor/remove an existing capability.  
-In general, open source initiatives use an incubation process for new work items: this allows members of the community to contribute new ideas and code in a more structured and transparent workflow. Hyperledger has adopted a rigorous project lifecycle process that has six possible states:
+According to the Hyperledger documentation, a <b>project</b> refers to a collaborative endeavor to deliver a work item. Projects can vary in terms of scope: some are intended to produce a document, some may develop new capabilities or refactor/remove an existing capability.  
 
-*   Proposal  
+In general, open source initiatives use an incubation process for new work items: this allows members of the community to contribute new ideas and code in a more structured and transparent workflow. Hyperledger has adopted a rigorous project lifecycle process that has six possible states:
+<ul>
+<li><b>Proposal</b></li>
     If an open source initiative wants to be hosted under the Hyperledger greenhouse, a proposal is submitted to the TSC for review. The proposal must have a clear description and a well-defined scope, must identify the development resources that are committed to the project, as well as the initial maintainers, and must be vendor neutral.
-*   Incubation  
+<li><b>Incubation</b></li>
     Once a project proposal is approved, it enters the Incubation phase, and the community has a chance to explore different idea related to the project. When a project reaches a mature-enough stage and qualifies to be declared Active, the maintainers will vote to submit a graduation review request to the TSC. All projects ready to graduate from Incubation must have a fully functional code base, test coverage commensurate with other Active projects, an active and diverse community of developers, and a history of releases that follow the Active release process. A project in the Incubation stage is not guaranteed to eventually graduate - some projects never get to Active state.
-*   Active  
+<li><b>Active</b></li>
     Projects that successfully exit the Incubation phase are considered Active. If reasons exist, an Active project can be deprecated.
-*   First Major Release  
+<li><b>First Major Release  </li>
     If the maintainers of a project are looking to publish the project's first major release, they will have to obtain approval from the TSC.
-*   Deprecated  
+<li><b>Deprecated</b></li>
     All deprecated projects are maintained for a six month period by their communities; after that, the projects are removed from subsequent formal releases. A deprecation notice is given to the public. After a six-month deprecation period, projects are labeled End of Life.
-*   End of Life  
-    These are projects that are no longer developed or maintained.  
-    New projects wanting to join are evaluated on a number of things:
-*   How do they fit with the portfolio of other projects
-*   How mature are they, to understand where they're going
-*   Who are the developers around the projects, etc.  
-    When a project goes through a rigorous vetting process and graduates from the incubator, it signals to the public that they can now trust the code, that the code can be used to build applications upon it.  
-    There are sixteen projects in the Hyperledger greenhouse, as of June 2019. And the door is open to new projects joining. There are four fully-fledged Hyperledger projects, that have graduated from the Incubator and are in an Active state (as of June 2019):
-*   Hyperledger Fabric (March 2017)
-*   Hyperledger Sawtooth (May 2017)
-*   Hyperledger Iroha (May 2018)
-*   Hyperledger Indy (March 2019)
-*   Hyperledger Besu (March 2020).  
-    The other projects are still working through the process, and the goal is to get every one of them out of the Incubator.
+<li><b>End of Life</b></li>
+	These are projects that are no longer developed or maintained.  
+</ul>
+
+New projects wanting to join are evaluated on a number of things:
+<ul>
+<li>How do they fit with the portfolio of other projects?</li>
+<li>How mature are they, to understand where they're going?</li>
+<li>Who are the developers around the projects?, etc.  </li>
+</ul>
+
+When a project goes through a rigorous vetting process and graduates from the incubator, it signals to the public that they can now trust the code, that the code can be used to build applications upon it.  
+
+There are sixteen projects in the Hyperledger greenhouse, as of June 2019. And the door is open to new projects joining. There are four fully-fledged Hyperledger projects, that have graduated from the Incubator and are in an Active state (as of June 2019):
+<ul>
+<li>Hyperledger Fabric (March 2017)</li>
+<li>Hyperledger Sawtooth (May 2017)</li>
+<li>Hyperledger Iroha (May 2018)</li>
+<li>Hyperledger Indy (March 2019)</li>
+<li>Hyperledger Besu (March 2020).  </li>
+</ul>
+The other projects are still working through the process, and the goal is to get every one of them out of the Incubator.
 
 **[`^        back to top        ^`](#table-of-contents)**
 
 <h3>Hyperledger Labs</h3>
 Currently, the Hyperledger Project Lifecycle is a very rigorous process that includes 6 possible states. For a project to join the Hyperledger Greenhouse, it must have a certain degree of maturity even in the early proposal and incubation stages.  
+<p style="background-color: crimson; color: #f1f1f1; font-weight: bold">
+<font face="Noto" size="20px" color="#FF7A59">
 Hyperledger Labs provides a space where work can easily be started without the creation of an official Hyperledger project. Developers working on projects that are immature (incomplete code, not ready from a production-quality point of view, with small communities) or experimental will thus get the opportunity to work in a space suitable for innovation and testing of new ideas; moreover, they will work within a legal framework that would ease the transition to the Hyperledger Incubator (if the project matures enough and reaches that stage). Hyperledger Labs have similarities with the Apache Labs and the W3C Community Groups.  
+</font></p>
 There is a specific process that must be followed when proposing a new lab. Labs that become dormant or unresponsive for 6 months or more, or are deemed deprecated or obsoleted by their committers are archived.
 
 <h3 id="ch2-3">2.3 Q/A with Brian Behlendorf, Executive Director of Hyperledger</h3>
@@ -1768,19 +1874,26 @@ How exactly are businesses using these emerging technologies today? Next, we wil
 
 <h3>Technologists are studying the Hyperledger protocol and applications.</h3>
 What should business professionals know about the Hyperledger project?  
-So, business professionals who should... when they see the word 'hyperledger', right,  
+
+Business professionals who should... when they see the word 'hyperledger', right,  
 they should associate that with a set of principles that have to do with the creation of high-quality, trustworthy software, right?  
+
 First of all, they should associate it with open source development practices,  
 they should know that any project that carries the term 'hyperledger', 'hyperledger foobar', 'hyperledger rhubarb', right,  
 that these are projects that have been collaboratively built,  
 that have been vetted by multiple developers working in concert on the technology,  
 that it's as secure as we can make it, because the code is out there.  
+
 We try to hire folks to vet it, but we also... fundamentally, you shouldn't trust software that you can't see the source code to, right?  
-So, that brand association, that trademark should really come to be associated with open source, with security, as well as with a sense of process,  
+
+That brand association, that trademark should really come to be associated with open source, with security, as well as with a sense of process,  
 like something that can't just show up one day and become a Hyperledger project.  
+
 The Technical Steering Committee has to approve any new proposed submission, and they have a pretty high bar.  
+
 Our goal, again, is not to be the GitHub of projects, even in the distributed technology, or distributed ledger, or smart contract space,  
 but to really have a high quality portfolio of these different efforts.  
+
 Finally, they should realize that they can build their business on top of Hyperledger technologies,  
 they can use it all day long, they don't owe anybody a fee, a license fee, a patent license, nothing,  
 and, if they feel like it, if they want to contribute, there should be an easy glide path to having their technical teams get deeper into the code,  
@@ -1789,7 +1902,12 @@ become contributors, and even help set the direction for the technology.
 **[`^        back to top        ^`](#table-of-contents)**
 
 <h3>Business Interest in Hyperledger</h3>
-When we first launched this course, in 2017, enterprise blockchain technologies were still in the initial stages of their production implementation. The concept of blockchain was at the time mostly associated with bitcoin and cryptocurrency. But the situation has significantly changed in the meantime, and while still considered revolutionary and in early stages, enterprise-grade blockchain technologies are now used in production, changing not only the way we do business, but also the way we envision doing business in the future, as more and more use cases and opportunities are created.
+When we first launched this course, in 2017, enterprise blockchain technologies were still in the initial stages of their production implementation. 
+
+The concept of blockchain was at the time mostly associated with bitcoin and cryptocurrency. 
+
+But the situation has significantly changed in the meantime, and while still considered revolutionary and in early stages, enterprise-grade blockchain technologies are now used in production, changing not only the way we do business, but also the way we envision doing business in the future, as more and more use cases and opportunities are created.
+
 - Smart contracts eliminate the middleman and add accountability (used in various industry sectors, such as real estate, healthcare, government, music, etc.)
 - Internet of Things (IoT)-based blockchain applications add a higher level of security, and transparency (in industries like supply chain, healthcare, banking and financial services, automotive, cybersecurity, etc.). Hyperledger Fabric is at the forefront of this revolution.
 - Identity security is a key area where enterprise blockchain technologies can make a difference, bringing, for example, a much-needed reduction in identity fraud and theft claims, cutting the red tape of government and local administration bureaucracy, and more. Hyperledger Indy, Hyperledger Fabric, etc. are just a couple of technology examples successfully used in production in this area.

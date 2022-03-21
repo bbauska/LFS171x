@@ -61,15 +61,25 @@ Armed with better information of the blockchain landscape, this program will hel
 <h2 id="ch1">Chapter 1. Discovering Blockchain Technologies</h2>
 <h3>A Word from Brian Behlendorf, Executive Director at Hyperledger</h3>
 Hi, I'm Brian Behlendorf. I'm Executive Director of Hyperledger, a collaborative project hosted at the Linux Foundation.  
+
 I want to welcome you to the first ever training course for Hyperledger and our related technology projects.  
+
 Hyperledger is really the first series of projects focused on enterprise blockchain applications.  
+
 And that means using distributed ledger technologies in a permissioned setting, it means using smart contracts to automate various business processes, and it means building a really exciting new world of secure, trustworthy information systems and automation of business processes.  
+
 In this course, you'll learn about these different projects.  
+
 This course is designed for people on the full spectrum, from working on purely as a software developer, all the way to those who just really want a business level understanding of what these technologies can accomplish, and what are the kinds of use cases that you might apply this to.  
+
 This is really designed for the full breadth of those technologies.  
 
 <h3 id="ch1-1">1.1 Introduction & Learning Objectives</h3>
-Chapter 1 introduces the building blocks of distributed ledger technologies, including blockchains. It lays the foundation for an in-depth understanding of the content that follows in the course. You should engage with the content in this chapter both to learn, as well as brush up your blockchain knowledge.
+Chapter 1 introduces the building blocks of distributed ledger technologies, including blockchains. 
+
+It lays the foundation for an in-depth understanding of the content that follows in the course. 
+
+You should engage with the content in this chapter both to learn, as well as brush up your blockchain knowledge.
 
 By the end of this chapter, you should be able to:
   - Explain the concepts of blockchain and distributed ledger technologies (DLT),
@@ -78,13 +88,18 @@ By the end of this chapter, you should be able to:
   - Provide a high-level explanation of what Hyperledger is.
 
 <h3 id="ch1-2">1.2 Distributed Ledger Technology (DLT)</h3>
-#### Background - The Rising Interest in Distributed Ledger Technologies
-Looking back to the last half century of computer technologies and architectures, you may observe a trend of fluctuation between the centralization and subsequent decentralization of computing power, storage, infrastructure, protocols, and code. <b/>
 
-Mainframe computers are largely centralized. They typically house all computing power, memory, data storage, and code. Access to mainframes is mainly by "dumb terminals", which only take inputs and outputs, and do not store or process data. <b/>
+<h3>Background - The Rising Interest in Distributed Ledger Technologies</h3>
+Looking back to the last half century of computer technologies and architectures, you may observe a trend of fluctuation between the centralization and subsequent decentralization of computing power, storage, infrastructure, protocols, and code.
+
+Mainframe computers are largely centralized. 
+
+They typically house all computing power, memory, data storage, and code. Access to mainframes is mainly by "dumb terminals", which only take inputs and outputs, and do not store or process data. <b/>
+
 With the advent of personal computers and private networks, similar computational capabilities were now housed both on the clients, as well as the servers. <b/>
-This, in part, gave rise to the "client-server" architecture, which supported the development of relational database systems. 
-Massive data sets, which are housed on mainframes, could move onto a distributed architecture. 
+
+This, in part, gave rise to the "client-server" architecture, which supported the development of relational database systems.  Massive data sets, which are housed on mainframes, could move onto a distributed architecture.  <b/>
+
 This data could replicate from server to server, and subsets of the data could be accessed and processed on clients, and then, synced back to the server. <b/>
 
 **[`^        back to top        ^`](#table-of-contents)**
@@ -92,19 +107,26 @@ This data could replicate from server to server, and subsets of the data could b
 Over time, Internet and cloud computing architectures enabled global access from a variety of computing devices; whereas mainframes were largely designed to address the needs of large corporations and governments. <b/>
 Even though this "cloud architecture" is decentralized in terms of hardware, it has given rise to application-level centralization (e.g. Facebook, Twitter, Google, etc.).  <b/>
 Currently, we are witnessing the transition from centralized computing, storage, and processing to decentralized architectures and systems. <b/>
+
 According to Muneeb Ali, these systems aim to
 <blockquote>
 "give explicit control of digital assets to end-users and remove the need to trust any third-party servers and infrastructure".
 </blockquote>
-Distributed ledger technology is one of the key innovations making this shift possible.  <b/>
-A distributed ledger is a type of data structure which resides across multiple computer devices, generally spread across locations or regions.  <b/>
-Distributed ledger technology (DLT) includes blockchain technologies and smart contracts.<b/>
-While distributed ledgers existed prior to Bitcoin, the Bitcoin blockchain marks the convergence of a host of technologies, including timestamping of transactions, Peer-to-Peer (P2P) networks, cryptography, and shared computational power, along with a new consensus algorithm.<b/>
-In summary, **distributed ledger technology (dlt)** generally consists of three basic components:
 
-  1. A data model that captures the current state of the ledger,
-  2. A language of transactions that changes the ledger state,
-  3. A protocol used to build consensus among participants around which transactions will be accepted, and in what order, by the ledger.
+Distributed ledger technology is one of the key innovations making this shift possible.  <b/>
+
+A distributed ledger is a type of data structure which resides across multiple computer devices, generally spread across locations or regions.  <b/>
+
+Distributed ledger technology (DLT) includes blockchain technologies and smart contracts.<b/>
+
+While distributed ledgers existed prior to Bitcoin, the Bitcoin blockchain marks the convergence of a host of technologies, including timestamping of transactions, Peer-to-Peer (P2P) networks, cryptography, and shared computational power, along with a new consensus algorithm.<b/>
+
+In summary, **distributed ledger technology (dlt)** generally consists of three basic components:
+<ol>
+<li>  1. A data model that captures the current state of the ledger,</li>
+<li>  2. A language of transactions that changes the ledger state,</li>
+<li>  3. A protocol used to build consensus among participants around which transactions will be accepted, and in what order, by the ledger.</li>
+</ol>
 
 **[`^        back to top        ^`](#table-of-contents)**
 

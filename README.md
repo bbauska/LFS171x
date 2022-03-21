@@ -763,7 +763,7 @@ Instead of competing to solve the cryptographic challenge and mine the next bloc
 In PoET, each validator is given a random wait time.
 "The validator with the shortest wait time for a particular transaction block is elected the leader".
 
-  * `sawtooth.hyperledger.org`
+  * _sawtooth.hyperledger.org_
 
 This "leader" gets to create the next block on the chain.
 
@@ -1448,10 +1448,10 @@ Its modular architecture allows components such as consensus and membership serv
 
 **[`^        back to top        ^`](#table-of-contents)**
 
-<h3>Hyperledger `Indy`</h3>
+<h3>Hyperledger _Indy_</h3>
 <p align="center" width="100%">
   <img width="50%" src="https://user-images.githubusercontent.com/41387907/138575485-e6cd7161-2c55-4a37-a97b-97177cc9665f.png"
-       alt="Hypereledger 'Indy'"</>
+       alt="Hyperledger Indy"</>
 </p>
 <p>
 Welcome to the Hyperledger greenhouse, an open source consortium for developing business blockchain technologies hosted by the Linux Foundation.  
@@ -1720,7 +1720,7 @@ Some key features are:
 
 **[`^        back to top        ^`](#table-of-contents)**
 
-<h3>Hyperledger `Explorer`</h3>
+<h3>Hyperledger Explorer</h3>
 <p align="center" width="100%">
   <img width="50%" src="https://user-images.githubusercontent.com/41387907/138575604-de11d640-967d-486a-8ddf-b302785cfdb0.png"
        alt="Hyperledger 'Explorer'"</>
@@ -1786,7 +1786,7 @@ Among its key characteristics are:
 
 **[`^        back to top        ^`](#table-of-contents)**
 
-<h3>Hyperledger `Transact`</h3>
+<h3>Hyperledger _Transact_</h3>
 <p align="center" width="100%">
   <img width="50%" src="https://user-images.githubusercontent.com/41387907/138575628-447fa51e-a4a4-4a4a-bb38-939f932086d9.png"
        alt="Hyperledger 'Transact'"</>
@@ -2288,53 +2288,73 @@ You can start or join a Hyperledger meetup. Development updates from Wiki can be
 **[`^        back to top        ^`](#table-of-contents)**
 
 <h4>Hyperledger Working Groups</h4>
-The Hyperledger Community’s working groups are open to the public. Developers and tech leaders can engage with any of the Hyperledger’s open community channels at this page.  
-Below, you can see an overview of Hyperledger’s working groups:
+The Hyperledger Community’s working groups are open to the public. 
 
-  * Architecture Working Group (AWG)  
-    This is a technical workgroup focused on developing an architectural framework for Enterprise class distributed ledgers, towards convergence on a modular architecture.
-  * Identity Working Group  
-    This group discusses, researches, and documents ways to capture, store, transmit and use identities on DLT, with a focus on projects under the Hyperledger umbrella.
-  * Learning Materials Development Working Group  
-    This group is focused on developing open source training material to educate people on Hyperledger and its projects.
-  * Performance and Scale Working Group  
-    This group discusses, researches, and identifies key metrics that relate to the performance and scalability of a blockchain and blockchain related technologies.
-  * Smart Contracts Working Group  
-    This group focuses on giving an academic perspective to this research topic and also on practical ways to utilize them on different DLTs that are under the Hyperledger umbrella, and explores all potentials from deploying them in everyday software solution scenarios.
-  * Technical Working Group China  
-    This group acts as a bridge between the global Hyperledger community and the emerging technical user and contributor community in China.
+Developers and tech leaders can engage with any of the Hyperledger’s open community channels at this page.  
+
+Below, you can see an overview of Hyperledger’s working groups:
+<ul>
+<li>Architecture Working Group (AWG)  
+    This is a technical workgroup focused on developing an architectural framework for Enterprise class distributed ledgers, towards convergence on a modular architecture.</li>
+<li>Identity Working Group  
+    This group discusses, researches, and documents ways to capture, store, transmit and use identities on DLT, with a focus on projects under the Hyperledger umbrella.</li>
+<li>Learning Materials Development Working Group  
+    This group is focused on developing open source training material to educate people on Hyperledger and its projects.</li>
+<li>Performance and Scale Working Group  
+    This group discusses, researches, and identifies key metrics that relate to the performance and scalability of a blockchain and blockchain related technologies.</li>
+<li>Smart Contracts Working Group  
+    This group focuses on giving an academic perspective to this research topic and also on practical ways to utilize them on different DLTs that are under the Hyperledger umbrella, and explores all potentials from deploying them in everyday software solution scenarios.</li>
+<li>Technical Working Group China  
+    This group acts as a bridge between the global Hyperledger community and the emerging technical user and contributor community in China.</li>
+</ul>
 
 **[`^        back to top        ^`](#table-of-contents)**
 
 <h3>Learning Materials Development Working Group</h3>
 The Hyperledger Learning Materials Development Working Group is focused on developing training materials that aims to expand people's knowledge of Hyperledger and its projects. Members of this group collaborate with other Hyperledger working groups, Hyperledger team members, project maintainers, and volunteers from all over the world to identify training needs, identify strategies and solution to address those needs, and develop training material that targets both technical and non-technical audiences.  
+
 Among other things, members of this working group support the development of this MOOC by reviewing existing content and contributing new material, suggesting improvements, as well as providing assistance in the course forum when needed.  
+
 If you would like to contribute to Hyperledger projects, you don't have to be a technical guru to do so. There are many ways to help, and working on developing training materials is one of them. Anyone is welcome to join this group to learn more about how to get involved.
 
 <h3>Hyperledger Special Interest Groups (SIGs)</h3>
-There are also a number of Special Interest Groups in the Hyperledger Community, focused on specific industries. You can learn more about these groups and their focus:
+There are also a number of Special Interest Groups in the Hyperledger Community, focused on specific industries. 
 
-*   Healthcare SIG (HC-SIG) This group represents an international membership of healthcare and technology professionals united in advancing the state of the healthcare industry through the implementation of enterprise-grade technology solutions utilizing the Hyperledger greenhouse of business blockchain frameworks and tools.
-*   Public Sector SIG This group is focused on applying DLT in general, and Hyperledger technologies in particular, to the public sector uses and needs.
-*   Social Impact SIG This group is primarily focused on serving as a platform for exchanging ideas and exploration of ways to use blockchain technology in the context of social good.
-*   Telecom SIG This group focuses on technical and business-level conversations about blockchain use cases in the Telecom industry.
-*   Trade Finance SIG This group is focused on DLT and Hyperledger technologies applications to the trade finance uses and needs.
+You can learn more about these groups and their focus:
+<ul>
+<li>Healthcare SIG (HC-SIG) This group represents an international membership of healthcare and technology professionals united in advancing the state of the healthcare industry through the implementation of enterprise-grade technology solutions utilizing the Hyperledger greenhouse of business blockchain frameworks and tools.</li>
+<li>Public Sector SIG This group is focused on applying DLT in general, and Hyperledger technologies in particular, to the public sector uses and needs.</li>
+<li>Social Impact SIG This group is primarily focused on serving as a platform for exchanging ideas and exploration of ways to use blockchain technology in the context of social good.</li>
+<li>Telecom SIG This group focuses on technical and business-level conversations about blockchain use cases in the Telecom industry.</li>
+<li>Trade Finance SIG This group is focused on DLT and Hyperledger technologies applications to the trade finance uses and needs.</li>
+</ul>
 
 <h3>Conclusions</h3>
-This concludes the LFS171x "Introduction to Hyperledger Technologies" course! We have introduced you to the current Hyperledger frameworks and tools, and we have highlighted some of the business blockchain applications.  
-We hope this course inspires you and helps you continue your journey into the business blockchain technology world. Whether you are an engineer, entrepreneur, developer, educator, or business person, we look forward to seeing what you build, as well as hearing from you in the course forum.  
+This concludes the LFS171x "Introduction to Hyperledger Technologies" course! 
+
+We have introduced you to the current Hyperledger frameworks and tools, and we have highlighted some of the business blockchain applications.  
+
+We hope this course inspires you and helps you continue your journey into the business blockchain technology world. 
+
+Whether you are an engineer, entrepreneur, developer, educator, or business person, we look forward to seeing what you build, as well as hearing from you in the course forum.  
+
 Good luck to all of you in your future endeavors!
 
 **[⬆ back to top](#table-of-contents)**
 **[`^        back to top        ^`](#table-of-contents)**
-Components of Hyperledger Frameworks
-Hyperledger business blockchain frameworks are used to build enterprise blockchains for a consortium of organizations. They are different than public ledgers like the Bitcoin blockchain and Ethereum. 
-Hyperledger frameworks include:
 
-  * An append-only distributed ledger
-  * A consensus algorithm for agreeing to changes in the ledger
-  * Privacy of transactions through permissioned access
-  * Smart contracts to process transaction requests.
+<h3>Components of Hyperledger Frameworks</h3>
+Hyperledger business blockchain frameworks are used to build enterprise blockchains for a consortium of organizations. 
+
+They are different than public ledgers like the Bitcoin blockchain and Ethereum. 
+
+Hyperledger frameworks include:
+<ul>
+<li>An append-only distributed ledger</li>
+<li>A consensus algorithm for agreeing to changes in the ledger</li>
+<li>Privacy of transactions through permissioned access</li>
+<li>Smart contracts to process transaction requests.</li>
+</ul>
 
 <p align="center" width="100%">
   <img width="50%" src="https://user-images.githubusercontent.com/41387907/138575454-df0b58de-1185-4558-b507-3a861a8bd63b.png"
@@ -2346,82 +2366,126 @@ Now, let's explore the Hyperledger frameworks (as of November 2020)!
 
 **[`^        back to top        ^`](#table-of-contents)**
 
-<h3>Hyperledger `Besu`</h3>
+<h3>Hyperledger _Besu_</h3>
 <p align="center" width="100%">
   <img width="50%" src="https://user-images.githubusercontent.com/41387907/138575460-35b419be-65bd-438d-a752-f047835d12bd.png"
   alt="Hyperledger 'Besu'"</>
 </p>
-**Hyperledger Besu** is an open source Ethereum client developed under the Apache 2.0 license and written in Java. It can be run on the Ethereum public network or on private permissioned networks, as well as test networks such as Rinkeby, Ropsten, and Görli. Hyperledger Besu includes several consensus algorithms including PoW, PoA, and IBFT, and has comprehensive permissioning schemes designed specifically for uses in a consortium environment. Hyperledger Besu joined the Hyperledger Incubator in August 2019; PegaSys has been its primary contributor and maintainer since its launch in November 2018, when it was known as Pantheon.  
-Among its features:
+**Hyperledger Besu** is an open source Ethereum client developed under the Apache 2.0 license and written in Java. 
 
-*   Implements the Enterprise Ethereum Alliance (EEA) specification
-*   The Ethereum Virtual Machine (EVM), which allows deployment and execution of smart contracts via transactions within an Ethereum blockchain
-*   Implements various consensus algorithms, such as Proof of Authority (with several protocols, such as IBTF 2.0 or Clique) and Proof of Work (Ethash)
-*   Uses a RocksDS key-value database to persist chain data locally
-*   P2P networking
-*   Provides user-facing APIs
-*   Allows you to monitor node and network performance
-*   Ability to keep transactions private between the involved parties
-*   Allows permissioning.
+It can be run on the Ethereum public network or on private permissioned networks, as well as test networks such as Rinkeby, Ropsten, and Görli. 
+
+Hyperledger Besu includes several consensus algorithms including PoW, PoA, and IBFT, and has comprehensive permissioning schemes designed specifically for uses in a consortium environment. 
+
+Hyperledger Besu joined the Hyperledger Incubator in August 2019; PegaSys has been its primary contributor and maintainer since its launch in November 2018, when it was known as Pantheon.  
+
+Among its features:
+<ul>
+<li>Implements the Enterprise Ethereum Alliance (EEA) specification</li>
+<li>The Ethereum Virtual Machine (EVM), which allows deployment and execution of smart contracts via transactions within an Ethereum blockchain</li>
+<li>Implements various consensus algorithms, such as Proof of Authority (with several protocols, such as IBTF 2.0 or Clique) and Proof of Work (Ethash)</li>
+<li>Uses a RocksDS key-value database to persist chain data locally</li>
+<li>P2P networking</li>
+<li>Provides user-facing APIs</li>
+<li>Allows you to monitor node and network performance</li>
+<li>Ability to keep transactions private between the involved parties</li>
+<li>Allows permissioning.</li>
+</ul>
 
 **[`^        back to top        ^`](#table-of-contents)**
 
-<h3 id="ch3-2">3.2 Hyperledger Burrow</h3>
+<h3 id="ch3-2">3.2 Hyperledger _Burrow_</h3>
 
 <p align="center" width="100%">
   <img width="50%" src="https://user-images.githubusercontent.com/41387907/138575472-9d1aec50-3591-4324-9f5c-0973a32809dc.png"
        alt="Hyperledger Burrow"</>
 </p>
 Welcome to the Hyperledger greenhouse, an open source consortium for developing business blockchain technologies hosted by the Linux Foundation.  
-Within the greenhouse, diverse global communities collaboratively develop open source projects that uniquely approach enterprise blockchain challenges.  
-These technologies can cross-pollinate and interoperate, just like how the community is driving the projects, collaborate in an open and neutral environment.  
-Hyperledger Burrow is a modular blockchain framework in the Hyperledger greenhouse, with a permissioned smart contract interpreter, developed partly to the specifications of the Ethereum Virtual Machine.  
-Smart contracts provide the base functionality and computational muscle within blockchain networks.  
-Smart contracts are written into lines of code, and distributed across blockchain networks.  
-They can be configured to manage processes, exchange value, or perform calculations, all without intermediaries.  
-Because of its lightweight and fast smart contract design, and the Byzantine fault tolerant consensus algorithm with transaction finality,  
-Burrow is optimized for sharing processes across organizations.  
-Burrow operates as Hyperledger's library for Ethereum Virtual Machine-based smart contracts.  
-If you wrote Solidity contracts for the public Ethereum network, Hyperledger Burrow allows you to bring those smart contracts over to Hyperledger.  
-Burrow helps organizations better meet their cross-functional business needs, and opens the door for other Hyperledger projects to incorporate the Ethereum Virtual Machine into their platforms.  
-Get started with Hyperledger Burrow today, by downloading the source code, accessing the documentation, and joining our community from our website: hyperledger.org.  
-Hyperledger Burrow was released in December 2014. It was originally designed by Monax, and co-sponsored by Intel. The project is generally updated on a quarterly basis, and is licensed under the Apache 2.0. license. Currently under incubation, "Hyperledger Burrow is a complete single-binary blockchain distribution focussed on simplicity, speed, and developer ergonomics. It supports both EVM and WASM based smart contracts and uses BFT consensus via the Tendermint algorithm".  
-Hyperledger Burrow components are:
 
-*   Consensus Engine - Hyperledger Burrow uses the Byzantine fault-tolerant Tendermint protocol to order and finalize transactions
-*   The API Gateway provides interfaces for systems integration and user interfaces
-*   The Smart Contract Application engine facilitates integration of complex business logic (maintaining the networking stack between the nodes and ordering transactions)
-*   Permissioned Ethereum Virtual Machine - it is built to observe the Ethereum operation code specification, and asserts the correct permissions have been granted
-*   Application Binary Interface (ABI) - transactions must be formulated in a binary format, which is processed by the blockchain node.
-*   The Application Blockchain Interface (ABCI) provides interface specification for the consensus engine and smart contract application engine to connect.
+Within the greenhouse, diverse global communities collaboratively develop open source projects that uniquely approach enterprise blockchain challenges.  
+
+These technologies can cross-pollinate and interoperate, just like how the community is driving the projects, collaborate in an open and neutral environment.  
+
+Hyperledger Burrow is a modular blockchain framework in the Hyperledger greenhouse, with a permissioned smart contract interpreter, developed partly to the specifications of the Ethereum Virtual Machine.  
+
+Smart contracts provide the base functionality and computational muscle within blockchain networks.  
+
+Smart contracts are written into lines of code, and distributed across blockchain networks.  
+
+They can be configured to manage processes, exchange value, or perform calculations, all without intermediaries.  
+
+Because of its lightweight and fast smart contract design, and the Byzantine fault tolerant consensus algorithm with transaction finality,  
+
+Burrow is optimized for sharing processes across organizations.  
+
+Burrow operates as Hyperledger's library for Ethereum Virtual Machine-based smart contracts.  
+
+If you wrote Solidity contracts for the public Ethereum network, Hyperledger Burrow allows you to bring those smart contracts over to Hyperledger.  
+
+Burrow helps organizations better meet their cross-functional business needs, and opens the door for other Hyperledger projects to incorporate the Ethereum Virtual Machine into their platforms.  
+
+Get started with Hyperledger Burrow today, by downloading the source code, accessing the documentation, and joining our community from our website: *hyperledger.org*.  
+
+Hyperledger Burrow was released in December 2014. It was originally designed by Monax, and co-sponsored by Intel. The project is generally updated on a quarterly basis, and is licensed under the Apache 2.0. license. 
+
+Currently under incubation, 
+<blockquote>
+"Hyperledger Burrow is a complete single-binary blockchain distribution focussed on simplicity, speed, and developer ergonomics. It supports both EVM and WASM based smart contracts and uses BFT consensus via the Tendermint algorithm".  
+</blockquote>
+
+Hyperledger Burrow components are:
+<ul>
+<li>Consensus Engine - Hyperledger Burrow uses the Byzantine fault-tolerant Tendermint protocol to order and finalize transactions</li>
+<li>The API Gateway provides interfaces for systems integration and user interfaces</li>
+<li>The Smart Contract Application engine facilitates integration of complex business logic (maintaining the networking</li> stack between the nodes and ordering transactions)</li>
+<li>Permissioned Ethereum Virtual Machine - it is built to observe the Ethereum operation code specification, and asserts the correct permissions have been granted</li>
+<li>Application Binary Interface (ABI) - transactions must be formulated in a binary format, which is processed by the blockchain node.</li>
+<li>The Application Blockchain Interface (ABCI) provides interface specification for the consensus engine and smart contract application engine to connect.</li>
+</ul>
 
 **[`^        back to top        ^`](#table-of-contents)**
 
-<h3>Hyperledger `Fabric`</h3>
+<h3>Hyperledger _Fabric_</h3>
 <p align="center" width="100%">
   <img width="50%" src="https://user-images.githubusercontent.com/41387907/138575480-0a337383-2046-4aeb-ac95-e68e3ab29e36.png"
        alt="Hyperledger 'Fabric'"</>
 </p>
 Welcome to the Hyperledger greenhouse, an open source consortium for developing business blockchain technologies hosted by the Linux Foundation.  
+
 Within the greenhouse, diverse global communities collaboratively develop open source projects that uniquely approach enterprise blockchain challenges.  
+
 These technologies can cross-pollinate and interoperate, just like how the community is driving the projects collaborate in an open and neutral environment.  
+
 Hyperledger Fabric is an enterprise-grade, permissioned distributed ledger platform in the Hyperledger greenhouse that offers modularity and versatility for a broad set of industry use cases.  
+
 The modular architecture for Fabric accommodates the diversity of enterprise use cases through plug-and-play components, such as consensus, privacy, and membership services.  
+
 One of the many compelling Fabric features is the enablement of a network of networks.  
+
 Members of a network work together, but because businesses need some of their data to remain private, they often maintain separate relationships within their networks.  
+
 Rather than an open, permissionless system, Fabric offers a modular, scalable and secure platform that supports private transactions and confidential contracts.  
+
 Fabric helps members manage confidential obligations to each other without first passing it through a central authority.  
+
 That way, personal data isn't available to the entire network.  
+
 If a member is not an agreed-upon party, the transaction shouldn't appear on their ledger.  
+
 This architecture allows for solutions developed with Fabric to be adapted for any industry, thus ushering in a new era of trust, transparency, and accountability for businesses.  
+
 Get started with Hyperledger Fabric today by downloading the source code, accessing the documentation, and joining our community from our website:  
 hyperledger.org.
 
 Hyperledger Fabric is an open source, production ready, permissioned blockchain framework implementation that was designed to serve as a foundation for developing applications or solutions with a modular architecture. It was the first proposal for a codebase (2016), combining previous work done by Digital Asset Holdings, Blockstream's libconsensus, and IBM's OpenBlockchain. It graduated from the Hyperledger Incubator in March of 2017.  
+
 Key characteristics of Hyperledger Fabric are:
-- High-performance, secure, permissioned blockchain network
-- Features powerful container technology to host any mainstream language for smart contracts development
-- Code written in Go, chaincode written in Go, Javascript, or Java, SDKs written in Node.js, Java, Go, REST and Python.
+<ul>
+<li>High-performance, secure, permissioned blockchain network</li>
+<li>Features powerful container technology to host any mainstream language for smart contracts development</li>
+<li>Code written in Go, chaincode written in Go, Javascript, or Java, SDKs written in Node.js, Java, Go, REST and Python.<li>
+</ul>
+
 Its modular architecture allows components such as consensus and membership services to be plug-and-play. One of the key advantages of Hyperledger Fabric is that it allows entities to conduct confidential transactions without passing information through a central authority. This is accomplished through different channels that run within the network, as well as the division of labor that characterizes the different nodes within the network.
 
 **[`^        back to top        ^`](#table-of-contents)**
@@ -2429,7 +2493,7 @@ Its modular architecture allows components such as consensus and membership serv
 <h3>Hyperledger _Indy_</h3>
 <p align="center" width="100%">
   <img width="50%" src="https://user-images.githubusercontent.com/41387907/138575485-e6cd7161-2c55-4a37-a97b-97177cc9665f.png"
-       alt="Hypereledger 'Indy'"</>
+       alt="Hypereledger Indy"</>
 </p>
 <p>
 Welcome to the Hyperledger greenhouse, an open source consortium for developing business blockchain technologies hosted by the Linux Foundation.  
@@ -2490,18 +2554,25 @@ According to Brian Behlendorf,
 ```
 "(...) identity is a toxic asset that could present a liability to organizations".  
 ```
-Indeed, since 2013, over 14 billion data records were lost or stolen. What is striking is that, out of these, only 4% were encrypted, and hence, rendered useless after being stolen (also called "secure breaches"). You can find detailed statistics at the Breach Level Index website.
+
+Indeed, since 2013, over 14 billion data records were lost or stolen. What is striking is that, out of these, only 4% were encrypted, and hence, rendered useless after being stolen (also called "secure breaches"). 
+
+You can find detailed statistics at the Breach Level Index website.
 </p>
 <p align="center" width="100%">
   <img width="50%" src="https://user-images.githubusercontent.com/41387907/138575517-527507d7-cb6f-4ac4-811c-2767ea494268.png"
        alt="Hyperledger Indy and its 'privacy by design' approach"</>
 </p>
-One of the key principles of Hyperledger Indy is its "privacy by design" approach. Given the immutable nature of the DLT, it is all the more important that digital identities be handled with the utmost care, keeping human values front and center.  
+One of the key principles of Hyperledger Indy is its "privacy by design" approach. 
+
+Given the immutable nature of the DLT, it is all the more important that digital identities be handled with the utmost care, keeping human values front and center.  
 <blockquote>
 "Hyperledger Indy lets users authenticate identity based on the attributes they are willing to store and share themselves. This can reduce the amount of liability contained within a business because the data can be kept with the user and presented to you again in a way that you can trust and validate that what has been said really was said and is trusted by the other parties you do business with".
 </blockquote>
+
 *   Nathan George, Maintainer, Hyperledger Indy
-    Further information about the history of the project can be found at the Sovrin's website.
+
+Further information about the history of the project can be found at the Sovrin's website.
 
 **[`^        back to top        ^`](#table-of-contents)**
 
@@ -2547,7 +2618,9 @@ you don't need to be a blockchain guru to incorporate Iroha into your business.
 Get started with Hyperledger Iroha today by downloading the source code, accessing thedocumentation and joining our community from our website:  
 hyperledger.org. 
 
-Hyperledger Iroha is a free, open source blockchain framework contributed by Soramitsu, Hitachi, NTT Data, and Colu (2016). Hyperledger Iroha is a simple blockchain platform that can be used to make trusted, secure, and fast applications that leverage the power of permission-based blockchain with Byzantine fault-tolerant consensus. 
+Hyperledger Iroha is a free, open source blockchain framework contributed by Soramitsu, Hitachi, NTT Data, and Colu (2016). 
+
+Hyperledger Iroha is a simple blockchain platform that can be used to make trusted, secure, and fast applications that leverage the power of permission-based blockchain with Byzantine fault-tolerant consensus. 
 
 Among its key features are:
 <ul>
@@ -2560,35 +2633,55 @@ Among its key features are:
 <li>Uses a high-performance Byzantine fault-tolerant consensus algorithm called YAC.</li>
 </ul>
 
-According to the Hyperledger Iroha documentation, "it can be used to manage digital assets, identity and serialized data, and can be useful for applications such as interbank settlement, central bank digital currencies, payment systems, national IDs, and logistics, among others". Its documentation provides an extensive list of use cases, and specific advantages the use of Hyperledger Iroha can introduce - you can read about these use case scenarios online.
-Hyperledger Iroha emphasizes mobile application development with client libraries for Android and iOS, making it distinct from other Hyperledger frameworks. Inspired by Hyperledger Fabric, Hyperledger Iroha seeks to complement Hyperledger Fabric and Hyperledger Sawtooth, while providing a development environment for C++ developers to contribute to Hyperledger.  
+According to the Hyperledger Iroha documentation, "it can be used to manage digital assets, identity and serialized data, and can be useful for applications such as interbank settlement, central bank digital currencies, payment systems, national IDs, and logistics, among others". 
+
+Its documentation provides an extensive list of use cases, and specific advantages the use of Hyperledger Iroha can introduce - you can read about these use case scenarios online.
+
+Hyperledger Iroha emphasizes mobile application development with client libraries for Android and iOS, making it distinct from other Hyperledger frameworks. 
+Inspired by Hyperledger Fabric, Hyperledger Iroha seeks to complement Hyperledger Fabric and Hyperledger Sawtooth, while providing a development environment for C++ developers to contribute to Hyperledger.  
+
 Hyperledger Iroha is an active project, and reached a significant milestone in May 2019, the 1.0 release. To learn more about it, you can read the announcement.
 
 **[`^        back to top        ^`](#table-of-contents)**
 
-<h3>Hyperledger Sawtooth</h3>
+<h3>Hyperledger _Sawtooth_</h3>
 <p align="center" width="100%">
   <img width="50%" height="25%" src="https://user-images.githubusercontent.com/41387907/138575534-bf8c8a84-4c23-472c-9e07-6668e789540f.png"
        alt="Hyperledger 'Sawtooth'"</>
 </p>
 Welcome to the Hyperledger greenhouse, an open source consortium for developing business blockchain technologies hosted by the Linux Foundation.  
+
 Within the greenhouse, diverse global communities collaboratively develop open source projects that uniquely approach enterprise blockchain challenges.  
+
 These technologies can cross-pollinate and interoperate, just like how the community is driving the projects collaborate in an open and neutral environment.  
+
 Built from the ground up for enterprise use, the Hyperledger Sawtooth design philosophy targets development of decentralized ledgers and secure, scalable smart contracts.  
+
 The Sawtooth security model uses a single node type, which simplifies deployment.  
 Plenty of examples exist for both on-prem and cloud installations.  
+
 On chain governance lets enterprises manage all aspects of the Sawtooth network with the network itself.  
+
 Participants add policies and agree on configuration changes using Sawtooth transactions.  
+
 In fact, even consensus algorithms can be changed real time in a running network: start with Raft, them harden with PBFT, or switch to Proof of Elapsed Time as the network grows.  
+
 Sawtooth software development kits cover a wide variety of languages.  
+
 The smart contract model supports deploying any and all of these languages alongside each other.  
+
 Ethereum contracts, for example, can be deployed alongside WebAssembly and Java contracts.  
+
 Sawtooth distributed ledger technology can integrate with existing internal databases by keeping internal relational and key/value databases in sync with the Sawtooth network.  
+
 Whether you are using Sawtooth for healthcare, supply chain, or financial services,  
 your internal systems can make use of all the data managed on the Sawtooth blockchain.  
+
 Get started with Hyperledger Sawtooth today by downloading the source code, accessing the documentation and joining our community from our website:  
-hyperledger.org.  
+>hyperledger.org.  
+
 Hyperledger Sawtooth, is an open source blockchain framework that utilizes a highly modular platform for building, deploying, and running distributed ledger applications and networks, making smart contracts safe, particularly for enterprise use. It was originally contributed by Intel and joined the Hyperledger greenhouse in April of 2016. In May of 2018 it graduated from the Hyperledger Incubator.
+
 Some of its key characteristics are:
   * Uses pluggable consensus algorithms, which allows consensus to be changed by transaction on the fly
   * Smart contracts can be written in almost any language
@@ -2596,96 +2689,154 @@ Some of its key characteristics are:
   * Ethereum contract support via Hyperledger Burrow integration
   * No central authority or implementation. This increases security as there is no centralized service that could leak transaction patterns or any other confidential information
   * Supports creating and broadcasting events.
-Distributed ledger solutions built with Hyperledger Sawtooth can utilize various consensus algorithms based on the size of the network (PoET SGX, Raft, etc.). Hyperledger Sawtooth is designed for versatility, with support for both permissioned and permissionless deployments. This technology simplifies blockchain application development and deployment by clearly separating the core system from the application domain.
+
+Distributed ledger solutions built with Hyperledger Sawtooth can utilize various consensus algorithms based on the size of the network (PoET SGX, Raft, etc.). 
+
+Hyperledger Sawtooth is designed for versatility, with support for both permissioned and permissionless deployments. 
+
+This technology simplifies blockchain application development and deployment by clearly separating the core system from the application domain.
 
 **[`^        back to top        ^`](#table-of-contents)**
 
 <h3>Hyperledger Sawtooth Characteristics Relative to Use Cases (Dan Middleton)</h3>
-So, unique characteristics of Sawtooth... There's several, but one that comes to mind for a provenance or supply chain use case,  
+Unique characteristics of Sawtooth... There's several, but one that comes to mind for a provenance or supply chain use case,  
 is that that network will probably grow over time.  
+
 The reason that a lot of us are starting blockchain networks, a lot of companies are invested in looking at blockchain networks, because we think that we're going to be in them for a long time and they're going to continue to grow.  
+
 Sawtooth is designed so that you can grow the size of the network, you can actually change the consensus mechanism on the fly...  
+
 I think this is a unique characteristic of Sawtooth amongst all of the other ledgers...you can submit as a transaction and then have a policy within your network to accept that new consensus, and then, your network can move from say a PBFT-style consensus to something like PoET, or some sort of random leader election consensus...  
+
 It allows you to have tens, or hundreds, or potentially thousands of different nodes on your network, and you really can't beat that kind of availability and integrity guarantees, or that kind of flexibility for a network that needs to be up for years.
 
 <h3>Hyperledger Sawtooth - Supply Chain Use Case Example (Courtesy of Sawtooth)</h3>
 Meet Rich: he owns a popular seafood restaurant in Boston, Massachusetts.  
+
 Rich strives to serve only the freshest, highest quality fish to his patrons, but he often has difficulty knowing exactly where it was caught, how it got to his restaurant, or if it's even the right species of fish.  
+
 From ocean to table, the fish supply chain is difficult to track, and usually follows this pattern: the fish is caught by a commercial fisherman in the ocean,  
 the fisherman then sells the fish to a market, processor, or broker, a distributor then transports the fish to a restaurant or grocery store for a consumer to purchase.  
+
 Rich typically only buys from one or two fish distributors that he has built a foundation of trust and personal history with.  
+
 He'd like to expand his menu by adding some different kinds of seafood from other distributors, but he worries about integrity, and for good reason.  
+
 He recently read a study by Oceana, which showed that 33% of fish purchased from retail outlets is incorrectly labeled, and that illegal fishing represents losses between 10 to 23 billion dollars worldwide.  
+
 Rich knows that mislabeled and illegally sourced fish could hurt his customers, his restaurant's reputation, and the environment of our planet.  
+
 Fortunately for Rich and others in the seafood industry,  
 Sawtooth Lake blockchain technology can provide an immutable record of the provenance and lineage of various goods, like fish.  
+
 In combination with Internet of Things-enabled sensors, Sawtooth Lake can manage the ownership and journey of fish from ocean to table.  
+
 Sensors can be attached to fish the moment they are harvested, immediately and continuously recording data such as the location and temperature of the fish.  
+
 Now, Rich can validate when and where his fish was caught, and that it was stored properly on ice while it was transported.  
+
 The Sawtooth Lake platform can also manage the Chain of Custody fish, enabling ownership to be transferred and traded on the blockchain according to smart contracts.  
+
 With Sawtooth Lake as a traceability blockchain, Rich can easily see which fishermen meet his quality standards and feels comfortable doing business with new tradesmen.  
+
 When he serves up a new special to a cherished customer, he can confidently and accurately assure her it's the type of fish she ordered, it was stored at safe temperatures, when and where it was caught, how long it took to get to her plate, and the fish's name... just kidding.  
+
 Sawtooth Lake blockchain technology can be used for a wide variety of applications, from capital markets to international trade.  
+
 The Internet of Things ties the physical world to the digital world, with Sawtooth Lake recording the generated data in a way that all parties can trust its accuracy and completeness.  
+
 This is extremely useful for tracking perishable goods, like fish.  
+
 These sensors can track many key parameters, such as location, temperature, humidity, motion, shock, and tilt.  
+
 This technology could be added to any package or sensitive good you're entrusting to other parties.  
+
 The blockchain will ensure the data is secure and tamper-proof, so that you know what you're getting, and that you get what you pay for.
 
 Sawtooth Lake creates a digital platform enabling physical traceability in a trustless world.
 
 **[`^        back to top        ^`](#table-of-contents)**
 
-<h3>Hyperledger `Grid`</h3>
+<h3>Hyperledger _Grid_</h3>
 <p align="center" width="100%">
   <img width="50%" src="https://user-images.githubusercontent.com/41387907/138575543-c953e474-d30d-4ad2-818c-7f7dce930ad2.png"
        alt="Hyperledger 'Grid'"</>
 </p>
 Hyperledger Grid is a domain-specific business blockchain technology for building supply chain solutions that include distributed ledger components; it's an ecosystem of technologies, frameworks, and libraries that work together, allowing application developers to chose which components are best for their industry or market model. 
+
 It intends to:
-  * Provide reference implementations of supply chain-centric data types, data models, and smart contract-based business logic based on existing open standards and industry best practices.
-  * Provide authentic, practical ways to combine components from the Hyperledger Stack into a single, effective business solution.
-Hyperledger Grid was accepted in the Hyperledger Incubator as of December 2018, with Cargill, Intel and Bitwise as primary contributors to this initial stage. Its software is licensed under the Apache License Version 2.0.  
+<ul>
+<li>Provide reference implementations of supply chain-centric data types, data models, and smart contract-based business logic based on existing open standards and industry best practices.</li>
+<li>Provide authentic, practical ways to combine components from the Hyperledger Stack into a single, effective business solution.</li>
+</ul>
+
+Hyperledger Grid was accepted in the Hyperledger Incubator as of December 2018, with Cargill, Intel and Bitwise as primary contributors to this initial stage. 
+
+Its software is licensed under the Apache License Version 2.0.  
+
 Hyperledger Grid incorporates several GS1Standards concepts in an effort to put structure around static and dynamic data and increase visibility, standardization, consistency, credibility, neutrality and interoperability:
-  * Global Trade Item Number (GTIN) - this is a unique product identifier with a critical role in global commerce, composed of numbers that identify the company making the product, as well as numbers identifying the product. A product that has its own GTIN retains an identity regardless of where it is in the supply chain, and this is key for blockchain implementation.
-  * Global Location Numbers (GLN) - These are numbers that uniquely identify organizations and locations in the supply chain, and contribute to enhanced visibility in the supply chain.
-  * GS1 barcodes - These barcode labels must be captured in order to allow data to be shared among trading partners. They provide product specific information and allow real-time view of where the products have been and where they are going.
-  * Electronic Product Code Information Services (EPCIS) - This is similar to a standardized API, capturing and sharing information about the movement and status of products, logistic units, and other assets in the supply chain.  
+<ul>
+<li>Global Trade Item Number (GTIN) - this is a unique product identifier with a critical role in global commerce, composed of numbers that identify the company making the product, as well as numbers identifying the product. A product that has its own GTIN retains an identity regardless of where it is in the supply chain, and this is key for blockchain implementation.</li>
+<li>Global Location Numbers (GLN) - These are numbers that uniquely identify organizations and locations in the supply chain, and contribute to enhanced visibility in the supply chain.</li>
+<li>GS1 barcodes - These barcode labels must be captured in order to allow data to be shared among trading partners. They provide product specific information and allow real-time view of where the products have been and where they are going.</li>
+<li>Electronic Product Code Information Services (EPCIS) - This is similar to a standardized API, capturing and sharing information about the movement and status of products, logistic units, and other assets in the supply chain.  </li>
+</ul>
+
 You can learn more about Hyperledger Grid from its website and wiki pages, where more resources are provided as well.
 
 **[⬆ back to top](#table-of-contents)**
 
 <h2 id="ch4">Chapter 4: Hyperledger Tools</h2>
-The Hyperledger frameworks which we examined in the previous chapter are used to build blockchains and distributed ledgers. The Hyperledger tools, which we will look at next, are auxiliary softwares used for things like deploying and maintaining blockchains, examining the data on the ledgers, as well as tools to design, prototype, and extend blockchain networks.
+The Hyperledger frameworks which we examined in the previous chapter are used to build blockchains and distributed ledgers. 
+
+The Hyperledger tools, which we will look at next, are auxiliary softwares used for things like deploying and maintaining blockchains, examining the data on the ledgers, as well as tools to design, prototype, and extend blockchain networks.
 
 <h3>Learning Objectives</h3>
 By the end of this chapter, you should be able to:
-
-*   Understand the role of Hyperledger tools.
-*   Get a high-level understanding of the Hyperledger tools (as of November 2020): Hyperledger Avalon, Hyperledger Cactus, Hyperledger Caliper, Hyperledger Cello, Hyperledger Explorer.
+<ul>
+<li>Understand the role of Hyperledger tools</li>
+<li>Get a high-level understanding of the Hyperledger tools (as of November 2020): Hyperledger Avalon, Hyperledger Cactus, Hyperledger Caliper, Hyperledger Cello, Hyperledger Explorer.</li>
+</ul>
 
 **[`^        back to top        ^`](#table-of-contents)**
 
-<h3>Hyperledger `Avalon`</h3>
+<h3>Hyperledger _Avalon_</h3>
 <p align="center" width="100%">
   <img width="50%" src="https://user-images.githubusercontent.com/41387907/138575551-ce0c30a8-ebb3-486d-85d8-98f383cf0414.png"
        alt="Hyperledger 'Avalon'"</>
 </p>
-Hyperledger Avalon is a ledger independent implementation of the Off-Chain Trusted Compute Specification published by the Enterprise Ethereum Alliance (EEA). It joined the Hyperledger Incubator in October of 2019, bringing together sponsorship from Intel, iExec Blockchain Tech, Alibaba Cloud, Baidu, BGI, Chainlink, Consensys, EEA, Espeo, IBM, Kaleido, Microsoft, Banco Santander, Wipro, Oracle, and Monax. It aims to enable the secure movement of blockchain processing off the main chain to dedicated computing resources. Avalon is designed to help developers gain the benefits of computational trust and mitigate its drawbacks. It is released under the Apache License Version 2.0.  
-Hyperledger Avalon:
+Hyperledger Avalon is a ledger independent implementation of the Off-Chain Trusted Compute Specification published by the Enterprise Ethereum Alliance (EEA). 
 
-  * Enables developers to accelerate throughput and improve data privacy
-  * The initial implementation of Hyperledger Avalon uses Intel Software Guard Extensions (SGX)
-  * Uses the Off-Chain Trusted Compute Specification as a starting point to apply a consistent and compatible approach to all supported blockchains.
+It joined the Hyperledger Incubator in October of 2019, bringing together sponsorship from Intel, iExec Blockchain Tech, Alibaba Cloud, Baidu, BGI, Chainlink, Consensys, EEA, Espeo, IBM, Kaleido, Microsoft, Banco Santander, Wipro, Oracle, and Monax. 
+
+It aims to enable the secure movement of blockchain processing off the main chain to dedicated computing resources. 
+
+Avalon is designed to help developers gain the benefits of computational trust and mitigate its drawbacks. 
+
+It is released under the Apache License Version 2.0.  
+
+Hyperledger Avalon:
+<ul>
+<li>Enables developers to accelerate throughput and improve data privacy</li>
+<li>The initial implementation of Hyperledger Avalon uses Intel Software Guard Extensions (SGX)</li>
+<li>Uses the Off-Chain Trusted Compute Specification as a starting point to apply a consistent and compatible approach to all supported blockchains.</li>
+</ul>
   
 You can learn more about Hyperledger Avalon from Eugene (Yevgeniy) Yarmosh's An Introduction to Hyperledger Avalon presentation.
 
-<h3>Hyperledger `Cactus`</h3>
+<h3>Hyperledger _Cactus_</h3>
 <p align="center" width="100%">
   <img width="50%" src="https://user-images.githubusercontent.com/41387907/138575562-8b06ea63-6d50-4116-b292-2c26882da1ff.png"
        alt="Hyperledger 'Cactus'"</>
 </p>
-Hyperledger Cactus is an open source project jointly contributed by Accenture and Fujitsu; it joined the Hyperledger Greenhouse in May 2020. Formerly known as the Blockchain Integration Framework, this blockchain integration tool aims to provide decentralized, secure and adaptable integration between blockchain networks. Developers are currently working on refactoring the Hyperledger Cactus architecture to ensure it will enable plug-in based collaborative development, thus increasing the breadth of use cases and ledgers supported. Hyperledger Cactus is licensed under an Apache License Version 2.0.
+Hyperledger Cactus is an open source project jointly contributed by Accenture and Fujitsu; it joined the Hyperledger Greenhouse in May 2020. 
+
+Formerly known as the Blockchain Integration Framework, this blockchain integration tool aims to provide decentralized, secure and adaptable integration between blockchain networks. 
+
+Developers are currently working on refactoring the Hyperledger Cactus architecture to ensure it will enable plug-in based collaborative development, thus increasing the breadth of use cases and ledgers supported. 
+
+Hyperledger Cactus is licensed under an Apache License Version 2.0.
+
 To learn more about Hyperledger Cactus, you can watch Peter Somogyvari's Hyperledger Cactus - A Framework for Integrating Distributed Ledgers presentation.
 
 
@@ -2697,25 +2848,40 @@ To learn more about Hyperledger Cactus, you can watch Peter Somogyvari's Hyperle
        alt="Hyperledger 'Caliper'"</>
 </p>
 Welcome to the Hyperledger greenhouse, an open source consortium for developing business blockchain technologies hosted by the Linux Foundation.  
-Within the greenhouse, diverse global communities collaboratively develop open source projects that uniquely approach enterprise blockchain challenges.  
-These technologies can cross-pollinate and interoperate, just like how the community is driving the projects collaborate in an open and neutral environment.  
-Hyperledger Caliper is a blockchain benchmark tool in the Hyperledger greenhouse that measures the performance of various blockchain systems by using a set of predefined cases.  
-Most users feel concerned or at least curious about the performance of their blockchain solution.  
-However, until now, there has not been a commonly accepted blockchain benchmarking tool.  
-Caliper brings to market the first tool that uses a set of neutral and agreed upon rules to evaluate differing blockchain solutions.  
-In addition to a customizable test flow and workload, Caliper produces reports that contain performance indicators such as resource utilization, transaction latency, and transactions per second, or TPS.  
-Every blockchain system today offers its unique strengths.  
-Caliper allows users to understand the solutions that best meet their use cases.  
-Blockchain developers can also use Caliper as an internal tool to test the performance of different development versions, and since the performance of blockchain systems varies within different configurations, Caliper will be able to help users decide which configuration best suits their needs.  
-Get started with Hyperledger Caliper today by downloading the source code, accessing the documentation and joining our community from our website: hyperledger.org.  
-Currently in incubation, Hyperledger Caliper was initially contributed in 2018 by developers from Huawei, Hyperchain, Oracle, Bitwise, Soramitsu, IBM and the Budapest University of Technology and Economics. It references the definitions, metrics and terminology defined by the Performance and Scalability Working Group. 
-Some of the project's key characteristics are:
 
-  * Unified blockchain benchmark framework
-  * Commonly accepted definition of performance indicators
-  * Commonly accepted benchmark cases.  
+Within the greenhouse, diverse global communities collaboratively develop open source projects that uniquely approach enterprise blockchain challenges.  
+
+These technologies can cross-pollinate and interoperate, just like how the community is driving the projects collaborate in an open and neutral environment.  
+
+Hyperledger Caliper is a blockchain benchmark tool in the Hyperledger greenhouse that measures the performance of various blockchain systems by using a set of predefined cases.  
+
+Most users feel concerned or at least curious about the performance of their blockchain solution.  
+
+However, until now, there has not been a commonly accepted blockchain benchmarking tool.  
+
+Caliper brings to market the first tool that uses a set of neutral and agreed upon rules to evaluate differing blockchain solutions.  
+
+In addition to a customizable test flow and workload, Caliper produces reports that contain performance indicators such as resource utilization, transaction latency, and transactions per second, or TPS.  
+
+Every blockchain system today offers its unique strengths.  
+
+Caliper allows users to understand the solutions that best meet their use cases.  
+
+Blockchain developers can also use Caliper as an internal tool to test the performance of different development versions, and since the performance of blockchain systems varies within different configurations, Caliper will be able to help users decide which configuration best suits their needs.  
+
+Get started with Hyperledger Caliper today by downloading the source code, accessing the documentation and joining our community from our website: hyperledger.org.  
+
+Currently in incubation, Hyperledger Caliper was initially contributed in 2018 by developers from Huawei, Hyperchain, Oracle, Bitwise, Soramitsu, IBM and the Budapest University of Technology and Economics. It references the definitions, metrics and terminology defined by the Performance and Scalability Working Group. 
+
+Some of the project's key characteristics are:
+<ul>
+<li>Unified blockchain benchmark framework</li>
+<li>Commonly accepted definition of performance indicators</li>
+<li>Commonly accepted benchmark cases.  </li>
+</ul>
 
 As of November 2020, it supports the following blockchain solutions: Hyperledger Besu, Hyperledger Burrow, Ethereum, Hyperledger Fabric, FISCO BCOS, Hyperledger Iroha and Hyperledger Sawtooth.
+
 Hyperledger Caliper is a blockchain benchmark tool, which allows users to measure the performance of a specific blockchain implementation with a set of predefined use cases.
 
 **[`^        back to top        ^`](#table-of-contents)**
@@ -2740,25 +2906,27 @@ Some key features are:
   <img width="50%" src="https://user-images.githubusercontent.com/41387907/138575585-50c35d4d-4f56-4378-81e7-5a6ad5b9faa0.png"
        alt="I don't know"</>
 </p>
-<h5 align="center" width="100%">Hyperledger Cello</h5>
+<h5 align="center" width="100%">Hyperledger _Cello_</h5>
 <p align="center" width="100%">(Source: https://www.hyperledger.org/blog/2017/01/17/hyperledger-says-hello-to-cello)</p>
 
 **[`^        back to top        ^`](#table-of-contents)**
 
-<h3>Hyperledger `Explorer`</h3>
+<h3>Hyperledger _Explorer_</h3>
 <p align="center" width="100%">
   <img width="50%" src="https://user-images.githubusercontent.com/41387907/138575604-de11d640-967d-486a-8ddf-b302785cfdb0.png"
        alt="Hyperledger 'Explorer'"</>
 </p>
 Hyperledger Explorer is a simple, but powerful open source tool for visualizing blockchain operations. It is the first tool to examine permissioned ledgers, allowing anyone to explore the distributed ledger projects being created by Hyperledger's members from the inside, without compromising their privacy. Currently in Incubation, the project was contributed by DTCC, Intel, and IBM in 2016.  
 Designed to create a user-friendly web application, Hyperledger Explorer can view, invoke, deploy, or query:
-  * Blocks
-  * Transactions and associated data
-  * Network information (name, status, list of nodes)
-  * Smart contracts (chain codes and transaction families)
-  * Other relevant information stored in the ledger.
-
+<ul>
+<li>Blocks</li>
+<li>Transactions and associated data</li>
+<li>Network information (name, status, list of nodes)</li>
+<li>Smart contracts (chain codes and transaction families)</li>
+<li>Other relevant information stored in the ledger.</li>
+</ul>
 The ability to visualize data is of critical importance, in order to extract business value from it. Hyperledger Explorer provides this much needed functionality. Key components include a web server, a web UI, web sockets, a database, a security repository, and a blockchain implementation.  
+
 Hyperledger Explorer supports Hyperledger Fabric and Hyperledger Iroha.
 
 **[⬆ back to top](#table-of-contents)**
@@ -2768,8 +2936,10 @@ In the previous chapter we looked at the Hyperledger tools, which are auxiliary 
 
 <h4>Learning Objectives</h4>
 By the end of this chapter, you should be able to:
-  * Understand the role of Hyperledger libraries.
-  * Get a high-level understanding of the Hyperledger libraries (as of November 2020): Hyperledger Aries, Hyperledger Quilt, Hyperledger Transact, and Hyperledger Ursa.
+<ul>
+<li>Understand the role of Hyperledger libraries,</li>
+<li>Get a high-level understanding of the Hyperledger libraries (as of November 2020): Hyperledger Aries, Hyperledger Quilt, Hyperledger Transact, and Hyperledger Ursa.</li>
+</ul>
 
 **[`^        back to top        ^`](#table-of-contents)**
 
@@ -2811,7 +2981,7 @@ Among its key characteristics are:
 
 **[`^        back to top        ^`](#table-of-contents)**
 
-<h3>Hyperledger `Transact`</h3>
+<h3>Hyperledger _Transact_</h3>
 <p align="center" width="100%">
   <img width="50%" src="https://user-images.githubusercontent.com/41387907/138575628-447fa51e-a4a4-4a4a-bb38-939f932086d9.png"
        alt="Hyperledger 'Transact'"</>

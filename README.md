@@ -90,42 +90,39 @@ By the end of this chapter, you should be able to:
 <h3 id="ch1-2">1.2 Distributed Ledger Technology (DLT)</h3>
 
 <h3>Background - The Rising Interest in Distributed Ledger Technologies</h3>
-Looking back to the last half century of computer technologies and architectures, you may observe a trend of fluctuation between the centralization and subsequent decentralization of computing power, storage, infrastructure, protocols, and code.
-
+Looking back to the last half century of computer technologies and architectures, you may observe a trend of fluctuation between the centralization and subsequent decentralization of computing power, storage, infrastructure, protocols, and code.<br/>
 Mainframe computers are largely centralized. 
 
-They typically house all computing power, memory, data storage, and code. Access to mainframes is mainly by "dumb terminals", which only take inputs and outputs, and do not store or process data. <b/>
+They typically house all computing power, memory, data storage, and code. Access to mainframes is mainly by "dumb terminals", which only take inputs and outputs, and do not store or process data. <br/>
+With the advent of personal computers and private networks, similar computational capabilities were now housed both on the clients, as well as the servers. <br/>
+This, in part, gave rise to the "client-server" architecture, which supported the development of relational database systems.  Massive data sets, which are housed on mainframes, could move onto a distributed architecture.  <br/>
 
-With the advent of personal computers and private networks, similar computational capabilities were now housed both on the clients, as well as the servers. <b/>
-
-This, in part, gave rise to the "client-server" architecture, which supported the development of relational database systems.  Massive data sets, which are housed on mainframes, could move onto a distributed architecture.  <b/>
-
-This data could replicate from server to server, and subsets of the data could be accessed and processed on clients, and then, synced back to the server. <b/>
+This data could replicate from server to server, and subsets of the data could be accessed and processed on clients, and then, synced back to the server. <br/>
 
 **[`^        back to top        ^`](#table-of-contents)**
 
-Over time, Internet and cloud computing architectures enabled global access from a variety of computing devices; whereas mainframes were largely designed to address the needs of large corporations and governments. <b/>
-Even though this "cloud architecture" is decentralized in terms of hardware, it has given rise to application-level centralization (e.g. Facebook, Twitter, Google, etc.).  <b/>
-Currently, we are witnessing the transition from centralized computing, storage, and processing to decentralized architectures and systems. <b/>
+Over time, Internet and cloud computing architectures enabled global access from a variety of computing devices; whereas mainframes were largely designed to address the needs of large corporations and governments. <br/>
+Even though this "cloud architecture" is decentralized in terms of hardware, it has given rise to application-level centralization (e.g. Facebook, Twitter, Google, etc.).  <br/>
+Currently, we are witnessing the transition from centralized computing, storage, and processing to decentralized architectures and systems. <br/>
 
 According to Muneeb Ali, these systems aim to
 <blockquote>
 "give explicit control of digital assets to end-users and remove the need to trust any third-party servers and infrastructure".
 </blockquote>
 
-Distributed ledger technology is one of the key innovations making this shift possible.  <b/>
+Distributed ledger technology is one of the key innovations making this shift possible.  <br/>
 
-A distributed ledger is a type of data structure which resides across multiple computer devices, generally spread across locations or regions.  <b/>
+A distributed ledger is a type of data structure which resides across multiple computer devices, generally spread across locations or regions.  <br/>
 
-Distributed ledger technology (DLT) includes blockchain technologies and smart contracts.<b/>
+Distributed ledger technology (DLT) includes blockchain technologies and smart contracts.<br/>
 
-While distributed ledgers existed prior to Bitcoin, the Bitcoin blockchain marks the convergence of a host of technologies, including timestamping of transactions, Peer-to-Peer (P2P) networks, cryptography, and shared computational power, along with a new consensus algorithm.<b/>
+While distributed ledgers existed prior to Bitcoin, the Bitcoin blockchain marks the convergence of a host of technologies, including timestamping of transactions, Peer-to-Peer (P2P) networks, cryptography, and shared computational power, along with a new consensus algorithm.<br/>
 
 In summary, **distributed ledger technology (dlt)** generally consists of three basic components:
 <ol>
-<li>  1. A data model that captures the current state of the ledger,</li>
-<li>  2. A language of transactions that changes the ledger state,</li>
-<li>  3. A protocol used to build consensus among participants around which transactions will be accepted, and in what order, by the ledger.</li>
+<li>  A data model that captures the current state of the ledger,</li>
+<li>  A language of transactions that changes the ledger state,</li>
+<li>  A protocol used to build consensus among participants around which transactions will be accepted, and in what order, by the ledger.</li>
 </ol>
 
 **[`^        back to top        ^`](#table-of-contents)**
@@ -135,13 +132,13 @@ According to hyperledger.org,
 <blockquote>
 "A blockchain is a peer-to-peer distributed ledger forged by consensus, combined with a system for "smart contracts" and other assistive technologies. Together these can be used to build a new generation of transactional applications that establishes trust, accountability, and transparency at their core, while streamlining business processes and legal constraints."  
 </blockquote>
-Smart contracts are simply computer programs that execute predefined actions when certain conditions within the system are met.  <b/>
-Consensus refers to a system of ensuring that parties agree to a certain state of the system as the true state.  <b/>
-Blockchain is a specific form or subset of distributed ledger technologies (DLTs), which constructs a chronological chain of blocks, hence the name "block-chain". <b/>
-Examples of other DLTs are Chain Core, Corda, Quorum, and IOTA. They will be covered later in this chapter.  <b/>
-A block refers to a set of transactions that are bundled together and added to the chain at the same time.  <b/>
-Timestamping is another key feature of blockchain technology. Each block is timestamped, with each new block referring to the previous block. Combined with cryptographic hashes, this timestamped chain of blocks provides an immutable record of all transactions in the network, from the very first (or genesis) block.  <b/>
-In the Bitcoin blockchain, the miner nodes bundle unconfirmed and valid transactions into a block. Each block contains a given number of transactions. In the Bitcoin network, miners must solve a cryptographic challenge to propose the next block. This process is known as "proof of work", and requires significant computing power. We shall discuss proof of work in more detail in the Consensus Algorithms section. For more information about blockchain technology, please read the following article: "A Brief History of Blockchain" by Vinay Gupta.  <b/>
+Smart contracts are simply computer programs that execute predefined actions when certain conditions within the system are met.  <br/>
+Consensus refers to a system of ensuring that parties agree to a certain state of the system as the true state.  <br/>
+Blockchain is a specific form or subset of distributed ledger technologies (DLTs), which constructs a chronological chain of blocks, hence the name "block-chain". <br/>
+Examples of other DLTs are Chain Core, Corda, Quorum, and IOTA. They will be covered later in this chapter.  <br/>
+A block refers to a set of transactions that are bundled together and added to the chain at the same time.  <br/>
+Timestamping is another key feature of blockchain technology. Each block is timestamped, with each new block referring to the previous block. Combined with cryptographic hashes, this timestamped chain of blocks provides an immutable record of all transactions in the network, from the very first (or genesis) block.  <br/>
+In the Bitcoin blockchain, the miner nodes bundle unconfirmed and valid transactions into a block. Each block contains a given number of transactions. In the Bitcoin network, miners must solve a cryptographic challenge to propose the next block. This process is known as "proof of work", and requires significant computing power. We shall discuss proof of work in more detail in the Consensus Algorithms section. For more information about blockchain technology, please read the following article: "A Brief History of Blockchain" by Vinay Gupta.  <br/>
 A Bitcoin block consists of four pieces of metadata:
   1. The **reference** to the previous block,
   2. The proof of work, also known as a **nonce**,
@@ -149,8 +146,8 @@ A Bitcoin block consists of four pieces of metadata:
   4. The **Merkle tree root** for the transactions included in this block (Merkle tree is explained next).
 
 <h3>Merkle Tree</h3>
-The Merkle tree, also known as a binary hash tree, is a data structure that is used to store hashes of the individual data in large datasets in a way to make the verification of the dataset efficient. It is an anti-tamper mechanism to ensure that the large dataset has not been changed. The word "tree" is used to refer to a branching data structure in computer science, as seen in the image below. <b/>
-According to Andreas M. Antonopoulos, in the Bitcoin protocol,  <b/>
+The Merkle tree, also known as a binary hash tree, is a data structure that is used to store hashes of the individual data in large datasets in a way to make the verification of the dataset efficient. It is an anti-tamper mechanism to ensure that the large dataset has not been changed. The word "tree" is used to refer to a branching data structure in computer science, as seen in the image below. <br/>
+According to Andreas M. Antonopoulos, in the Bitcoin protocol,  <br/>
 <blockquote>
 "Merkle trees are used to summarize all the transactions in a block, producing an overall digital fingerprint of the entire set of transactions, providing a very efficient process to verify whether a transaction is included in a block".
 </blockquote>

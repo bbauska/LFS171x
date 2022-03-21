@@ -13,6 +13,14 @@
 </p>
 
 <h3>Introduction to Hyperledger Blockchain Technology</h3>
+<!------------------------------------------------------------------------------------------------>
+<!---------------------------------------- LFS171x logo ------------------------------------------>
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image-logo.png?raw=true"
+	width="50%" 
+    alt="LFS171x logo"</>
+</p>
 
 **Welcome to LFS171x: Introduction to Hyperledger Blockchain Technology**  
 LFS171x is part of the Blockchain for Business Professional Certificate. Skills in blockchain are being reported as the top job-skill in demand. 

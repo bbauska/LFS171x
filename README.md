@@ -161,7 +161,7 @@ According to Andreas M. Antonopoulos, in the Bitcoin protocol,  <br/>
     alt="Merkle Tree"</>
 </p>
 
-<h3> **Bitcoin Block Data**  </h3>
+<h3 font-weight: bold;>Bitcoin Block Data</h3>
 (licensed under Creative Commons Attribution-Share-Alike 3.0 Unported, retrieved from Wikipedia)
 
 **[`^        back to top        ^`](#table-of-contents)**

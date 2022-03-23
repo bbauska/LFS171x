@@ -1,7 +1,7 @@
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------- readme.md of LFS171x.bauska.org ------------------------------->
 <!------------------------------------------------------------------------------------------------>
-<h2>LFS171x - Linux Foundation<</h2>
+<h2 align="center">LFS171x - Linux Foundation - Introduction to Hyperledger Blockchain Technology</h2>
 
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------------------- linux logo ------------------------------------------->
@@ -131,9 +131,9 @@ While distributed ledgers existed prior to Bitcoin, the Bitcoin blockchain marks
 
 In summary, **distributed ledger technology (dlt)** generally consists of three basic components:
 <ol>
-<li>  A data model that captures the current state of the ledger,</li>
-<li>  A language of transactions that changes the ledger state,</li>
-<li>  A protocol used to build consensus among participants around which transactions will be accepted, and in what order, by the ledger.</li>
+<li>A data model that captures the current state of the ledger,</li>
+<li>A language of transactions that changes the ledger state,</li>
+<li>A protocol used to build consensus among participants around which transactions will be accepted, and in what order, by the ledger.</li>
 </ol>
 
 **[`^        back to top        ^`](#table-of-contents)**
@@ -169,19 +169,18 @@ For more information about blockchain technology, please read the following arti
 
 A Bitcoin block consists of four pieces of metadata:
 <ol>
-<li>The **reference** to the previous block,</li>
-<li>The proof of work, also known as a **nonce**,</li>
-<li>The **timestamp**,</li>
-<li>The **Merkle tree root** for the transactions incl</li>uded in this block (Merkle tree is explained next).</li>
+<li>The <b>reference</b> to the previous block,</li>
+<li>The proof of work, also known as a <b>nonce</b>,</li>
+<li>The <b>timestamp</b>,</li>
+<li>The <b>Merkle tree root</b> for the transactions incl</li>uded in this block (Merkle tree is explained next).</li>
 </ol>
 
 <h3>Merkle Tree</h3>
-The Merkle tree, also known as a binary hash tree, is a data structure that is used to store hashes of the individual data in large datasets in a way to make the verification of the dataset efficient. 
+The Merkle tree, also known as a binary hash tree, is a data structure that is used to store hashes of the individual data in large datasets in a way to make the verification of the dataset efficient. <br/>
 
 It is an anti-tamper mechanism to ensure that the large dataset has not been changed. The word "tree" is used to refer to a branching data structure in computer science, as seen in the image below. <br/>
 
 According to Andreas M. Antonopoulos, in the Bitcoin protocol,  <br/>
-
 <blockquote>
 "Merkle trees are used to summarize all the transactions in a block, producing an overall digital fingerprint of the entire set of transactions, providing a very efficient process to verify whether a transaction is included in a block".
 </blockquote>
@@ -196,12 +195,13 @@ According to Andreas M. Antonopoulos, in the Bitcoin protocol,  <br/>
 </p>
 
 <h3 font-weight: bold;>Bitcoin Block Data</h3>
-(licensed under Creative Commons Attribution-Share-Alike 3.0 Unported, retrieved from Wikipedia)
+(licensed under Creative Commons Attribution-Share-Alike 3.0 Unported, retrieved from Wikipedia)<br/>
+
 
 **[`^        back to top        ^`](#table-of-contents)**
 
 <h3>What is a Blockchain?</h3>
-What is blockchain?  
+What is blockchain?  <br/>
 
 As the Security Maven at Hyperledger, I have somewhat of a different perspective on what a blockchain is.  
 
@@ -253,12 +253,17 @@ Because it is a log, and because it is the source of truth, and because a lot of
 
 You have to think of all the members of a distributed ledger as participating in a closed network, because that's what they are, at least in permissioned networks, we're not operating on the public Internet, we're not operating in a trustless environment.  
 
-It's the exact opposite. We... all the participants in the distributed ledger are known, they're permissioned, that's where that term comes from, and they all participate as if they are in a private network.  
-When deploying blockchain software, it's typically done behind a firewall, and, anytime you have multiple organizations participating in the distributed ledger, we will use tunneling technology and other VPN firewall tricks to make a virtual LAN exist, so that all of their organizations can talk over it.  
-Different Hyperledger projects have different trade-offs.  
-Fabric, for instance, has a more centralized ordering service, and so, it makes more sense to organize one of those networks into a hub-and-spoke model, where each peer connects to the ordering service, which is run either on one of the nodes, or on a neutral third party, and all of the gossip messages that do the consensus mechanism go through a central hub.  
-Now, that sounds counterintuitive because just distributed ledgers are supposed to be distributed...  
-they still are, they're distributed in the sense that the blockchain itself is replicated amongst all of the nodes, and so, your data is much more resilient to disruption... resilient against disruption.  
+It's the exact opposite. We... all the participants in the distributed ledger are known, they're permissioned, that's where that term comes from, and they all participate as if they are in a private network.  <br/>
+
+When deploying blockchain software, it's typically done behind a firewall, and, anytime you have multiple organizations participating in the distributed ledger, we will use tunneling technology and other VPN firewall tricks to make a virtual LAN exist, so that all of their organizations can talk over it.  <br/>
+
+Different Hyperledger projects have different trade-offs.  <br/>
+
+Fabric, for instance, has a more centralized ordering service, and so, it makes more sense to organize one of those networks into a hub-and-spoke model, where each peer connects to the ordering service, which is run either on one of the nodes, or on a neutral third party, and all of the gossip messages that do the consensus mechanism go through a central hub.  <br/>
+
+Now, that sounds counterintuitive because just distributed ledgers are supposed to be distributed...  <br/>
+
+They still are, they're distributed in the sense that the blockchain itself is replicated amongst all of the nodes, and so, your data is much more resilient to disruption... resilient against disruption.  
 
 But, the coordination can still be done in a fairly centralized manner.  
 
@@ -291,7 +296,9 @@ That's all I've got to say about security. And thanks for taking our course.
 <h3>Transactions / Cryptography</h3>
 The record of an event, cryptographically secured with a digital signature, that is verified, ordered, and bundled together into blocks, form the transactions in the blockchain. 
 
-In the Bitcoin blockchain, transactions involve the transfer of bitcoins, while in other blockchains, transactions may involve the transfer of any asset or a record of some service being rendered. Furthermore, a smart contract within the blockchain may allow automatic execution of transactions upon meeting predefined criteria.  
+In the Bitcoin blockchain, transactions involve the transfer of bitcoins, while in other blockchains, transactions may involve the transfer of any asset or a record of some service being rendered.
+
+Furthermore, a smart contract within the blockchain may allow automatic execution of transactions upon meeting predefined criteria.  <br/>
 
 Cryptography has a key role to play both in the security, as well as in the immutability of the transactions recorded on blockchains. 
 
@@ -322,7 +329,7 @@ Additionally, blockchains were designed for decentralized applications, whereas 
     alt="Differences Between Blockchain and Databases"</>
 </p>
 
-**Types of Blockchains**  
+<h3>Types of Blockchains</h3>
 A blockchain can be both permissionless (like Bitcoin or Ethereum) or permissioned (like the different Hyperledger blockchain frameworks). 
 
 A permissionless blockchain is also known as a public blockchain, because anyone can join the network. 
@@ -350,16 +357,16 @@ You would only want trusted parties participating in the network. <br/>
 Each participant that is involved in the supply chain would require permissions to execute transactions on the blockchain. 
 
 These transactions would allow other companies to understand where in the supply chain a particular item is.  
+
 On the contrary, when a network can "commoditize" trust, facilitating parties to transact without necessarily having to verify each other's identity, like the Bitcoin blockchain, a permissionless blockchain is more suitable. 
 
 Many of these instances involve the sale or distribution to the public. 
 
 Cryptocurrencies and Initial Coin Offerings (which are not backed by national governments) usually involve implementations of permissionless blockchains.  <br/>
 
-You will learn about a variety of use cases in Chapter 6, "The Promise of Business Blockchain Technologies".  
+You will learn about a variety of use cases in Chapter 6, <i>"The Promise of Business Blockchain Technologies"</i>.  
 
-**Peer-to-Peer Network Architecture**  
-
+<h3>Peer-to-Peer Network Architecture</h3>
 Historically, most applications utilize a central server (or servers). <br/>
 
 For one user/client to send a message to another user/client in the network, the request has to be sent to the hub or a central server, which then directs it to the right computer.  
@@ -391,7 +398,7 @@ Permissioned P2P networks have to guarantee uptime and require a high level of q
     alt="Peer to peer network"</>
 </p>
 
-**Peer-to-Peer Networks (Robert Schwentker)**  
+<h3>Peer-to-Peer Networks (Robert Schwentker)</h3>
 What is a Peer-to-Peer network, and how do peers come to agreement about what is on the blockchain?  
 
 A blockchain network is a group of computers that informally are organized in a Peer-to-Peer architecture.  
@@ -400,16 +407,16 @@ Consensus is a process whereby the peers synchronize the data on the blockchain.
 
 There are a number of consensus mechanisms or algorithms.
 
-1.  One is **Proof of Work**,
-2.  Another is **Proof of Stake**,
-3.  There's also **Proof of Elapsed Time**,
-4.  as well as **Simplified Byzantine Fault Tolerance**.
+1.  One is <b>Proof of Work</b>,
+2.  Another is <b>Proof of Stake</b>,
+3.  There's also <b>Proof of Elapsed Time</b>,
+4.  as well as <b>Simplified Byzantine Fault Tolerance</b>.
 
-**Bitcoin uses Proof of Work**, while **Ethereum** uses **Proof of Work** currently, but is moving towards **Proof of Stake**.  
-The **Hyperledger Sawtooth** uses **Proof of Elapsed Time**.
+<b><i>Bitcoin</i></b> uses <b>Proof of Work</b>, while <b><i>Ethereum</i></b> uses <b>Proof of Work</b> currently, but is moving towards <b>Proof of Stake</b>.  
+The <b><i>Hyperledger Sawtooth</i></b> uses Proof of Elapsed Time</b>.
 
 <h3>Immutability of Data</h3>
-The immutability of the data which sits on the blockchain is perhaps the most powerful and convincing reason to deploy blockchain-based solutions for a variety of socio-economic processes which are currently recorded on centralized servers. 
+The immutability of the data which sits on the blockchain is perhaps the most powerful and convincing reason to deploy blockchain-based solutions for a variety of socio-economic processes which are currently recorded on centralized servers. <br/>
 
 This immutability, or "unchanging over time" feature makes the blockchain useful for accounting, financial transactions, identity management, and asset ownership, management and transfer, just to name a few examples. 
 
@@ -450,7 +457,7 @@ In addition, the Previous Block hash stored in Block 12 also needs to be modifie
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image006.png?raw=true"
-	width="50%" 
+	width="85%" 
     alt="Immutability of data"</>
 </p>
 
@@ -462,14 +469,14 @@ In other words, clients/users interact with the blockchain through applications.
 
 Starting from the simple wallets that hold bitcoins, sophisticated applications which encompass applications addressing digital identity (e.g. UPort, KYC-Chain, Netki, etc.), and complex financial transactions are being built on the blockchain.  
 
-A more exhaustive list of companies using blockchain technology for identity management and authentication can be found in the following article: "21 Companies Leveraging Blockchain for Identity Management and Authentication" by Elena Mesropyan.  
+A more exhaustive list of companies using blockchain technology for identity management and authentication can be found in the following article: <i>"21 Companies Leveraging Blockchain for Identity Management and Authentication"</i> by Elena Mesropyan.  
 
-For more details about blockchain applications, you can refer to Daniel Palmer's article entitled "7 Cool Decentralized Apps Being Built on Ethereum".
+For more details about blockchain applications, you can refer to Daniel Palmer's article entitled <i>"7 Cool Decentralized Apps Being Built on Ethereum"</i>.
 
 **[`^        back to top        ^`](#table-of-contents)**
 
 <h3>Smart Contracts</h3>
-What is a smart contract?  
+What is a smart contract?  <br/>
 
 Back in 1996, a man named Nick Szabo coined the term 'smart contract'.  
 
@@ -510,14 +517,15 @@ According to the Coin Market Capitalizations website, as of November 2020, bitco
 <p align="center" width="100%">
   <img width="66%" src="https://user-images.githubusercontent.com/41387907/138574896-b923c968-2909-4c47-8333-fbe77d089177.png"
        alt="Bitcoin - a popular blockchain deployment"</>
+<p align-"center"> (Source: https://coinmarketcap.com/currencies/bitcoin/)  </p>
 </p>
 
 **[`^        back to top        ^`](#table-of-contents)**
 
 <h3>Bitcoin Charts</h3>
-(Source: https://coinmarketcap.com/currencies/bitcoin/)  
+This is a paragraph that contains a [link to Developer Insider](http://developerinsider.co).
 
-According to AngelList, over five thousand startups have been created to leverage Bitcoin and blockchain-related technologies since the inception of the Bitcoin payment system. 
+According to [AngelList](https://angel.co/blockchains), over five thousand startups have been created to leverage Bitcoin and blockchain-related technologies since the inception of the Bitcoin payment system. 
 
 Hundreds of large companies, and dozens of governments and universities have become actively involved in researching, testing, and prototyping blockchain protocols, platforms, and applications. 
 
@@ -569,11 +577,12 @@ While cryptography is used for ensuring network security at various levels and f
 Rather than imposing barriers to entry, permissionless blockchains are public and open for anyone to join. 
 
 Since such networks can reasonably expect all kind of agents - including malicious actors - the key lies in incentivizing good behavior in a critical majority of the network, such that:
-
-*   The malicious actors cannot take over the network through an escalated attack.
-*   The malicious actors cannot collude to undertake an organized majority attack on the network.
-*   The payoffs of securing the network are consistently higher than the cost of attacking the network.
-*   The cost of attacking the network is prohibitively high.  
+<ul>
+<li>The malicious actors cannot take over the network through an escalated attack,</li>
+<li>The malicious actors cannot collude to undertake an organized majority attack on the network,</li>
+<li>The payoffs of securing the network are consistently higher than the cost of attacking the network,</li>
+<li>The cost of attacking the network is prohibitively high.</li>
+</ul>
 
 You can find more about Cryptoeceonomics read "The Blockchain Economy: A Beginner’s Guide to Institutional Cryptoeconomics".
 
@@ -599,18 +608,20 @@ As of November 2020, Ethereum had a market cap of over $49 billion, making Ether
   <img width="66%" src="https://user-images.githubusercontent.com/41387907/138574908-341e5a60-7337-42d2-9ac5-988144beab2b.png"
     alt="Ethereum - an alternative to bitcoin"</>
 </p>
-Ether Historical Market Capitalization Chart  
-(Source: https://etherscan.io/chart/marketcap)
+<p align="center">Ether Historical Market Capitalization Chart</p>
+<p align="center">(Source: https://etherscan.io/chart/marketcap)</p>
 
 As the second best known public blockchain after the Bitcoin blockchain, Ethereum has ushered in an era of unprecedented activity around blockchain and distributed ledger technology.
 
 <h3>Ethereum</h3>
 Can you give another example of a production blockchain system, such as Ethereum, and how is it different from Bitcoin?  
+
 Sure. 
 
 Ehereum also has a public blockchain. 
 
 It also groups and orders transactions into blocks.  
+
 However, Ethereum may be defined as an open source platform that enables developers to build and deploy both smart contracts and decentralized applications, also known as Dapps.  
 
 In addition to the Ethereum public blockchain, there are numerous versions of Ethereum which are designed to be private and are permissioned.
@@ -626,8 +637,8 @@ Since they are cryptographically secured, Dapps are referred to as "secure appli
 
 Some of the high profile Dapps built on the Ethereum platform include:
 <ul type="disc">
-<li>Augur, which is a Decentralized Prediction Market</li>
-<li>Digix, which tokenizes gold on Ethereum</li>
+<li>Augur, which is a Decentralized Prediction Market,</li>
+<li>Digix, which tokenizes gold on Ethereum,</li>
 <li>Maker, which is a Decentralized Autonomous Organization (DAO).  </li>
 </ul>
 The Ethereum network is a distributed global public network, which means it is not run on central servers in a certain geographical location. 
@@ -669,7 +680,7 @@ Note: With the advent of the Ethereum blockchain platform and the scripting func
 **[`^        back to top        ^`](#table-of-contents)**
 
 <h3 id="ch1-4">1.4 Exploring Permissionless Blockchains</h3>
-We will examine the Bitcoin and Ethereum blockchains, both of which are permissionless, public blockchains. 
+We will examine the Bitcoin and Ethereum blockchains, both of which are permissionless, public blockchains. <br/>
 
 We will examine several large transactions, and the genesis block for each blockchain. 
 
@@ -681,18 +692,18 @@ and let's examine the genesis block, or the first block, of each one of them.
 
 Then, we'll take a look at a couple of large transactions, including the most famous transaction in cryptocurrency history: the purchase of a pizza for 10,000 bitcoins.  
 
-So, first, we'll go to this blockchain explorer, and see that there is a Height column, which indicates the number of blocks in this particular blockchain; it's nearing a half a million.  
+First, we'll go to this blockchain explorer, and see that there is a Height column, which indicates the number of blocks in this particular blockchain; it's nearing a half a million.  
 
 These blocks are created approximately every 10 minutes,  
 and there's a Transactions column that shows how many transactions are included in each block, as well as the Total Sent, or the amount of Bitcoin that was transferred in each of those blocks.  
 
 Finally, you can notice that there's... they relate by column, which is essentially the miner or mining pool that created that block.  
 
-So, from here, let's take a look at another blockchain explorer, and you can see here the genesis block of the Bitcoin blockchain.  
+From here, let's take a look at another blockchain explorer, and you can see here the genesis block of the Bitcoin blockchain.  
 
 Notice that the timestamp is January 3rd 2009.  
 
-So, that's the genesis block of the Bitcoin blockchain.  
+That's the genesis block of the Bitcoin blockchain.  
 
 Now, moving on to the Ethereum blockchain, we'll look at another blockchain explorer.  
 
@@ -734,7 +745,7 @@ Next, we will briefly explain some of these algorithms.
 **[`^        back to top        ^`](#table-of-contents)**
 
 <h3>Proof-of-Work (PoW)</h3>
-The Proof of Work consensus algorithm involves solving a computational challenging puzzle in order to create new blocks in the Bitcoin blockchain. 
+The Proof of Work consensus algorithm involves solving a computational challenging puzzle in order to create new blocks in the Bitcoin blockchain. <br/>
 
 Colloquially, the process is known as 'mining', and the nodes in the network that engage in mining are known as "miners". 
 
@@ -750,10 +761,12 @@ For better understanding, please consider the following example provided by Ofir
 "(...) guessing a combination to a lock is a proof to a challenge. It is very hard to produce this since you will need to guess many different combinations; but once produced, it is easy to validate. Just enter the combination and see if the lock opens".  
 </blockquote>
 
-Multiple criticisms exist for the PoW consensus algorithm. PoW requires a huge amount of energy to be expended, given the computationally heavy algorithm. In addition, PoW has a high latency of transaction validation, and the concentration of mining power is located in countries where electricity is cheap. In terms of the network security, PoW is susceptible to the "51% attack", which refers to an attack on a blockchain by a group of miners controlling more than 50% of the network's computing power.
+Multiple criticisms exist for the PoW consensus algorithm. PoW requires a huge amount of energy to be expended, given the computationally heavy algorithm. 
+
+In addition, PoW has a high latency of transaction validation, and the concentration of mining power is located in countries where electricity is cheap. In terms of the network security, PoW is susceptible to the "51% attack", which refers to an attack on a blockchain by a group of miners controlling more than 50% of the network's computing power.
 
 <h3>Proof-of-Stake (PoS)</h3>
-The Proof of Stake algorithm is a generalization of the Proof of Work algorithm. In PoS, the nodes are known as the "validators" and, rather than mining the blockchain, they validate the transactions to earn a transaction fee. There is no mining to be done, as all coins exist from day one. Simply put, nodes are randomly selected to validate blocks, and the probability of this random selection depends on the amount of stake held. So, if node X owns 2 coins and node Y owns 1 coin, node X is twice as likely to be called upon to validate a block of transactions. The specific implementation of PoS can vary, depending on the use case, or as a matter of software design. Instances include Proof of Deposit and Proof of Burn. The PoS algorithm saves expensive computational resources that are spent in mining under a PoW consensus regime.
+The Proof of Stake algorithm is a generalization of the Proof of Work algorithm. In PoS, the nodes are known as the "validators" and, rather than mining the blockchain, they validate the transactions to earn a transaction fee. There is no mining to be done, as all coins exist from day one. Simply put, nodes are randomly selected to validate blocks, and the probability of this random selection depends on the amount of stake held. So, if node X owns 2 coins and node Y owns 1 coin, node X is twice as likely to be called upon to validate a block of transactions. The specific implementation of PoS can vary, depending on the use case, or as a matter of software design. Instances include <b<Proof of Deposit</b> and <b>Proof of Burn</b>. The PoS algorithm saves expensive computational resources that are spent in mining under a PoW consensus regime.
 
 <h3>Proof of Elapsed Time (PoET)</h3>
 Developed by Intel, the Proof of Elapsed Time consensus algorithm emulates the Bitcoin-style Proof of Work.
@@ -761,8 +774,9 @@ Hyperledger's Sawtooth implementation is an example of PoET at work.
 Instead of competing to solve the cryptographic challenge and mine the next block, as in the Bitcoin blockchain, the PoET consensus algorithm is a hybrid of a random lottery and first-come-first-serve basis.
 
 In PoET, each validator is given a random wait time.
+```
 "The validator with the shortest wait time for a particular transaction block is elected the leader".
-
+```
   * _sawtooth.hyperledger.org_
 
 This "leader" gets to create the next block on the chain.
@@ -791,9 +805,12 @@ Lottery-based algorithms are advantageous in that they can scale to a large numb
 Voting-based algorithms provide low-latency finality.
 The following table offers an at-a-glance view of the main considerations and pros and cons of different business blockchain approaches to reaching consensus.
 
+<!------------------------------------------------------------------------------------------------>
+<!----------------- Comparing permissioned consensus approaches and standard PoW  ---------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
   <img width="66%" src="https://user-images.githubusercontent.com/41387907/138574948-4f8e4a52-b320-41aa-81e9-bc126d649c4e.png"
-    alt="Comparing permissed consensus approaches and standard PoW"</>
+    alt="Comparing permissioned consensus approaches and standard PoW"</>
 </p>
 
 ## <a id="ch1-6"></a>1.6 Hyperledger
@@ -880,14 +897,16 @@ Additionally, the use of the platform with connected devices or the Internet of 
 
 <h3 id="ch1-8">1.8 Challenges in the Adoption/Deployment of Distributed Ledger Technologies</h3>
 There are a number of challenges to the widespread use of permissioned distributed ledger technologies. Key among them are challenges around the lack of standards, regulatory challenges, and the lack of knowledge about distributed ledger technologies. These challenges are inherent to any new technological infrastructure that replaces an older infrastructure.  
-Other challenges encountered when it comes to the adoption and deployment of distributed ledger technologies are:
 
-  * Resistance to change
-  * Scalability concerns
-  * Interoperability and integration with legacy systems
-  * Unproven business case
-  * Lack of capital to fund new investments
-  * System complexity and costs.  
+Other challenges encountered when it comes to the adoption and deployment of distributed ledger technologies are:
+<ul>
+<li>Resistance to change</li>
+<li>Scalability concerns</li>
+<li>Interoperability and integration with legacy systems</li>
+<li>Unproven business case</li>
+<li>Lack of capital to fund new investments</li>
+<li>System complexity and costs.</li>
+  
 We hope you go on to address some of these challenges and contribute to building a secure digital future!
 
 **[`^        back to top        ^`](#table-of-contents)**
@@ -895,8 +914,9 @@ We hope you go on to address some of these challenges and contribute to building
 <h3>Standards</h3>
 Since we are still witnessing the early days of blockchain technology, there is very little agreement on standards in the developer and business community, as of yet. Standards are key in ensuring interoperability and avoiding risks associated with a fragmented ecosystem. Standards are critical not just for the distributed ledger itself, but also for supporting services, like identity, privacy, and data governance. Furthermore, the management of keys, as well as protocols and standards around key loss and theft, will be critical (Deshpande, Stewart, Lepetit, & Gunashekar, 2017).  
 As a result, the International Organization for Standardization for Blockchain and Distributed Ledger Technologies was established in 2016 and has defined areas for future standardization work (Clare Naden, 2017). More about the ISO/TC 307 technical committee can be found at the ISO/TC 307 website.
+
 <p align="center" width="100%">
-  <img width="50%" src="https://user-images.githubusercontent.com/41387907/138574995-d5b3afa4-dcd0-4caf-9533-52f0ec24999d.png"
+  <img width="66%" src="https://user-images.githubusercontent.com/41387907/138574995-d5b3afa4-dcd0-4caf-9533-52f0ec24999d.png"
        alt="Standards Role in Supporting Blockchain/DLT"</>
 </p>
 <h3>Regulation</h3>

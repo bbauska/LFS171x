@@ -918,6 +918,7 @@ Additionally, the use of the platform with connected devices or the Internet of 
 "enables companies to explore new business-to-business models by making every technological resource a potential service to be traded on an open market in real time, with no fees".
 
 *   Roger Aitken, 2017  
+
     IOTA focuses mainly on enabling the emerging Internet of Things (IoT), but also plans to go beyond this, on being the transaction settlement and data integrity layer for the Internet of Everything (IoE).
 
 <h3 id="ch1-8">1.8 Challenges in the Adoption/Deployment of Distributed Ledger Technologies</h3>

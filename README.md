@@ -591,7 +591,7 @@ if some of those machines go down, the Ethereum network maintains a stable state
 <p>
 Bitcoin has also ushered in tremendous academic and research interest in the area of Cryptoeconomics and Cryptoeconomic security.  
 
-According to Vitalik Buterin,  
+According to [Vitalik Buterin](https://www.youtube.com/watch?v=pKqdjaH1dRo),  
 <blockquote>
 "Cryptoeconomics is about building systems that have certain desired properties using cryptography to prove properties about messages that happened in the past while using economic incentives defined inside the system to encourage desired properties to hold into the future".  
 
@@ -652,7 +652,8 @@ In addition to the Ethereum public blockchain, there are numerous versions of Et
 </p>
 
 <h3>Dapps</h3>
-As [Stephan Tual](https://www.youtube.com/watch?v=Clw-qf1sUZg) explains, Ethereum applications do not have a middleman; instead, users interact in a P2P fashion with other users through a variety of interfaces - social, financial, gaming, etc. Since the applications are developed on the decentralized consensus-based network itself, third-party censorship is virtually impossible. 
+<p>
+As [Stephan Tual[(https://www.youtube.com/watch?v=Clw-qf1sUZg) explains, Ethereum applications do not have a middleman; instead, users interact in a P2P fashion with other users through a variety of interfaces - social, financial, gaming, etc. Since the applications are developed on the decentralized consensus-based network itself, third-party censorship is virtually impossible. 
 
 Malicious actors cannot secretly tamper with the application by changing the code and compromise all application users (or nodes that are actively interacting with it). 
 
@@ -662,19 +663,21 @@ Since they are cryptographically secured, Dapps are referred to as "secure appli
 
 Some of the high profile Dapps built on the Ethereum platform include:
 <ul type="disc">
-<li>[Augur](https://augur.net), which is a Decentralized Prediction Market,</li>
-<li>[Digix](https;//digix.global), which tokenizes gold on Ethereum,</li>
-<li>[Maker](https://makerdao.com), which is a Decentralized Autonomous Organization (DAO).  </li>
+<li> [Augur](https://augur.net), which is a Decentralized Prediction Market,</li>
+<li> [Digix](https;//digix.global), which tokenizes gold on Ethereum,</li>
+<li> [Maker](https://makerdao.com), which is a Decentralized Autonomous Organization (DAO).  </li>
 </ul>
 The Ethereum network is a distributed global public network, which means it is not run on central servers in a certain geographical location. 
 
 Instead, the computing power that runs the network is contributed by nodes that are spread across the globe. 
 
 In other words, Dapps have "zero downtime" - they never go down and, in general, cannot be switched off.
+</p>
 
 **[`^        back to top        ^`](#table-of-contents)**
 
 <h3>Ethereum Smart Contracts</h3>
+<p>
 A hypothetical example of an Ethereum-based smart contract may involve the following transaction: in an equity raise, transfer amount X from the investor to the company upon receiving the given shares from the company. 
 
 The monetary amount X, which was pre-validated by the company for the transaction (much like in a credit card purchase), is held in escrow by the smart contract, until the shares have been received by the investor. 
@@ -692,6 +695,7 @@ The smart contract sits on the Ethereum public blockchain, and is run on the Eth
 Once hitting a triggering event, like an expiration date or a strike price that has been pre-coded, the smart contract automatically executes as per the business logic (Panel 2). 
 
 As an added benefit, regulators are able to scrutinize the market activity on an ongoing basis, without compromising the identity of specific players in a permissionless public blockchain, as Ethereum (Panel 3).
+</p>
 
 <!------------------------------------------------------------------------------------------------>
 <!--------------------------------- ethereum smart contracts ------------------------------------->
@@ -700,18 +704,21 @@ As an added benefit, regulators are able to scrutinize the market activity on an
   <img width="66%" src="https://user-images.githubusercontent.com/41387907/138574916-7517cbeb-780a-48ad-b96c-062caf795147.png"
        alt="Ethereum smart contracts"</>
 </p>
-Note: With the advent of the Ethereum blockchain platform and the scripting functionality or smart contracts that it enables, there are ongoing attempts to do the same for the Bitcoin blockchain, which does not allow for this, due to security reasons. RSK is one such smart contract platform that seeks to achieve this "with a 2-way peg to Bitcoin". The added functionality can go a long way in making the Bitcoin blockchain useful for use cases other than cash transfers.
+Note: With the advent of the Ethereum blockchain platform and the scripting functionality or smart contracts that it enables, there are ongoing attempts to do the same for the Bitcoin blockchain, which does not allow for this, due to security reasons. [RSK[(https://www.rsk.co/) is one such smart contract platform that seeks to achieve this "with a 2-way peg to Bitcoin". The added functionality can go a long way in making the Bitcoin blockchain useful for use cases other than cash transfers.
 
 **[`^        back to top        ^`](#table-of-contents)**
 
 <h3 id="ch1-4">1.4 Exploring Permissionless Blockchains</h3>
+<p>
 We will examine the Bitcoin and Ethereum blockchains, both of which are permissionless, public blockchains. <br/>
 
 We will examine several large transactions, and the genesis block for each blockchain. 
 
 We will look at block heights, transaction times, mining pools, timestamps, and block rewards.
+</p>
 
 <h3>Exploring Bitcoin and Ethereum Blockchains</h3>
+<p>
 Let's take a look at a couple of public blockchains: those of Bitcoin and Ethereum,  
 and let's examine the genesis block, or the first block, of each one of them.  
 
@@ -753,6 +760,7 @@ Notice that the value of that is close to 3 million dollars.
 You can examine these transactions on both the Bitcoin and Ethereum blockchains, and many other blockchains.  
 
 In Chapter 2 of this course, we'll touch upon the Hyperledger Explorer, which can be configured to examine blockchains you might develop with other of the Hyperledger frameworks.
+</p>
 
 **[`^        back to top        ^`](#table-of-contents)**
 
@@ -778,7 +786,9 @@ The incentive for mining transactions lies in economic payoffs, where competing 
 
 As described in the 2016 Kudelski Security report,  
 <blockquote>
+```
 "Proof-of-work (PoW) is the outcome of a successful mining process and, although the proof is hard to create, \[it\] is easy to verify".  
+```
 </blockquote>
 
 For better understanding, please consider the following example provided by Ofir Beigel:  

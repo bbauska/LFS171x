@@ -88,14 +88,17 @@ It lays the foundation for an in-depth understanding of the content that follows
 You should engage with the content in this chapter both to learn, as well as brush up your blockchain knowledge.
 
 By the end of this chapter, you should be able to:
-  - Explain the concepts of blockchain and distributed ledger technologies (DLT),
-  - Explore permissioned and permissionless blockchains and their key characteristics,
-  - Discuss various components of distributed ledger technologies, including consensus algorithms and smart contracts,
-  - Provide a high-level explanation of what Hyperledger is.
+<ul>
+<li>Explain the concepts of blockchain and distributed ledger technologies (DLT),</li>
+<li>Explore permissioned and permissionless blockchains and their key characteristics,</li>
+<li>Discuss various components of distributed ledger technologies, including consensus algorithms and smart contracts,</li>
+<li>Provide a high-level explanation of what Hyperledger is.</li>
+</ul>
 
 <h3 id="ch1-2">1.2 Distributed Ledger Technology (DLT)</h3>
 
 <h3>Background - The Rising Interest in Distributed Ledger Technologies</h3>
+<p>
 Looking back to the last half century of computer technologies and architectures, you may observe a trend of fluctuation between the centralization and subsequent decentralization of computing power, storage, infrastructure, protocols, and code.<br/>
 
 Mainframe computers are largely centralized. <br/>
@@ -128,6 +131,7 @@ A distributed ledger is a type of data structure which resides across multiple c
 Distributed ledger technology (DLT) includes blockchain technologies and smart contracts.<br/>
 
 While distributed ledgers existed prior to Bitcoin, the Bitcoin blockchain marks the convergence of a host of technologies, including timestamping of transactions, Peer-to-Peer (P2P) networks, cryptography, and shared computational power, along with a new consensus algorithm.<br/>
+</p>
 
 In summary, **distributed ledger technology (dlt)** generally consists of three basic components:
 <ol>
@@ -172,19 +176,19 @@ A Bitcoin block consists of four pieces of metadata:
 <li>The <b>reference</b> to the previous block,</li>
 <li>The proof of work, also known as a <b>nonce</b>,</li>
 <li>The <b>timestamp</b>,</li>
-<li>The <b>Merkle tree root</b> for the transactions incl</li>uded in this block (Merkle tree is explained next).</li>
+<li>The <b>Merkle tree root</b> for the transactions included in this block (Merkle tree is explained next).</li>
 </ol>
 
 <h3>Merkle Tree</h3>
+<p>
 The Merkle tree, also known as a binary hash tree, is a data structure that is used to store hashes of the individual data in large datasets in a way to make the verification of the dataset efficient. <br/>
 
 It is an anti-tamper mechanism to ensure that the large dataset has not been changed. The word "tree" is used to refer to a branching data structure in computer science, as seen in the image below. <br/>
-
+</p>
 According to Andreas M. Antonopoulos, in the Bitcoin protocol,  <br/>
 <blockquote>
 "Merkle trees are used to summarize all the transactions in a block, producing an overall digital fingerprint of the entire set of transactions, providing a very efficient process to verify whether a transaction is included in a block".
 </blockquote>
-
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------------------- merkle tree ------------------------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -201,8 +205,7 @@ According to Andreas M. Antonopoulos, in the Bitcoin protocol,  <br/>
 **[`^        back to top        ^`](#table-of-contents)**
 
 <h3>What is a Blockchain?</h3>
-What is blockchain?  <br/>
-
+<p>
 As the Security Maven at Hyperledger, I have somewhat of a different perspective on what a blockchain is.  
 
 I'm a developer, primarily, and I look at the world in an adversarial way.
@@ -288,12 +291,12 @@ Tampering with messages is essentially impossible.
 The immutability of the distributed ledger is guaranteed by the cryptography, but the nature of the trusted network, of the permissioned network, means that we have to treat it like any other back-office service.  
 
 You want to deploy it behind a firewall, you want to use tunneling to connect between nodes across the Internet, and you want to maintain it, just like any other service that deals with Internet traffic...you have firewalls, and load balancers, and things like that.  
-
-That's all I've got to say about security. And thanks for taking our course.
+</p>
 
 **[`^        back to top        ^`](#table-of-contents)**
 
 <h3>Transactions / Cryptography</h3>
+<p>
 The record of an event, cryptographically secured with a digital signature, that is verified, ordered, and bundled together into blocks, form the transactions in the blockchain. 
 
 In the Bitcoin blockchain, transactions involve the transfer of bitcoins, while in other blockchains, transactions may involve the transfer of any asset or a record of some service being rendered.
@@ -305,8 +308,10 @@ Cryptography has a key role to play both in the security, as well as in the immu
 Cryptography is the study of the techniques used to allow secure communication between different parties and to ensure the authenticity and immutability of the data being communicated. 
 
 For blockchain technologies, cryptography is used to prove that a transaction was created by the right person. It is also used to link transactions into a block in a tamper-proof way, as well as create the links between blocks, to form a blockchain.
+</p>
 
 <h3>Differences Between Blockchains & Databases</h3>
+<p>
 Blockchain technology has some key differentiators from databases.  
 A blockchain is a write-only data structure, where new entries get appended onto the end of the ledger. 
 
@@ -319,6 +324,7 @@ In a relational database, data can be easily modified or deleted.
 Typically, there are database administrators who may make changes to any part of the data and/or its structure. 
 
 Additionally, blockchains were designed for decentralized applications, whereas relational databases, in general, were originally designed for centralized applications, where a single entity controls the data.
+</p>
 
 <!------------------------------------------------------------------------------------------------>
 <!-------------------------- differences between blockchain & databases -------------------------->
@@ -330,6 +336,7 @@ Additionally, blockchains were designed for decentralized applications, whereas 
 </p>
 
 <h3>Types of Blockchains</h3>
+<p>
 A blockchain can be both permissionless (like Bitcoin or Ethereum) or permissioned (like the different Hyperledger blockchain frameworks). 
 
 A permissionless blockchain is also known as a public blockchain, because anyone can join the network. 
@@ -365,8 +372,10 @@ Many of these instances involve the sale or distribution to the public.
 Cryptocurrencies and Initial Coin Offerings (which are not backed by national governments) usually involve implementations of permissionless blockchains.  <br/>
 
 You will learn about a variety of use cases in Chapter 6, <i>"The Promise of Business Blockchain Technologies"</i>.  
+</p>
 
 <h3>Peer-to-Peer Network Architecture</h3>
+<p>
 Historically, most applications utilize a central server (or servers). <br/>
 
 For one user/client to send a message to another user/client in the network, the request has to be sent to the hub or a central server, which then directs it to the right computer.  
@@ -386,6 +395,7 @@ As a result, large corporations and federal governments invest significant amoun
 Permissionless P2P systems do not require a set amount of peers to be online and are generally slower. 
 
 Permissioned P2P networks have to guarantee uptime and require a high level of quality of service on the communication links.
+</p>
 
 **[`^        back to top        ^`](#table-of-contents)**
 
@@ -399,6 +409,7 @@ Permissioned P2P networks have to guarantee uptime and require a high level of q
 </p>
 
 <h3>Peer-to-Peer Networks (Robert Schwentker)</h3>
+<p>
 What is a Peer-to-Peer network, and how do peers come to agreement about what is on the blockchain?  
 
 A blockchain network is a group of computers that informally are organized in a Peer-to-Peer architecture.  
@@ -413,9 +424,12 @@ There are a number of consensus mechanisms or algorithms.
 4.  as well as <b>Simplified Byzantine Fault Tolerance</b>.
 
 <b><i>Bitcoin</i></b> uses <b>Proof of Work</b>, while <b><i>Ethereum</i></b> uses <b>Proof of Work</b> currently, but is moving towards <b>Proof of Stake</b>.  
+
 The <b><i>Hyperledger Sawtooth</i></b> uses Proof of Elapsed Time</b>.
+</p>
 
 <h3>Immutability of Data</h3>
+<p>
 The immutability of the data which sits on the blockchain is perhaps the most powerful and convincing reason to deploy blockchain-based solutions for a variety of socio-economic processes which are currently recorded on centralized servers. <br/>
 
 This immutability, or "unchanging over time" feature makes the blockchain useful for accounting, financial transactions, identity management, and asset ownership, management and transfer, just to name a few examples. 
@@ -450,6 +464,8 @@ This, in turn, modifies the hashes that are stored in the Merkle tree, and the M
 
 In addition, the Previous Block hash stored in Block 12 also needs to be modified to reflect the overall change in the hash for Block 11.
 
+</p>
+
 **[`^        back to top        ^`](#table-of-contents)**
 
 <!------------------------------------------------------------------------------------------------>
@@ -462,7 +478,7 @@ In addition, the Previous Block hash stored in Block 12 also needs to be modifie
 </p>
 
 <h3>Blockchain Applications</h3>
-
+<p>
 Since blockchain is a form of digital infrastructure, applications built on top of a blockchain provide a gateway to accessing information that sits on that blockchain. 
 
 In other words, clients/users interact with the blockchain through applications. 
@@ -472,10 +488,12 @@ Starting from the simple wallets that hold bitcoins, sophisticated applications 
 A more exhaustive list of companies using blockchain technology for identity management and authentication can be found in the following article: <i>"21 Companies Leveraging Blockchain for Identity Management and Authentication"</i> by Elena Mesropyan.  
 
 For more details about blockchain applications, you can refer to Daniel Palmer's article entitled <i>"7 Cool Decentralized Apps Being Built on Ethereum"</i>.
+</p>
 
 **[`^        back to top        ^`](#table-of-contents)**
 
 <h3>Smart Contracts</h3>
+<p>
 What is a smart contract?  <br/>
 
 Back in 1996, a man named Nick Szabo coined the term 'smart contract'.  
@@ -492,6 +510,7 @@ Smart contracts are simply computer programs that execute predefined actions whe
 Smart contracts provide the language of transactions that allow the ledger state to be modified. 
 
 They can facilitate the exchange and transfer of anything of value (e.g. shares, money, content, property).
+</p>
 
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------------- smart contracts ------------------------------------------>
@@ -502,14 +521,14 @@ They can facilitate the exchange and transfer of anything of value (e.g. shares,
 </p>
 
 <h3>Bitcoin – A Popular Blockchain Deployment</h3>
-
+<p>
 With the invention of the peer-to-peer (P2P) cash system known as Bitcoin in 2008, we have an example of a global decentralized payment network with a distributed and publicly-owned infrastructure, operating as a "permissionless" system. 
 
 There is a persuasive case that Bitcoin is the first "killer application" of decentralized computing. 
 
 One can send and receive bitcoins anywhere in the world in a completely P2P manner, without having to intermediate through a trusted third party, such as a bank.  
 
-According to the Coin Market Capitalizations website, as of November 2020, bitcoin's market capitalization (market cap) was over $286 billion.
+According to the [Coin Market Cap Website][https://coinmarketcap.com/], as of November 2020, bitcoin's market capitalization (market cap) was over $286 billion.  Today, 23-Mar-2022 it is $836 billion.
 
 <!------------------------------------------------------------------------------------------------>
 <!------------------------- bitcoin - a popular blockchain deployment ---------------------------->
@@ -517,13 +536,15 @@ According to the Coin Market Capitalizations website, as of November 2020, bitco
 <p align="center" width="100%">
   <img width="66%" src="https://user-images.githubusercontent.com/41387907/138574896-b923c968-2909-4c47-8333-fbe77d089177.png"
        alt="Bitcoin - a popular blockchain deployment"</>
-<p align-"center"> (Source: https://coinmarketcap.com/currencies/bitcoin/)  </p>
+	   
+<p align="center"> (Source: https://coinmarketcap.com/currencies/bitcoin/)  </p>
 </p>
 
 **[`^        back to top        ^`](#table-of-contents)**
 
 <h3>Bitcoin Charts</h3>
-This is a paragraph that contains a [link to Developer Insider](http://developerinsider.co).
+<p>
+[Link to Developer Insider](http://developerinsider.co).
 
 According to [AngelList](https://angel.co/blockchains), over five thousand startups have been created to leverage Bitcoin and blockchain-related technologies since the inception of the Bitcoin payment system. 
 

@@ -554,6 +554,7 @@ Hundreds of large companies, and dozens of governments and universities have bec
 In particular, the financial services sector has been actively investing in exploring wider applications of distributed ledger technologies (of which, blockchain is a subset) since late 2015.
 
 <h3>Bitcoin & Ethereum</h3>
+<p>
 And so, why were Bitcoin and Ethereum created? 
 
 What problems do they solve?  
@@ -569,6 +570,7 @@ Bitcoin, in fact, is programmable money.
 Ethereum, on the other hand, was created as a response to Bitcoin.  
 
 While Bitcoin is focused upon transferring monetary value between parties, it has a very limited programming language.  
+
 Ethereum, on the other hand, uses a more expansive set of programming languages and tools to allow for many other types of programs and applications.  
 
 The core invention of Ethereum is it's EVM, or Ethereum Virtual Machine.  
@@ -581,10 +583,12 @@ Some of its key features include the immutability of data, that unauthorized use
 
 That is because the applications on the network are decentralized, and on many, many machines,  
 if some of those machines go down, the Ethereum network maintains a stable state of the Ethereum network.
+</p>
 
 **[`^        back to top        ^`](#table-of-contents)**
 
 <h3>Bitcoin and Cryptoeconomics</h3>
+<p>
 Bitcoin has also ushered in tremendous academic and research interest in the area of Cryptoeconomics and Cryptoeconomic security.  
 
 According to Vitalik Buterin,  
@@ -607,6 +611,7 @@ Since such networks can reasonably expect all kind of agents - including malicio
 </ul>
 
 You can find more about Cryptoeceonomics read "The Blockchain Economy: A Beginner’s Guide to Institutional Cryptoeconomics".
+</p>
 
 **[`^        back to top        ^`](#table-of-contents)**
 
@@ -621,7 +626,7 @@ As a result, unlike the Bitcoin blockchain, it does not just track transactions,
 
 Technically, Ethereum is a Turing-complete virtual machine with its native cryptocurrency called "ether". The platform was proposed in 2013 in a white paper by the then 19-year old Vitalik Buterin.  
 
-As of November 2020, Ethereum had a market cap of over $49 billion, making Ether the second most valuable cryptocurrency after Bitcoin.
+As of November 2020, Ethereum had a market cap of over $49 billion, making Ether the second most valuable cryptocurrency after Bitcoin.  Today, 24 March, 2022, Bitcoin's valuation is over 836 billion.
 
 <!------------------------------------------------------------------------------------------------>
 <!---------------------------- ethereum - an alternative to bitcoin ------------------------------>
@@ -636,20 +641,18 @@ As of November 2020, Ethereum had a market cap of over $49 billion, making Ether
 As the second best known public blockchain after the Bitcoin blockchain, Ethereum has ushered in an era of unprecedented activity around blockchain and distributed ledger technology.
 
 <h3>Ethereum</h3>
+<p>
 Can you give another example of a production blockchain system, such as Ethereum, and how is it different from Bitcoin?  
 
-Sure. 
-
-Ehereum also has a public blockchain. 
-
-It also groups and orders transactions into blocks.  
+Sure. Ehereum also has a public blockchain. It also groups and orders transactions into blocks.  
 
 However, Ethereum may be defined as an open source platform that enables developers to build and deploy both smart contracts and decentralized applications, also known as Dapps.  
 
 In addition to the Ethereum public blockchain, there are numerous versions of Ethereum which are designed to be private and are permissioned.
+</p>
 
 <h3>Dapps</h3>
-As Stephan Tual explains, Ethereum applications do not have a middleman; instead, users interact in a P2P fashion with other users through a variety of interfaces - social, financial, gaming, etc. Since the applications are developed on the decentralized consensus-based network itself, third-party censorship is virtually impossible. 
+As [Stephan Tual](https://www.youtube.com/watch?v=Clw-qf1sUZg) explains, Ethereum applications do not have a middleman; instead, users interact in a P2P fashion with other users through a variety of interfaces - social, financial, gaming, etc. Since the applications are developed on the decentralized consensus-based network itself, third-party censorship is virtually impossible. 
 
 Malicious actors cannot secretly tamper with the application by changing the code and compromise all application users (or nodes that are actively interacting with it). 
 
@@ -659,9 +662,9 @@ Since they are cryptographically secured, Dapps are referred to as "secure appli
 
 Some of the high profile Dapps built on the Ethereum platform include:
 <ul type="disc">
-<li>Augur, which is a Decentralized Prediction Market,</li>
-<li>Digix, which tokenizes gold on Ethereum,</li>
-<li>Maker, which is a Decentralized Autonomous Organization (DAO).  </li>
+<li>[Augur](https://augur.net), which is a Decentralized Prediction Market,</li>
+<li>[Digix](https;//digix.global), which tokenizes gold on Ethereum,</li>
+<li>[Maker](https://makerdao.com), which is a Decentralized Autonomous Organization (DAO).  </li>
 </ul>
 The Ethereum network is a distributed global public network, which means it is not run on central servers in a certain geographical location. 
 
@@ -942,8 +945,10 @@ As a result, the International Organization for Standardization for Blockchain a
        alt="Standards Role in Supporting Blockchain/DLT"</>
 </p>
 <h3>Regulation</h3>
+<p>
 The lack of regulation around transactions on the blockchain creates an environment of uncertainty for all players. Highly regulated industries like financial services are treading carefully in the DLT space. The Securities and Exchange Commission of the United States has clarified its stance on Initial Coin Offerings (ICOs) in 2017. The Chinese government has, in fact, banned all ICOs, while 60 major ICO platforms are being investigated (Saheli Roy Choudhury, 2017).  
 Similarly, there are no regulatory guidelines governing smart contracts, causing much anxiety among various players like lawyers, regulators, programmers, and businesses. The lack of regulatory guidelines, along with a lack of industry standards, exacerbates hindrances to rapid adoption of DLT.
+</p>
 
 <h3>Lack of Know-How</h3>
 The lack of know-how (and know-whom and know-where) around distributed ledger technologies and the availability of experts in the area is a major challenge in the adoption of distributed ledger technologies. While there has been an exponential increase in the interest around 'blockchain', as indicated in the figure below, there is a huge lag of technical talent in the space. In fact, the origin of this course stems from the need to address this gap in know-how.
@@ -966,11 +971,12 @@ This chapter provides an overview of Hyperledger, a collaborative project hosted
 
 <h3 id="ch2-1">2.1 Intro & Learning Objectives</h3>
 By the end of this chapter, you should be able to:
-
-  * Explain the differences between Hyperledger and permissionless blockchain technologies.
-  * Discuss how Hyperledger leverages open standards and open governance to support business solutions.
-  * Define what a project is according to the Hyperledger documentation.
-  * Discuss the project lifecycle process adopted by Hyperledger, and the five possible states.
+<ul>
+<li>Explain the differences between Hyperledger and permissionless blockchain technologies.</li>
+<li>Discuss how Hyperledger leverages open standards and open governance to support business solutions.</li>
+<li>Define what a project is according to the Hyperledger documentation.</li>
+<li>Discuss the project lifecycle process adopted by Hyperledger, and the five possible states.</li>
+</ul>
 
 <h3>Hyperledger (Navroop Sahdev)</h3>
 Hyperledger is an open source effort created to advance cross-industry blockchain technologies.  
@@ -987,14 +993,16 @@ So, Hyperledger provides all the capabilities of blockchain architecture, data p
 **[`^        back to top        ^`](#table-of-contents)**
 
 <h3 id="ch2-2">2.2 Hyperledger</h3>
-Hyperledger incubates and promotes a range of business blockchain technologies, including distributed ledger frameworks, smart contract engines, client libraries, graphical interfaces, utility libraries, and sample applications. Hosted by The Linux Foundation, collaborators include industry leaders in technology, finance, banking, supply chain management, manufacturing, and IoT.  
+[Hyperledger](https://www.hyperledger.org/about) incubates and promotes a range of business blockchain technologies, including distributed ledger frameworks, smart contract engines, client libraries, graphical interfaces, utility libraries, and sample applications. Hosted by The Linux Foundation, collaborators include industry leaders in technology, finance, banking, supply chain management, manufacturing, and IoT.  
 As of November 2020, there are 16 projects in the Hyperledger greenhouse, six of which are distributed ledger and domain specific frameworks. The other 10 projects are tools and libraries that support these frameworks.
 
 <p align="center" width="100%">
-  <img width="100%" src="https://user-images.githubusercontent.com/41387907/138575021-89ffa40e-3a0a-4fae-a1a4-55b31e472350.png"
-       alt="Hyperledger"</>
+<img width="100%"
+src="https://user-images.githubusercontent.com/41387907/138575021-89ffa40e-3a0a-4fae-a1a4-55b31e472350.png"
+   alt="Hyperledger"</>
 </p>
-As Arnaud Le Hors, member of the Hyperledger Technical Steering Committee, emphasized,  
+
+As [Arnaud Le Hors](https://www.hyperledger.org/blog/2017/09/12/3431), member of the Hyperledger Technical Steering Committee, emphasized,  
 "these projects show how broadly applicable blockchain technology really is. This goes way beyond cryptocurrencies".  
 Hyperledger provides an alternative to the cryptocurrency-based blockchain model, and focuses on developing blockchain frameworks, tools and libraries to support global enterprise solutions. The focus of Hyperledger is to provide a transparent and collaborative approach to blockchain development.
 
@@ -1002,22 +1010,39 @@ Hyperledger provides an alternative to the cryptocurrency-based blockchain model
 **[`^        back to top        ^`](#table-of-contents)**
 
 <h3>The Birth of Hyperledger</h3>
+<p>
 It's amazing how quickly Hyperledger has developed and evolved over the past few years.  
+
 I was wondering if you could tell me a bit about the journey of how Hyperledger has come to be.  
-So, the Hyperledger Project began when a set of companies who were starting to pay attention to this Bitcoin space, this cryptocurrency space, this blockchain space, approached The Linux Foundation and said "Let's do a project together".  
+
+The Hyperledger Project began when a set of companies who were starting to pay attention to this Bitcoin space, this cryptocurrency space, this blockchain space, approached The Linux Foundation and said "Let's do a project together".  
+
 The Linux Foundation has been at the heart of the Linux ecosystem, bringing together companies and developers to try to, you know, serve, say, air traffic control to the development of a common technology platform.  
+
 And, over the last few years, it has grown into other related technology spaces: software-defined networking, cloud computing, all these kinds of things... domains that also needed this focused effort to bring these two kinds of communities together.  
-So, it's very natural when companies like IBM, or even new ones, that had never worked with The Linux Foundation before, like JPMorgan, or startups in this space, like Digital Asset, when they started to talk with each other, and tried to figure out where a good home for this would be, they approached The Linux Foundation, right?  
-So, some conversations got started, and there was a sense that what was interesting about this space wasn't so much the cryptocurrencies, and, you know, the make-money-fast kind of mentality, but the underlying distributed ledger and smart contract technology platforms, right?  
+
+It's very natural when companies like IBM, or even new ones, that had never worked with The Linux Foundation before, like JPMorgan, or startups in this space, like Digital Asset, when they started to talk with each other, and tried to figure out where a good home for this would be, they approached The Linux Foundation, right?  
+
+Some conversations got started, and there was a sense that what was interesting about this space wasn't so much the cryptocurrencies, and, you know, the make-money-fast kind of mentality, but the underlying distributed ledger and smart contract technology platforms, right?  
+
 And there's still a lot of hard work to do to figure out the right approaches to this.  
-So, in December of 2015, The Linux Foundation, in conjunction with those companies, and about 30 more, announced the launch of the Hyperledger effort.  
+
+In December of 2015, The Linux Foundation, in conjunction with those companies, and about 30 more, announced the launch of the Hyperledger effort.  
+
 Alright, the Hyperledger Project, which we really just call Hyperledger now.  
+
 The first code drop, meaning the first release of software, happened just two months later, in February of 2016, when the Fabric codebase came over.  
+
 Initially, it had been built inside of IBM, but, when it came over, it was now part of the community, right, followed soon after by Sawtooth Lake.  
+
 And it wasn't just code; the community started to meet face to face on a pretty regular basis, about once every two months.  
+
 And this was because there was a lot to sort out, a lot of knowledge to share.  
+
 I joined in May of 2016, so, a little bit of a late comer, I guess, to the launch of it.  
+
 But, I joined partly because I saw how transparent, and how engaging, even from day one, all of these processes have been.
+</p>
 
 <h3>Hyperledger Goals</h3>
 Hyperledger has taken a leadership role to develop cross-industry standards and provide a neutral space for software collaboration. The financial services industry, in particular, is witnessing an unprecedented level of collaboration between institutions that have traditionally been competitors. The advent of a new foundational or infrastructural technology like the blockchain - much like the Internet - requires collaboration of various actors in order to realize the full benefits of the technology. Unless all actors use a certain standard, the pace of technological dissemination will continue to be slow. Technological adoption is characterized by network effects, where the costs decrease with the increase in use of a certain technology. Since shifting to distributed ledger technology involves significant costs, open source software, communities and ecosystems that develop around these have a significant part to play.

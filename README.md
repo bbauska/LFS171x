@@ -528,7 +528,7 @@ There is a persuasive case that Bitcoin is the first "killer application" of dec
 
 One can send and receive bitcoins anywhere in the world in a completely P2P manner, without having to intermediate through a trusted third party, such as a bank.  
 
-According to the [Coin Market Cap Website][https://coinmarketcap.com/], as of November 2020, bitcoin's market capitalization (market cap) was over $286 billion.  Today, 23-Mar-2022 it is $836 billion.
+According to the Coin Market Capitalization website <a href="https://coinmarketcap.com">, as of November 2020, bitcoin's market capitalization (market cap) was over $286 billion.  Today, 23-Mar-2022 it is $836 billion.
 
 <!------------------------------------------------------------------------------------------------>
 <!------------------------- bitcoin - a popular blockchain deployment ---------------------------->
@@ -544,7 +544,8 @@ According to the [Coin Market Cap Website][https://coinmarketcap.com/], as of No
 
 <h3>Bitcoin Charts</h3>
 <p>
-[Link to Developer Insider](http://developerinsider.co).
+
+[Developer Insider](https://developerinsider.co)
 
 According to [AngelList](https://angel.co/blockchains), over five thousand startups have been created to leverage Bitcoin and blockchain-related technologies since the inception of the Bitcoin payment system. 
 

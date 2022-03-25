@@ -205,7 +205,10 @@ According to Andreas M. Antonopoulos, in the Bitcoin protocol,  <br/>
 
 <h4 align="center" font-weight: bold;>Bitcoin Block Data</h4>
 
-licensed under [Creative Commons Attribution-Share-Alike 3.0 Unported](https://creativecommons.org/licenses/by-sa/3.0/deed.en), retrieved from [Wikipedia](https://commons.wikimedia.org/wiki/File:Bitcoin_Block_Data.png)
+<p align="center">
+Licensed under [Creative Commons Attribution-Share-Alike 3.0 Unported](https://creativecommons.org/licenses/by-sa/3.0/deed.en), retrieved from [Wikipedia](https://commons.wikimedia.org/wiki/File:Bitcoin_Block_Data.png)
+
+</p>
 
 <br/>
 

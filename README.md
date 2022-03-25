@@ -492,9 +492,9 @@ In other words, clients/users interact with the blockchain through applications.
 
 Starting from the simple wallets that hold bitcoins, sophisticated applications which encompass applications addressing digital identity (e.g. UPort, KYC-Chain, Netki, etc.), and complex financial transactions are being built on the blockchain.  
 
-A more exhaustive list of companies using blockchain technology for identity management and authentication can be found in the following article: <i>"21 Companies Leveraging Blockchain for Identity Management and Authentication"</i> by Elena Mesropyan.  
+A more exhaustive list of companies using blockchain technology for identity management and authentication can be found in the following article: ["21 Companies Leveraging Blockchain for Identity Management and Authentication"](https://gomedici.com/22-companies-leveraging-blockchain-for-identity-management-and-authentication/) by Elena Mesropyan.  
 
-For more details about blockchain applications, you can refer to Daniel Palmer's article entitled <i>"7 Cool Decentralized Apps Being Built on Ethereum"</i>.
+For more details about blockchain applications, you can refer to Daniel Palmer's article entitled ["7 Cool Decentralized Apps Being Built on Ethereum"](https://www.coindesk.com/markets/2016/02/24/7-cool-decentralized-apps-being-built-on-ethereum/).
 </p>
 
 **[`^        back to top        ^`](#table-of-contents)**

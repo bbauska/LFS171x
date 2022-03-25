@@ -202,10 +202,9 @@ According to Andreas M. Antonopoulos, in the Bitcoin protocol,  <br/>
     alt="Merkle Tree"</>
 </p>
 
-<h4 font-weight: bold;>Bitcoin Block Data</h4>
-<br/>
+<h4 align="center" font-weight: bold;>Bitcoin Block Data</h4>
 
-(licensed under [Creative Commons Attribution-Share-Alike 3.0 Unported](https://creativecommons.org/licenses/by-sa/3.0/deed.en), retrieved from [Wikipedia](https://commons.wikimedia.org/wiki/File:Bitcoin_Block_Data.png))
+<p align="center" (licensed under [Creative Commons Attribution-Share-Alike 3.0 Unported](https://creativecommons.org/licenses/by-sa/3.0/deed.en), retrieved from [Wikipedia](https://commons.wikimedia.org/wiki/File:Bitcoin_Block_Data.png))</p>
 <br/>
 
 **[`^        back to top        ^`](#table-of-contents)**

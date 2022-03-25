@@ -202,8 +202,9 @@ According to Andreas M. Antonopoulos, in the Bitcoin protocol,  <br/>
     alt="Merkle Tree"</>
 </p>
 
-<h4 font-color: green; weight: bold;>Bitcoin Block Data</h4>
-</>
+<h4 font-weight: bold;>Bitcoin Block Data</h4>
+nbsp;
+<br/>
 
 (licensed under [Creative Commons Attribution-Share-Alike 3.0 Unported](https://creativecommons.org/licenses/by-sa/3.0/deed.en), retrieved from [Wikipedia](https://commons.wikimedia.org/wiki/File:Bitcoin_Block_Data.png))
 
@@ -660,6 +661,7 @@ In addition to the Ethereum public blockchain, there are numerous versions of Et
 
 <h3>Dapps</h3>
 <p>
+
 As [Stephan Tual[(https://www.youtube.com/watch?v=Clw-qf1sUZg) explains, Ethereum applications do not have a middleman; instead, users interact in a P2P fashion with other users through a variety of interfaces - social, financial, gaming, etc. Since the applications are developed on the decentralized consensus-based network itself, third-party censorship is virtually impossible. 
 
 Malicious actors cannot secretly tamper with the application by changing the code and compromise all application users (or nodes that are actively interacting with it). 
@@ -670,9 +672,9 @@ Since they are cryptographically secured, Dapps are referred to as "secure appli
 
 Some of the high profile Dapps built on the Ethereum platform include:
 <ul type="disc">
-<li> [Augur](https://augur.net), which is a Decentralized Prediction Market,</li>
-<li> [Digix](https;//digix.global), which tokenizes gold on Ethereum,</li>
-<li> [Maker](https://makerdao.com), which is a Decentralized Autonomous Organization (DAO).  </li>
+<li>[Augur](https://augur.net), which is a Decentralized Prediction Market,</li>
+<li>[Digix](https;//digix.global), which tokenizes gold on Ethereum,</li>
+<li>[Maker](https://makerdao.com), which is a Decentralized Autonomous Organization (DAO).  </li>
 </ul>
 The Ethereum network is a distributed global public network, which means it is not run on central servers in a certain geographical location. 
 

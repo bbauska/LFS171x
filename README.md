@@ -669,11 +669,10 @@ These Decentralized Applications have come to be known as Dapps.
 Since they are cryptographically secured, Dapps are referred to as "secure applications". 
 
 Some of the high profile Dapps built on the Ethereum platform include:
-<ul type="disc">
-<li> [Augur](https://augur.net), which is a Decentralized Prediction Market,</li>
-<li> [Digix](https;//digix.global), which tokenizes gold on Ethereum,</li>
-<li> [Maker](https://makerdao.com), which is a Decentralized Autonomous Organization (DAO).  </li>
-</ul>
+   * [Augur](https://augur.net), which is a Decentralized Prediction Market,
+   * [Digix](https;//digix.global), which tokenizes gold on Ethereum,
+   * [Maker](https://makerdao.com), which is a Decentralized Autonomous Organization (DAO).  
+
 The Ethereum network is a distributed global public network, which means it is not run on central servers in a certain geographical location. 
 
 Instead, the computing power that runs the network is contributed by nodes that are spread across the globe. 

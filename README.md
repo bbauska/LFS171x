@@ -826,7 +826,7 @@ This "leader" gets to create the next block on the chain.
 
 <h3>Simplified Byzantine Fault Tolerance (SBFT)</h3>
 <p>
-The Simplified Byzantine Fault Tolerant consensus algorithm implements an adopted version of the Practical Byzantine Fault Tolerant (PBFT) algorithm, and seeks to provide significant improvements over Bitcoin's Proof of Work consensus protocol.
+The Simplified Byzantine Fault Tolerant consensus algorithm implements an adopted version of the [Practical Byzantine Fault Tolerant (PBFT)](https://blog.acolyer.org/2015/05/18/practical-byzantine-fault-tolerance/) algorithm, and seeks to provide significant improvements over Bitcoin's Proof of Work consensus protocol.
 
 The basic idea involves a single validator who bundles proposed transactions and forms a new block.
 
@@ -838,11 +838,11 @@ In order to be tolerant of a Byzantine fault, the number of nodes that must reac
 
 For example, if we have 7 nodes in the system, then 5 of those nodes must agree if 2 of the nodes are acting in a faulty manner.
 
-The practical example would be that of ByzCoin, which seeks to make key improvements over the original Bitcoin protocol.
+The practical example would be that of [ByzCoin](https://hackingdistributed.com/2016/08/04/byzcoin/), which seeks to make key improvements over the original Bitcoin protocol.
 
 Addressing the challenge around scalability due to high latency, ByzCoin transactions are irreversibly committed to the blockchain within seconds.
 
-The added advantage is the communication trees to "(...) optimize transaction commitments and verification under normal operations" (2016 Kudelski Security report).
+The added advantage is the communication trees to "(...) optimize transaction commitments and verification under normal operations" ([2016 Kudelski Security report](https://kudelskisecurity.com/resources/resource-center/?_sft_resource_type=research-reports)).
 </p>
 
 <h3>Proof-of-Authority (PoA)</h3>
@@ -851,11 +851,15 @@ It uses a set of "authorities", which are designated nodes that are allowed to c
 Ledgers using PoA require sign-off by a majority of authorities in order for a block to be created.
 
 <h3>Comparing Permissioned Consensus Approaches and Standard PoW</h3>
-Consensus can be implemented in different ways, such as through the use of lottery-based algorithms (PoET or PoW), or through the use of voting-based methods (SBFT), each targeting different network requirements and fault tolerance models.
-Lottery-based algorithms are advantageous in that they can scale to a large number of nodes.
-Voting-based algorithms provide low-latency finality.
-The following table offers an at-a-glance view of the main considerations and pros and cons of different business blockchain approaches to reaching consensus.
+<p>
+<b>Consensus</b> can be implemented in different ways, such as through the use of lottery-based algorithms (PoET or PoW), or through the use of voting-based methods (SBFT), each targeting different network requirements and fault tolerance models.
 
+Lottery-based algorithms are advantageous in that they can scale to a large number of nodes.
+
+Voting-based algorithms provide low-latency finality.
+
+The following table offers an at-a-glance view of the main considerations and pros and cons of different business blockchain approaches to reaching consensus.
+</p>
 <!------------------------------------------------------------------------------------------------>
 <!----------------- Comparing permissioned consensus approaches and standard PoW  ---------------->
 <!------------------------------------------------------------------------------------------------>

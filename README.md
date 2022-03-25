@@ -724,8 +724,7 @@ We will look at block heights, transaction times, mining pools, timestamps, and 
 
 <h3>Exploring Bitcoin and Ethereum Blockchains</h3>
 <p>
-Let's take a look at a couple of public blockchains: those of Bitcoin and Ethereum,  
-and let's examine the genesis block, or the first block, of each one of them.  
+Let's take a look at a couple of public blockchains: those of Bitcoin and Ethereum, and let's examine the genesis block, or the first block, of each one of them.  
 
 Then, we'll take a look at a couple of large transactions, including the most famous transaction in cryptocurrency history: the purchase of a pizza for 10,000 bitcoins.  
 
@@ -770,6 +769,7 @@ In Chapter 2 of this course, we'll touch upon the Hyperledger Explorer, which ca
 **[`^        back to top        ^`](#table-of-contents)**
 
 <h3 id="ch1-5">1.5 Consensus Algorithms</h3>
+<p>
 Consensus in the network refers to the process of achieving agreement among the network participants as to the correct state of data on the system. Consensus leads to all nodes sharing the exact same data. 
 
 A consensus algorithm, hence, does two things: it ensures that the data on the ledger is the same for all the nodes in the network, and, in turn, prevents malicious actors from manipulating the data. 
@@ -779,10 +779,12 @@ The consensus algorithm varies with different blockchain implementations.
 While the Bitcoin blockchain uses Proof of Work as the consensus algorithm, other blockchains and distributed ledgers are deploying a variety of consensus algorithms, like the Proof of Stake, Proof of Burn, Proof of Capacity, Proof of Elapsed Time, and many others, depending on their unique requirements.  
 
 Next, we will briefly explain some of these algorithms.
+</p>
 
 **[`^        back to top        ^`](#table-of-contents)**
 
 <h3>Proof-of-Work (PoW)</h3>
+<p>
 The Proof of Work consensus algorithm involves solving a computational challenging puzzle in order to create new blocks in the Bitcoin blockchain. <br/>
 
 Colloquially, the process is known as 'mining', and the nodes in the network that engage in mining are known as "miners". 
@@ -791,9 +793,7 @@ The incentive for mining transactions lies in economic payoffs, where competing 
 
 As described in the 2016 Kudelski Security report,  
 <blockquote>
-```
 "Proof-of-work (PoW) is the outcome of a successful mining process and, although the proof is hard to create, \[it\] is easy to verify".  
-```
 </blockquote>
 
 For better understanding, please consider the following example provided by Ofir Beigel:  
@@ -814,25 +814,36 @@ Hyperledger's Sawtooth implementation is an example of PoET at work.
 Instead of competing to solve the cryptographic challenge and mine the next block, as in the Bitcoin blockchain, the PoET consensus algorithm is a hybrid of a random lottery and first-come-first-serve basis.
 
 In PoET, each validator is given a random wait time.
-```
+<blockquote>
 "The validator with the shortest wait time for a particular transaction block is elected the leader".
-```
-  * _sawtooth.hyperledger.org_
+</blockquote>
+
+  * [sawtooth.hyperledger.org](https://sawtooth.hyperledger.org/)
 
 This "leader" gets to create the next block on the chain.
 
 **[`^        back to top        ^`](#table-of-contents)**
 
 <h3>Simplified Byzantine Fault Tolerance (SBFT)</h3>
+<p>
 The Simplified Byzantine Fault Tolerant consensus algorithm implements an adopted version of the Practical Byzantine Fault Tolerant (PBFT) algorithm, and seeks to provide significant improvements over Bitcoin's Proof of Work consensus protocol.
+
 The basic idea involves a single validator who bundles proposed transactions and forms a new block.
+
 Note that, unlike the Bitcoin blockchain, the validator is a known party, given the permissioned nature of the ledger.
+
 Consensus is achieved as a result of a minimum number of other nodes in the network ratifying the new block.
+
 In order to be tolerant of a Byzantine fault, the number of nodes that must reach consensus is 2f+1 in a system containing 3f+1 nodes, where f is the number of faults in the system.
+
 For example, if we have 7 nodes in the system, then 5 of those nodes must agree if 2 of the nodes are acting in a faulty manner.
+
 The practical example would be that of ByzCoin, which seeks to make key improvements over the original Bitcoin protocol.
+
 Addressing the challenge around scalability due to high latency, ByzCoin transactions are irreversibly committed to the blockchain within seconds.
+
 The added advantage is the communication trees to "(...) optimize transaction commitments and verification under normal operations" (2016 Kudelski Security report).
+</p>
 
 <h3>Proof-of-Authority (PoA)</h3>
 Proof-of-Authority (PoA) is a consensus algorithm which can be used for permissioned ledgers.
@@ -1541,6 +1552,7 @@ Welcome to the Hyperledger greenhouse, an open source consortium for developing 
 Within the greenhouse, diverse global communities collaboratively develop open source projects that uniquely approach enterprise blockchain challenges.  
 These technologies can cross-pollinate and interoperate, just like how the community is driving the projects, collaborate in an open and neutral environment.  
 Hyperledger Indy, one of the frameworks in the Hyperledger greenhouse, is a distributed ledger that provides tools, libraries,and reusable components for creating and using independent decentralized identities.  
+
 As the world becomes more interconnected, individuals are disclosing personal information creating multiple usernames and passwords and leaving digital traces across platforms.  
 Indy represents the idea of a self-sovereign identity, which would dispose of the need for multiple logins and passwords.  
 Rooted on a distributed ledger, this digital identity interoperates across different domains, applications and organizational silos.  

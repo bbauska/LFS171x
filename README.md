@@ -443,7 +443,7 @@ This immutability, or "unchanging over time" feature makes the blockchain useful
 
 Once a transaction is written onto the blockchain, no one can change it, or, at least, it would be extremely difficult to change it.  
 
-According to Antony Lewis, the Director of Research at R3,  
+According to [Antony Lewis](https://www.linkedin.com/pulse/gentle-introduction-immutability-blockchains-antony-lewis/), the Director of Research at R3,  
 <blockquote>
 "When people say that blockchains are immutable, they don't mean that the data can't be changed, they mean it is extremely hard to change without collusion, and if you try, it's extremely easy to detect the attempt".  
 </blockquote>

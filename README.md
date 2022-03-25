@@ -709,7 +709,7 @@ As an added benefit, regulators are able to scrutinize the market activity on an
   <img width="66%" src="https://user-images.githubusercontent.com/41387907/138574916-7517cbeb-780a-48ad-b96c-062caf795147.png"
        alt="Ethereum smart contracts"</>
 </p>
-Note: With the advent of the Ethereum blockchain platform and the scripting functionality or smart contracts that it enables, there are ongoing attempts to do the same for the Bitcoin blockchain, which does not allow for this, due to security reasons. [RSK[(https://www.rsk.co/) is one such smart contract platform that seeks to achieve this "with a 2-way peg to Bitcoin". The added functionality can go a long way in making the Bitcoin blockchain useful for use cases other than cash transfers.
+Note: With the advent of the Ethereum blockchain platform and the scripting functionality or smart contracts that it enables, there are ongoing attempts to do the same for the Bitcoin blockchain, which does not allow for this, due to security reasons. [RSK](https://www.rsk.co/) is one such smart contract platform that seeks to achieve this "with a 2-way peg to Bitcoin". The added functionality can go a long way in making the Bitcoin blockchain useful for use cases other than cash transfers.
 
 **[`^        back to top        ^`](#table-of-contents)**
 
@@ -793,7 +793,7 @@ The incentive for mining transactions lies in economic payoffs, where competing 
 
 As described in the 2016 Kudelski Security report,  
 <blockquote>
-"Proof-of-work (PoW) is the outcome of a successful mining process and, although the proof is hard to create, \[it\] is easy to verify".  
+"Proof-of-work (PoW) is the outcome of a successful mining process and, although the proof is hard to create, it is easy to verify".  
 </blockquote>
 
 For better understanding, please consider the following example provided by Ofir Beigel:  
@@ -803,14 +803,28 @@ For better understanding, please consider the following example provided by Ofir
 
 Multiple criticisms exist for the PoW consensus algorithm. PoW requires a huge amount of energy to be expended, given the computationally heavy algorithm. 
 
-In addition, PoW has a high latency of transaction validation, and the concentration of mining power is located in countries where electricity is cheap. In terms of the network security, PoW is susceptible to the "51% attack", which refers to an attack on a blockchain by a group of miners controlling more than 50% of the network's computing power.
+In addition, PoW has a high latency of transaction validation, and the concentration of mining power is located in countries where electricity is cheap. 
+
+In terms of the network security, PoW is susceptible to the "51% attack", which refers to an attack on a blockchain by a group of miners controlling more than 50% of the network's computing power.
 
 <h3>Proof-of-Stake (PoS)</h3>
-The Proof of Stake algorithm is a generalization of the Proof of Work algorithm. In PoS, the nodes are known as the "validators" and, rather than mining the blockchain, they validate the transactions to earn a transaction fee. There is no mining to be done, as all coins exist from day one. Simply put, nodes are randomly selected to validate blocks, and the probability of this random selection depends on the amount of stake held. So, if node X owns 2 coins and node Y owns 1 coin, node X is twice as likely to be called upon to validate a block of transactions. The specific implementation of PoS can vary, depending on the use case, or as a matter of software design. Instances include <b<Proof of Deposit</b> and <b>Proof of Burn</b>. The PoS algorithm saves expensive computational resources that are spent in mining under a PoW consensus regime.
+The Proof of Stake algorithm is a generalization of the Proof of Work algorithm. In PoS, the nodes are known as the "validators" and, rather than mining the blockchain, they validate the transactions to earn a transaction fee. 
+
+There is no mining to be done, as all coins exist from day one. Simply put, nodes are randomly selected to validate blocks, and the probability of this random selection depends on the amount of stake held. 
+
+If node X owns 2 coins and node Y owns 1 coin, node X is twice as likely to be called upon to validate a block of transactions. 
+
+The specific implementation of PoS can vary, depending on the use case, or as a matter of software design. 
+
+Instances include <b<Proof of Deposit</b> and <b>Proof of Burn</b>.
+
+The PoS algorithm saves expensive computational resources that are spent in mining under a PoW consensus regime.
 
 <h3>Proof of Elapsed Time (PoET)</h3>
 Developed by Intel, the Proof of Elapsed Time consensus algorithm emulates the Bitcoin-style Proof of Work.
+
 Hyperledger's Sawtooth implementation is an example of PoET at work.
+
 Instead of competing to solve the cryptographic challenge and mine the next block, as in the Bitcoin blockchain, the PoET consensus algorithm is a hybrid of a random lottery and first-come-first-serve basis.
 
 In PoET, each validator is given a random wait time.
@@ -883,8 +897,15 @@ Hyperledger blockchains are generally permissioned blockchains, which means that
 **[`^        back to top        ^`](#table-of-contents)**
 
 <h3>Advantages of Using a Permissioned Blockchain over a Permissionless Blockchain</h3>
-If you look at permissionless blockchains, like the Bitcoin blockchain or the Ethereum blockchain, anyone can join the network, as well as write and read transactions. The actors in the system are not known, which means there could be some malicious actors within the network.  
-Hyperledger reduces these security risks and ensures that only the parties that want to transact are the ones that are part of the transaction and, rather than displaying the record of the transactions to the whole network, they remain visible only to the parties involved. So, Hyperledger provides all the capabilities of the blockchain architecture - data privacy, information sharing, immutability, with a full stack of security protocols - all for the enterprise. Permissioned blockchains offer more efficient transaction performance, thus being highly scalable, and have a clearly defined governance structure.
+If you look at permissionless blockchains, like the Bitcoin blockchain or the Ethereum blockchain, anyone can join the network, as well as write and read transactions. 
+
+The actors in the system are not known, which means there could be some malicious actors within the network.  
+
+Hyperledger reduces these security risks and ensures that only the parties that want to transact are the ones that are part of the transaction and, rather than displaying the record of the transactions to the whole network, they remain visible only to the parties involved. 
+
+Hyperledger provides all the capabilities of the blockchain architecture - data privacy, information sharing, immutability, with a full stack of security protocols - all for the enterprise. 
+
+Permissioned blockchains offer more efficient transaction performance, thus being highly scalable, and have a clearly defined governance structure.
 
 <h3 id="ch1-x">Hyperledger vs. Other Permissioned Ledgers (Brian Behlendorf)</h3>
 What makes Hyperledger so unique, compared to other permissioned ledgers?  
@@ -926,13 +947,13 @@ Quorum achieves this data privacy through allowing data visibility on need-to-kn
 **[`^        back to top        ^`](#table-of-contents)**
 
 <h3>Chain Core</h3>
-'Chain Core' is an enterprise permissioned blockchain system that is mostly focused on financial services, like currencies, securities, derivatives, gift cards, and loyalty points. The company partners with clients to launch and operate a network under the client's brand. Thanks to its strategic partnerships with companies such as Capital One, Citigroup, Fiserv, Nasdaq, Orange, Visa, etc., the company raised over $40 million in funding since 2014.  
-Within the Chain Core network, the creation and transfer of assets is decentralized. However, as stated in the 2016 Kudelski Security report,  
+[Chain Core](https://brandpa.com/names/fedchains/landing) is an enterprise permissioned blockchain system that is mostly focused on financial services, like currencies, securities, derivatives, gift cards, and loyalty points. The company partners with clients to launch and operate a network under the client's brand. Thanks to its strategic partnerships with companies such as Capital One, Citigroup, Fiserv, Nasdaq, Orange, Visa, etc., the company raised over $40 million in funding since 2014.  
+Within the Chain Core network, the creation and transfer of assets is decentralized. However, as stated in the [2016 Kudelski Security report](https://kudelskisecurity.com/),  
 "the operation of the network is governed by a designated set of entities known as a federation".  
 The platform features the Chain Testnet, which allows decentralized application development on Chain Core, operated by Chain, Microsoft, and the Initiative for Cryptocurrencies and Contracts (IC3).
 
 <h3>Corda</h3>
-R3 is an enterprise blockchain software firm that works with over three hundred members and partners across multiple industries, that seeks to leverage distributed ledger technologies to record, manage, and automate legal agreements between businesses through its software solution, called Corda.  
+[R3](https://www.r3.com/about/) is an enterprise blockchain software firm that works with over three hundred members and partners across multiple industries, that seeks to leverage distributed ledger technologies to record, manage, and automate legal agreements between businesses through its software solution, called Corda.  
 Launched in 2016, Corda is an open source distributed ledger platform, which features a blockchain-style P2P network; however, it is not a blockchain platform. Unlike blockchains, which involve global availability of data across the network and third party validators, Corda only allows information access and validation functions to parties actually involved in the transaction. Featuring a different software architecture, "Corda achieves consensus between firms at the level of individual deals, not the level of the system" (Richard Gendal Brown, 2016), while supporting a variety of consensus mechanisms.
 
 <h3>Quorum</h3>
@@ -941,13 +962,13 @@ Created by JPMorgan, Quorum is, in fact, a fork of the Ethereum public blockchai
 **[`^        back to top        ^`](#table-of-contents)**
 
 <h3>IOTA</h3>
-IOTA is an open source permissionless distributed ledger technology that has been around since 2015; it has a cryptocurrency called mIOTA. According to Martin Rosulek, "It is the first cryptocurrency that provides the whole ecosystem based on blockless blockchain" to enable machine-to-machine (M2M) transactions.  
+[IOTA](https://www.iota.org/) is an open source permissionless distributed ledger technology that has been around since 2015; it has a cryptocurrency called mIOTA. According to [Martin Rosulek](https://medium.com/@MartinRosulek/how-iota-makes-future-for-internet-of-things-af14fd77d2a3), "It is the first cryptocurrency that provides the whole ecosystem based on blockless blockchain" to enable machine-to-machine (M2M) transactions.  
 IOTA, however, is more than just a cryptocurrency. Essentially, the platform entails a generalization of the blockchain protocol (the technology called Tangle) that sits at the backend of the IOTA platform. The platform uses a Decentralized Acyclic Graph (DAG) instead of a blockchain to store its ledger.  
 Instead of paying miners to validate the transactions, the architecture of the network involves peer-based validation. We can think of a simple analogy, that of a teacher grading students' homework: the students are the clients/users in the Bitcoin protocol, and the teacher is the miner/validator. Tangle technology asks students (users) to grade each other's homework, making the need for a teacher (external validator) redundant, and avoiding expenses related to the teacher's/validator's work. This allows the platform to be completely free of cost, without facing the scaling challenges that are inherent in the first generation of blockchains.  
 Additionally, the use of the platform with connected devices or the Internet of Things  
 "enables companies to explore new business-to-business models by making every technological resource a potential service to be traded on an open market in real time, with no fees".
 
-*   Roger Aitken, 2017  
+*   [Roger Aitken](https://www.forbes.com/sites/rogeraitken/2017/06/15/iotas-bitfinex-listing-surges-to-1-5b-record-breaking-crypto-capitalization-on-market-debut/?sh=a0caa6d75a5a), 2017  
 
     IOTA focuses mainly on enabling the emerging Internet of Things (IoT), but also plans to go beyond this, on being the transaction settlement and data integrity layer for the Internet of Everything (IoE).
 
@@ -968,7 +989,7 @@ We hope you go on to address some of these challenges and contribute to building
 **[`^        back to top        ^`](#table-of-contents)**
 
 <h3>Standards</h3>
-Since we are still witnessing the early days of blockchain technology, there is very little agreement on standards in the developer and business community, as of yet. Standards are key in ensuring interoperability and avoiding risks associated with a fragmented ecosystem. Standards are critical not just for the distributed ledger itself, but also for supporting services, like identity, privacy, and data governance. Furthermore, the management of keys, as well as protocols and standards around key loss and theft, will be critical (Deshpande, Stewart, Lepetit, & Gunashekar, 2017).  
+Since we are still witnessing the early days of blockchain technology, there is very little agreement on standards in the developer and business community, as of yet. Standards are key in ensuring interoperability and avoiding risks associated with a fragmented ecosystem. Standards are critical not just for the distributed ledger itself, but also for supporting services, like identity, privacy, and data governance. Furthermore, the management of keys, as well as protocols and standards around key loss and theft, will be critical ([Deshpande, Stewart, Lepetit, & Gunashekar, 2017](https://www.bsigroup.com/en-GB/)).  
 As a result, the International Organization for Standardization for Blockchain and Distributed Ledger Technologies was established in 2016 and has defined areas for future standardization work (Clare Naden, 2017). More about the ISO/TC 307 technical committee can be found at the ISO/TC 307 website.
 
 <p align="center" width="100%">
@@ -977,7 +998,7 @@ As a result, the International Organization for Standardization for Blockchain a
 </p>
 <h3>Regulation</h3>
 <p>
-The lack of regulation around transactions on the blockchain creates an environment of uncertainty for all players. Highly regulated industries like financial services are treading carefully in the DLT space. The Securities and Exchange Commission of the United States has clarified its stance on Initial Coin Offerings (ICOs) in 2017. The Chinese government has, in fact, banned all ICOs, while 60 major ICO platforms are being investigated (Saheli Roy Choudhury, 2017).  
+The lack of regulation around transactions on the blockchain creates an environment of uncertainty for all players. Highly regulated industries like financial services are treading carefully in the DLT space. The Securities and Exchange Commission of the United States has clarified its stance on [Initial Coin Offerings (ICOs) in 2017](https://www.sec.gov/oiea/investor-alerts-and-bulletins/ib_coinofferings). The Chinese government has, in fact, banned all ICOs, while 60 major ICO platforms are being investigated ([Saheli Roy Choudhury](https://www.cnbc.com/2017/09/04/chinese-icos-china-bans-fundraising-through-initial-coin-offerings-report-says.html), 2017).  
 Similarly, there are no regulatory guidelines governing smart contracts, causing much anxiety among various players like lawyers, regulators, programmers, and businesses. The lack of regulatory guidelines, along with a lack of industry standards, exacerbates hindrances to rapid adoption of DLT.
 </p>
 
@@ -993,7 +1014,7 @@ Retrieved from https://coin.dance/stats/blockchain on November 6, 2020
   <img width="50%" src="https://user-images.githubusercontent.com/41387907/138575010-3b9dadc7-51ab-4252-96a4-11d8606e92ca.png"
        alt="Blockchain"</>
 </p>
-Jobs in the blockchain development space are among the top 20 fastest growing, and the number of positions available increased over 200% in 2018 over those available the previous year. However, there is not a large enough pool of qualified blockchain developers, and this is a major concern. The emergence of more and more blockchain training courses and certifications is aiming to slowly close this gap.
+Jobs in the blockchain development space are among the top 20 fastest growing, and the number of positions available increased [over 200% in 2018](https://www.computerworld.com/article/3277617/the-top-blockchain-jobs-you-need-to-know-about.html) over those available the previous year. However, there is not a large enough pool of qualified blockchain developers, and this is a major concern. The emergence of more and more blockchain training courses and certifications is aiming to slowly close this gap.
 
 **[⬆ back to top](#table-of-contents)**
 

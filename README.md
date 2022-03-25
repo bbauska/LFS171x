@@ -119,8 +119,7 @@ Over time, Internet and cloud computing architectures enabled global access from
 Even though this "cloud architecture" is decentralized in terms of hardware, it has given rise to application-level centralization (e.g. Facebook, Twitter, Google, etc.).  <br/>
 
 Currently, we are witnessing the transition from centralized computing, storage, and processing to decentralized architectures and systems. <br/>
-
-According to Muneeb Ali, these systems aim to
+According to [Muneeb Ali](https://medium.com/@muneeb/the-next-wave-of-computing-743295b4bc73), these systems aim to
 <blockquote>
 "give explicit control of digital assets to end-users and remove the need to trust any third-party servers and infrastructure".
 </blockquote>

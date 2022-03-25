@@ -172,12 +172,12 @@ This process is known as "proof of work", and requires significant computing pow
 
 We shall discuss proof of work in more detail in the Consensus Algorithms section. 
 
-For more information about blockchain technology, please read the following article: "A Brief History of Blockchain" by Vinay Gupta.  <br/>
+For more information about blockchain technology, please read the following article: ["A Brief History of Blockchain"](https://hbr.org/2017/02/a-brief-history-of-blockchain) by Vinay Gupta.  <br/>
 
 A Bitcoin block consists of four pieces of metadata:
 <ol>
 <li>The <b>reference</b> to the previous block,</li>
-<li>The proof of work, also known as a <b>nonce</b>,</li>
+<li>The <b>proof of work</b>, also known as a <b>nonce</b>,</li>
 <li>The <b>timestamp</b>,</li>
 <li>The <b>Merkle tree root</b> for the transactions included in this block (Merkle tree is explained next).</li>
 </ol>

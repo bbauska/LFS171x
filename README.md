@@ -125,7 +125,7 @@ According to Muneeb Ali, these systems aim to
 "give explicit control of digital assets to end-users and remove the need to trust any third-party servers and infrastructure".
 </blockquote>
 
-Distributed ledger technology is one of the key innovations making this shift possible.  <br/>
+Distributed ledger technology (DLT) is one of the key innovations making this shift possible.  <br/>
 
 A distributed ledger is a type of data structure which resides across multiple computer devices, generally spread across locations or regions.  <br/>
 
@@ -202,9 +202,9 @@ According to Andreas M. Antonopoulos, in the Bitcoin protocol,  <br/>
     alt="Merkle Tree"</>
 </p>
 
-<h3 font-weight: bold;>Bitcoin Block Data</h3>
+<h4 font-color: green; weight: bold;>Bitcoin Block Data</h4>
 (licensed under [Creative Commons Attribution-Share-Alike 3.0 Unported](https://creativecommons.org/licenses/by-sa/3.0/deed.en), retrieved from [Wikipedia](https://commons.wikimedia.org/wiki/File:Bitcoin_Block_Data.png))
-
+<br/>
 
 **[`^        back to top        ^`](#table-of-contents)**
 

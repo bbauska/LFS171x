@@ -1,5 +1,166 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>lfs171x</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------- readme.md of LFS171x.bauska.org ------------------------------->
+<!-------------------------------- readme.md of LFS171x.bauska.org ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <h2 align="center">
 LFS171x - Linux Foundation - Introduction to Hyperledger Blockchain
@@ -149,6 +310,7 @@ technologies.</p>
 <h3 id="ch1-1">
 1.1 Introduction &amp; Learning Objectives
 </h3>
+<p>
 <p>Chapter 1 introduces the building blocks of distributed ledger
 technologies, including blockchains.</p>
 <p>It lays the foundation for an in-depth understanding of the content
@@ -173,6 +335,7 @@ consensus algorithms and smart contracts,
 Provide a high-level explanation of what Hyperledger is.
 </li>
 </ul>
+</p>
 <h3 id="ch1-2">
 1.2 Distributed Ledger Technology (DLT)
 </h3>
@@ -207,16 +370,17 @@ governments. <br/></p>
 <p>Even though this “cloud architecture” is decentralized in terms of
 hardware, it has given rise to application-level centralization
 (e.g. Facebook, Twitter, Google, etc.). <br/></p>
-<p>Currently, we are witnessing the transition from centralized
-computing, storage, and processing to decentralized architectures and
-systems. <br/></p>
-According to Muneeb Ali, these systems aim to
+Currently, we are witnessing the transition from centralized computing,
+storage, and processing to decentralized architectures and systems.
+<br/> According to <a
+href="https://medium.com/@muneeb/the-next-wave-of-computing-743295b4bc73">Muneeb
+Ali</a>, these systems aim to
 <blockquote>
 “give explicit control of digital assets to end-users and remove the
 need to trust any third-party servers and infrastructure”.
 </blockquote>
-<p>Distributed ledger technology is one of the key innovations making
-this shift possible. <br/></p>
+<p>Distributed ledger technology (DLT) is one of the key innovations
+making this shift possible. <br/></p>
 <p>A distributed ledger is a type of data structure which resides across
 multiple computer devices, generally spread across locations or regions.
 <br/></p>
@@ -247,7 +411,9 @@ href="#table-of-contents"><code>^        back to top        ^</code></a></strong
 <h3 id="ch1-3">
 1.3 Bitcoin and Ethereum Blockchains
 </h3>
-According to hyperledger.org,
+<p><br/></p>
+According to <a
+href="https://www.hyperledger.org/about">hyperledger.org</a>,
 <blockquote>
 “A blockchain is a peer-to-peer distributed ledger forged by consensus,
 combined with a system for”smart contracts” and other assistive
@@ -256,6 +422,7 @@ transactional applications that establishes trust, accountability, and
 transparency at their core, while streamlining business processes and
 legal constraints.”
 </blockquote>
+<p>
 <p>Smart contracts are simply computer programs that execute predefined
 actions when certain conditions within the system are met. <br/></p>
 <p>Consensus refers to a system of ensuring that parties agree to a
@@ -283,15 +450,16 @@ computing power.</p>
 <p>We shall discuss proof of work in more detail in the Consensus
 Algorithms section.</p>
 <p>For more information about blockchain technology, please read the
-following article: “A Brief History of Blockchain” by Vinay Gupta.
-<br/></p>
+following article: <a
+href="https://hbr.org/2017/02/a-brief-history-of-blockchain">“A Brief
+History of Blockchain”</a> by Vinay Gupta. <br/></p>
 A Bitcoin block consists of four pieces of metadata:
 <ol>
 <li>
 The <b>reference</b> to the previous block,
 </li>
 <li>
-The proof of work, also known as a <b>nonce</b>,
+The <b>proof of work</b>, also known as a <b>nonce</b>,
 </li>
 <li>
 The <b>timestamp</b>,
@@ -301,6 +469,7 @@ The <b>Merkle tree root</b> for the transactions included in this block
 (Merkle tree is explained next).
 </li>
 </ol>
+</p>
 <h3>
 Merkle Tree
 </h3>
@@ -327,9 +496,12 @@ transaction is included in a block”.
 &lt;img src=“/images/image002.png?raw=true” width=“66%” alt=“Merkle
 Tree”&lt;/&gt;
 </p>
-<h3 font-weight: bold;>Bitcoin Block Data</h3>
-<p>(licensed under Creative Commons Attribution-Share-Alike 3.0
-Unported, retrieved from Wikipedia)<br/></p>
+<h4 align="center" font-weight: bold;>Bitcoin Block Data</h4>
+<p>Licensed under <a
+href="https://creativecommons.org/licenses/by-sa/3.0/deed.en">Creative
+Commons Attribution-Share-Alike 3.0 Unported</a>, retrieved from <a
+href="https://commons.wikimedia.org/wiki/File:Bitcoin_Block_Data.png">Wikipedia</a></p>
+<p><br/></p>
 <p><strong><a
 href="#table-of-contents"><code>^        back to top        ^</code></a></strong></p>
 <h3>
@@ -560,11 +732,13 @@ centralized networks, as they do not have a single point of attack, as
 in the case of a server-based network, where the security of the entire
 network can be compromised if the central server is successfully
 attacked.</p>
-<p>The Global Risks Report 2018, created by the World Economic Forum,
-reveals a grim picture: cyberattacks are on the rise at an alarming
-rate, and financial costs related to them are skyrocketing, with more
-than 25% increase year-over-year. It is estimated that cybercrime will
-cost businesses more than $8 trillion over the next five years.</p>
+<p>The <a
+href="https://www.weforum.org/reports/the-global-risks-report-2018">Global
+Risks Report 2018</a>, created by the World Economic Forum, reveals a
+grim picture: cyberattacks are on the rise at an alarming rate, and
+financial costs related to them are skyrocketing, with more than 25%
+increase year-over-year. It is estimated that cybercrime will cost
+businesses more than $8 trillion over the next five years.</p>
 <p>And the damages go far beyond financial costs: they affect critical,
 strategic infrastructure, such as telecommunications providers, energy
 companies, government agencies, banks, hospitals, and much more.</p>
@@ -621,7 +795,9 @@ management, and asset ownership, management and transfer, just to name a
 few examples.</p>
 <p>Once a transaction is written onto the blockchain, no one can change
 it, or, at least, it would be extremely difficult to change it.</p>
-According to Antony Lewis, the Director of Research at R3,<br />
+According to <a
+href="https://www.linkedin.com/pulse/gentle-introduction-immutability-blockchains-antony-lewis/">Antony
+Lewis</a>, the Director of Research at R3,<br />
 <blockquote>
 “When people say that blockchains are immutable, they don’t mean that
 the data can’t be changed, they mean it is extremely hard to change
@@ -682,11 +858,14 @@ applications which encompass applications addressing digital identity
 are being built on the blockchain.</p>
 <p>A more exhaustive list of companies using blockchain technology for
 identity management and authentication can be found in the following
-article: <i>“21 Companies Leveraging Blockchain for Identity Management
-and Authentication”</i> by Elena Mesropyan.</p>
+article: <a
+href="https://gomedici.com/22-companies-leveraging-blockchain-for-identity-management-and-authentication/">“21
+Companies Leveraging Blockchain for Identity Management and
+Authentication”</a> by Elena Mesropyan.</p>
 For more details about blockchain applications, you can refer to Daniel
-Palmer’s article entitled <i>“7 Cool Decentralized Apps Being Built on
-Ethereum”</i>.
+Palmer’s article entitled <a
+href="https://www.coindesk.com/markets/2016/02/24/7-cool-decentralized-apps-being-built-on-ethereum/">“7
+Cool Decentralized Apps Being Built on Ethereum”</a>.
 </p>
 <p><strong><a
 href="#table-of-contents"><code>^        back to top        ^</code></a></strong></p>
@@ -754,7 +933,8 @@ href="#table-of-contents"><code>^        back to top        ^</code></a></strong
 Bitcoin Charts
 </h3>
 <p>
-<p><a href="https://developerinsider.co">Developer Insider</a></p>
+<p>Check out <a href="https://developerinsider.co">Developer
+Insider</a>.</p>
 <p>According to <a href="https://angel.co/blockchains">AngelList</a>,
 over five thousand startups have been created to leverage Bitcoin and
 blockchain-related technologies since the inception of the Bitcoin
@@ -769,7 +949,7 @@ technologies (of which, blockchain is a subset) since late 2015.</p>
 Bitcoin &amp; Ethereum
 </h3>
 <p>
-<p>And so, why were Bitcoin and Ethereum created?</p>
+<p>Why were Bitcoin and Ethereum created?</p>
 <p>What problems do they solve?</p>
 <p>Bitcoin was first launched in January of 2009, as a response to the
 global financial crisis at the time.</p>
@@ -820,7 +1000,7 @@ happened in the past while using economic incentives defined inside the
 system to encourage desired properties to hold into the future”.</p>
 </blockquote>
 <p>In other words, the field of Cryptoeconomics explores the
-intersection of cryptography and economic incentives.</p>
+intersection of cryptography and economic incentives. <br/></p>
 <p>While cryptography is used for ensuring network security at various
 levels and functions, the built-in economic incentives provided to the
 participating nodes in the network ensures that, at any given point, the
@@ -870,7 +1050,7 @@ native cryptocurrency called “ether”. The platform was proposed in 2013
 in a white paper by the then 19-year old Vitalik Buterin.</p>
 <p>As of November 2020, Ethereum had a market cap of over $49 billion,
 making Ether the second most valuable cryptocurrency after Bitcoin.
-Today, 24 March, 2022, Bitcoin’s valuation is over 836 billion.</p>
+Today, 24 March, 2022, Bitcoin’s valuation is over $836 billion.</p>
 <!------------------------------------------------------------------------------------------------>
 <!---------------------------- ethereum - an alternative to bitcoin ------------------------------>
 <!------------------------------------------------------------------------------------------------>
@@ -906,42 +1086,31 @@ permissioned.
 <h3>
 Dapps
 </h3>
-<p>
-<p>As [Stephan Tual[(https://www.youtube.com/watch?v=Clw-qf1sUZg)
-explains, Ethereum applications do not have a middleman; instead, users
-interact in a P2P fashion with other users through a variety of
-interfaces - social, financial, gaming, etc. Since the applications are
-developed on the decentralized consensus-based network itself,
-third-party censorship is virtually impossible.</p>
+<p>As <a href="https://www.youtube.com/watch?v=Clw-qf1sUZg">Stephan
+Tual</a> explains, Ethereum applications do not have a middleman;
+instead, users interact in a P2P fashion with other users through a
+variety of interfaces - social, financial, gaming, etc. Since the
+applications are developed on the decentralized consensus-based network
+itself, third-party censorship is virtually impossible.</p>
 <p>Malicious actors cannot secretly tamper with the application by
 changing the code and compromise all application users (or nodes that
 are actively interacting with it).</p>
 <p>These Decentralized Applications have come to be known as Dapps.</p>
 <p>Since they are cryptographically secured, Dapps are referred to as
 “secure applications”.</p>
-Some of the high profile Dapps built on the Ethereum platform include:
-<ul type="disc">
-<li>
-<a href="https://augur.net">Augur</a>, which is a Decentralized
-Prediction Market,
-</li>
-<li>
-<a href="https;//digix.global">Digix</a>, which tokenizes gold on
-Ethereum,
-</li>
-<li>
-<a href="https://makerdao.com">Maker</a>, which is a Decentralized
-Autonomous Organization (DAO).
-</li>
-</ul>
+<p>Some of the high profile Dapps built on the Ethereum platform
+include: * <a href="https://augur.net">Augur</a>, which is a
+Decentralized Prediction Market, * <a
+href="https;//digix.global">Digix</a>, which tokenizes gold on Ethereum,
+* <a href="https://makerdao.com">Maker</a>, which is a Decentralized
+Autonomous Organization (DAO).</p>
 <p>The Ethereum network is a distributed global public network, which
 means it is not run on central servers in a certain geographical
 location.</p>
 <p>Instead, the computing power that runs the network is contributed by
 nodes that are spread across the globe.</p>
-In other words, Dapps have “zero downtime” - they never go down and, in
-general, cannot be switched off.
-</p>
+<p>In other words, Dapps have “zero downtime” - they never go down and,
+in general, cannot be switched off.</p>
 <p><strong><a
 href="#table-of-contents"><code>^        back to top        ^</code></a></strong></p>
 <h3>
@@ -1007,9 +1176,8 @@ Exploring Bitcoin and Ethereum Blockchains
 </h3>
 <p>
 <p>Let’s take a look at a couple of public blockchains: those of Bitcoin
-and Ethereum,<br />
-and let’s examine the genesis block, or the first block, of each one of
-them.</p>
+and Ethereum, and let’s examine the genesis block, or the first block,
+of each one of them.</p>
 <p>Then, we’ll take a look at a couple of large transactions, including
 the most famous transaction in cryptocurrency history: the purchase of a
 pizza for 10,000 bitcoins.</p>
@@ -1057,6 +1225,7 @@ href="#table-of-contents"><code>^        back to top        ^</code></a></strong
 <h3 id="ch1-5">
 1.5 Consensus Algorithms
 </h3>
+<p>
 <p>Consensus in the network refers to the process of achieving agreement
 among the network participants as to the correct state of data on the
 system. Consensus leads to all nodes sharing the exact same data.</p>
@@ -1070,12 +1239,14 @@ algorithm, other blockchains and distributed ledgers are deploying a
 variety of consensus algorithms, like the Proof of Stake, Proof of Burn,
 Proof of Capacity, Proof of Elapsed Time, and many others, depending on
 their unique requirements.</p>
-<p>Next, we will briefly explain some of these algorithms.</p>
+Next, we will briefly explain some of these algorithms.
+</p>
 <p><strong><a
 href="#table-of-contents"><code>^        back to top        ^</code></a></strong></p>
 <h3>
 Proof-of-Work (PoW)
 </h3>
+<p>
 <p>The Proof of Work consensus algorithm involves solving a
 computational challenging puzzle in order to create new blocks in the
 Bitcoin blockchain. <br/></p>
@@ -1086,7 +1257,8 @@ competing miners are rewarded with 12.5 bitcoins and a small transaction
 fee.</p>
 As described in the 2016 Kudelski Security report,<br />
 <blockquote>
-<pre><code>&quot;Proof-of-work (PoW) is the outcome of a successful mining process and, although the proof is hard to create, \[it\] is easy to verify&quot;.  </code></pre>
+“Proof-of-work (PoW) is the outcome of a successful mining process and,
+although the proof is hard to create, [it] is easy to verify”.
 </blockquote>
 For better understanding, please consider the following example provided
 by Ofir Beigel:<br />
@@ -1130,10 +1302,14 @@ implementation is an example of PoET at work. Instead of competing to
 solve the cryptographic challenge and mine the next block, as in the
 Bitcoin blockchain, the PoET consensus algorithm is a hybrid of a random
 lottery and first-come-first-serve basis.</p>
-<p>In PoET, each validator is given a random wait time.</p>
-<pre><code>&quot;The validator with the shortest wait time for a particular transaction block is elected the leader&quot;.</code></pre>
+In PoET, each validator is given a random wait time.
+<blockquote>
+“The validator with the shortest wait time for a particular transaction
+block is elected the leader”.
+</blockquote>
 <ul>
-<li><em>sawtooth.hyperledger.org</em></li>
+<li><a
+href="https://sawtooth.hyperledger.org/">sawtooth.hyperledger.org</a></li>
 </ul>
 <p>This “leader” gets to create the next block on the chain.</p>
 <p><strong><a
@@ -1141,26 +1317,36 @@ href="#table-of-contents"><code>^        back to top        ^</code></a></strong
 <h3>
 Simplified Byzantine Fault Tolerance (SBFT)
 </h3>
+<p>
 <p>The Simplified Byzantine Fault Tolerant consensus algorithm
-implements an adopted version of the Practical Byzantine Fault Tolerant
+implements an adopted version of the [Practical Byzantine Fault
+Tolerant]
+(https://blog.acolyer.org/2015/05/18/practical-byzantine-fault-tolerance/)
 (PBFT) algorithm, and seeks to provide significant improvements over
-Bitcoin’s Proof of Work consensus protocol. The basic idea involves a
-single validator who bundles proposed transactions and forms a new
-block. Note that, unlike the Bitcoin blockchain, the validator is a
-known party, given the permissioned nature of the ledger. Consensus is
-achieved as a result of a minimum number of other nodes in the network
-ratifying the new block. In order to be tolerant of a Byzantine fault,
-the number of nodes that must reach consensus is 2f+1 in a system
-containing 3f+1 nodes, where f is the number of faults in the system.
-For example, if we have 7 nodes in the system, then 5 of those nodes
-must agree if 2 of the nodes are acting in a faulty manner. The
-practical example would be that of ByzCoin, which seeks to make key
-improvements over the original Bitcoin protocol. Addressing the
-challenge around scalability due to high latency, ByzCoin transactions
-are irreversibly committed to the blockchain within seconds. The added
-advantage is the communication trees to “(…) optimize transaction
-commitments and verification under normal operations” (2016 Kudelski
-Security report).</p>
+Bitcoin’s Proof of Work consensus protocol.</p>
+<p>The basic idea involves a single validator who bundles proposed
+transactions and forms a new block.</p>
+<p>Note that, unlike the Bitcoin blockchain, the validator is a known
+party, given the permissioned nature of the ledger.</p>
+<p>Consensus is achieved as a result of a minimum number of other nodes
+in the network ratifying the new block.</p>
+<p>In order to be tolerant of a Byzantine fault, the number of nodes
+that must reach consensus is 2f+1 in a system containing 3f+1 nodes,
+where f is the number of faults in the system.</p>
+<p>For example, if we have 7 nodes in the system, then 5 of those nodes
+must agree if 2 of the nodes are acting in a faulty manner.</p>
+<p>The practical example would be that of <a
+href="https://hackingdistributed.com/2016/08/04/byzcoin/">ByzCoin</a>,
+which seeks to make key improvements over the original Bitcoin
+protocol.</p>
+<p>Addressing the challenge around scalability due to high latency,
+ByzCoin transactions are irreversibly committed to the blockchain within
+seconds.</p>
+The added advantage is the communication trees to “(…) optimize
+transaction commitments and verification under normal operations” (<a
+href="https://kudelskisecurity.com/resources/resource-center/?_sft_resource_type=research-reports">2016
+Kudelski Security report</a>).
+</p>
 <h3>
 Proof-of-Authority (PoA)
 </h3>
@@ -1172,15 +1358,18 @@ in order for a block to be created.</p>
 <h3>
 Comparing Permissioned Consensus Approaches and Standard PoW
 </h3>
-<p>Consensus can be implemented in different ways, such as through the
-use of lottery-based algorithms (PoET or PoW), or through the use of
-voting-based methods (SBFT), each targeting different network
-requirements and fault tolerance models. Lottery-based algorithms are
-advantageous in that they can scale to a large number of nodes.
-Voting-based algorithms provide low-latency finality. The following
-table offers an at-a-glance view of the main considerations and pros and
-cons of different business blockchain approaches to reaching
-consensus.</p>
+<p>
+<p><b>Consensus</b> can be implemented in different ways, such as
+through the use of lottery-based algorithms (PoET or PoW), or through
+the use of voting-based methods (SBFT), each targeting different network
+requirements and fault tolerance models.</p>
+<p>Lottery-based algorithms are advantageous in that they can scale to a
+large number of nodes.</p>
+<p>Voting-based algorithms provide low-latency finality.</p>
+The following table offers an at-a-glance view of the main
+considerations and pros and cons of different business blockchain
+approaches to reaching consensus.
+</p>
 <!------------------------------------------------------------------------------------------------>
 <!----------------- Comparing permissioned consensus approaches and standard PoW  ---------------->
 <!------------------------------------------------------------------------------------------------>
@@ -2562,8 +2751,8 @@ neutral environment.<br />
 Hyperledger Indy, one of the frameworks in the Hyperledger greenhouse,
 is a distributed ledger that provides tools, libraries,and reusable
 components for creating and using independent decentralized
-identities.<br />
-As the world becomes more interconnected, individuals are disclosing
+identities.</p>
+<p>As the world becomes more interconnected, individuals are disclosing
 personal information creating multiple usernames and passwords and
 leaving digital traces across platforms.<br />
 Indy represents the idea of a self-sovereign identity, which would
@@ -7425,3 +7614,5 @@ hearing from you in the course forum.</p>
 <p><strong><a href="#table-of-contents">⬆ back to top</a></strong>
 <strong><a
 href="#table-of-contents"><code>^        back to top        ^</code></a></strong></p>
+</body>
+</html>

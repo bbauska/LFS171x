@@ -143,7 +143,9 @@ In summary, **distributed ledger technology (dlt)** generally consists of three 
 **[`^        back to top        ^`](#table-of-contents)**
 
 <h3 id="ch1-3">1.3 Bitcoin and Ethereum Blockchains</h3>
-According to [hyperledger.org[(https://www.hyperledger.org/about),
+<br/>
+
+According to [hyperledger.org](https://www.hyperledger.org/about),
 <blockquote>
 "A blockchain is a peer-to-peer distributed ledger forged by consensus, combined with a system for "smart contracts" and other assistive technologies. Together these can be used to build a new generation of transactional applications that establishes trust, accountability, and transparency at their core, while streamlining business processes and legal constraints."  
 </blockquote>

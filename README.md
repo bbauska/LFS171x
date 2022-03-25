@@ -549,7 +549,7 @@ According to the [Coin Market Capitalization website](https://coinmarketcap.com)
 <h3>Bitcoin Charts</h3>
 <p>
 
-[Developer Insider](https://developerinsider.co)
+Check out [Developer Insider](https://developerinsider.co).
 
 According to [AngelList](https://angel.co/blockchains), over five thousand startups have been created to leverage Bitcoin and blockchain-related technologies since the inception of the Bitcoin payment system. 
 
@@ -559,7 +559,7 @@ In particular, the financial services sector has been actively investing in expl
 
 <h3>Bitcoin & Ethereum</h3>
 <p>
-And so, why were Bitcoin and Ethereum created? 
+Why were Bitcoin and Ethereum created? 
 
 What problems do they solve?  
 
@@ -600,7 +600,7 @@ According to [Vitalik Buterin](https://www.youtube.com/watch?v=pKqdjaH1dRo),
 "Cryptoeconomics is about building systems that have certain desired properties using cryptography to prove properties about messages that happened in the past while using economic incentives defined inside the system to encourage desired properties to hold into the future".  
 
 </blockquote>
-In other words, the field of Cryptoeconomics explores the intersection of cryptography and economic incentives. 
+In other words, the field of Cryptoeconomics explores the intersection of cryptography and economic incentives. <br/>
 
 While cryptography is used for ensuring network security at various levels and functions, the built-in economic incentives provided to the participating nodes in the network ensures that, at any given point, the majority of players in the network operate in a desirable way.  
 
@@ -630,7 +630,7 @@ As a result, unlike the Bitcoin blockchain, it does not just track transactions,
 
 Technically, Ethereum is a Turing-complete virtual machine with its native cryptocurrency called "ether". The platform was proposed in 2013 in a white paper by the then 19-year old Vitalik Buterin.  
 
-As of November 2020, Ethereum had a market cap of over $49 billion, making Ether the second most valuable cryptocurrency after Bitcoin.  Today, 24 March, 2022, Bitcoin's valuation is over 836 billion.
+As of November 2020, Ethereum had a market cap of over $49 billion, making Ether the second most valuable cryptocurrency after Bitcoin.  Today, 24 March, 2022, Bitcoin's valuation is over $836 billion.
 
 <!------------------------------------------------------------------------------------------------>
 <!---------------------------- ethereum - an alternative to bitcoin ------------------------------>

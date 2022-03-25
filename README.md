@@ -1,5 +1,5 @@
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------- readme.md of LFS171x.bauska.org ------------------------------->
+<!-------------------------------- readme.md of LFS171x.bauska.org ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <h2 align="center">LFS171x - Linux Foundation - Introduction to Hyperledger Blockchain Technology</h2>
 
@@ -81,19 +81,20 @@ This course is designed for people on the full spectrum, from working on purely 
 This is really designed for the full breadth of those technologies.  
 
 <h3 id="ch1-1">1.1 Introduction & Learning Objectives</h3>
+<p>
 Chapter 1 introduces the building blocks of distributed ledger technologies, including blockchains. 
 
 It lays the foundation for an in-depth understanding of the content that follows in the course. 
 
 You should engage with the content in this chapter both to learn, as well as brush up your blockchain knowledge.
 
-By the end of this chapter, you should be able to:
-<ul>
+By the end of this chapter, you should be able to: <ul>
 <li>Explain the concepts of blockchain and distributed ledger technologies (DLT),</li>
 <li>Explore permissioned and permissionless blockchains and their key characteristics,</li>
 <li>Discuss various components of distributed ledger technologies, including consensus algorithms and smart contracts,</li>
 <li>Provide a high-level explanation of what Hyperledger is.</li>
 </ul>
+</p>
 
 <h3 id="ch1-2">1.2 Distributed Ledger Technology (DLT)</h3>
 
@@ -147,6 +148,7 @@ According to hyperledger.org,
 <blockquote>
 "A blockchain is a peer-to-peer distributed ledger forged by consensus, combined with a system for "smart contracts" and other assistive technologies. Together these can be used to build a new generation of transactional applications that establishes trust, accountability, and transparency at their core, while streamlining business processes and legal constraints."  
 </blockquote>
+<p>
 Smart contracts are simply computer programs that execute predefined actions when certain conditions within the system are met.  <br/>
 
 Consensus refers to a system of ensuring that parties agree to a certain state of the system as the true state.  <br/>
@@ -178,6 +180,7 @@ A Bitcoin block consists of four pieces of metadata:
 <li>The <b>timestamp</b>,</li>
 <li>The <b>Merkle tree root</b> for the transactions included in this block (Merkle tree is explained next).</li>
 </ol>
+</p>
 
 <h3>Merkle Tree</h3>
 <p>
@@ -189,6 +192,7 @@ According to Andreas M. Antonopoulos, in the Bitcoin protocol,  <br/>
 <blockquote>
 "Merkle trees are used to summarize all the transactions in a block, producing an overall digital fingerprint of the entire set of transactions, providing a very efficient process to verify whether a transaction is included in a block".
 </blockquote>
+
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------------------- merkle tree ------------------------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -199,7 +203,7 @@ According to Andreas M. Antonopoulos, in the Bitcoin protocol,  <br/>
 </p>
 
 <h3 font-weight: bold;>Bitcoin Block Data</h3>
-(licensed under Creative Commons Attribution-Share-Alike 3.0 Unported, retrieved from Wikipedia)<br/>
+(licensed under [Creative Commons Attribution-Share-Alike 3.0 Unported](https://creativecommons.org/licenses/by-sa/3.0/deed.en), retrieved from [Wikipedia](https://commons.wikimedia.org/wiki/File:Bitcoin_Block_Data.png))
 
 
 **[`^        back to top        ^`](#table-of-contents)**

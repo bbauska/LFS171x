@@ -825,8 +825,8 @@ This "leader" gets to create the next block on the chain.
 **[`^        back to top        ^`](#table-of-contents)**
 
 <h3>Simplified Byzantine Fault Tolerance (SBFT)</h3>
-<p>
-The Simplified Byzantine Fault Tolerant consensus algorithm implements an adopted version of the [Practical Byzantine Fault Tolerant] (https://blog.acolyer.org/2015/05/18/practical-byzantine-fault-tolerance/) (PBFT) algorithm, and seeks to provide significant improvements over Bitcoin's Proof of Work consensus protocol.
+
+The Simplified Byzantine Fault Tolerant consensus algorithm implements an adopted version of the [Practical Byzantine Fault Tolerant](https://blog.acolyer.org/2015/05/18/practical-byzantine-fault-tolerance/) (PBFT) algorithm, and seeks to provide significant improvements over Bitcoin's Proof of Work consensus protocol.
 
 The basic idea involves a single validator who bundles proposed transactions and forms a new block.
 

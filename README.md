@@ -2947,12 +2947,14 @@ The use of distributed ledger technologies in production across various industri
 *   Goals of blockchain business cases  
     Not every project or solution is successful, unless it is carefully planned, designed and implemented. A carefully thought out strategy must be designed and implemented for each project, to ensure that goals are achieved.  
     Blockchain can be a great solution for numerous business use cases that rely on security, controlled access, accountability, transparency, and efficiency, spanning a wide range of industries, from finance to banking, supply chains, manufacturing, healthcare, telecom, etc. Having well laid plans, goals and best practices can all help enterprise IT leaders explore the growing blockchain ecosystem as they work to capture its strengths for their businesses.
+<br/>
 
 **[`^        back to top        ^`](#table-of-contents)**
 
 <h3>The Outlook of Blockchain for Business</h3>
 
-The [2019 Technology Industry Innovation conducted by KPMG](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/viewer.html?pdfurl=https%3A%2F%2Fassets.kpmg%2Fcontent%2Fdam%2Fkpmg%2Fus%2Fpdf%2F2019%2F02%2Fblockchain-tech-survey-2019-infographic.pdf&clen=284066&chunk=true) around the adoption of blockchain technologies suggests that 41 percent of businesses are likely to adopt and implement blockchain into their business operations in the next three years. 
+The 
+[2019 Technology Industry Innovation conducted by KPMG](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/viewer.html?pdfurl=https%3A%2F%2Fassets.kpmg%2Fcontent%2Fdam%2Fkpmg%2Fus%2Fpdf%2F2019%2F02%2Fblockchain-tech-survey-2019-infographic.pdf&clen=284066&chunk=true) around the adoption of blockchain technologies suggests that 41 percent of businesses are likely to adopt and implement blockchain into their business operations in the next three years. 
 
 Another important aspect revealed by this survey is that 48 percent of enterprises believe that blockchain will change the way they conduct and manage their business activities in the near future.  
 
@@ -2972,7 +2974,9 @@ The KPMG survey outlines some of them:
 <li>Cost reductions,</li>
 <li>New business insights from incremental data, etc.  </li>
 </ul>
+
 Blockchain is viewed as one of the top 10 technologies that will transform businesses over the next three years, and beyond. 
+<br/>
 
 The 2019 KPMG survey ranked blockchain at number 4, compared to 7 just a year ago. 
 
@@ -2986,6 +2990,7 @@ Want to be at the forefront of the blockchain technological innovation? Start as
 
 <h4>What should an enterprise look for when evaluating whether or not to use Hyperledger?</h4>
 I always try to start... suggest that people start with the business need, right, trying to look at what are you doing in your enterprise, and probably, it will mean what are you doing with your business partners, with your suppliers, with your customers, maybe even with your competitors, right?  <br/>
+<br/>
 
 What is it... what are some business processes, or some provenance tracking problems, or a registry somewhere that, you know, you're putting too much trust in a central org somewhere, where is there an opportunity to take a decentralized ledger approach, and a smart contract approach to solving those issues?  
 
@@ -3022,7 +3027,8 @@ How many participants are in your system?
 
 What is the geographical distribution of the participants? 
 
-What sort of performance requirements do you have? Defining the rules, risks, and responsibilities of each party in your blockchain system is useful as you consider transferring a database to a decentralized environment such as one of the Hyperledger frameworks. 
+What sort of performance requirements do you have? 
+Defining the rules, risks, and responsibilities of each party in your blockchain system is useful as you consider transferring a database to a decentralized environment such as one of the Hyperledger frameworks. 
 
 Blockchain is best suited for business applications where one or more of the following conditions apply:
 <ul>
@@ -3049,26 +3055,49 @@ The following conditions are not currently well suited to blockchain-based solut
 <li>The use of external services to gather/store data.  </li>
 </ul>
 Next, we will discuss in more detail the conditions that are not well suited to blockchain-based solutions.
+<br/>
 
 **[`^        back to top        ^`](#table-of-contents)**
 
 <h3>I. The Process Involves Confidential Data</h3>
-The biggest advantage and challenge in deploying blockchains is the radical transparency which they provide. Methods are being developed to hide confidential data on the blockchain, while sharing it only to relevant parties. Regulations for data privacy often do not allow for blockchain solutions. A thorough review of the relevant privacy rules governing your business case should be examined to see whether blockchain is appropriate. For example, is leaking data in encrypted form allowed? What level of encryption is required when transmitting data?
+The biggest advantage and challenge in deploying blockchains is the radical transparency which they provide. 
+Methods are being developed to hide confidential data on the blockchain, while sharing it only to relevant parties. Regulations for data privacy often do not allow for blockchain solutions. 
+A thorough review of the relevant privacy rules governing your business case should be examined to see whether blockchain is appropriate. For example, is leaking data in encrypted form allowed? 
+What level of encryption is required when transmitting data?
 
 <h3>II. The Process Stores a Lot of Static Data/Data Is Quite Large</h3>
-With blockchain technology, the entire database is stored across many nodes in a blockchain system. Because the replication factor of these systems is so high, they are best suited to databases that have many state changes, or store only the minimum necessary amount of information. If the data is relatively static, or if the files to be stored are quite large, a different technical solution may be more appropriate.
+With blockchain technology, the entire database is stored across many nodes in a blockchain system. 
+Because the replication factor of these systems is so high, they are best suited to databases that have many state changes, or store only the minimum necessary amount of information. 
+If the data is relatively static, or if the files to be stored are quite large, a different technical solution may be more appropriate.
 
 <h3>III. Rules of Transactions Change Frequently</h3>
-If the rules around how your business processes are conducted change frequently, or change in unexpected ways, then blockchain may not be well suited for your use case. The rules of transactions in blockchain are often pre-set, and smart contracts do not change execution paths once they have been initiated. Everything that takes place on a blockchain must be completely deterministic. Additionally, blockchains are append-only databases. A relational database may be more suitable if you need to make many changes to your data as the rules of your transactions change.
+If the rules around how your business processes are conducted change frequently, or change in unexpected ways, then blockchain may not be well suited for your use case. 
+The rules of transactions in blockchain are often pre-set, and smart contracts do not change execution paths once they have been initiated. 
+Everything that takes place on a blockchain must be completely deterministic. 
+Additionally, blockchains are append-only databases. 
+A relational database may be more suitable if you need to make many changes to your data as the rules of your transactions change.
+<br/>
 
 **[`^        back to top        ^`](#table-of-contents)**
 
 <h3>IV. The Use of External Services to Gather/Store Data</h3>
-A blockchain smart contract does not currently initiate the retrieval of external data. Instead, one or more trusted parties ("oracles") must create a transaction which embeds that data in the chain. This data is often gathered and stored in a traditional database by the oracle. Any interaction between a blockchain and the outside world is restricted to regular database operations.  
-In other words, an oracle pushes data onto the blockchain, rather than a smart contract pulling it in. Once the oracle pushes the data, every node will have an identical copy of this data. This allows for the data to be safely used in a smart contract computation. While oracles allow for blockchain interface with external data, they undermine the goal of a decentralized system. Examine when such a trusted authority should be retained. When the trusted authority would or should be retained, efficiencies in the blockchain are not as high as in other applications.
+A blockchain smart contract does not currently initiate the retrieval of external data. 
+Instead, one or more trusted parties ("oracles") must create a transaction which embeds that data in the chain. 
+This data is often gathered and stored in a traditional database by the oracle. 
+Any interaction between a blockchain and the outside world is restricted to regular database operations.  
+In other words, an oracle pushes data onto the blockchain, rather than a smart contract pulling it in. 
+Once the oracle pushes the data, every node will have an identical copy of this data. 
+This allows for the data to be safely used in a smart contract computation. 
+While oracles allow for blockchain interface with external data, they undermine the goal of a decentralized system. 
+Examine when such a trusted authority should be retained. 
+When the trusted authority would or should be retained, efficiencies in the blockchain are not as high as in other applications.
 
 <h3>V. Simpler Alternatives</h3>
-For some applications, other options are simply more efficient. When evaluating blockchain technology, consider whether regular file storage, a centralized database, or database replication with master/slave relationship between the original and copies is suitable. If those structures are suitable, then you can deploy your application with reduced complexity. Do you need a smart contract or are stored procedures written in an extension of SQL sufficient? Similarly, some applications can simply utilize cryptographic methods common in blockchains, without the database replication mechanisms of a blockchain.
+For some applications, other options are simply more efficient. 
+When evaluating blockchain technology, consider whether regular file storage, a centralized database, or database replication with master/slave relationship between the original and copies is suitable. 
+If those structures are suitable, then you can deploy your application with reduced complexity. 
+Do you need a smart contract or are stored procedures written in an extension of SQL sufficient? Similarly, some applications can simply utilize cryptographic methods common in blockchains, without the database replication mechanisms of a blockchain.
+<br/>
 
 **[`^        back to top        ^`](#table-of-contents)**
 
@@ -3135,6 +3164,7 @@ Below, you can see an overview of Hyperledger’s working groups:
 <li>Technical Working Group China  
     This group acts as a bridge between the global Hyperledger community and the emerging technical user and contributor community in China.</li>
 </ul>
+<br/>
 
 **[`^        back to top        ^`](#table-of-contents)**
 

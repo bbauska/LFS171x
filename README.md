@@ -2606,13 +2606,19 @@ Provenance is a record of ownership used as a guide to authenticity or quality.
 Because of the overhead involved in traditional provenance records, they were only available for very large ticket items, such as works of art. With the efficiencies gained from blockchain technology, provenance records can be available for a wider range of goods. 
 This improved information can aid consumers as they make purchasing decisions.
 &nbsp;
+<br/>
+
 <!------------------------------------------------------------------------------------------------>
-<!----------------- How Provenance works ---------------->
+<!------------------------------------- How Provenance works ------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="66%" align="center"
+<p style="text-align:center;" 
+<img width="66%"
    src="https://user-images.githubusercontent.com/41387907/138575669-26c3feb9-72c2-4a6a-a098-08d39871c89b.png"
    alt="How Provenance Works"/>
+   </p>
+
+<p style="text-align:center;" 
 How Provenance Works
 (by Project Provenance Ltd, used with permission)
    </p>

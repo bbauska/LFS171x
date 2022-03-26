@@ -3057,6 +3057,7 @@ The following conditions are not currently well suited to blockchain-based solut
 Next, we will discuss in more detail the conditions that are not well suited to blockchain-based solutions.
 <br/>
 
+
 **[`^        back to top        ^`](#table-of-contents)**
 
 <h3>I. The Process Involves Confidential Data</h3>

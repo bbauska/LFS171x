@@ -1191,6 +1191,7 @@ But, I joined partly because I saw how transparent, and how engaging, even from 
 </p>
 
 <h3>Hyperledger Goals</h3>
+<p>
 Hyperledger has taken a leadership role to develop cross-industry standards and provide a neutral space for software collaboration. 
 
 The financial services industry, in particular, is witnessing an unprecedented level of collaboration between institutions that have traditionally been competitors. 
@@ -1204,6 +1205,7 @@ Technological adoption is characterized by network effects, where the costs decr
 Since shifting to distributed ledger technology involves significant costs, open source software, communities and ecosystems that develop around these have a significant part to play.
 
 Now, let's explore the Hyperledger frameworks (as of November 2020)
+</p>
 
 <!------------------------------------------------------------------------------------------------>
 <!----------------- Hyperledger goals ---------------->
@@ -1232,6 +1234,7 @@ I don't think you have a project like the Linux kernel, which has now been aroun
 Why were certain decisions made? What were some ideas that were proposed and, ultimately, found to either be shot down or not really good enough, right, so that we don't end up changing things back and forth, right, we don't end up making mistakes that we could have avoided before or learning from previous...how do we make sure we learn from previous mistakes, right?  
 
 And that's only possible in an open source community if, on top of just releasing code, you're also engaging in the creative process itself, and making that public facing.  
+
 And I think, really, we found out over 25 years of open source that that's the best way to build trustworthy software.  
 
 I believe it leads to higher security software and higher quality software, but really, the question is trust.  
@@ -2159,7 +2162,7 @@ The project was proposed by Fujitsu, The Linux Foundation, Sovrin Foundation, In
 
 **[⬆ back to top](#table-of-contents)**
 
-## <a id="ch6"></a>Chapter 6: The Promise of Business Blockchain Technologies
+<h2 id="ch6">Chapter 6: The Promise of Business Blockchain Technologies</h2>
 This chapter is designed to help you evaluate whether blockchain tech, including the Hyperledger frameworks, are right for your business, and where best to implement this new technology. 
 
 We will cover the ways different industries are using blockchain technologies today, and show you some common features of blockchains that can provide efficiencies in business.
@@ -2320,28 +2323,71 @@ The trade finance industry can also leverage information visible in a supply cha
 **[`^        back to top        ^`](#table-of-contents)**
 
 <h3>Supply Chain Case Study: Walmart</h3>
-As one of the world's leading businesses in the supply chain industry, Walmart is constantly looking for ways to enhance transparency and traceability in the food system, and over the years has tried numerous solutions and approaches to solve this problem. Then, the hype of blockchain caught their attention. They looked into various blockchain technologies that could potentially be used to create a traceability system for their supply ecosystem, such as Ethereum, Burrow, Hyperledger Fabric, etc.  
-In partnership with IBM, they decided that Hyperledger Fabric was the best fit for their needs (enterprisegrade, permissioned, open source, vendor neutral, modular, plug-and-play). In October 2016, Walmart and IBM announced the two projects they were focusing on: one on tracing the origin of mangoes sold in US Walmart stores, and the other project was focusing on tracing pork sold in its China stores.  
-"The Hyperledger Fabric blockchain-based food traceability system built for the two products worked. For pork in China, it allowed uploading certificates of authenticity to the blockchain, bringing more trust to a system where that used to be a serious issue. And for mangoes in the US, the time needed to trace their provenance went from 7 days to… 2.2 seconds!" As a result, Walmart and IBM worked on expanding the system, both within and outside of Walmart; IBM Food Trust, an ecosystem of producers, suppliers, manufacturers, retailers, etc., working together to create a smarter, safer and more sustainable global food system, was born.  
-Today, Walmart traces over 25 products from five different suppliers using the IBM Blockchain built on top of Hyperledger Fabric: from mangoes, strawberries and leafy greens, to meat and poultry, to dairy and almond milk, and even multi-ingredient products like packaged salads and baby foods. And it plans to expand the use of this system to include more products and categories in the near future.  
+As one of the world's leading businesses in the supply chain industry, Walmart is constantly looking for ways to enhance transparency and traceability in the food system, and over the years has tried numerous solutions and approaches to solve this problem. 
+
+Then, the hype of blockchain caught their attention. 
+
+They looked into various blockchain technologies that could potentially be used to create a traceability system for their supply ecosystem, such as Ethereum, Burrow, Hyperledger Fabric, etc.  
+
+In partnership with IBM, they decided that Hyperledger Fabric was the best fit for their needs (enterprisegrade, permissioned, open source, vendor neutral, modular, plug-and-play). 
+
+In October 2016, Walmart and IBM announced the two projects they were focusing on: one on tracing the origin of mangoes sold in US Walmart stores, and the other project was focusing on tracing pork sold in its China stores.  
+
+<blockquote>
+"The Hyperledger Fabric blockchain-based food traceability system built for the two products worked. For pork in China, it allowed uploading certificates of authenticity to the blockchain, bringing more trust to a system where that used to be a serious issue. And for mangoes in the US, the time needed to trace their provenance went from 7 days to… 2.2 seconds!" 
+</blockquote>
+As a result, Walmart and IBM worked on expanding the system, both within and outside of Walmart; IBM Food Trust, an ecosystem of producers, suppliers, manufacturers, retailers, etc., working together to create a smarter, safer and more sustainable global food system, was born.  
+
+Today, Walmart traces over 25 products from five different suppliers using the IBM Blockchain built on top of Hyperledger Fabric: from mangoes, strawberries and leafy greens, to meat and poultry, to dairy and almond milk, and even multi-ingredient products like packaged salads and baby foods. 
+
+And it plans to expand the use of this system to include more products and categories in the near future.  
+
 You can learn more about Walmart's successful use of blockchain technologies from this article: How Walmart brought unprecedented transparency to the food supply chain with Hyperledger Fabric.
 
 **[`^        back to top        ^`](#table-of-contents)**
 
 <h3>Supply Chain Case Study: ScanTrust</h3>
 Another great example of how blockchain technologies can be a great solution for transparency and traceability in the supply chain industry is that of Cambio coffee: if you buy a pack of Cambio coffee and scan the label with your smartphone, you will be able to see all the details of the coffee's journey, from harvest in Peru, to shipment, to roasting in Shanghai, and delivery to your home. Cambio Coffee is a direct trade organic coffee company that prides itself on building a direct link from coffee farmers to consumers, and the immutable records that are stored on the blockchain are proof that they stay true to their mission.  
-Cambio Coffee worked with ScanTrust to implement a traceability system built on top on Hyperledger Sawtooth. When ScanTrust decided to implement a blockchain solution to enhance trust, transparency and traceability in the supply chain, they wanted a reliable, proven, open source technology, supported by an active community, and they decided that Hyperledger Sawtooth was the best fit for what they needed, as it is also focused on IoT implementations.  
+
+Cambio Coffee worked with ScanTrust to implement a traceability system built on top on Hyperledger Sawtooth. 
+
+When ScanTrust decided to implement a blockchain solution to enhance trust, transparency and traceability in the supply chain, they wanted a reliable, proven, open source technology, supported by an active community, and they decided that Hyperledger Sawtooth was the best fit for what they needed, as it is also focused on IoT implementations.  
+<blockquote>
 “ScanTrust plans to use the Hyperledger Sawtooth-based solution for other projects. Besides enhancing traceability in the supply chain, the team sees other uses for the technology… A brand could create its own token to incentivize consumers to share data; or it could develop ways to allow consumers to tip the farmer who produced their coffee.”  
+</blockquote>
 You can learn more about the this use case from the following article: How ScanTrust brought Transparency to the Supply Chain with Hyperledger Sawtooth.
 
 <h3>Property Rights (Part I)</h3>
-The legal industry has begun to examine how blockchain technologies can minimize disputes around property rights. Property rights are a division of law whereby the rights and responsibilities associated with owning an asset are established. Property ownership rights may include the right to use the asset, the right to profit from the asset, the right to exclude others from using the asset, or the right to transfer the asset to others. Property ownership responsibilities may include tax liability for the asset, maintenance and repair costs, or payment for injuries caused by unsafe or defective conditions of the asset.  
-Ownership for a particular asset may be transferred in whole, or in part. As a result, property rights or obligations attached to a particular asset may belong to several different entities at the same time. For example, if you purchase a plot of land, you have the right to use that land. However, the usage of the land is most likely limited by the government. The right to use the land may be taken away from you by foreclosure if you do not pay property taxes. Similarly, your right to use the land is limited to permitted uses per that areas’ zoning laws. It is unlikely that you will be allowed to operate a pesticide manufacturing plant in the middle of a residential neighborhood. If you lease out the plot of land, your right to use the property is transferred to the tenant, but you are still able to sell the plot of land to another landlord while the lease is active.
+The legal industry has begun to examine how blockchain technologies can minimize disputes around property rights. 
+
+Property rights are a division of law whereby the rights and responsibilities associated with owning an asset are established. 
+
+Property ownership rights may include the right to use the asset, the right to profit from the asset, the right to exclude others from using the asset, or the right to transfer the asset to others. 
+
+Property ownership responsibilities may include tax liability for the asset, maintenance and repair costs, or payment for injuries caused by unsafe or defective conditions of the asset.  
+
+Ownership for a particular asset may be transferred in whole, or in part. 
+
+As a result, property rights or obligations attached to a particular asset may belong to several different entities at the same time. 
+
+For example, if you purchase a plot of land, you have the right to use that land. 
+
+However, the usage of the land is most likely limited by the government. 
+
+The right to use the land may be taken away from you by foreclosure if you do not pay property taxes. Similarly, your right to use the land is limited to permitted uses per that areas’ zoning laws. 
+
+It is unlikely that you will be allowed to operate a pesticide manufacturing plant in the middle of a residential neighborhood. If you lease out the plot of land, your right to use the property is transferred to the tenant, but you are still able to sell the plot of land to another landlord while the lease is active.
 
 **[`^        back to top        ^`](#table-of-contents)**
 
 <h3>Property Rights (Part II)</h3>
-Companies may use blockchain technologies to record ownership rights and responsibilities. Specifically, governments have put land registry records on blockchain (Laura Shin, forbes.com, 2016). Companies have also put intellectual property registration and ownership on blockchain (poex.io). Intellectual property includes copyright, trademark, and patents. To legally protect ownership rights in these, one registers their production, or invention, or otherwise proves when the work was established, and that they are the origin of the work.
+Companies may use blockchain technologies to record ownership rights and responsibilities. 
+
+Specifically, governments have put land registry records on blockchain (Laura Shin, forbes.com, 2016). Companies have also put intellectual property registration and ownership on blockchain (poex.io). 
+
+Intellectual property includes copyright, trademark, and patents. 
+
+To legally protect ownership rights in these, one registers their production, or invention, or otherwise proves when the work was established, and that they are the origin of the work.
 
 <!------------------------------------------------------------------------------------------------>
 <!----------------- Property Titles ---------------->
@@ -2354,14 +2400,36 @@ Companies may use blockchain technologies to record ownership rights and respons
 **[`^        back to top        ^`](#table-of-contents)**
 
 <h3>Property Titles on a Blockchain via a Smart Contract</h3>
-Companies with strong brand value in particular, such as the fashion industry and luxury good providers, are interested in more efficient ways to protect their intellectual property. When data is added to a blockchain, it can provide an immutable, secure, timestamped record for the creation of intellectual property, and any changes to the data can be easily detected. Blockchains establish this in a variety of ways.  
-A blockchain may record a hash of a document. As an example, photographers could place a hash of their unique digital photographs on the blockchain. The hash of a digital photograph will be constant so long as the photograph file has not been altered. Therefore, the blockchain can control and track the distribution of the photograph, detect the introduction of counterfeit images, and be used to resolve disputes as to who first introduced the image. By placing a hash of intellectual property documents on the blockchain, a party can publicly demonstrate data ownership, and prove the existence of certain documents at a given moment in time, without revealing the actual data. In addition to the hash, you may also choose to store the location of the file in the blockchain, which could be used for retrieval.
+Companies with strong brand value in particular, such as the fashion industry and luxury good providers, are interested in more efficient ways to protect their intellectual property. 
+
+When data is added to a blockchain, it can provide an immutable, secure, timestamped record for the creation of intellectual property, and any changes to the data can be easily detected. 
+
+Blockchains establish this in a variety of ways.  
+
+A blockchain may record a hash of a document. 
+
+As an example, photographers could place a hash of their unique digital photographs on the blockchain. 
+
+The hash of a digital photograph will be constant so long as the photograph file has not been altered. 
+
+Therefore, the blockchain can control and track the distribution of the photograph, detect the introduction of counterfeit images, and be used to resolve disputes as to who first introduced the image. 
+
+By placing a hash of intellectual property documents on the blockchain, a party can publicly demonstrate data ownership, and prove the existence of certain documents at a given moment in time, without revealing the actual data. 
+
+In addition to the hash, you may also choose to store the location of the file in the blockchain, which could be used for retrieval.
 
 **[`^        back to top        ^`](#table-of-contents)**
 
 <h3>Provenance (Part I)</h3>
-As the previous section on blockchains for supply chain management illustrated, blockchain data improves insight into products, as they move through their lifecycle. Large enterprises are not the only parties to benefit from this increased visibility. Consumers can also benefit from blockchain technology.  
-Provenance is a record of ownership used as a guide to authenticity or quality. Because of the overhead involved in traditional provenance records, they were only available for very large ticket items, such as works of art. With the efficiencies gained from blockchain technology, provenance records can be available for a wider range of goods. This improved information can aid consumers as they make purchasing decisions.
+As the previous section on blockchains for supply chain management illustrated, blockchain data improves insight into products, as they move through their lifecycle. 
+
+Large enterprises are not the only parties to benefit from this increased visibility. Consumers can also benefit from blockchain technology.  
+
+Provenance is a record of ownership used as a guide to authenticity or quality. 
+
+Because of the overhead involved in traditional provenance records, they were only available for very large ticket items, such as works of art. With the efficiencies gained from blockchain technology, provenance records can be available for a wider range of goods. 
+
+This improved information can aid consumers as they make purchasing decisions.
 
 <!------------------------------------------------------------------------------------------------>
 <!----------------- Provenance  ---------------->
@@ -2404,54 +2472,115 @@ Trusted third parties certify the authenticity or quality of an item.
 
 They function as a new data layer between data silos, and increase costs of transactions by charging for providing data and certifying products. 
 
-Some examples of such trusted third parties are the National Organic Program (USDA Organic) for produce, Fair Trade USA for human worker conditions, or the Gemological Laboratory of America (GLA) for jewelry, diamonds, and gemstones. Blockchains can serve the function of these trusted third parties by uniquely identifying products, and certifying their authenticity. Alternatively, these trusted third parties can leverage blockchains by recording their audits and inspections on blockchains. This would reduce the overhead needed to certify products. For example, a manufacturer could prove that its sources also abide by the certification authorities’ standards if those sources are listed on blockchains as having passed all requirements. The timing of the source’s original certification and renewals could be viewed by any interested party.  
-As a consumer reading from a blockchain, you would be able to verify a product’s authenticity by seeing the full chain of custody for an item. Hyperledger frameworks allow consumers to view important data attached to the goods, without necessarily viewing exactly who conducted each transfer down the supply chain line. Therefore, the promise is that you will be assured that the product you are purchasing is an authentic product, without necessarily allowing the public to view your purchasing habits, all leveraging distributed ledger technology.
+Some examples of such trusted third parties are the National Organic Program (USDA Organic) for produce, Fair Trade USA for human worker conditions, or the Gemological Laboratory of America (GLA) for jewelry, diamonds, and gemstones. 
+
+Blockchains can serve the function of these trusted third parties by uniquely identifying products, and certifying their authenticity. 
+
+Alternatively, these trusted third parties can leverage blockchains by recording their audits and inspections on blockchains. 
+
+This would reduce the overhead needed to certify products. 
+
+For example, a manufacturer could prove that its sources also abide by the certification authorities’ standards if those sources are listed on blockchains as having passed all requirements. 
+
+The timing of the source’s original certification and renewals could be viewed by any interested party.  
+
+As a consumer reading from a blockchain, you would be able to verify a product’s authenticity by seeing the full chain of custody for an item. Hyperledger frameworks allow consumers to view important data attached to the goods, without necessarily viewing exactly who conducted each transfer down the supply chain line. 
+
+Therefore, the promise is that you will be assured that the product you are purchasing is an authentic product, without necessarily allowing the public to view your purchasing habits, all leveraging distributed ledger technology.
 
 <h3>Provenance Use Case: Circular</h3>
-For years, consumers have been looking for ethically-sourced products, and a well-known example is that of diamonds provenance. A much less known conflict mineral is tantalum - a rare mineral used to make capacitors found in devices like smartphones and laptops. Rwanda is the world's largest supplier of tantalum; however, at times, tantalum is also smuggled in from Congo, where children or enslaved workers are used to mine it. As a result, there are many regulations passed by OECD (Organisation for Economic Cooperation and Development), US, and EU (US Dodd-Frank Act of 2010, EU Conflict Minerals law, etc.) aimed at improving traceability. Despite this regulations, there has not been a reliable way to prove the source of tantalum.  
-Blockchain technologies have been a game changer. Circulor, a UK-based company, has developed a system that traces the origin of tantalum, ensuring it is mined, transported, and processed according to approved regulations. This system is built on Hyperledger Fabric and delivers the first mine-to-manufacturer traceability of tantalum. How were they able to succeed? By creating a very tightly controlled system, that recorded the tantalum journey every step of the way: from mining in Rwanda, to refining in Macedonia, to manufacturing in USA, shipping from USA, final assembly in China, and the distribution to consumers.  
-The system went smoothly into production in the fall of 2018, and included, to start with, three mines in Rwanda and a refinery in Macedonia. And the plan is to bring more mines into the system. On top of that, Circulor aims to expand the system they built to cover other minerals and countries.  
+For years, consumers have been looking for ethically-sourced products, and a well-known example is that of diamonds provenance. 
+
+A much less known conflict mineral is tantalum - a rare mineral used to make capacitors found in devices like smartphones and laptops. 
+
+Rwanda is the world's largest supplier of tantalum; however, at times, tantalum is also smuggled in from Congo, where children or enslaved workers are used to mine it. 
+
+As a result, there are many regulations passed by OECD (Organisation for Economic Cooperation and Development), US, and EU (US Dodd-Frank Act of 2010, EU Conflict Minerals law, etc.) aimed at improving traceability. 
+
+Despite this regulations, there has not been a reliable way to prove the source of tantalum.  
+
+Blockchain technologies have been a game changer. 
+
+Circulor, a UK-based company, has developed a system that traces the origin of tantalum, ensuring it is mined, transported, and processed according to approved regulations. 
+
+This system is built on Hyperledger Fabric and delivers the first mine-to-manufacturer traceability of tantalum. 
+
+How were they able to succeed? 
+
+By creating a very tightly controlled system, that recorded the tantalum journey every step of the way: from mining in Rwanda, to refining in Macedonia, to manufacturing in USA, shipping from USA, final assembly in China, and the distribution to consumers.  
+
+The system went smoothly into production in the fall of 2018, and included, to start with, three mines in Rwanda and a refinery in Macedonia. 
+
+And the plan is to bring more mines into the system. 
+
+On top of that, Circulor aims to expand the system they built to cover other minerals and countries.  
+
 You can read more about tantalum traceability success story on the Hyperledger website: Circulor achieves first-ever mine-to-manufacturer traceability of a conflict mineral with Hyperledger Fabric.
 
 **[`^        back to top        ^`](#table-of-contents)**
 
 <h3>Finance (Part I)</h3>
+<blockquote>
 "Blockchain has huge potential to move the financial services industry away from messaged based models, slow reconciliation processes and inefficiency of fragmented data stores. With blockchain, financial services can move to a shared data construct, driving down costs, increasing efficiency and opening up entirely new business models".
+</blockquote>
 
 *   David Treat, Accenture  
     The Bitcoin blockchain was created as a "peer-to-peer electronic cash system" (Satoshi Nakamoto, Bitcoin). Therefore, the first blockchain use case in existence was payments. However, Bitcoin proved to be quite slow to process payments, "somewhere in the region of 7 transactions per second", when compared to Visa, which "averages around 2,000 transactions per second, with peak capacity of perhaps 50,000 transactions per second" (Guy Brandon, due.com, February 2017). Developers are actively working to increase the throughput capacity of Bitcoin and other blockchain payment systems (lightning.network). Payments, especially international payments, can be quite costly. Blockchain technologies plan to decrease the costs associated with payments, by allowing parties to interact directly, instead of transferring through an intermediary, such as a bank. In addition, having a record of all past payments is useful to auditors and regulators. Financial institutions have heavily researched blockchain payment systems because a universally recorded world state of payment information can decrease the number of payment disputes among institutions.
 
 <h3>Finance (Part II)</h3>
-The finance industry, in particular, has shown early interest in blockchain technology. R3, a fintech company that is a member of the Hyperledger consortium, has brought together more than 100 leading financial institutions to examine blockchain technology. The finance industry has already recorded business transaction agreements on blockchain. Currently, bonds, invoice financing, letter of credit transactions, and interest rate swaps governed by an ISDA master agreement have all been recorded on blockchain.  
-The financial industry would like to improve transaction settlement through blockchain technology by leveraging smart contract functionality for executing trades. Absent blockchain technology, a complex process known as the post-trade cycle is initiated once parties "execute" a trade. The post-trade cycle involves a series of steps to verify the terms of a trade, and to transfer assets involved in the trade in order to effectuate and settle the trade. Some trades are currently required by law to go through a separate central clearing organization. This organization steps in as the counterparty to each trade, creating two distinct contracts for each trade. These organizations are central securities depositories, whose role is to minimize the risk of trade default, and also to enforce rules against overexposure to certain types of trades.
+The finance industry, in particular, has shown early interest in blockchain technology. R3, a fintech company that is a member of the Hyperledger consortium, has brought together more than 100 leading financial institutions to examine blockchain technology. The finance industry has already recorded business transaction agreements on blockchain. 
+
+Currently, bonds, invoice financing, letter of credit transactions, and interest rate swaps governed by an ISDA master agreement have all been recorded on blockchain.  
+
+The financial industry would like to improve transaction settlement through blockchain technology by leveraging smart contract functionality for executing trades. 
+
+Absent blockchain technology, a complex process known as the post-trade cycle is initiated once parties "execute" a trade. 
+
+The post-trade cycle involves a series of steps to verify the terms of a trade, and to transfer assets involved in the trade in order to effectuate and settle the trade. 
+
+Some trades are currently required by law to go through a separate central clearing organization. 
+
+This organization steps in as the counterparty to each trade, creating two distinct contracts for each trade. 
+
+These organizations are central securities depositories, whose role is to minimize the risk of trade default, and also to enforce rules against overexposure to certain types of trades.
 
 **[`^        back to top        ^`](#table-of-contents)**
 
 <h3>Finance (Part III)</h3>
 Although every trade has its own lifecycle, generally, the following steps will occur:
-
-*   Parties execute a trade. Executing a trade occurs when parties agree on the details of a trade and are willing to enter into the deal.
-*   One party will draft an inception document, capturing all the terms of the trade, and will send it to the other party to get the trade confirmed.
-*   The recipient of the inception document will check the details of the trade and confirm the trade by signing and returning the document. Confirmation communication is done often by Fax, SWIFT, or Telex.
-*   The trade is allocated. For flexibility of profit and loss booking, parties will often allocate the trade to various sub-entities within their organization.
-*   Each trade will be stored by the party who was allocated the trade on an internal database. For ease of identification, the trade is assigned a unique Trade ID as a standard identifier.
-*   Post-Trade Changes are sometimes made by the parties. This can occur when:
-*   The trade can be amended with consent of both parties
-*   One party may assign its position in the trade to a different party
-*   A partial termination of the trade may be triggered if a change in the notional of the trade that is not pre-fixed according to the agreement occurs
-*   Termination of the deal before maturity of the trade may occur, which may entail a termination fee.
-*   Payment is made. These payments may be at the close of a trade, or at intermediate stages while a trade is still open. When the payments are made on an open contract, this is known as 'revaluation' and is done to minimize the risk of nonpayment by a counterparty whose position has weakened in the trade due to events that occurred after trade execution.
-*   Audit of the trade and associated payments is performed by the parties. If a dispute occurs, the parties must communicate and come to a resolution for such discrepancies. This is a manual and costly process.
+<ul>
+<li>Parties execute a trade. Executing a trade occurs when parties agree on the details of a trade and are willing to enter into the deal.</li>
+<li>One party will draft an inception document, capturing all the terms of the trade, and will send it to the other party to get the trade confirmed.</li>
+<li>The recipient of the inception document will check the details of the trade and confirm the trade by signing and returning the document. Confirmation communication is done often by Fax, SWIFT, or Telex.</li>
+<li>The trade is allocated. For flexibility of profit and loss booking, parties will often allocate the trade to various sub-entities within their organization.</li>
+<li>Each trade will be stored by the party who was allocated the trade on an internal database. For ease of identification, the trade is assigned a unique Trade ID as a standard identifier.</li>
+<li>Post-Trade Changes are sometimes made by the parties. This can occur when:</li>
+<li>The trade can be amended with consent of both parties.</li>
+<li>One party may assign its position in the trade to a different party</li>
+<li>A partial termination of the trade may be triggered if a change in the notional of the trade that is not pre-fixed according to the agreement occurs.</li>
+<li>Termination of the deal before maturity of the trade may occur, which may entail a termination fee.</li>
+<li>Payment is made. These payments may be at the close of a trade, or at intermediate stages while a trade is still open. When the payments are made on an open contract, this is known as 'revaluation' and is done to minimize the risk of nonpayment by a counterparty whose position has weakened in the trade due to events that occurred after trade execution.</li>
+<li>Audit of the trade and associated payments is performed by the parties. If a dispute occurs, the parties must communicate and come to a resolution for such discrepancies. This is a manual and costly process.</li>
+</ul>
 
 **[`^        back to top        ^`](#table-of-contents)**
 
 <h3>Finance (Part IV)</h3>
-Smart contracts may greatly improve the process of post-trade settlement, by reducing disputes and errors. Smart contracts will ensure that final settlement will happen when the execution of a trade occurs. With smart contract technology, a legal agreement can automatically execute clauses within it.  
+Smart contracts may greatly improve the process of post-trade settlement, by reducing disputes and errors. 
 
+Smart contracts will ensure that final settlement will happen when the execution of a trade occurs. 
+
+With smart contract technology, a legal agreement can automatically execute clauses within it.  
+
+<!------------------------------------------------------------------------------------------------>
+<!----------------- Automation of back-office processes ---------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-  <img width="66%" src="https://user-images.githubusercontent.com/41387907/138575675-e4e11f59-196e-4c1a-b4b5-7c91c16322e6.png" 
-       alt="Automation of back-office processes involved in trade confirmation and post-trade settlement via DLT."/>
+<img width="66%"  
+   src="https://user-images.githubusercontent.com/41387907/138575675-e4e11f59-196e-4c1a-b4b5-7c91c16322e6.png"     
+   alt="Automation of back-office processes involved in trade confirmation and post-trade settlement via DLT."/>
 </p>
+
 The image above shows the automation of back-office processes involved in trade confirmation and post-trade settlement via DLT. An asset ledger stores ownership and transactions. Smart contracts allow the asset ledger to handle collateral management and initiate payments per contract terms. Venues (e.g. exchanges, MTFs, bilateral voice conversations) still match trade requests with a counterparty, and provide price discovery. Querying information on the asset ledger may assist with price discovery. The asset ledger verifies the parties and asset ownership. It will then either accept, or reject the trade. If, for example, the seller does not own the asset in question, or the new trade would result in an illegal overexposure on the buyer side, the trade would be rejected. When a trade is valid and accepted onto the blockchain, the blockchain automates an immediate change in ownership, or a delayed, or contingent asset transfer. The changes in asset ownership or contract terms are securely recorded onto the asset ledger. The contract is programmed to execute automatically, exchanging payments and other assets per the terms agreed to by the parties.  
 It is still unclear whether courts will enforce blockchain contracts in the same way that they enforce traditional written contracts, with inked paper signatures. Therefore, the current best practice is to record trades on blockchain, alongside traditional legal documentation. The operative clauses in the traditional written contract are converted into smart contract templates to be placed on blockchain once a trade is confirmed. For example, a full ISDA master agreement document would be stored on blockchain, and tied to the smart contract governing the underlying swap or derivative trade. This leverages the predictable outcomes of a legal contract with the efficiencies that can be gained from distributed ledger technologies.
 
@@ -2470,9 +2599,14 @@ The healthcare industry has already placed medical insurance enrollment informat
 
 <h3>Healthcare (Part I)</h3>
 The healthcare industry has examined placing prescription drug fulfillment processes on blockchain since they involve gathering and checking information from many sources. Insurance benefits investigation eligibility checks are performed to see if insurance will pay. Prior authorization and step therapy requirements are checked to see if a patient is able to receive a particular drug, or if other drugs are preferred. Formulary checks, patients’ assistance checks, and pharmacy stock checks must all be performed. The healthcare industry has also used DLT to handle online identity management, by uploading verified pieces of a healthcare professional’s credentials for license verification.
+
+<!------------------------------------------------------------------------------------------------>
+<!----------------- By the blockRX project ---------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-  <img width="66%" src="https://user-images.githubusercontent.com/41387907/138567356-a002ee52-de31-4e07-895c-8b0fe1e634c5.png" 
-       alt="By The BlockRx Project, retrieved from the Hyperledger Healthcare Working Group, August 22nd, 2017 Meeting"/>
+<img width="66%"
+   src="https://user-images.githubusercontent.com/41387907/138567356-a002ee52-de31-4e07-895c-8b0fe1e634c5.png" 
+   alt="By The BlockRx Project, retrieved from the Hyperledger Healthcare Working Group, August 22nd, 2017 Meeting"/>
 </p>
 <h5 align="center">By The BlockRx Project, retrieved from the Hyperledger Healthcare Working Group, August 22nd, 2017 Meeting</h5>
 Another area blockchain is used in healthcare is to protect data from cybercrime. Data breaches happen on a daily basis across all industries, and healthcare is no different. In fact, 1 in 4 data breaches occur in the healthcare sector, affecting millions of people: more exactly, 1 in 13 patients in the U.S. are affected by breaches. Why is healthcare data so sought after by hackers? Because it's personal, permanent and detailed: from social security numbers, to address, to family history, to confidential medical history.
@@ -2633,8 +2767,14 @@ For some applications, other options are simply more efficient. When evaluating 
 **[`^        back to top        ^`](#table-of-contents)**
 
 <h4>Blockchain Decision Path</h4>
+
+<!------------------------------------------------------------------------------------------------>
+<!----------------- Block decision path ---------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-  <img width="66%" src="https://user-images.githubusercontent.com/41387907/138575694-cfe33539-cddc-4dd5-b44f-f8b7519f5264.png" alt="Blockchain decision path"/>
+<img width="66%"
+   src="https://user-images.githubusercontent.com/41387907/138575694-cfe33539-cddc-4dd5-b44f-f8b7519f5264.png"
+   alt="Blockchain decision path"/>
 </p>
 <p align="center">The above diagram provides generalized, high-level decision points about when to use or not to use blockchain technology for your business.</p>
 
@@ -2654,9 +2794,14 @@ For key updates from Hyperledger, join the mailing list. Explore all Hyperledger
 
 **For educators and community leaders**  
 You can start or join a Hyperledger meetup. Development updates from Wiki can be found here.
+
+<!------------------------------------------------------------------------------------------------>
+<!----------------- hyperledger global meetings ---------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-  <img width="100%" src="https://user-images.githubusercontent.com/41387907/138567410-7039e221-879b-4214-9b21-091947e04495.png" 
-       alt="Hyperledger Global Meetups (as of 06/24/2019)"/>
+<img width="100%"
+   src="https://user-images.githubusercontent.com/41387907/138567410-7039e221-879b-4214-9b21-091947e04495.png" 
+   alt="Hyperledger Global Meetups (as of 06/24/2019)"/>
 </p>
 <h5 align="center">Hyperledger Global Meetups (as of 06/24/2019)</h5>
 
@@ -2731,6 +2876,9 @@ Hyperledger frameworks include:
 <li>Smart contracts to process transaction requests.</li>
 </ul>
 
+<!------------------------------------------------------------------------------------------------>
+<!----------------- Hyperledger frameworks ---------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
   <img width="50%" src="https://user-images.githubusercontent.com/41387907/138575454-df0b58de-1185-4558-b507-3a861a8bd63b.png"
        alt="Hyperledger frameworks (as of November 2020"</>
@@ -2741,10 +2889,14 @@ Now, let's explore the Hyperledger frameworks (as of November 2020)!
 
 **[`^        back to top        ^`](#table-of-contents)**
 
-<h3>Hyperledger _Besu_</h3>
+<!------------------------------------------------------------------------------------------------>
+<!----------------- Hyperledger besu ---------------->
+<!------------------------------------------------------------------------------------------------>
+<h3>Hyperledger Besu</h3>
 <p align="center" width="100%">
-  <img width="50%" src="https://user-images.githubusercontent.com/41387907/138575460-35b419be-65bd-438d-a752-f047835d12bd.png"
-  alt="Hyperledger 'Besu'"</>
+<img width="50%"
+   src="https://user-images.githubusercontent.com/41387907/138575460-35b419be-65bd-438d-a752-f047835d12bd.png"
+   alt="Hyperledger Besu"</>
 </p>
 **Hyperledger Besu** is an open source Ethereum client developed under the Apache 2.0 license and written in Java. 
 
@@ -2769,8 +2921,11 @@ Among its features:
 
 **[`^        back to top        ^`](#table-of-contents)**
 
-<h3 id="ch3-2">3.2 Hyperledger _Burrow_</h3>
+<h3 id="ch3-2">3.2 Hyperledger Burrow</h3>
 
+<!------------------------------------------------------------------------------------------------>
+<!----------------- Hyperledger burrow ---------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
   <img width="50%" src="https://user-images.githubusercontent.com/41387907/138575472-9d1aec50-3591-4324-9f5c-0973a32809dc.png"
        alt="Hyperledger Burrow"</>
@@ -2820,10 +2975,13 @@ Hyperledger Burrow components are:
 
 **[`^        back to top        ^`](#table-of-contents)**
 
-<h3>Hyperledger _Fabric_</h3>
+<!------------------------------------------------------------------------------------------------>
+<!----------------- Hyperledger fabric ---------------->
+<!------------------------------------------------------------------------------------------------>
+<h3>Hyperledger Fabric</h3>
 <p align="center" width="100%">
   <img width="50%" src="https://user-images.githubusercontent.com/41387907/138575480-0a337383-2046-4aeb-ac95-e68e3ab29e36.png"
-       alt="Hyperledger 'Fabric'"</>
+       alt="Hyperledger Fabric"</>
 </p>
 Welcome to the Hyperledger greenhouse, an open source consortium for developing business blockchain technologies hosted by the Linux Foundation.  
 
@@ -2865,7 +3023,10 @@ Its modular architecture allows components such as consensus and membership serv
 
 **[`^        back to top        ^`](#table-of-contents)**
 
-<h3>Hyperledger _Indy_</h3>
+<!------------------------------------------------------------------------------------------------>
+<!----------------- Hyperledger indy ---------------->
+<!------------------------------------------------------------------------------------------------>
+<h3>Hyperledger Indy</h3>
 <p align="center" width="100%">
   <img width="50%" src="https://user-images.githubusercontent.com/41387907/138575485-e6cd7161-2c55-4a37-a97b-97177cc9665f.png"
        alt="Hypereledger Indy"</>
@@ -2934,6 +3095,9 @@ Indeed, since 2013, over 14 billion data records were lost or stolen. What is st
 
 You can find detailed statistics at the Breach Level Index website.
 </p>
+<!------------------------------------------------------------------------------------------------>
+<!----------------- Hyperledger indy and privacy ---------------->
+<!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
   <img width="50%" src="https://user-images.githubusercontent.com/41387907/138575517-527507d7-cb6f-4ac4-811c-2767ea494268.png"
        alt="Hyperledger Indy and its 'privacy by design' approach"</>
@@ -2951,10 +3115,13 @@ Further information about the history of the project can be found at the Sovrin'
 
 **[`^        back to top        ^`](#table-of-contents)**
 
-<h3>Hyperledger _Iroha_</h3>
+<!------------------------------------------------------------------------------------------------>
+<!----------------- Hyperledger iroha ---------------->
+<!------------------------------------------------------------------------------------------------>
+<h3>Hyperledger Iroha</h3>
 <p align="center" width="100%">
   <img width="50%" src="https://user-images.githubusercontent.com/41387907/138575523-62fc4933-7ada-4d3b-adc6-e48b7144058b.png"
-       alt="Hyperledger 'Iroha'"</>
+       alt="Hyperledger Iroha"</>
 </p>
 Welcome to the Hyperledger greenhouse, an open source consortium for developing business blockchain technologies hosted by the Linux Foundation.  
 
@@ -3331,10 +3498,10 @@ Hyperledger Aries developers aim to eventually have a scalable, searchable stora
 
 **[`^        back to top        ^`](#table-of-contents)**
 
-<h3>Hyperledger `Quilt`</h3>
+<h3>Hyperledger Quilt</h3>
 <p align="center" width="100%">
   <img width="50%" src="https://user-images.githubusercontent.com/41387907/138575616-4c0479e6-21cc-4e68-a45d-142a8af5c591.png"
-       alt="Hyperledger 'Quilt'"</>
+       alt="Hyperledger Quilt"</>
 </p>
 Welcome to the Hyperledger greenhouse, an open source consortium for developing business blockchain technologies hosted by the LinuxFoundation.  
 Within the greenhouse, diverse global communities collaboratively develop open source projects that uniquely approach enterprise blockchain challenges.  
@@ -3375,7 +3542,7 @@ Some of the following features are already supported by Hyperledger Transact, or
 <li>Support for Sabre and Seth, etc.</li>
 </ul>
 
-<h3>Hyperledger 'Ursa'</h3>
+<h3>Hyperledger Ursa</h3>
 <p align="center" width="100%">
   <img width="50%" src="https://user-images.githubusercontent.com/41387907/138575637-f0524bb3-3716-4c8f-af1d-e01bc31d5920.png"
     alt="Hyperledger Ursa"</>

@@ -1106,21 +1106,36 @@ By the end of this chapter, you should be able to:
 
 <h3>Hyperledger (Navroop Sahdev)</h3>
 Hyperledger is an open source effort created to advance cross-industry blockchain technologies.  
+
 It's a global collaboration hosted by The Linux Foundation that encompasses various industries and organizations worldwide.  
+
 You may think of Hyperledger as an operating system for marketplaces, data sharing networks, microcurrencies, and decentralized digital communities.  
+
 A shared goal is to significantly reduce the cost and complexity of doing business.  
+
 Hyperledger blockchains are permissioned blockchains, which means that the parties that join the network are generally authenticated via an identity module.  
+
 Essentially, Hyperledger blockchains are specifically designed to be enterprise solutions.  
+
 If you look at permissionless blockchains, like the Bitcoin blockchain or the Ethereum blockchain, anyone can join the network, which means there would invariably be some malicious actors within the network.  
+
 Hyperledger reduces these security risks, and ensures that only the parties that want to transact are the ones that are part of the transaction.  
+
 Rather than displaying the record of the transactions to the whole network, they remain within the parties involved.  
-So, Hyperledger provides all the capabilities of blockchain architecture, data privacy, information sharing, immutability, with a full stack of security protocols, all for the enterprise.
+
+Hyperledger provides all the capabilities of blockchain architecture, data privacy, information sharing, immutability, with a full stack of security protocols, all for the enterprise.
 
 **[`^        back to top        ^`](#table-of-contents)**
 
 <h3 id="ch2-2">2.2 Hyperledger</h3>
-[Hyperledger](https://www.hyperledger.org/about) incubates and promotes a range of business blockchain technologies, including distributed ledger frameworks, smart contract engines, client libraries, graphical interfaces, utility libraries, and sample applications. Hosted by The Linux Foundation, collaborators include industry leaders in technology, finance, banking, supply chain management, manufacturing, and IoT.  
-As of November 2020, there are 16 projects in the Hyperledger greenhouse, six of which are distributed ledger and domain specific frameworks. The other 10 projects are tools and libraries that support these frameworks.
+
+[Hyperledger](https://www.hyperledger.org/about) incubates and promotes a range of business blockchain technologies, including distributed ledger frameworks, smart contract engines, client libraries, graphical interfaces, utility libraries, and sample applications. 
+
+Hosted by The Linux Foundation, collaborators include industry leaders in technology, finance, banking, supply chain management, manufacturing, and IoT.  
+
+As of November 2020, there are 16 projects in the Hyperledger greenhouse, six of which are distributed ledger and domain specific frameworks. 
+
+The other 10 projects are tools and libraries that support these frameworks.
 
 <!------------------------------------------------------------------------------------------------>
 <!----------------- Hyperledger ---------------->
@@ -1133,8 +1148,10 @@ src="https://user-images.githubusercontent.com/41387907/138575021-89ffa40e-3a0a-
 
 As [Arnaud Le Hors](https://www.hyperledger.org/blog/2017/09/12/3431), member of the Hyperledger Technical Steering Committee, emphasized,  
 "these projects show how broadly applicable blockchain technology really is. This goes way beyond cryptocurrencies".  
-Hyperledger provides an alternative to the cryptocurrency-based blockchain model, and focuses on developing blockchain frameworks, tools and libraries to support global enterprise solutions. The focus of Hyperledger is to provide a transparent and collaborative approach to blockchain development.
 
+Hyperledger provides an alternative to the cryptocurrency-based blockchain model, and focuses on developing blockchain frameworks, tools and libraries to support global enterprise solutions. 
+
+The focus of Hyperledger is to provide a transparent and collaborative approach to blockchain development.
 
 **[`^        back to top        ^`](#table-of-contents)**
 
@@ -1174,32 +1191,55 @@ But, I joined partly because I saw how transparent, and how engaging, even from 
 </p>
 
 <h3>Hyperledger Goals</h3>
-Hyperledger has taken a leadership role to develop cross-industry standards and provide a neutral space for software collaboration. The financial services industry, in particular, is witnessing an unprecedented level of collaboration between institutions that have traditionally been competitors. The advent of a new foundational or infrastructural technology like the blockchain - much like the Internet - requires collaboration of various actors in order to realize the full benefits of the technology. Unless all actors use a certain standard, the pace of technological dissemination will continue to be slow. Technological adoption is characterized by network effects, where the costs decrease with the increase in use of a certain technology. Since shifting to distributed ledger technology involves significant costs, open source software, communities and ecosystems that develop around these have a significant part to play.
+Hyperledger has taken a leadership role to develop cross-industry standards and provide a neutral space for software collaboration. 
+
+The financial services industry, in particular, is witnessing an unprecedented level of collaboration between institutions that have traditionally been competitors. 
+
+The advent of a new foundational or infrastructural technology like the blockchain - much like the Internet - requires collaboration of various actors in order to realize the full benefits of the technology. 
+
+Unless all actors use a certain standard, the pace of technological dissemination will continue to be slow. 
+
+Technological adoption is characterized by network effects, where the costs decrease with the increase in use of a certain technology. 
+
+Since shifting to distributed ledger technology involves significant costs, open source software, communities and ecosystems that develop around these have a significant part to play.
+
 Now, let's explore the Hyperledger frameworks (as of November 2020)
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------- Hyperledger frameworks (as of November, 2020) ---------------->
+<!----------------- Hyperledger goals ---------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-  <img width="50%" src="https://user-images.githubusercontent.com/41387907/138575026-76ac68b2-101e-464d-95e7-4f9d122e5ea4.png"
-       alt="Hyperledger frameworks (as of November, 2020)"</>
+  <img width="85%" src="https://user-images.githubusercontent.com/41387907/138575026-76ac68b2-101e-464d-95e7-4f9d122e5ea4.png"
+       alt="Hyperledger Goals"</>
 </p>
 
 **[`^        back to top        ^`](#table-of-contents)**
 
 <h3>The Importance of Open Source</h3>
-So, you had mentioned before how Hyperledger is different from other consortiums because of its focus on creating an open community, not just open sourcing code.  
+<p>
+You had mentioned before how Hyperledger is different from other consortiums because of its focus on creating an open community, not just open sourcing code.  
+
 Can you tell us a little bit about why this is important?  
-So, open source communities, I believe, live and breathe on not just, you know, reporting bugs or, you know, downloading code, but, actually, live and breathe on true collaboration, on saying not just, you know, "I have a bug and somebody needs to fix it", but, instead, saying "Here's how I'd like to solve this", right? What do people think?  
+
+Open source communities, I believe, live and breathe on not just, you know, reporting bugs or, you know, downloading code, but, actually, live and breathe on true collaboration, on saying not just, you know, "I have a bug and somebody needs to fix it", but, instead, saying "Here's how I'd like to solve this", right? What do people think?  
+
 "Here is a design for implementing a new feature." What do people think?  
+
 And I think the evidence shows that that creates higher quality code. It also creates more long lasting code.  
+
 I don't think you have a project like the Linux kernel, which has now been around for 26 years, right, without having a mechanism for a community to develop an institutional memory, right?  
+
 Why were certain decisions made? What were some ideas that were proposed and, ultimately, found to either be shot down or not really good enough, right, so that we don't end up changing things back and forth, right, we don't end up making mistakes that we could have avoided before or learning from previous...how do we make sure we learn from previous mistakes, right?  
+
 And that's only possible in an open source community if, on top of just releasing code, you're also engaging in the creative process itself, and making that public facing.  
 And I think, really, we found out over 25 years of open source that that's the best way to build trustworthy software.  
+
 I believe it leads to higher security software and higher quality software, but really, the question is trust.  
+
 This is code that sits... At Hyperledger, this is code that will sit at the heart of these enterprises.  
+
 This will be their system of record, right? So, it's essential that we develop this code in a trustworthy way and, while we do all sorts of things to help them trust the data in the system, ultimately, they have to trust the software, as well.  
+
 And what I hope is that, through these processes, they can rest assured that, when they pick up Hyperledger, anything, right, that anything will be software that they can trust.
 
 <h3>Open Standards</h3>
@@ -1231,6 +1271,7 @@ The Enterprise Ethereum Alliance (EEA) and Hyperledger formally joined each othe
 **[`^        back to top        ^`](#table-of-contents)**
 
 <h3>Open Source and Open Governance</h3>
+<p>
 "Today, most people understand the concept of Open Source. What many people don't get, and something we here at Hyperledger and The Linux Foundation pride ourselves on doing well, is Open Governance".
 
 *   hyperledger.org  
@@ -1240,33 +1281,58 @@ The Enterprise Ethereum Alliance (EEA) and Hyperledger formally joined each othe
     Software Governance of the Hyperledger Projects (Brian Behlendorf)
 
 How does the software governance of all of the Hyperledger projects work?  
-So, in open source projects you do... it's not a free-for-all, right? It's not just everybody throwing in every line of code, hoping that what, you know, it sticks to the wall, and that everything is fine, right?  
+
+In open source projects you do... it's not a free-for-all, right? It's not just everybody throwing in every line of code, hoping that what, you know, it sticks to the wall, and that everything is fine, right?  
+
 There actually is a development process that involves decision-making about what comes in and what doesn't, right?  
+
 At the core of each of the projects at Hyperledger is a set of maintainers.  
+
 These are individuals who either were with the project when it came in, as initial maintainers, right,  
 because they had been working on the code before, or were invited in by that initial set of maintainers to become maintainers, after demonstrating, you know, a history of contributions to the project, alright?  
+
 These are now individuals who are trusted.  
+
 Once you're in that group, obviously, everything those maintainers do is public.  
+
 If they commit to the source code repository, approve a a patch, a commit request, or pull request,  
 everything they do is public anyway, so there's always that accountability for their actions.  
+
 If somebody does something wrong, anybody can always say "I think that's wrong", and the set of maintainers can sometimes come to a decision to reverse a commit, right?  
+
 That's within their power.  
+
 But, it's really up to those maintainers to also chart the path forward: what's the roadmap, when will we do the next release, right, the next minor point released, the next major release.  
+
 But, obviously, they do that in a public way.  
+
 Sometimes, they'll use a phone call, sometimes, they'll use chat on Rocket Chat, sometimes, they'll use email, but they know that their job is to be accountable and responsible to the broader development community.  
+
 Now, from a Hyperledger perspective, if we leave it up to the projects to really decide the roadmap of what they're trying to solve, there's a group called the Technical Steering Committee, though, that is elected by all the contributors across all the projects, not even just the maintainer...anybody who has contributed a line of code, contributed to the wiki in some substantial way, they elect a group of eleven developers who form this Technical Steering Committee.  
+
 And the TSC is kind of an oversight body.  
+
 They make sure that the projects are growing, and that they're healthy.  
+
 They review activity in those projects, they also approve new projects when they come in, and they approve the graduation from the Incubator, right?  
+
 What they don't get to do is, you know, tell us, tell a project "Hey, you're working on the wrong thing. Go work on this, instead", right?  
+
 They really have to depend on this kind of decentralized governance, right, to aim in the right direction.  
+
 By and large, we try to make sure though that every project has some sort of relation to distributed ledgers and smart contracts.  
+
 Our goal is not to be the GitHub of distributed ledgers and smart contracts projects.  
+
 There's already a GitHub for that, alright?  
+
 We want these projects to be a curated, you know, coherent portfolio of different projects that might even compete with each other, right?  
+
 In many ways, Fabric and Sawtooth and Iroha do overlap, and you can build an implementation of something in all three of those. That's okay, right?  
+
 We're going to discover over time how these projects differentiate with each other,  
 and it's the role of the Technical Steering Committee, and a bunch of other committees we have around identity, and architecture, and white papers, and things, to try to weave these different efforts together in something that looks coherent, something that makes sense for developers.
+</p>
 
 <h3>Strength Through Diversity</h3>
 As you familiarize yourself more with Hyperledger and the blockchain technologies it fosters in its greenhouse, you will notice the similarities between some of its projects, but most importantly, what differentiates them from one another and the use cases they were designed to address. The idea behind this approach was and continues to be that there is no one solution to address the myriad of needs, requirements and use cases.  
@@ -1276,18 +1342,31 @@ Dan Middleton, All Are Welcome Here (2018)
 **[`^        back to top        ^`](#table-of-contents)**
 
 <h3 id="ch1-7">1.7 Other Open Source Permissioned Distributed Ledgers (David Huseby)</h3>
-So, security with distributed ledgers really begins here at Hyperledger with our culture of secure software development.  
+<p>
+Security with distributed ledgers really begins here at Hyperledger with our culture of secure software development.  
+
 Every aspect of the software, from development, through testing, through bug fixing, and vulnerability resolution, it's done in a completely open process.  
+
 It's open to anybody to participate.  
+
 We have maintainers that do all the code reviews.  
+
 Changes to code is driven by requirements, and patches come in to implement those requirements...  
+
 They're reviewed... we have requirements for tests to be written before it's accepted, and we have pretty rigorous testing infrastructure in place.  
+
 We use continuous integration, so, it's always building, and we have also initiated security reviews outside security audits of all our projects as they approach 1.0.  
+
 And it's that culture that really builds the foundation of trust for the Hyperledger projects.  
+
 Because we're radically transparent, and because we do the correct things from a software engineering perspective, we deserve the trust that consumers of our products put in our hands.  
+
 And then, building on top of our process, comes all of the cryptography and the data resiliency that you get with a distributed ledger.  
-So, once we can ship a product, a piece of software that's been built to the best of our ability, then the guarantees provided by the cryptography really carry weight, or really, are ironclad.  
-So, it's a very holistic approach to security here at Hyperledger: everything, from the way we write software to the way the software works.
+
+Once we can ship a product, a piece of software that's been built to the best of our ability, then the guarantees provided by the cryptography really carry weight, or really, are ironclad.  
+
+It's a very holistic approach to security here at Hyperledger: everything, from the way we write software to the way the software works.
+</p>
 
 **[`^        back to top        ^`](#table-of-contents)**
 

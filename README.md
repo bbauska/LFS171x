@@ -2953,9 +2953,7 @@ The use of distributed ledger technologies in production across various industri
 
 <h3>The Outlook of Blockchain for Business</h3>
 
-The 
-[2019 Technology Industry Innovation conducted by KPMG](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/viewer.html?pdfurl=https%3A%2F%2Fassets.kpmg%2Fcontent%2Fdam%2Fkpmg%2Fus%2Fpdf%2F2019%2F02%2Fblockchain-tech-survey-2019-infographic.pdf&clen=284066&chunk=true) around the adoption of blockchain technologies suggests that 41 percent of businesses are likely to adopt and implement blockchain into their business operations in the next three years. 
-
+The [2019 Technology Industry Innovation conducted by KPMG](https://assets.kpmg/content/dam/kpmg/us/pdf/2019/02/blockchain-tech-survey-2019-infographic.pdf)
 Another important aspect revealed by this survey is that 48 percent of enterprises believe that blockchain will change the way they conduct and manage their business activities in the near future.  
 
 What areas are expecting significant disruptions due to increased adoption of blockchain technologies? 

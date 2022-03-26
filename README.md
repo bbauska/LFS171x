@@ -2864,7 +2864,7 @@ Sony Global Education decided to use Hyperledger Fabric, as it is a trusted, sec
 
 Moreover, Sony Global Education is working with the Japanese Ministry of Internal Affairs and Communications to develop a next-generation system for managing digital transcripts based on their tested solution, aiming to secure the authenticity of transcripts and allow them to be safely shared within a trusted network.  
 
-You can learn more about this use case reading [Sony Global Education Chooses Hyperledger Fabric for a Next-Generation Credentials Platform](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/viewer.html?pdfurl=https%3A%2F%2Fwww.hyperledger.org%2Fwp-content%2Fuploads%2F2017%2F12%2FHyperledger_CaseStudy_Sony.pdf&clen=4567841&chunk=true).
+You can learn more about this use case reading [Sony Global Education Chooses Hyperledger Fabric for a Next-Generation Credentials Platform](https://www.hyperledger.org/wp-content/uploads/2017/12/Hyperledger_CaseStudy_Sony.pdf).
 
 **[`^        back to top        ^`](#table-of-contents)**
 

@@ -1699,15 +1699,16 @@ If you wrote Solidity contracts for the public Ethereum network, Hyperledger Bur
 Burrow helps organizations better meet their cross-functional business needs, and opens the door for other Hyperledger projects to incorporate the Ethereum Virtual Machine into their platforms.  
 Get started with Hyperledger Burrow today, by downloading the source code, accessing the documentation, and joining our community from our website: hyperledger.org.  
 Hyperledger Burrow was released in December 2014. It was originally designed by Monax, and co-sponsored by Intel. The project is generally updated on a quarterly basis, and is licensed under the Apache 2.0. license. Currently under incubation, "Hyperledger Burrow is a complete single-binary blockchain distribution focussed on simplicity, speed, and developer ergonomics. It supports both EVM and WASM based smart contracts and uses BFT consensus via the Tendermint algorithm".  
+
 Hyperledger Burrow components are:
-
-*   Consensus Engine - Hyperledger Burrow uses the Byzantine fault-tolerant Tendermint protocol to order and finalize transactions
-*   The API Gateway provides interfaces for systems integration and user interfaces
-*   The Smart Contract Application engine facilitates integration of complex business logic (maintaining the networking stack between the nodes and ordering transactions)
-*   Permissioned Ethereum Virtual Machine - it is built to observe the Ethereum operation code specification, and asserts the correct permissions have been granted
-*   Application Binary Interface (ABI) - transactions must be formulated in a binary format, which is processed by the blockchain node.
-*   The Application Blockchain Interface (ABCI) provides interface specification for the consensus engine and smart contract application engine to connect.
-
+<ul>
+<li>Consensus Engine - Hyperledger Burrow uses the Byzantine fault-tolerant Tendermint protocol to order and finalize transactions,</li>
+<li>The API Gateway provides interfaces for systems integration and user interfaces,</li>
+<li>The Smart Contract Application engine facilitates integration of complex business logic (maintaining the networking stack between the nodes and ordering transactions),</li>
+<li>Permissioned Ethereum Virtual Machine - it is built to observe the Ethereum operation code specification, and asserts the correct permissions have been granted,</li>
+<li>Application Binary Interface (ABI) - transactions must be formulated in a binary format, which is processed by the blockchain node,</li>
+<li>The Application Blockchain Interface (ABCI) provides interface specification for the consensus engine and smart contract application engine to connect.</li>
+</ul>
 **[`^        back to top        ^`](#table-of-contents)**
 
 <!------------------------------------------------------------------------------------------------>
@@ -1735,9 +1736,11 @@ hyperledger.org.
 
 Hyperledger Fabric is an open source, production ready, permissioned blockchain framework implementation that was designed to serve as a foundation for developing applications or solutions with a modular architecture. It was the first proposal for a codebase (2016), combining previous work done by Digital Asset Holdings, Blockstream's libconsensus, and IBM's OpenBlockchain. It graduated from the Hyperledger Incubator in March of 2017.  
 Key characteristics of Hyperledger Fabric are:
-- High-performance, secure, permissioned blockchain network
-- Features powerful container technology to host any mainstream language for smart contracts development
-- Code written in Go, chaincode written in Go, Javascript, or Java, SDKs written in Node.js, Java, Go, REST and Python.
+<ul>
+<li>High-performance, secure, permissioned blockchain network,</li>
+<li>Features powerful container technology to host any mainstream language for smart contracts development,</li>
+<li>Code written in Go, chaincode written in Go, Javascript, or Java, SDKs written in Node.js, Java, Go, REST and Python.</li>
+</ul>
 Its modular architecture allows components such as consensus and membership services to be plug-and-play. One of the key advantages of Hyperledger Fabric is that it allows entities to conduct confidential transactions without passing information through a central authority. This is accomplished through different channels that run within the network, as well as the division of labor that characterizes the different nodes within the network.
 
 **[`^        back to top        ^`](#table-of-contents)**
@@ -1811,35 +1814,53 @@ One of the key principles of Hyperledger Indy is its "privacy by design" approac
        alt="Hyperledger Iroha"</>
 </p>
 Welcome to the Hyperledger greenhouse, an open source consortium for developing business blockchain technologies hosted by the Linux Foundation.  
+
 Within the greenhouse, diverse global communities collaboratively develop open source projects that uniquely approach enterprise blockchain challenges.  
+
 These technologies can cross-pollinate and interoperate, just like how the community is driving the projects collaborate in an open and neutral environment.  
+
 Hyperledger Iroha is a permissioned blockchain framework in the Hyperledger greenhouse designed for simple and easy management of digital assets.  
+
 Iroha helps bring greater trust and reliability into business.  
+
 Only participants granted access to a Hyperledger Iroha network may join the network, query data, or perform commands.  
+
 Iroha' robust permission system ensures that all interactions within the system are secure and controlled.  
+
 Iroha's features are helpful for creating applications for end users.  
+
 With Iroha, a business can create and manage simple or complex digital assets, from cryptocurrency to personal medical data.  
+
 Iroha's built-in smart contracts, called commands, allow developers to incorporate blockchain into their business processes.  
+
 Iroha presents users with lower complexity and lower risk by allowing them to perform common functions using built-in commands.  
+
 This simplifies tasks, improves performance efficiency, and allows less room for error.  
+
 Compared to other platforms, these commands also free up developers by ridding them of the need to write complex smart contracts.  
+
 In Iroha, you can set up a network, create assets, and make a transaction in about 5 minutes time.  
+
 Iroha's consensus algorithm allows full Byzantine fault tolerance with no mining, making it ideal for businesses that require verifiable data consistency at low cost.  
+
 Users are able to interact with Iroha similarly to how they would with a client server, so while some knowledge is required,  
+
 you don't need to be a blockchain guru to incorporate Iroha into your business.  
+
 Get started with Hyperledger Iroha today by downloading the source code, accessing thedocumentation and joining our community from our website:  
 hyperledger.org.  
+
 Hyperledger Iroha is a free, open source blockchain framework contributed by Soramitsu, Hitachi, NTT Data, and Colu (2016). Hyperledger Iroha is a simple blockchain platform that can be used to make trusted, secure, and fast applications that leverage the power of permission-based blockchain with Byzantine fault-tolerant consensus. 
 Among its key features are:
-
-  * Simple deployment and maintenance
-  * Variety of libraries for developers
-  * Role-based access control
-  * Modular design, driven by command-query separation principle
-  * Ready-to-use set of commands and queries
-  * Multi-signature transactions
-  * Uses a high-performance Byzantine fault-tolerant consensus algorithm called YAC.
-  
+<ul>
+<li>Simple deployment and maintenance,</li>
+<li>Variety of libraries for developers,</li>
+<li>Role-based access control,</li>
+<li>Modular design, driven by command-query separation principle,</li>
+<li>Ready-to-use set of commands and queries,</li>
+<li>Multi-signature transactions,</li>
+<li>Uses a high-performance Byzantine fault-tolerant consensus algorithm called YAC.
+</ul>  
 According to the Hyperledger Iroha documentation, "it can be used to manage digital assets, identity and serialized data, and can be useful for applications such as interbank settlement, central bank digital currencies, payment systems, national IDs, and logistics, among others". Its documentation provides an extensive list of use cases, and specific advantages the use of Hyperledger Iroha can introduce - you can read about these use case scenarios online.
 Hyperledger Iroha emphasizes mobile application development with client libraries for Android and iOS, making it distinct from other Hyperledger frameworks. Inspired by Hyperledger Fabric, Hyperledger Iroha seeks to complement Hyperledger Fabric and Hyperledger Sawtooth, while providing a development environment for C++ developers to contribute to Hyperledger.  
 Hyperledger Iroha is an active project, and reached a significant milestone in May 2019, the 1.0 release. To learn more about it, you can read the announcement.
@@ -1856,30 +1877,49 @@ Hyperledger Iroha is an active project, and reached a significant milestone in M
 </p>
 Welcome to the Hyperledger greenhouse, an open source consortium for developing business blockchain technologies hosted by the Linux Foundation.  
 Within the greenhouse, diverse global communities collaboratively develop open source projects that uniquely approach enterprise blockchain challenges.  
+
 These technologies can cross-pollinate and interoperate, just like how the community is driving the projects collaborate in an open and neutral environment.  
+
 Built from the ground up for enterprise use, the Hyperledger Sawtooth design philosophy targets development of decentralized ledgers and secure, scalable smart contracts.  
+
 The Sawtooth security model uses a single node type, which simplifies deployment.  
+
 Plenty of examples exist for both on-prem and cloud installations.  
+
 On chain governance lets enterprises manage all aspects of the Sawtooth network with the network itself.  
+
 Participants add policies and agree on configuration changes using Sawtooth transactions.  
+
 In fact, even consensus algorithms can be changed real time in a running network: start with Raft, them harden with PBFT, or switch to Proof of Elapsed Time as the network grows.  
+
 Sawtooth software development kits cover a wide variety of languages.  
+
 The smart contract model supports deploying any and all of these languages alongside each other.  
+
 Ethereum contracts, for example, can be deployed alongside WebAssembly and Java contracts.  
+
 Sawtooth distributed ledger technology can integrate with existing internal databases by keeping internal relational and key/value databases in sync with the Sawtooth network.  
+
 Whether you are using Sawtooth for healthcare, supply chain, or financial services,  
 your internal systems can make use of all the data managed on the Sawtooth blockchain.  
+
 Get started with Hyperledger Sawtooth today by downloading the source code, accessing the documentation and joining our community from our website:  
 hyperledger.org.  
+
 Hyperledger Sawtooth, is an open source blockchain framework that utilizes a highly modular platform for building, deploying, and running distributed ledger applications and networks, making smart contracts safe, particularly for enterprise use. It was originally contributed by Intel and joined the Hyperledger greenhouse in April of 2016. In May of 2018 it graduated from the Hyperledger Incubator.
+
 Some of its key characteristics are:
-  * Uses pluggable consensus algorithms, which allows consensus to be changed by transaction on the fly
-  * Smart contracts can be written in almost any language
-  * Parallel transaction execution for added throughput, while at the same time preventing double spending
-  * Ethereum contract support via Hyperledger Burrow integration
-  * No central authority or implementation. This increases security as there is no centralized service that could leak transaction patterns or any other confidential information
-  * Supports creating and broadcasting events.
-Distributed ledger solutions built with Hyperledger Sawtooth can utilize various consensus algorithms based on the size of the network (PoET SGX, Raft, etc.). Hyperledger Sawtooth is designed for versatility, with support for both permissioned and permissionless deployments. This technology simplifies blockchain application development and deployment by clearly separating the core system from the application domain.
+<ul>
+<li>Uses pluggable consensus algorithms, which allows consensus to be changed by transaction on the fly,</li>
+<li>Smart contracts can be written in almost any language,</li>
+<li>Parallel transaction execution for added throughput, while at the same time preventing double spending,</li>
+<li>Ethereum contract support via Hyperledger Burrow integration,</li>
+<li>No central authority or implementation. This increases security as there is no centralized service that could leak transaction patterns or any other confidential information,</li>
+<li>Supports creating and broadcasting events.
+</ul>
+Distributed ledger solutions built with Hyperledger Sawtooth can utilize various consensus algorithms based on the size of the network (PoET SGX, Raft, etc.). 
+Hyperledger Sawtooth is designed for versatility, with support for both permissioned and permissionless deployments. 
+This technology simplifies blockchain application development and deployment by clearly separating the core system from the application domain.
 
 **[`^        back to top        ^`](#table-of-contents)**
 
@@ -2125,13 +2165,16 @@ Hyperledger Explorer supports Hyperledger Fabric and Hyperledger Iroha.
 **[⬆ back to top](#table-of-contents)**
 
 <h2 id="ch5">Chapter 5: Hyperledger Libraries</h2>
-In the previous chapter we looked at the Hyperledger tools, which are auxiliary softwares used for things like deploying and maintaining blockchains, examining the data on the ledgers, as well as tools to design, prototype, and extend blockchain networks. In this chapter we will take a look at the Hyperledger libraries for enterprise-grade blockchain deployments.
+In the previous chapter we looked at the Hyperledger tools, which are auxiliary softwares used for things like deploying and maintaining blockchains, examining the data on the ledgers, as well as tools to design, prototype, and extend blockchain networks. 
+
+In this chapter we will take a look at the Hyperledger libraries for enterprise-grade blockchain deployments.
 
 <h4 id="ch5-1">5.1 Learning Objectives</h4>
 By the end of this chapter, you should be able to:
-  * Understand the role of Hyperledger libraries.
-  * Get a high-level understanding of the Hyperledger libraries (as of November 2020): Hyperledger Aries, Hyperledger Quilt, Hyperledger Transact, and Hyperledger Ursa.
-
+<ul>
+<li>Understand the role of Hyperledger libraries,</li>
+<li>Get a high-level understanding of the Hyperledger libraries (as of November 2020): Hyperledger Aries, Hyperledger Quilt, Hyperledger Transact, and Hyperledger Ursa.</li>
+</ul>
 **[`^        back to top        ^`](#table-of-contents)**
 
 <!------------------------------------------------------------------------------------------------>
@@ -2194,10 +2237,12 @@ hyperledger.org.
 Hyperledger Quilt is an open source business blockchain tool that offers interoperability between ledger systems. It is a Java implementation of the Interledger protocol (ILP) (which is primarily a payments protocol designed to transfer value across distributed ledgers and non-distributed ledgers).
 
 Among its key characteristics are:
-  * Provides a set of rules for enabling ledger interoperability with basic escrow semantics.
-  * Furnishes a standard for ledger-independent address and data packet formats that enable connectors to route payments.
-  * Supplies a framework for designing higher-level use case specific protocols.
-  * Currently in Incubation, Hyperledger Quilt was initially contributed by NTT Data and Ripple in 2017.
+<ul>
+<li>Provides a set of rules for enabling ledger interoperability with basic escrow semantics,</li>
+<li>Furnishes a standard for ledger-independent address and data packet formats that enable connectors to route payments,</li>
+<li>Supplies a framework for designing higher-level use case specific protocols,</li>
+<li>Currently in Incubation, Hyperledger Quilt was initially contributed by NTT Data and Ripple in 2017.</li>
+</ul>
 
 **[`^        back to top        ^`](#table-of-contents)**
 
@@ -2218,11 +2263,13 @@ Transact provides an extensible approach to implementing new smart contract lang
 Currently in Incubation, it was originally contributed by Bitwise, Cargill, Intel, IBM and Hacera in 2019.
 
 Some of the following features are already supported by Hyperledger Transact, or planned in the short-term:
-  * Serial and parallel transaction scheduling,
-  * Pluggable state backend,
-  * Transaction receipts,
-  * Events that can be generated by smart contracts,
-  * Support for Sabre and Seth, etc.
+<ul>
+<li>Serial and parallel transaction scheduling,</li>
+<li>Pluggable state backend,</li>
+<li>Transaction receipts,</li>
+<li>Events that can be generated by smart contracts,</li>
+<li>Support for Sabre and Seth, etc.</li>
+</ul>
 
 <!------------------------------------------------------------------------------------------------>
 <!----------------- Hyperledger Ursa ---------------->
@@ -2273,9 +2320,11 @@ Let's take a look at different use cases for Hyperledger blockchain technologies
 
 <h3>Learning Objectives</h3>
 By the end of this chapter, you should be able to:
-  * Examine several use cases where blockchain technology is actively used to solve real world business problems,
-  * Discover the factors to look at when evaluating if blockchain technology is right for a particular project,
-  * Decide when to use and when not to use blockchain technology.
+<ul>
+<li>Examine several use cases where blockchain technology is actively used to solve real world business problems,</li>
+<li>Discover the factors to look at when evaluating if blockchain technology is right for a particular project,</li>
+<li>Decide when to use and when not to use blockchain technology.</li>
+</ul>
 
 <h4 id="ch6-1">Business Blockchain Technologies Overview</h4>
 Blockchain is a data structure with an automated way to enforce trust among participants.
@@ -2561,14 +2610,14 @@ Because of the overhead involved in traditional provenance records, they were on
 This improved information can aid consumers as they make purchasing decisions.
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------- Provenance  ---------------->
+<!----------------- How Provenance works ---------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
   <img width="66%" src="https://user-images.githubusercontent.com/41387907/138575669-26c3feb9-72c2-4a6a-a098-08d39871c89b.png"
-       alt="Provenance"/>
-</p>
-<h3># How Provenance Works</h3>
+       alt="How Provenance Works"/>
+How Provenance Works
 (by Project Provenance Ltd, used with permission)
+</p>
 
 How do you, as a consumer, really know that you purchased an authentic item?
 

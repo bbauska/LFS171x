@@ -2980,7 +2980,7 @@ Blockchain is viewed as one of the top 10 technologies that will transform busin
 
 The 2019 KPMG survey ranked blockchain at number 4, compared to 7 just a year ago. 
 
-And, according to the Worldwide Semiannual Blockchain Spending Guide (March 2019) from International Data Corporation (IDC), worldwide spending on blockchain-related solutions is expected to reach $2.9 billion in 2019 (an increase of over 88% from the previous year), and $12.4 billion by 2022.  
+And, according to the Worldwide Semiannual Blockchain Spending Guide (March 2019) from [International Data Corporation (IDC)](https://www.idc.com/), worldwide spending on blockchain-related solutions is expected to reach $2.9 billion in 2019 (an increase of over 88% from the previous year), and $12.4 billion by 2022.  
 
 Want to be at the forefront of the blockchain technological innovation? Start assessing your needs to see if blockchain would be a good solution for your business.
 
@@ -3046,7 +3046,7 @@ Blockchain is best suited for business applications where one or more of the fol
 
 <h4>When Not to Use Blockchain</h4>
 Blockchain technology is a powerful tool, but it is not always the right tool for the job at hand. If you are contemplating using blockchain technology, be sure to evaluate the problem fully. 
-
+&nbsp;
 The following conditions are not currently well suited to blockchain-based solutions:
 <ul>
 <li>The process involves confidential data,</li>
@@ -3055,8 +3055,7 @@ The following conditions are not currently well suited to blockchain-based solut
 <li>The use of external services to gather/store data.  </li>
 </ul>
 Next, we will discuss in more detail the conditions that are not well suited to blockchain-based solutions.
-<br/>
-
+&nbsp;
 
 **[`^        back to top        ^`](#table-of-contents)**
 
@@ -3078,6 +3077,7 @@ Everything that takes place on a blockchain must be completely deterministic.
 Additionally, blockchains are append-only databases. 
 A relational database may be more suitable if you need to make many changes to your data as the rules of your transactions change.
 <br/>
+&nbsp;
 
 **[`^        back to top        ^`](#table-of-contents)**
 
@@ -3099,6 +3099,7 @@ When evaluating blockchain technology, consider whether regular file storage, a 
 If those structures are suitable, then you can deploy your application with reduced complexity. 
 Do you need a smart contract or are stored procedures written in an extension of SQL sufficient? Similarly, some applications can simply utilize cryptographic methods common in blockchains, without the database replication mechanisms of a blockchain.
 <br/>
+&nbsp;
 
 **[`^        back to top        ^`](#table-of-contents)**
 

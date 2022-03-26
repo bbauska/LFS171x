@@ -2598,26 +2598,24 @@ In addition to the hash, you may also choose to store the location of the file i
 
 **[`^        back to top        ^`](#table-of-contents)**
 
-<h3>Provenance (Part I)</h3>
+<h3>Provenance</h3>
 As the previous section on blockchains for supply chain management illustrated, blockchain data improves insight into products, as they move through their lifecycle. 
-
 Large enterprises are not the only parties to benefit from this increased visibility. Consumers can also benefit from blockchain technology.  
-
+&nbsp;
 Provenance is a record of ownership used as a guide to authenticity or quality. 
-
 Because of the overhead involved in traditional provenance records, they were only available for very large ticket items, such as works of art. With the efficiencies gained from blockchain technology, provenance records can be available for a wider range of goods. 
-
 This improved information can aid consumers as they make purchasing decisions.
-
+&nbsp;
 <!------------------------------------------------------------------------------------------------>
 <!----------------- How Provenance works ---------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-  <img width="66%" src="https://user-images.githubusercontent.com/41387907/138575669-26c3feb9-72c2-4a6a-a098-08d39871c89b.png"
-       alt="How Provenance Works"/>
+<img width="66%" align="center"
+   src="https://user-images.githubusercontent.com/41387907/138575669-26c3feb9-72c2-4a6a-a098-08d39871c89b.png"
+   alt="How Provenance Works"/>
 How Provenance Works
 (by Project Provenance Ltd, used with permission)
-</p>
+   </p>
 
 How do you, as a consumer, really know that you purchased an authentic item?
 

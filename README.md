@@ -2916,7 +2916,7 @@ Paperless government by 2020 is another goal of the Smart Dubai initiative, allo
 
 Smart Dubai is embracing a multi-blockchain business model to deliver services, such as IBM's Hyperledger Fabric-based and ConsenSys' private blockchain implementation based on Ethereum. 
 
-In October 2018, Smart Dubai and IBM launched the Dubai Blockchain Platform, the first government-endorsed blockchain-as-a-service platform in the UAE.  
+In October 2018, Smart Dubai and IBM launched the [Dubai Blockchain Platform](https://www.digitaldubai.ae/newsroom/news/2018/10/30/smart-dubai-and-ibm-to-offer-first-government-endorsed-blockchain-platform#listingPage=1), the first government-endorsed blockchain-as-a-service platform in the UAE.  
 
 Through its ground-breaking, innovative initiatives and forward thinking, Dubai is transforming the life of its residents and visitors alike, creating a high benchmark for other cities looking to leverage innovation and state-of-the-art technologies. 
 

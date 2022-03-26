@@ -2648,16 +2648,25 @@ You can read more about tantalum traceability success story on the Hyperledger w
 
 **[`^        back to top        ^`](#table-of-contents)**
 
-<h3>Finance (Part I)</h3>
+<h3>Finance</h3>
 <blockquote>
 "Blockchain has huge potential to move the financial services industry away from messaged based models, slow reconciliation processes and inefficiency of fragmented data stores. With blockchain, financial services can move to a shared data construct, driving down costs, increasing efficiency and opening up entirely new business models".
 </blockquote>
 
-*   David Treat, Accenture  
-    The Bitcoin blockchain was created as a "peer-to-peer electronic cash system" (Satoshi Nakamoto, Bitcoin). Therefore, the first blockchain use case in existence was payments. However, Bitcoin proved to be quite slow to process payments, "somewhere in the region of 7 transactions per second", when compared to Visa, which "averages around 2,000 transactions per second, with peak capacity of perhaps 50,000 transactions per second" (Guy Brandon, due.com, February 2017). Developers are actively working to increase the throughput capacity of Bitcoin and other blockchain payment systems (lightning.network). Payments, especially international payments, can be quite costly. Blockchain technologies plan to decrease the costs associated with payments, by allowing parties to interact directly, instead of transferring through an intermediary, such as a bank. In addition, having a record of all past payments is useful to auditors and regulators. Financial institutions have heavily researched blockchain payment systems because a universally recorded world state of payment information can decrease the number of payment disputes among institutions.
+- David Treat, Accenture  
+
+The Bitcoin blockchain was created as a ["peer-to-peer electronic cash system" (Satoshi Nakamoto, Bitcoin)](https://bitcoin.org/bitcoin.pdf). 
+Therefore, the first blockchain use case in existence was payments. 
+However, Bitcoin proved to be quite slow to process payments, "somewhere in the region of 7 transactions per second", when compared to Visa, which "averages around 2,000 transactions per second, with peak capacity of perhaps 50,000 transactions per second" ([Guy Brandon, due.com](https://due.com/blog/can-the-blockchain-scale/), February 2017). 
+Developers are actively working to increase the throughput capacity of Bitcoin and other blockchain payment systems (lightning.network). 
+Payments, especially international payments, can be quite costly. 
+Blockchain technologies plan to decrease the costs associated with payments, by allowing parties to interact directly, instead of transferring through an intermediary, such as a bank. 
+In addition, having a record of all past payments is useful to auditors and regulators. 
+Financial institutions have heavily researched blockchain payment systems because a universally recorded world state of payment information can decrease the number of payment disputes among institutions.
 
 <h3>Finance (Part II)</h3>
-The finance industry, in particular, has shown early interest in blockchain technology. R3, a fintech company that is a member of the Hyperledger consortium, has brought together more than 100 leading financial institutions to examine blockchain technology. The finance industry has already recorded business transaction agreements on blockchain. 
+The finance industry, in particular, has shown early interest in blockchain technology. R3, a fintech company that is a member of the Hyperledger consortium, has brought together more than 100 leading financial institutions to examine blockchain technology. 
+The finance industry has already recorded business transaction agreements on blockchain. 
 
 Currently, bonds, invoice financing, letter of credit transactions, and interest rate swaps governed by an ISDA master agreement have all been recorded on blockchain.  
 

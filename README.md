@@ -2902,9 +2902,9 @@ The Dubai Blockchain Strategy aims to enable the execution of all applicable gov
 
 The Decentralized Data Marketplace leverages blockchain technology to ensure the security and immutability of transactions, tokenization to hide sensitive information, etc.
 
-The UAEPASS is the national digital identity platform, giving UAE citizens, residents and visitors access to local and federal government services, as well as those of private companies, all on a single smart application, allowing them to authenticate and sign documents digitally.
+The [UAEPASS](https://www.digitaldubai.ae/apps-services/details/uae-pass) is the national digital identity platform, giving UAE citizens, residents and visitors access to local and federal government services, as well as those of private companies, all on a single smart application, allowing them to authenticate and sign documents digitally.
 
-The DubaiNow mobile application is a one-stop shop for smart services, unifying more than 55 key services from 22 government agencies. 
+The [DubaiNow](https://www.digitaldubai.ae/apps-services/details/dubai-now) mobile application is a one-stop shop for smart services, unifying more than 55 key services from 22 government agencies. 
 
 This application allows users to manage their bills, register their cars, renew licenses, track visa applications, obtain general information in real-time (from weather, to public transport, to health, etc.), and much more. 
 

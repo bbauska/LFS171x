@@ -2819,12 +2819,12 @@ The healthcare industry has also used DLT to handle online identity management, 
    src="https://user-images.githubusercontent.com/41387907/138567356-a002ee52-de31-4e07-895c-8b0fe1e634c5.png" 
    alt="By The BlockRx Project, retrieved from the Hyperledger Healthcare Working Group, August 22nd, 2017 Meeting"/>
 </p>
-<h5 align="center">By The BlockRx Project, retrieved from the Hyperledger Healthcare Working Group, August 22nd, 2017 Meeting</h5>
+<h5 align="center">By The BlockRx Project, retrieved from the [Hyperledger Healthcare Working Group, August 22nd, 2017 Meeting](https://wiki-archive.hyperledger.org/doku.php?id=groups/healthcare/healthcare-wg-meetings)</h5>
 Another area blockchain is used in healthcare is to protect data from cybercrime. 
 
 Data breaches happen on a daily basis across all industries, and healthcare is no different. 
 
-In fact, 1 in 4 data breaches occur in the healthcare sector, affecting millions of people: more exactly, 1 in 13 patients in the U.S. are affected by breaches. 
+In fact, [1 in 4 data breaches](https://onlinenursing.duq.edu/blog/healthcares-blockchain-security-solution/) occur in the healthcare sector, affecting millions of people: more exactly, 1 in 13 patients in the U.S. are affected by breaches. 
 
 Why is healthcare data so sought after by hackers? 
 
@@ -2833,17 +2833,20 @@ Because it's personal, permanent and detailed: from social security numbers, to 
 **[`^        back to top        ^`](#table-of-contents)**
 
 <h3>Education</h3>
-Blockchain solutions are being successfully implemented across various industries. As the technologies advance, more and more potential use cases arise. Education is one such area that could stand to benefit from distributed ledger technologies:
-
-*   Streamlining verification procedures for academic credentials, thus reducing fraudulent claims and bringing more transparency, ease of use, and speed to this process.
-*   Verifying e-portfolios of digital badges
-*   Securing and sharing student records
-*   Identity management
-*   Sharing security data (from security cameras and sensors, for example) across device networks
-*   Creating learning marketplaces
-*   Records management
-*   Increasing accountability and transparency for charitable school donations
-*   Streamlining the public assistance system for families and students.  
+Blockchain solutions are being successfully implemented across various industries. 
+As the technologies advance, more and more potential use cases arise. 
+Education is one such area that could stand to benefit from distributed ledger technologies:
+<ul>
+<li>Streamlining verification procedures for academic credentials, thus reducing fraudulent claims and bringing more transparency, ease of use, and speed to this process,</li>
+<li>Verifying e-portfolios of digital badges,</li>
+<li>Securing and sharing student records,</li>
+<li>Identity management,</li>
+<li>Sharing security data (from security cameras and sensors, for example) across device networks,</li>
+<li>Creating learning marketplaces,</li>
+<li>Records management,</li>
+<li>Increasing accountability and transparency for charitable school donations,</li>
+<li>Streamlining the public assistance system for families and students.  </li>
+</ul>
     
 You can learn more about the potential advantages of using blockchain solutions for education from the following article: [20 Ways Blockchain Will Transform (Okay, May Improve) Education.](https://www.forbes.com/sites/tomvanderark/2018/08/20/26-ways-blockchain-will-transform-ok-may-improve-education/?sh=2f3d475a4ac9)
 

@@ -883,13 +883,18 @@ The following table offers an at-a-glance view of the main considerations and pr
 </p>
 
 ## <a id="ch1-6"></a>1.6 Hyperledger
-Hyperledger is an open source effort created to advance cross-industry blockchain technologies.
+[Hyperledger](https://www.hyperledger.org/) is an open source effort created to advance cross-industry blockchain technologies.
+
 Hosted by The Linux Foundation, it is a global collaboration of members from various industries, including finance, banking, Internet of Things (IoT), supply chain, manufacturing, healthcare and more.
+
 Hyperledger boasts a host of enterprise-ready solutions.
+
 Hyperledger is about communities of software developers building blockchain frameworks and platforms.
+
 We will take a closer look at some of the current Hyperledger projects in the coming chapters.
+
 "One of the first things people learn when coming to Hyperledger is that Hyperledger isn’t, like its name may imply, a ledger. It is a collection of blockchain technology projects."  
-Dan Middleton, All Are Welcome Here (2018)
+Dan Middleton, [All Are Welcome Here](https://www.hyperledger.org/blog/2018/12/03/all-are-welcome-here) (2018)
 
 <h3>Hyperledger Blockchains: Permissioned or Permissionless?</h3>
 Hyperledger blockchains are generally permissioned blockchains, which means that the parties that join the network are authenticated and authorized to participate on the network. Hyperledger’s main goal is to create enterprise grade, open source, distributed ledger frameworks and code bases to support business use cases.
@@ -2237,13 +2242,38 @@ Provenance is a record of ownership used as a guide to authenticity or quality. 
 <h3># How Provenance Works</h3>
 (by Project Provenance Ltd, used with permission)
 
-How do you, as a consumer, really know that you purchased an authentic item? Why is authenticity important? Some consumers want to make sure that fair trade and fair labor standards are upheld in the products they purchase. Others want to make sure that none of their products have been tested on animals. Still, others are concerned with the use of harmful chemicals during product manufacturing. Those consumers are willing to pay a premium to make sure that they are not funding operations that are not in line with their values. Counterfeit products, however, take advantage of the higher price point a brand that upholds strict standards can command. Their margins are increased over the authentic brand because they cut corners during production.  
-It turns out that counterfeit products are a global problem affecting several industries. For example, the European Union Intellectual Property Office (EUIPO), in collaboration with the International Telecommunication Union (ITU), estimates that $48 billion worth of smartphone sales were lost to phoney phones in 2015 (Karen Gilchrist, cnbc.com, 2017). Also, "the Interprofessional Council of Bordeaux Wine estimates that 30,000 bottles of fake imported wine are sold per hour in China", whereby some estimate half of the wines retailing for more than $35 in China are counterfeit (Pamela Ambler, forbes.com, 2017).
+How do you, as a consumer, really know that you purchased an authentic item?
+
+Why is authenticity important? 
+
+Some consumers want to make sure that fair trade and fair labor standards are upheld in the products they purchase. 
+
+Others want to make sure that none of their products have been tested on animals. 
+
+Still, others are concerned with the use of harmful chemicals during product manufacturing. 
+
+Those consumers are willing to pay a premium to make sure that they are not funding operations that are not in line with their values. 
+
+Counterfeit products, however, take advantage of the higher price point a brand that upholds strict standards can command. 
+
+Their margins are increased over the authentic brand because they cut corners during production.  
+
+It turns out that counterfeit products are a global problem affecting several industries. 
+
+For example, the European Union Intellectual Property Office (EUIPO), in collaboration with the International Telecommunication Union (ITU), estimates that $48 billion worth of smartphone sales were lost to phoney phones in 2015 (Karen Gilchrist, cnbc.com, 2017). 
+
+Also, "the Interprofessional Council of Bordeaux Wine estimates that 30,000 bottles of fake imported wine are sold per hour in China", whereby some estimate half of the wines retailing for more than $35 in China are counterfeit (Pamela Ambler, forbes.com, 2017).
 
 **[`^        back to top        ^`](#table-of-contents)**
 
 <h3>Provenance (Part II)</h3>
-In order to be certain that your product is authentic, you would need either a record of all the transactions for the life of the item, or a trusted third party. Trusted third parties certify the authenticity or quality of an item. They function as a new data layer between data silos, and increase costs of transactions by charging for providing data and certifying products. Some examples of such trusted third parties are the National Organic Program (USDA Organic) for produce, Fair Trade USA for human worker conditions, or the Gemological Laboratory of America (GLA) for jewelry, diamonds, and gemstones. Blockchains can serve the function of these trusted third parties by uniquely identifying products, and certifying their authenticity. Alternatively, these trusted third parties can leverage blockchains by recording their audits and inspections on blockchains. This would reduce the overhead needed to certify products. For example, a manufacturer could prove that its sources also abide by the certification authorities’ standards if those sources are listed on blockchains as having passed all requirements. The timing of the source’s original certification and renewals could be viewed by any interested party.  
+In order to be certain that your product is authentic, you would need either a record of all the transactions for the life of the item, or a trusted third party. 
+
+Trusted third parties certify the authenticity or quality of an item. 
+
+They function as a new data layer between data silos, and increase costs of transactions by charging for providing data and certifying products. 
+
+Some examples of such trusted third parties are the National Organic Program (USDA Organic) for produce, Fair Trade USA for human worker conditions, or the Gemological Laboratory of America (GLA) for jewelry, diamonds, and gemstones. Blockchains can serve the function of these trusted third parties by uniquely identifying products, and certifying their authenticity. Alternatively, these trusted third parties can leverage blockchains by recording their audits and inspections on blockchains. This would reduce the overhead needed to certify products. For example, a manufacturer could prove that its sources also abide by the certification authorities’ standards if those sources are listed on blockchains as having passed all requirements. The timing of the source’s original certification and renewals could be viewed by any interested party.  
 As a consumer reading from a blockchain, you would be able to verify a product’s authenticity by seeing the full chain of custody for an item. Hyperledger frameworks allow consumers to view important data attached to the goods, without necessarily viewing exactly who conducted each transfer down the supply chain line. Therefore, the promise is that you will be assured that the product you are purchasing is an authentic product, without necessarily allowing the public to view your purchasing habits, all leveraging distributed ledger technology.
 
 <h3>Provenance Use Case: Circular</h3>

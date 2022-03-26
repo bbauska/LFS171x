@@ -2615,13 +2615,12 @@ This improved information can aid consumers as they make purchasing decisions.
 <p style="text-align:center;" 
 <img width="66%"
    src="https://user-images.githubusercontent.com/41387907/138575669-26c3feb9-72c2-4a6a-a098-08d39871c89b.png"
-   alt="How Provenance Works"/>
-   </p>
+   alt="How Provenance Works" </p>
 
 <p style="text-align:center;" 
 How Provenance Works
 (by Project Provenance Ltd, used with permission)
-   </p>
+   </>
 
 How do you, as a consumer, really know that you purchased an authentic item?
 

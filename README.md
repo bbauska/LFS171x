@@ -2924,7 +2924,7 @@ And while Dubai has achieved great successes in the past few years, their missio
 
 "Smart technology has firmly established itself as the engine driving the cities of the future, transforming human communities and activities - from the most mundane of tasks to the most complex. 
 
-We are constantly on the lookout for new opportunities to meet representatives from other like-minded organisations who share our vision for a smart, connected future that allows people to enjoy seamless city experiences." (Khaleej Times)
+We are constantly on the lookout for new opportunities to meet representatives from other like-minded organisations who share our vision for a smart, connected future that allows people to enjoy seamless city experiences." [(Khaleej Times)](https://www.khaleejtimes.com/business/smart-dubai-an-engine-driving-the-cities-of-the-future)
 
 Dr. Aisha Bint Butti Bin Bishr, Director General of the Smart Dubai Office
 

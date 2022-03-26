@@ -2687,17 +2687,33 @@ The use of distributed ledger technologies in production across various industri
 **[`^        back to top        ^`](#table-of-contents)**
 
 <h3>The Outlook of Blockchain for Business</h3>
-The 2019 Technology Industry Innovation conducted by KPMG around the adoption of blockchain technologies suggests that 41 percent of businesses are likely to adopt and implement blockchain into their business operations in the next three years. Another important aspect revealed by this survey is that 48 percent of enterprises believe that blockchain will change the way they conduct and manage their business activities in the near future.  
-What areas are expecting significant disruptions due to increased adoption of blockchain technologies? The survey shows that IoT processes are expected to be impacted the most (27%), followed by processes involved in trading (22%), reduced cybersecurity risk (20%), contracts (18%), etc. Industries that are believed to see the greatest blockchain adoption in the near future are financial services, industrial manufacturing and telecommunications.  
-What advantages would businesses have by adopting blockchain technologies? The KPMG survey outlines some of them:
+The [2019 Technology Industry Innovation conducted by KPMG](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/viewer.html?pdfurl=https%3A%2F%2Fassets.kpmg%2Fcontent%2Fdam%2Fkpmg%2Fus%2Fpdf%2F2019%2F02%2Fblockchain-tech-survey-2019-infographic.pdf&clen=284066&chunk=true) around the adoption of blockchain technologies suggests that 41 percent of businesses are likely to adopt and implement blockchain into their business operations in the next three years. 
 
-*   Improved business efficiencies
-*   Product/service differentiation
-*   Increased profitability
-*   Cost reductions
-*   New business insights from incremental data, etc.  
-    Blockchain is viewed as one of the top 10 technologies that will transform businesses over the next three years, and beyond. The 2019 KPMG survey ranked blockchain at number 4, compared to 7 just a year ago. And, according to the Worldwide Semiannual Blockchain Spending Guide (March 2019) from International Data Corporation (IDC), worldwide spending on blockchain-related solutions is expected to reach $2.9 billion in 2019 (an increase of over 88% from the previous year), and $12.4 billion by 2022.  
-    Want to be at the forefront of the blockchain technological innovation? Start assessing your needs to see if blockchain would be a good solution for your business.
+Another important aspect revealed by this survey is that 48 percent of enterprises believe that blockchain will change the way they conduct and manage their business activities in the near future.  
+
+What areas are expecting significant disruptions due to increased adoption of blockchain technologies? 
+
+The survey shows that IoT processes are expected to be impacted the most (27%), followed by processes involved in trading (22%), reduced cybersecurity risk (20%), contracts (18%), etc. 
+
+Industries that are believed to see the greatest blockchain adoption in the near future are financial services, industrial manufacturing and telecommunications.  
+
+What advantages would businesses have by adopting blockchain technologies? 
+
+The KPMG survey outlines some of them:
+<ul>
+<li>Improved business efficiencies,</li>
+<li>Product/service differentiation,</li>
+<li>Increased profitability,</li>
+<li>Cost reductions,</li>
+<li>New business insights from incremental data, etc.  </li>
+</ul>
+Blockchain is viewed as one of the top 10 technologies that will transform businesses over the next three years, and beyond. 
+
+The 2019 KPMG survey ranked blockchain at number 4, compared to 7 just a year ago. 
+
+And, according to the Worldwide Semiannual Blockchain Spending Guide (March 2019) from International Data Corporation (IDC), worldwide spending on blockchain-related solutions is expected to reach $2.9 billion in 2019 (an increase of over 88% from the previous year), and $12.4 billion by 2022.  
+
+Want to be at the forefront of the blockchain technological innovation? Start assessing your needs to see if blockchain would be a good solution for your business.
 
 **[`^        back to top        ^`](#table-of-contents)**
 
@@ -2735,27 +2751,37 @@ And then, over time, start to promulgate that amongst the other partners that yo
 **[`^        back to top        ^`](#table-of-contents)**
 
 <h4>When to Use Blockchain</h4>
-There are certain factors to consider when evaluating blockchain distributed ledger technology for your business. How many participants are in your system? What is the geographical distribution of the participants? What sort of performance requirements do you have? Defining the rules, risks, and responsibilities of each party in your blockchain system is useful as you consider transferring a database to a decentralized environment such as one of the Hyperledger frameworks. Blockchain is best suited for business applications where one or more of the following conditions apply:
+There are certain factors to consider when evaluating blockchain distributed ledger technology for your business. 
 
-*   There is a need for a shared common database
-*   The parties involved with the process have conflicting incentives, or do not have trust among participants
-*   There are multiple parties involved or writers to a database
-*   There are currently trusted third parties involved in the process that facilitate interactions between multiple parties who must trust the third party. This could include escrow services, data feed providers, licensing authorities, or a notary public
-*   Cryptography is currently being used or should be used. Cryptography facilitates data confidentiality, data integrity, authentication, and non-repudiation
-*   Data for a business process is being entered into many different databases along the lifecycle of the process. It is important that this data is consistent across all entities, and/or digitization of such a process is desired
-*   There are uniform rules governing participants in the system
-*   Decision making of the parties is transparent, rather than confidential
-*   There is a need for an objective, immutable history or log of facts for parties’ reference
-*   Transaction frequency does not exceed 10,000 transactions per second.
+How many participants are in your system? 
+
+What is the geographical distribution of the participants? 
+
+What sort of performance requirements do you have? Defining the rules, risks, and responsibilities of each party in your blockchain system is useful as you consider transferring a database to a decentralized environment such as one of the Hyperledger frameworks. 
+
+Blockchain is best suited for business applications where one or more of the following conditions apply:
+<ul>
+<li>There is a need for a shared common database,</li>
+<li>The parties involved with the process have conflicting incentives, or do not have trust among participants,</li>
+<li>There are multiple parties involved or writers to a database,</li>
+<li>There are currently trusted third parties involved in the process that facilitate interactions between multiple parties who must trust the third party. This could include escrow services, data feed providers, licensing authorities, or a notary public,</li>
+<li>Cryptography is currently being used or should be used. Cryptography facilitates data confidentiality, data integrity, authentication, and non-repudiation,</li>
+<li>Data for a business process is being entered into many different databases along the lifecycle of the process. It is important that this data is consistent across all entities, and/or digitization of such a process is desired,</li>
+<li>There are uniform rules governing participants in the system,</li>
+<li>Decision making of the parties is transparent, rather than confidential,</li>
+<li>There is a need for an objective, immutable history or log of facts for parties’ reference,</li>
+<li>Transaction frequency does not exceed 10,000 transactions per second.
+</ul>
 
 <h4>When Not to Use Blockchain</h4>
 Blockchain technology is a powerful tool, but it is not always the right tool for the job at hand. If you are contemplating using blockchain technology, be sure to evaluate the problem fully. The following conditions are not currently well suited to blockchain-based solutions:
-
-*   The process involves confidential data
-*   The process stores a lot of static data, or the data is quite large
-*   Rules of transactions change frequently
-*   The use of external services to gather/store data.  
-    Next, we will discuss in more detail the conditions that are not well suited to blockchain-based solutions.
+<ul>
+<li>The process involves confidential data,</li>
+<li>The process stores a lot of static data, or the data is quite large,</li>
+<li>Rules of transactions change frequently,</li>
+<li>The use of external services to gather/store data.  </li>
+</ul>
+Next, we will discuss in more detail the conditions that are not well suited to blockchain-based solutions.
 
 **[`^        back to top        ^`](#table-of-contents)**
 
@@ -2787,26 +2813,28 @@ For some applications, other options are simply more efficient. When evaluating 
 <p align="center" width="100%">
 <img width="66%"
    src="https://user-images.githubusercontent.com/41387907/138575694-cfe33539-cddc-4dd5-b44f-f8b7519f5264.png"
-   alt="Blockchain decision path"/>
+   alt="Blockchain Decision Path"/>
 </p>
 <p align="center">The above diagram provides generalized, high-level decision points about when to use or not to use blockchain technology for your business.</p>
 
 **[`^        back to top        ^`](#table-of-contents)**
 
 <h4>Hyperledger Community</h4>
-The development of the Hyperledger projects is led by a diverse group of technical, open source contributors. We are always looking for help to build an open source ecosystem of business blockchain technologies. If you are interested in contributing to and learning from the community, we welcome you to join the Hyperledger effort.
+The development of the Hyperledger projects is led by a diverse group of technical, open source contributors. 
+
+We are always looking for help to build an open source ecosystem of business blockchain technologies. If you are interested in contributing to and learning from the community, we welcome you to [join the Hyperledger effort](https://www.hyperledger.org/participate).
 
 <h4>Joining the Hyperledger Community</h4>
 You too can join the Hyperledger Community:
 
 **For developers**  
-Read the Hyperledger code on GitHub. Join the Hyperledger discussion at Rocket.Chat. Search for open bugs, or report a new one in the Hyperledger’s bug database.
+Read the Hyperledger code on [GitHub](https://github.com/hyperledger/hyperledger). Join the Hyperledger discussion at [Rocket.Chat](https://chat.hyperledger.org/home). Search for open bugs, or report a new one in the [Hyperledger’s bug database](https://jira.hyperledger.org/secure/Dashboard.jspa).
 
 **For business leaders**  
-For key updates from Hyperledger, join the mailing list. Explore all Hyperledger business solutions.
+For key updates from Hyperledger, join the [mailing list](https://lists.hyperledger.org/g/main). Explore all [Hyperledger business solutions](https://www.hyperledger.org/use).
 
 **For educators and community leaders**  
-You can start or join a Hyperledger meetup. Development updates from Wiki can be found here.
+You can start or join a [Hyperledger meetup](https://www.meetup.com/pro/hyperledger/). Development updates from Wiki can be found [here](https://wiki.hyperledger.org/).
 
 <!------------------------------------------------------------------------------------------------>
 <!----------------- hyperledger global meetings ---------------->
@@ -2815,9 +2843,8 @@ You can start or join a Hyperledger meetup. Development updates from Wiki can be
 <img width="100%"
    src="https://user-images.githubusercontent.com/41387907/138567410-7039e221-879b-4214-9b21-091947e04495.png" 
    alt="Hyperledger Global Meetups (as of 06/24/2019)"/>
-</p>
 <h5 align="center">Hyperledger Global Meetups (as of 06/24/2019)</h5>
-
+</p>
 **[`^        back to top        ^`](#table-of-contents)**
 
 <h4>Hyperledger Working Groups</h4>
@@ -2844,13 +2871,21 @@ Below, you can see an overview of Hyperledger’s working groups:
 **[`^        back to top        ^`](#table-of-contents)**
 
 <h3>Learning Materials Development Working Group</h3>
-The Hyperledger Learning Materials Development Working Group is focused on developing training materials that aims to expand people's knowledge of Hyperledger and its projects. Members of this group collaborate with other Hyperledger working groups, Hyperledger team members, project maintainers, and volunteers from all over the world to identify training needs, identify strategies and solution to address those needs, and develop training material that targets both technical and non-technical audiences.  
+<p>
+[The Hyperledger Learning Materials Development Working Group](https://wiki.hyperledger.org/display/LMDWG/Learning+Materials+Development+Working+Group) is focused on developing training materials that aims to expand people's knowledge of Hyperledger and its projects. 
+
+Members of this group collaborate with other Hyperledger working groups, Hyperledger team members, project maintainers, and volunteers from all over the world to identify training needs, identify strategies and solution to address those needs, and develop training material that targets both technical and non-technical audiences.  
 
 Among other things, members of this working group support the development of this MOOC by reviewing existing content and contributing new material, suggesting improvements, as well as providing assistance in the course forum when needed.  
 
-If you would like to contribute to Hyperledger projects, you don't have to be a technical guru to do so. There are many ways to help, and working on developing training materials is one of them. Anyone is welcome to join this group to learn more about how to get involved.
+If you would like to contribute to Hyperledger projects, you don't have to be a technical guru to do so. 
 
+There are many ways to help, and working on developing training materials is one of them. 
+
+Anyone is welcome to join this group to learn more about how to get involved.
+</p>
 <h3>Hyperledger Special Interest Groups (SIGs)</h3>
+<p>
 There are also a number of Special Interest Groups in the Hyperledger Community, focused on specific industries. 
 
 You can learn more about these groups and their focus:
@@ -2861,8 +2896,10 @@ You can learn more about these groups and their focus:
 <li>Telecom SIG This group focuses on technical and business-level conversations about blockchain use cases in the Telecom industry.</li>
 <li>Trade Finance SIG This group is focused on DLT and Hyperledger technologies applications to the trade finance uses and needs.</li>
 </ul>
+</p>
 
 <h3>Conclusions</h3>
+<p>
 This concludes the LFS171x "Introduction to Hyperledger Technologies" course! 
 
 We have introduced you to the current Hyperledger frameworks and tools, and we have highlighted some of the business blockchain applications.  
@@ -2872,6 +2909,6 @@ We hope this course inspires you and helps you continue your journey into the bu
 Whether you are an engineer, entrepreneur, developer, educator, or business person, we look forward to seeing what you build, as well as hearing from you in the course forum.  
 
 Good luck to all of you in your future endeavors!
-
+</p>
 **[⬆ back to top](#table-of-contents)**
 **[`^        back to top        ^`](#table-of-contents)**

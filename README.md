@@ -2872,6 +2872,7 @@ Below, you can see an overview of Hyperledger’s working groups:
 
 <h3>Learning Materials Development Working Group</h3>
 <p>
+
 [The Hyperledger Learning Materials Development Working Group](https://wiki.hyperledger.org/display/LMDWG/Learning+Materials+Development+Working+Group) is focused on developing training materials that aims to expand people's knowledge of Hyperledger and its projects. 
 
 Members of this group collaborate with other Hyperledger working groups, Hyperledger team members, project maintainers, and volunteers from all over the world to identify training needs, identify strategies and solution to address those needs, and develop training material that targets both technical and non-technical audiences.  
@@ -2884,8 +2885,10 @@ There are many ways to help, and working on developing training materials is one
 
 Anyone is welcome to join this group to learn more about how to get involved.
 </p>
+
 <h3>Hyperledger Special Interest Groups (SIGs)</h3>
 <p>
+
 There are also a number of Special Interest Groups in the Hyperledger Community, focused on specific industries. 
 
 You can learn more about these groups and their focus:
@@ -2896,10 +2899,12 @@ You can learn more about these groups and their focus:
 <li>Telecom SIG This group focuses on technical and business-level conversations about blockchain use cases in the Telecom industry.</li>
 <li>Trade Finance SIG This group is focused on DLT and Hyperledger technologies applications to the trade finance uses and needs.</li>
 </ul>
+
 </p>
 
 <h3>Conclusions</h3>
 <p>
+
 This concludes the LFS171x "Introduction to Hyperledger Technologies" course! 
 
 We have introduced you to the current Hyperledger frameworks and tools, and we have highlighted some of the business blockchain applications.  
@@ -2910,5 +2915,6 @@ Whether you are an engineer, entrepreneur, developer, educator, or business pers
 
 Good luck to all of you in your future endeavors!
 </p>
+
 **[⬆ back to top](#table-of-contents)**
 **[`^        back to top        ^`](#table-of-contents)**

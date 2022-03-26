@@ -2644,7 +2644,7 @@ And the plan is to bring more mines into the system.
 
 On top of that, Circulor aims to expand the system they built to cover other minerals and countries.  
 
-You can read more about tantalum traceability success story on the Hyperledger website: Circulor achieves first-ever mine-to-manufacturer traceability of a conflict mineral with Hyperledger Fabric.
+You can read more about tantalum traceability success story on the Hyperledger website: [Circulor achieves first-ever mine-to-manufacturer traceability of a conflict mineral with Hyperledger Fabric](https://www.hyperledger.org/learn/publications/tantalum-case-study).
 
 **[`^        back to top        ^`](#table-of-contents)**
 
@@ -2658,7 +2658,7 @@ You can read more about tantalum traceability success story on the Hyperledger w
 The Bitcoin blockchain was created as a ["peer-to-peer electronic cash system" (Satoshi Nakamoto, Bitcoin)](https://bitcoin.org/bitcoin.pdf). 
 Therefore, the first blockchain use case in existence was payments. 
 However, Bitcoin proved to be quite slow to process payments, "somewhere in the region of 7 transactions per second", when compared to Visa, which "averages around 2,000 transactions per second, with peak capacity of perhaps 50,000 transactions per second" ([Guy Brandon, due.com](https://due.com/blog/can-the-blockchain-scale/), February 2017). 
-Developers are actively working to increase the throughput capacity of Bitcoin and other blockchain payment systems (lightning.network). 
+Developers are actively working to increase the throughput capacity of Bitcoin and other blockchain payment systems [(lightning.network)](https://lightning.network/). 
 Payments, especially international payments, can be quite costly. 
 Blockchain technologies plan to decrease the costs associated with payments, by allowing parties to interact directly, instead of transferring through an intermediary, such as a bank. 
 In addition, having a record of all past payments is useful to auditors and regulators. 

@@ -897,7 +897,9 @@ We will take a closer look at some of the current Hyperledger projects in the co
 Dan Middleton, [All Are Welcome Here](https://www.hyperledger.org/blog/2018/12/03/all-are-welcome-here) (2018)
 
 <h3>Hyperledger Blockchains: Permissioned or Permissionless?</h3>
-Hyperledger blockchains are generally permissioned blockchains, which means that the parties that join the network are authenticated and authorized to participate on the network. Hyperledger’s main goal is to create enterprise grade, open source, distributed ledger frameworks and code bases to support business use cases.
+Hyperledger blockchains are generally permissioned blockchains, which means that the parties that join the network are authenticated and authorized to participate on the network. 
+
+Hyperledger’s main goal is to create enterprise grade, open source, distributed ledger frameworks and code bases to support business use cases.
 
 **[`^        back to top        ^`](#table-of-contents)**
 
@@ -943,6 +945,7 @@ Chain Core, created by chain.com, has initially been designed for financial serv
 Their company has strong ties with Visa, Citigroup, and Nasdaq.  
 
 The Corda distributed ledger platform is designed to record, manage, and automate legal agreements between businesses.  
+
 It was created by the R3 company, which is a consortium of over a hundred global financial institutions.  
 
 Quorum is a permissioned implementation of Ethereum, which supports data privacy.  
@@ -952,17 +955,35 @@ Quorum achieves this data privacy through allowing data visibility on need-to-kn
 **[`^        back to top        ^`](#table-of-contents)**
 
 <h3>Chain Core</h3>
-[Chain Core](https://brandpa.com/names/fedchains/landing) is an enterprise permissioned blockchain system that is mostly focused on financial services, like currencies, securities, derivatives, gift cards, and loyalty points. The company partners with clients to launch and operate a network under the client's brand. Thanks to its strategic partnerships with companies such as Capital One, Citigroup, Fiserv, Nasdaq, Orange, Visa, etc., the company raised over $40 million in funding since 2014.  
+
+[Chain Core](https://brandpa.com/names/fedchains/landing) is an enterprise permissioned blockchain system that is mostly focused on financial services, like currencies, securities, derivatives, gift cards, and loyalty points. 
+
+The company partners with clients to launch and operate a network under the client's brand. 
+Thanks to its strategic partnerships with companies such as Capital One, Citigroup, Fiserv, Nasdaq, Orange, Visa, etc., the company raised over $40 million in funding since 2014.  
+
 Within the Chain Core network, the creation and transfer of assets is decentralized. However, as stated in the [2016 Kudelski Security report](https://kudelskisecurity.com/),  
 "the operation of the network is governed by a designated set of entities known as a federation".  
 The platform features the Chain Testnet, which allows decentralized application development on Chain Core, operated by Chain, Microsoft, and the Initiative for Cryptocurrencies and Contracts (IC3).
 
 <h3>Corda</h3>
+
 [R3](https://www.r3.com/about/) is an enterprise blockchain software firm that works with over three hundred members and partners across multiple industries, that seeks to leverage distributed ledger technologies to record, manage, and automate legal agreements between businesses through its software solution, called Corda.  
-Launched in 2016, Corda is an open source distributed ledger platform, which features a blockchain-style P2P network; however, it is not a blockchain platform. Unlike blockchains, which involve global availability of data across the network and third party validators, Corda only allows information access and validation functions to parties actually involved in the transaction. Featuring a different software architecture, "Corda achieves consensus between firms at the level of individual deals, not the level of the system" (Richard Gendal Brown, 2016), while supporting a variety of consensus mechanisms.
+
+Launched in 2016, Corda is an open source distributed ledger platform, which features a blockchain-style P2P network; however, it is not a blockchain platform. 
+
+Unlike blockchains, which involve global availability of data across the network and third party validators, Corda only allows information access and validation functions to parties actually involved in the transaction. 
+
+Featuring a different software architecture, "Corda achieves consensus between firms at the level of individual deals, not the level of the system" (Richard Gendal Brown, 2016), while supporting a variety of consensus mechanisms.
 
 <h3>Quorum</h3>
-Created by JPMorgan, Quorum is, in fact, a fork of the Ethereum public blockchain, which uses a voting-based consensus algorithm to facilitate an enterprise-focused distributed ledger and smart contract platform. Data privacy is achieved within the network by allowing data visibility on a need-to-know basis. This open source blockchain platform is designed to support "both transaction-level privacy and network-wide transparency". The network validates all smart contracts and overall system state through the involvement of all running nodes. As with other permissioned ledgers, regulatory compliance is front and center in the Quorum platform.
+
+Created by JPMorgan, Quorum is, in fact, a fork of the Ethereum public blockchain, which uses a voting-based consensus algorithm to facilitate an enterprise-focused distributed ledger and smart contract platform. 
+
+Data privacy is achieved within the network by allowing data visibility on a need-to-know basis. 
+
+This open source blockchain platform is designed to support "both transaction-level privacy and network-wide transparency". 
+
+The network validates all smart contracts and overall system state through the involvement of all running nodes. As with other permissioned ledgers, regulatory compliance is front and center in the Quorum platform.
 <br/>
 
 **[`^        back to top        ^`](#table-of-contents)**
@@ -972,8 +993,17 @@ Created by JPMorgan, Quorum is, in fact, a fork of the Ethereum public blockchai
 [IOTA](https://www.iota.org/) is an open source permissionless distributed ledger technology that has been around since 2015; it has a cryptocurrency called mIOTA. 
 
 According to [Martin Rosulek](https://medium.com/@MartinRosulek/how-iota-makes-future-for-internet-of-things-af14fd77d2a3), "It is the first cryptocurrency that provides the whole ecosystem based on blockless blockchain" to enable machine-to-machine (M2M) transactions.  
+
 IOTA, however, is more than just a cryptocurrency. Essentially, the platform entails a generalization of the blockchain protocol (the technology called Tangle) that sits at the backend of the IOTA platform. The platform uses a Decentralized Acyclic Graph (DAG) instead of a blockchain to store its ledger.  
-Instead of paying miners to validate the transactions, the architecture of the network involves peer-based validation. We can think of a simple analogy, that of a teacher grading students' homework: the students are the clients/users in the Bitcoin protocol, and the teacher is the miner/validator. Tangle technology asks students (users) to grade each other's homework, making the need for a teacher (external validator) redundant, and avoiding expenses related to the teacher's/validator's work. This allows the platform to be completely free of cost, without facing the scaling challenges that are inherent in the first generation of blockchains.  
+
+Instead of paying miners to validate the transactions, the architecture of the network involves peer-based validation. 
+
+We can think of a simple analogy, that of a teacher grading students' homework: the students are the clients/users in the Bitcoin protocol, and the teacher is the miner/validator. 
+
+Tangle technology asks students (users) to grade each other's homework, making the need for a teacher (external validator) redundant, and avoiding expenses related to the teacher's/validator's work. 
+
+This allows the platform to be completely free of cost, without facing the scaling challenges that are inherent in the first generation of blockchains.  
+
 Additionally, the use of the platform with connected devices or the Internet of Things  
 "enables companies to explore new business-to-business models by making every technological resource a potential service to be traded on an open market in real time, with no fees".
 
@@ -982,7 +1012,12 @@ Additionally, the use of the platform with connected devices or the Internet of 
     IOTA focuses mainly on enabling the emerging Internet of Things (IoT), but also plans to go beyond this, on being the transaction settlement and data integrity layer for the Internet of Everything (IoE).
 
 <h3 id="ch1-8">1.8 Challenges in the Adoption/Deployment of Distributed Ledger Technologies</h3>
-There are a number of challenges to the widespread use of permissioned distributed ledger technologies. Key among them are challenges around the lack of standards, regulatory challenges, and the lack of knowledge about distributed ledger technologies. These challenges are inherent to any new technological infrastructure that replaces an older infrastructure.  
+
+There are a number of challenges to the widespread use of permissioned distributed ledger technologies. 
+
+Key among them are challenges around the lack of standards, regulatory challenges, and the lack of knowledge about distributed ledger technologies. 
+
+These challenges are inherent to any new technological infrastructure that replaces an older infrastructure.  
 
 Other challenges encountered when it comes to the adoption and deployment of distributed ledger technologies are:
 <ul>
@@ -1016,16 +1051,27 @@ As a result, the International Organization for Standardization for Blockchain a
 </p>
 <h3>Regulation</h3>
 <p>
-The lack of regulation around transactions on the blockchain creates an environment of uncertainty for all players. Highly regulated industries like financial services are treading carefully in the DLT space. The Securities and Exchange Commission of the United States has clarified its stance on [Initial Coin Offerings (ICOs) in 2017](https://www.sec.gov/oiea/investor-alerts-and-bulletins/ib_coinofferings). The Chinese government has, in fact, banned all ICOs, while 60 major ICO platforms are being investigated ([Saheli Roy Choudhury](https://www.cnbc.com/2017/09/04/chinese-icos-china-bans-fundraising-through-initial-coin-offerings-report-says.html), 2017).  
-Similarly, there are no regulatory guidelines governing smart contracts, causing much anxiety among various players like lawyers, regulators, programmers, and businesses. The lack of regulatory guidelines, along with a lack of industry standards, exacerbates hindrances to rapid adoption of DLT.
+The lack of regulation around transactions on the blockchain creates an environment of uncertainty for all players. 
+
+Highly regulated industries like financial services are treading carefully in the DLT space. 
+
+The Securities and Exchange Commission of the United States has clarified its stance on [Initial Coin Offerings (ICOs) in 2017](https://www.sec.gov/oiea/investor-alerts-and-bulletins/ib_coinofferings). 
+
+The Chinese government has, in fact, banned all ICOs, while 60 major ICO platforms are being investigated ([Saheli Roy Choudhury](https://www.cnbc.com/2017/09/04/chinese-icos-china-bans-fundraising-through-initial-coin-offerings-report-says.html), 2017).  
+
+Similarly, there are no regulatory guidelines governing smart contracts, causing much anxiety among various players like lawyers, regulators, programmers, and businesses. 
+
+The lack of regulatory guidelines, along with a lack of industry standards, exacerbates hindrances to rapid adoption of DLT.
 </p>
 
 <h3>Lack of Know-How</h3>
-The lack of know-how (and know-whom and know-where) around distributed ledger technologies and the availability of experts in the area is a major challenge in the adoption of distributed ledger technologies. While there has been an exponential increase in the interest around 'blockchain', as indicated in the figure below, there is a huge lag of technical talent in the space. In fact, the origin of this course stems from the need to address this gap in know-how.
+The lack of know-how (and know-whom and know-where) around distributed ledger technologies and the availability of experts in the area is a major challenge in the adoption of distributed ledger technologies. 
+
+While there has been an exponential increase in the interest around 'blockchain', as indicated in the figure below, there is a huge lag of technical talent in the space. In fact, the origin of this course stems from the need to address this gap in know-how.
 
 **[`^        back to top        ^`](#table-of-contents)**
 
-<h3> Blockchain Search Volume
+<h3> Blockchain Search Volume</h3>
 
 Retrieved from https://coin.dance/stats/blockchain on November 6, 2020  
 
@@ -1033,14 +1079,20 @@ Retrieved from https://coin.dance/stats/blockchain on November 6, 2020
 <!----------------- Blockchain Search Volume ---------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-  <img width="50%" src="https://user-images.githubusercontent.com/41387907/138575010-3b9dadc7-51ab-4252-96a4-11d8606e92ca.png"
-       alt="Blockchain Search Volume"</>
+<img width="85%"
+   src="https://user-images.githubusercontent.com/41387907/138575010-3b9dadc7-51ab-4252-96a4-11d8606e92ca.png"
+   alt="Blockchain Search Volume"</>
 </p>
-Jobs in the blockchain development space are among the top 20 fastest growing, and the number of positions available increased [over 200% in 2018](https://www.computerworld.com/article/3277617/the-top-blockchain-jobs-you-need-to-know-about.html) over those available the previous year. However, there is not a large enough pool of qualified blockchain developers, and this is a major concern. The emergence of more and more blockchain training courses and certifications is aiming to slowly close this gap.
+Jobs in the blockchain development space are among the top 20 fastest growing, and the number of positions available increased [over 200% in 2018](https://www.computerworld.com/article/3277617/the-top-blockchain-jobs-you-need-to-know-about.html) over those available the previous year. 
+
+However, there is not a large enough pool of qualified blockchain developers, and this is a major concern. 
+
+The emergence of more and more blockchain training courses and certifications is aiming to slowly close this gap.
 
 **[⬆ back to top](#table-of-contents)**
 
 <h2 id="ch2">Chapter 2 - Introduction to Hyperledger</h2>
+
 This chapter provides an overview of Hyperledger, a collaborative project hosted by The Linux Foundation that is focused on business blockchain technologies. It also provides a brief introduction to the projects advanced under the Hyperledger greenhouse, as of November 2020.
 
 <h3 id="ch2-1">2.1 Intro & Learning Objectives</h3>

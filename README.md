@@ -36,7 +36,7 @@ Armed with better information of the blockchain landscape, this program will hel
 >### 1.4 [**Exploring Permissionless Blockchains**](#ch1-4)
 >### 1.5 [**Consensus Algorithms**](#ch1-5)
 >### 1.6 [**Hyperledger**](#ch1-6)
->### 1.7 [**Other Open Source Permissioned Distributed Ledgers**](#ch1-7)
+>### 1.7 [**Other Open-Source Permissioned Distributed Ledgers**](#ch1-7)
 >### 1.8 [**Challenges in the Adoption/Deployment of Distributed Ledger Technologies**](#ch1-8)
 
 ## 2. [**Introduction to Hyperledger**](#ch2)
@@ -1083,6 +1083,7 @@ Retrieved from https://coin.dance/stats/blockchain on November 6, 2020
    src="https://user-images.githubusercontent.com/41387907/138575010-3b9dadc7-51ab-4252-96a4-11d8606e92ca.png"
    alt="Blockchain Search Volume"</>
 </p>
+
 Jobs in the blockchain development space are among the top 20 fastest growing, and the number of positions available increased [over 200% in 2018](https://www.computerworld.com/article/3277617/the-top-blockchain-jobs-you-need-to-know-about.html) over those available the previous year. 
 
 However, there is not a large enough pool of qualified blockchain developers, and this is a major concern. 
@@ -1093,7 +1094,9 @@ The emergence of more and more blockchain training courses and certifications is
 
 <h2 id="ch2">Chapter 2 - Introduction to Hyperledger</h2>
 
-This chapter provides an overview of Hyperledger, a collaborative project hosted by The Linux Foundation that is focused on business blockchain technologies. It also provides a brief introduction to the projects advanced under the Hyperledger greenhouse, as of November 2020.
+This chapter provides an overview of Hyperledger, a collaborative project hosted by The Linux Foundation that is focused on business blockchain technologies. 
+
+It also provides a brief introduction to the projects advanced under the Hyperledger greenhouse, as of November 2020.
 
 <h3 id="ch2-1">2.1 Intro & Learning Objectives</h3>
 By the end of this chapter, you should be able to:
@@ -1105,7 +1108,7 @@ By the end of this chapter, you should be able to:
 </ul>
 
 <h3>Hyperledger (Navroop Sahdev)</h3>
-Hyperledger is an open source effort created to advance cross-industry blockchain technologies.  
+Hyperledger is an open-source effort created to advance cross-industry blockchain technologies.  
 
 It's a global collaboration hosted by The Linux Foundation that encompasses various industries and organizations worldwide.  
 
@@ -1202,7 +1205,7 @@ Unless all actors use a certain standard, the pace of technological disseminatio
 
 Technological adoption is characterized by network effects, where the costs decrease with the increase in use of a certain technology. 
 
-Since shifting to distributed ledger technology involves significant costs, open source software, communities and ecosystems that develop around these have a significant part to play.
+Since shifting to distributed ledger technology involves significant costs, open-source software, communities and ecosystems that develop around these have a significant part to play.
 
 Now, let's explore the Hyperledger frameworks (as of November 2020)
 </p>
@@ -1217,13 +1220,13 @@ Now, let's explore the Hyperledger frameworks (as of November 2020)
 
 **[`^        back to top        ^`](#table-of-contents)**
 
-<h3>The Importance of Open Source</h3>
+<h3>The Importance of Open-Source</h3>
 <p>
 You had mentioned before how Hyperledger is different from other consortiums because of its focus on creating an open community, not just open sourcing code.  
 
 Can you tell us a little bit about why this is important?  
 
-Open source communities, I believe, live and breathe on not just, you know, reporting bugs or, you know, downloading code, but, actually, live and breathe on true collaboration, on saying not just, you know, "I have a bug and somebody needs to fix it", but, instead, saying "Here's how I'd like to solve this", right? What do people think?  
+Open-source communities, I believe, live and breathe on not just, you know, reporting bugs or, you know, downloading code, but, actually, live and breathe on true collaboration, on saying not just, you know, "I have a bug and somebody needs to fix it", but, instead, saying "Here's how I'd like to solve this", right? What do people think?  
 
 "Here is a design for implementing a new feature." What do people think?  
 
@@ -1233,9 +1236,9 @@ I don't think you have a project like the Linux kernel, which has now been aroun
 
 Why were certain decisions made? What were some ideas that were proposed and, ultimately, found to either be shot down or not really good enough, right, so that we don't end up changing things back and forth, right, we don't end up making mistakes that we could have avoided before or learning from previous...how do we make sure we learn from previous mistakes, right?  
 
-And that's only possible in an open source community if, on top of just releasing code, you're also engaging in the creative process itself, and making that public facing.  
+And that's only possible in an open-source community if, on top of just releasing code, you're also engaging in the creative process itself, and making that public facing.  
 
-And I think, really, we found out over 25 years of open source that that's the best way to build trustworthy software.  
+And I think, really, we found out over 25 years of open-source that that's the best way to build trustworthy software.  
 
 I believe it leads to higher security software and higher quality software, but really, the question is trust.  
 
@@ -1246,7 +1249,7 @@ This will be their system of record, right? So, it's essential that we develop t
 And what I hope is that, through these processes, they can rest assured that, when they pick up Hyperledger, anything, right, that anything will be software that they can trust.
 
 <h3>Open Standards</h3>
-"Only an Open Source, collaborative software development approach can ensure the transparency, longevity, interoperability and support required to bring blockchain technologies forward to mainstream commercial adoption. That is what Hyperledger is about - communities of software developers building blockchain frameworks and platforms".
+"Only an Open-Source, collaborative software development approach can ensure the transparency, longevity, interoperability and support required to bring blockchain technologies forward to mainstream commercial adoption. That is what Hyperledger is about - communities of software developers building blockchain frameworks and platforms".
 
 *   hyperledger.org
     As we learned in Chapter 1: "Discovering Blockchain Technologies", the non-availability of standards in distributed ledger technologies is one of the major hurdles in scaling them. One of Hyperledger's key goals is to facilitate the process of standards formation, not by promoting its own distributed ledger(s), but by providing a space for a variety of standards to co-exist simultaneously:  
@@ -1258,34 +1261,34 @@ And what I hope is that, through these processes, they can rest assured that, wh
 
 **[`^        back to top        ^`](#table-of-contents)**
 
-<h3>Open Source and Open Standards</h3>
+<h3>Open-Source and Open Standards</h3>
 The Enterprise Ethereum Alliance (EEA) and Hyperledger formally joined each other's organizations as Associate Members in October 2018. This strategic partnership aims to grow the blockchain ecosystem by enabling "active and mutual cross-community collaboration through event participation, connecting with other members, and finding ways for our respective efforts to be complementary and compatible."
 
 *   EEA promotes the development of specifications and standards for enterprise blockchain networks
-*   Hyperledger advances the development of open source software for establishing, managing and connecting enterprise blockchain networks.  
+*   Hyperledger advances the development of open-source software for establishing, managing and connecting enterprise blockchain networks.  
     This announcement came as a confirmation of an already fruitful collaboration between the two organizations; some examples of this collaboration:
 *   Hyperledger Burrow is an implementation of the Ethereum Virtual Machine (EVM) bytecode interpreter
 *   Hyperledger Sawtooth support for the EVM as a transaction processor (Seth)
 *   Hyperledger Fabric support for the EVM
 *   The existence of an EEA working group on Trusted Execution Environments, along with a prototype implementation of the proposed standards, Private Data Objects, built as a lab at Hyperledger.  
-    "...simultaneously developing community-driven open standards and production-quality open source reference implementations is a best practice of Internet-scale software development work."  
-    While working together, the two organizations will also continue to collaborate with other standard bodies and open source communities, all with the common goal of accelerating the adoption of enterprise blockchain technologies.
+    "...simultaneously developing community-driven open standards and production-quality open-source reference implementations is a best practice of Internet-scale software development work."  
+    While working together, the two organizations will also continue to collaborate with other standard bodies and open-source communities, all with the common goal of accelerating the adoption of enterprise blockchain technologies.
 
 **[`^        back to top        ^`](#table-of-contents)**
 
-<h3>Open Source and Open Governance</h3>
+<h3>Open-Source and Open Governance</h3>
 <p>
-"Today, most people understand the concept of Open Source. What many people don't get, and something we here at Hyperledger and The Linux Foundation pride ourselves on doing well, is Open Governance".
+"Today, most people understand the concept of Open-Source. What many people don't get, and something we here at Hyperledger and The Linux Foundation pride ourselves on doing well, is Open Governance".
 
 *   hyperledger.org  
-    Open source software is software that is made freely available and may be redistributed and modified. In other words, anyone has the ability to view the code, use the code, copy the code, change the code, and, depending on the open source license, contribute back changes.  
-    Open governance means that technical decisions for an open source project are made by a group of community-elected developers drawn from a pool of active participants. These decisions include things such as which features to add, how, and when to add them.  
+    Open-source software is software that is made freely available and may be redistributed and modified. In other words, anyone has the ability to view the code, use the code, copy the code, change the code, and, depending on the open source license, contribute back changes.  
+    Open governance means that technical decisions for an open-source project are made by a group of community-elected developers drawn from a pool of active participants. These decisions include things such as which features to add, how, and when to add them.  
     To learn more about the specifics of Hyperledger's open governance read the following article "ABCs of Open Governance".  
     Software Governance of the Hyperledger Projects (Brian Behlendorf)
 
 How does the software governance of all of the Hyperledger projects work?  
 
-In open source projects you do... it's not a free-for-all, right? It's not just everybody throwing in every line of code, hoping that what, you know, it sticks to the wall, and that everything is fine, right?  
+In open-source projects you do... it's not a free-for-all, right? It's not just everybody throwing in every line of code, hoping that what, you know, it sticks to the wall, and that everything is fine, right?  
 
 There actually is a development process that involves decision-making about what comes in and what doesn't, right?  
 
@@ -1339,12 +1342,12 @@ and it's the role of the Technical Steering Committee, and a bunch of other comm
 
 <h3>Strength Through Diversity</h3>
 As you familiarize yourself more with Hyperledger and the blockchain technologies it fosters in its greenhouse, you will notice the similarities between some of its projects, but most importantly, what differentiates them from one another and the use cases they were designed to address. The idea behind this approach was and continues to be that there is no one solution to address the myriad of needs, requirements and use cases.  
-"Having a portfolio of projects, though, enables us to have the variety of ideas and contributors to become a strong open source community... It's not that our multiplicity of projects has given us strength through numbers, but rather strength through diversity."  
+"Having a portfolio of projects, though, enables us to have the variety of ideas and contributors to become a strong open-source community... It's not that our multiplicity of projects has given us strength through numbers, but rather strength through diversity."  
 Dan Middleton, All Are Welcome Here (2018)
 
 **[`^        back to top        ^`](#table-of-contents)**
 
-<h3 id="ch1-7">1.7 Other Open Source Permissioned Distributed Ledgers (David Huseby)</h3>
+<h3 id="ch1-7">1.7 Other Open-Source Permissioned Distributed Ledgers (David Huseby)</h3>
 <p>
 Security with distributed ledgers really begins here at Hyperledger with our culture of secure software development.  
 
@@ -1401,10 +1404,10 @@ The enterprise continues to be at the heart of this course.
 Why Businesses Choose to Use Hyperledger? (Brian Behlendorf)
 
 And, as a follow-up, why are businesses choosing to use Hyperledger over other distributed ledger technologies?  
-So, companies, when they decide what open source technologies to use, right, they should evaluate an open source project based on a number of factors,  
+So, companies, when they decide what open-source technologies to use, right, they should evaluate an open-source project based on a number of factors,  
 not just, you know, is the code available, does it run, how mature is it, right, have they released a 1.0, and a 1.1, and a 1.2...  
 You want to see a kind of a regular stream of these things.  
-We also believe companies make decisions... I believe companies make decisions about what open source technologies to choose based on the health of the community, right?  
+We also believe companies make decisions... I believe companies make decisions about what open-source technologies to choose based on the health of the community, right?  
 And how many other companies are embedding this technology inside of their own solutions, right, inside of other products and services, how many people out there are using it... that sort of thing.  
 And so, at Hyperledger, what we're trying to do is not just build a very healthy developer ecosystem around our technologies.  
 We also do a lot to try to talk with our members and others who are using Fabric, or using Hyperledger Sawtooth, or these other technologies, to understand where are they using it and what's the value that they're getting from it.  
@@ -1419,7 +1422,7 @@ And hopefully, become contributors to them, as well.
 **[`^        back to top        ^`](#table-of-contents)**
 
 <h3>Hyperledger, A Greenhouse for Blockchain Projects</h3>
-Welcome to the Hyperledger greenhouse: an incubator for open source blockchain technologies for business hosted by the Linux Foundation.  
+Welcome to the Hyperledger greenhouse: an incubator for open-source blockchain technologies for business hosted by the Linux Foundation.  
 
 What does that mean exactly?  
 
@@ -1448,20 +1451,20 @@ Ideally, they would all be able to interoperate due to certain common properties
 
 At Hyperledger, we're growing many different kinds of ledger technologies.  
 
-Here, you'll find communities of software developers working together to propel open source blockchain frameworks and tools into the future to deployment and adoption.  
+Here, you'll find communities of software developers working together to propel open-source blockchain frameworks and tools into the future to deployment and adoption.  
 
-Businesses with strict blockchain requirements trust Hyperledger because it's hosted by the Linux Foundation, and its projects are developed by an open source community.  
+Businesses with strict blockchain requirements trust Hyperledger because it's hosted by the Linux Foundation, and its projects are developed by an open-source community.  
 
 Developers can collaborate on a global level across company and industry lines to create innovative, modular, open source components and platforms.  
 
-It's this open source approach that allows for the kind of transparency, longevity, collaboration, community, and, of course, security that blockchain needs to become more mainstream, which is what Hyperledger is all about.  
+It's this open-source approach that allows for the kind of transparency, longevity, collaboration, community, and, of course, security that blockchain needs to become more mainstream, which is what Hyperledger is all about.  
 
 Hyperledger projects are meant to help you focus on developing your business solutions and feel confident that the legal, technical and organizational infrastructure is in place,  
 thanks to Hyperledger and the Linux Foundation.  
 
-These are all open source projects, and anyone is welcome to pick them up and use them, no fee or permission required. 
+These are all open-source projects, and anyone is welcome to pick them up and use them, no fee or permission required. 
  
-Of course, this only represents a fraction of what open source blockchain technologies can do now and in the future.  
+Of course, this only represents a fraction of what open-source blockchain technologies can do now and in the future.  
 
 It's time to ask yourself: who will you trust with your trust network?
 
@@ -1470,12 +1473,12 @@ It's time to ask yourself: who will you trust with your trust network?
 <h3>Project Lifecycle and Hyperledger Incubator</h3>
 According to the Hyperledger documentation, a <b>project</b> refers to a collaborative endeavor to deliver a work item. Projects can vary in terms of scope: some are intended to produce a document, some may develop new capabilities or refactor/remove an existing capability.  
 
-In general, open source initiatives use an incubation process for new work items: this allows members of the community to contribute new ideas and code in a more structured and transparent workflow. 
+In general, open-source initiatives use an incubation process for new work items: this allows members of the community to contribute new ideas and code in a more structured and transparent workflow. 
 
 Hyperledger has adopted a rigorous project lifecycle process that has six possible states:
 <ul>
 <li><b>Proposal</b></li>
-    If an open source initiative wants to be hosted under the Hyperledger greenhouse, a proposal is submitted to the TSC for review. The proposal must have a clear description and a well-defined scope, must identify the development resources that are committed to the project, as well as the initial maintainers, and must be vendor neutral.
+    If an open-source initiative wants to be hosted under the Hyperledger greenhouse, a proposal is submitted to the TSC for review. The proposal must have a clear description and a well-defined scope, must identify the development resources that are committed to the project, as well as the initial maintainers, and must be vendor neutral.
 <li><b>Incubation</b></li>
     Once a project proposal is approved, it enters the Incubation phase, and the community has a chance to explore different idea related to the project. When a project reaches a mature-enough stage and qualifies to be declared Active, the maintainers will vote to submit a graduation review request to the TSC. All projects ready to graduate from Incubation must have a fully functional code base, test coverage commensurate with other Active projects, an active and diverse community of developers, and a history of releases that follow the Active release process. A project in the Incubation stage is not guaranteed to eventually graduate - some projects never get to Active state.
 <li><b>Active</b></li>
@@ -1513,7 +1516,7 @@ The other projects are still working through the process, and the goal is to get
 Currently, the Hyperledger Project Lifecycle is a very rigorous process that includes 6 possible states. For a project to join the Hyperledger Greenhouse, it must have a certain degree of maturity even in the early proposal and incubation stages.  
 
 <blockquote>
-Hyperledger Labs provides a space where work can easily be started without the creation of an official Hyperledger project. Developers working on projects that are immature (incomplete code, not ready from a production-quality point of view, with small communities) or experimental will thus get the opportunity to work in a space suitable for innovation and testing of new ideas; moreover, they will work within a legal framework that would ease the transition to the Hyperledger Incubator (if the project matures enough and reaches that stage). Hyperledger Labs have similarities with the Apache Labs and the W3C Community Groups.  
+[Hyperledger Labs](https://www.hyperledger.org/participate/labs) provides a space where work can easily be started without the creation of an official Hyperledger project. Developers working on projects that are immature (incomplete code, not ready from a production-quality point of view, with small communities) or experimental will thus get the opportunity to work in a space suitable for innovation and testing of new ideas; moreover, they will work within a legal framework that would ease the transition to the Hyperledger Incubator (if the project matures enough and reaches that stage). Hyperledger Labs have similarities with the Apache Labs and the W3C Community Groups.  
 </blockquote>
 
 There is a specific process that must be followed when proposing a new lab. Labs that become dormant or unresponsive for 6 months or more, or are deemed deprecated or obsoleted by their committers are archived.
@@ -1523,36 +1526,36 @@ Before diving deeper into the projects advanced under the Hyperledger umbrella, 
 
 **[`^        back to top        ^`](#table-of-contents)**
 
-<h3>Reasons Why Developers Would Become Interested in Open Source Software</h3>
+<h3>Reasons Why Developers Would Become Interested in Open-Source Software</h3>
 So, many of the students taking this course are more familiar with working with Devs within the same room.  
-But why do you think developers would be excited in becoming involved with open source projects, such as Hyperledger?  
-Well, open source software represents, generally, the largest software development classroom ever, right?  
+But why do you think developers would be excited in becoming involved with open-source projects, such as Hyperledger?  
+Well, open-source software represents, generally, the largest software development classroom ever, right?  
 When I was learning about software development as an undergraduate at the University of California at Berkeley,  
 I was taking classes, you know, I was learning kind of the formal bits about, you know, data structures and algorithms,  
 but the biggest education came from sitting on development mailing lists around the standards around HTTP and HTML,  
-and, eventually, the software development mailing lists and open source communities for the early days of the web.  
+and, eventually, the software development mailing lists and open-source communities for the early days of the web.  
 And seeing, really, how software gets built, right, what are the trade-offs, what are the negotiations, the back-and-forths, the messiness of software development,  
 which doesn't look that different than, say, how Congress, you know, works on the bills sometimes, right?  
 Sometimes, it can be, you know, not very pretty, but you realize that software engineering is as much a technical pursuit, as it is a social pursuit.  
-And, in open source projects, I think we've figured out how do we have technical differences of opinion and work through them,  
+And, in open-source projects, I think we've figured out how do we have technical differences of opinion and work through them,  
 how do we create the best software, the software with the greatest longevity, right? why should we document our code...  
 Well, it's because we don't want to have to answer silly questions from the next person trying to understand what we wrote, right?  
-So, all of this is a really great education, I think, in understanding how to write higher quality code, whether that ends up being open source code or not...  
-That's one reason, I think, for developers to participate in open source projects, whether at Hyperledger or any place else.  
-The other is that open source projects are a really good way for you, as a software engineer, to understand what are the kinds of companies I want to work for, right?  
-The ones that are actively involved in open source projects, right?  
+So, all of this is a really great education, I think, in understanding how to write higher quality code, whether that ends up being open-source code or not...  
+That's one reason, I think, for developers to participate in open-source projects, whether at Hyperledger or any place else.  
+The other is that open-source projects are a really good way for you, as a software engineer, to understand what are the kinds of companies I want to work for, right?  
+The ones that are actively involved in open-source projects, right?  
 How do I get to know people at those companies, right? And also, make them aware of my own skills, right?  
 And start to develop my own public history of my contributions.  
 These days, if you're a software engineer, if you're a software engineer and you're applying to any place interesting, they're going to look at your GitHub repository, right?  
-They're going to want to know about your history of contributions to open source projects as a way to evaluate your skills,  
+They're going to want to know about your history of contributions to open-source projects as a way to evaluate your skills,  
 and not just technical, but also your communication skills, your collaboration skills...  
-So, all of that means working on open source projects can be tremendously beneficial to your own ongoing education, as well as your ability to build your career.
+So, all of that means working on open-source projects can be tremendously beneficial to your own ongoing education, as well as your ability to build your career.
 
 **[`^        back to top        ^`](#table-of-contents)**
 
 <h3>Hyperledger vs. Apache</h3>
 While at Apache, you were able to successfully build an open software developer community.
-What are some similarities and differences between Hyperledger and Apache in its evolution as an open source project?
+What are some similarities and differences between Hyperledger and Apache in its evolution as an open-source project?
 Right... Well, on the Apache web server project, which later became the Apache Software Foundation, a lot of what happened was due to luck, was due to inheriting a tradition that had been established since the beginning of the internet, of technologists working together on common standards and common code.
 
 And so, there was kind of a DNA that was built-in and, you know, the web was not that complicated at that point in time, either.
@@ -1661,7 +1664,7 @@ Now, let's explore the Hyperledger frameworks (as of November 2020)!
   alt="Hyperledger Besu"</>
 </p>
 
-**Hyperledger Besu** is an open source Ethereum client developed under the Apache 2.0 license and written in Java. It can be run on the Ethereum public network or on private permissioned networks, as well as test networks such as Rinkeby, Ropsten, and Görli. Hyperledger Besu includes several consensus algorithms including PoW, PoA, and IBFT, and has comprehensive permissioning schemes designed specifically for uses in a consortium environment. Hyperledger Besu joined the Hyperledger Incubator in August 2019; PegaSys has been its primary contributor and maintainer since its launch in November 2018, when it was known as Pantheon.  
+**Hyperledger Besu** is an open-source Ethereum client developed under the Apache 2.0 license and written in Java. It can be run on the Ethereum public network or on private permissioned networks, as well as test networks such as Rinkeby, Ropsten, and Görli. Hyperledger Besu includes several consensus algorithms including PoW, PoA, and IBFT, and has comprehensive permissioning schemes designed specifically for uses in a consortium environment. Hyperledger Besu joined the Hyperledger Incubator in August 2019; PegaSys has been its primary contributor and maintainer since its launch in November 2018, when it was known as Pantheon.  
 Among its features:
 
 *   Implements the Enterprise Ethereum Alliance (EEA) specification
@@ -1685,8 +1688,8 @@ Among its features:
   <img width="50%" src="https://user-images.githubusercontent.com/41387907/138575472-9d1aec50-3591-4324-9f5c-0973a32809dc.png"
        alt="Hyperledger Burrow"</>
 </p>
-Welcome to the Hyperledger greenhouse, an open source consortium for developing business blockchain technologies hosted by the Linux Foundation.  
-Within the greenhouse, diverse global communities collaboratively develop open source projects that uniquely approach enterprise blockchain challenges.  
+Welcome to the Hyperledger greenhouse, an open-source consortium for developing business blockchain technologies hosted by the Linux Foundation.  
+Within the greenhouse, diverse global communities collaboratively develop open-source projects that uniquely approach enterprise blockchain challenges.  
 These technologies can cross-pollinate and interoperate, just like how the community is driving the projects, collaborate in an open and neutral environment.  
 Hyperledger Burrow is a modular blockchain framework in the Hyperledger greenhouse, with a permissioned smart contract interpreter, developed partly to the specifications of the Ethereum Virtual Machine.  
 Smart contracts provide the base functionality and computational muscle within blockchain networks.  
@@ -1719,8 +1722,8 @@ Hyperledger Burrow components are:
   <img width="50%" src="https://user-images.githubusercontent.com/41387907/138575480-0a337383-2046-4aeb-ac95-e68e3ab29e36.png"
        alt="Hyperledger Fabric"</>
 </p>
-Welcome to the Hyperledger greenhouse, an open source consortium for developing business blockchain technologies hosted by the Linux Foundation.  
-Within the greenhouse, diverse global communities collaboratively develop open source projects that uniquely approach enterprise blockchain challenges.  
+Welcome to the Hyperledger greenhouse, an open-source consortium for developing business blockchain technologies hosted by the Linux Foundation.  
+Within the greenhouse, diverse global communities collaboratively develop open-source projects that uniquely approach enterprise blockchain challenges.  
 These technologies can cross-pollinate and interoperate, just like how the community is driving the projects collaborate in an open and neutral environment.  
 Hyperledger Fabric is an enterprise-grade, permissioned distributed ledger platform in the Hyperledger greenhouse that offers modularity and versatility for a broad set of industry use cases.  
 The modular architecture for Fabric accommodates the diversity of enterprise use cases through plug-and-play components, such as consensus, privacy, and membership services.  
@@ -1734,7 +1737,7 @@ This architecture allows for solutions developed with Fabric to be adapted for a
 Get started with Hyperledger Fabric today by downloading the source code, accessing the documentation, and joining our community from our website:  
 hyperledger.org.
 
-Hyperledger Fabric is an open source, production ready, permissioned blockchain framework implementation that was designed to serve as a foundation for developing applications or solutions with a modular architecture. It was the first proposal for a codebase (2016), combining previous work done by Digital Asset Holdings, Blockstream's libconsensus, and IBM's OpenBlockchain. It graduated from the Hyperledger Incubator in March of 2017.  
+Hyperledger Fabric is an open-source, production ready, permissioned blockchain framework implementation that was designed to serve as a foundation for developing applications or solutions with a modular architecture. It was the first proposal for a codebase (2016), combining previous work done by Digital Asset Holdings, Blockstream's libconsensus, and IBM's OpenBlockchain. It graduated from the Hyperledger Incubator in March of 2017.  
 Key characteristics of Hyperledger Fabric are:
 <ul>
 <li>High-performance, secure, permissioned blockchain network,</li>
@@ -1754,8 +1757,8 @@ Its modular architecture allows components such as consensus and membership serv
        alt="Hyperledger Indy"</>
 </p>
 <p>
-Welcome to the Hyperledger greenhouse, an open source consortium for developing business blockchain technologies hosted by the Linux Foundation.  
-Within the greenhouse, diverse global communities collaboratively develop open source projects that uniquely approach enterprise blockchain challenges.  
+Welcome to the Hyperledger greenhouse, an open-source consortium for developing business blockchain technologies hosted by the Linux Foundation.  
+Within the greenhouse, diverse global communities collaboratively develop open-source projects that uniquely approach enterprise blockchain challenges.  
 These technologies can cross-pollinate and interoperate, just like how the community is driving the projects, collaborate in an open and neutral environment.  
 Hyperledger Indy, one of the frameworks in the Hyperledger greenhouse, is a distributed ledger that provides tools, libraries,and reusable components for creating and using independent decentralized identities.  
 
@@ -1813,9 +1816,9 @@ One of the key principles of Hyperledger Indy is its "privacy by design" approac
   <img width="50%" src="https://user-images.githubusercontent.com/41387907/138575523-62fc4933-7ada-4d3b-adc6-e48b7144058b.png"
        alt="Hyperledger Iroha"</>
 </p>
-Welcome to the Hyperledger greenhouse, an open source consortium for developing business blockchain technologies hosted by the Linux Foundation.  
+Welcome to the Hyperledger greenhouse, an open-source consortium for developing business blockchain technologies hosted by the Linux Foundation.  
 
-Within the greenhouse, diverse global communities collaboratively develop open source projects that uniquely approach enterprise blockchain challenges.  
+Within the greenhouse, diverse global communities collaboratively develop open-source projects that uniquely approach enterprise blockchain challenges.  
 
 These technologies can cross-pollinate and interoperate, just like how the community is driving the projects collaborate in an open and neutral environment.  
 
@@ -1850,7 +1853,7 @@ you don't need to be a blockchain guru to incorporate Iroha into your business.
 Get started with Hyperledger Iroha today by downloading the source code, accessing thedocumentation and joining our community from our website:  
 hyperledger.org.  
 
-Hyperledger Iroha is a free, open source blockchain framework contributed by Soramitsu, Hitachi, NTT Data, and Colu (2016). Hyperledger Iroha is a simple blockchain platform that can be used to make trusted, secure, and fast applications that leverage the power of permission-based blockchain with Byzantine fault-tolerant consensus. 
+Hyperledger Iroha is a free, open-source blockchain framework contributed by Soramitsu, Hitachi, NTT Data, and Colu (2016). Hyperledger Iroha is a simple blockchain platform that can be used to make trusted, secure, and fast applications that leverage the power of permission-based blockchain with Byzantine fault-tolerant consensus. 
 Among its key features are:
 <ul>
 <li>Simple deployment and maintenance,</li>
@@ -1875,8 +1878,8 @@ Hyperledger Iroha is an active project, and reached a significant milestone in M
   <img width="50%" src="https://user-images.githubusercontent.com/41387907/138575534-bf8c8a84-4c23-472c-9e07-6668e789540f.png"
        alt="Hyperledger Sawtooth"</>
 </p>
-Welcome to the Hyperledger greenhouse, an open source consortium for developing business blockchain technologies hosted by the Linux Foundation.  
-Within the greenhouse, diverse global communities collaboratively develop open source projects that uniquely approach enterprise blockchain challenges.  
+Welcome to the Hyperledger greenhouse, an open-source consortium for developing business blockchain technologies hosted by the Linux Foundation.  
+Within the greenhouse, diverse global communities collaboratively develop open-source projects that uniquely approach enterprise blockchain challenges.  
 
 These technologies can cross-pollinate and interoperate, just like how the community is driving the projects collaborate in an open and neutral environment.  
 
@@ -1906,7 +1909,7 @@ your internal systems can make use of all the data managed on the Sawtooth block
 Get started with Hyperledger Sawtooth today by downloading the source code, accessing the documentation and joining our community from our website:  
 hyperledger.org.  
 
-Hyperledger Sawtooth, is an open source blockchain framework that utilizes a highly modular platform for building, deploying, and running distributed ledger applications and networks, making smart contracts safe, particularly for enterprise use. It was originally contributed by Intel and joined the Hyperledger greenhouse in April of 2016. In May of 2018 it graduated from the Hyperledger Incubator.
+Hyperledger Sawtooth, is an open-source blockchain framework that utilizes a highly modular platform for building, deploying, and running distributed ledger applications and networks, making smart contracts safe, particularly for enterprise use. It was originally contributed by Intel and joined the Hyperledger greenhouse in April of 2016. In May of 2018 it graduated from the Hyperledger Incubator.
 
 Some of its key characteristics are:
 <ul>
@@ -2035,7 +2038,7 @@ You can learn more about Hyperledger Avalon from Eugene (Yevgeniy) Yarmosh's An 
   <img width="50%" src="https://user-images.githubusercontent.com/41387907/138575562-8b06ea63-6d50-4116-b292-2c26882da1ff.png"
        alt="Hyperledger Cactus"</>
 </p>
-Hyperledger Cactus is an open source project jointly contributed by Accenture and Fujitsu; it joined the Hyperledger Greenhouse in May 2020. 
+Hyperledger Cactus is an open-source project jointly contributed by Accenture and Fujitsu; it joined the Hyperledger Greenhouse in May 2020. 
 
 Formerly known as the Blockchain Integration Framework, this blockchain integration tool aims to provide decentralized, secure and adaptable integration between blockchain networks. 
 
@@ -2057,9 +2060,9 @@ To learn more about Hyperledger Cactus, you can watch Peter Somogyvari's Hyperle
        alt="Hyperledger Caliper"</>
 </p>
 
-Welcome to the Hyperledger greenhouse, an open source consortium for developing business blockchain technologies hosted by the Linux Foundation.  
+Welcome to the Hyperledger greenhouse, an open-source consortium for developing business blockchain technologies hosted by the Linux Foundation.  
 
-Within the greenhouse, diverse global communities collaboratively develop open source projects that uniquely approach enterprise blockchain challenges.  
+Within the greenhouse, diverse global communities collaboratively develop open-source projects that uniquely approach enterprise blockchain challenges.  
 
 These technologies can cross-pollinate and interoperate, just like how the community is driving the projects collaborate in an open and neutral environment.  
 
@@ -2145,7 +2148,7 @@ Some key features are:
   <img width="50%" src="https://user-images.githubusercontent.com/41387907/138575604-de11d640-967d-486a-8ddf-b302785cfdb0.png"
        alt="Hyperledger Explorer"</>
 </p>
-Hyperledger Explorer is a simple, but powerful open source tool for visualizing blockchain operations. 
+Hyperledger Explorer is a simple, but powerful open-source tool for visualizing blockchain operations. 
 
 It is the first tool to examine permissioned ledgers, allowing anyone to explore the distributed ledger projects being created by Hyperledger's members from the inside, without compromising their privacy. 
 
@@ -2189,7 +2192,7 @@ Hyperledger Aries "provides a shared, reusable, and interoperable tool kit desig
 
 It is infrastructure for blockchain-rooted, peer-to-peer interactions; it's not a blockchain and it's not an application. 
 
-This open source project joined the Hyperledger greenhouse in May 2019 and was initially contributed by developers from the Sovrin Foundation, the Government of British Columbia, and other Indy community developers.
+This open-source project joined the Hyperledger greenhouse in May 2019 and was initially contributed by developers from the Sovrin Foundation, the Government of British Columbia, and other Indy community developers.
 
 Hyperledger Aries is related to both Hyperledger Indy and Hyperledger Ursa (we will talk about this project later in this chapter). 
 
@@ -2213,9 +2216,9 @@ Hyperledger Aries developers aim to eventually have a scalable, searchable stora
   <img width="50%" src="https://user-images.githubusercontent.com/41387907/138575616-4c0479e6-21cc-4e68-a45d-142a8af5c591.png"
        alt="Hyperledger Quilt"</>
 </p>
-Welcome to the Hyperledger greenhouse, an open source consortium for developing business blockchain technologies hosted by the LinuxFoundation.  
+Welcome to the Hyperledger greenhouse, an open-source consortium for developing business blockchain technologies hosted by the LinuxFoundation.  
 
-Within the greenhouse, diverse global communities collaboratively develop open source projects that uniquely approach enterprise blockchain challenges.  
+Within the greenhouse, diverse global communities collaboratively develop open-source projects that uniquely approach enterprise blockchain challenges.  
 
 These technologies can cross pollinate and interoperate just like how the community's driving the projects collaborate in an open and neutral environment.  
 
@@ -2234,7 +2237,7 @@ Long term, Quilt can become a ledger interoperability solution that enables more
 Get started with Hyperledger Quilt today by downloading the source code, accessing the documentation, and joining our community from our website:  
 hyperledger.org.  
 
-Hyperledger Quilt is an open source business blockchain tool that offers interoperability between ledger systems. It is a Java implementation of the Interledger protocol (ILP) (which is primarily a payments protocol designed to transfer value across distributed ledgers and non-distributed ledgers).
+Hyperledger Quilt is an open-source business blockchain tool that offers interoperability between ledger systems. It is a Java implementation of the Interledger protocol (ILP) (which is primarily a payments protocol designed to transfer value across distributed ledgers and non-distributed ledgers).
 
 Among its key characteristics are:
 <ul>
@@ -2283,7 +2286,7 @@ Hyperledger Ursa is a shared cryptographic library that would enable people and 
 
 Rather than having each Hyperledger project implement its own cryptographic protocols, it would be more desirable to collaborate on a shared library - this will simplify cross-platform interoperability and increase modularity for distributed ledger platforms.
 
-In the long run, the goal is for Hyperledger Ursa to provide open source blockchain developers with reliable, secure, easy-to-use, and pluggable cryptographic implementations.
+In the long run, the goal is for Hyperledger Ursa to provide open-source blockchain developers with reliable, secure, easy-to-use, and pluggable cryptographic implementations.
 
 The project was proposed by Fujitsu, The Linux Foundation, Sovrin Foundation, Intel, DFINITY, State Street, IBM, Sai Infratel, and Bitwise, and is currently in incubation (since November 2018).
 
@@ -2341,7 +2344,7 @@ In public blockchains, no central authority or administration is required to exc
 
 The promise of distributed ledger technologies (DLT) to simplify and automate key work functions has many industries taking notice. 
 
-Businesses recognize the efficiency gains from transitioning from closed and proprietary solutions to standard open source capabilities, such as Hyperledger business blockchain technologies. Several common project features of blockchain applications are taking shape as the technology matures.  
+Businesses recognize the efficiency gains from transitioning from closed and proprietary solutions to standard open-source capabilities, such as Hyperledger business blockchain technologies. Several common project features of blockchain applications are taking shape as the technology matures.  
 
 How exactly are businesses using these emerging technologies today? Next, we will explore the state of distributed ledger technologies in actual corporate settings, and how they compare against traditional tools.
 
@@ -2355,11 +2358,11 @@ What should business professionals know about the Hyperledger project?
 Business professionals who should... when they see the word 'hyperledger', right,  
 they should associate that with a set of principles that have to do with the creation of high-quality, trustworthy software, right?  
 
-First of all, they should associate it with open source development practices, they should know that any project that carries the term 'hyperledger', 'hyperledger foobar', 'hyperledger rhubarb', right, that these are projects that have been collaboratively built, that have been vetted by multiple developers working in concert on the technology, that it's as secure as we can make it, because the code is out there.  
+First of all, they should associate it with open-source development practices, they should know that any project that carries the term 'hyperledger', 'hyperledger foobar', 'hyperledger rhubarb', right, that these are projects that have been collaboratively built, that have been vetted by multiple developers working in concert on the technology, that it's as secure as we can make it, because the code is out there.  
 
 We try to hire folks to vet it, but we also... fundamentally, you shouldn't trust software that you can't see the source code to, right?  
 
-That brand association, that trademark should really come to be associated with open source, with security, as well as with a sense of process,  
+That brand association, that trademark should really come to be associated with open-source, with security, as well as with a sense of process,  
 like something that can't just show up one day and become a Hyperledger project.  
 
 The Technical Steering Committee has to approve any new proposed submission, and they have a pretty high bar.  
@@ -2507,7 +2510,7 @@ Then, the hype of blockchain caught their attention.
 
 They looked into various blockchain technologies that could potentially be used to create a traceability system for their supply ecosystem, such as Ethereum, Burrow, Hyperledger Fabric, etc.  
 
-In partnership with IBM, they decided that Hyperledger Fabric was the best fit for their needs (enterprisegrade, permissioned, open source, vendor neutral, modular, plug-and-play). 
+In partnership with IBM, they decided that Hyperledger Fabric was the best fit for their needs (enterprisegrade, permissioned, open-source, vendor neutral, modular, plug-and-play). 
 
 In October 2016, Walmart and IBM announced the two projects they were focusing on: one on tracing the origin of mangoes sold in US Walmart stores, and the other project was focusing on tracing pork sold in its China stores.  
 
@@ -2529,7 +2532,7 @@ Another great example of how blockchain technologies can be a great solution for
 
 Cambio Coffee worked with ScanTrust to implement a traceability system built on top on Hyperledger Sawtooth. 
 
-When ScanTrust decided to implement a blockchain solution to enhance trust, transparency and traceability in the supply chain, they wanted a reliable, proven, open source technology, supported by an active community, and they decided that Hyperledger Sawtooth was the best fit for what they needed, as it is also focused on IoT implementations.  
+When ScanTrust decided to implement a blockchain solution to enhance trust, transparency and traceability in the supply chain, they wanted a reliable, proven, open-source technology, supported by an active community, and they decided that Hyperledger Sawtooth was the best fit for what they needed, as it is also focused on IoT implementations.  
 <blockquote>
 “ScanTrust plans to use the Hyperledger Sawtooth-based solution for other projects. Besides enhancing traceability in the supply chain, the team sees other uses for the technology… A brand could create its own token to incentivize consumers to share data; or it could develop ways to allow consumers to tip the farmer who produced their coffee.”  
 </blockquote>
@@ -2924,7 +2927,7 @@ But this need is not limited to Japan alone - it spans worldwide.
 
 As such, Sony Global Education aims to create a system that will store this siloed data into one system, gathering people's academic and training credentials and then controlling access to this recorded data.  
 
-Sony Global Education decided to use Hyperledger Fabric, as it is a trusted, secure, open source, platform. The solution they designed was already tested successfully. 
+Sony Global Education decided to use Hyperledger Fabric, as it is a trusted, secure, open-source, platform. The solution they designed was already tested successfully. 
 
 Moreover, Sony Global Education is working with the Japanese Ministry of Internal Affairs and Communications to develop a next-generation system for managing digital transcripts based on their tested solution, aiming to secure the authenticity of transcripts and allow them to be safely shared within a trusted network.  
 
@@ -3180,9 +3183,9 @@ Do you need a smart contract or are stored procedures written in an extension of
 **[`^        back to top        ^`](#table-of-contents)**
 
 <h4>Hyperledger Community</h4>
-The development of the Hyperledger projects is led by a diverse group of technical, open source contributors. 
+The development of the Hyperledger projects is led by a diverse group of technical, open-source contributors. 
 
-We are always looking for help to build an open source ecosystem of business blockchain technologies. If you are interested in contributing to and learning from the community, we welcome you to [join the Hyperledger effort](https://www.hyperledger.org/participate).
+We are always looking for help to build an open-source ecosystem of business blockchain technologies. If you are interested in contributing to and learning from the community, we welcome you to [join the Hyperledger effort](https://www.hyperledger.org/participate).
 
 <h4>Joining the Hyperledger Community</h4>
 You too can join the Hyperledger Community:
@@ -3220,7 +3223,7 @@ Below, you can see an overview of Hyperledger’s working groups:
 <li>Identity Working Group  
     This group discusses, researches, and documents ways to capture, store, transmit and use identities on DLT, with a focus on projects under the Hyperledger umbrella.</li>
 <li>Learning Materials Development Working Group  
-    This group is focused on developing open source training material to educate people on Hyperledger and its projects.</li>
+    This group is focused on developing open-source training material to educate people on Hyperledger and its projects.</li>
 <li>Performance and Scale Working Group  
     This group discusses, researches, and identifies key metrics that relate to the performance and scalability of a blockchain and blockchain related technologies.</li>
 <li>Smart Contracts Working Group  

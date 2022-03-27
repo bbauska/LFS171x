@@ -1399,29 +1399,47 @@ We can avoid the over-centralization of industries, and the over-centralization 
 
 <h3>Blockchain for Business</h3>
 The cryptocurrency-based blockchain model, popularized by public blockchains like Bitcoin and Ethereum, currently falls short of fulfilling a host of requirements that many types of organizations would have to fulfill in order to be compliant when using blockchain and distributed ledger technologies - for instance, in the areas of financial services, healthcare, and government.  
-Hyperledger is a unique platform that is developing permissioned distributed ledger frameworks specifically designed for enterprises, including those in industries with strong compliance requirements. Enterprise use cases require capabilities such as scalability and throughput, built-in or interoperable identity modules for the parties involved in a transaction or a network, or even access to regulators who can access all data in the ledger as read-only to ensure compliance. The latter is particularly important because, regardless of the innovation, it has to operate within the current regulatory framework, as well as comply with any new rules that come into place specifically targeted at blockchain technologies.  
-The enterprise continues to be at the heart of this course.  
-Why Businesses Choose to Use Hyperledger? (Brian Behlendorf)
+<p>
+Hyperledger is a unique platform that is developing permissioned distributed ledger frameworks specifically designed for enterprises, including those in industries with strong compliance requirements. 
+Enterprise use cases require capabilities such as scalability and throughput, built-in or interoperable identity modules for the parties involved in a transaction or a network, or even access to regulators who can access all data in the ledger as read-only to ensure compliance. 
+The latter is particularly important because, regardless of the innovation, it has to operate within the current regulatory framework, as well as comply with any new rules that come into place specifically targeted at blockchain technologies.  
 
+The enterprise continues to be at the heart of this course.  
+</p>
+<h4>Why Businesses Choose to Use Hyperledger? (Brian Behlendorf)</h4>
+<p>
 And, as a follow-up, why are businesses choosing to use Hyperledger over other distributed ledger technologies?  
-So, companies, when they decide what open-source technologies to use, right, they should evaluate an open-source project based on a number of factors,  
+
+Companies, when they decide what open-source technologies to use, right, they should evaluate an open-source project based on a number of factors,  
 not just, you know, is the code available, does it run, how mature is it, right, have they released a 1.0, and a 1.1, and a 1.2...  
+
 You want to see a kind of a regular stream of these things.  
+
 We also believe companies make decisions... I believe companies make decisions about what open-source technologies to choose based on the health of the community, right?  
+
 And how many other companies are embedding this technology inside of their own solutions, right, inside of other products and services, how many people out there are using it... that sort of thing.  
-And so, at Hyperledger, what we're trying to do is not just build a very healthy developer ecosystem around our technologies.  
+
+And, at Hyperledger, what we're trying to do is not just build a very healthy developer ecosystem around our technologies.  
+
 We also do a lot to try to talk with our members and others who are using Fabric, or using Hyperledger Sawtooth, or these other technologies, to understand where are they using it and what's the value that they're getting from it.  
+
 And can we talk about that to the outside world, alright, which is hard.  
+
 Sometimes, people don't want to talk about their behind-the-scenes projects, right?  
-But, when we can talk about the application of that in music licensing, or food supply chain projects, alright,  
-and start to talk about kind of a higher level impact that these projects can have, then, that I think gets companies really interested.  
-But, they don't make the decision to jump in, unless they can see that this is not just a piece of code, that this is a movement.  
-So, that's really what we're trying to build, and that's why we believe companies can confidently decide to pull down and start using Hyperledger Fabric, Hyperledger Sawtooth, and any of these projects.  
+
+When we can talk about the application of that in music licensing, or food supply chain projects, alright, and start to talk about kind of a higher level impact that these projects can have, then, that I think gets companies really interested.  
+
+They don't make the decision to jump in, unless they can see that this is not just a piece of code, that this is a movement.  
+
+That's really what we're trying to build, and that's why we believe companies can confidently decide to pull down and start using Hyperledger Fabric, Hyperledger Sawtooth, and any of these projects.  
+
 And hopefully, become contributors to them, as well.
+</p>
 
 **[`^        back to top        ^`](#table-of-contents)**
 
 <h3>Hyperledger, A Greenhouse for Blockchain Projects</h3>
+<p>
 Welcome to the Hyperledger greenhouse: an incubator for open-source blockchain technologies for business hosted by the Linux Foundation.  
 
 What does that mean exactly?  
@@ -1467,6 +1485,7 @@ These are all open-source projects, and anyone is welcome to pick them up and us
 Of course, this only represents a fraction of what open-source blockchain technologies can do now and in the future.  
 
 It's time to ask yourself: who will you trust with your trust network?
+<p>
 
 **[`^        back to top        ^`](#table-of-contents)**
 

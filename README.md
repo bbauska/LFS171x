@@ -1066,14 +1066,12 @@ The lack of regulatory guidelines, along with a lack of industry standards, exac
 
 <h3>Lack of Know-How</h3>
 The lack of know-how (and know-whom and know-where) around distributed ledger technologies and the availability of experts in the area is a major challenge in the adoption of distributed ledger technologies. 
-
-While there has been an exponential increase in the interest around 'blockchain', as indicated in the figure below, there is a huge lag of technical talent in the space. In fact, the origin of this course stems from the need to address this gap in know-how.
+&nbsp;
+While there has been an exponential increase in the interest around 'blockchain', as indicated in the figure below, there is a huge lag of technical talent in the space. 
+&nbsp;
+In fact, the origin of this course stems from the need to address this gap in know-how.
 
 **[`^        back to top        ^`](#table-of-contents)**
-
-<h3> Blockchain Search Volume</h3>
-
-Retrieved from https://coin.dance/stats/blockchain on November 6, 2020  
 
 <!------------------------------------------------------------------------------------------------>
 <!----------------- Blockchain Search Volume ---------------->
@@ -1083,6 +1081,8 @@ Retrieved from https://coin.dance/stats/blockchain on November 6, 2020
    src="https://user-images.githubusercontent.com/41387907/138575010-3b9dadc7-51ab-4252-96a4-11d8606e92ca.png"
    alt="Blockchain Search Volume"</>
 </p>
+<p align="center">Blockchain Search Volume</p><br/>
+<p align="center">Retrieved from https://coin.dance/stats/blockchain on November 6, 2020</p>
 
 Jobs in the blockchain development space are among the top 20 fastest growing, and the number of positions available increased [over 200% in 2018](https://www.computerworld.com/article/3277617/the-top-blockchain-jobs-you-need-to-know-about.html) over those available the previous year. 
 
@@ -1249,20 +1249,27 @@ This will be their system of record, right? So, it's essential that we develop t
 And what I hope is that, through these processes, they can rest assured that, when they pick up Hyperledger, anything, right, that anything will be software that they can trust.
 
 <h3>Open Standards</h3>
-"Only an Open-Source, collaborative software development approach can ensure the transparency, longevity, interoperability and support required to bring blockchain technologies forward to mainstream commercial adoption. That is what Hyperledger is about - communities of software developers building blockchain frameworks and platforms".
+<blockquote>
+"Only an Open-Source, collaborative software development approach can ensure the transparency, longevity, interoperability and support required to bring blockchain technologies forward to mainstream commercial adoption. That is what Hyperledger is about - communities of software developers building blockchain frameworks and platforms".<br/>
+</blockquote>
+[-hyperledger.org](https://www.hyperledger.org/about)
+&nbsp;
 
-*   hyperledger.org
-    As we learned in Chapter 1: "Discovering Blockchain Technologies", the non-availability of standards in distributed ledger technologies is one of the major hurdles in scaling them. One of Hyperledger's key goals is to facilitate the process of standards formation, not by promoting its own distributed ledger(s), but by providing a space for a variety of standards to co-exist simultaneously:  
-    "Rather than declaring a single blockchain standard, it encourages a collaborative approach to developing blockchain technologies via a community process, with intellectual property rights that encourage open development and the adoption of key standards over time".
-*   hyperledger-fabric.readthedocs.io  
-    Hyperledger aims to adhere to "open standards", which means they are  
-    "(...) interoperable through open published interfaces and services".  
-    John Palfreyman, ibm.com
+As we learned in Chapter 1: "Discovering Blockchain Technologies", the non-availability of standards in distributed ledger technologies is one of the major hurdles in scaling them. One of Hyperledger's key goals is to facilitate the process of standards formation, not by promoting its own distributed ledger(s), but by providing a space for a variety of standards to co-exist simultaneously:  
+<blockquote>
+"Rather than declaring a single blockchain standard, it encourages a collaborative approach to developing blockchain technologies via a community process, with intellectual property rights that encourage open development and the adoption of key standards over time".
+</blockquote>
+[-hyperledger-fabric.readthedocs.io](https://hyperledger-fabric.readthedocs.io/en/latest/)
+
+Hyperledger aims to adhere to "open standards", which means they are  </br>
+"(...) interoperable through open published interfaces and services".  </br>
+- John Palfreyman, [ibm.com](https://www.ibm.com/us-en?ar=1)
 
 **[`^        back to top        ^`](#table-of-contents)**
 
 <h3>Open-Source and Open Standards</h3>
-The Enterprise Ethereum Alliance (EEA) and Hyperledger formally joined each other's organizations as Associate Members in October 2018. This strategic partnership aims to grow the blockchain ecosystem by enabling "active and mutual cross-community collaboration through event participation, connecting with other members, and finding ways for our respective efforts to be complementary and compatible."
+
+The [Enterprise Ethereum Alliance (EEA)](https://entethalliance.org/) and [Hyperledger](https://www.hyperledger.org/) formally joined each other's organizations as Associate Members in October 2018. This strategic partnership aims to grow the blockchain ecosystem by enabling "active and mutual cross-community collaboration through event participation, connecting with other members, and finding ways for our respective efforts to be complementary and compatible."
 
 *   EEA promotes the development of specifications and standards for enterprise blockchain networks
 *   Hyperledger advances the development of open-source software for establishing, managing and connecting enterprise blockchain networks.  

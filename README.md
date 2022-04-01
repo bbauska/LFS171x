@@ -2714,7 +2714,7 @@ The trade finance industry can also leverage information visible in a supply cha
 
 In its broadest sense, trade finance manages capital required for international trade. 
 
-Trade financing has become the norm for cross border transactions, with the World Trade Organization estimating that "up to 80 percent of global trade is supported by some sort of financing or credit insurance" (2016). 
+Trade financing has become the norm for cross border transactions, with the [World Trade Organization](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/viewer.html?pdfurl=https%3A%2F%2Fwww.wto.org%2Fenglish%2Fres_e%2Fbooksp_e%2Ftradefinsme_e.pdf&clen=1756802&chunk=true) estimating that "up to 80 percent of global trade is supported by some sort of financing or credit insurance" (2016). 
 
 An exporter needs to mitigate the risk of non-payment, while an importer wants to mitigate the supply risk. 
 

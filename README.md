@@ -969,15 +969,15 @@ The platform features the Chain Testnet, which allows decentralized application 
 
 [R3](https://www.r3.com/about/) is an enterprise blockchain software firm that works with over three hundred members and partners across multiple industries, that seeks to leverage distributed ledger technologies to record, manage, and automate legal agreements between businesses through its software solution, called Corda.  
 
-Launched in 2016, Corda is an open source distributed ledger platform, which features a blockchain-style P2P network; however, it is not a blockchain platform. 
+Launched in 2016, [Corda](https://www.corda.net/) is an open source distributed ledger platform, which features a blockchain-style P2P network; however, it is not a blockchain platform. 
 
 Unlike blockchains, which involve global availability of data across the network and third party validators, Corda only allows information access and validation functions to parties actually involved in the transaction. 
 
-Featuring a different software architecture, "Corda achieves consensus between firms at the level of individual deals, not the level of the system" (Richard Gendal Brown, 2016), while supporting a variety of consensus mechanisms.
+Featuring a different software architecture, "Corda achieves consensus between firms at the level of individual deals, not the level of the system" ([Richard Gendal Brown, 2016](https://gendal.me/2016/04/05/introducing-r3-corda-a-distributed-ledger-designed-for-financial-services/)), while supporting a variety of consensus mechanisms.
 
 <h3>Quorum</h3>
 
-Created by JPMorgan, Quorum is, in fact, a fork of the Ethereum public blockchain, which uses a voting-based consensus algorithm to facilitate an enterprise-focused distributed ledger and smart contract platform. 
+Created by JPMorgan, [Quorum](https://consensys.net/quorum/) is, in fact, a fork of the Ethereum public blockchain, which uses a voting-based consensus algorithm to facilitate an enterprise-focused distributed ledger and smart contract platform. 
 
 Data privacy is achieved within the network by allowing data visibility on a need-to-know basis. 
 
@@ -1007,9 +1007,9 @@ This allows the platform to be completely free of cost, without facing the scali
 Additionally, the use of the platform with connected devices or the Internet of Things  
 "enables companies to explore new business-to-business models by making every technological resource a potential service to be traded on an open market in real time, with no fees".
 
-*   [Roger Aitken](https://www.forbes.com/sites/rogeraitken/2017/06/15/iotas-bitfinex-listing-surges-to-1-5b-record-breaking-crypto-capitalization-on-market-debut/?sh=a0caa6d75a5a), 2017  
+*   [Roger Aitken](https://www.forbes.com/sites/rogeraitken/2017/06/15/iotas-bitfinex-listing-surges-to-1-5b-record-breaking-crypto-capitalization-on-market-debut/?sh=a0caa6d75a5a), 2017<br/>
 
-    IOTA focuses mainly on enabling the emerging Internet of Things (IoT), but also plans to go beyond this, on being the transaction settlement and data integrity layer for the Internet of Everything (IoE).
+IOTA focuses mainly on enabling the emerging Internet of Things (IoT), but also plans to go beyond this, on being the transaction settlement and data integrity layer for the Internet of Everything (IoE).
 
 <h3 id="ch1-8">1.8 Challenges in the Adoption/Deployment of Distributed Ledger Technologies</h3>
 
@@ -1027,7 +1027,8 @@ Other challenges encountered when it comes to the adoption and deployment of dis
 <li>Unproven business case</li>
 <li>Lack of capital to fund new investments</li>
 <li>System complexity and costs.</li>
-  
+</ul>
+
 We hope you go on to address some of these challenges and contribute to building a secure digital future!
 
 **[`^        back to top        ^`](#table-of-contents)**
@@ -1039,7 +1040,7 @@ Standards are key in ensuring interoperability and avoiding risks associated wit
 
 Furthermore, the management of keys, as well as protocols and standards around key loss and theft, will be critical ([Deshpande, Stewart, Lepetit, & Gunashekar, 2017](https://www.bsigroup.com/en-GB/)).  
 
-As a result, the International Organization for Standardization for Blockchain and Distributed Ledger Technologies was established in 2016 and has defined areas for future standardization work (Clare Naden, 2017). More about the ISO/TC 307 technical committee can be found at the ISO/TC 307 website.
+As a result, the International Organization for Standardization for Blockchain and Distributed Ledger Technologies was established in 2016 and has defined areas for future standardization work (Clare Naden, 2017). More about the ISO/TC 307 technical committee can be found at the [ISO/TC 307 website](https://www.iso.org/committee/6266604.html).
 <br/>
 
 <!------------------------------------------------------------------------------------------------>
@@ -1066,9 +1067,9 @@ The lack of regulatory guidelines, along with a lack of industry standards, exac
 
 <h3>Lack of Know-How</h3>
 The lack of know-how (and know-whom and know-where) around distributed ledger technologies and the availability of experts in the area is a major challenge in the adoption of distributed ledger technologies. 
-&nbsp;
+<br/>
 While there has been an exponential increase in the interest around 'blockchain', as indicated in the figure below, there is a huge lag of technical talent in the space. 
-&nbsp;
+<br/>
 In fact, the origin of this course stems from the need to address this gap in know-how.
 
 **[`^        back to top        ^`](#table-of-contents)**
@@ -1081,7 +1082,7 @@ In fact, the origin of this course stems from the need to address this gap in kn
    src="https://user-images.githubusercontent.com/41387907/138575010-3b9dadc7-51ab-4252-96a4-11d8606e92ca.png"
    alt="Blockchain Search Volume"</>
 </p>
-<p align="center">Blockchain Search Volume</p><br/>
+<p align="center">Blockchain Search Volume<br/>
 <p align="center">Retrieved from https://coin.dance/stats/blockchain on November 6, 2020</p>
 
 Jobs in the blockchain development space are among the top 20 fastest growing, and the number of positions available increased [over 200% in 2018](https://www.computerworld.com/article/3277617/the-top-blockchain-jobs-you-need-to-know-about.html) over those available the previous year. 

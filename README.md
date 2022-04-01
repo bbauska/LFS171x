@@ -1256,7 +1256,7 @@ And what I hope is that, through these processes, they can rest assured that, wh
 </blockquote>
 
 - [hyperledger.org](https://www.hyperledger.org/about)
-<br/>
+
 As we learned in Chapter 1: "Discovering Blockchain Technologies", the non-availability of standards in distributed ledger technologies is one of the major hurdles in scaling them. One of Hyperledger's key goals is to facilitate the process of standards formation, not by promoting its own distributed ledger(s), but by providing a space for a variety of standards to co-exist simultaneously:  
 <blockquote>
 "Rather than declaring a single blockchain standard, it encourages a collaborative approach to developing blockchain technologies via a community process, with intellectual property rights that encourage open development and the adoption of key standards over time".
@@ -1374,8 +1374,8 @@ The idea behind this approach was and continues to be that there is no one solut
 It's not that our multiplicity of projects has given us strength through numbers, but rather strength through diversity."  <br/>
 
 Dan Middleton, All Are Welcome Here (2018)<br/>
-
 <br/>
+
 **[`^        back to top        ^`](#table-of-contents)**
 
 <h3 id="ch1-7">1.7 Other Open-Source Permissioned Distributed Ledgers (David Huseby)</h3>

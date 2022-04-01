@@ -1068,9 +1068,11 @@ The lack of regulatory guidelines, along with a lack of industry standards, exac
 <h3>Lack of Know-How</h3>
 The lack of know-how (and know-whom and know-where) around distributed ledger technologies and the availability of experts in the area is a major challenge in the adoption of distributed ledger technologies. 
 <br/>
+
 While there has been an exponential increase in the interest around 'blockchain', as indicated in the figure below, there is a huge lag of technical talent in the space. 
 <br/>
-In fact, the origin of this course stems from the need to address this gap in know-how.
+
+In fact, the origin of this course stems from the need to address this gap in know-how.<br/>
 
 **[`^        back to top        ^`](#table-of-contents)**
 
@@ -1081,7 +1083,6 @@ In fact, the origin of this course stems from the need to address this gap in kn
 <img width="85%"
    src="https://user-images.githubusercontent.com/41387907/138575010-3b9dadc7-51ab-4252-96a4-11d8606e92ca.png"
    alt="Blockchain Search Volume"</>
-</p>
 <p align="center">Blockchain Search Volume<br/>
 <p align="center">Retrieved from https://coin.dance/stats/blockchain on November 6, 2020</p>
 
@@ -1253,36 +1254,40 @@ And what I hope is that, through these processes, they can rest assured that, wh
 <blockquote>
 "Only an Open-Source, collaborative software development approach can ensure the transparency, longevity, interoperability and support required to bring blockchain technologies forward to mainstream commercial adoption. That is what Hyperledger is about - communities of software developers building blockchain frameworks and platforms".<br/>
 </blockquote>
-- [hyperledger.org](https://www.hyperledger.org/about)
-&nbsp;
 
+- [hyperledger.org](https://www.hyperledger.org/about)
+<br/>
 As we learned in Chapter 1: "Discovering Blockchain Technologies", the non-availability of standards in distributed ledger technologies is one of the major hurdles in scaling them. One of Hyperledger's key goals is to facilitate the process of standards formation, not by promoting its own distributed ledger(s), but by providing a space for a variety of standards to co-exist simultaneously:  
 <blockquote>
 "Rather than declaring a single blockchain standard, it encourages a collaborative approach to developing blockchain technologies via a community process, with intellectual property rights that encourage open development and the adoption of key standards over time".
 </blockquote>
+
 - [hyperledger-fabric.readthedocs.io](https://hyperledger-fabric.readthedocs.io/en/latest/)
 
 Hyperledger aims to adhere to "open standards", which means they are  </br>
 "(...) interoperable through open published interfaces and services".  </br>
 - John Palfreyman, [ibm.com](https://www.ibm.com/us-en?ar=1)
-
 <br/>
 
 **[`^        back to top        ^`](#table-of-contents)**
 
 <h3>Open-Source and Open Standards</h3>
 
-The [Enterprise Ethereum Alliance (EEA)](https://entethalliance.org/) and [Hyperledger](https://www.hyperledger.org/) formally joined each other's organizations as Associate Members in October 2018. This strategic partnership aims to grow the blockchain ecosystem by enabling "active and mutual cross-community collaboration through event participation, connecting with other members, and finding ways for our respective efforts to be complementary and compatible."
+The [Enterprise Ethereum Alliance (EEA)](https://entethalliance.org/) and [Hyperledger](https://www.hyperledger.org/) formally joined each other's organizations as Associate Members in October 2018. 
 
-*   EEA promotes the development of specifications and standards for enterprise blockchain networks
-*   Hyperledger advances the development of open-source software for establishing, managing and connecting enterprise blockchain networks.  <br/>
+This strategic partnership aims to grow the blockchain ecosystem by enabling "active and mutual cross-community collaboration through event participation, connecting with other members, and finding ways for our respective efforts to be complementary and compatible."
+<ul>
+<li>EEA promotes the development of specifications and standards for enterprise blockchain networks</li>
+<li>Hyperledger advances the development of open-source software for establishing, managing and connecting enterprise blockchain networks.</li>
+</ul>
 
 This announcement came as a confirmation of an already fruitful collaboration between the two organizations; some examples of this collaboration:
-*   Hyperledger Burrow is an implementation of the Ethereum Virtual Machine (EVM) bytecode interpreter
-*   Hyperledger Sawtooth support for the EVM as a transaction processor (Seth)
-*   Hyperledger Fabric support for the EVM
-*   The existence of an EEA working group on Trusted Execution Environments, along with a prototype implementation of the proposed standards, Private Data Objects, built as a lab at Hyperledger.  
-
+<ul>
+<li>Hyperledger Burrow is an implementation of the Ethereum Virtual Machine (EVM) bytecode interpreter</li>
+<li>Hyperledger Sawtooth support for the EVM as a transaction processor (Seth)</li>
+<li>Hyperledger Fabric support for the EVM</li>
+<li>The existence of an EEA working group on Trusted Execution Environments, along with a prototype implementation of the proposed standards, Private Data Objects, built as a lab at Hyperledger.  </li>
+</ul>
 "...simultaneously developing community-driven open standards and production-quality open-source reference implementations is a best practice of Internet-scale software development work."  
 
 While working together, the two organizations will also continue to collaborate with other standard bodies and open-source communities, all with the common goal of accelerating the adoption of enterprise blockchain technologies.
@@ -1293,11 +1298,16 @@ While working together, the two organizations will also continue to collaborate 
 <h3>Open-Source and Open Governance</h3>
 <p>
 "Today, most people understand the concept of Open-Source. What many people don't get, and something we here at Hyperledger and The Linux Foundation pride ourselves on doing well, is Open Governance".
+- [hyperledger.org](https://www.hyperledger.org/blog/2017/09/06/abcs-of-open-governance)
 
-*   hyperledger.org  
-    Open-source software is software that is made freely available and may be redistributed and modified. In other words, anyone has the ability to view the code, use the code, copy the code, change the code, and, depending on the open source license, contribute back changes.  
-    Open governance means that technical decisions for an open-source project are made by a group of community-elected developers drawn from a pool of active participants. These decisions include things such as which features to add, how, and when to add them.  
-    To learn more about the specifics of Hyperledger's open governance read the following article "ABCs of Open Governance".  
+Open-source software is software that is made freely available and may be redistributed and modified. 
+
+In other words, anyone has the ability to view the code, use the code, copy the code, change the code, and, depending on the open source license, contribute back changes.  
+Open governance means that technical decisions for an open-source project are made by a group of community-elected developers drawn from a pool of active participants. 
+
+These decisions include things such as which features to add, how, and when to add them.  
+
+To learn more about the specifics of Hyperledger's open governance read the following article "ABCs of Open Governance".  
 </p>
 
 <h3>Software Governance of the Hyperledger Projects (Brian Behlendorf)</h3>

@@ -1297,7 +1297,7 @@ While working together, the two organizations will also continue to collaborate 
 
 <h3>Open-Source and Open Governance</h3>
 <p>
-"Today, most people understand the concept of Open-Source. What many people don't get, and something we here at Hyperledger and The Linux Foundation pride ourselves on doing well, is Open Governance".
+"Today, most people understand the concept of Open-Source. What many people don't get, and something we here at Hyperledger and The Linux Foundation pride ourselves on doing well, is Open Governance".<br/>
 - [hyperledger.org](https://www.hyperledger.org/blog/2017/09/06/abcs-of-open-governance)
 
 Open-source software is software that is made freely available and may be redistributed and modified. 

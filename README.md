@@ -2193,6 +2193,7 @@ Sawtooth Lake creates a digital platform enabling physical traceability in a tru
   <img width="50%" src="https://user-images.githubusercontent.com/41387907/138575543-c953e474-d30d-4ad2-818c-7f7dce930ad2.png"
        alt="Hyperledger Grid"</>
 </p>
+
 [Hyperledger Grid](https://www.hyperledger.org/use/grid) is a domain-specific business blockchain technology for building supply chain solutions that include distributed ledger components; it's an ecosystem of technologies, frameworks, and libraries that work together, allowing application developers to chose which components are best for their industry or market model. 
 
 It intends to:
@@ -2238,6 +2239,7 @@ By the end of this chapter, you should be able to:
   <img width="50%" src="https://user-images.githubusercontent.com/41387907/138575551-ce0c30a8-ebb3-486d-85d8-98f383cf0414.png"
        alt="Hyperledger Avalon"</>
 </p>
+
 [Hyperledger Avalon](https://www.hyperledger.org/use/avalon) is a ledger independent implementation of the Off-Chain Trusted Compute Specification published by the Enterprise Ethereum Alliance (EEA). 
 
 It joined the Hyperledger Incubator in October of 2019, bringing together sponsorship from Intel, iExec Blockchain Tech, Alibaba Cloud, Baidu, BGI, Chainlink, Consensys, EEA, Espeo, IBM, Kaleido, Microsoft, Banco Santander, Wipro, Oracle, and Monax. 

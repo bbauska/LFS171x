@@ -1307,7 +1307,7 @@ Open governance means that technical decisions for an open-source project are ma
 
 These decisions include things such as which features to add, how, and when to add them.  
 
-To learn more about the specifics of Hyperledger's open governance read the following article "ABCs of Open Governance".  
+To learn more about the specifics of Hyperledger's open governance read the following article ["ABCs of Open Governance"](https://www.hyperledger.org/blog/2017/09/06/abcs-of-open-governance).
 </p>
 
 <h3>Software Governance of the Hyperledger Projects (Brian Behlendorf)</h3>
@@ -1431,7 +1431,10 @@ A lot of industries kind of want... don't want to see their own industry move in
 And, typically, today, to be able to facilitate that, they have lots of point-to-point integrations, right?  
 
 Something like Hyperledger offers the potential for integration of an industry at a time, right, into a system that can not only become a system of record for recording transactions between parties in a network, in a marketplace, but also allow for the automation of a whole bunch of business processes through the use of smart contracts, right?  
-And, in a permissioned ledger, you still have an organization that acts somewhat like the referee on a football field, right, sets the rules of the game, watches how players play and, if somebody acts out of turn, even if the technology allows it, if they violate the spirit of the contract so-to-speak, or the human conditions, then, the referee can kick them out. And, by the way, if the referee does their job poorly, the two teams can kick the referee out, right?  
+
+And, in a permissioned ledger, you still have an organization that acts somewhat like the referee on a football field, right, sets the rules of the game, watches how players play and, if somebody acts out of turn, even if the technology allows it, if they violate the spirit of the contract so-to-speak, or the human conditions, then, the referee can kick them out. 
+
+And, by the way, if the referee does their job poorly, the two teams can kick the referee out, right?  
 
 This type of governance mechanism for something like a football game, right, is actually not too far from the kind of governance mechanisms that many industries deploy today, right?  
 
@@ -1444,20 +1447,23 @@ We can avoid the over-centralization of industries, and the over-centralization 
 **[`^        back to top        ^`](#table-of-contents)**
 
 <h3>Blockchain for Business</h3>
-The cryptocurrency-based blockchain model, popularized by public blockchains like Bitcoin and Ethereum, currently falls short of fulfilling a host of requirements that many types of organizations would have to fulfill in order to be compliant when using blockchain and distributed ledger technologies - for instance, in the areas of financial services, healthcare, and government.  
 <p>
+The cryptocurrency-based blockchain model, popularized by public blockchains like Bitcoin and Ethereum, currently falls short of fulfilling a host of requirements that many types of organizations would have to fulfill in order to be compliant when using blockchain and distributed ledger technologies - for instance, in the areas of financial services, healthcare, and government.
+
 Hyperledger is a unique platform that is developing permissioned distributed ledger frameworks specifically designed for enterprises, including those in industries with strong compliance requirements. 
+
 Enterprise use cases require capabilities such as scalability and throughput, built-in or interoperable identity modules for the parties involved in a transaction or a network, or even access to regulators who can access all data in the ledger as read-only to ensure compliance. 
+
 The latter is particularly important because, regardless of the innovation, it has to operate within the current regulatory framework, as well as comply with any new rules that come into place specifically targeted at blockchain technologies.  
 
 The enterprise continues to be at the heart of this course.  
 </p>
+
 <h4>Why Businesses Choose to Use Hyperledger? (Brian Behlendorf)</h4>
 <p>
 And, as a follow-up, why are businesses choosing to use Hyperledger over other distributed ledger technologies?  
 
-Companies, when they decide what open-source technologies to use, right, they should evaluate an open-source project based on a number of factors,  
-not just, you know, is the code available, does it run, how mature is it, right, have they released a 1.0, and a 1.1, and a 1.2...  
+Companies, when they decide what open-source technologies to use, right, they should evaluate an open-source project based on a number of factors, not just, you know, is the code available, does it run, how mature is it, right, have they released a 1.0, and a 1.1, and a 1.2...  
 
 You want to see a kind of a regular stream of these things.  
 
@@ -1499,6 +1505,7 @@ This ledger contains a record of your transactions, along with many, if not all 
 It is vitally important to know that your copy of the ledger is identical to everyone else's, so you'll need a distributed ledger.  
 
 It's a new kind of network database that lets everyone in an ecosystem keep a copy of a common system of record.  
+
 But how does everyone agree on which transactions succeed or fail?  
 
 That's where Hyperledger software comes in.  
@@ -1523,8 +1530,7 @@ Developers can collaborate on a global level across company and industry lines t
 
 It's this open-source approach that allows for the kind of transparency, longevity, collaboration, community, and, of course, security that blockchain needs to become more mainstream, which is what Hyperledger is all about.  
 
-Hyperledger projects are meant to help you focus on developing your business solutions and feel confident that the legal, technical and organizational infrastructure is in place,  
-thanks to Hyperledger and the Linux Foundation.  
+Hyperledger projects are meant to help you focus on developing your business solutions and feel confident that the legal, technical and organizational infrastructure is in place,  thanks to Hyperledger and the Linux Foundation.  
 
 These are all open-source projects, and anyone is welcome to pick them up and use them, no fee or permission required. 
  
@@ -1536,12 +1542,13 @@ It's time to ask yourself: who will you trust with your trust network?
 **[`^        back to top        ^`](#table-of-contents)**
 
 <h3>Project Lifecycle and Hyperledger Incubator</h3>
+<p>
 According to the Hyperledger documentation, a <b>project</b> refers to a collaborative endeavor to deliver a work item. 
 
 Projects can vary in terms of scope: some are intended to produce a document, some may develop new capabilities or refactor/remove an existing capability.  
 
 In general, open-source initiatives use an incubation process for new work items: this allows members of the community to contribute new ideas and code in a more structured and transparent workflow. 
-
+</p>
 Hyperledger has adopted a rigorous project lifecycle process that has six possible states:
 <ul>
 <li><b>Proposal</b></li>
@@ -1558,7 +1565,6 @@ Hyperledger has adopted a rigorous project lifecycle process that has six possib
 	These are projects that are no longer developed or maintained.  
 </ul>
 <br/>
-
 New projects wanting to join are evaluated on a number of things:
 <ul>
 <li>How do they fit with the portfolio of other projects?</li>
@@ -1566,7 +1572,6 @@ New projects wanting to join are evaluated on a number of things:
 <li>Who are the developers around the projects?, etc.  </li>
 </ul>
 <br/>
-
 When a project goes through a rigorous vetting process and graduates from the incubator, it signals to the public that they can now trust the code, that the code can be used to build applications upon it.  
 
 There are sixteen projects in the Hyperledger greenhouse, as of June 2019. And the door is open to new projects joining. 
@@ -1580,23 +1585,30 @@ There are four fully-fledged Hyperledger projects, that have graduated from the 
 <li>Hyperledger Besu (March 2020).  </li>
 </ul>
 <br/>
-
 The other projects are still working through the process, and the goal is to get every one of them out of the Incubator.
 
 **[`^        back to top        ^`](#table-of-contents)**
 
 <h3>Hyperledger Labs</h3>
-Currently, the Hyperledger Project Lifecycle is a very rigorous process that includes 6 possible states. For a project to join the Hyperledger Greenhouse, it must have a certain degree of maturity even in the early proposal and incubation stages.  
+<p>
+Currently, the Hyperledger Project Lifecycle is a very rigorous process that includes 6 possible states. 
+
+For a project to join the Hyperledger Greenhouse, it must have a certain degree of maturity even in the early proposal and incubation stages.  
 
 [Hyperledger Labs](https://www.hyperledger.org/participate/labs) provides a space where work can easily be started without the creation of an official Hyperledger project. 
-Developers working on projects that are immature (incomplete code, not ready from a production-quality point of view, with small communities) or experimental will thus get the opportunity to work in a space suitable for innovation and testing of new ideas; moreover, they will work within a legal framework that would ease the transition to the Hyperledger Incubator (if the project matures enough and reaches that stage). Hyperledger Labs have similarities with the Apache Labs and the W3C Community Groups.  
+
+Developers working on projects that are immature (incomplete code, not ready from a production-quality point of view, with small communities) or experimental will thus get the opportunity to work in a space suitable for innovation and testing of new ideas; moreover, they will work within a legal framework that would ease the transition to the Hyperledger Incubator (if the project matures enough and reaches that stage). 
+
+Hyperledger Labs have similarities with the Apache Labs and the W3C Community Groups.  
 
 There is a specific process that must be followed when proposing a new lab. 
 
 Labs that become dormant or unresponsive for 6 months or more, or are deemed deprecated or obsoleted by their committers are archived.
+</p>
 
 <h3 id="ch2-3">2.3 Q/A with Brian Behlendorf, Executive Director of Hyperledger</h3>
 Before diving deeper into the projects advanced under the Hyperledger umbrella, we asked Brian Behlendorf, Executive Director of Hyperledger at The Linux Foundation, some questions.
+<br/>
 
 **[`^        back to top        ^`](#table-of-contents)**
 
@@ -1646,10 +1658,13 @@ All of that means working on open-source projects can be tremendously beneficial
 
 <h3>Hyperledger vs. Apache</h3>
 While at Apache, you were able to successfully build an open software developer community.
+
 What are some similarities and differences between Hyperledger and Apache in its evolution as an open-source project?
+
 Right... Well, on the Apache web server project, which later became the Apache Software Foundation, a lot of what happened was due to luck, was due to inheriting a tradition that had been established since the beginning of the internet, of technologists working together on common standards and common code.
 
 And so, there was kind of a DNA that was built-in and, you know, the web was not that complicated at that point in time, either.
+
 These standards were pretty simple, right?
 
 We just kind of did what seemed natural.

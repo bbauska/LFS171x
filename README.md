@@ -2058,7 +2058,8 @@ Among its key features are:
 <li>Ready-to-use set of commands and queries,</li>
 <li>Multi-signature transactions,</li>
 <li>Uses a high-performance Byzantine fault-tolerant consensus algorithm called YAC.
-</ul>  
+</ul>
+
 According to the [Hyperledger Iroha documentation](https://iroha.readthedocs.io/en/latest/overview.html), "it can be used to manage digital assets, identity and serialized data, and can be useful for applications such as interbank settlement, central bank digital currencies, payment systems, national IDs, and logistics, among others". Its documentation provides an extensive list of use cases, and specific advantages the use of Hyperledger Iroha can introduce - you can read about these [use case scenarios](https://iroha.readthedocs.io/en/latest/use_cases/index.html) online.
 
 Hyperledger Iroha emphasizes mobile application development with client libraries for Android and iOS, making it distinct from other Hyperledger frameworks. Inspired by Hyperledger Fabric, Hyperledger Iroha seeks to complement Hyperledger Fabric and Hyperledger Sawtooth, while providing a development environment for C++ developers to contribute to Hyperledger.  

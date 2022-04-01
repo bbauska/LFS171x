@@ -2078,7 +2078,7 @@ To learn more about it, you can read the [announcement](https://www.hyperledger.
   <img width="50%" src="https://user-images.githubusercontent.com/41387907/138575534-bf8c8a84-4c23-472c-9e07-6668e789540f.png"
        alt="Hyperledger Sawtooth"</>
 </p>
-Welcome to the Hyperledger greenhouse, an open-source consortium for developing business blockchain technologies hosted by the Linux Foundation.  
+Welcome to the Hyperledger greenhouse, an open-source consortium for developing business blockchain technologies hosted by the Linux Foundation.  <br/>
 
 Within the greenhouse, diverse global communities collaboratively develop open-source projects that uniquely approach enterprise blockchain challenges.  
 
@@ -2193,7 +2193,7 @@ Sawtooth Lake creates a digital platform enabling physical traceability in a tru
   <img width="50%" src="https://user-images.githubusercontent.com/41387907/138575543-c953e474-d30d-4ad2-818c-7f7dce930ad2.png"
        alt="Hyperledger Grid"</>
 </p>
-Hyperledger Grid is a domain-specific business blockchain technology for building supply chain solutions that include distributed ledger components; it's an ecosystem of technologies, frameworks, and libraries that work together, allowing application developers to chose which components are best for their industry or market model. 
+[Hyperledger Grid](https://www.hyperledger.org/use/grid) is a domain-specific business blockchain technology for building supply chain solutions that include distributed ledger components; it's an ecosystem of technologies, frameworks, and libraries that work together, allowing application developers to chose which components are best for their industry or market model. 
 
 It intends to:
 <ul>
@@ -2212,14 +2212,14 @@ Hyperledger Grid incorporates several GS1Standards concepts in an effort to put 
 <li>Electronic Product Code Information Services (EPCIS) - This is similar to a standardized API, capturing and sharing information about the movement and status of products, logistic units, and other assets in the supply chain.  </li>
 </ul>
 
-You can learn more about Hyperledger Grid from its website and wiki pages, where more resources are provided as well.
+You can learn more about Hyperledger Grid from its website and [wiki](https://wiki.hyperledger.org/display/GRID/Hyperledger+Grid) pages, where more resources are provided as well.
 
 **[⬆ back to top](#table-of-contents)**
 
 <h2 id="ch4">Chapter 4: Hyperledger Tools</h2>
 The Hyperledger frameworks which we examined in the previous chapter are used to build blockchains and distributed ledgers. 
 
-The Hyperledger tools, which we will look at next, are auxiliary softwares used for things like deploying and maintaining blockchains, examining the data on the ledgers, as well as tools to design, prototype, and extend blockchain networks.
+The Hyperledger tools, which we will look at next, are auxiliary software used for things like deploying and maintaining blockchains, examining the data on the ledgers, as well as tools to design, prototype, and extend blockchain networks.
 
 <h3 id="ch4-1">4.1 Learning Objectives</h3>
 By the end of this chapter, you should be able to:
@@ -2238,7 +2238,7 @@ By the end of this chapter, you should be able to:
   <img width="50%" src="https://user-images.githubusercontent.com/41387907/138575551-ce0c30a8-ebb3-486d-85d8-98f383cf0414.png"
        alt="Hyperledger Avalon"</>
 </p>
-Hyperledger Avalon is a ledger independent implementation of the Off-Chain Trusted Compute Specification published by the Enterprise Ethereum Alliance (EEA). 
+[Hyperledger Avalon](https://www.hyperledger.org/use/avalon) is a ledger independent implementation of the Off-Chain Trusted Compute Specification published by the Enterprise Ethereum Alliance (EEA). 
 
 It joined the Hyperledger Incubator in October of 2019, bringing together sponsorship from Intel, iExec Blockchain Tech, Alibaba Cloud, Baidu, BGI, Chainlink, Consensys, EEA, Espeo, IBM, Kaleido, Microsoft, Banco Santander, Wipro, Oracle, and Monax. 
 
@@ -2252,7 +2252,7 @@ Hyperledger Avalon:
 <li>The initial implementation of Hyperledger Avalon uses Intel Software Guard Extensions (SGX),</li>
 <li>Uses the Off-Chain Trusted Compute Specification as a starting point to apply a consistent and compatible approach to all supported blockchains.</li>
 </ul>  
-You can learn more about Hyperledger Avalon from Eugene (Yevgeniy) Yarmosh's An Introduction to Hyperledger Avalon presentation.
+You can learn more about Hyperledger Avalon from Eugene (Yevgeniy) Yarmosh's [An Introduction to Hyperledger Avalon](https://www.youtube.com/watch?v=I16EhP23HTg) presentation.
 
 <!------------------------------------------------------------------------------------------------>
 <!----------------- Hyperledger Cactus ---------------->
@@ -2268,9 +2268,9 @@ Formerly known as the Blockchain Integration Framework, this blockchain integrat
 
 Developers are currently working on refactoring the Hyperledger Cactus architecture to ensure it will enable plug-in based collaborative development, thus increasing the breadth of use cases and ledgers supported. 
 
-Hyperledger Cactus is licensed under an Apache License Version 2.0.
+[Hyperledger Cactus](https://www.hyperledger.org/use/cactus) is licensed under an Apache License Version 2.0.
 
-To learn more about Hyperledger Cactus, you can watch Peter Somogyvari's Hyperledger Cactus - A Framework for Integrating Distributed Ledgers presentation.
+To learn more about Hyperledger Cactus, you can watch Peter Somogyvari's [Hyperledger Cactus - A Framework for Integrating Distributed Ledgers](https://www.youtube.com/watch?v=IHy-5sbMrYs) presentation.
 
 
 **[`^        back to top        ^`](#table-of-contents)**
@@ -2307,7 +2307,7 @@ Blockchain developers can also use Caliper as an internal tool to test the perfo
 
 Get started with Hyperledger Caliper today by downloading the source code, accessing the documentation and joining our community from our website: hyperledger.org.  
 
-Currently in incubation, Hyperledger Caliper was initially contributed in 2018 by developers from Huawei, Hyperchain, Oracle, Bitwise, Soramitsu, IBM and the Budapest University of Technology and Economics. 
+Currently in incubation, [Hyperledger Caliper](https://www.hyperledger.org/use/caliper) was initially contributed in 2018 by developers from Huawei, Hyperchain, Oracle, Bitwise, Soramitsu, IBM and the Budapest University of Technology and Economics. 
 
 It references the definitions, metrics and terminology defined by the Performance and Scalability Working Group. 
 
@@ -2330,7 +2330,7 @@ Hyperledger Caliper is a blockchain benchmark tool, which allows users to measur
   <img width="50%" src="https://user-images.githubusercontent.com/41387907/138575573-0a0eb676-0a88-436d-be56-ad113e6d70e3.png"
        alt="Hyperledger Cello"</>
 </p>
-Hyperledger Cello is a blockchain module toolkit helping businesses use and manage blockchains in a more efficient way. Particularly for lean businesses and small enterprises, who want to reduce or eliminate the effort required in creating, managing, and terminating blockchains, Hyperledger Cello allows blockchains deployment to the cloud. 
+[Hyperledger Cello](https://www.hyperledger.org/use/cello) is a blockchain module toolkit helping businesses use and manage blockchains in a more efficient way. Particularly for lean businesses and small enterprises, who want to reduce or eliminate the effort required in creating, managing, and terminating blockchains, Hyperledger Cello allows blockchains deployment to the cloud. 
 
 Operators can create and manage such blockchains through a dashboard, and users (typically, chaincode developers) can obtain a blockchain instance immediately.  
 
@@ -2372,7 +2372,7 @@ Some key features are:
   <img width="50%" src="https://user-images.githubusercontent.com/41387907/138575604-de11d640-967d-486a-8ddf-b302785cfdb0.png"
        alt="Hyperledger Explorer"</>
 </p>
-Hyperledger Explorer is a simple, but powerful open-source tool for visualizing blockchain operations. 
+[Hyperledger Explorer](https://www.hyperledger.org/use/explorer) is a simple, but powerful open-source tool for visualizing blockchain operations. 
 
 It is the first tool to examine permissioned ledgers, allowing anyone to explore the distributed ledger projects being created by Hyperledger's members from the inside, without compromising their privacy. 
 
@@ -2419,7 +2419,7 @@ It is infrastructure for blockchain-rooted, peer-to-peer interactions; it's not 
 
 This open-source project joined the Hyperledger greenhouse in May 2019 and was initially contributed by developers from the Sovrin Foundation, the Government of British Columbia, and other Indy community developers.
 
-Hyperledger Aries is related to both Hyperledger Indy and Hyperledger Ursa (we will talk about this project later in this chapter). 
+[Hyperledger Aries](https://www.hyperledger.org/use/aries) is related to both Hyperledger Indy and Hyperledger Ursa (we will talk about this project later in this chapter). 
 
 This project aims "to change the client layers in Hyperledger Indy to be interoperable with other identity projects. 
 
@@ -2482,7 +2482,7 @@ Among its key characteristics are:
   <img width="50%" src="https://user-images.githubusercontent.com/41387907/138575628-447fa51e-a4a4-4a4a-bb38-939f932086d9.png"
        alt="Hyperledger Transact"</>
 </p>
-Hyperledger Transact is a transaction execution platform designed to be used as a library or as a component when implementing distributed ledger, including blockchains. 
+[Hyperledger Transact](https://www.hyperledger.org/use/transact) is a transaction execution platform designed to be used as a library or as a component when implementing distributed ledger, including blockchains. 
 
 Hyperledger framework-level projects and custom distributed ledgers can make use of Transact's advanced transaction execution and state management to simplify the transaction execution code required within their projects or to gain additional features. 
 
@@ -2507,7 +2507,7 @@ Some of the following features are already supported by Hyperledger Transact, or
   <img width="50%" src="https://user-images.githubusercontent.com/41387907/138575637-f0524bb3-3716-4c8f-af1d-e01bc31d5920.png"
     alt="Hyperledger Ursa"</>
 </p>
-Hyperledger Ursa is a shared cryptographic library that would enable people and projects to avoid duplicating existing cryptographic work and hopefully increase security in the process. 
+[Hyperledger Ursa](https://www.hyperledger.org/use/ursa) is a shared cryptographic library that would enable people and projects to avoid duplicating existing cryptographic work and hopefully increase security in the process. 
 
 Rather than having each Hyperledger project implement its own cryptographic protocols, it would be more desirable to collaborate on a shared library - this will simplify cross-platform interoperability and increase modularity for distributed ledger platforms.
 
@@ -2636,7 +2636,7 @@ I think through distributed ledger technology, ironically enough, we can actuall
 
 And so, that's really what gets me excited.  
 
-There are numerous blockchain case studies and cross-industry projects showcased on the Hyperledger website. Feel free to check them out to learn more about the business potential of blockchain technologies, and in particular, of Hyperledger technologies.
+There are numerous blockchain [case studies](https://www.hyperledger.org/learn/publications#case-studies) and [cross-industry projects](https://www.hyperledger.org/learn/blockchain-showcase) showcased on the Hyperledger website. Feel free to check them out to learn more about the business potential of blockchain technologies, and in particular, of Hyperledger technologies.
 
 **[`^        back to top        ^`](#table-of-contents)**
 
@@ -2651,11 +2651,11 @@ Below is just a small sample of blockchain-based enterprise solution successfull
 *   Airline Industry  
     NIIT Technologies developed a new blockchain application, Chain-m, using Hyperledger Fabric. This new application aims to enhance passenger ticketing processes by adding increased transparency to the process, and improving record-keeping, security and agility, and ultimately, reducing operational costs.
 *   Enterprise Operations Management  
-    JD.com, the largest retailer in China, has developed its own enterprise blockchain platform aimed at streamlining numerous operational procedures, such as tracking and tracing the movement of goods, charity donations, authenticity certification, property assessment, transaction settlements, digital copyrights, etc. JD Blockchain Open Platform uses Hyperledger Fabric.
+    JD.com, the largest retailer in China, has developed its own enterprise blockchain platform aimed at streamlining numerous operational procedures, such as tracking and tracing the movement of goods, charity donations, authenticity certification, property assessment, transaction settlements, digital copyrights, etc. [JD Blockchain Open Platform](https://jdcorporateblog.com/jd-launches-blockchain-open-platform/) uses Hyperledger Fabric.
 *   Insurance Compliance Data  
     The American Association of Insurance Services has developed openIDL (open Insurance Data Link), a system built on IBM Blockchain, thus powered by Hyperledger Fabric, which is designed to automate insurance regulatory reporting.
 *   Decentralized Identities and Trusted Credentials  
-    In an attempt to streamline their business-oriented services, the government of British Columbia started working on a project based on Hyperledger Indy. OrgBook BC is an online directory that can be used to quickly verify if an organization is legally registered to do business in British Columbia as a corporation. This is just the first step of a larger blockchain-based initiative aimed at streamlining government services.  
+    In an attempt to streamline their business-oriented services, the [government of British Columbia started working on a project based on Hyperledger Indy](https://www.hyperledger.org/learn/publications/orgbook-case-study). OrgBook BC is an online directory that can be used to quickly verify if an organization is legally registered to do business in British Columbia as a corporation. This is just the first step of a larger blockchain-based initiative aimed at streamlining government services.  
     Next, we will dive deeper into some of the industries that are using blockchain-based solutions, as well as specific use cases.
 
 **[`^        back to top        ^`](#table-of-contents)**

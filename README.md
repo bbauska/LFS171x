@@ -1003,7 +1003,7 @@ This allows the platform to be completely free of cost, without facing the scali
 
 Additionally, the use of the platform with connected devices or the Internet of Things  
 "enables companies to explore new business-to-business models by making every technological resource a potential service to be traded on an open market in real time, with no fees".
-*   [Roger Aitken] (https://www.forbes.com/sites/rogeraitken/2017/06/15/iotas-bitfinex-listing-surges-to-1-5b-record-breaking-crypto-capitalization-on-market-debut/?sh=a0caa6d75a5a), 2017<br/>
+- [Roger Aitken](https://www.forbes.com/sites/rogeraitken/2017/06/15/iotas-bitfinex-listing-surges-to-1-5b-record-breaking-crypto-capitalization-on-market-debut/?sh=a0caa6d75a5a), 2017<br/>
 
 IOTA focuses mainly on enabling the emerging Internet of Things (IoT), but also plans to go beyond this, on being the transaction settlement and data integrity layer for the Internet of Everything (IoE).
 

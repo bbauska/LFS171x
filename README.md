@@ -1792,8 +1792,9 @@ Now, let's explore the Hyperledger frameworks (as of November 2020)!
 
 **[Hyperledger Besu](https://www.hyperledger.org/use/besu)** is an open-source Ethereum client developed under the Apache 2.0 license and written in Java. It can be run on the Ethereum public network or on private permissioned networks, as well as test networks such as Rinkeby, Ropsten, and Görli. Hyperledger Besu includes several consensus algorithms including PoW, PoA, and IBFT, and has comprehensive permissioning schemes designed specifically for uses in a consortium environment. Hyperledger Besu joined the Hyperledger Incubator in August 2019; PegaSys has been its primary contributor and maintainer since its launch in November 2018, when it was known as Pantheon.  
 Among its features:
+
+   * Implements the [Enterprise Ethereum Alliance](https://entethalliance.org/) (EEA) specification
 <ul>
-<li>Implements the [Enterprise Ethereum Alliance](https://entethalliance.org/) (EEA) specification</li>
 <li>The Ethereum Virtual Machine (EVM), which allows deployment and execution of smart contracts via transactions within an Ethereum blockchain</li>
 <li>Implements various consensus algorithms, such as Proof of Authority (with several protocols, such as IBTF 2.0 or Clique) and Proof of Work (Ethash)</li>
 <li>Uses a RocksDS key-value database to persist chain data locally</li>
@@ -3506,5 +3507,3 @@ Good luck to all of you in your future endeavors!
 **[⬆ back to top](#table-of-contents)**
 **[`^        back to top        ^`](#table-of-contents)**
 4/1/2022
-
-H

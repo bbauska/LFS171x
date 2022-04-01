@@ -144,6 +144,7 @@ In summary, **distributed ledger technology (dlt)** generally consists of three 
 
 <h3 id="ch1-3">1.3 Bitcoin and Ethereum Blockchains</h3>
 <br/>
+
 According to [hyperledger.org](https://www.hyperledger.org/about),
 <blockquote>
 "A blockchain is a peer-to-peer distributed ledger forged by consensus, combined with a system for "smart contracts" and other assistive technologies. Together these can be used to build a new generation of transactional applications that establishes trust, accountability, and transparency at their core, while streamlining business processes and legal constraints."  
@@ -207,6 +208,7 @@ According to Andreas M. Antonopoulos, in the Bitcoin protocol,  <br/>
 Licensed under [Creative Commons Attribution-Share-Alike 3.0 Unported](https://creativecommons.org/licenses/by-sa/3.0/deed.en), retrieved from [Wikipedia](https://commons.wikimedia.org/wiki/File:Bitcoin_Block_Data.png)
 
 <br/>
+
 **[`^        back to top        ^`](#table-of-contents)**
 
 <h3>What is a Blockchain?</h3>
@@ -330,6 +332,7 @@ Typically, there are database administrators who may make changes to any part of
 
 Additionally, blockchains were designed for decentralized applications, whereas relational databases, in general, were originally designed for centralized applications, where a single entity controls the data.
 </p>
+
 <!------------------------------------------------------------------------------------------------>
 <!-------------------------- differences between blockchain & databases -------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -338,6 +341,7 @@ Additionally, blockchains were designed for decentralized applications, whereas 
 	width="75%" 
     alt="Differences Between Blockchain and Databases"</>
 </p>
+
 <h3>Types of Blockchains</h3>
 <p>
 A blockchain can be both permissionless (like Bitcoin or Ethereum) or permissioned (like the different Hyperledger blockchain frameworks). 
@@ -354,7 +358,7 @@ A permissioned blockchain, or private blockchain, requires pre-verification of t
 	width="66%" 
     alt="Types of blockchain"</>
 </p>
-The choice between permissionless versus permissioned blockchains should be driven by the particular application at hand (or use case). <br/>
+The choice between permissionless versus permissioned blockchains should be driven by the particular application at hand (or use case). 
 
 Most enterprise use cases involve extensive vetting before parties agree to do business with each other.<br/>
 
@@ -428,7 +432,7 @@ There are a number of consensus mechanisms or algorithms.
 
 <b><i>Bitcoin</i></b> uses <b>Proof of Work</b>, while <b><i>Ethereum</i></b> uses <b>Proof of Work</b> currently, but is moving towards <b>Proof of Stake</b>.  
 
-The <b><i>Hyperledger Sawtooth</i></b> uses <b>Proof of Elapsed Time</b>.
+The <b><i>Hyperledger Sawtooth</i></b> uses Proof of Elapsed Time</b>.
 </p>
 
 <h3>Immutability of Data</h3>
@@ -443,7 +447,7 @@ According to [Antony Lewis](https://www.linkedin.com/pulse/gentle-introduction-i
 <blockquote>
 "When people say that blockchains are immutable, they don't mean that the data can't be changed, they mean it is extremely hard to change without collusion, and if you try, it's extremely easy to detect the attempt".  
 </blockquote>
-Let's dig into this statement a bit further. It is extremely hard to change the transactions in a blockchain, because each block is linked to the previous block by including the previous block's hash. </br>
+Let's dig into this statement a bit further. It is extremely hard to change the transactions in a blockchain, because each block is linked to the previous block by including the previous block's hash. 
 
 This hash includes the Merkle root hash of all the transactions in the previous block. 
 
@@ -522,6 +526,7 @@ They can facilitate the exchange and transfer of anything of value (e.g. shares,
   <img width="66%" src="https://user-images.githubusercontent.com/41387907/138574893-8aac4d02-8a64-428b-99c2-999a445dc2ae.png"
     alt="Smart contracts"</>
 </p>
+
 <h3>Bitcoin – A Popular Blockchain Deployment</h3>
 <p>
 With the invention of the peer-to-peer (P2P) cash system known as Bitcoin in 2008, we have an example of a global decentralized payment network with a distributed and publicly-owned infrastructure, operating as a "permissionless" system. 
@@ -637,7 +642,7 @@ As of November 2020, Ethereum had a market cap of over $49 billion, making Ether
   <img width="66%" src="https://user-images.githubusercontent.com/41387907/138574908-341e5a60-7337-42d2-9ac5-988144beab2b.png"
     alt="Ethereum - an alternative to bitcoin"</>
 </p>
-<p align="center">Ether Historical Market Capitalization Chart<br/>
+<p align="center">Ether Historical Market Capitalization Chart</p>
 <p align="center">(Source: https://etherscan.io/chart/marketcap)</p>
 
 As the second best known public blockchain after the Bitcoin blockchain, Ethereum has ushered in an era of unprecedented activity around blockchain and distributed ledger technology.
@@ -704,11 +709,8 @@ As an added benefit, regulators are able to scrutinize the market activity on an
   <img width="66%" src="https://user-images.githubusercontent.com/41387907/138574916-7517cbeb-780a-48ad-b96c-062caf795147.png"
        alt="Ethereum smart contracts"</>
 </p>
-Note: With the advent of the Ethereum blockchain platform and the scripting functionality or smart contracts that it enables, there are ongoing attempts to do the same for the Bitcoin blockchain, which does not allow for this, due to security reasons. 
+Note: With the advent of the Ethereum blockchain platform and the scripting functionality or smart contracts that it enables, there are ongoing attempts to do the same for the Bitcoin blockchain, which does not allow for this, due to security reasons. [RSK](https://www.rsk.co/) is one such smart contract platform that seeks to achieve this "with a 2-way peg to Bitcoin". The added functionality can go a long way in making the Bitcoin blockchain useful for use cases other than cash transfers.
 
-[RSK](https://www.rsk.co/) is one such smart contract platform that seeks to achieve this "with a 2-way peg to Bitcoin". The added functionality can go a long way in making the Bitcoin blockchain useful for use cases other than cash transfers.
-
-<br/>
 **[`^        back to top        ^`](#table-of-contents)**
 
 <h3 id="ch1-4">1.4 Exploring Permissionless Blockchains</h3>
@@ -728,7 +730,8 @@ Then, we'll take a look at a couple of large transactions, including the most fa
 
 First, we'll go to this blockchain explorer, and see that there is a Height column, which indicates the number of blocks in this particular blockchain; it's nearing a half a million.  
 
-These blocks are created approximately every 10 minutes, and there's a Transactions column that shows how many transactions are included in each block, as well as the Total Sent, or the amount of Bitcoin that was transferred in each of those blocks.  
+These blocks are created approximately every 10 minutes,  
+and there's a Transactions column that shows how many transactions are included in each block, as well as the Total Sent, or the amount of Bitcoin that was transferred in each of those blocks.  
 
 Finally, you can notice that there's... they relate by column, which is essentially the miner or mining pool that created that block.  
 
@@ -793,7 +796,7 @@ As described in the 2016 Kudelski Security report,
 "Proof-of-work (PoW) is the outcome of a successful mining process and, although the proof is hard to create, it is easy to verify".  
 </blockquote>
 
-For better understanding, please consider the following example provided by Ofir Beigel:  
+For better understanding, please consider the following example provided by [Ofir Beigel](https://99bitcoins.com/proof-of-work-proof-of-stake/):  
 <blockquote>
 "(...) guessing a combination to a lock is a proof to a challenge. It is very hard to produce this since you will need to guess many different combinations; but once produced, it is easy to validate. Just enter the combination and see if the lock opens".  
 </blockquote>
@@ -813,7 +816,7 @@ If node X owns 2 coins and node Y owns 1 coin, node X is twice as likely to be c
 
 The specific implementation of PoS can vary, depending on the use case, or as a matter of software design. 
 
-Instances include <b<Proof of Deposit</b> and <b>Proof of Burn</b>.
+Instances include [Proof of Deposit](https://www.linkedin.com/pulse/blockchain-consensus-algorithm-proof-of-work-satyakam-chakravarty/) and [Proof of Burn](https://en.bitcoin.it/wiki/Proof_of_burn).
 
 The PoS algorithm saves expensive computational resources that are spent in mining under a PoW consensus regime.
 
@@ -879,7 +882,7 @@ The following table offers an at-a-glance view of the main considerations and pr
     alt="Comparing permissioned consensus approaches and standard PoW"</>
 </p>
 
-<h2 id="ch1-6"></a>1.6 Hyperledger</h2>
+## <a id="ch1-6"></a>1.6 Hyperledger
 [Hyperledger](https://www.hyperledger.org/) is an open source effort created to advance cross-industry blockchain technologies.
 
 Hosted by The Linux Foundation, it is a global collaboration of members from various industries, including finance, banking, Internet of Things (IoT), supply chain, manufacturing, healthcare and more.
@@ -891,10 +894,10 @@ Hyperledger is about communities of software developers building blockchain fram
 We will take a closer look at some of the current Hyperledger projects in the coming chapters.
 
 "One of the first things people learn when coming to Hyperledger is that Hyperledger isn’t, like its name may imply, a ledger. It is a collection of blockchain technology projects."  
-Dan Middleton, [All Are Welcome Here](https://www.hyperledger.org/blog/2018/12/03/all-are-welcome-here) (2018).
+Dan Middleton, [All Are Welcome Here](https://www.hyperledger.org/blog/2018/12/03/all-are-welcome-here) (2018)
 
 <h3>Hyperledger Blockchains: Permissioned or Permissionless?</h3>
-Hyperledger blockchains are generally permissioned blockchains, which means that the parties that join the network are authenticated and authorized to participate on the network. <br/>
+Hyperledger blockchains are generally permissioned blockchains, which means that the parties that join the network are authenticated and authorized to participate on the network. 
 
 Hyperledger’s main goal is to create enterprise grade, open source, distributed ledger frameworks and code bases to support business use cases.
 
@@ -936,7 +939,7 @@ That balancing act is really what we're trying to strive for inside of Hyperledg
 
 <h3>Other Distributed Ledger Technologies (Robert Schwentker)</h3>
 What are some examples of other blockchain and distributed ledger technology systems, and what are their benefits?  
-<br/>
+
 Chain Core, created by chain.com, has initially been designed for financial service institutions, and for things like securities, bonds, and currencies.  
 
 Their company has strong ties with Visa, Citigroup, and Nasdaq.  
@@ -958,8 +961,8 @@ Quorum achieves this data privacy through allowing data visibility on need-to-kn
 The company partners with clients to launch and operate a network under the client's brand. 
 Thanks to its strategic partnerships with companies such as Capital One, Citigroup, Fiserv, Nasdaq, Orange, Visa, etc., the company raised over $40 million in funding since 2014.  
 
-Within the Chain Core network, the creation and transfer of assets is decentralized. However, as stated in the [2016 Kudelski Security report](https://kudelskisecurity.com/),  "the operation of the network is governed by a designated set of entities known as a federation".  <br/>
-
+Within the Chain Core network, the creation and transfer of assets is decentralized. However, as stated in the [2016 Kudelski Security report](https://kudelskisecurity.com/),  
+"the operation of the network is governed by a designated set of entities known as a federation".  
 The platform features the Chain Testnet, which allows decentralized application development on Chain Core, operated by Chain, Microsoft, and the Initiative for Cryptocurrencies and Contracts (IC3).
 
 <h3>Corda</h3>
@@ -1003,9 +1006,10 @@ This allows the platform to be completely free of cost, without facing the scali
 
 Additionally, the use of the platform with connected devices or the Internet of Things  
 "enables companies to explore new business-to-business models by making every technological resource a potential service to be traded on an open market in real time, with no fees".
-- [Roger Aitken](https://www.forbes.com/sites/rogeraitken/2017/06/15/iotas-bitfinex-listing-surges-to-1-5b-record-breaking-crypto-capitalization-on-market-debut/?sh=a0caa6d75a5a), 2017<br/>
 
-IOTA focuses mainly on enabling the emerging Internet of Things (IoT), but also plans to go beyond this, on being the transaction settlement and data integrity layer for the Internet of Everything (IoE).
+*   [Roger Aitken](https://www.forbes.com/sites/rogeraitken/2017/06/15/iotas-bitfinex-listing-surges-to-1-5b-record-breaking-crypto-capitalization-on-market-debut/?sh=a0caa6d75a5a), 2017  
+
+    IOTA focuses mainly on enabling the emerging Internet of Things (IoT), but also plans to go beyond this, on being the transaction settlement and data integrity layer for the Internet of Everything (IoE).
 
 <h3 id="ch1-8">1.8 Challenges in the Adoption/Deployment of Distributed Ledger Technologies</h3>
 
@@ -1023,8 +1027,7 @@ Other challenges encountered when it comes to the adoption and deployment of dis
 <li>Unproven business case</li>
 <li>Lack of capital to fund new investments</li>
 <li>System complexity and costs.</li>
-</ul>
- 
+  
 We hope you go on to address some of these challenges and contribute to building a secure digital future!
 
 **[`^        back to top        ^`](#table-of-contents)**

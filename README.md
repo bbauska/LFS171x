@@ -1252,19 +1252,20 @@ And what I hope is that, through these processes, they can rest assured that, wh
 <blockquote>
 "Only an Open-Source, collaborative software development approach can ensure the transparency, longevity, interoperability and support required to bring blockchain technologies forward to mainstream commercial adoption. That is what Hyperledger is about - communities of software developers building blockchain frameworks and platforms".<br/>
 </blockquote>
-[-hyperledger.org](https://www.hyperledger.org/about)
+-[hyperledger.org](https://www.hyperledger.org/about)
 &nbsp;
 
 As we learned in Chapter 1: "Discovering Blockchain Technologies", the non-availability of standards in distributed ledger technologies is one of the major hurdles in scaling them. One of Hyperledger's key goals is to facilitate the process of standards formation, not by promoting its own distributed ledger(s), but by providing a space for a variety of standards to co-exist simultaneously:  
 <blockquote>
 "Rather than declaring a single blockchain standard, it encourages a collaborative approach to developing blockchain technologies via a community process, with intellectual property rights that encourage open development and the adoption of key standards over time".
 </blockquote>
-[-hyperledger-fabric.readthedocs.io](https://hyperledger-fabric.readthedocs.io/en/latest/)
+-[hyperledger-fabric.readthedocs.io](https://hyperledger-fabric.readthedocs.io/en/latest/)
 
 Hyperledger aims to adhere to "open standards", which means they are  </br>
 "(...) interoperable through open published interfaces and services".  </br>
 - John Palfreyman, [ibm.com](https://www.ibm.com/us-en?ar=1)
 
+<br/>
 **[`^        back to top        ^`](#table-of-contents)**
 
 <h3>Open-Source and Open Standards</h3>
@@ -1281,6 +1282,7 @@ The [Enterprise Ethereum Alliance (EEA)](https://entethalliance.org/) and [Hyper
     "...simultaneously developing community-driven open standards and production-quality open-source reference implementations is a best practice of Internet-scale software development work."  
     While working together, the two organizations will also continue to collaborate with other standard bodies and open-source communities, all with the common goal of accelerating the adoption of enterprise blockchain technologies.
 
+<br/>
 **[`^        back to top        ^`](#table-of-contents)**
 
 <h3>Open-Source and Open Governance</h3>
@@ -1291,7 +1293,9 @@ The [Enterprise Ethereum Alliance (EEA)](https://entethalliance.org/) and [Hyper
     Open-source software is software that is made freely available and may be redistributed and modified. In other words, anyone has the ability to view the code, use the code, copy the code, change the code, and, depending on the open source license, contribute back changes.  
     Open governance means that technical decisions for an open-source project are made by a group of community-elected developers drawn from a pool of active participants. These decisions include things such as which features to add, how, and when to add them.  
     To learn more about the specifics of Hyperledger's open governance read the following article "ABCs of Open Governance".  
-    Software Governance of the Hyperledger Projects (Brian Behlendorf)
+</p>
+
+<h3>Software Governance of the Hyperledger Projects (Brian Behlendorf)</h3>
 
 How does the software governance of all of the Hyperledger projects work?  
 
@@ -1348,10 +1352,15 @@ and it's the role of the Technical Steering Committee, and a bunch of other comm
 </p>
 
 <h3>Strength Through Diversity</h3>
-As you familiarize yourself more with Hyperledger and the blockchain technologies it fosters in its greenhouse, you will notice the similarities between some of its projects, but most importantly, what differentiates them from one another and the use cases they were designed to address. The idea behind this approach was and continues to be that there is no one solution to address the myriad of needs, requirements and use cases.  
-"Having a portfolio of projects, though, enables us to have the variety of ideas and contributors to become a strong open-source community... It's not that our multiplicity of projects has given us strength through numbers, but rather strength through diversity."  
-Dan Middleton, All Are Welcome Here (2018)
+As you familiarize yourself more with Hyperledger and the blockchain technologies it fosters in its greenhouse, you will notice the similarities between some of its projects, but most importantly, what differentiates them from one another and the use cases they were designed to address. 
 
+The idea behind this approach was and continues to be that there is no one solution to address the myriad of needs, requirements and use cases.  
+"Having a portfolio of projects, though, enables us to have the variety of ideas and contributors to become a strong open-source community... 
+It's not that our multiplicity of projects has given us strength through numbers, but rather strength through diversity."  <br/>
+
+Dan Middleton, All Are Welcome Here (2018)<br/>
+
+<br/>
 **[`^        back to top        ^`](#table-of-contents)**
 
 <h3 id="ch1-7">1.7 Other Open-Source Permissioned Distributed Ledgers (David Huseby)</h3>
@@ -1385,23 +1394,38 @@ It's a very holistic approach to security here at Hyperledger: everything, from 
 
 <h3>How Will Hyperledger Change the Blockchain Ecosystem? (Brian Behlendorf)</h3>
 How do you think Hyperledger will change the industries that adopt the technology?  
-So, in the Internet era, we, as technologists, have gotten really good at building big central databases and big central services, right?  
+
+In the Internet era, we, as technologists, have gotten really good at building big central databases and big central services, right?  
+
 Think about the move to the cloud. The move to the cloud wasn't a move to, you know, a really dispersed, diffused, decentralized kind of system.  
+
 It often meant a move to one company's servers, right, or one company's products, right?  
+
 And I feel like, today, the Internet is more decentralized... more centralized than it used to be, right?  
+
 And that decentralized systems tend to grow quicker, they tend to be more adaptable, that nature looks a little bit more decentralized, right?  
+
 And, for businesses, I think you often don't want to be just sitting on the outside as a satellite on another centralized business, right?  
+
 Everyone would want to be the Uber of this, or the Uber of that.  
+
 Well, that's great for Uber and its investors. It's not so great when you're sitting on the outside, right?  
-So, a lot of industries kind of want... don't want to see their own industry move into that centralized approach.  
+
+A lot of industries kind of want... don't want to see their own industry move into that centralized approach.  
+
 And, typically, today, to be able to facilitate that, they have lots of point-to-point integrations, right?  
+
 Something like Hyperledger offers the potential for integration of an industry at a time, right, into a system that can not only become a system of record for recording transactions between parties in a network, in a marketplace, but also allow for the automation of a whole bunch of business processes through the use of smart contracts, right?  
 And, in a permissioned ledger, you still have an organization that acts somewhat like the referee on a football field, right, sets the rules of the game, watches how players play and, if somebody acts out of turn, even if the technology allows it, if they violate the spirit of the contract so-to-speak, or the human conditions, then, the referee can kick them out. And, by the way, if the referee does their job poorly, the two teams can kick the referee out, right?  
-So, this type of governance mechanism for something like a football game, right, is actually not too far from the kind of governance mechanisms that many industries deploy today, right?  
+
+This type of governance mechanism for something like a football game, right, is actually not too far from the kind of governance mechanisms that many industries deploy today, right?  
+
 With distributed ledger technologies like Hyperledger, we can actually have the information systems work and look a lot more like the way that the business processes look and work,  
 especially in a more decentralized setting.  
+
 We can avoid the over-centralization of industries, and the over-centralization of society through the use of these technologies.
 
+<br/>
 **[`^        back to top        ^`](#table-of-contents)**
 
 <h3>Blockchain for Business</h3>
@@ -1492,12 +1516,14 @@ These are all open-source projects, and anyone is welcome to pick them up and us
 Of course, this only represents a fraction of what open-source blockchain technologies can do now and in the future.  
 
 It's time to ask yourself: who will you trust with your trust network?
-<p>
+</p>
 
 **[`^        back to top        ^`](#table-of-contents)**
 
 <h3>Project Lifecycle and Hyperledger Incubator</h3>
-According to the Hyperledger documentation, a <b>project</b> refers to a collaborative endeavor to deliver a work item. Projects can vary in terms of scope: some are intended to produce a document, some may develop new capabilities or refactor/remove an existing capability.  
+According to the Hyperledger documentation, a <b>project</b> refers to a collaborative endeavor to deliver a work item. 
+
+Projects can vary in terms of scope: some are intended to produce a document, some may develop new capabilities or refactor/remove an existing capability.  
 
 In general, open-source initiatives use an incubation process for new work items: this allows members of the community to contribute new ideas and code in a more structured and transparent workflow. 
 
@@ -1516,6 +1542,7 @@ Hyperledger has adopted a rigorous project lifecycle process that has six possib
 <li><b>End of Life</b></li>
 	These are projects that are no longer developed or maintained.  
 </ul>
+<br/>
 
 New projects wanting to join are evaluated on a number of things:
 <ul>
@@ -1523,10 +1550,13 @@ New projects wanting to join are evaluated on a number of things:
 <li>How mature are they, to understand where they're going?</li>
 <li>Who are the developers around the projects?, etc.  </li>
 </ul>
+<br/>
 
 When a project goes through a rigorous vetting process and graduates from the incubator, it signals to the public that they can now trust the code, that the code can be used to build applications upon it.  
 
-There are sixteen projects in the Hyperledger greenhouse, as of June 2019. And the door is open to new projects joining. There are four fully-fledged Hyperledger projects, that have graduated from the Incubator and are in an Active state (as of June 2019):
+There are sixteen projects in the Hyperledger greenhouse, as of June 2019. And the door is open to new projects joining. 
+
+There are four fully-fledged Hyperledger projects, that have graduated from the Incubator and are in an Active state (as of June 2019):
 <ul>
 <li>Hyperledger Fabric (March 2017)</li>
 <li>Hyperledger Sawtooth (May 2017)</li>
@@ -1534,6 +1564,8 @@ There are sixteen projects in the Hyperledger greenhouse, as of June 2019. And t
 <li>Hyperledger Indy (March 2019)</li>
 <li>Hyperledger Besu (March 2020).  </li>
 </ul>
+<br/>
+
 The other projects are still working through the process, and the goal is to get every one of them out of the Incubator.
 
 **[`^        back to top        ^`](#table-of-contents)**
@@ -1541,11 +1573,12 @@ The other projects are still working through the process, and the goal is to get
 <h3>Hyperledger Labs</h3>
 Currently, the Hyperledger Project Lifecycle is a very rigorous process that includes 6 possible states. For a project to join the Hyperledger Greenhouse, it must have a certain degree of maturity even in the early proposal and incubation stages.  
 
-<blockquote>
-[Hyperledger Labs](https://www.hyperledger.org/participate/labs) provides a space where work can easily be started without the creation of an official Hyperledger project. Developers working on projects that are immature (incomplete code, not ready from a production-quality point of view, with small communities) or experimental will thus get the opportunity to work in a space suitable for innovation and testing of new ideas; moreover, they will work within a legal framework that would ease the transition to the Hyperledger Incubator (if the project matures enough and reaches that stage). Hyperledger Labs have similarities with the Apache Labs and the W3C Community Groups.  
-</blockquote>
+[Hyperledger Labs](https://www.hyperledger.org/participate/labs) provides a space where work can easily be started without the creation of an official Hyperledger project. 
+Developers working on projects that are immature (incomplete code, not ready from a production-quality point of view, with small communities) or experimental will thus get the opportunity to work in a space suitable for innovation and testing of new ideas; moreover, they will work within a legal framework that would ease the transition to the Hyperledger Incubator (if the project matures enough and reaches that stage). Hyperledger Labs have similarities with the Apache Labs and the W3C Community Groups.  
 
-There is a specific process that must be followed when proposing a new lab. Labs that become dormant or unresponsive for 6 months or more, or are deemed deprecated or obsoleted by their committers are archived.
+There is a specific process that must be followed when proposing a new lab. 
+
+Labs that become dormant or unresponsive for 6 months or more, or are deemed deprecated or obsoleted by their committers are archived.
 
 <h3 id="ch2-3">2.3 Q/A with Brian Behlendorf, Executive Director of Hyperledger</h3>
 Before diving deeper into the projects advanced under the Hyperledger umbrella, we asked Brian Behlendorf, Executive Director of Hyperledger at The Linux Foundation, some questions.
@@ -1553,29 +1586,46 @@ Before diving deeper into the projects advanced under the Hyperledger umbrella, 
 **[`^        back to top        ^`](#table-of-contents)**
 
 <h3>Reasons Why Developers Would Become Interested in Open-Source Software</h3>
-So, many of the students taking this course are more familiar with working with Devs within the same room.  
+Many of the students taking this course are more familiar with working with Devs within the same room.  
+
 But why do you think developers would be excited in becoming involved with open-source projects, such as Hyperledger?  
+
 Well, open-source software represents, generally, the largest software development classroom ever, right?  
+
 When I was learning about software development as an undergraduate at the University of California at Berkeley,  
+
 I was taking classes, you know, I was learning kind of the formal bits about, you know, data structures and algorithms,  
 but the biggest education came from sitting on development mailing lists around the standards around HTTP and HTML,  
 and, eventually, the software development mailing lists and open-source communities for the early days of the web.  
+
 And seeing, really, how software gets built, right, what are the trade-offs, what are the negotiations, the back-and-forths, the messiness of software development,  
 which doesn't look that different than, say, how Congress, you know, works on the bills sometimes, right?  
+
 Sometimes, it can be, you know, not very pretty, but you realize that software engineering is as much a technical pursuit, as it is a social pursuit.  
+
 And, in open-source projects, I think we've figured out how do we have technical differences of opinion and work through them,  
 how do we create the best software, the software with the greatest longevity, right? why should we document our code...  
+
 Well, it's because we don't want to have to answer silly questions from the next person trying to understand what we wrote, right?  
-So, all of this is a really great education, I think, in understanding how to write higher quality code, whether that ends up being open-source code or not...  
+
+All of this is a really great education, I think, in understanding how to write higher quality code, whether that ends up being open-source code or not...  
+
 That's one reason, I think, for developers to participate in open-source projects, whether at Hyperledger or any place else.  
+
 The other is that open-source projects are a really good way for you, as a software engineer, to understand what are the kinds of companies I want to work for, right?  
+
 The ones that are actively involved in open-source projects, right?  
+
 How do I get to know people at those companies, right? And also, make them aware of my own skills, right?  
+
 And start to develop my own public history of my contributions.  
+
 These days, if you're a software engineer, if you're a software engineer and you're applying to any place interesting, they're going to look at your GitHub repository, right?  
+
 They're going to want to know about your history of contributions to open-source projects as a way to evaluate your skills,  
 and not just technical, but also your communication skills, your collaboration skills...  
-So, all of that means working on open-source projects can be tremendously beneficial to your own ongoing education, as well as your ability to build your career.
+
+All of that means working on open-source projects can be tremendously beneficial to your own ongoing education, as well as your ability to build your career.
 
 **[`^        back to top        ^`](#table-of-contents)**
 
@@ -1587,7 +1637,7 @@ Right... Well, on the Apache web server project, which later became the Apache S
 And so, there was kind of a DNA that was built-in and, you know, the web was not that complicated at that point in time, either.
 These standards were pretty simple, right?
 
-So, we just kind of did what seemed natural.
+We just kind of did what seemed natural.
 
 We started a mailing list.
 
@@ -1606,41 +1656,63 @@ Which is great for the kinds of projects that Apache was interested in.
 And, Apache has become a home for over 300 different individual software development projects, beyond the web server, right?
 
 But it has always grown by happenstance, and it's always been open to whatever technology project wanted to come in.  
-So, there are some upsides and downsides to that all, right?
+
+There are some upsides and downsides to that all, right?
+
 One of the downsides is, by not having a full time staff, it's hard for Apache to really take advantage of all the opportunities out there, to get the word out about who they are.
+
 It means that developers, you know, have to do these non-developer activities, right?  
+
 And it's hard to do things like police your trademark usage, right, when people are working as volunteers.  
-So, The Linux Foundation took a slightly different approach.  
+
+The Linux Foundation took a slightly different approach.  
+
 The Linux Foundation said "We don't..." You know, just like with Apache, "we don't want to write software, we don't want to have to pay all the software developers",  
 because there's actually a lot to the validity that comes from all of the software development happening by volunteers,  
 but there's a lot of non-software development things: marketing, legal, PR, and even the hosting of meetings, the hosting of phone calls,  
 all of the logistics of helping these communities operate that perhaps can be taken on, right, by a full-time staff.  
+
 Now, how do you pay that staff, right? You could ask for, you know, cutting charity contributions, right?  
+
 But, a better, more scalable approach is to ask companies to join as corporate members of an organization, right?  
+
 And, they don't get any special privileges on the code, right?  
+
 Well, they don't get their patches in by default, they don't get to veto anyone else's work.  
+
 If you're a developer from IBM, there's no special status.  
+
 You have to still prove your worth, and to which, you would, you know, and be seen as a peer to, say, a 15 year old kid in Romania, who also is really eager to work on distributed ledgers and smart contract systems.  
+
 And so, but what members do get is some help in marketing their activities, building on top of Hyperledger projects, ways to participate at the events that we do.  
+
 When a journalist calls us and asks us for a story about somebody doing something interesting with Hyperledger, we've got a set of members that we... whose stories we can draw from, right?  
-So, this balancing act of, you know... as I mentioned, there's a developer community, and there's a commercial community, a corporate community...  
+
+This balancing act of, you know... as I mentioned, there's a developer community, and there's a commercial community, a corporate community...  
 That's the balancing act... that The Linux Foundation has really developed a process for, a template for, and a real science around, and that's what we're bringing to bear on the Hyperledger project.
 
 **[`^        back to top        ^`](#table-of-contents)**
 
 <h3>Interoperability Between Hyperledger Frameworks</h3>
 What do you think will help foster interoperability between these three different Hyperledger frameworks?  
-So, there's a number of things that we can do to assist in the interoperability between the different projects at Hyperledger.  
+
+There's a number of things that we can do to assist in the interoperability between the different projects at Hyperledger.  
+
 One thing we're working on is kind of an overall architectural view of all the different projects, right?  
+
 What are the technologies that sit at kind of the DLT layer, at the smart contract layer, where does identity sit in, right?  
+
 And then, we can start to look at these projects and go, "Okay, could we put Fabric down here, could we put Burrow up here?"  
+
 Maybe we start to tease apart the distributed ledger part of Fabric from the smart contract part of Fabric, right,  
 into separate components, so that, when somebody new arrives at the project, or they take a training course like this,  
 they can start to pick and choose, you know, as building blocks, as appropriate for whatever use case that they want to target, right?  
+
 And so, that's something over time, this kind of modularity approach... Along with that, defining standardized APIs between these different levels, right,  
 so that we can get to an ideal, where you could pick the Ethereum virtual machine from Burrow, and run that on top of Fabric or on top of Sawtooth,  
 and, in fact, the Sawtooth and Burrow communities have now actually progressed, and you can now run Ethereum smart contracts on top of Sawtooth, which is pretty cool.  
-So, I think we'll see more activity like that.
+
+I think we'll see more activity like that.
 
 **[⬆ back to top](#table-of-contents)**
 

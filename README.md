@@ -1552,13 +1552,13 @@ Hyperledger has adopted a rigorous project lifecycle process that has six possib
 <li><b>Proposal</b></li>
     If an open-source initiative wants to be hosted under the Hyperledger greenhouse, a proposal is submitted to the TSC for review. The proposal must have a clear description and a well-defined scope, must identify the development resources that are committed to the project, as well as the initial maintainers, and must be vendor neutral.
 <li><b>Incubation</b></li>
-    Once a project proposal is approved, it enters the Incubation phase, and the community has a chance to explore different idea related to the project. When a project reaches a mature-enough stage and qualifies to be declared Active, the maintainers will vote to submit a graduation review request to the TSC. All projects ready to graduate from Incubation must have a fully functional code base, test coverage commensurate with other Active projects, an active and diverse community of developers, and a history of releases that follow the Active release process. A project in the Incubation stage is not guaranteed to eventually graduate - some projects never get to Active state.
+    Once a project proposal is approved, it enters the Incubation phase, and the community has a chance to explore different idea related to the project. When a project reaches a mature-enough stage and qualifies to be declared <i>Active</i>, the maintainers will vote to submit a graduation review request to the TSC. All projects ready to graduate from Incubation must have a fully functional code base, test coverage commensurate with other <i>Active</i> projects, an active and diverse community of developers, and a history of releases that follow the <i>Active</i> release process. A project in the Incubation stage is not guaranteed to eventually graduate - some projects never get to <i>Active</i> state.
 <li><b>Active</b></li>
-    Projects that successfully exit the Incubation phase are considered Active. If reasons exist, an Active project can be deprecated.
+    Projects that successfully exit the Incubation phase are considered <i>Active</i>. If reasons exist, an Active project can be deprecated.
 <li><b>First Major Release</b></li>
     If the maintainers of a project are looking to publish the project's first major release, they will have to obtain approval from the TSC.
 <li><b>Deprecated</b></li>
-    All deprecated projects are maintained for a six month period by their communities; after that, the projects are removed from subsequent formal releases. A deprecation notice is given to the public. After a six-month deprecation period, projects are labeled End of Life.
+    All deprecated projects are maintained for a six month period by their communities; after that, the projects are removed from subsequent formal releases. A deprecation notice is given to the public. After a six-month deprecation period, projects are labeled <i>End of Life</i>.
 <li><b>End of Life</b></li>
 	These are projects that are no longer developed or maintained.  
 </ul>
@@ -3505,3 +3505,5 @@ Good luck to all of you in your future endeavors!
 
 **[⬆ back to top](#table-of-contents)**
 **[`^        back to top        ^`](#table-of-contents)**
+4/1/2022
+

@@ -1844,7 +1844,7 @@ Hyperledger projects to incorporate the Ethereum Virtual Machine into their plat
 
 Get started with Hyperledger Burrow today, by downloading the source code, accessing the documentation, and joining our community from our website: hyperledger.org.  
 
-Hyperledger Burrow was released in December 2014. 
+[Hyperledger Burrow](https://www.hyperledger.org/project/hyperledger-burrow) was released in December 2014. 
 
 It was originally designed by Monax, and co-sponsored by Intel. 
 
@@ -1901,7 +1901,7 @@ This architecture allows for solutions developed with Fabric to be adapted for a
 Get started with Hyperledger Fabric today by downloading the source code, accessing the documentation, and joining our community from our website:  
 hyperledger.org.
 
-Hyperledger Fabric is an open-source, production ready, permissioned blockchain framework implementation that was designed to serve as a foundation for developing applications or solutions with a modular architecture. 
+[Hyperledger Fabric](https://www.hyperledger.org/use/fabric) is an open-source, production ready, permissioned blockchain framework implementation that was designed to serve as a foundation for developing applications or solutions with a modular architecture. 
 
 It was the first proposal for a codebase (2016), combining previous work done by Digital Asset Holdings, Blockstream's libconsensus, and IBM's OpenBlockchain. It graduated from the Hyperledger Incubator in March of 2017.  
 Key characteristics of Hyperledger Fabric are:
@@ -1963,7 +1963,7 @@ Get started with Hyperledger Indy today by downloading the source code, accessin
 
 The Hyperledger consortium has many different projects that focus on different aspects of how ledgers can work and what use cases they can be applied for.  
 
-Hyperledger Indy is a distributed ledger purpose-built for doing distributed identity, 
+[Hyperledger Indy](https://www.hyperledger.org/use) is a distributed ledger purpose-built for doing distributed identity, 
 and what that means is, it allows you to have a route of trust to manage the keys, schemas, proofs, and other information that you need to, in order to enable trusted peer interactions between different identities, as stored on a Hyperledger Indy blockchain instance.  
 
 If you have an identity it belongs to you, and only you, and no one can pull the plon you.  
@@ -1984,7 +1984,7 @@ According to Brian Behlendorf,
 "(...) identity is a toxic asset that could present a liability to organizations".  
 Indeed, since 2013, over 14 billion data records were lost or stolen. 
 
-What is striking is that, out of these, only 4% were encrypted, and hence, rendered useless after being stolen (also called "secure breaches"). You can find detailed statistics at the Breach Level Index website.
+What is striking is that, out of these, only 4% were encrypted, and hence, rendered useless after being stolen (also called "secure breaches"). You can find detailed statistics at the [Breach Level Index](https://cpl.thalesgroup.com/) website.
 </p>
 
 <!------------------------------------------------------------------------------------------------>
@@ -1994,12 +1994,12 @@ What is striking is that, out of these, only 4% were encrypted, and hence, rende
   <img width="50%" src="https://user-images.githubusercontent.com/41387907/138575517-527507d7-cb6f-4ac4-811c-2767ea494268.png"
        alt="Hyperledger Indy and its 'privacy by design' approach"</>
 </p>
-One of the key principles of Hyperledger Indy is its "privacy by design" approach. Given the immutable nature of the DLT, it is all the more important that digital identities be handled with the utmost care, keeping human values front and center.  
+One of the key principles of Hyperledger Indy is its ["privacy by design"](https://en.wikipedia.org/wiki/Privacy_by_design) approach. Given the immutable nature of the DLT, it is all the more important that digital identities be handled with the utmost care, keeping human values front and center.  
 
 "Hyperledger Indy lets users authenticate identity based on the attributes they are willing to store and share themselves. This can reduce the amount of liability contained within a business because the data can be kept with the user and presented to you again in a way that you can trust and validate that what has been said really was said and is trusted by the other parties you do business with".
 
 *   Nathan George, Maintainer, Hyperledger Indy
-    Further information about the history of the project can be found at the Sovrin's website.
+    Further information about the history of the project can be found at the [Sovrin's](https://sovrin.org/) website.
 
 **[`^        back to top        ^`](#table-of-contents)**
 
@@ -2048,7 +2048,7 @@ you don't need to be a blockchain guru to incorporate Iroha into your business.
 Get started with Hyperledger Iroha today by downloading the source code, accessing thedocumentation and joining our community from our website:  
 hyperledger.org.  
 
-Hyperledger Iroha is a free, open-source blockchain framework contributed by Soramitsu, Hitachi, NTT Data, and Colu (2016). Hyperledger Iroha is a simple blockchain platform that can be used to make trusted, secure, and fast applications that leverage the power of permission-based blockchain with Byzantine fault-tolerant consensus. 
+[Hyperledger Iroha](https://www.hyperledger.org/use/iroha) is a free, open-source blockchain framework contributed by Soramitsu, Hitachi, NTT Data, and Colu (2016). Hyperledger Iroha is a simple blockchain platform that can be used to make trusted, secure, and fast applications that leverage the power of permission-based blockchain with Byzantine fault-tolerant consensus. 
 Among its key features are:
 <ul>
 <li>Simple deployment and maintenance,</li>
@@ -2059,13 +2059,13 @@ Among its key features are:
 <li>Multi-signature transactions,</li>
 <li>Uses a high-performance Byzantine fault-tolerant consensus algorithm called YAC.
 </ul>  
-According to the Hyperledger Iroha documentation, "it can be used to manage digital assets, identity and serialized data, and can be useful for applications such as interbank settlement, central bank digital currencies, payment systems, national IDs, and logistics, among others". Its documentation provides an extensive list of use cases, and specific advantages the use of Hyperledger Iroha can introduce - you can read about these use case scenarios online.
+According to the [Hyperledger Iroha documentation](https://iroha.readthedocs.io/en/latest/overview.html), "it can be used to manage digital assets, identity and serialized data, and can be useful for applications such as interbank settlement, central bank digital currencies, payment systems, national IDs, and logistics, among others". Its documentation provides an extensive list of use cases, and specific advantages the use of Hyperledger Iroha can introduce - you can read about these [use case scenarios](https://iroha.readthedocs.io/en/latest/use_cases/index.html) online.
 
 Hyperledger Iroha emphasizes mobile application development with client libraries for Android and iOS, making it distinct from other Hyperledger frameworks. Inspired by Hyperledger Fabric, Hyperledger Iroha seeks to complement Hyperledger Fabric and Hyperledger Sawtooth, while providing a development environment for C++ developers to contribute to Hyperledger.  
 
 Hyperledger Iroha is an active project, and reached a significant milestone in May 2019, the 1.0 release. 
 
-To learn more about it, you can read the announcement.
+To learn more about it, you can read the [announcement](https://www.hyperledger.org/announcements/2019/05/06/hyperledger-launches-hyperledger-iroha-1-0).
 
 **[`^        back to top        ^`](#table-of-contents)**
 

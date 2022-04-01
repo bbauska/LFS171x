@@ -1044,7 +1044,7 @@ As a result, the International Organization for Standardization for Blockchain a
 <br/>
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------- Standards Role in Supporting Blockchain/DLT  ---------------->
+<!------------------------- Standards Role in Supporting Blockchain/DLT -------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
   <img width="66%" src="https://user-images.githubusercontent.com/41387907/138574995-d5b3afa4-dcd0-4caf-9533-52f0ec24999d.png"
@@ -1075,7 +1075,7 @@ In fact, the origin of this course stems from the need to address this gap in kn
 **[`^        back to top        ^`](#table-of-contents)**
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------- Blockchain Search Volume ---------------->
+<!-------------------------------------- Blockchain Search Volume -------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img width="85%"
@@ -1142,7 +1142,7 @@ As of November 2020, there are 16 projects in the Hyperledger greenhouse, six of
 The other 10 projects are tools and libraries that support these frameworks.
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------- Hyperledger ---------------->
+<!----------------------------------------- Hyperledger ------------------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img width="100%"
@@ -1253,20 +1253,21 @@ And what I hope is that, through these processes, they can rest assured that, wh
 <blockquote>
 "Only an Open-Source, collaborative software development approach can ensure the transparency, longevity, interoperability and support required to bring blockchain technologies forward to mainstream commercial adoption. That is what Hyperledger is about - communities of software developers building blockchain frameworks and platforms".<br/>
 </blockquote>
--[hyperledger.org](https://www.hyperledger.org/about)
+- [hyperledger.org](https://www.hyperledger.org/about)
 &nbsp;
 
 As we learned in Chapter 1: "Discovering Blockchain Technologies", the non-availability of standards in distributed ledger technologies is one of the major hurdles in scaling them. One of Hyperledger's key goals is to facilitate the process of standards formation, not by promoting its own distributed ledger(s), but by providing a space for a variety of standards to co-exist simultaneously:  
 <blockquote>
 "Rather than declaring a single blockchain standard, it encourages a collaborative approach to developing blockchain technologies via a community process, with intellectual property rights that encourage open development and the adoption of key standards over time".
 </blockquote>
--[hyperledger-fabric.readthedocs.io](https://hyperledger-fabric.readthedocs.io/en/latest/)
+- [hyperledger-fabric.readthedocs.io](https://hyperledger-fabric.readthedocs.io/en/latest/)
 
 Hyperledger aims to adhere to "open standards", which means they are  </br>
 "(...) interoperable through open published interfaces and services".  </br>
 - John Palfreyman, [ibm.com](https://www.ibm.com/us-en?ar=1)
 
 <br/>
+
 **[`^        back to top        ^`](#table-of-contents)**
 
 <h3>Open-Source and Open Standards</h3>
@@ -1274,16 +1275,19 @@ Hyperledger aims to adhere to "open standards", which means they are  </br>
 The [Enterprise Ethereum Alliance (EEA)](https://entethalliance.org/) and [Hyperledger](https://www.hyperledger.org/) formally joined each other's organizations as Associate Members in October 2018. This strategic partnership aims to grow the blockchain ecosystem by enabling "active and mutual cross-community collaboration through event participation, connecting with other members, and finding ways for our respective efforts to be complementary and compatible."
 
 *   EEA promotes the development of specifications and standards for enterprise blockchain networks
-*   Hyperledger advances the development of open-source software for establishing, managing and connecting enterprise blockchain networks.  
-    This announcement came as a confirmation of an already fruitful collaboration between the two organizations; some examples of this collaboration:
+*   Hyperledger advances the development of open-source software for establishing, managing and connecting enterprise blockchain networks.  <br/>
+
+This announcement came as a confirmation of an already fruitful collaboration between the two organizations; some examples of this collaboration:
 *   Hyperledger Burrow is an implementation of the Ethereum Virtual Machine (EVM) bytecode interpreter
 *   Hyperledger Sawtooth support for the EVM as a transaction processor (Seth)
 *   Hyperledger Fabric support for the EVM
 *   The existence of an EEA working group on Trusted Execution Environments, along with a prototype implementation of the proposed standards, Private Data Objects, built as a lab at Hyperledger.  
-    "...simultaneously developing community-driven open standards and production-quality open-source reference implementations is a best practice of Internet-scale software development work."  
-    While working together, the two organizations will also continue to collaborate with other standard bodies and open-source communities, all with the common goal of accelerating the adoption of enterprise blockchain technologies.
 
+"...simultaneously developing community-driven open standards and production-quality open-source reference implementations is a best practice of Internet-scale software development work."  
+
+While working together, the two organizations will also continue to collaborate with other standard bodies and open-source communities, all with the common goal of accelerating the adoption of enterprise blockchain technologies.
 <br/>
+
 **[`^        back to top        ^`](#table-of-contents)**
 
 <h3>Open-Source and Open Governance</h3>
@@ -1425,8 +1429,8 @@ With distributed ledger technologies like Hyperledger, we can actually have the 
 especially in a more decentralized setting.  
 
 We can avoid the over-centralization of industries, and the over-centralization of society through the use of these technologies.
-
 <br/>
+
 **[`^        back to top        ^`](#table-of-contents)**
 
 <h3>Blockchain for Business</h3>
@@ -1668,10 +1672,7 @@ And it's hard to do things like police your trademark usage, right, when people 
 
 The Linux Foundation took a slightly different approach.  
 
-The Linux Foundation said "We don't..." You know, just like with Apache, "we don't want to write software, we don't want to have to pay all the software developers",  
-because there's actually a lot to the validity that comes from all of the software development happening by volunteers,  
-but there's a lot of non-software development things: marketing, legal, PR, and even the hosting of meetings, the hosting of phone calls,  
-all of the logistics of helping these communities operate that perhaps can be taken on, right, by a full-time staff.  
+The Linux Foundation said "We don't..." You know, just like with Apache, "we don't want to write software, we don't want to have to pay all the software developers", because there's actually a lot to the validity that comes from all of the software development happening by volunteers, but there's a lot of non-software development things: marketing, legal, PR, and even the hosting of meetings, the hosting of phone calls, all of the logistics of helping these communities operate that perhaps can be taken on, right, by a full-time staff.  
 
 Now, how do you pay that staff, right? You could ask for, you know, cutting charity contributions, right?  
 
@@ -1705,41 +1706,44 @@ What are the technologies that sit at kind of the DLT layer, at the smart contra
 
 And then, we can start to look at these projects and go, "Okay, could we put Fabric down here, could we put Burrow up here?"  
 
-Maybe we start to tease apart the distributed ledger part of Fabric from the smart contract part of Fabric, right,  
-into separate components, so that, when somebody new arrives at the project, or they take a training course like this,  
-they can start to pick and choose, you know, as building blocks, as appropriate for whatever use case that they want to target, right?  
+Maybe we start to tease apart the distributed ledger part of Fabric from the smart contract part of Fabric, right, into separate components, so that, when somebody new arrives at the project, or they take a training course like this, they can start to pick and choose, you know, as building blocks, as appropriate for whatever use case that they want to target, right?  
 
-And so, that's something over time, this kind of modularity approach... Along with that, defining standardized APIs between these different levels, right,  
-so that we can get to an ideal, where you could pick the Ethereum virtual machine from Burrow, and run that on top of Fabric or on top of Sawtooth,  
-and, in fact, the Sawtooth and Burrow communities have now actually progressed, and you can now run Ethereum smart contracts on top of Sawtooth, which is pretty cool.  
+And so, that's something over time, this kind of modularity approach... Along with that, defining standardized APIs between these different levels, right, so that we can get to an ideal, where you could pick the Ethereum virtual machine from Burrow, and run that on top of Fabric or on top of Sawtooth, and, in fact, the Sawtooth and Burrow communities have now actually progressed, and you can now run Ethereum smart contracts on top of Sawtooth, which is pretty cool.  
 
 I think we'll see more activity like that.
 
 **[⬆ back to top](#table-of-contents)**
 
-## <a id="ch3"></a>Chapter 3: Hyperledger: Distributed Ledger Frameworks and Domain Specific Blockchains
-In this chapter, we will briefly explore the frameworks developed under the Hyperledger umbrella (as of November 2020), highlighting their key features and use cases. We will dive deeper in discussing use cases in the last chapter of this course.
+<h2 id="ch3"></a>Chapter 3: Hyperledger: Distributed Ledger Frameworks and Domain Specific Blockchains</h2>
+In this chapter, we will briefly explore the frameworks developed under the Hyperledger umbrella (as of November 2020), highlighting their key features and use cases. 
+
+We will dive deeper in discussing use cases in the last chapter of this course.
 
 <h3 id="ch3-1">3.1 Learning Objectives</h3>
 By the end of this chapter, you should be able to:
-  * List the components of Hyperledger frameworks.
-  * Get a high-level understanding of the Hyperledger frameworks and domain-specific blockchain technologies: 
-	- Hyperledger Besu, 
-	- Hyperledger Burrow, 
-	- Hyperledger Fabric, 
-	- Hyperledger Grid, 
-	- Hyperledger Indy, 
-	- Hyperledger Iroha, and 
-	- Hyperledger Sawtooth.
+<ul>
+<li>List the components of Hyperledger frameworks.</li>
+<li>Get a high-level understanding of the Hyperledger frameworks and domain-specific blockchain technologies: </li>
+<ul>
+<li>Hyperledger Besu, </li>
+<li>Hyperledger Burrow, </li>
+<li>Hyperledger Fabric, </li>
+<li>Hyperledger Grid, </li>
+<li>Hyperledger Indy, </li>
+<li>Hyperledger Iroha, and </li>
+<li>Hyperledger Sawtooth.</li>
+</ul>
+</ul>
 
 <h3>Components of Hyperledger Frameworks</h3>
 Hyperledger business blockchain frameworks are used to build enterprise blockchains for a consortium of organizations. They are different than public ledgers like the Bitcoin blockchain and Ethereum. 
 Hyperledger frameworks include:
-
-  * An append-only distributed ledger
-  * A consensus algorithm for agreeing to changes in the ledger
-  * Privacy of transactions through permissioned access
-  * Smart contracts to process transaction requests.
+<ul>
+<li>An append-only distributed ledger</li>
+<li>A consensus algorithm for agreeing to changes in the ledger</li>
+<li>Privacy of transactions through permissioned access</li>
+<li>Smart contracts to process transaction requests.</li>
+</ul>
 
 <!------------------------------------------------------------------------------------------------>
 <!----------------- Hyperledger frameworks (as of November, 2020) ---------------->
@@ -1765,16 +1769,17 @@ Now, let's explore the Hyperledger frameworks (as of November 2020)!
 
 **Hyperledger Besu** is an open-source Ethereum client developed under the Apache 2.0 license and written in Java. It can be run on the Ethereum public network or on private permissioned networks, as well as test networks such as Rinkeby, Ropsten, and Görli. Hyperledger Besu includes several consensus algorithms including PoW, PoA, and IBFT, and has comprehensive permissioning schemes designed specifically for uses in a consortium environment. Hyperledger Besu joined the Hyperledger Incubator in August 2019; PegaSys has been its primary contributor and maintainer since its launch in November 2018, when it was known as Pantheon.  
 Among its features:
-
-*   Implements the Enterprise Ethereum Alliance (EEA) specification
-*   The Ethereum Virtual Machine (EVM), which allows deployment and execution of smart contracts via transactions within an Ethereum blockchain
-*   Implements various consensus algorithms, such as Proof of Authority (with several protocols, such as IBTF 2.0 or Clique) and Proof of Work (Ethash)
-*   Uses a RocksDS key-value database to persist chain data locally
-*   P2P networking
-*   Provides user-facing APIs
-*   Allows you to monitor node and network performance
-*   Ability to keep transactions private between the involved parties
-*   Allows permissioning.
+<ul>
+<li>Implements the Enterprise Ethereum Alliance (EEA) specification</li>
+<li>The Ethereum Virtual Machine (EVM), which allows deployment and execution of smart contracts via transactions within an Ethereum blockchain</li>
+<li>Implements various consensus algorithms, such as Proof of Authority (with several protocols, such as IBTF 2.0 or Clique) and Proof of Work (Ethash)</li>
+<li>Uses a RocksDS key-value database to persist chain data locally</li>
+<li>P2P networking</li>
+<li>Provides user-facing APIs</li>
+<li>Allows you to monitor node and network performance</li>
+<li>Ability to keep transactions private between the involved parties</li>
+<li>Allows permissioning.</li>
+</ul>
 
 **[`^        back to top        ^`](#table-of-contents)**
 
@@ -1788,19 +1793,42 @@ Among its features:
        alt="Hyperledger Burrow"</>
 </p>
 Welcome to the Hyperledger greenhouse, an open-source consortium for developing business blockchain technologies hosted by the Linux Foundation.  
+
 Within the greenhouse, diverse global communities collaboratively develop open-source projects that uniquely approach enterprise blockchain challenges.  
+
 These technologies can cross-pollinate and interoperate, just like how the community is driving the projects, collaborate in an open and neutral environment.  
+
 Hyperledger Burrow is a modular blockchain framework in the Hyperledger greenhouse, with a permissioned smart contract interpreter, developed partly to the specifications of the Ethereum Virtual Machine.  
+
 Smart contracts provide the base functionality and computational muscle within blockchain networks.  
+
 Smart contracts are written into lines of code, and distributed across blockchain networks.  
+
 They can be configured to manage processes, exchange value, or perform calculations, all without intermediaries.  
+
 Because of its lightweight and fast smart contract design, and the Byzantine fault tolerant consensus algorithm with transaction finality,  
+
 Burrow is optimized for sharing processes across organizations.  
+
 Burrow operates as Hyperledger's library for Ethereum Virtual Machine-based smart contracts.  
+
 If you wrote Solidity contracts for the public Ethereum network, Hyperledger Burrow allows you to bring those smart contracts over to Hyperledger.  
-Burrow helps organizations better meet their cross-functional business needs, and opens the door for other Hyperledger projects to incorporate the Ethereum Virtual Machine into their platforms.  
+
+Burrow helps organizations better meet their cross-functional business needs, and opens the door for other 
+
+Hyperledger projects to incorporate the Ethereum Virtual Machine into their platforms.  
+
 Get started with Hyperledger Burrow today, by downloading the source code, accessing the documentation, and joining our community from our website: hyperledger.org.  
-Hyperledger Burrow was released in December 2014. It was originally designed by Monax, and co-sponsored by Intel. The project is generally updated on a quarterly basis, and is licensed under the Apache 2.0. license. Currently under incubation, "Hyperledger Burrow is a complete single-binary blockchain distribution focussed on simplicity, speed, and developer ergonomics. It supports both EVM and WASM based smart contracts and uses BFT consensus via the Tendermint algorithm".  
+
+Hyperledger Burrow was released in December 2014. 
+
+It was originally designed by Monax, and co-sponsored by Intel. 
+
+The project is generally updated on a quarterly basis, and is licensed under the Apache 2.0. license. 
+
+Currently under incubation, "Hyperledger Burrow is a complete single-binary blockchain distribution focussed on simplicity, speed, and developer ergonomics. 
+
+It supports both EVM and WASM based smart contracts and uses BFT consensus via the Tendermint algorithm".  
 
 Hyperledger Burrow components are:
 <ul>
@@ -1822,28 +1850,46 @@ Hyperledger Burrow components are:
        alt="Hyperledger Fabric"</>
 </p>
 Welcome to the Hyperledger greenhouse, an open-source consortium for developing business blockchain technologies hosted by the Linux Foundation.  
+
 Within the greenhouse, diverse global communities collaboratively develop open-source projects that uniquely approach enterprise blockchain challenges.  
+
 These technologies can cross-pollinate and interoperate, just like how the community is driving the projects collaborate in an open and neutral environment.  
+
 Hyperledger Fabric is an enterprise-grade, permissioned distributed ledger platform in the Hyperledger greenhouse that offers modularity and versatility for a broad set of industry use cases.  
+
 The modular architecture for Fabric accommodates the diversity of enterprise use cases through plug-and-play components, such as consensus, privacy, and membership services.  
+
 One of the many compelling Fabric features is the enablement of a network of networks.  
+
 Members of a network work together, but because businesses need some of their data to remain private, they often maintain separate relationships within their networks.  
+
 Rather than an open, permissionless system, Fabric offers a modular, scalable and secure platform that supports private transactions and confidential contracts.  
+
 Fabric helps members manage confidential obligations to each other without first passing it through a central authority.  
+
 That way, personal data isn't available to the entire network.  
+
 If a member is not an agreed-upon party, the transaction shouldn't appear on their ledger.  
+
 This architecture allows for solutions developed with Fabric to be adapted for any industry, thus ushering in a new era of trust, transparency, and accountability for businesses.  
+
 Get started with Hyperledger Fabric today by downloading the source code, accessing the documentation, and joining our community from our website:  
 hyperledger.org.
 
-Hyperledger Fabric is an open-source, production ready, permissioned blockchain framework implementation that was designed to serve as a foundation for developing applications or solutions with a modular architecture. It was the first proposal for a codebase (2016), combining previous work done by Digital Asset Holdings, Blockstream's libconsensus, and IBM's OpenBlockchain. It graduated from the Hyperledger Incubator in March of 2017.  
+Hyperledger Fabric is an open-source, production ready, permissioned blockchain framework implementation that was designed to serve as a foundation for developing applications or solutions with a modular architecture. 
+
+It was the first proposal for a codebase (2016), combining previous work done by Digital Asset Holdings, Blockstream's libconsensus, and IBM's OpenBlockchain. It graduated from the Hyperledger Incubator in March of 2017.  
 Key characteristics of Hyperledger Fabric are:
 <ul>
 <li>High-performance, secure, permissioned blockchain network,</li>
 <li>Features powerful container technology to host any mainstream language for smart contracts development,</li>
 <li>Code written in Go, chaincode written in Go, Javascript, or Java, SDKs written in Node.js, Java, Go, REST and Python.</li>
 </ul>
-Its modular architecture allows components such as consensus and membership services to be plug-and-play. One of the key advantages of Hyperledger Fabric is that it allows entities to conduct confidential transactions without passing information through a central authority. This is accomplished through different channels that run within the network, as well as the division of labor that characterizes the different nodes within the network.
+Its modular architecture allows components such as consensus and membership services to be plug-and-play. 
+
+One of the key advantages of Hyperledger Fabric is that it allows entities to conduct confidential transactions without passing information through a central authority. 
+
+This is accomplished through different channels that run within the network, as well as the division of labor that characterizes the different nodes within the network.
 
 **[`^        back to top        ^`](#table-of-contents)**
 
@@ -1857,39 +1903,63 @@ Its modular architecture allows components such as consensus and membership serv
 </p>
 <p>
 Welcome to the Hyperledger greenhouse, an open-source consortium for developing business blockchain technologies hosted by the Linux Foundation.  
+
 Within the greenhouse, diverse global communities collaboratively develop open-source projects that uniquely approach enterprise blockchain challenges.  
+
 These technologies can cross-pollinate and interoperate, just like how the community is driving the projects, collaborate in an open and neutral environment.  
+
 Hyperledger Indy, one of the frameworks in the Hyperledger greenhouse, is a distributed ledger that provides tools, libraries,and reusable components for creating and using independent decentralized identities.  
 
 As the world becomes more interconnected, individuals are disclosing personal information creating multiple usernames and passwords and leaving digital traces across platforms.  
+
 Indy represents the idea of a self-sovereign identity, which would dispose of the need for multiple logins and passwords.  
+
 Rooted on a distributed ledger, this digital identity interoperates across different domains, applications and organizational silos.  
+
 Additionally, Indy puts identity control in the hands of the user, not the organization.
 
 Individuals will not have to rely on big organizations to store and share their personal data.  
+
 Instead, the user controls what data they want to provide access to and for how long.  
+
 Indy provides strong privacy guarantees because private data is not written on the ledger, but exchanged over peer-to-peer encrypted connections.  
+
 A unique ID for each relationship ensures that data doesn't leak from one relationship to the next.  
+
 Indy also ensures that both individuals and institutions always know who they are dealing with.  
+
 Companies can store less personal data and spend less time and money trying to protect it.  
+
 This combination of privacy and trust enables meaningful interactions.  
+
 By providing a solution for digital credentials that preserves privacy, Indy makes self-sovereign identities possible and practical for individuals, institutions and Internet of Things.  
+
 Get started with Hyperledger Indy today by downloading the source code, accessing the documentation and joining our community from our website: hyperledger.org.  
+
 The Hyperledger consortium has many different projects that focus on different aspects of how ledgers can work and what use cases they can be applied for.  
-Hyperledger Indy is a distributed ledger purpose-built for doing distributed identity,  
+
+Hyperledger Indy is a distributed ledger purpose-built for doing distributed identity, 
 and what that means is, it allows you to have a route of trust to manage the keys, schemas, proofs, and other information that you need to, in order to enable trusted peer interactions between different identities, as stored on a Hyperledger Indy blockchain instance.  
-So, if you have an identity it belongs to you, and only you, and no one can pull the plug on you.  
+
+If you have an identity it belongs to you, and only you, and no one can pull the plon you.  
+
 And you can use that identity to manifest different correlatable pieces of data between you and other identities you want to interact with, without leaking private information or disclosing information that you don't want shared across all those different aspects of who you are.  
+
 And when you control your identity, it makes it so that you are also a party to the kinds of data sharing, claims, and proofs that can be made about you, as information is shared across all the different interactions you might do online.  
-One of the main use cases of Hyperledger Indy is to create a global public utility for identity that's being created by the Sovrin Foundation, which allows us to take these identifiers, and to anchor them on a public ledger, so that different pieces of truth or pieces of information can be trusted and shared with other people across the world, and they can be trusted and validated, so that self-attested data can be shared, as well as third-party attestations can be shared across all kinds of interactions and across all kinds of data silos,  
-and what this makes possible is the ability to no longer have to function as an identity provider as a business, but to rather let users authenticate based on the attributes that they're willing to store and share themselves, which allows for GDPR-compliant use cases, where you're expressing consent on behalf of the user, and also reducing the amount of liability contained within a business,  
-because the data can be kept with the user and presented to you again in a way that you can trust and validate, that what has been said, really was said, and is trusted by the other parties you do business with.  
+
+One of the main use cases of Hyperledger Indy is to create a global public utility for identity that's being created by the Sovrin Foundation, which allows us to take these identifiers, and to anchor them on a public ledger, so that different pieces of truth or pieces of information can be trusted and shared with other people across the world, and they can be trusted and validated, so that self-attested data can be shared, as well as third-party attestations can be shared across all kinds of interactions and across all kinds of data silos, and what this makes possible is the ability to no longer have to function as an identity provider as a business, but to rather let users authenticate based on the attributes that they're willing to store and share themselves, which allows for GDPR-compliant use cases, where you're expressing consent on behalf of the user, and also reducing the amount of liability contained within a business, because the data can be kept with the user and presented to you again in a way that you can trust and validate, that what has been said, really was said, and is trusted by the other parties you do business with.  
+
 Hyperledger Indy is a distributed ledger purpose-built for decentralized identity, that upholds the standards mandated by GDPR. Hyperledger Indy "provides tools, libraries, and reusable components for providing digital identities rooted on blockchains or other distributed ledgers so that they are interoperable across administrative domains, applications, and any other silo."  
-Hyperledger Indy was contributed to the Hyperledger greenhouse by the Sovrin Foundation in 2017, and it graduated from the Incubator in March of 2019. It allows individuals to manage and control their digital identities. Rather than having businesses store huge amounts of personal data of individuals, Hyperledger Indy allows businesses to store pointers to identity. Once the company verifies the other party's identity, it throws it away.
+
+Hyperledger Indy was contributed to the Hyperledger greenhouse by the Sovrin Foundation in 2017, and it graduated from the Incubator in March of 2019. It allows individuals to manage and control their digital identities. 
+
+Rather than having businesses store huge amounts of personal data of individuals, Hyperledger Indy allows businesses to store pointers to identity. Once the company verifies the other party's identity, it throws it away.
 
 According to Brian Behlendorf,  
 "(...) identity is a toxic asset that could present a liability to organizations".  
-Indeed, since 2013, over 14 billion data records were lost or stolen. What is striking is that, out of these, only 4% were encrypted, and hence, rendered useless after being stolen (also called "secure breaches"). You can find detailed statistics at the Breach Level Index website.
+Indeed, since 2013, over 14 billion data records were lost or stolen. 
+
+What is striking is that, out of these, only 4% were encrypted, and hence, rendered useless after being stolen (also called "secure breaches"). You can find detailed statistics at the Breach Level Index website.
 </p>
 
 <!------------------------------------------------------------------------------------------------>
@@ -1900,6 +1970,7 @@ Indeed, since 2013, over 14 billion data records were lost or stolen. What is st
        alt="Hyperledger Indy and its 'privacy by design' approach"</>
 </p>
 One of the key principles of Hyperledger Indy is its "privacy by design" approach. Given the immutable nature of the DLT, it is all the more important that digital identities be handled with the utmost care, keeping human values front and center.  
+
 "Hyperledger Indy lets users authenticate identity based on the attributes they are willing to store and share themselves. This can reduce the amount of liability contained within a business because the data can be kept with the user and presented to you again in a way that you can trust and validate that what has been said really was said and is trusted by the other parties you do business with".
 
 *   Nathan George, Maintainer, Hyperledger Indy
@@ -1964,8 +2035,12 @@ Among its key features are:
 <li>Uses a high-performance Byzantine fault-tolerant consensus algorithm called YAC.
 </ul>  
 According to the Hyperledger Iroha documentation, "it can be used to manage digital assets, identity and serialized data, and can be useful for applications such as interbank settlement, central bank digital currencies, payment systems, national IDs, and logistics, among others". Its documentation provides an extensive list of use cases, and specific advantages the use of Hyperledger Iroha can introduce - you can read about these use case scenarios online.
+
 Hyperledger Iroha emphasizes mobile application development with client libraries for Android and iOS, making it distinct from other Hyperledger frameworks. Inspired by Hyperledger Fabric, Hyperledger Iroha seeks to complement Hyperledger Fabric and Hyperledger Sawtooth, while providing a development environment for C++ developers to contribute to Hyperledger.  
-Hyperledger Iroha is an active project, and reached a significant milestone in May 2019, the 1.0 release. To learn more about it, you can read the announcement.
+
+Hyperledger Iroha is an active project, and reached a significant milestone in May 2019, the 1.0 release. 
+
+To learn more about it, you can read the announcement.
 
 **[`^        back to top        ^`](#table-of-contents)**
 
@@ -1978,6 +2053,7 @@ Hyperledger Iroha is an active project, and reached a significant milestone in M
        alt="Hyperledger Sawtooth"</>
 </p>
 Welcome to the Hyperledger greenhouse, an open-source consortium for developing business blockchain technologies hosted by the Linux Foundation.  
+
 Within the greenhouse, diverse global communities collaboratively develop open-source projects that uniquely approach enterprise blockchain challenges.  
 
 These technologies can cross-pollinate and interoperate, just like how the community is driving the projects collaborate in an open and neutral environment.  
@@ -2008,7 +2084,9 @@ your internal systems can make use of all the data managed on the Sawtooth block
 Get started with Hyperledger Sawtooth today by downloading the source code, accessing the documentation and joining our community from our website:  
 hyperledger.org.  
 
-Hyperledger Sawtooth, is an open-source blockchain framework that utilizes a highly modular platform for building, deploying, and running distributed ledger applications and networks, making smart contracts safe, particularly for enterprise use. It was originally contributed by Intel and joined the Hyperledger greenhouse in April of 2016. In May of 2018 it graduated from the Hyperledger Incubator.
+Hyperledger Sawtooth, is an open-source blockchain framework that utilizes a highly modular platform for building, deploying, and running distributed ledger applications and networks, making smart contracts safe, particularly for enterprise use. It was originally contributed by Intel and joined the Hyperledger greenhouse in April of 2016. 
+
+In May of 2018 it graduated from the Hyperledger Incubator.
 
 Some of its key characteristics are:
 <ul>
@@ -2026,35 +2104,55 @@ This technology simplifies blockchain application development and deployment by 
 **[`^        back to top        ^`](#table-of-contents)**
 
 <h3>Hyperledger Sawtooth Characteristics Relative to Use Cases (Dan Middleton)</h3>
-So, unique characteristics of Sawtooth... There's several, but one that comes to mind for a provenance or supply chain use case,  
-is that that network will probably grow over time.  
+So, unique characteristics of Sawtooth... There's several, but one that comes to mind for a provenance or supply chain use case, is that that network will probably grow over time.  
+
 The reason that a lot of us are starting blockchain networks, a lot of companies are invested in looking at blockchain networks, because we think that we're going to be in them for a long time and they're going to continue to grow.  
+
 Sawtooth is designed so that you can grow the size of the network, you can actually change the consensus mechanism on the fly...  
+
 I think this is a unique characteristic of Sawtooth amongst all of the other ledgers...you can submit as a transaction and then have a policy within your network to accept that new consensus, and then, your network can move from say a PBFT-style consensus to something like PoET, or some sort of random leader election consensus...  
+
 It allows you to have tens, or hundreds, or potentially thousands of different nodes on your network, and you really can't beat that kind of availability and integrity guarantees, or that kind of flexibility for a network that needs to be up for years.
 
 <h3>Hyperledger Sawtooth - Supply Chain Use Case Example (Courtesy of Sawtooth)</h3>
 Meet Rich: he owns a popular seafood restaurant in Boston, Massachusetts.  
+
 Rich strives to serve only the freshest, highest quality fish to his patrons, but he often has difficulty knowing exactly where it was caught, how it got to his restaurant, or if it's even the right species of fish.  
-From ocean to table, the fish supply chain is difficult to track, and usually follows this pattern: the fish is caught by a commercial fisherman in the ocean,  
-the fisherman then sells the fish to a market, processor, or broker, a distributor then transports the fish to a restaurant or grocery store for a consumer to purchase.  
+
+From ocean to table, the fish supply chain is difficult to track, and usually follows this pattern: the fish is caught by a commercial fisherman in the ocean, the fisherman then sells the fish to a market, processor, or broker, a distributor then transports the fish to a restaurant or grocery store for a consumer to purchase.  
+
 Rich typically only buys from one or two fish distributors that he has built a foundation of trust and personal history with.  
+
 He'd like to expand his menu by adding some different kinds of seafood from other distributors, but he worries about integrity, and for good reason.  
+
 He recently read a study by Oceana, which showed that 33% of fish purchased from retail outlets is incorrectly labeled, and that illegal fishing represents losses between 10 to 23 billion dollars worldwide.  
+
 Rich knows that mislabeled and illegally sourced fish could hurt his customers, his restaurant's reputation, and the environment of our planet.  
-Fortunately for Rich and others in the seafood industry,  
-Sawtooth Lake blockchain technology can provide an immutable record of the provenance and lineage of various goods, like fish.  
+
+Fortunately for Rich and others in the seafood industry, Sawtooth Lake blockchain technology can provide an immutable record of the provenance and lineage of various goods, like fish.  
+
 In combination with Internet of Things-enabled sensors, Sawtooth Lake can manage the ownership and journey of fish from ocean to table.  
+
 Sensors can be attached to fish the moment they are harvested, immediately and continuously recording data such as the location and temperature of the fish.  
+
 Now, Rich can validate when and where his fish was caught, and that it was stored properly on ice while it was transported.  
+
 The Sawtooth Lake platform can also manage the Chain of Custody fish, enabling ownership to be transferred and traded on the blockchain according to smart contracts.  
+
 With Sawtooth Lake as a traceability blockchain, Rich can easily see which fishermen meet his quality standards and feels comfortable doing business with new tradesmen.  
+
 When he serves up a new special to a cherished customer, he can confidently and accurately assure her it's the type of fish she ordered, it was stored at safe temperatures, when and where it was caught, how long it took to get to her plate, and the fish's name... just kidding.  
+
 Sawtooth Lake blockchain technology can be used for a wide variety of applications, from capital markets to international trade.  
+
 The Internet of Things ties the physical world to the digital world, with Sawtooth Lake recording the generated data in a way that all parties can trust its accuracy and completeness.  
+
 This is extremely useful for tracking perishable goods, like fish.  
+
 These sensors can track many key parameters, such as location, temperature, humidity, motion, shock, and tilt.  
+
 This technology could be added to any package or sensitive good you're entrusting to other parties.  
+
 The blockchain will ensure the data is secure and tamper-proof, so that you know what you're getting, and that you get what you pay for.
 
 Sawtooth Lake creates a digital platform enabling physical traceability in a trustless world.
@@ -2099,9 +2197,10 @@ The Hyperledger tools, which we will look at next, are auxiliary softwares used 
 
 <h3 id="ch4-1">4.1 Learning Objectives</h3>
 By the end of this chapter, you should be able to:
-
-*   Understand the role of Hyperledger tools.
-*   Get a high-level understanding of the Hyperledger tools (as of November 2020): Hyperledger Avalon, Hyperledger Cactus, Hyperledger Caliper, Hyperledger Cello, Hyperledger Explorer.
+<ul>
+<li>Understand the role of Hyperledger tools</li>
+<li>Get a high-level understanding of the Hyperledger tools (as of November 2020): Hyperledger Avalon,  Hyperledger Cactus, Hyperledger Caliper, Hyperledger Cello, Hyperledger Explorer.</li>
+</ul>
 
 **[`^        back to top        ^`](#table-of-contents)**
 
@@ -2277,6 +2376,7 @@ By the end of this chapter, you should be able to:
 <li>Understand the role of Hyperledger libraries,</li>
 <li>Get a high-level understanding of the Hyperledger libraries (as of November 2020): Hyperledger Aries, Hyperledger Quilt, Hyperledger Transact, and Hyperledger Ursa.</li>
 </ul>
+
 **[`^        back to top        ^`](#table-of-contents)**
 
 <!------------------------------------------------------------------------------------------------>

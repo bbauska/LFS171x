@@ -2332,6 +2332,7 @@ Hyperledger Caliper is a blockchain benchmark tool, which allows users to measur
   <img width="50%" src="https://user-images.githubusercontent.com/41387907/138575573-0a0eb676-0a88-436d-be56-ad113e6d70e3.png"
        alt="Hyperledger Cello"</>
 </p>
+
 [Hyperledger Cello](https://www.hyperledger.org/use/cello) is a blockchain module toolkit helping businesses use and manage blockchains in a more efficient way. Particularly for lean businesses and small enterprises, who want to reduce or eliminate the effort required in creating, managing, and terminating blockchains, Hyperledger Cello allows blockchains deployment to the cloud. 
 
 Operators can create and manage such blockchains through a dashboard, and users (typically, chaincode developers) can obtain a blockchain instance immediately.  
@@ -2374,6 +2375,7 @@ Some key features are:
   <img width="50%" src="https://user-images.githubusercontent.com/41387907/138575604-de11d640-967d-486a-8ddf-b302785cfdb0.png"
        alt="Hyperledger Explorer"</>
 </p>
+
 [Hyperledger Explorer](https://www.hyperledger.org/use/explorer) is a simple, but powerful open-source tool for visualizing blockchain operations. 
 
 It is the first tool to examine permissioned ledgers, allowing anyone to explore the distributed ledger projects being created by Hyperledger's members from the inside, without compromising their privacy. 
@@ -2484,6 +2486,7 @@ Among its key characteristics are:
   <img width="50%" src="https://user-images.githubusercontent.com/41387907/138575628-447fa51e-a4a4-4a4a-bb38-939f932086d9.png"
        alt="Hyperledger Transact"</>
 </p>
+
 [Hyperledger Transact](https://www.hyperledger.org/use/transact) is a transaction execution platform designed to be used as a library or as a component when implementing distributed ledger, including blockchains. 
 
 Hyperledger framework-level projects and custom distributed ledgers can make use of Transact's advanced transaction execution and state management to simplify the transaction execution code required within their projects or to gain additional features. 
@@ -2509,6 +2512,7 @@ Some of the following features are already supported by Hyperledger Transact, or
   <img width="50%" src="https://user-images.githubusercontent.com/41387907/138575637-f0524bb3-3716-4c8f-af1d-e01bc31d5920.png"
     alt="Hyperledger Ursa"</>
 </p>
+
 [Hyperledger Ursa](https://www.hyperledger.org/use/ursa) is a shared cryptographic library that would enable people and projects to avoid duplicating existing cryptographic work and hopefully increase security in the process. 
 
 Rather than having each Hyperledger project implement its own cryptographic protocols, it would be more desirable to collaborate on a shared library - this will simplify cross-platform interoperability and increase modularity for distributed ledger platforms.

@@ -1848,15 +1848,16 @@ Hyperledger Burrow was released in December 2014.
 
 It was originally designed by Monax, and co-sponsored by Intel. 
 
-The project is generally updated on a quarterly basis, and is licensed under the Apache 2.0. license. 
+The project is generally updated on a quarterly basis, and is licensed under the [Apache 2.0](https://www.apache.org/licenses/LICENSE-2.0). license. 
 
 Currently under incubation, "Hyperledger Burrow is a complete single-binary blockchain distribution focussed on simplicity, speed, and developer ergonomics. 
 
 It supports both EVM and WASM based smart contracts and uses BFT consensus via the Tendermint algorithm".  
 
 Hyperledger Burrow components are:
+
+   * Consensus Engine - Hyperledger Burrow uses the Byzantine fault-tolerant [Tendermint protocol](https://tendermint.com/) to order and finalize transactions,
 <ul>
-<li>Consensus Engine - Hyperledger Burrow uses the Byzantine fault-tolerant Tendermint protocol to order and finalize transactions,</li>
 <li>The API Gateway provides interfaces for systems integration and user interfaces,</li>
 <li>The Smart Contract Application engine facilitates integration of complex business logic (maintaining the networking stack between the nodes and ordering transactions),</li>
 <li>Permissioned Ethereum Virtual Machine - it is built to observe the Ethereum operation code specification, and asserts the correct permissions have been granted,</li>

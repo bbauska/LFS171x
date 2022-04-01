@@ -1266,8 +1266,7 @@ As we learned in Chapter 1: "Discovering Blockchain Technologies", the non-avail
 
 Hyperledger aims to adhere to "open standards", which means they are  </br>
 "(...) interoperable through open published interfaces and services".  </br>
-- John Palfreyman, [ibm.com](https://www.ibm.com/us-en?ar=1)
-<br/>
+- John Palfreyman, [ibm.com](https://www.ibm.com/us-en?ar=1)<br/>
 
 **[`^        back to top        ^`](#table-of-contents)**
 
@@ -1288,7 +1287,7 @@ This announcement came as a confirmation of an already fruitful collaboration be
 <li>Hyperledger Fabric support for the EVM</li>
 <li>The existence of an EEA working group on Trusted Execution Environments, along with a prototype implementation of the proposed standards, Private Data Objects, built as a lab at Hyperledger.  </li>
 </ul>
-"...simultaneously developing community-driven open standards and production-quality open-source reference implementations is a best practice of Internet-scale software development work."  
+"...simultaneously developing community-driven open standards and production-quality open-source reference implementations is a best practice of Internet-scale software development work."
 
 While working together, the two organizations will also continue to collaborate with other standard bodies and open-source communities, all with the common goal of accelerating the adoption of enterprise blockchain technologies.
 <br/>
@@ -1298,14 +1297,16 @@ While working together, the two organizations will also continue to collaborate 
 <h3>Open-Source and Open Governance</h3>
 <p>
 "Today, most people understand the concept of Open-Source. What many people don't get, and something we here at Hyperledger and The Linux Foundation pride ourselves on doing well, is Open Governance".<br/>
+
 - [hyperledger.org](https://www.hyperledger.org/blog/2017/09/06/abcs-of-open-governance)
 
 Open-source software is software that is made freely available and may be redistributed and modified. 
 
-In other words, anyone has the ability to view the code, use the code, copy the code, change the code, and, depending on the open source license, contribute back changes.  
-Open governance means that technical decisions for an open-source project are made by a group of community-elected developers drawn from a pool of active participants. 
+In other words, anyone has the ability to view the code, use the code, copy the code, change the code, and, depending on the open source license, contribute back changes.
 
-These decisions include things such as which features to add, how, and when to add them.  
+Open governance means that technical decisions for an open-source project are made by a group of community-elected developers drawn from a pool of active participants.
+
+These decisions include things such as which features to add, how, and when to add them.
 
 To learn more about the specifics of Hyperledger's open governance read the following article ["ABCs of Open Governance"](https://www.hyperledger.org/blog/2017/09/06/abcs-of-open-governance).
 </p>
@@ -1320,15 +1321,13 @@ There actually is a development process that involves decision-making about what
 
 At the core of each of the projects at Hyperledger is a set of maintainers.  
 
-These are individuals who either were with the project when it came in, as initial maintainers, right,  
-because they had been working on the code before, or were invited in by that initial set of maintainers to become maintainers, after demonstrating, you know, a history of contributions to the project, alright?  
+These are individuals who either were with the project when it came in, as initial maintainers, right, because they had been working on the code before, or were invited in by that initial set of maintainers to become maintainers, after demonstrating, you know, a history of contributions to the project, alright?  
 
 These are now individuals who are trusted.  
 
 Once you're in that group, obviously, everything those maintainers do is public.  
 
-If they commit to the source code repository, approve a a patch, a commit request, or pull request,  
-everything they do is public anyway, so there's always that accountability for their actions.  
+If they commit to the source code repository, approve a a patch, a commit request, or pull request, everything they do is public anyway, so there's always that accountability for their actions.  
 
 If somebody does something wrong, anybody can always say "I think that's wrong", and the set of maintainers can sometimes come to a decision to reverse a commit, right?  
 
@@ -1362,18 +1361,17 @@ We want these projects to be a curated, you know, coherent portfolio of differen
 
 In many ways, Fabric and Sawtooth and Iroha do overlap, and you can build an implementation of something in all three of those. That's okay, right?  
 
-We're going to discover over time how these projects differentiate with each other,  
-and it's the role of the Technical Steering Committee, and a bunch of other committees we have around identity, and architecture, and white papers, and things, to try to weave these different efforts together in something that looks coherent, something that makes sense for developers.
+We're going to discover over time how these projects differentiate with each other, and it's the role of the Technical  Steering Committee, and a bunch of other committees we have around identity, and architecture, and white papers, and things,  to try to weave these different efforts together in something that looks coherent, something that makes sense for developers.
 </p>
 
 <h3>Strength Through Diversity</h3>
+<p>
 As you familiarize yourself more with Hyperledger and the blockchain technologies it fosters in its greenhouse, you will notice the similarities between some of its projects, but most importantly, what differentiates them from one another and the use cases they were designed to address. 
 
-The idea behind this approach was and continues to be that there is no one solution to address the myriad of needs, requirements and use cases.  
-"Having a portfolio of projects, though, enables us to have the variety of ideas and contributors to become a strong open-source community... 
-It's not that our multiplicity of projects has given us strength through numbers, but rather strength through diversity."  <br/>
+The idea behind this approach was and continues to be that there is no one solution to address the myriad of needs, requirements and use cases.
 
-Dan Middleton, All Are Welcome Here (2018)<br/>
+"Having a portfolio of projects, though, enables us to have the variety of ideas and contributors to become a strong open-source community...It's not that our multiplicity of projects has given us strength through numbers, but rather strength through diversity."  <br/>
+Dan Middleton, [All Are Welcome Here](https://www.hyperledger.org/blog/2018/12/03/all-are-welcome-here) (2018)<br/>
 <br/>
 
 **[`^        back to top        ^`](#table-of-contents)**

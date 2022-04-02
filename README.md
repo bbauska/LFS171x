@@ -2748,6 +2748,7 @@ In October 2016, Walmart and IBM announced the two projects they were focusing o
 <blockquote>
 "The Hyperledger Fabric blockchain-based food traceability system built for the two products worked. For pork in China, it allowed uploading certificates of authenticity to the blockchain, bringing more trust to a system where that used to be a serious issue. And for mangoes in the US, the time needed to trace their provenance went from 7 days to… 2.2 seconds!" 
 </blockquote>
+
 As a result, Walmart and IBM worked on expanding the system, both within and outside of Walmart; [IBM Food Trust](https://www.ibm.com/blockchain/solutions/food-trust), an ecosystem of producers, suppliers, manufacturers, retailers, etc., working together to create a smarter, safer and more sustainable global food system, was born.  
 
 Today, Walmart traces over 25 products from five different suppliers using the IBM Blockchain built on top of Hyperledger Fabric: from mangoes, strawberries and leafy greens, to meat and poultry, to dairy and almond milk, and even multi-ingredient products like packaged salads and baby foods. 
@@ -3113,6 +3114,7 @@ The healthcare industry has also used DLT to handle online identity management, 
    src="https://user-images.githubusercontent.com/41387907/138567356-a002ee52-de31-4e07-895c-8b0fe1e634c5.png" 
    alt="By The BlockRx Project, retrieved from the Hyperledger Healthcare Working Group, August 22nd, 2017 Meeting"/>
 </p>
+
 <h5 align="center">By The BlockRx Project, retrieved from the [Hyperledger Healthcare Working Group, August 22nd, 2017 Meeting](https://wiki-archive.hyperledger.org/doku.php?id=groups/healthcare/healthcare-wg-meetings)</h5>
 Another area blockchain is used in healthcare is to protect data from cybercrime. 
 

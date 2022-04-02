@@ -2748,13 +2748,13 @@ In October 2016, Walmart and IBM announced the two projects they were focusing o
 <blockquote>
 "The Hyperledger Fabric blockchain-based food traceability system built for the two products worked. For pork in China, it allowed uploading certificates of authenticity to the blockchain, bringing more trust to a system where that used to be a serious issue. And for mangoes in the US, the time needed to trace their provenance went from 7 days to… 2.2 seconds!" 
 </blockquote>
-As a result, Walmart and IBM worked on expanding the system, both within and outside of Walmart; IBM Food Trust, an ecosystem of producers, suppliers, manufacturers, retailers, etc., working together to create a smarter, safer and more sustainable global food system, was born.  
+As a result, Walmart and IBM worked on expanding the system, both within and outside of Walmart; [IBM Food Trust](https://www.ibm.com/blockchain/solutions/food-trust), an ecosystem of producers, suppliers, manufacturers, retailers, etc., working together to create a smarter, safer and more sustainable global food system, was born.  
 
 Today, Walmart traces over 25 products from five different suppliers using the IBM Blockchain built on top of Hyperledger Fabric: from mangoes, strawberries and leafy greens, to meat and poultry, to dairy and almond milk, and even multi-ingredient products like packaged salads and baby foods. 
 
 And it plans to expand the use of this system to include more products and categories in the near future.  
 
-You can learn more about Walmart's successful use of blockchain technologies from this article: How Walmart brought unprecedented transparency to the food supply chain with Hyperledger Fabric.
+You can learn more about Walmart's successful use of blockchain technologies from this article: [How Walmart brought unprecedented transparency to the food supply chain with Hyperledger Fabric](https://www.hyperledger.org/learn/publications/walmart-case-study).
 
 **[`^        back to top        ^`](#table-of-contents)**
 
@@ -2767,7 +2767,7 @@ When ScanTrust decided to implement a blockchain solution to enhance trust, tran
 <blockquote>
 “ScanTrust plans to use the Hyperledger Sawtooth-based solution for other projects. Besides enhancing traceability in the supply chain, the team sees other uses for the technology… A brand could create its own token to incentivize consumers to share data; or it could develop ways to allow consumers to tip the farmer who produced their coffee.”  
 </blockquote>
-You can learn more about the this use case from the following article: How ScanTrust brought Transparency to the Supply Chain with Hyperledger Sawtooth.
+You can learn more about the this use case from the following article: [How ScanTrust brought Transparency to the Supply Chain with Hyperledger Sawtooth](https://www.hyperledger.org/learn/publications/scantrust-case-study).
 
 <h3>Property Rights (Part I)</h3>
 The legal industry has begun to examine how blockchain technologies can minimize disputes around property rights. 
@@ -2853,7 +2853,7 @@ This improved information can aid consumers as they make purchasing decisions.
 
 <p style="text-align:center;" 
 How Provenance Works
-(by Project Provenance Ltd, used with permission)
+(by [Project Provenance Ltd](https://www.provenance.org/), used with permission)
    </>
 
 How do you, as a consumer, really know that you purchased an authentic item?
@@ -2874,7 +2874,7 @@ Their margins are increased over the authentic brand because they cut corners du
 
 It turns out that counterfeit products are a global problem affecting several industries. 
 
-For example, the European Union Intellectual Property Office (EUIPO), in collaboration with the International Telecommunication Union (ITU), estimates that $48 billion worth of smartphone sales were lost to phoney phones in 2015 (Karen Gilchrist, cnbc.com, 2017). 
+For example, the European Union Intellectual Property Office (EUIPO), in collaboration with the International Telecommunication Union (ITU), estimates that $48 billion worth of smartphone sales were lost to phoney phones in 2015 (Karen Gilchrist, [cnbc.com](https://www.cnbc.com/2017/02/28/fake-smartphone-sales-cost-global-industry-48-billion.html), 2017). 
 
 Also, "the Interprofessional Council of Bordeaux Wine estimates that 30,000 bottles of fake imported wine are sold per hour in China", whereby some estimate half of the wines retailing for more than $35 in China are counterfeit (Pamela Ambler, [forbes.com](https://www.forbes.com/sites/pamelaambler/2017/07/27/china-is-facing-an-epidemic-of-counterfeit-and-contraband-wine/?sh=5121fe9a5843), 2017).
 
@@ -2903,7 +2903,7 @@ As a consumer reading from a blockchain, you would be able to verify a product�
 
 Therefore, the promise is that you will be assured that the product you are purchasing is an authentic product, without necessarily allowing the public to view your purchasing habits, all leveraging distributed ledger technology.
 
-<h3>Provenance Use Case: Circular</h3>
+<h3>Provenance Use Case: Circulor</h3>
 For years, consumers have been looking for ethically-sourced products, and a well-known example is that of diamonds provenance. 
 
 A much less known conflict mineral is tantalum - a rare mineral used to make capacitors found in devices like smartphones and laptops. 

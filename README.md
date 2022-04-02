@@ -3066,7 +3066,7 @@ The adoption of blockchain technologies for post-trade settlement will likely ch
 
 With this increased insight into the market, the government may or may not develop stronger standards for trades through smart contracts.
 
-<h3>Healthcare (Part VI)</h3>
+<h3>Healthcare</h3>
 A number of multi-party processes in the healthcare industry can leverage distributed ledger technology. 
 
 By streamlining these multi-party processes, the healthcare industry can reduce the time and expense of collecting and verifying multiple pieces of information in order to deliver quality care to patients. 
@@ -3095,7 +3095,6 @@ Tying the care auditability with the payment auditability provides a key advanta
 
 **[`^        back to top        ^`](#table-of-contents)**
 
-<h3>Healthcare (Part I)</h3>
 The healthcare industry has examined placing prescription drug fulfillment processes on blockchain since they involve gathering and checking information from many sources. 
 
 Insurance benefits investigation eligibility checks are performed to see if insurance will pay. 

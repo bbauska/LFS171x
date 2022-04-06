@@ -88,12 +88,12 @@ h1 {
 h2, .toc_title {
   font-weight: bold;
   font-size: 16pt;
-  margin-left: -40px;
+  margin-left: -10px;
 }
 
 h3, h4, h5, h6 {
   font-size: 14pt;
-  margin-left: -20px;
+  margin-left: 10px;
 }
 
 .toc_category, .toc_stylepoint {
@@ -165,7 +165,7 @@ pre.badcode {
   border-width: 1px;
   font-size: 75%;
   margin-top: 0;
-  margin-left: -50px;
+  margin-left: -20px;
   padding: 4px;
   border-radius: 3px;
   -webkit-border-radius: 3px;

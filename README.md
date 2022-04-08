@@ -1861,6 +1861,7 @@ Hyperledger Burrow components are:
 <li>Application Binary Interface (ABI) - transactions must be formulated in a binary format, which is processed by the blockchain node,</li>
 <li>The Application Blockchain Interface (ABCI) provides interface specification for the consensus engine and smart contract application engine to connect.</li>
 </ul>
+
 **[`^        back to top        ^`](#table-of-contents)**
 
 <!------------------------------------------------------------------------------------------------>
@@ -2403,7 +2404,7 @@ In the previous chapter we looked at the Hyperledger tools, which are auxiliary 
 
 In this chapter we will take a look at the Hyperledger libraries for enterprise-grade blockchain deployments.
 
-<h4 id="ch5-1">5.1 Learning Objectives</h4>
+<h3 id="ch5-1">5.1 Learning Objectives</h3>
 By the end of this chapter, you should be able to:
 <ul>
 <li>Understand the role of Hyperledger libraries,</li>
@@ -2567,7 +2568,7 @@ By the end of this chapter, you should be able to:
 <li>Decide when to use and when not to use blockchain technology.</li>
 </ul>
 
-<h4 id="ch6-1">6.1 Business Blockchain Technologies Overview</h4>
+<h3 id="ch6-1">6.1 Business Blockchain Technologies Overview</h3>
 Blockchain is a data structure with an automated way to enforce trust among participants.
 
 Consensus algorithms ensure that all participants agree on the data stored within the blockchain.
@@ -3527,4 +3528,4 @@ Good luck to all of you in your future endeavors!
 
 **[⬆ back to top](#table-of-contents)**
 **[`^        back to top        ^`](#table-of-contents)**
-4/7/2022
+4/8/2022

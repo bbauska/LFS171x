@@ -2731,7 +2731,7 @@ The function of trade finance is to act as a third party to remove the payment r
 Institutions that provide capital during these trades can leverage the information visible in a supply chain blockchain to better evaluate companies for lending.
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------- Supply chain management  ---------------->
+<!--------------------------------- supply chain management (80) --------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="https://user-images.githubusercontent.com/41387907/138575655-6f978bd0-04e5-404b-a5b9-9849e805f4aa.png"
@@ -2854,13 +2854,13 @@ This improved information can aid consumers as they make purchasing decisions.
 <br/>
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------------- How Provenance works ------------------------------------->
+<!---------------------------------- How Provenance works (84) ----------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <p style="text-align:center;" 
-<img width="66%"
-   src="https://user-images.githubusercontent.com/41387907/138575669-26c3feb9-72c2-4a6a-a098-08d39871c89b.png"
-   alt="How Provenance Works" </p>
+<img src="https://user-images.githubusercontent.com/41387907/138575669-26c3feb9-72c2-4a6a-a098-08d39871c89b.png"
+   alt="How Provenance Works"
+   width="66%" />
 
 <p style="text-align:center;" 
 How Provenance Works
@@ -3008,12 +3008,12 @@ Smart contracts will ensure that final settlement will happen when the execution
 With smart contract technology, a legal agreement can automatically execute clauses within it.  
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------- Automation of back-office processes ---------------->
+<!--------------------------- Automation of back-office processes (88) --------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="66%"  
-   src="https://user-images.githubusercontent.com/41387907/138575675-e4e11f59-196e-4c1a-b4b5-7c91c16322e6.png"     
-   alt="Automation of back-office processes involved in trade confirmation and post-trade settlement via DLT."/>
+<img src="https://user-images.githubusercontent.com/41387907/138575675-e4e11f59-196e-4c1a-b4b5-7c91c16322e6.png"     
+   alt="Automation of back-office processes involved in trade confirmation and post-trade settlement via DLT"
+   width="66%" />
 </p>
 
 The image above shows the automation of back-office processes involved in trade confirmation and post-trade settlement via DLT. 
@@ -3117,12 +3117,12 @@ Formulary checks, patients’ assistance checks, and pharmacy stock checks must 
 The healthcare industry has also used DLT to handle online identity management, by uploading verified pieces of a healthcare professional’s credentials for license verification.
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------- By the blockRX project ---------------->
+<!-------------------------------- By the blockRX project (90) ----------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="66%"
-   src="https://user-images.githubusercontent.com/41387907/138567356-a002ee52-de31-4e07-895c-8b0fe1e634c5.png" 
-   alt="By The BlockRx Project, retrieved from the Hyperledger Healthcare Working Group, August 22nd, 2017 Meeting"/>
+<img src="https://user-images.githubusercontent.com/41387907/138567356-a002ee52-de31-4e07-895c-8b0fe1e634c5.png" 
+   alt="By The BlockRx Project, retrieved from the Hyperledger Healthcare Working Group, August 22nd, 2017 Meeting"
+   width="66%" />
 </p>
 
 <h5 align="center">By The BlockRx Project, retrieved from the [Hyperledger Healthcare Working Group, August 22nd, 2017 Meeting](https://wiki-archive.hyperledger.org/doku.php?id=groups/healthcare/healthcare-wg-meetings)</h5>
@@ -3416,12 +3416,12 @@ Do you need a smart contract or are stored procedures written in an extension of
 <h4>Blockchain Decision Path</h4>
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------- Block decision path ---------------->
+<!---------------------------------- block decision path (100) ----------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="66%"
-   src="https://user-images.githubusercontent.com/41387907/138575694-cfe33539-cddc-4dd5-b44f-f8b7519f5264.png"
-   alt="Blockchain Decision Path"/>
+<img src="https://user-images.githubusercontent.com/41387907/138575694-cfe33539-cddc-4dd5-b44f-f8b7519f5264.png"
+   alt="Blockchain Decision Path"
+   width="66%" />
 </p>
 <p align="center">The above diagram provides generalized, high-level decision points about when to use or not to use blockchain technology for your business.</p>
 
@@ -3445,12 +3445,12 @@ For key updates from Hyperledger, join the [mailing list](https://lists.hyperled
 You can start or join a [Hyperledger meetup](https://www.meetup.com/pro/hyperledger/). Development updates from Wiki can be found [here](https://wiki.hyperledger.org/).
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------- hyperledger global meetings ---------------->
+<!------------------------------ hyperledger global meetings (101) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img width="100%"
-   src="https://user-images.githubusercontent.com/41387907/138567410-7039e221-879b-4214-9b21-091947e04495.png" 
-   alt="Hyperledger Global Meetups (as of 06/24/2019)"/>
+<img src="https://user-images.githubusercontent.com/41387907/138567410-7039e221-879b-4214-9b21-091947e04495.png" 
+   alt="Hyperledger Global Meetups (as of 06/24/2019)"
+   width="100% />
 <h5 align="center">Hyperledger Global Meetups (as of 06/24/2019)</h5>
 </p>
 

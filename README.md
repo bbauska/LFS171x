@@ -914,7 +914,7 @@ Hyperledger provides all the capabilities of the blockchain architecture - data 
 
 Permissioned blockchains offer more efficient transaction performance, thus being highly scalable, and have a clearly defined governance structure.
 
-<h3 id="ch1-x">Hyperledger vs. Other Permissioned Ledgers (Brian Behlendorf)</h3>
+<h3 id="ch1-7">1.7 Hyperledger vs. Other Permissioned Ledgers (Brian Behlendorf)</h3>
 What makes Hyperledger so unique, compared to other permissioned ledgers?  
 
 Hyperledger is a really unique community in the open source landscape of different blockchain technologies.  
@@ -2560,7 +2560,7 @@ By the end of this chapter, you should be able to:
 <li>Decide when to use and when not to use blockchain technology.</li>
 </ul>
 
-<h4 id="ch6-1">Business Blockchain Technologies Overview</h4>
+<h4 id="ch6-1">6.1 Business Blockchain Technologies Overview</h4>
 Blockchain is a data structure with an automated way to enforce trust among participants.
 
 Consensus algorithms ensure that all participants agree on the data stored within the blockchain.
@@ -2622,7 +2622,7 @@ From smart companies, to smart cities, to smart energy management, to streamlini
 
 **[`^        back to top        ^`](#table-of-contents)**
 
-<h3 id="ch6-2">Blockchain Use Case (Brian Behlendorf)</h3>
+<h3 id="ch6-2">6.2 Blockchain Use Case (Brian Behlendorf)</h3>
 What is your favorite blockchain use case?  
 
 So, you know, what gets me up in the morning isn't so much making Wall Street, you know, a few milliseconds faster or...  
@@ -3286,7 +3286,7 @@ Want to be at the forefront of the blockchain technological innovation? Start as
 
 **[`^        back to top        ^`](#table-of-contents)**
 
-<h3 id="ch6-3">What Enterprises Look for When Evaluating Whether or Not to Use Hyperledger (Brian Behlendorf)</h3>
+<h3 id="ch6-3">6.3 What Enterprises Look for When Evaluating Whether or Not to Use Hyperledger (Brian Behlendorf)</h3>
 
 <h4>What should an enterprise look for when evaluating whether or not to use Hyperledger?</h4>
 I always try to start... suggest that people start with the business need, right, trying to look at what are you doing in your enterprise, and probably, it will mean what are you doing with your business partners, with your suppliers, with your customers, maybe even with your competitors, right?  <br/>
@@ -3518,4 +3518,4 @@ Good luck to all of you in your future endeavors!
 
 **[⬆ back to top](#table-of-contents)**
 **[`^        back to top        ^`](#table-of-contents)**
-4/2/2022
+4/7/2022

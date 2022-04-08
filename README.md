@@ -119,6 +119,7 @@ Over time, Internet and cloud computing architectures enabled global access from
 Even though this "cloud architecture" is decentralized in terms of hardware, it has given rise to application-level centralization (e.g. Facebook, Twitter, Google, etc.).  <br/>
 
 Currently, we are witnessing the transition from centralized computing, storage, and processing to decentralized architectures and systems. <br/>
+
 According to [Muneeb Ali](https://medium.com/@muneeb/the-next-wave-of-computing-743295b4bc73), these systems aim to
 <blockquote>
 "give explicit control of digital assets to end-users and remove the need to trust any third-party servers and infrastructure".
@@ -143,9 +144,8 @@ In summary, **distributed ledger technology (dlt)** generally consists of three 
 **[`^        back to top        ^`](#table-of-contents)**
 
 <h3 id="ch1-3">1.3 Bitcoin and Ethereum Blockchains</h3>
-<br/>
 
-According to [hyperledger.org](https://www.hyperledger.org/about),
+According to [hyperledger.org](https://www.hyperledger.org/about),<br/>
 <blockquote>
 "A blockchain is a peer-to-peer distributed ledger forged by consensus, combined with a system for "smart contracts" and other assistive technologies. Together these can be used to build a new generation of transactional applications that establishes trust, accountability, and transparency at their core, while streamlining business processes and legal constraints."  
 </blockquote>
@@ -189,18 +189,17 @@ The Merkle tree, also known as a binary hash tree, is a data structure that is u
 
 It is an anti-tamper mechanism to ensure that the large dataset has not been changed. The word "tree" is used to refer to a branching data structure in computer science, as seen in the image below. <br/>
 </p>
-According to Andreas M. Antonopoulos, in the Bitcoin protocol,  <br/>
+According to Andreas M. Antonopoulos, in the Bitcoin protocol,<br/>
 <blockquote>
 "Merkle trees are used to summarize all the transactions in a block, producing an overall digital fingerprint of the entire set of transactions, providing a very efficient process to verify whether a transaction is included in a block".
 </blockquote>
-
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------------- merkle tree ------------------------------------------->
+<!----------------------------------------- merkle tree ------------------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image002.png?raw=true"
 	width="66%" 
-    alt="Merkle Tree"</>
+    alt="Merkle Tree" />
 </p>
 
 <h4 align="center" font-weight: bold;>Bitcoin Block Data</h4>
@@ -332,16 +331,14 @@ Typically, there are database administrators who may make changes to any part of
 
 Additionally, blockchains were designed for decentralized applications, whereas relational databases, in general, were originally designed for centralized applications, where a single entity controls the data.
 </p>
-
 <!------------------------------------------------------------------------------------------------>
 <!-------------------------- differences between blockchain & databases -------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image003.png?raw=true"
 	width="75%" 
-    alt="Differences Between Blockchain and Databases"</>
+    alt="Differences Between Blockchain and Databases" />
 </p>
-
 <h3>Types of Blockchains</h3>
 <p>
 A blockchain can be both permissionless (like Bitcoin or Ethereum) or permissioned (like the different Hyperledger blockchain frameworks). 
@@ -356,9 +353,9 @@ A permissioned blockchain, or private blockchain, requires pre-verification of t
 <p align="center" width="100%">
 <img src="/images/image004.png?raw=true"
 	width="66%" 
-    alt="Types of blockchain"</>
+    alt="Types of blockchain" />
 </p>
-The choice between permissionless versus permissioned blockchains should be driven by the particular application at hand (or use case). 
+The choice between permissionless versus permissioned blockchains should be driven by the particular application at hand (or use case). <br/>
 
 Most enterprise use cases involve extensive vetting before parties agree to do business with each other.<br/>
 
@@ -882,7 +879,7 @@ The following table offers an at-a-glance view of the main considerations and pr
     alt="Comparing permissioned consensus approaches and standard PoW"</>
 </p>
 
-## <a id="ch1-6"></a>1.6 Hyperledger
+<h2 id="ch1-6"></a>1.6 Hyperledger</h2>
 [Hyperledger](https://www.hyperledger.org/) is an open source effort created to advance cross-industry blockchain technologies.
 
 Hosted by The Linux Foundation, it is a global collaboration of members from various industries, including finance, banking, Internet of Things (IoT), supply chain, manufacturing, healthcare and more.
@@ -2236,8 +2233,9 @@ By the end of this chapter, you should be able to:
 <!------------------------------------------------------------------------------------------------>
 <h3 id="ch4-2">4.2 Hyperledger Tools: Avalon</h3>
 <p align="center" width="100%">
-  <img width="50%" src="https://user-images.githubusercontent.com/41387907/138575551-ce0c30a8-ebb3-486d-85d8-98f383cf0414.png"
-       alt="Hyperledger Avalon"</>
+<img src="https://user-images.githubusercontent.com/41387907/138575551-ce0c30a8-ebb3-486d-85d8-98f383cf0414.png"
+   alt="Hyperledger Avalon"
+   width="50%" />
 </p>
 
 [Hyperledger Avalon](https://www.hyperledger.org/use/avalon) is a ledger independent implementation of the Off-Chain Trusted Compute Specification published by the Enterprise Ethereum Alliance (EEA). 
@@ -2261,8 +2259,9 @@ You can learn more about Hyperledger Avalon from Eugene (Yevgeniy) Yarmosh's [An
 <!------------------------------------------------------------------------------------------------>
 <h3>Hyperledger Cactus</h3>
 <p align="center" width="100%">
-  <img width="50%" src="https://user-images.githubusercontent.com/41387907/138575562-8b06ea63-6d50-4116-b292-2c26882da1ff.png"
-       alt="Hyperledger Cactus"</>
+<img src="https://user-images.githubusercontent.com/41387907/138575562-8b06ea63-6d50-4116-b292-2c26882da1ff.png"
+   alt="Hyperledger Cactus"
+   width="50%" />
 </p>
 Hyperledger Cactus is an open-source project jointly contributed by Accenture and Fujitsu; it joined the Hyperledger Greenhouse in May 2020. 
 
@@ -2282,8 +2281,9 @@ To learn more about Hyperledger Cactus, you can watch Peter Somogyvari's [Hyperl
 <!------------------------------------------------------------------------------------------------>
 <h3>Hyperledger Caliper</h3>
 <p align="center" width="100%">
-  <img width="50%" src="https://user-images.githubusercontent.com/41387907/138575566-78794fc1-2d06-455a-b40e-cee3cc59e0d4.png"
-       alt="Hyperledger Caliper"</>
+<img src="https://user-images.githubusercontent.com/41387907/138575566-78794fc1-2d06-455a-b40e-cee3cc59e0d4.png"
+   alt="Hyperledger Caliper"
+   width="50%" />
 </p>
 
 Welcome to the Hyperledger greenhouse, an open-source consortium for developing business blockchain technologies hosted by the Linux Foundation.  
@@ -2329,8 +2329,9 @@ Hyperledger Caliper is a blockchain benchmark tool, which allows users to measur
 <!------------------------------------------------------------------------------------------------>
 <h3>Hyperledger Cello</h3>
 <p align="center" width="100%">
-  <img width="50%" src="https://user-images.githubusercontent.com/41387907/138575573-0a0eb676-0a88-436d-be56-ad113e6d70e3.png"
-       alt="Hyperledger Cello"</>
+<img src="https://user-images.githubusercontent.com/41387907/138575573-0a0eb676-0a88-436d-be56-ad113e6d70e3.png"
+   alt="Hyperledger Cello"
+   width="50%" />
 </p>
 
 [Hyperledger Cello](https://www.hyperledger.org/use/cello) is a blockchain module toolkit helping businesses use and manage blockchains in a more efficient way. Particularly for lean businesses and small enterprises, who want to reduce or eliminate the effort required in creating, managing, and terminating blockchains, Hyperledger Cello allows blockchains deployment to the cloud. 
@@ -2356,11 +2357,12 @@ Some key features are:
 </ul>
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------- Hyperledger  ---------------->
+<!----------------- Hyperledger Cello ---------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-  <img width="50%" src="https://user-images.githubusercontent.com/41387907/138575585-50c35d4d-4f56-4378-81e7-5a6ad5b9faa0.png"
-       alt="I don't know"</>
+<img src="https://user-images.githubusercontent.com/41387907/138575585-50c35d4d-4f56-4378-81e7-5a6ad5b9faa0.png"
+   alt="Hyperledger Cello"
+   width="50%" />
 </p>
 <h5 align="center" width="100%">Hyperledger Cello</h5>
 <p align="center" width="100%">(Source: https://www.hyperledger.org/blog/2017/01/17/hyperledger-says-hello-to-cello)</p>
@@ -2372,8 +2374,9 @@ Some key features are:
 <!------------------------------------------------------------------------------------------------>
 <h3>Hyperledger Explorer</h3>
 <p align="center" width="100%">
-  <img width="50%" src="https://user-images.githubusercontent.com/41387907/138575604-de11d640-967d-486a-8ddf-b302785cfdb0.png"
-       alt="Hyperledger Explorer"</>
+<img src="https://user-images.githubusercontent.com/41387907/138575604-de11d640-967d-486a-8ddf-b302785cfdb0.png"
+   alt="Hyperledger Explorer"
+   width="50%" />
 </p>
 
 [Hyperledger Explorer](https://www.hyperledger.org/use/explorer) is a simple, but powerful open-source tool for visualizing blockchain operations. 
@@ -2414,8 +2417,9 @@ By the end of this chapter, you should be able to:
 <!------------------------------------------------------------------------------------------------>
 <h3 id="ch5-2">5.2 Hyperledger Aries</h3>
 <p align="center" width="100%">
-  <img width="50%;height=10%" src="https://user-images.githubusercontent.com/41387907/138575614-766de503-e703-4de7-9608-46e3b8d8a8e9.png"
-       alt="Hyperledger Aries"</>
+<img src="https://user-images.githubusercontent.com/41387907/138575614-766de503-e703-4de7-9608-46e3b8d8a8e9.png"
+   alt="Hyperledger Aries"
+   width="50%" />
 </p>
 Hyperledger Aries "provides a shared, reusable, and interoperable tool kit designed for initiatives and solutions focused on creating, transmitting and storing verifiable digital credentials. 
 
@@ -2442,8 +2446,9 @@ Hyperledger Aries developers aim to eventually have a scalable, searchable stora
 <!------------------------------------------------------------------------------------------------>
 <h3>Hyperledger Quilt</h3>
 <p align="center" width="100%">
-  <img width="50%" src="https://user-images.githubusercontent.com/41387907/138575616-4c0479e6-21cc-4e68-a45d-142a8af5c591.png"
-       alt="Hyperledger Quilt"</>
+<img src="https://user-images.githubusercontent.com/41387907/138575616-4c0479e6-21cc-4e68-a45d-142a8af5c591.png"
+   alt="Hyperledger Quilt"
+   width="50%" />
 </p>
 Welcome to the Hyperledger greenhouse, an open-source consortium for developing business blockchain technologies hosted by the LinuxFoundation.  
 
@@ -2483,8 +2488,9 @@ Among its key characteristics are:
 <!------------------------------------------------------------------------------------------------>
 <h3>Hyperledger Transact</h3>
 <p align="center" width="100%">
-  <img width="50%" src="https://user-images.githubusercontent.com/41387907/138575628-447fa51e-a4a4-4a4a-bb38-939f932086d9.png"
-       alt="Hyperledger Transact"</>
+<img src="https://user-images.githubusercontent.com/41387907/138575628-447fa51e-a4a4-4a4a-bb38-939f932086d9.png"
+       alt="Hyperledger Transact"
+   width="50%" />
 </p>
 
 [Hyperledger Transact](https://www.hyperledger.org/use/transact) is a transaction execution platform designed to be used as a library or as a component when implementing distributed ledger, including blockchains. 
@@ -2509,8 +2515,9 @@ Some of the following features are already supported by Hyperledger Transact, or
 <!------------------------------------------------------------------------------------------------>
 <h3>Hyperledger Ursa</h3>
 <p align="center" width="100%">
-  <img width="50%" src="https://user-images.githubusercontent.com/41387907/138575637-f0524bb3-3716-4c8f-af1d-e01bc31d5920.png"
-    alt="Hyperledger Ursa"</>
+<img src="https://user-images.githubusercontent.com/41387907/138575637-f0524bb3-3716-4c8f-af1d-e01bc31d5920.png"
+    alt="Hyperledger Ursa"
+   width="50%" />
 </p>
 
 [Hyperledger Ursa](https://www.hyperledger.org/use/ursa) is a shared cryptographic library that would enable people and projects to avoid duplicating existing cryptographic work and hopefully increase security in the process. 
@@ -2726,8 +2733,9 @@ Institutions that provide capital during these trades can leverage the informati
 <!----------------- Supply chain management  ---------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-  <img width="66%" src="https://user-images.githubusercontent.com/41387907/138575655-6f978bd0-04e5-404b-a5b9-9849e805f4aa.png"
-       alt="Supply chain management"/>
+<img src="https://user-images.githubusercontent.com/41387907/138575655-6f978bd0-04e5-404b-a5b9-9849e805f4aa.png"
+   alt="Supply chain management (tuna)"
+   width="66%" />
 </p>
 <p align="center">Source: Nishan Degnarain (used with permission)
 </p>
@@ -2806,8 +2814,9 @@ To legally protect ownership rights in these, one registers their production, or
 <!----------------- Property Titles ---------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-  <img width="66%" src="https://user-images.githubusercontent.com/41387907/138575662-4e4c0c8d-c5b1-4983-8065-7b3307af029e.png"
-       alt="Property Titles"/>
+<img src="https://user-images.githubusercontent.com/41387907/138575662-4e4c0c8d-c5b1-4983-8065-7b3307af029e.png"
+   alt="Property Titles"
+   width="66%" />
 </p>
 
 **[`^        back to top        ^`](#table-of-contents)**

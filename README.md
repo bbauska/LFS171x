@@ -2230,7 +2230,7 @@ By the end of this chapter, you should be able to:
 **[`^        back to top        ^`](#table-of-contents)**
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------- Hyperledger Avalon ---------------->
+<!----------------------------------- Hyperledger Avalon (66) ------------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <h3 id="ch4-2">4.2 Hyperledger Tools: Avalon</h3>
 <p align="center" width="100%">
@@ -2252,11 +2252,12 @@ Hyperledger Avalon:
 <li>Enables developers to accelerate throughput and improve data privacy,</li>
 <li>The initial implementation of Hyperledger Avalon uses Intel Software Guard Extensions (SGX),</li>
 <li>Uses the Off-Chain Trusted Compute Specification as a starting point to apply a consistent and compatible approach to all supported blockchains.</li>
-</ul>  
+</ul>
+
 You can learn more about Hyperledger Avalon from Eugene (Yevgeniy) Yarmosh's [An Introduction to Hyperledger Avalon](https://www.youtube.com/watch?v=I16EhP23HTg) presentation.
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------- Hyperledger Cactus ---------------->
+<!----------------------------------- Hyperledger Cactus (67) ------------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <h3>Hyperledger Cactus</h3>
 <p align="center" width="100%">
@@ -3528,4 +3529,5 @@ Good luck to all of you in your future endeavors!
 
 **[⬆ back to top](#table-of-contents)**
 **[`^        back to top        ^`](#table-of-contents)**
-4/8/2022
+
+4/10/2022 (Sunday)

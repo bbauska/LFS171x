@@ -61,9 +61,9 @@ Armed with better information of the blockchain landscape, this program will hel
 >### 6.1 [**Introduction and Learning Objectives**](#ch6-1)
 >### 6.2 [**Existing Hyperledger Blockchain Use Cases**](#ch6-2)
 >### 6.3 [**When to Use or Not to Use Blockchain Technologies**](#ch6-3)
-
-**[⬆ back to top](#table-of-contents)**
-
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 <h2 id="ch1">Chapter 1. Discovering Blockchain Technologies</h2>
 <h3>A Word from Brian Behlendorf, Executive Director at Hyperledger</h3>
 Hi, I'm Brian Behlendorf. I'm Executive Director of Hyperledger, a collaborative project hosted at the Linux Foundation.  <br/>
@@ -111,9 +111,9 @@ With the advent of personal computers and private networks, similar computationa
 This, in part, gave rise to the "client-server" architecture, which supported the development of relational database systems.  Massive data sets, which are housed on mainframes, could move onto a distributed architecture.  <br/>
 
 This data could replicate from server to server, and subsets of the data could be accessed and processed on clients, and then, synced back to the server. <br/>
-
-**[`^        back to top        ^`](#table-of-contents)**
-
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 Over time, Internet and cloud computing architectures enabled global access from a variety of computing devices; whereas mainframes were largely designed to address the needs of large corporations and governments. <br/>
 
 Even though this "cloud architecture" is decentralized in terms of hardware, it has given rise to application-level centralization (e.g. Facebook, Twitter, Google, etc.).  <br/>
@@ -140,9 +140,9 @@ In summary, **distributed ledger technology (dlt)** generally consists of three 
 <li>A language of transactions that changes the ledger state,</li>
 <li>A protocol used to build consensus among participants around which transactions will be accepted, and in what order, by the ledger.</li>
 </ol>
-
-**[`^        back to top        ^`](#table-of-contents)**
-
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 <h3 id="ch1-3">1.3 Bitcoin and Ethereum Blockchains</h3>
 
 According to [hyperledger.org](https://www.hyperledger.org/about),<br/>
@@ -207,9 +207,9 @@ According to Andreas M. Antonopoulos, in the Bitcoin protocol,<br/>
 Licensed under [Creative Commons Attribution-Share-Alike 3.0 Unported](https://creativecommons.org/licenses/by-sa/3.0/deed.en), retrieved from [Wikipedia](https://commons.wikimedia.org/wiki/File:Bitcoin_Block_Data.png)
 
 <br/>
-
-**[`^        back to top        ^`](#table-of-contents)**
-
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 <h3>What is a Blockchain?</h3>
 <p>
 As the Security Maven at Hyperledger, I have somewhat of a different perspective on what a blockchain is.  
@@ -298,9 +298,9 @@ The immutability of the distributed ledger is guaranteed by the cryptography, bu
 
 You want to deploy it behind a firewall, you want to use tunneling to connect between nodes across the Internet, and you want to maintain it, just like any other service that deals with Internet traffic...you have firewalls, and load balancers, and things like that.  
 </p>
-
-**[`^        back to top        ^`](#table-of-contents)**
-
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 <h3>Transactions / Cryptography</h3>
 <p>
 The record of an event, cryptographically secured with a digital signature, that is verified, ordered, and bundled together into blocks, form the transactions in the blockchain. 
@@ -400,9 +400,9 @@ Permissionless P2P systems do not require a set amount of peers to be online and
 
 Permissioned P2P networks have to guarantee uptime and require a high level of quality of service on the communication links.
 </p>
-
-**[`^        back to top        ^`](#table-of-contents)**
-
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------------ peer to peer network -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -469,9 +469,9 @@ This, in turn, modifies the hashes that are stored in the Merkle tree, and the M
 In addition, the Previous Block hash stored in Block 12 also needs to be modified to reflect the overall change in the hash for Block 11.
 
 </p>
-
-**[`^        back to top        ^`](#table-of-contents)**
-
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------------- immutability of data --------------------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -493,9 +493,9 @@ A more exhaustive list of companies using blockchain technology for identity man
 
 For more details about blockchain applications, you can refer to Daniel Palmer's article entitled ["7 Cool Decentralized Apps Being Built on Ethereum"](https://www.coindesk.com/markets/2016/02/24/7-cool-decentralized-apps-being-built-on-ethereum/).
 </p>
-
-**[`^        back to top        ^`](#table-of-contents)**
-
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 <h3>Smart Contracts</h3>
 <p>
 What is a smart contract?  <br/>
@@ -543,9 +543,9 @@ According to the [Coin Market Capitalization website](https://coinmarketcap.com)
 	   
 <p align="center"> (Source: https://coinmarketcap.com/currencies/bitcoin/)  </p>
 </p>
-
-**[`^        back to top        ^`](#table-of-contents)**
-
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 <h3>Bitcoin Charts</h3>
 <p>
 
@@ -588,9 +588,9 @@ Some of its key features include the immutability of data, that unauthorized use
 That is because the applications on the network are decentralized, and on many, many machines,  
 if some of those machines go down, the Ethereum network maintains a stable state of the Ethereum network.
 </p>
-
-**[`^        back to top        ^`](#table-of-contents)**
-
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 <h3>Bitcoin and Cryptoeconomics</h3>
 <p>
 Bitcoin has also ushered in tremendous academic and research interest in the area of Cryptoeconomics and Cryptoeconomic security.  
@@ -616,9 +616,9 @@ Since such networks can reasonably expect all kind of agents - including malicio
 
 You can find more about Cryptoeceonomics read "The Blockchain Economy: A Beginner’s Guide to Institutional Cryptoeconomics".
 </p>
-
-**[`^        back to top        ^`](#table-of-contents)**
-
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 <h3>Ethereum – An Alternative to Bitcoin</h3>
 According to Ethereum's official documentation,  
 <blockquote> 
@@ -675,9 +675,9 @@ The Ethereum network is a distributed global public network, which means it is n
 Instead, the computing power that runs the network is contributed by nodes that are spread across the globe. 
 
 In other words, Dapps have "zero downtime" - they never go down and, in general, cannot be switched off.
-
-**[`^        back to top        ^`](#table-of-contents)**
-
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 <h3>Ethereum Smart Contracts</h3>
 <p>
 A hypothetical example of an Ethereum-based smart contract may involve the following transaction: in an equity raise, transfer amount X from the investor to the company upon receiving the given shares from the company. 
@@ -707,9 +707,9 @@ As an added benefit, regulators are able to scrutinize the market activity on an
        alt="Ethereum smart contracts"</>
 </p>
 Note: With the advent of the Ethereum blockchain platform and the scripting functionality or smart contracts that it enables, there are ongoing attempts to do the same for the Bitcoin blockchain, which does not allow for this, due to security reasons. [RSK](https://www.rsk.co/) is one such smart contract platform that seeks to achieve this "with a 2-way peg to Bitcoin". The added functionality can go a long way in making the Bitcoin blockchain useful for use cases other than cash transfers.
-
-**[`^        back to top        ^`](#table-of-contents)**
-
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 <h3 id="ch1-4">1.4 Exploring Permissionless Blockchains</h3>
 <p>
 We will examine the Bitcoin and Ethereum blockchains, both of which are permissionless, public blockchains. <br/>
@@ -762,9 +762,9 @@ You can examine these transactions on both the Bitcoin and Ethereum blockchains,
 
 In Chapter 2 of this course, we'll touch upon the Hyperledger Explorer, which can be configured to examine blockchains you might develop with other of the Hyperledger frameworks.
 </p>
-
-**[`^        back to top        ^`](#table-of-contents)**
-
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 <h3 id="ch1-5">1.5 Consensus Algorithms</h3>
 <p>
 Consensus in the network refers to the process of achieving agreement among the network participants as to the correct state of data on the system. Consensus leads to all nodes sharing the exact same data. 
@@ -777,9 +777,9 @@ While the Bitcoin blockchain uses Proof of Work as the consensus algorithm, othe
 
 Next, we will briefly explain some of these algorithms.
 </p>
-
-**[`^        back to top        ^`](#table-of-contents)**
-
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 <h3>Proof-of-Work (PoW)</h3>
 <p>
 The Proof of Work consensus algorithm involves solving a computational challenging puzzle in order to create new blocks in the Bitcoin blockchain. <br/>
@@ -832,9 +832,9 @@ In PoET, each validator is given a random wait time.
   * [sawtooth.hyperledger.org](https://sawtooth.hyperledger.org/)
 
 This "leader" gets to create the next block on the chain.
-
-**[`^        back to top        ^`](#table-of-contents)**
-
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 <h3>Simplified Byzantine Fault Tolerance (SBFT)</h3>
 
 The Simplified Byzantine Fault Tolerant consensus algorithm implements an adopted version of the [Practical Byzantine Fault Tolerant](https://blog.acolyer.org/2015/05/18/practical-byzantine-fault-tolerance/) (PBFT) algorithm, and seeks to provide significant improvements over Bitcoin's Proof of Work consensus protocol.
@@ -897,9 +897,9 @@ Dan Middleton, [All Are Welcome Here](https://www.hyperledger.org/blog/2018/12/0
 Hyperledger blockchains are generally permissioned blockchains, which means that the parties that join the network are authenticated and authorized to participate on the network. 
 
 Hyperledger’s main goal is to create enterprise grade, open source, distributed ledger frameworks and code bases to support business use cases.
-
-**[`^        back to top        ^`](#table-of-contents)**
-
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 <h3>Advantages of Using a Permissioned Blockchain over a Permissionless Blockchain</h3>
 If you look at permissionless blockchains, like the Bitcoin blockchain or the Ethereum blockchain, anyone can join the network, as well as write and read transactions. 
 
@@ -931,9 +931,9 @@ That's a good basis for deciding what open source technologies to build on.
 At Hyperledger, we're trying to make sure that each of these projects fulfills that goal of being multi-stakeholder, of being active software development projects that get as quickly as possible to a production release, something that organizations can actually use in real production environments, and yet, still has the flexibility to explore a new concept, to explore a new consensus mechanism, a new way of writing smart contracts, right?  
 
 That balancing act is really what we're trying to strive for inside of Hyperledger.
-
-**[`^        back to top        ^`](#table-of-contents)**
-
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 <h3>Other Distributed Ledger Technologies (Robert Schwentker)</h3>
 What are some examples of other blockchain and distributed ledger technology systems, and what are their benefits?  
 
@@ -948,9 +948,9 @@ It was created by the R3 company, which is a consortium of over a hundred global
 Quorum is a permissioned implementation of Ethereum, which supports data privacy.  
 
 Quorum achieves this data privacy through allowing data visibility on need-to-know basis by a voting-based consensus algorithm. Interestingly, Quorum was created and open sourced by JPMorgan.
-
-**[`^        back to top        ^`](#table-of-contents)**
-
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 <h3>Chain Core</h3>
 
 [Chain Core](https://brandpa.com/names/fedchains/landing) is an enterprise permissioned blockchain system that is mostly focused on financial services, like currencies, securities, derivatives, gift cards, and loyalty points. 
@@ -982,9 +982,9 @@ This open source blockchain platform is designed to support "both transaction-le
 
 The network validates all smart contracts and overall system state through the involvement of all running nodes. As with other permissioned ledgers, regulatory compliance is front and center in the Quorum platform.
 <br/>
-
-**[`^        back to top        ^`](#table-of-contents)**
-
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 <h3>IOTA</h3>
 
 [IOTA](https://www.iota.org/) is an open source permissionless distributed ledger technology that has been around since 2015; it has a cryptocurrency called mIOTA. 
@@ -1027,9 +1027,9 @@ Other challenges encountered when it comes to the adoption and deployment of dis
 </ul>
 
 We hope you go on to address some of these challenges and contribute to building a secure digital future!
-
-**[`^        back to top        ^`](#table-of-contents)**
-
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 <h3>Standards</h3>
 Since we are still witnessing the early days of blockchain technology, there is very little agreement on standards in the developer and business community, as of yet. 
 
@@ -1070,9 +1070,9 @@ While there has been an exponential increase in the interest around 'blockchain'
 <br/>
 
 In fact, the origin of this course stems from the need to address this gap in know-how.<br/>
-
-**[`^        back to top        ^`](#table-of-contents)**
-
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 <!------------------------------------------------------------------------------------------------>
 <!-------------------------------------- Blockchain Search Volume -------------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -1088,9 +1088,9 @@ Jobs in the blockchain development space are among the top 20 fastest growing, a
 However, there is not a large enough pool of qualified blockchain developers, and this is a major concern. 
 
 The emergence of more and more blockchain training courses and certifications is aiming to slowly close this gap.
-
-**[⬆ back to top](#table-of-contents)**
-
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 <h2 id="ch2">Chapter 2 - Introduction to Hyperledger</h2>
 
 This chapter provides an overview of Hyperledger, a collaborative project hosted by The Linux Foundation that is focused on business blockchain technologies. 
@@ -3530,4 +3530,8 @@ Good luck to all of you in your future endeavors!
 **[⬆ back to top](#table-of-contents)**
 **[`^        back to top        ^`](#table-of-contents)**
 
-4/10/2022 (Sunday)
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
+4/12/2022 (Tuesday)

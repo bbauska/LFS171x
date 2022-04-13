@@ -3462,17 +3462,17 @@ Developers and tech leaders can engage with any of the Hyperledger’s open comm
 
 Below, you can see an overview of Hyperledger’s working groups:
 <ul>
-<li>Architecture Working Group (AWG)  
+<li>Architecture Working Group (AWG)<br/>
     This is a technical workgroup focused on developing an architectural framework for Enterprise class distributed ledgers, towards convergence on a modular architecture.</li>
-<li>Identity Working Group  
+<li>Identity Working Group<br/>
     This group discusses, researches, and documents ways to capture, store, transmit and use identities on DLT, with a focus on projects under the Hyperledger umbrella.</li>
-<li>Learning Materials Development Working Group  
+<li>Learning Materials Development Working Group<br/>
     This group is focused on developing open-source training material to educate people on Hyperledger and its projects.</li>
-<li>Performance and Scale Working Group  
+<li>Performance and Scale Working Group<br/>
     This group discusses, researches, and identifies key metrics that relate to the performance and scalability of a blockchain and blockchain related technologies.</li>
-<li>Smart Contracts Working Group  
+<li>Smart Contracts Working Group<br/>
     This group focuses on giving an academic perspective to this research topic and also on practical ways to utilize them on different DLTs that are under the Hyperledger umbrella, and explores all potentials from deploying them in everyday software solution scenarios.</li>
-<li>Technical Working Group China  
+<li>Technical Working Group China<br/>  
     This group acts as a bridge between the global Hyperledger community and the emerging technical user and contributor community in China.</li>
 </ul>
 <br/>
@@ -3502,11 +3502,16 @@ There are also a number of Special Interest Groups in the Hyperledger Community,
 
 You can learn more about these groups and their focus:
 <ul>
-<li>Healthcare SIG (HC-SIG) This group represents an international membership of healthcare and technology professionals united in advancing the state of the healthcare industry through the implementation of enterprise-grade technology solutions utilizing the Hyperledger greenhouse of business blockchain frameworks and tools.</li>
-<li>Public Sector SIG This group is focused on applying DLT in general, and Hyperledger technologies in particular, to the public sector uses and needs.</li>
-<li>Social Impact SIG This group is primarily focused on serving as a platform for exchanging ideas and exploration of ways to use blockchain technology in the context of social good.</li>
-<li>Telecom SIG This group focuses on technical and business-level conversations about blockchain use cases in the Telecom industry.</li>
-<li>Trade Finance SIG This group is focused on DLT and Hyperledger technologies applications to the trade finance uses and needs.</li>
+<li>Healthcare SIG (HC-SIG)<br/>
+This group represents an international membership of healthcare and technology professionals united in advancing the state of the healthcare industry through the implementation of enterprise-grade technology solutions utilizing the Hyperledger greenhouse of business blockchain frameworks and tools.</li>
+<li>Public Sector SIG<br/>
+This group is focused on applying DLT in general, and Hyperledger technologies in particular, to the public sector uses and needs.</li>
+<li>Social Impact SIG<br/>
+This group is primarily focused on serving as a platform for exchanging ideas and exploration of ways to use blockchain technology in the context of social good.</li>
+<li>Telecom SIG<br/>
+This group focuses on technical and business-level conversations about blockchain use cases in the Telecom industry.</li>
+<li>Trade Finance SIG<br/>
+This group is focused on DLT and Hyperledger technologies applications to the trade finance uses and needs.</li>
 </ul>
 
 </p>

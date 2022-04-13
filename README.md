@@ -2894,11 +2894,11 @@ Intellectual property includes copyright, trademark, and patents.
 To legally protect ownership rights in these, one registers their production, or invention, or otherwise proves when the work was established, and that they are the origin of the work.
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------- Property Titles ---------------->
+<!--------------------------------------- Property Titles ---------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="https://user-images.githubusercontent.com/41387907/138575662-4e4c0c8d-c5b1-4983-8065-7b3307af029e.png"
-   alt="Property Titles"
+   alt="Property Titles: Public Land Registry Blockchain"
    width="66%" />
 </p>
 
@@ -2924,10 +2924,6 @@ Therefore, the blockchain can control and track the distribution of the photogra
 By placing a hash of intellectual property documents on the blockchain, a party can publicly demonstrate data ownership, and prove the existence of certain documents at a given moment in time, without revealing the actual data. 
 
 In addition to the hash, you may also choose to store the location of the file in the blockchain, which could be used for retrieval.
-
-<div align="right">
-  <b><a href="#table-of-contents">↥ Back To Top</a></b>
-</div>
 
 <h3>Provenance</h3>
 As the previous section on blockchains for supply chain management illustrated, blockchain data improves insight into products, as they move through their lifecycle. 
@@ -3069,10 +3065,6 @@ This organization steps in as the counterparty to each trade, creating two disti
 
 These organizations are central securities depositories, whose role is to minimize the risk of trade default, and also to enforce rules against overexposure to certain types of trades.
 
-<div align="right">
-  <b><a href="#table-of-contents">↥ Back To Top</a></b>
-</div>
-
 <h3>Finance (Part III)</h3>
 Although every trade has its own lifecycle, generally, the following steps will occur:
 <ul>
@@ -3140,7 +3132,9 @@ For example, a full ISDA master agreement document would be stored on blockchain
 
 This leverages the predictable outcomes of a legal contract with the efficiencies that can be gained from distributed ledger technologies.
 
-**[`^        back to top        ^`](#table-of-contents)**
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h3>Finance (Part V)</h3>
 There are both advantages and disadvantages to controlling funds on blockchain. 
@@ -3172,46 +3166,32 @@ The adoption of blockchain technologies for post-trade settlement will likely ch
 With this increased insight into the market, the government may or may not develop stronger standards for trades through smart contracts.
 
 <h3>Healthcare</h3>
+<p>
 A number of multi-party processes in the healthcare industry can leverage distributed ledger technology. 
-
 By streamlining these multi-party processes, the healthcare industry can reduce the time and expense of collecting and verifying multiple pieces of information in order to deliver quality care to patients. 
-
-Healthcare providers and insurance companies have begun to explore how blockchain can improve the delivery of patient care.  
-
-In 2015, the US spent 27.42% of the federal budget, or $1.05 trillion, on healthcare (National Priorities Project). 
-
+Healthcare providers and insurance companies have begun to explore how blockchain can improve the delivery of patient care.</p>
+<p>
+In 2015, the US spent 27.42% of the federal budget, or $1.05 trillion, on healthcare [(National Priorities Project)](https://www.nationalpriorities.org/budget-basics/federal-budget-101/spending/). 
 Because these costs are so high, the US government, in particular, has invested resources into healthcare blockchain technology. 
-
-The Office of National Coordinator for Health Information Technology (ONC) is responsible for health information technology. 
-
+The [Office of National Coordinator for Health Information Technology (ONC)](https://www.healthit.gov/) is responsible for health information technology. 
 It has recognized a need for nationwide interoperability and standards for electronic health records, claims processing, and verification of provider credentials. 
-
-To that end, it has sponsored many government blockchain initiatives in healthcare.  
-
+To that end, it has sponsored many government blockchain initiatives in healthcare.</p>
+<p>
 The healthcare industry has already placed medical insurance enrollment information on blockchain for verification, and plans to incorporate many other aspects of medical insurance claims processing on blockchain. 
-
 One cost borne by health insurance providers is auditing care providers. 
-
 Health insurance providers must verify whether a practitioner actually delivered the care that he or she was obliged to deliver to the patient. 
-
 Health insurance providers must also audit the financial aspects incurred as part of this care, to ensure that care was paid, and the charges were accurate. 
-
-Tying the care auditability with the payment auditability provides a key advantage to reducing the potential for fraud.  
-
+Tying the care auditability with the payment auditability provides a key advantage to reducing the potential for fraud.</p>
 <div align="right">
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
 </div>
-
+<p>
 The healthcare industry has examined placing prescription drug fulfillment processes on blockchain since they involve gathering and checking information from many sources. 
-
 Insurance benefits investigation eligibility checks are performed to see if insurance will pay. 
-
 Prior authorization and step therapy requirements are checked to see if a patient is able to receive a particular drug, or if other drugs are preferred. 
-
 Formulary checks, patients’ assistance checks, and pharmacy stock checks must all be performed. 
-
 The healthcare industry has also used DLT to handle online identity management, by uploading verified pieces of a healthcare professional’s credentials for license verification.
-
+</p>
 <!------------------------------------------------------------------------------------------------>
 <!-------------------------------- By the blockRX project (90) ----------------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -3221,7 +3201,7 @@ The healthcare industry has also used DLT to handle online identity management, 
    width="66%" />
 </p>
 
-<h5 align="center">By The BlockRx Project, retrieved from the [Hyperledger Healthcare Working Group, August 22nd, 2017 Meeting](https://wiki-archive.hyperledger.org/doku.php?id=groups/healthcare/healthcare-wg-meetings)</h5>
+<h5 align="center">By The BlockRx Project, retrieved from the [Hyperledger Healthcare Working Group, August 22nd, 2017 Meeting](https://wiki-archive.hyperledger.org/doku.php?id=groups/healthcare/healthcare-wg-meetings) </h5>
 Another area blockchain is used in healthcare is to protect data from cybercrime. 
 
 Data breaches happen on a daily basis across all industries, and healthcare is no different. 
@@ -3237,8 +3217,10 @@ Because it's personal, permanent and detailed: from social security numbers, to 
 </div>
 
 <h3>Education</h3>
-Blockchain solutions are being successfully implemented across various industries. 
-As the technologies advance, more and more potential use cases arise. 
+Blockchain solutions are being successfully implemented across various industries.<br/>
+
+As the technologies advance, more and more potential use cases arise.<br/>
+
 Education is one such area that could stand to benefit from distributed ledger technologies:
 <ul>
 <li>Streamlining verification procedures for academic credentials, thus reducing fraudulent claims and bringing more transparency, ease of use, and speed to this process,</li>
@@ -3255,7 +3237,7 @@ Education is one such area that could stand to benefit from distributed ledger t
 You can learn more about the potential advantages of using blockchain solutions for education from the following article: [20 Ways Blockchain Will Transform (Okay, May Improve) Education.](https://www.forbes.com/sites/tomvanderark/2018/08/20/26-ways-blockchain-will-transform-ok-may-improve-education/?sh=2f3d475a4ac9)
 
 <h3>Education Case Study: Sony Global Education</h3>
-We've all experienced the process of enrolling in higher education or applying for a skilled job - no two applications are the same, as each institution uses their own individual application and validation processes. 
+We've all experienced the process of enrolling in higher education or applying for a skilled job - no two applications are the same, as each institution uses their own individual application and validation processes.<br/>
 
 Similarly, the credentials we must have when applying each require different validation process as well. 
 
@@ -3278,7 +3260,7 @@ You can learn more about this use case reading [Sony Global Education Chooses Hy
 </div>
 
 <h3>Smart Energy Management</h3>
-We live in an increasingly connected and energy-dependent world. Balance between supply and demand is imperative to ensure electricity demand is met. 
+We live in an increasingly connected and energy-dependent world. Balance between supply and demand is imperative to ensure electricity demand is met.<br/>
 
 However, the increasing demand in electricity adds increased pressure on conventional energy sources. 
 

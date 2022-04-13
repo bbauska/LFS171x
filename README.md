@@ -3431,11 +3431,9 @@ This is still very early days, and you still need to be smart about how do we ap
 At some point, those two teams should meet up, right, and say "Here's what we think is really the MVP \[Minimum Viable Product\] or a proof of concept", and the other team should... that comes from the technology side of the house, should say "Okay, we understand how to build this, you know, if we, you know, shave these corners, we can do something in a week", right? and let's just see that, you know, cheap and dirty, what it looks like.  
 
 And then, over time, start to promulgate that amongst the other partners that you think you'd involve in a distributed ledger project.
-
 <div align="right">
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
 </div>
-
 <h4>When to Use Blockchain</h4>
 There are certain factors to consider when evaluating blockchain distributed ledger technology for your business. 
 
@@ -3470,13 +3468,10 @@ The following conditions are not currently well suited to blockchain-based solut
 <li>Rules of transactions change frequently,</li>
 <li>The use of external services to gather/store data.  </li>
 </ul>
-Next, we will discuss in more detail the conditions that are not well suited to blockchain-based solutions.
-&nbsp;
-
+Next, we will discuss in more detail the conditions that are not well suited to blockchain-based solutions.<br/> &nbsp;
 <div align="right">
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
 </div>
-
 <h3>I. The Process Involves Confidential Data</h3>
 The biggest advantage and challenge in deploying blockchains is the radical transparency which they provide. 
 Methods are being developed to hide confidential data on the blockchain, while sharing it only to relevant parties. Regulations for data privacy often do not allow for blockchain solutions. 
@@ -3497,15 +3492,12 @@ A relational database may be more suitable if you need to make many changes to y
 <br/>
 &nbsp;
 
-<div align="right">
-  <b><a href="#table-of-contents">↥ Back To Top</a></b>
-</div>
-
 <h3>IV. The Use of External Services to Gather/Store Data</h3>
 A blockchain smart contract does not currently initiate the retrieval of external data. 
 Instead, one or more trusted parties ("oracles") must create a transaction which embeds that data in the chain. 
 This data is often gathered and stored in a traditional database by the oracle. 
-Any interaction between a blockchain and the outside world is restricted to regular database operations.  
+Any interaction between a blockchain and the outside world is restricted to regular database operations.<br/>&nbsp;
+
 In other words, an oracle pushes data onto the blockchain, rather than a smart contract pulling it in. 
 Once the oracle pushes the data, every node will have an identical copy of this data. 
 This allows for the data to be safely used in a smart contract computation. 
@@ -3520,10 +3512,10 @@ If those structures are suitable, then you can deploy your application with redu
 Do you need a smart contract or are stored procedures written in an extension of SQL sufficient? Similarly, some applications can simply utilize cryptographic methods common in blockchains, without the database replication mechanisms of a blockchain.
 <br/>
 &nbsp;
-
-**[`^        back to top        ^`](#table-of-contents)**
-
-<h4>Blockchain Decision Path</h4>
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+<h3>Blockchain Decision Path</h3>
 
 <!------------------------------------------------------------------------------------------------>
 <!---------------------------------- block decision path (100) ----------------------------------->
@@ -3545,7 +3537,7 @@ The development of the Hyperledger projects is led by a diverse group of technic
 We are always looking for help to build an open-source ecosystem of business blockchain technologies. If you are interested in contributing to and learning from the community, we welcome you to [join the Hyperledger effort](https://www.hyperledger.org/participate).
 
 <h4>Joining the Hyperledger Community</h4>
-You too can join the Hyperledger Community:
+You too can join the Hyperledger Community:<br/>&nbsp;
 
 **For developers**  
 Read the Hyperledger code on [GitHub](https://github.com/hyperledger/hyperledger). Join the Hyperledger discussion at [Rocket.Chat](https://chat.hyperledger.org/home). Search for open bugs, or report a new one in the [Hyperledger’s bug database](https://jira.hyperledger.org/secure/Dashboard.jspa).
@@ -3565,27 +3557,27 @@ You can start or join a [Hyperledger meetup](https://www.meetup.com/pro/hyperled
    width="100% />
 <h5 align="center">Hyperledger Global Meetups (as of 06/24/2019)</h5>
 </p>
-
-**[`^        back to top        ^`](#table-of-contents)**
-
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 <h4>Hyperledger Working Groups</h4>
 The Hyperledger Community’s working groups are open to the public. 
 
-Developers and tech leaders can engage with any of the Hyperledger’s open community channels at this page.  
+Developers and tech leaders can engage with any of the Hyperledger’s open community channels at this [page](https://wiki.hyperledger.org/display/HYP/Calendar+of+Public+Meetings).  
 
 Below, you can see an overview of Hyperledger’s working groups:
 <ul>
-<li>Architecture Working Group (AWG)  
+<li>Architecture Working Group (AWG)<br/>
     This is a technical workgroup focused on developing an architectural framework for Enterprise class distributed ledgers, towards convergence on a modular architecture.</li>
-<li>Identity Working Group  
+<li>Identity Working Group<br/>
     This group discusses, researches, and documents ways to capture, store, transmit and use identities on DLT, with a focus on projects under the Hyperledger umbrella.</li>
-<li>Learning Materials Development Working Group  
+<li>Learning Materials Development Working Group<br/>
     This group is focused on developing open-source training material to educate people on Hyperledger and its projects.</li>
-<li>Performance and Scale Working Group  
+<li>Performance and Scale Working Group<br/>
     This group discusses, researches, and identifies key metrics that relate to the performance and scalability of a blockchain and blockchain related technologies.</li>
-<li>Smart Contracts Working Group  
+<li>Smart Contracts Working Group<br/>
     This group focuses on giving an academic perspective to this research topic and also on practical ways to utilize them on different DLTs that are under the Hyperledger umbrella, and explores all potentials from deploying them in everyday software solution scenarios.</li>
-<li>Technical Working Group China  
+<li>Technical Working Group China<br/>
     This group acts as a bridge between the global Hyperledger community and the emerging technical user and contributor community in China.</li>
 </ul>
 <br/>
@@ -3633,7 +3625,7 @@ This group is focused on DLT and Hyperledger technologies applications to the tr
 <h3>Conclusions</h3>
 <p>
 
-This concludes the LFS171x "Introduction to Hyperledger Technologies" course! 
+This concludes the <i>LFS171x <b>"Introduction to Hyperledger Technologies"</b></i> course! 
 
 We have introduced you to the current Hyperledger frameworks and tools, and we have highlighted some of the business blockchain applications.  
 
@@ -3643,11 +3635,9 @@ Whether you are an engineer, entrepreneur, developer, educator, or business pers
 
 Good luck to all of you in your future endeavors!
 </p>
-
+<!--- Back To Top right side of screen --->
 <div align="right">
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
 </div>
 
-**[`^        back to top        ^`](#table-of-contents)**
-
-4/12/2022 (Tuesday)
+Last Modified: 4/13/2022 (Wednesday)

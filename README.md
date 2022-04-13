@@ -3299,7 +3299,6 @@ If tests are successful, this [Hyperledger Fabric-based implementation](https://
 <div align="right">
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
 </div>
-
 <h3>Smart Cities Use Case: Smart Dubai</h3>
 Dubai is known for being a world-class business, cultural, and touristic destination. 
 
@@ -3308,23 +3307,22 @@ Dubai aims to become the world's first government fully powered by blockchain te
 [Smart Dubai](https://www.digitaldubai.ae/) is a city-wide effort to empower residents and visitors alike via digital transformation, an effort that relies on the partnership between the private sector and government entities. It aims "to make Dubai the happiest city on earth through technology innovation" by creating an efficient, blockchain-based city government, digitizing all of its services to add increased transparency, security, efficiency and reduce bureaucracy. 
 
 Below we highlight just a few of the Smart Dubai initiatives:
+<ul>
+<li>The Dubai Blockchain Strategy aims to enable the execution of all applicable government transactions through blockchain by 2020.</li>
 
-The Dubai Blockchain Strategy aims to enable the execution of all applicable government transactions through blockchain by 2020.
+<li>The Decentralized Data Marketplace leverages blockchain technology to ensure the security and immutability of transactions, tokenization to hide sensitive information, etc.</li>
 
-The Decentralized Data Marketplace leverages blockchain technology to ensure the security and immutability of transactions, tokenization to hide sensitive information, etc.
+<li>The [UAEPASS](https://www.digitaldubai.ae/apps-services/details/uae-pass) is the national digital identity platform, giving UAE citizens, residents and visitors access to local and federal government services, as well as those of private companies, all on a single smart application, allowing them to authenticate and sign documents digitally.</li>
 
-The [UAEPASS](https://www.digitaldubai.ae/apps-services/details/uae-pass) is the national digital identity platform, giving UAE citizens, residents and visitors access to local and federal government services, as well as those of private companies, all on a single smart application, allowing them to authenticate and sign documents digitally.
-
-The [DubaiNow](https://www.digitaldubai.ae/apps-services/details/dubai-now) mobile application is a one-stop shop for smart services, unifying more than 55 key services from 22 government agencies. 
+<li>The [DubaiNow](https://www.digitaldubai.ae/apps-services/details/dubai-now) mobile application is a one-stop shop for smart services, unifying more than 55 key services from 22 government agencies. 
 
 This application allows users to manage their bills, register their cars, renew licenses, track visa applications, obtain general information in real-time (from weather, to public transport, to health, etc.), and much more. 
 
 This application also enables the Dubai government to implement various social responsibility-related activities: donations are collected and then distributed to a variety of beneficiaries, in collaboration with charities and government agencies. 
 
-It also allows you to direct how money collected from fines you pay (e.g. traffic fines) are used, among other things.
-
-Paperless government by 2020 is another goal of the Smart Dubai initiative, allowing officials and citizens to save time and resources, and protect the environment as well. “Adopting Blockchain technology Dubai stands to unlock 5.5 billion dirhams in savings annually in document processing alone - equal to the one Burj Khalifa’s worth of value every year.”  
-
+It also allows you to direct how money collected from fines you pay (e.g. traffic fines) are used, among other things.</li>
+<li>Paperless government by 2020 is another goal of the Smart Dubai initiative, allowing officials and citizens to save time and resources, and protect the environment as well. <b><i>“Adopting Blockchain technology Dubai stands to unlock 5.5 billion dirhams in savings annually in document processing alone - equal to the one Burj Khalifa’s worth of value every year.”</i></b><li>
+</ul>
 Smart Dubai is embracing a multi-blockchain business model to deliver services, such as IBM's Hyperledger Fabric-based and ConsenSys' private blockchain implementation based on Ethereum. 
 
 In October 2018, Smart Dubai and IBM launched the [Dubai Blockchain Platform](https://www.digitaldubai.ae/newsroom/news/2018/10/30/smart-dubai-and-ibm-to-offer-first-government-endorsed-blockchain-platform#listingPage=1), the first government-endorsed blockchain-as-a-service platform in the UAE.  
@@ -3348,24 +3346,26 @@ The use of distributed ledger technologies in production across various industri
 
 However, in order to increase the success of blockchain business applications, some best practices must be considered:
 <ul>
-<li>Security for the long term<br/>
-    While blockchain transactions are secure and cryptographically protected when it comes to the current technological advancements, we should always keep in mind that nothing is static, and technology continues to advance at an incredibly fast pace. What is secure today may not be so in the near future. Hackers and other bad actors are constantly focusing on breaking the cryptographic algorithms that protect blockchain data today.  
-    To avoid the potential security disruptions of tomorrow, a critical best practice is that users should never put personally identifiable information, or PII, on their blockchains,</li>
-<li>File storage on the blockchain<br/>
-    Due to the way blockchains work to store data, replicating it on every other node or peer in the network, storage and compute costs can be incredibly high. To avoid added storage costs, it is recommended that other storage and replication methods to be used - this includes cloud networks like AWS S3, GCP Filestore, etc. This way, nodes and peers can have pointers or links to the data files kept outside of the blockchain network, instead of the actual data,</li>
-<li>Permissioned blockchain for private data<br/>
-    On public blockchains, anybody has access to the information stored on the network: they can add transactions and read the data that is in it. When it comes to permissioned blockchains, data can be stored, accessed and used only between partners that have access to it. Permissioned blockchains, such as the Hyperledger technologies, are a great solution for businesses, as they want their data to remain private,</li>
-<li>Blockchain governance structure<br/>
+<li><b>Security for the long term</b><br/>
+    While blockchain transactions are secure and cryptographically protected when it comes to the current technological advancements, we should always keep in mind that nothing is static, and technology continues to advance at an incredibly fast pace. What is secure today may not be so in the near future. Hackers and other bad actors are constantly focusing on breaking the cryptographic algorithms that protect blockchain data today.<br/>
+    <i>To avoid the potential security disruptions of tomorrow, a critical best practice is that users should never put personally identifiable information, or PII, on their blockchains,</i></li>
+<li><b>File storage on the blockchain</b><br/>
+    Due to the way blockchains work to store data, replicating it on every other node or peer in the network, storage and compute costs can be incredibly high. <i>To avoid added storage costs, it is recommended that other storage and replication methods to be used - this includes cloud networks like AWS S3, GCP Filestore, etc.</i> This way, nodes and peers can have pointers or links to the data files kept outside of the blockchain network, instead of the actual data,</li>
+<li><b>Permissioned blockchain for private data</b><br/>
+    On public blockchains, anybody has access to the information stored on the network: they can add transactions and read the data that is in it. When it comes to permissioned blockchains, data can be stored, accessed and used only between partners that have access to it. <i>Permissioned blockchains, such as the Hyperledger technologies, are a great solution for businesses, as they want their data to remain private,</i></li>
+<li><b>Blockchain governance structure</b><br/>
     Most blockchain-related challenges are related to the governance model that is chosen. To keep things straightforward, you should define the governance structure upfront very early in the process, even before diving into blockchain: decide how new users/organizations are added to a blockchain network, how to determine if a user/organization should be removed from the blockchain network, include a mechanism that deals with and removes bad actors previously allowed in the network, etc. Keep in mind that things change over time, and as such, the governance procedures may change as well,</li>
-<li>Performance and scalability requirements<br/>
+<li><b>Performance and scalability requirements</b><br/>
     Blockchain architects must have a clear understanding of the requirements for their specific use cases, and they must ensure that their blockchains meet those requirements. Based on these requirements, decisions must be made early on with each deployment and use case in regards to what technologies to use,</li>
-<li>Goals of blockchain business cases<br/>
-    Not every project or solution is successful, unless it is carefully planned, designed and implemented. A carefully thought out strategy must be designed and implemented for each project, to ensure that goals are achieved.</li>
+<li><b>Goals of blockchain business cases</b><br/>
+    Not every project or solution is successful, unless it is carefully planned, designed and implemented. <i>A carefully thought out strategy must be designed and implemented for each project, to ensure that goals are achieved.</i></li>
 </ul>
 Blockchain can be a great solution for numerous business use cases that rely on security, controlled access, accountability, transparency, and efficiency, spanning a wide range of industries, from finance to banking, supply chains, manufacturing, healthcare, telecom, etc. Having well laid plans, goals and best practices can all help enterprise IT leaders explore the growing blockchain ecosystem as they work to capture its strengths for their businesses.<br/>
 <br/>
 
-**[`^        back to top        ^`](#table-of-contents)**
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h3>The Outlook of Blockchain for Business</h3>
 
@@ -3398,7 +3398,9 @@ And, according to the Worldwide Semiannual Blockchain Spending Guide (March 2019
 
 Want to be at the forefront of the blockchain technological innovation? Start assessing your needs to see if blockchain would be a good solution for your business.
 
-**[`^        back to top        ^`](#table-of-contents)**
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h3 id="ch6-3">6.3 What Enterprises Look for When Evaluating Whether or Not to Use Hyperledger (Brian Behlendorf)</h3>
 

@@ -1127,7 +1127,9 @@ Rather than displaying the record of the transactions to the whole network, they
 
 Hyperledger provides all the capabilities of blockchain architecture, data privacy, information sharing, immutability, with a full stack of security protocols, all for the enterprise.
 
-**[`^        back to top        ^`](#table-of-contents)**
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h3 id="ch2-2">2.2 Hyperledger</h3>
 
@@ -1155,7 +1157,9 @@ Hyperledger provides an alternative to the cryptocurrency-based blockchain model
 
 The focus of Hyperledger is to provide a transparent and collaborative approach to blockchain development.
 
-**[`^        back to top        ^`](#table-of-contents)**
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h3>The Birth of Hyperledger</h3>
 <p>
@@ -1217,7 +1221,9 @@ Now, let's explore the Hyperledger frameworks (as of November 2020)
        alt="Hyperledger Goals"</>
 </p>
 
-**[`^        back to top        ^`](#table-of-contents)**
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h3>The Importance of Open-Source</h3>
 <p>
@@ -1265,7 +1271,9 @@ Hyperledger aims to adhere to "open standards", which means they are  </br>
 "(...) interoperable through open published interfaces and services".  </br>
 - John Palfreyman, [ibm.com](https://www.ibm.com/us-en?ar=1)<br/>
 
-**[`^        back to top        ^`](#table-of-contents)**
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h3>Open-Source and Open Standards</h3>
 
@@ -1289,7 +1297,9 @@ This announcement came as a confirmation of an already fruitful collaboration be
 While working together, the two organizations will also continue to collaborate with other standard bodies and open-source communities, all with the common goal of accelerating the adoption of enterprise blockchain technologies.
 <br/>
 
-**[`^        back to top        ^`](#table-of-contents)**
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h3>Open-Source and Open Governance</h3>
 <p>
@@ -1371,7 +1381,9 @@ The idea behind this approach was and continues to be that there is no one solut
 Dan Middleton, [All Are Welcome Here](https://www.hyperledger.org/blog/2018/12/03/all-are-welcome-here) (2018)<br/>
 <br/>
 
-**[`^        back to top        ^`](#table-of-contents)**
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h3 id="ch1-7">1.7 Other Open-Source Permissioned Distributed Ledgers (David Huseby)</h3>
 <p>
@@ -1400,7 +1412,9 @@ Once we can ship a product, a piece of software that's been built to the best of
 It's a very holistic approach to security here at Hyperledger: everything, from the way we write software to the way the software works.
 </p>
 
-**[`^        back to top        ^`](#table-of-contents)**
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h3>How Will Hyperledger Change the Blockchain Ecosystem? (Brian Behlendorf)</h3>
 How do you think Hyperledger will change the industries that adopt the technology?  
@@ -1439,7 +1453,9 @@ especially in a more decentralized setting.
 We can avoid the over-centralization of industries, and the over-centralization of society through the use of these technologies.
 <br/>
 
-**[`^        back to top        ^`](#table-of-contents)**
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h3>Blockchain for Business</h3>
 <p>
@@ -1481,9 +1497,11 @@ They don't make the decision to jump in, unless they can see that this is not ju
 That's really what we're trying to build, and that's why we believe companies can confidently decide to pull down and start using Hyperledger Fabric, Hyperledger Sawtooth, and any of these projects.  
 
 And hopefully, become contributors to them, as well.
-</p>
 
-**[`^        back to top        ^`](#table-of-contents)**
+</p>
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h3>Hyperledger, A Greenhouse for Blockchain Projects</h3>
 <p>
@@ -1534,7 +1552,9 @@ Of course, this only represents a fraction of what open-source blockchain techno
 It's time to ask yourself: who will you trust with your trust network?
 </p>
 
-**[`^        back to top        ^`](#table-of-contents)**
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h3>Project Lifecycle and Hyperledger Incubator</h3>
 <p>
@@ -1605,7 +1625,9 @@ Labs that become dormant or unresponsive for 6 months or more, or are deemed dep
 Before diving deeper into the projects advanced under the Hyperledger umbrella, we asked Brian Behlendorf, Executive Director of Hyperledger at The Linux Foundation, some questions.
 <br/>
 
-**[`^        back to top        ^`](#table-of-contents)**
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h3>Reasons Why Developers Would Become Interested in Open-Source Software</h3>
 Many of the students taking this course are more familiar with working with Devs within the same room.  
@@ -1634,7 +1656,7 @@ All of this is a really great education, I think, in understanding how to write 
 
 That's one reason, I think, for developers to participate in open-source projects, whether at Hyperledger or any place else.  
 
-The other is that open-source projects are a really good way for you, as a software engineer, to understand what are the kinds of companies I want to work for, right?  
+The other is that open-source projects are a really good way for you, as a software engineer, to understand what are the kinds of companies I want to work for, right? 
 
 The ones that are actively involved in open-source projects, right?  
 
@@ -1649,7 +1671,9 @@ and not just technical, but also your communication skills, your collaboration s
 
 All of that means working on open-source projects can be tremendously beneficial to your own ongoing education, as well as your ability to build your career.
 
-**[`^        back to top        ^`](#table-of-contents)**
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h3>Hyperledger vs. Apache</h3>
 While at Apache, you were able to successfully build an open software developer community.
@@ -1713,7 +1737,9 @@ When a journalist calls us and asks us for a story about somebody doing somethin
 This balancing act of, you know... as I mentioned, there's a developer community, and there's a commercial community, a corporate community...  
 That's the balancing act... that The Linux Foundation has really developed a process for, a template for, and a real science around, and that's what we're bringing to bear on the Hyperledger project.
 
-**[`^        back to top        ^`](#table-of-contents)**
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h3>Interoperability Between Hyperledger Frameworks</h3>
 What do you think will help foster interoperability between these three different Hyperledger frameworks?  
@@ -1732,7 +1758,9 @@ And so, that's something over time, this kind of modularity approach... Along wi
 
 I think we'll see more activity like that.
 
-**[⬆ back to top](#table-of-contents)**
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h2 id="ch3"></a>Chapter 3: Hyperledger: Distributed Ledger Frameworks and Domain Specific Blockchains</h2>
 In this chapter, we will briefly explore the frameworks developed under the Hyperledger umbrella (as of November 2020), highlighting their key features and use cases. 
@@ -1776,7 +1804,9 @@ Hyperledger frameworks include:
 Now, let's explore the Hyperledger frameworks (as of November 2020)!
 </p>
 
-**[`^        back to top        ^`](#table-of-contents)**
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <!------------------------------------------------------------------------------------------------>
 <!----------------- Hyperledger Besu ---------------->
@@ -1802,7 +1832,9 @@ Among its features:
 <li>Allows permissioning.</li>
 </ul>
 
-**[`^        back to top        ^`](#table-of-contents)**
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h3 id="ch3-2">3.2 Hyperledger Frameworks: Burrow</h3>
 
@@ -1862,7 +1894,9 @@ Hyperledger Burrow components are:
 <li>The Application Blockchain Interface (ABCI) provides interface specification for the consensus engine and smart contract application engine to connect.</li>
 </ul>
 
-**[`^        back to top        ^`](#table-of-contents)**
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <!------------------------------------------------------------------------------------------------>
 <!----------------- Hyperledger Fabric ---------------->
@@ -1914,7 +1948,9 @@ One of the key advantages of Hyperledger Fabric is that it allows entities to co
 
 This is accomplished through different channels that run within the network, as well as the division of labor that characterizes the different nodes within the network.
 
-**[`^        back to top        ^`](#table-of-contents)**
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <!------------------------------------------------------------------------------------------------>
 <!----------------- Hyperledger Indy ---------------->
@@ -1999,7 +2035,9 @@ One of the key principles of Hyperledger Indy is its ["privacy by design"](https
 *   Nathan George, Maintainer, Hyperledger Indy
     Further information about the history of the project can be found at the [Sovrin's](https://sovrin.org/) website.
 
-**[`^        back to top        ^`](#table-of-contents)**
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <!------------------------------------------------------------------------------------------------>
 <!----------------- Hyperledger Iroha ---------------->
@@ -2066,7 +2104,9 @@ Hyperledger Iroha is an active project, and reached a significant milestone in M
 
 To learn more about it, you can read the [announcement](https://www.hyperledger.org/announcements/2019/05/06/hyperledger-launches-hyperledger-iroha-1-0).
 
-**[`^        back to top        ^`](#table-of-contents)**
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <!------------------------------------------------------------------------------------------------>
 <!----------------- Hyperledger Sawtooth ---------------->
@@ -2125,7 +2165,9 @@ Distributed ledger solutions built with Hyperledger Sawtooth can utilize various
 Hyperledger Sawtooth is designed for versatility, with support for both permissioned and permissionless deployments. 
 This technology simplifies blockchain application development and deployment by clearly separating the core system from the application domain.
 
-**[`^        back to top        ^`](#table-of-contents)**
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h3>Hyperledger Sawtooth Characteristics Relative to Use Cases (Dan Middleton)</h3>
 So, unique characteristics of Sawtooth... There's several, but one that comes to mind for a provenance or supply chain use case, is that that network will probably grow over time.  
@@ -2181,7 +2223,9 @@ The blockchain will ensure the data is secure and tamper-proof, so that you know
 
 Sawtooth Lake creates a digital platform enabling physical traceability in a trustless world.
 
-**[`^        back to top        ^`](#table-of-contents)**
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <!------------------------------------------------------------------------------------------------>
 <!----------------- Hyperledger Grid ---------------->
@@ -2213,7 +2257,9 @@ Hyperledger Grid incorporates several GS1Standards concepts in an effort to put 
 
 You can learn more about Hyperledger Grid from its website and [wiki](https://wiki.hyperledger.org/display/GRID/Hyperledger+Grid) pages, where more resources are provided as well.
 
-**[⬆ back to top](#table-of-contents)**
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h2 id="ch4">Chapter 4: Hyperledger Tools</h2>
 The Hyperledger frameworks which we examined in the previous chapter are used to build blockchains and distributed ledgers. 
@@ -2227,7 +2273,9 @@ By the end of this chapter, you should be able to:
 <li>Get a high-level understanding of the Hyperledger tools (as of November 2020): Hyperledger Avalon,  Hyperledger Cactus, Hyperledger Caliper, Hyperledger Cello, Hyperledger Explorer.</li>
 </ul>
 
-**[`^        back to top        ^`](#table-of-contents)**
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------------- Hyperledger Avalon (66) ------------------------------------>
@@ -2275,8 +2323,9 @@ Developers are currently working on refactoring the Hyperledger Cactus architect
 
 To learn more about Hyperledger Cactus, you can watch Peter Somogyvari's [Hyperledger Cactus - A Framework for Integrating Distributed Ledgers](https://www.youtube.com/watch?v=IHy-5sbMrYs) presentation.
 
-
-**[`^        back to top        ^`](#table-of-contents)**
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <!------------------------------------------------------------------------------------------------>
 <!----------------- Hyperledger Caliper ---------------->
@@ -2324,7 +2373,9 @@ Some of the project's key characteristics are:
 As of November 2020, it supports the following blockchain solutions: Hyperledger Besu, Hyperledger Burrow, Ethereum, Hyperledger Fabric, FISCO BCOS, Hyperledger Iroha and Hyperledger Sawtooth.
 Hyperledger Caliper is a blockchain benchmark tool, which allows users to measure the performance of a specific blockchain implementation with a set of predefined use cases.
 
-**[`^        back to top        ^`](#table-of-contents)**
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <!------------------------------------------------------------------------------------------------>
 <!----------------- Hyperledger Cello ---------------->
@@ -2369,7 +2420,9 @@ Some key features are:
 <h5 align="center" width="100%">Hyperledger Cello</h5>
 <p align="center" width="100%">(Source: https://www.hyperledger.org/blog/2017/01/17/hyperledger-says-hello-to-cello)</p>
 
-**[`^        back to top        ^`](#table-of-contents)**
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <!------------------------------------------------------------------------------------------------>
 <!----------------- Hyperledger Explorer ---------------->
@@ -2398,7 +2451,9 @@ Designed to create a user-friendly web application, Hyperledger Explorer can vie
 The ability to visualize data is of critical importance, in order to extract business value from it. Hyperledger Explorer provides this much needed functionality. Key components include a web server, a web UI, web sockets, a database, a security repository, and a blockchain implementation.  
 Hyperledger Explorer supports Hyperledger Fabric and Hyperledger Iroha.
 
-**[⬆ back to top](#table-of-contents)**
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h2 id="ch5">Chapter 5: Hyperledger Libraries</h2>
 In the previous chapter we looked at the Hyperledger tools, which are auxiliary softwares used for things like deploying and maintaining blockchains, examining the data on the ledgers, as well as tools to design, prototype, and extend blockchain networks. 
@@ -2412,7 +2467,9 @@ By the end of this chapter, you should be able to:
 <li>Get a high-level understanding of the Hyperledger libraries (as of November 2020): Hyperledger Aries, Hyperledger Quilt, Hyperledger Transact, and Hyperledger Ursa.</li>
 </ul>
 
-**[`^        back to top        ^`](#table-of-contents)**
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <!------------------------------------------------------------------------------------------------>
 <!----------------- Hyperledger Aries ---------------->
@@ -2441,7 +2498,9 @@ An example of such support is the creation of a secure storage solution similar 
 
 Hyperledger Aries developers aim to eventually have a scalable, searchable storage layer capable of storing other associated data necessary for identity maintenance, such as pictures, health records, or other personal information.
 
-**[`^        back to top        ^`](#table-of-contents)**
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <!------------------------------------------------------------------------------------------------>
 <!----------------- Hyperledger Quilt ---------------->
@@ -2483,7 +2542,9 @@ Among its key characteristics are:
 <li>Currently in Incubation, Hyperledger Quilt was initially contributed by NTT Data and Ripple in 2017.</li>
 </ul>
 
-**[`^        back to top        ^`](#table-of-contents)**
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <!------------------------------------------------------------------------------------------------>
 <!----------------- Hyperledger Transact ---------------->
@@ -2559,7 +2620,9 @@ Several industries that deal with materials and product supply chains have began
 
 Let's take a look at different use cases for Hyperledger blockchain technologies and see what advantages they can bring to your business.
 
-**[`^        back to top        ^`](#table-of-contents)**
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h3>Learning Objectives</h3>
 By the end of this chapter, you should be able to:
@@ -2588,7 +2651,9 @@ Businesses recognize the efficiency gains from transitioning from closed and pro
 
 How exactly are businesses using these emerging technologies today? Next, we will explore the state of distributed ledger technologies in actual corporate settings, and how they compare against traditional tools.
 
-**[`^        back to top        ^`](#table-of-contents)**
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h3>Hyperledger Advantages for Businesses (Brian Behlendorf)</h3>
 
@@ -2614,7 +2679,9 @@ Finally, they should realize that they can build their business on top of Hyperl
 they can use it all day long, they don't owe anybody a fee, a license fee, a patent license, nothing,  
 and, if they feel like it, if they want to contribute, there should be an easy glide path to having their technical teams get deeper into the code, become contributors, and even help set the direction for the technology.
 
-**[`^        back to top        ^`](#table-of-contents)**
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h3>Business Interest in Hyperledger</h3>
 When we first launched this course, in 2017, enterprise blockchain technologies were still in the initial stages of their production implementation. 
@@ -2629,7 +2696,9 @@ But the situation has significantly changed in the meantime, and while still con
 - Blockchain adds data transparency and automation to supply management and logistics, building trust and enabling leaner, more cost-effective processes.
 From smart companies, to smart cities, to smart energy management, to streamlining supply chains and financial services, from logistics to digital identities, across both public and private sectors, the opportunities provided by enterprise blockchain technologies are astounding. Talking about blockchain is now in the past; it's now time to walk the talk! And the sky is the limit it seems!
 
-**[`^        back to top        ^`](#table-of-contents)**
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h3 id="ch6-2">6.2 Blockchain Use Case (Brian Behlendorf)</h3>
 What is your favorite blockchain use case?  
@@ -2653,7 +2722,9 @@ And so, that's really what gets me excited.
 
 There are numerous blockchain [case studies](https://www.hyperledger.org/learn/publications#case-studies) and [cross-industry projects](https://www.hyperledger.org/learn/blockchain-showcase) showcased on the Hyperledger website. Feel free to check them out to learn more about the business potential of blockchain technologies, and in particular, of Hyperledger technologies.
 
-**[`^        back to top        ^`](#table-of-contents)**
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h3>Hyperledger Blockchains in Production</h3>
 Over the past few years, there has been a lot of talk about blockchain and its potential in the enterprise landscape. Today, blockchain is no longer a hype: it has become a reality, and is transforming processes and how enterprises do business, across a wide range of industries. 
@@ -2673,7 +2744,9 @@ Below is just a small sample of blockchain-based enterprise solution successfull
     In an attempt to streamline their business-oriented services, the [government of British Columbia started working on a project based on Hyperledger Indy](https://www.hyperledger.org/learn/publications/orgbook-case-study). OrgBook BC is an online directory that can be used to quickly verify if an organization is legally registered to do business in British Columbia as a corporation. This is just the first step of a larger blockchain-based initiative aimed at streamlining government services.  
     Next, we will dive deeper into some of the industries that are using blockchain-based solutions, as well as specific use cases.
 
-**[`^        back to top        ^`](#table-of-contents)**
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h3>Supply Chain Management (Part I)</h3>
 Supply chain management is an important piece of enterprise resource planning (ERP). 
@@ -2702,7 +2775,9 @@ This lack of transparency is often intentional, as companies don't want to expos
 
 Additionally, a company could be cut out of a supply chain if members start transacting directly with that company’s suppliers.
 
-**[`^        back to top        ^`](#table-of-contents)**
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h3>Supply Chain Management (Part II)</h3>
 Blockchains are being used to solve problems in supply chain management by eliminating the need for a trusted third party to certify raw materials, components, or finished products, as they travel through a supply chain. 
@@ -2742,7 +2817,9 @@ Institutions that provide capital during these trades can leverage the informati
 <p align="center">Source: Nishan Degnarain (used with permission)
 </p>
 
-**[`^        back to top        ^`](#table-of-contents)**
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h3>Supply Chain Case Study: Walmart</h3>
 As one of the world's leading businesses in the supply chain industry, Walmart is constantly looking for ways to enhance transparency and traceability in the food system, and over the years has tried numerous solutions and approaches to solve this problem. 
@@ -2767,7 +2844,9 @@ And it plans to expand the use of this system to include more products and categ
 
 You can learn more about Walmart's successful use of blockchain technologies from this article: [How Walmart brought unprecedented transparency to the food supply chain with Hyperledger Fabric](https://www.hyperledger.org/learn/publications/walmart-case-study).
 
-**[`^        back to top        ^`](#table-of-contents)**
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h3>Supply Chain Case Study: ScanTrust</h3>
 Another great example of how blockchain technologies can be a great solution for transparency and traceability in the supply chain industry is that of Cambio coffee: if you buy a pack of Cambio coffee and scan the label with your smartphone, you will be able to see all the details of the coffee's journey, from harvest in Peru, to shipment, to roasting in Shanghai, and delivery to your home. Cambio Coffee is a direct trade organic coffee company that prides itself on building a direct link from coffee farmers to consumers, and the immutable records that are stored on the blockchain are proof that they stay true to their mission.  
@@ -2801,7 +2880,9 @@ The right to use the land may be taken away from you by foreclosure if you do no
 
 It is unlikely that you will be allowed to operate a pesticide manufacturing plant in the middle of a residential neighborhood. If you lease out the plot of land, your right to use the property is transferred to the tenant, but you are still able to sell the plot of land to another landlord while the lease is active.
 
-**[`^        back to top        ^`](#table-of-contents)**
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h3>Property Rights (Part II)</h3>
 Companies may use blockchain technologies to record ownership rights and responsibilities. 
@@ -2821,7 +2902,9 @@ To legally protect ownership rights in these, one registers their production, or
    width="66%" />
 </p>
 
-**[`^        back to top        ^`](#table-of-contents)**
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h3>Property Titles on a Blockchain via a Smart Contract</h3>
 Companies with strong brand value in particular, such as the fashion industry and luxury good providers, are interested in more efficient ways to protect their intellectual property. 
@@ -2842,7 +2925,9 @@ By placing a hash of intellectual property documents on the blockchain, a party 
 
 In addition to the hash, you may also choose to store the location of the file in the blockchain, which could be used for retrieval.
 
-**[`^        back to top        ^`](#table-of-contents)**
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h3>Provenance</h3>
 As the previous section on blockchains for supply chain management illustrated, blockchain data improves insight into products, as they move through their lifecycle. 
@@ -2890,7 +2975,9 @@ For example, the European Union Intellectual Property Office (EUIPO), in collabo
 
 Also, "the Interprofessional Council of Bordeaux Wine estimates that 30,000 bottles of fake imported wine are sold per hour in China", whereby some estimate half of the wines retailing for more than $35 in China are counterfeit (Pamela Ambler, [forbes.com](https://www.forbes.com/sites/pamelaambler/2017/07/27/china-is-facing-an-epidemic-of-counterfeit-and-contraband-wine/?sh=5121fe9a5843), 2017).
 
-**[`^        back to top        ^`](#table-of-contents)**
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h3>Provenance (Part II)</h3>
 In order to be certain that your product is authentic, you would need either a record of all the transactions for the life of the item, or a trusted third party. 
@@ -2944,7 +3031,9 @@ On top of that, Circulor aims to expand the system they built to cover other min
 
 You can read more about tantalum traceability success story on the Hyperledger website: [Circulor achieves first-ever mine-to-manufacturer traceability of a conflict mineral with Hyperledger Fabric](https://www.hyperledger.org/learn/publications/tantalum-case-study).
 
-**[`^        back to top        ^`](#table-of-contents)**
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h3>Finance</h3>
 <blockquote>
@@ -2980,7 +3069,9 @@ This organization steps in as the counterparty to each trade, creating two disti
 
 These organizations are central securities depositories, whose role is to minimize the risk of trade default, and also to enforce rules against overexposure to certain types of trades.
 
-**[`^        back to top        ^`](#table-of-contents)**
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h3>Finance (Part III)</h3>
 Although every trade has its own lifecycle, generally, the following steps will occur:
@@ -2999,7 +3090,9 @@ Although every trade has its own lifecycle, generally, the following steps will 
 <li>Audit of the trade and associated payments is performed by the parties. If a dispute occurs, the parties must communicate and come to a resolution for such discrepancies. This is a manual and costly process.</li>
 </ul>
 
-**[`^        back to top        ^`](#table-of-contents)**
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h3>Finance (Part IV)</h3>
 Smart contracts may greatly improve the process of post-trade settlement, by reducing disputes and errors. 
@@ -3105,7 +3198,9 @@ Health insurance providers must also audit the financial aspects incurred as par
 
 Tying the care auditability with the payment auditability provides a key advantage to reducing the potential for fraud.  
 
-**[`^        back to top        ^`](#table-of-contents)**
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 The healthcare industry has examined placing prescription drug fulfillment processes on blockchain since they involve gathering and checking information from many sources. 
 
@@ -3137,7 +3232,9 @@ Why is healthcare data so sought after by hackers?
 
 Because it's personal, permanent and detailed: from social security numbers, to address, to family history, to confidential medical history.
 
-**[`^        back to top        ^`](#table-of-contents)**
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h3>Education</h3>
 Blockchain solutions are being successfully implemented across various industries. 
@@ -3176,7 +3273,9 @@ Moreover, Sony Global Education is working with the Japanese Ministry of Interna
 
 You can learn more about this use case reading [Sony Global Education Chooses Hyperledger Fabric for a Next-Generation Credentials Platform](https://www.hyperledger.org/wp-content/uploads/2017/12/Hyperledger_CaseStudy_Sony.pdf).
 
-**[`^        back to top        ^`](#table-of-contents)**
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h3>Smart Energy Management</h3>
 We live in an increasingly connected and energy-dependent world. Balance between supply and demand is imperative to ensure electricity demand is met. 
@@ -3197,7 +3296,9 @@ In 2017, IBM partnered with TenneT, sonnen and Vandebron to develop a [distribut
 
 If tests are successful, this [Hyperledger Fabric-based implementation](https://www.youtube.com/watch?v=IJ3U7wACSc8) could then be implemented worldwide, adding much needed flexibility and security in the energy management system.
 
-**[`^        back to top        ^`](#table-of-contents)**
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h3>Smart Cities Use Case: Smart Dubai</h3>
 Dubai is known for being a world-class business, cultural, and touristic destination. 
@@ -3238,7 +3339,9 @@ We are constantly on the lookout for new opportunities to meet representatives f
 
 Dr. Aisha Bint Butti Bin Bishr, Director General of the Smart Dubai Office
 
-**[`^        back to top        ^`](#table-of-contents)**
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h3>Blockchain Best Practices for Enterprises</h3>
 The use of distributed ledger technologies in production across various industries continues to expand and reach new horizons, as businesses explore new ways to incorporate blockchain in their day-to-day activities. 
@@ -3329,7 +3432,9 @@ At some point, those two teams should meet up, right, and say "Here's what we th
 
 And then, over time, start to promulgate that amongst the other partners that you think you'd involve in a distributed ledger project.
 
-**[`^        back to top        ^`](#table-of-contents)**
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h4>When to Use Blockchain</h4>
 There are certain factors to consider when evaluating blockchain distributed ledger technology for your business. 
@@ -3368,7 +3473,9 @@ The following conditions are not currently well suited to blockchain-based solut
 Next, we will discuss in more detail the conditions that are not well suited to blockchain-based solutions.
 &nbsp;
 
-**[`^        back to top        ^`](#table-of-contents)**
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h3>I. The Process Involves Confidential Data</h3>
 The biggest advantage and challenge in deploying blockchains is the radical transparency which they provide. 
@@ -3390,7 +3497,9 @@ A relational database may be more suitable if you need to make many changes to y
 <br/>
 &nbsp;
 
-**[`^        back to top        ^`](#table-of-contents)**
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h3>IV. The Use of External Services to Gather/Store Data</h3>
 A blockchain smart contract does not currently initiate the retrieval of external data. 
@@ -3426,7 +3535,9 @@ Do you need a smart contract or are stored procedures written in an extension of
 </p>
 <p align="center">The above diagram provides generalized, high-level decision points about when to use or not to use blockchain technology for your business.</p>
 
-**[`^        back to top        ^`](#table-of-contents)**
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h4>Hyperledger Community</h4>
 The development of the Hyperledger projects is led by a diverse group of technical, open-source contributors. 
@@ -3479,7 +3590,9 @@ Below, you can see an overview of Hyperledger’s working groups:
 </ul>
 <br/>
 
-**[`^        back to top        ^`](#table-of-contents)**
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h3>Learning Materials Development Working Group</h3>
 <p>
@@ -3531,12 +3644,10 @@ Whether you are an engineer, entrepreneur, developer, educator, or business pers
 Good luck to all of you in your future endeavors!
 </p>
 
-**[⬆ back to top](#table-of-contents)**
-
-**[`^        back to top        ^`](#table-of-contents)**
-
 <div align="right">
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
 </div>
+
+**[`^        back to top        ^`](#table-of-contents)**
 
 4/12/2022 (Tuesday)

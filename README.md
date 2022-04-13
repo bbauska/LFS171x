@@ -3504,13 +3504,17 @@ There are also a number of Special Interest Groups in the Hyperledger Community,
 
 You can learn more about these groups and their focus:
 <ul>
-<li>Healthcare SIG (HC-SIG) This group represents an international membership of healthcare and technology professionals united in advancing the state of the healthcare industry through the implementation of enterprise-grade technology solutions utilizing the Hyperledger greenhouse of business blockchain frameworks and tools.</li>
-<li>Public Sector SIG This group is focused on applying DLT in general, and Hyperledger technologies in particular, to the public sector uses and needs.</li>
-<li>Social Impact SIG This group is primarily focused on serving as a platform for exchanging ideas and exploration of ways to use blockchain technology in the context of social good.</li>
-<li>Telecom SIG This group focuses on technical and business-level conversations about blockchain use cases in the Telecom industry.</li>
-<li>Trade Finance SIG This group is focused on DLT and Hyperledger technologies applications to the trade finance uses and needs.</li>
+<li>Healthcare SIG (HC-SIG)<br/> 
+This group represents an international membership of healthcare and technology professionals united in advancing the state of the healthcare industry through the implementation of enterprise-grade technology solutions utilizing the Hyperledger greenhouse of business blockchain frameworks and tools.</li>
+<li>Public Sector SIG<br/> 
+This group is focused on applying DLT in general, and Hyperledger technologies in particular, to the public sector uses and needs.</li>
+<li>Social Impact SIG<br/>
+This group is primarily focused on serving as a platform for exchanging ideas and exploration of ways to use blockchain technology in the context of social good.</li>
+<li>Telecom SIG<br/>
+This group focuses on technical and business-level conversations about blockchain use cases in the Telecom industry.</li>
+<li>Trade Finance SIG<br/>
+This group is focused on DLT and Hyperledger technologies applications to the trade finance uses and needs.</li>
 </ul>
-
 </p>
 
 <h3>Conclusions</h3>
@@ -3528,6 +3532,7 @@ Good luck to all of you in your future endeavors!
 </p>
 
 **[⬆ back to top](#table-of-contents)**
+
 **[`^        back to top        ^`](#table-of-contents)**
 
 <div align="right">

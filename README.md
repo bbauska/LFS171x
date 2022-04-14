@@ -2027,13 +2027,14 @@ What is striking is that, out of these, only 4% were encrypted, and hence, rende
 </p>
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------- Hyperledger Indy ---------------->
+<!-------------------------------------- Hyperledger Indy ---------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
   <img width="50%" src="https://user-images.githubusercontent.com/41387907/138575517-527507d7-cb6f-4ac4-811c-2767ea494268.png"
        alt="Hyperledger Indy and its 'privacy by design' approach"</></p>
-<p>
-One of the key principles of Hyperledger Indy is its ["privacy by design"](https://en.wikipedia.org/wiki/Privacy_by_design) approach. Given the immutable nature of the DLT, it is all the more important that digital identities be handled with the utmost care, keeping human values front and center.</p>
+
+One of the key principles of Hyperledger Indy is its ["privacy by design"](https://en.wikipedia.org/wiki/Privacy_by_design) approach. Given the immutable nature of the DLT, it is all the more important that digital identities be handled with the utmost care, keeping human values front and center.
+
 <blockquote>
 "Hyperledger Indy lets users authenticate identity based on the attributes they are willing to store and share themselves. This can reduce the amount of liability contained within a business because the data can be kept with the user and presented to you again in a way that you can trust and validate that what has been said really was said and is trusted by the other parties you do business with".
 </blockquote>
@@ -2044,9 +2045,8 @@ One of the key principles of Hyperledger Indy is its ["privacy by design"](https
 <div align="right">
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
 </div>
-
 <!------------------------------------------------------------------------------------------------>
-<!----------------- Hyperledger Iroha ---------------->
+<!-------------------------------------- Hyperledger Iroha --------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <h3>Hyperledger Iroha</h3>
 <p align="center" width="100%">
@@ -2115,7 +2115,7 @@ To learn more about it, you can read the [announcement](https://www.hyperledger.
 </div>
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------- Hyperledger Sawtooth ---------------->
+<!------------------------------------ Hyperledger Sawtooth -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <h3>Hyperledger Sawtooth</h3>
 <p align="center" width="100%">
@@ -2384,7 +2384,7 @@ Hyperledger Caliper is a blockchain benchmark tool, which allows users to measur
 </div>
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------------------- Hyperledger Cello ------------------------------------->
+<!----------------- Hyperledger Cello ---------------->
 <!------------------------------------------------------------------------------------------------>
 <h3>Hyperledger Cello</h3>
 <p align="center" width="100%">
@@ -2863,9 +2863,9 @@ When ScanTrust decided to implement a blockchain solution to enhance trust, tran
 <blockquote>
 “ScanTrust plans to use the Hyperledger Sawtooth-based solution for other projects. Besides enhancing traceability in the supply chain, the team sees other uses for the technology… A brand could create its own token to incentivize consumers to share data; or it could develop ways to allow consumers to tip the farmer who produced their coffee.”  
 </blockquote>
-<p>
+
 You can learn more about the this use case from the following article: [How ScanTrust brought Transparency to the Supply Chain with Hyperledger Sawtooth](https://www.hyperledger.org/learn/publications/scantrust-case-study).
-</p>
+
 <h3>Property Rights (Part I)</h3>
 The legal industry has begun to examine how blockchain technologies can minimize disputes around property rights. 
 
@@ -3211,8 +3211,10 @@ The healthcare industry has also used DLT to handle online identity management, 
    width="66%" />
 </p>
 
-<h5 align="center">By The BlockRx Project, retrieved from the [Hyperledger Healthcare Working Group, August 22nd, 2017 Meeting](https://wiki-archive.hyperledger.org/doku.php?id=groups/healthcare/healthcare-wg-meetings) </h5>
-Another area blockchain is used in healthcare is to protect data from cybercrime. 
+<h5 align="center"> 
+By The BlockRx Project, retrieved from the [Hyperledger Healthcare Working Group, August 22nd, 2017 Meeting](https://wiki-archive.hyperledger.org/doku.php?id=groups/healthcare/healthcare-wg-meetings)
+</h5>
+Another area blockchain is used in healthcare is to protect data from cybercrime. <br/>
 
 Data breaches happen on a daily basis across all industries, and healthcare is no different. 
 
@@ -3302,7 +3304,7 @@ Below we highlight just a few of the Smart Dubai initiatives:
 
    * The Dubai Blockchain Strategy aims to enable the execution of all applicable government transactions through blockchain by 2020.<br/>
    * The Decentralized Data Marketplace leverages blockchain technology to ensure the security and immutability of transactions, tokenization to hide sensitive information, etc.<br/>
-   * >The [UAEPASS](https://www.digitaldubai.ae/apps-services/details/uae-pass) is the national digital identity platform, giving UAE citizens, residents and visitors access to local and federal government services, as well as those of private companies, all on a single smart application, allowing them to authenticate and sign documents digitally.<br/>
+   * The [UAEPASS](https://www.digitaldubai.ae/apps-services/details/uae-pass) is the national digital identity platform, giving UAE citizens, residents and visitors access to local and federal government services, as well as those of private companies, all on a single smart application, allowing them to authenticate and sign documents digitally.<br/>
    * The [DubaiNow](https://www.digitaldubai.ae/apps-services/details/dubai-now) mobile application is a one-stop shop for smart services, unifying more than 55 key services from 22 government agencies. 
    This application allows users to manage their bills, register their cars, renew licenses, track visa applications, obtain general information in real-time (from weather, to public transport, to health, etc.), and much more. 
    This application also enables the Dubai government to implement various social responsibility-related activities: donations are collected and then distributed to a variety of beneficiaries, in collaboration with charities and government agencies. 
@@ -3629,4 +3631,4 @@ Good luck to all of you in your future endeavors!
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
 </div>
 
-Last Modified: 4/13/2022  8:55pm (Wednesday)
+Last Modified: 4/13/2022 9:04pm (Wednesday)

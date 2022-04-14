@@ -3210,11 +3210,9 @@ The healthcare industry has also used DLT to handle online identity management, 
    alt="By The BlockRx Project, retrieved from the Hyperledger Healthcare Working Group, August 22nd, 2017 Meeting"
    width="66%" />
 </p>
+By The BlockRx Project, retrieved from the [Hyperledger Healthcare Working Group, August 22nd, 2017 Meeting](https://wiki-archive.hyperledger.org/doku.php?id=groups/healthcare/healthcare-wg-meetings).
 
-<h5 align="center"> 
-By The BlockRx Project, retrieved from the [Hyperledger Healthcare Working Group, August 22nd, 2017 Meeting](https://wiki-archive.hyperledger.org/doku.php?id=groups/healthcare/healthcare-wg-meetings)
-</h5>
-Another area blockchain is used in healthcare is to protect data from cybercrime. <br/>
+Another area blockchain is used in healthcare is to protect data from cybercrime. <br/>&nbsp;
 
 Data breaches happen on a daily basis across all industries, and healthcare is no different. 
 

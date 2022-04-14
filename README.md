@@ -706,7 +706,11 @@ As an added benefit, regulators are able to scrutinize the market activity on an
   <img width="66%" src="https://user-images.githubusercontent.com/41387907/138574916-7517cbeb-780a-48ad-b96c-062caf795147.png"
        alt="Ethereum smart contracts"</>
 </p>
-Note: With the advent of the Ethereum blockchain platform and the scripting functionality or smart contracts that it enables, there are ongoing attempts to do the same for the Bitcoin blockchain, which does not allow for this, due to security reasons. [RSK](https://www.rsk.co/) is one such smart contract platform that seeks to achieve this "with a 2-way peg to Bitcoin". The added functionality can go a long way in making the Bitcoin blockchain useful for use cases other than cash transfers.
+<p>
+Note: With the advent of the Ethereum blockchain platform and the scripting functionality or smart contracts that it enables, there are ongoing attempts to do the same for the Bitcoin blockchain, which does not allow for this, due to security reasons. 
+
+[RSK](https://www.rsk.co/) is one such smart contract platform that seeks to achieve this "with a 2-way peg to Bitcoin". The added functionality can go a long way in making the Bitcoin blockchain useful for use cases other than cash transfers.
+</p>
 <div align="right">
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
 </div>
@@ -880,6 +884,7 @@ The following table offers an at-a-glance view of the main considerations and pr
 </p>
 
 <h2 id="ch1-6"></a>1.6 Hyperledger</h2>
+
 [Hyperledger](https://www.hyperledger.org/) is an open source effort created to advance cross-industry blockchain technologies.
 
 Hosted by The Linux Foundation, it is a global collaboration of members from various industries, including finance, banking, Internet of Things (IoT), supply chain, manufacturing, healthcare and more.
@@ -2026,11 +2031,12 @@ What is striking is that, out of these, only 4% were encrypted, and hence, rende
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
   <img width="50%" src="https://user-images.githubusercontent.com/41387907/138575517-527507d7-cb6f-4ac4-811c-2767ea494268.png"
-       alt="Hyperledger Indy and its 'privacy by design' approach"</>
-</p>
-One of the key principles of Hyperledger Indy is its ["privacy by design"](https://en.wikipedia.org/wiki/Privacy_by_design) approach. Given the immutable nature of the DLT, it is all the more important that digital identities be handled with the utmost care, keeping human values front and center.  
-
+       alt="Hyperledger Indy and its 'privacy by design' approach"</></p>
+<p>
+One of the key principles of Hyperledger Indy is its ["privacy by design"](https://en.wikipedia.org/wiki/Privacy_by_design) approach. Given the immutable nature of the DLT, it is all the more important that digital identities be handled with the utmost care, keeping human values front and center.</p>
+<blockquote>
 "Hyperledger Indy lets users authenticate identity based on the attributes they are willing to store and share themselves. This can reduce the amount of liability contained within a business because the data can be kept with the user and presented to you again in a way that you can trust and validate that what has been said really was said and is trusted by the other parties you do business with".
+</blockquote>
 
 *   Nathan George, Maintainer, Hyperledger Indy
     Further information about the history of the project can be found at the [Sovrin's](https://sovrin.org/) website.
@@ -2857,8 +2863,9 @@ When ScanTrust decided to implement a blockchain solution to enhance trust, tran
 <blockquote>
 “ScanTrust plans to use the Hyperledger Sawtooth-based solution for other projects. Besides enhancing traceability in the supply chain, the team sees other uses for the technology… A brand could create its own token to incentivize consumers to share data; or it could develop ways to allow consumers to tip the farmer who produced their coffee.”  
 </blockquote>
+<p>
 You can learn more about the this use case from the following article: [How ScanTrust brought Transparency to the Supply Chain with Hyperledger Sawtooth](https://www.hyperledger.org/learn/publications/scantrust-case-study).
-
+</p>
 <h3>Property Rights (Part I)</h3>
 The legal industry has begun to examine how blockchain technologies can minimize disputes around property rights. 
 
@@ -3169,13 +3176,15 @@ With this increased insight into the market, the government may or may not devel
 <p>
 A number of multi-party processes in the healthcare industry can leverage distributed ledger technology. 
 By streamlining these multi-party processes, the healthcare industry can reduce the time and expense of collecting and verifying multiple pieces of information in order to deliver quality care to patients. 
-Healthcare providers and insurance companies have begun to explore how blockchain can improve the delivery of patient care.</p>
-<p>
-In 2015, the US spent 27.42% of the federal budget, or $1.05 trillion, on healthcare [(National Priorities Project)](https://www.nationalpriorities.org/budget-basics/federal-budget-101/spending/). 
+Healthcare providers and insurance companies have begun to explore how blockchain can improve the delivery of patient care.</p><br/>
+
+In 2015, the US spent 27.42% of the federal budget, or $1.05 trillion, on healthcare [(National Priorities Project)](https://www.nationalpriorities.org/budget-basics/federal-budget-101/spending/).
 Because these costs are so high, the US government, in particular, has invested resources into healthcare blockchain technology. 
+
 The [Office of National Coordinator for Health Information Technology (ONC)](https://www.healthit.gov/) is responsible for health information technology. 
 It has recognized a need for nationwide interoperability and standards for electronic health records, claims processing, and verification of provider credentials. 
 To that end, it has sponsored many government blockchain initiatives in healthcare.</p>
+
 <p>
 The healthcare industry has already placed medical insurance enrollment information on blockchain for verification, and plans to incorporate many other aspects of medical insurance claims processing on blockchain. 
 One cost borne by health insurance providers is auditing care providers. 
@@ -3185,6 +3194,7 @@ Tying the care auditability with the payment auditability provides a key advanta
 <div align="right">
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
 </div>
+
 <p>
 The healthcare industry has examined placing prescription drug fulfillment processes on blockchain since they involve gathering and checking information from many sources. 
 Insurance benefits investigation eligibility checks are performed to see if insurance will pay. 
@@ -3289,23 +3299,18 @@ Dubai aims to become the world's first government fully powered by blockchain te
 [Smart Dubai](https://www.digitaldubai.ae/) is a city-wide effort to empower residents and visitors alike via digital transformation, an effort that relies on the partnership between the private sector and government entities. It aims "to make Dubai the happiest city on earth through technology innovation" by creating an efficient, blockchain-based city government, digitizing all of its services to add increased transparency, security, efficiency and reduce bureaucracy. 
 
 Below we highlight just a few of the Smart Dubai initiatives:
-<ul>
-<li>The Dubai Blockchain Strategy aims to enable the execution of all applicable government transactions through blockchain by 2020.</li>
 
-<li>The Decentralized Data Marketplace leverages blockchain technology to ensure the security and immutability of transactions, tokenization to hide sensitive information, etc.</li>
-
-<li>The [UAEPASS](https://www.digitaldubai.ae/apps-services/details/uae-pass) is the national digital identity platform, giving UAE citizens, residents and visitors access to local and federal government services, as well as those of private companies, all on a single smart application, allowing them to authenticate and sign documents digitally.</li>
-
-<li>The [DubaiNow](https://www.digitaldubai.ae/apps-services/details/dubai-now) mobile application is a one-stop shop for smart services, unifying more than 55 key services from 22 government agencies. 
-
-This application allows users to manage their bills, register their cars, renew licenses, track visa applications, obtain general information in real-time (from weather, to public transport, to health, etc.), and much more. 
-
-This application also enables the Dubai government to implement various social responsibility-related activities: donations are collected and then distributed to a variety of beneficiaries, in collaboration with charities and government agencies. 
-
-It also allows you to direct how money collected from fines you pay (e.g. traffic fines) are used, among other things.</li>
-<li>Paperless government by 2020 is another goal of the Smart Dubai initiative, allowing officials and citizens to save time and resources, and protect the environment as well. <b><i>“Adopting Blockchain technology Dubai stands to unlock 5.5 billion dirhams in savings annually in document processing alone - equal to the one Burj Khalifa’s worth of value every year.”</i></b><li>
-</ul>
+   * The Dubai Blockchain Strategy aims to enable the execution of all applicable government transactions through blockchain by 2020.<br/>
+   * The Decentralized Data Marketplace leverages blockchain technology to ensure the security and immutability of transactions, tokenization to hide sensitive information, etc.<br/>
+   * >The [UAEPASS](https://www.digitaldubai.ae/apps-services/details/uae-pass) is the national digital identity platform, giving UAE citizens, residents and visitors access to local and federal government services, as well as those of private companies, all on a single smart application, allowing them to authenticate and sign documents digitally.<br/>
+   * The [DubaiNow](https://www.digitaldubai.ae/apps-services/details/dubai-now) mobile application is a one-stop shop for smart services, unifying more than 55 key services from 22 government agencies. 
+   This application allows users to manage their bills, register their cars, renew licenses, track visa applications, obtain general information in real-time (from weather, to public transport, to health, etc.), and much more. 
+   This application also enables the Dubai government to implement various social responsibility-related activities: donations are collected and then distributed to a variety of beneficiaries, in collaboration with charities and government agencies. 
+   It also allows you to direct how money collected from fines you pay (e.g. traffic fines) are used, among other things.<br/>
+   * Paperless government by 2020 is another goal of the Smart Dubai initiative, allowing officials and citizens to save time and resources, and protect the environment as well. <b><i>“Adopting Blockchain technology Dubai stands to unlock 5.5 billion dirhams in savings annually in document processing alone - equal to the one Burj Khalifa’s worth of value every year.”<br/></b>
+<p>
 Smart Dubai is embracing a multi-blockchain business model to deliver services, such as IBM's Hyperledger Fabric-based and ConsenSys' private blockchain implementation based on Ethereum. 
+</p>
 
 In October 2018, Smart Dubai and IBM launched the [Dubai Blockchain Platform](https://www.digitaldubai.ae/newsroom/news/2018/10/30/smart-dubai-and-ibm-to-offer-first-government-endorsed-blockchain-platform#listingPage=1), the first government-endorsed blockchain-as-a-service platform in the UAE.  
 
@@ -3624,4 +3629,4 @@ Good luck to all of you in your future endeavors!
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
 </div>
 
-Last Modified: 4/13/2022 (Wednesday)
+Last Modified: 4/13/2022  8:55pm (Wednesday)

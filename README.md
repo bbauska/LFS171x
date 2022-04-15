@@ -2478,9 +2478,9 @@ By the end of this chapter, you should be able to:
 </div>
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------- Hyperledger Aries ---------------->
+<!---------------------------------------- Hyperledger Aries ------------------------------------->
 <!------------------------------------------------------------------------------------------------>
-<h3 id="ch5-2">5.2 Hyperledger Aries</h3>
+<h3 id="ch5-2">5.2 Hyperledger Libraries: Aries</h3>
 <p align="center" width="100%">
 <img src="https://user-images.githubusercontent.com/41387907/138575614-766de503-e703-4de7-9608-46e3b8d8a8e9.png"
    alt="Hyperledger Aries"

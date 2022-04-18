@@ -3308,7 +3308,7 @@ Below we highlight just a few of the Smart Dubai initiatives:
    This application allows users to manage their bills, register their cars, renew licenses, track visa applications, obtain general information in real-time (from weather, to public transport, to health, etc.), and much more. 
    This application also enables the Dubai government to implement various social responsibility-related activities: donations are collected and then distributed to a variety of beneficiaries, in collaboration with charities and government agencies. 
    It also allows you to direct how money collected from fines you pay (e.g. traffic fines) are used, among other things.<br/>
-   * Paperless government by 2020 is another goal of the Smart Dubai initiative, allowing officials and citizens to save time and resources, and protect the environment as well. <b><i>“Adopting Blockchain technology Dubai stands to unlock 5.5 billion dirhams in savings annually in document processing alone - equal to the one Burj Khalifa’s worth of value every year.”<br/></b>
+   * Paperless government by 2020 is another goal of the Smart Dubai initiative, allowing officials and citizens to save time and resources, and protect the environment as well. <b><i>“Adopting Blockchain technology Dubai stands to unlock 5.5 billion dirhams in savings annually in document processing alone - equal to the one Burj Khalifa’s worth of value every year.”</i></b><br/>
 <p>
 Smart Dubai is embracing a multi-blockchain business model to deliver services, such as IBM's Hyperledger Fabric-based and ConsenSys' private blockchain implementation based on Ethereum. 
 </p>
@@ -3630,4 +3630,4 @@ Good luck to all of you in your future endeavors!
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
 </div>
 
-Last Modified: 4/13/2022 9:04pm (Wednesday)
+Last Modified: 4/18/2022 11:06pm (Monday)

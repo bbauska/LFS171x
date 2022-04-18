@@ -8,8 +8,8 @@
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image001.jpg?raw=true"
-	width="50%" 
-    alt="Linux logo"</>
+   alt="Linux logo"
+   width="40%" />
 </p>
 
 <h2 align="center">Introduction to Hyperledger Blockchain Technology</h2>
@@ -18,8 +18,8 @@
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image-logo.png?raw=true"
-     width="50%" 
-     alt="LFS171x Hyperledger Blockchain logo"</>
+   alt="LFS171x Hyperledger Blockchain logo"
+   width="50%" />
 </p>
 
 <b>Welcome to LFS171x: Introduction to Hyperledger Blockchain Technology</b>

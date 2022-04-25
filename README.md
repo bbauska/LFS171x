@@ -1607,7 +1607,9 @@ There are four fully-fledged Hyperledger projects, that have graduated from the 
 <br/>
 The other projects are still working through the process, and the goal is to get every one of them out of the Incubator.
 
-**[`^        back to top        ^`](#table-of-contents)**
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <h3>Hyperledger Labs</h3>
 <p>
@@ -3630,4 +3632,4 @@ Good luck to all of you in your future endeavors!
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
 </div>
 
-Last Modified: 4/18/2022 11:06pm (Monday)
+Last Modified: 4/25/2022 1:36am (Monday)

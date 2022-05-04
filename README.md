@@ -2236,9 +2236,9 @@ Sawtooth Lake creates a digital platform enabling physical traceability in a tru
 </div>
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------- Hyperledger Grid ---------------->
+<!------------------------------------ 3.3 Hyperledger Grid -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
-<h3>Hyperledger Grid</h3>
+<h3 id="ch3-3">3.3 Hyperledger Grid</h3>
 <p align="center" width="100%">
   <img width="50%" src="https://user-images.githubusercontent.com/41387907/138575543-c953e474-d30d-4ad2-818c-7f7dce930ad2.png"
        alt="Hyperledger Grid"</>

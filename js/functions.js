@@ -1,6 +1,6 @@
 /** Called from index.html within bbauska/lfs171x.bauska.org/main.  Playing and learning JS.  */
-<!--------------------------------------------------------->
-<!------------ script function: scrollFunction() ---------->
+/* ------------------------------------------------------ */
+/* ------------ script function: scrollFunction() ------- */
 
 //Get the button
 var mybutton = document.getElementById("myBtn");

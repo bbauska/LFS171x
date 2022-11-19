@@ -1,11 +1,13 @@
 <!doctype HTML>
 <html xmlns="https://www.w3.org/1999/xhtml">
 <!------------------------------------------------------------------------------------------------>
-<!-------------------- index.html in https://github.com/bbauska/LFS171x/main --------------------->
+<!-------------------- index.html in https://github.com/bbauska/lfs171x/main --------------------->
 <!------------------------------------------------------------------------------------------------>
 <head>
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!----------------- style mybtn ------------------>
 <style>
 background: linear-gradient(60deg, #3d3393 0%, #2b76b9 37%, #2cacd1 65%, #35eb93 100%);
 body {
@@ -37,12 +39,10 @@ body {
 <body>
 <!------------------------------------------------------------------------------------------------>
 <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
-<!-- padding: 30px 30px 2500px --->
 <div style="background-color:black;color:white;padding:30px">Scroll Down</div>
-<div style="background-color:lightgrey;padding:30px 30px 750px">
-</div>
-<!--------------------------------------------------------->
-<!------------ script function: scrollFunction() ---------->
+<div style="background-color:lightgrey;padding:30px 30px 750px"></div>
+<!------------------------------------------------------------------------------------------------>
+<!----------------- script function: scrollFunction() ------------------->
 <script>
 //Get the button
 var mybutton = document.getElementById("myBtn");
@@ -58,6 +58,7 @@ function scrollFunction() {
   }
 }
 
+<!----------------- function: topFunction() ------------------->
 // When the user clicks on the button, scroll to the top of the document
 function topFunction() {
   document.body.scrollTop = 0;
@@ -67,16 +68,15 @@ function topFunction() {
 
 <!---------------------------------------------------------------------------------->
 
-<!--- Added 6/18/21 
 <script type = "text/javascript" src="/js/functions.js"></script>  --->
 
-<!---- Drop down menu ----->
+<!--------------- drop down menu --------------->
 <style>
 .dropbtn {
   background-color: #04006D;
   color: white;
   padding: 14px;
-  font-size: 14px;
+  font-size: 8px;  /* was 14 */
   border: none;
 }
 

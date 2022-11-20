@@ -1,5 +1,5 @@
 <!doctype HTML>
-<html xmlns="https://www.w3.org/1999/xhtml">
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <!------------------------------------------------------------------------------------------------>
 <!-------------------- index.html in https://github.com/bbauska/lfs171x/main --------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -9,7 +9,7 @@
 
 <!----------------- style mybtn ------------------>
 <style>
-background: linear-gradient(60deg, #3d3393 0%, #2b76b9 37%, #2cacd1 65%, #35eb93 100%);
+background-image: linear-gradient(60deg, #3d3393 0%, #2b76b9 37%, #2cacd1 65%, #35eb93 100%);
 body {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
@@ -34,44 +34,12 @@ body {
 #myBtn:hover {
   background-color: #555;
 }
-</style>
-</head>
-<body>
-<!------------------------------------------------------------------------------------------------>
-<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
-<div style="background-color:black;color:white;padding:30px">Scroll Down</div>
-<div style="background-color:lightgrey;padding:30px 30px 750px"></div>
-<!------------------------------------------------------------------------------------------------>
-<!----------------- script function: scrollFunction() ------------------->
-<script>
-//Get the button
-var mybutton = document.getElementById("myBtn");
 
-// When the user scrolls down 20px from the top of the document, show the button
-window.onscroll = function() {scrollFunction()};
 
-function scrollFunction() {
-  if (document.body.scrollTop > 5 || document.documentElement.scrollTop > 5) {
-    mybutton.style.display = "block";
-  } else {
-    mybutton.style.display = "none";
-  }
-}
-
-<!----------------- function: topFunction() ------------------->
-// When the user clicks on the button, scroll to the top of the document
-function topFunction() {
-  document.body.scrollTop = 0;
-  document.documentElement.scrollTop = 0;
-}
-</script>
-
-<!---------------------------------------------------------------------------------->
 
 <script type = "text/javascript" src="/js/functions.js"></script>
 
 <!--------------- drop down menu --------------->
-<style>
 .dropbtn {
   background-color: #04006D;
   color: white;
@@ -107,71 +75,7 @@ function topFunction() {
 .dropdown:hover .dropdown-content {display: block;}
 
 .dropdown:hover .dropbtn {background-color: #398e41;}
-</style>
-<body>
-<!------------------------------------------------------------------------------------------------>
-<h4>Welcome to LFS171x: Introduction to Hyperledger Blockchain Technology</h4>
-<p>
-LFS171x is part of the <i>Blockchain for Business Professional Certificate</i>.
-Skills in blockchain are being reported as the top job-skill in demand.</p><p>
-This program is designed for the business professional who needs to
-understand the potential (or threat) of blockchain to their company and
-industry. </p><p>
-Armed with better information of the blockchain landscape,
-this program will help you rise to new challenges in your current role
-by giving you a new dimension on which you can add value to your
-employer.</p>
-<!---- <h2>Hoverable Dropdown Menu</h2> ---->
-<p>Move the mouse over the button to open the dropdown menu.</p>
-<!------------------------------------------------------------------------------------------------>
-<!--------------------------- lfs171x - table of contents - dropdown ----------------------------->
-<!------------------------------------------------------------------------------------------------>
-<div class="dropdown">
-  <button class="dropbtn">LFS171x Blockchain</button>
-  <div class="dropdown-content">
-    <a href="#ch1">Chapter 1: Discovering Blockchain Technologies</a>
-    <a href="#ch1-1">  1.1 Introduction &amp; Learning Objectives</a>
-    <a href="#ch1-2">  1.2 Distributed Ledgers Technology (DLT)</a>
-	<a href="#ch1-3">  1.3 Bitcoin &amp; Ethereum Blockchains</a>
-    <a href="#ch1-4">  1.4 Exploring Permissionless Blockchains</a>
-    <a href="#ch1-5">  1.5 Consensus Algorithms</a>
-    <a href="#ch1-6">  1.6 Hyperledger</a>
-    <a href="#ch1-7">  1.7 Other Open-Source Permissioned Distributed Ledgers</a>
-    <a href="#ch1-8">  1.8 Challenges in the Adoption/Depoloyment of Distributed Ledger Technologies</a>
-	<a href="#ch2">Chapter 2 Introduction to Hyperledger</a>
-    <a href="#ch2-1">  2.1 Introduction &amp; Learning Objectives</a>
-    <a href="#ch2-2">  2.2 Hyperledgers</a>
-    <a href="#ch2-3">  2.3 Q/A with Brian Behlendorf, Executive Director of Hyperledger</a>
-   <a href="#ch3">Chapter 3: Hyperledger: Distributed Ledger Framworks</a>
-      <a href="#ch3-1">  3.1 Introduction &amp; Learning Objectives</a>
-      <a href="#ch3-2">  3.2  Hyperledger Framework</a>
-      <a href="#ch3-3">  3.3 Hyperledger: Domain-Specific Blockchain Technologies</a>
-   <a href="#ch4">Chapter 4: Hyperledger Tools</a>
-      <a href="#ch4-1">  4.1 Introduction &amp; Learning Objectives</a>
-      <a href="#ch4-2">  4.2 Hyperledger Tools</a>
-   <a href="#ch5">Chapter 5: Hyperledger Libraries</a>
-      <a href="#ch5-1">  5.1 Introduction &amp; Learning Objectives</a>
-      <a href="#ch5-2">  5.2 Hyperledger Libraries</a>
-   <a href="#ch6">Chapter 6: The Promise of Business Blockchain Technologies</a>
-      <a href="#ch6-1">  6.1 Introduction &amp; Learning Objectives</a>
-      <a href="#ch6-2">  6.2 Existing Hyperledger Blockchain Use Cases</a>
-      <a href="#ch6-3">  6.3 When to Use or Not to Use Blockchain Technologies</a>
-  </div>
-</div>
 
-</body>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-  <body>
-<!------------------------------------------------------------------------------>
-<!--- <h1>LFS171x - Hyperledger Blockchain Technology Table of Contents</h1> --->
-<!------------------------------------------------------------------------------>
-
-<style>
  h1 {
   padding: 20px 0 0 0;
   font-family: normal 1.4em verdana, tahoma, arial, sans-serif, helvetica;
@@ -231,7 +135,6 @@ p {
   margin: 50px;
 }
 <!------ list item styles ------>
-<style>
 ul.a {list-style-type: circle;}
 ul.b {list-style-type: square;}
 
@@ -241,28 +144,18 @@ ol.e {list-style-type: lower-roman;}
 ol.f {list-style-type: lower-alpha;}
 ol.g {list-style-type: lower-latin;
 }
-</style>
 
-<body>
+ul.a {list-style-type: circle;}
+ul.b {list-style-type: square;}
 
-&nbsp;
-&nbsp;
-<br>
+ol.c {list-style-type: decimal;}
+ol.d {list-style-type: decimal-leading-zero;}
+ol.e {list-style-type: lower-roman;}
+ol.f {list-style-type: lower-alpha;}
+ol.g {list-style-type: lower-latin;
+}
 
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-
-    <title>LFS171x - Introduction to Hyperledger Blockchain Technology</title>
-
-  <body>
-  
-<!--------------------- Table of Contents style definitions --------------------------->
-<!-- 1.5em, 1.4em, 1.3, 1.2, 1 --->
-<style>
  h1 {
   padding: 24px 0 0 0;
   font-family: normal 2.0em Bahnschrift, Verdana, Helvetica, sans-serif, helvetica;
@@ -318,8 +211,7 @@ ol.g {list-style-type: lower-latin;
 body {
   font-family: Bahnschrift, Calibri, Verdana, sans-serif;
 }
-<!------ list item styles ------>
-<style>
+<!-- 1.5em, 1.4em, 1.3, 1.2, 1 --->
 ul.a {list-style-type: circle;}
 ul.b {list-style-type: square;}
 
@@ -330,8 +222,115 @@ ol.f {list-style-type: lower-alpha;}
 ol.g {list-style-type: lower-latin;
 }
 </style>
+</head>
 
 <body>
+<!------------------------------------------------------------------------------------------------>
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+<div style="background-color:black;color:white;padding:30px">Scroll Down</div>
+<div style="background-color:lightgrey;padding:30px 30px 750px"></div>
+<!------------------------------------------------------------------------------------------------>
+<!----------------- script function: scrollFunction() ------------------->
+<script>
+//Get the button
+var mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 5 || document.documentElement.scrollTop > 5) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+<!----------------- function: topFunction() ------------------->
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+
+<!------------------------------------------------------------------------------------------------>
+<h4>Welcome to LFS171x: Introduction to Hyperledger Blockchain Technology</h4>
+<p>
+LFS171x is part of the <i>Blockchain for Business Professional Certificate</i>.
+Skills in blockchain are being reported as the top job-skill in demand.</p><p>
+This program is designed for the business professional who needs to
+understand the potential (or threat) of blockchain to their company and
+industry. </p><p>
+Armed with better information of the blockchain landscape,
+this program will help you rise to new challenges in your current role
+by giving you a new dimension on which you can add value to your
+employer.</p>
+<!---- <h2>Hoverable Dropdown Menu</h2> ---->
+<p>Move the mouse over the button to open the dropdown menu.</p>
+<!------------------------------------------------------------------------------------------------>
+<!--------------------------- lfs171x - table of contents - dropdown ----------------------------->
+<!------------------------------------------------------------------------------------------------>
+<div class="dropdown">
+  <button class="dropbtn">LFS171x Blockchain</button>
+  <div class="dropdown-content">
+    <a href="#ch1">Chapter 1: Discovering Blockchain Technologies</a>
+    <a href="#ch1-1">  1.1 Introduction &amp; Learning Objectives</a>
+    <a href="#ch1-2">  1.2 Distributed Ledgers Technology (DLT)</a>
+	<a href="#ch1-3">  1.3 Bitcoin &amp; Ethereum Blockchains</a>
+    <a href="#ch1-4">  1.4 Exploring Permissionless Blockchains</a>
+    <a href="#ch1-5">  1.5 Consensus Algorithms</a>
+    <a href="#ch1-6">  1.6 Hyperledger</a>
+    <a href="#ch1-7">  1.7 Other Open-Source Permissioned Distributed Ledgers</a>
+    <a href="#ch1-8">  1.8 Challenges in the Adoption/Depoloyment of Distributed Ledger Technologies</a>
+	<a href="#ch2">Chapter 2 Introduction to Hyperledger</a>
+    <a href="#ch2-1">  2.1 Introduction &amp; Learning Objectives</a>
+    <a href="#ch2-2">  2.2 Hyperledgers</a>
+    <a href="#ch2-3">  2.3 Q/A with Brian Behlendorf, Executive Director of Hyperledger</a>
+   <a href="#ch3">Chapter 3: Hyperledger: Distributed Ledger Framworks</a>
+      <a href="#ch3-1">  3.1 Introduction &amp; Learning Objectives</a>
+      <a href="#ch3-2">  3.2  Hyperledger Framework</a>
+      <a href="#ch3-3">  3.3 Hyperledger: Domain-Specific Blockchain Technologies</a>
+   <a href="#ch4">Chapter 4: Hyperledger Tools</a>
+      <a href="#ch4-1">  4.1 Introduction &amp; Learning Objectives</a>
+      <a href="#ch4-2">  4.2 Hyperledger Tools</a>
+   <a href="#ch5">Chapter 5: Hyperledger Libraries</a>
+      <a href="#ch5-1">  5.1 Introduction &amp; Learning Objectives</a>
+      <a href="#ch5-2">  5.2 Hyperledger Libraries</a>
+   <a href="#ch6">Chapter 6: The Promise of Business Blockchain Technologies</a>
+      <a href="#ch6-1">  6.1 Introduction &amp; Learning Objectives</a>
+      <a href="#ch6-2">  6.2 Existing Hyperledger Blockchain Use Cases</a>
+      <a href="#ch6-3">  6.3 When to Use or Not to Use Blockchain Technologies</a>
+  </div>
+</div>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+<!------------------------------------------------------------------------------>
+<!--- <h1>LFS171x - Hyperledger Blockchain Technology Table of Contents</h1> --->
+<!------------------------------------------------------------------------------>
+
+<!------ list item styles ------>
+
+&nbsp;
+&nbsp;
+<br>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+    <title>LFS171x - Introduction to Hyperledger Blockchain Technology</title>
+
+ 
+<!--------------------- Table of Contents style definitions --------------------------->
 <!---  <div id="banner"> --->
 <!---    <h1 align="center">LFS171x - Introduction to Hyperledger Blockchain Technology (see below)</h1>  --->
 <!---  </div>  --->
@@ -359,19 +358,6 @@ ol.g {list-style-type: lower-latin;
    alt="Linux LFS171x Introduction to Hyperledger Blockchain Technology logo"
    width="50%" />
 </p>
-<!------
-<p><strong>Welcome to LFS171x: Introduction to Hyperledger Blockchain Technology</strong><br>
-<p>
-LFS171x is part of the <i>Blockchain for Business Professional Certificate</i>.
-Skills in blockchain are being reported as the top job-skill in demand.</p><p>
-This program is designed for the business professional who needs to
-understand the potential (or threat) of blockchain to their company and
-industry. </p><p>
-Armed with better information of the blockchain landscape,
-this program will help you rise to new challenges in your current role
-by giving you a new dimension on which you can add value to your
-employer.</p>
---------->
 
 <h3>About this course</h3>
 <p>Blockchain technology is changing how businesses operate. With trust built into blockchain solutions, it is important to understand how this new technology is different and how it works in comparison with technologies of the past.</p>

@@ -7,11 +7,13 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<!------------------------------------------------------------------------------------------------>
-<!----------------------------------------- style: mybtn ----------------------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!----------------- style mybtn ------------------>
 <style>
 background-image: linear-gradient(60deg, #3d3393 0%, #2b76b9 37%, #2cacd1 65%, #35eb93 100%);
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
 
 #myBtn {
   display: none;
@@ -43,11 +45,13 @@ background-image: linear-gradient(60deg, #3d3393 0%, #2b76b9 37%, #2cacd1 65%, #
   color: white;
   padding: 14px;
   font-size: 14px;  /* was 14 */
-  border: none; }
+  border: none;
+}
 
 .dropdown {
   position: relative;
-  display: inline-block; }
+  display: inline-block;
+}
 
 .dropdown-content {
   display: none;
@@ -55,8 +59,9 @@ background-image: linear-gradient(60deg, #3d3393 0%, #2b76b9 37%, #2cacd1 65%, #
   background-color: #f1f1f1;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  font-size: 11px;
-  z-index: 1; }
+  font-size: 10px;
+  z-index: 1;
+}
 
 .dropdown-content a {
   color: black;
@@ -76,67 +81,140 @@ background-image: linear-gradient(60deg, #3d3393 0%, #2b76b9 37%, #2cacd1 65%, #
 <!------------------------------------------------------------------------------------------------>
 h1 {
   padding: 24px 0 0 0;
-  font-family: normal 1.4em Verdana, tahoma, arial, sans-serif, Helvetica;
+  font-family: normal 1.4em Verdana, tahoma, arial, sans-serif, helvetica;
   text-transform: uppercase;
   letter-spacing: 3px;
   color: #acaf2c;		<!--- olive ---->
   background: inherit;
-  text-align: center; }
- h2 {
+  text-align: center;
+}
+h2 {
   padding: 22px 0 0 0;
   font: normal 1.4em Verdana, calibri, arial, sans-serif, tahoma;
   letter-spacing: 3px;
   color: #3800aa;   <!--- dark purple --->
   background: inherit;
-  text-align: left; }
- h3 {
+  text-align: left;
+}
+h3 {
   padding: 20px 0 0 0;
-  font: normal 1.4em frente, verdana, helvetica, arial, sans-serif;
+  font: normal 1.4em frente, Verdana, helvetica, arial, sans-serif;
   letter-spacing: 3px;
   color: #326908;    <!-- green ---->
   background: inherit;
-  text-align: left; }
- h4 {
-  padding: 14px 0 0 0;
-  font: normal 1.4em verdana, helvetica, arial, sans-serif;
+  text-align: left;
+}
+h4 {
+  padding: 18px 0 0 0;
+  font: normal 1.4em Verdana, helvetica, arial, sans-serif;
   letter-spacing: 3px;
   color: #900001 ;    <!-- red ---->
   background: inherit;
-  text-align: left; }
- h5 {
+  text-align: left;
+}
+h5 {
   padding: 12px 0 0 0;
   font: normal 1.4em frente, verdana, helvetica, arial, sans-serif;
   letter-spacing: 3px;
   color: #326908;    <!-- green ---->
   background: inherit;
-  text-align: left; }
- h6 {
+  text-align: left;
+}
+h6 {
   padding: 11px 0 0 0;
   font: normal 1.4em frente, verdana, helvetica, arial, sans-serif;
   letter-spacing: 3px;
   color: #326908;    <!-- green ---->
   background: inherit;
-  text-align: left; }
+  text-align: left;
+}
 body {
   font-family: "Avenir Next", Calibri, Verdana, sans-serif;
-  font-size: 20px; }
+}
 p {
-  margin: 15px;  /* 50px */ }
-
+  margin: 15px;  <!-- 50px --->
+}
 <!------------------------------------------------------------------------------------------------>
 <!---------------------------- ordered & unordered list item styles ------------------------------>
 <!------------------------------------------------------------------------------------------------>
-ol.c {list-style-type: decimal; }
-ol.d {list-style-type: decimal-leading-zero; }
-ol.e {list-style-type: lower-roman; }
-ol.f {list-style-type: lower-alpha; }
-ol.g {list-style-type: lower-latin; }
-
 ul.a {list-style-type: circle;}
 ul.b {list-style-type: square;}
 
+ol.c {list-style-type: decimal;}
+ol.d {list-style-type: decimal-leading-zero;}
+ol.e {list-style-type: lower-roman;}
+ol.f {list-style-type: lower-alpha;}
+ol.g {list-style-type: lower-latin;
+}
+
+h1 {
+  padding: 24px 0 0 0;
+  font-family: normal 2.0em Bahnschrift, Verdana, Helvetica, sans-serif, helvetica;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #acaf2c;		<!--- olive ---->
+  background: inherit;
+  text-align: center;
+}
+ h2 {
+  padding: 22px 0 0 0;
+  font: normal 1.8em BBahnschrift, Verdana, Helvetica, sans-serif, tahoma;
+  letter-spacing: 3px;
+  color: #3800aa;   <!--- dark purple --->
+  background: inherit;
+  text-align: left;
+}
+ h3 {
+  padding: 20px 0 0 0;
+  font: normal 1.6em Bahnschrift, Verdana, Helvetica, arial, sans-serif;
+  letter-spacing: 3px;
+<!---  color: #3899ff; light blue --->
+  color: #326908;    <!-- green ---->
+  background: inherit;
+  text-align: left;
+}
+ h4 {
+  padding: 18px 0 0 0;
+  font: normal 1.4em Bahnschrift, Verdana, Helvetica, sans-serif;
+  <!---- frente, helvetica, garamond, futura, didot; --->
+  <!--- verdana, helvetica, arial, sans-serif --->
+  letter-spacing: 3px;
+  color: #900001 ;    <!-- red ---->
+  background: inherit;
+  text-align: left;
+}
+ h5 {
+  padding: 16px 0 0 0;
+  font: normal 1.3em Bahnschrift, Verdana, Helvetica, arial, sans-serif;
+  letter-spacing: 3px;
+  color: #326908;    <!-- green ---->
+  background: inherit;
+  text-align: left;
+}
+ h6 {
+  padding: 14px 0 0 0;
+  font: normal 1.3em Bahnschrift, Verdana, Helvetica, arial, sans-serif;
+  letter-spacing: 3px;
+  color: #326908;    <!-- green ---->
+  background: inherit;
+  text-align: left;
+}
+body {
+  font-family: Bahnschrift, Calibri, Verdana, sans-serif;
+}
+<!-- 1.5em, 1.4em, 1.3, 1.2, 1 --->
+ul.a {list-style-type: circle;}
+ul.b {list-style-type: square;}
+
+ol.c {list-style-type: decimal;}
+ol.d {list-style-type: decimal-leading-zero;}
+ol.e {list-style-type: lower-roman;}
+ol.f {list-style-type: lower-alpha;}
+ol.g {list-style-type: lower-latin;
+}
 </style>
 </head>
+
 <!------------------------------------------------------------------------------------------------>
 <!-------------------------------------------- body ---------------------------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -145,7 +223,7 @@ ul.b {list-style-type: square;}
 <div style="background-color:black;color:white;padding:30px">Scroll Down</div>
 <div style="background-color:lightgrey;padding:30px 30px 750px"></div>
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------- script function: scrollFunction() -------------------------------->
+<!------------------------------ script function: scrollFunction() ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <script>
 //get the button
@@ -165,24 +243,26 @@ function scrollFunction() {
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------- script function: topFunction() --------------------------------->
 <!------------------------------------------------------------------------------------------------>
-// When the user clicks on the button, scroll to the top of the document
+//when the user clicks on the button, scroll to the top of the document
 function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
 </script>
 
+<!------------------------------------------------------------------------------------------------>
 <h4>Welcome to LFS171x: Introduction to Hyperledger Blockchain Technology</h4>
-<p>LFS171x is part of the <i>Blockchain for Business Professional Certificate</i>.
-Skills in blockchain are being reported as the top job-skill in demand.</p>
-<p>This program is designed for the business professional who needs to
+<p>
+LFS171x is part of the <i>Blockchain for Business Professional Certificate</i>.
+Skills in blockchain are being reported as the top job-skill in demand.</p><p>
+This program is designed for the business professional who needs to
 understand the potential (or threat) of blockchain to their company and
-industry.</p>
-<p>Armed with better information of the blockchain landscape,
+industry. </p><p>
+Armed with better information of the blockchain landscape,
 this program will help you rise to new challenges in your current role
 by giving you a new dimension on which you can add value to your
 employer.</p>
-
+<!---- <h2>Hoverable Dropdown Menu</h2> ---->
 <p>Move the mouse over the button to open the dropdown menu.</p>
 <!------------------------------------------------------------------------------------------------>
 <!--------------------------- lfs171x - table of contents - dropdown ----------------------------->
@@ -220,28 +300,47 @@ employer.</p>
   </div>
 </div>
 
-<!-- required meta tags -->
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<!-- bootstrap css -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
 <!------------------------------------------------------------------------------>
 <!--- <h1>LFS171x - Hyperledger Blockchain Technology Table of Contents</h1> --->
 <!------------------------------------------------------------------------------>
 
+<!------ list item styles ------>
+
 &nbsp;
 &nbsp;
 <br>
+<!--
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<title>LFS171x - Introduction to Hyperledger Blockchain Technology</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+-->
+    <title>LFS171x - Introduction to Hyperledger Blockchain Technology</title>
 
+ 
+<!--------------------- Table of Contents style definitions --------------------------->
+<!---  <div id="banner"> --->
+<!---    <h1 align="center">LFS171x - Introduction to Hyperledger Blockchain Technology (see below)</h1>  --->
+<!---  </div>  --->
+
+&nbsp;
+&nbsp;
+<br/>
+<!--------------------- FINISH ------------------->
 <!------------------------------------------------------------------------------------------------>
 <!---------------------------------- 01. Linux Foundation (1) ------------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <h2 style="text-align: center;">LFS171x - Linux FoundationX</h2>
 <!----------------------------------------- linux logo ------------------------------------------->
-<p style="text-align: center;" width="100%">
+<p align="center" width="100%">
 <img src="/images/image001.jpg?raw=true"
    alt="Linux logo"
    width="40%" />
@@ -252,8 +351,8 @@ employer.</p>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image-logo.png?raw=true"
-  alt="Linux LFS171x Introduction to Hyperledger Blockchain Technology logo"
-  width="50%" />
+   alt="Linux LFS171x Introduction to Hyperledger Blockchain Technology logo"
+   width="50%" />
 </p>
 
 <h3>About this course</h3>
@@ -278,42 +377,42 @@ CBDC (central bank digital currencies) and how the push for interoperability bet
 <!------------------------------------------------------------------------------------------------>
 <h2>1. <a href="#ch1"><strong>Discovering Blockchain Technologies</strong></a></h2>
 <blockquote>
-<h3>  1.1 <a href="#ch1-1"><strong>Introduction &amp; Learning Objectives</strong></a></h3>
-<h3>  1.2 <a href="#ch1-2"><strong>Distributed Ledgers Technology (DLT)</strong></a></h3>
-<h3>  1.3 <a href="#ch1-3"><strong>Bitcoin &amp; Ethereum Blockchains</strong></a></h3>
-<h3>  1.4 <a href="#ch1-4"><strong>Exploring Permissionless Blockchains</strong></a></h3>
-<h3>  1.5 <a href="#ch1-5"><strong>Consensus Algorithms</strong></a></h3>
-<h3>  1.6 <a href="#ch1-6"><strong>Hyperledger</strong></a></h3>
-<h3>  1.7 <a href="#ch1-7"><strong>Other Open-Source Permissioned Distributed Ledgers</strong></a></h3>
-<h3>  1.8 <a href="#ch1-8"><strong>Challenges in the Adoption/Deployment of Distributed Ledger Technologies</strong></a></h3>
+<h3>   1.1 <a href="#ch1-1"><strong>Introduction &amp; Learning Objectives</strong></a></h3>
+<h3>   1.2 <a href="#ch1-2"><strong>Distributed Ledgers Technology (DLT)</strong></a></h3>
+<h3>   1.3 <a href="#ch1-3"><strong>Bitcoin &amp; Ethereum Blockchains</strong></a></h3>
+<h3>   1.4 <a href="#ch1-4"><strong>Exploring Permissionless Blockchains</strong></a></h3>
+<h3>   1.5 <a href="#ch1-5"><strong>Consensus Algorithms</strong></a></h3>
+<h3>   1.6 <a href="#ch1-6"><strong>Hyperledger</strong></a></h3>
+<h3>   1.7 <a href="#ch1-7"><strong>Other Open-Source Permissioned Distributed Ledgers</strong></a></h3>
+<h3>   1.8 <a href="#ch1-8"><strong>Challenges in the Adoption/Deployment of Distributed Ledger Technologies</strong></a></h3>
 </blockquote>
 <h2>2. <a href="#ch2"><strong>Introduction to Hyperledger</strong></a></h2>
 <blockquote>
-<h3>  2.1 <a href="#ch2-1"><strong>Introduction &amp; Learning Objectives</strong></a></h3>
-<h3>  2.2 <a href="#ch2-2"><strong>Hyperledger</strong></a></h3>
-<h3>  2.3 <a href="#ch2-3"><strong>Q/A with Brian Behlendorf, Executive Director of Hyperledger</strong></a></h3>
+<h3>   2.1 <a href="#ch2-1"><strong>Introduction &amp; Learning Objectives</strong></a></h3>
+<h3>   2.2 <a href="#ch2-2"><strong>Hyperledger</strong></a></h3>
+<h3>   2.3 <a href="#ch2-3"><strong>Q/A with Brian Behlendorf, Executive Director of Hyperledger</strong></a></h3>
 </blockquote>
 <h2>3. <a href="#ch3"><strong>Hyperledger: Distr. Ledger Frameworks &amp; Domain Specific Blockchains</strong></a></h2>
 <blockquote>
-<h3>  3.1 <a href="#ch3-1"><strong>Introduction and Learning Objectives</strong></a></h3>
-<h3>  3.2 <a href="#ch3-2"><strong>Hyperledger Frameworks</strong></a></h3>
-<h3>  3.3 <a href="#ch3-3"><strong>Hyperledger: Domain-Specific Blockchain Technologies</strong></a></h3>
+<h3>   3.1 <a href="#ch3-1"><strong>Introduction and Learning Objectives</strong></a></h3>
+<h3>   3.2 <a href="#ch3-2"><strong>Hyperledger Frameworks</strong></a></h3>
+<h3>   3.3 <a href="#ch3-3"><strong>Hyperledger: Domain-Specific Blockchain Technologies</strong></a></h3>
 </blockquote>
 <h2>4. <a href="#ch4"><strong>Hyperledger Tools</strong></a></h2>
 <blockquote>
-<h3>  4.1 <a href="#ch4-1"><strong>Introduction and Learning Objectives</strong></a></h3>
-<h3>  4.2 <a href="#ch4-2"><strong>Hyperledger Tools</strong></a></h3>
+<h3>   4.1 <a href="#ch4-1"><strong>Introduction and Learning Objectives</strong></a></h3>
+<h3>   4.2 <a href="#ch4-2"><strong>Hyperledger Tools</strong></a></h3>
 </blockquote>
 <h2>5. <a href="#ch5"><strong>Hyperledger Libraries</strong></a></h2>
 <blockquote>
-<h3>  5.1 <a href="#ch5-1"><strong>Introduction and Learning Objectives</strong></a></h3>
-<h3>  5.2 <a href="#ch5-2"><strong>Hyperledger Libraries</strong></a></h3>
+<h3>   5.1 <a href="#ch5-1"><strong>Introduction and Learning Objectives</strong></a></h3>
+<h3>   5.2 <a href="#ch5-2"><strong>Hyperledger Libraries</strong></a></h3>
 </blockquote>
 <h2>6. <a href="#ch6"><strong>The Promise of Business Blockchain Technologies</strong></a></h2>
 <blockquote>
-<h3>  6.1 <a href="#ch6-1"><strong>Introduction and Learning Objectives</strong></a></h3>
-<h3>  6.2 <a href="#ch6-2"><strong>Existing Hyperledger Blockchain Use Cases</strong></a></h3>
-<h3>  6.3 <a href="#ch6-3"><strong>When to Use or Not to Use Blockchain Technologies</strong></a></h3>
+<h3>   6.1 <a href="#ch6-1"><strong>Introduction and Learning Objectives</strong></a></h3>
+<h3>   6.2 <a href="#ch6-2"><strong>Existing Hyperledger Blockchain Use Cases</strong></a></h3>
+<h3>   6.3 <a href="#ch6-3"><strong>When to Use or Not to Use Blockchain Technologies</strong></a></h3>
 </blockquote>
 
 <h1 id="ch1">
@@ -369,7 +468,7 @@ consensus algorithms and smart contracts,
 Provide a high-level explanation of what Hyperledger is.
 </li>
 </ul>
-
+</p>
 <h3 id="ch1-2">
 1.2 Distributed Ledger Technology (DLT)
 </h3>
@@ -404,7 +503,7 @@ hardware, it has given rise to application-level centralization
 (e.g. Facebook, Twitter, Google, etc.). <br></p>
 Currently, we are witnessing the transition from centralized computing,
 storage, and processing to decentralized architectures and systems.
-<br> According to <a target="_blank" rel="noopener" 
+<br> According to <a target="_blank" 
 href="https://medium.com/@muneeb/the-next-wave-of-computing-743295b4bc73">Muneeb
 Ali</a>, these systems aim to
 <blockquote>
@@ -418,14 +517,14 @@ multiple computer devices, generally spread across locations or regions.
 <br></p>
 <p>Distributed ledger technology (DLT) includes blockchain technologies
 and smart contracts.<br></p>
-<p>While distributed ledgers existed prior to Bitcoin, the Bitcoin
+While distributed ledgers existed prior to Bitcoin, the Bitcoin
 blockchain marks the convergence of a host of technologies, including
 timestamping of transactions, Peer-to-Peer (P2P) networks, cryptography,
 and shared computational power, along with a new consensus
-algorithm.</p><br>
-<p>
+algorithm.<br>
+</p>
 In summary, <strong>distributed ledger technology (dlt)</strong>
-generally consists of three basic components:</p>
+generally consists of three basic components:
 <ol>
 <li>
 A data model that captures the current state of the ledger,
@@ -442,7 +541,7 @@ transactions will be accepted, and in what order, by the ledger.
 1.3 Bitcoin and Ethereum Blockchains
 </h3>
 <p><br></p>
-According to <a target="_blank" rel="noopener" 
+According to <a target="_blank" 
 href="https://www.hyperledger.org/about">hyperledger.org</a>,
 <blockquote>
 "A blockchain is a peer-to-peer distributed ledger forged by consensus,
@@ -480,7 +579,7 @@ computing power.</p>
 <p>We shall discuss proof of work in more detail in the Consensus
 Algorithms section.</p>
 <p>For more information about blockchain technology, please read the
-following article: <a target="_blank" rel="noopener" 
+following article: <a target="_blank" 
 href="https://hbr.org/2017/02/a-brief-history-of-blockchain">"A Brief
 History of Blockchain"</a> by Vinay Gupta. <br></p>
 A Bitcoin block consists of four pieces of metadata:
@@ -499,7 +598,7 @@ The <b>Merkle tree root</b> for the transactions included in this block
 (Merkle tree is explained next).
 </li>
 </ol>
-
+</p>
 <h3>
 Merkle Tree
 </h3>
@@ -507,11 +606,12 @@ Merkle Tree
 <p>The Merkle tree, also known as a binary hash tree, is a data
 structure that is used to store hashes of the individual data in large
 datasets in a way to make the verification of the dataset efficient.
-<br></p><p>
+<br></p>
 It is an anti-tamper mechanism to ensure that the large dataset has not
 been changed. The word "tree" is used to refer to a branching data
-structure in computer science, as seen in the image below. <br></p>
-<p>According to Andreas M. Antonopoulos, in the Bitcoin protocol, <br></p>
+structure in computer science, as seen in the image below. <br>
+</p>
+According to Andreas M. Antonopoulos, in the Bitcoin protocol, <br>
 <blockquote>
 "Merkle trees are used to summarize all the transactions in a block,
 producing an overall digital fingerprint of the entire set of
@@ -527,9 +627,9 @@ transaction is included in a block".
    width="66%" />
 </p>
 <h4 align="center" font-weight: bold;>Bitcoin Block Data</h4>
-<p>Licensed under <a target="_blank" rel="noopener" 
+<p>Licensed under <a target="_blank" 
 href="https://creativecommons.org/licenses/by-sa/3.0/deed.en">Creative
-Commons Attribution-Share-Alike 3.0 Unported</a>, retrieved from <a target="_blank" rel="noopener" 
+Commons Attribution-Share-Alike 3.0 Unported</a>, retrieved from <a target="_blank" 
 href="https://commons.wikimedia.org/wiki/File:Bitcoin_Block_Data.png">Wikipedia</a></p>
 <p><br></p>
 <h3>
@@ -639,7 +739,7 @@ messages.</p>
 cryptography, but the nature of the trusted network, of the permissioned
 network, means that we have to treat it like any other back-office
 service.</p>
-<p>You want to deploy it behind a firewall, you want to use tunneling to
+You want to deploy it behind a firewall, you want to use tunneling to
 connect between nodes across the Internet, and you want to maintain it,
 just like any other service that deals with Internet traffic…you have
 firewalls, and load balancers, and things like that.
@@ -662,7 +762,7 @@ in the immutability of the transactions recorded on blockchains.</p>
 <p>Cryptography is the study of the techniques used to allow secure
 communication between different parties and to ensure the authenticity
 and immutability of the data being communicated.</p>
-<p>For blockchain technologies, cryptography is used to prove that a
+For blockchain technologies, cryptography is used to prove that a
 transaction was created by the right person. It is also used to link
 transactions into a block in a tamper-proof way, as well as create the
 links between blocks, to form a blockchain.
@@ -683,7 +783,7 @@ editing or deleting of data.</p>
 <p>In a relational database, data can be easily modified or deleted.</p>
 <p>Typically, there are database administrators who may make changes to
 any part of the data and/or its structure.</p>
-<p>Additionally, blockchains were designed for decentralized applications,
+Additionally, blockchains were designed for decentralized applications,
 whereas relational databases, in general, were originally designed for
 centralized applications, where a single entity controls the data.
 </p>
@@ -692,8 +792,8 @@ centralized applications, where a single entity controls the data.
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image003.png?raw=true"
-  alt="Differences between Blockchain and Databases."
-  width="75%" />
+   alt="Differences Between Blockchain and Databases"
+   width="75%" />
 </p>
 <h3>
 Types of Blockchains
@@ -738,7 +838,7 @@ public.</p>
 <p>Cryptocurrencies and Initial Coin Offerings (which are not backed by
 national governments) usually involve implementations of permissionless
 blockchains. <br></p>
-<p>You will learn about a variety of use cases in Chapter 6, <i>"The
+You will learn about a variety of use cases in Chapter 6, <i>"The
 Promise of Business Blockchain Technologies"</i>.
 </p>
 <h3>
@@ -760,7 +860,7 @@ centralized networks, as they do not have a single point of attack, as
 in the case of a server-based network, where the security of the entire
 network can be compromised if the central server is successfully
 attacked.</p>
-<p>The <a target="_blank" rel="noopener" 
+<p>The <a target="_blank" 
 href="https://www.weforum.org/reports/the-global-risks-report-2018">Global
 Risks Report 2018</a>, created by the World Economic Forum, reveals a
 grim picture: cyberattacks are on the rise at an alarming rate, and
@@ -775,7 +875,7 @@ significant amounts of financial resources to fortify their central
 servers.</p>
 <p>Permissionless P2P systems do not require a set amount of peers to be
 online and are generally slower.</p>
-<p>Permissioned P2P networks have to guarantee uptime and require a high
+Permissioned P2P networks have to guarantee uptime and require a high
 level of quality of service on the communication links.
 </p>
 <!------------------------------------------------------------------------------------------------>
@@ -806,7 +906,7 @@ blockchain.</p>
 <p><b><i>Bitcoin</i></b> uses <b>Proof of Work</b>, while
 <b><i>Ethereum</i></b> uses <b>Proof of Work</b> currently, but is
 moving towards <b>Proof of Stake</b>.</p>
-<p>The <b><i>Hyperledger Sawtooth</i></b> uses <b>Proof of Elapsed Time</b>.
+The <b><i>Hyperledger Sawtooth</i></b> uses <b>Proof of Elapsed Time</b>.
 </p>
 <h3>
 Immutability of Data
@@ -822,7 +922,7 @@ management, and asset ownership, management and transfer, just to name a
 few examples.</p>
 <p>Once a transaction is written onto the blockchain, no one can change
 it, or, at least, it would be extremely difficult to change it.</p>
-According to <a target="_blank" rel="noopener" 
+According to <a target="_blank" 
 href="https://www.linkedin.com/pulse/gentle-introduction-immutability-blockchains-antony-lewis/">Antony
 Lewis</a>, the Director of Research at R3,<br>
 <blockquote>
@@ -860,13 +960,14 @@ Transaction A to Transaction A’.</p>
 tree, and the Merkle root changes to Hash #A’BCD.</p>
 <p>In addition, the Previous Block hash stored in Block 12 also needs to
 be modified to reflect the overall change in the hash for Block 11.</p>
+</p>
 <!------------------------------------------------------------------------------------------------>
 <!-------------------------------- 06. immutability of data (18) --------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image006.png?raw=true"
-  alt="Blockchain Immutability of Data."
-  width="85%" />
+   alt="Blockchain Immutability of Data"
+   width="85%" />
 </p>
 <h3>
 Blockchain Applications
@@ -883,12 +984,12 @@ applications which encompass applications addressing digital identity
 are being built on the blockchain.</p>
 <p>A more exhaustive list of companies using blockchain technology for
 identity management and authentication can be found in the following
-article: <a target="_blank" rel="noopener" 
+article: <a target="_blank" 
 href="https://www.linkedin.com/pulse/21-companies-leveraging-blockchain-identity-elena-mesropyan/">"21
 Companies Leveraging Blockchain for Identity Management and
 Authentication"</a> by Elena Mesropyan.</p>
-<p>For more details about blockchain applications, you can refer to Daniel
-Palmer’s article entitled <a target="_blank" rel="noopener" 
+For more details about blockchain applications, you can refer to Daniel
+Palmer’s article entitled <a target="_blank" 
 href="https://www.coindesk.com/markets/2016/02/24/7-cool-decentralized-apps-being-built-on-ethereum/">"7
 Cool Decentralized Apps Being Built on Ethereum"</a>.
 </p>
@@ -911,7 +1012,7 @@ parties.</p>
 actions when certain conditions within the system are met.</p>
 <p>Smart contracts provide the language of transactions that allow the
 ledger state to be modified.</p>
-<p>They can facilitate the exchange and transfer of anything of value
+They can facilitate the exchange and transfer of anything of value
 (e.g. shares, money, content, property).
 </p>
 <!------------------------------------------------------------------------------------------------>
@@ -919,8 +1020,8 @@ ledger state to be modified.</p>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="images/image007.png"
-  alt="Smart Contracts."
-  width="66%" />
+   alt="Smart Contracts"
+   width="66%" />
 </p>
 <h3>
 Bitcoin – A Popular Blockchain Deployment
@@ -935,7 +1036,7 @@ application" of decentralized computing.</p>
 <p>One can send and receive bitcoins anywhere in the world in a
 completely P2P manner, without having to intermediate through a trusted
 third party, such as a bank.</p>
-<p>According to the <a target="_blank" rel="noopener" href="https://coinmarketcap.com">Coin Market
+<p>According to the <a target="_blank" href="https://coinmarketcap.com">Coin Market
 Capitalization website</a>, as of November 2020, bitcoin’s market
 capitalization (market cap) was over $286 billion. Today, 23-Mar-2022 it
 is $836 billion.</p>
@@ -944,18 +1045,19 @@ is $836 billion.</p>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="images/image008.png"
-  alt="Bitcoin - a popular Blockchain Deployment."
-  width="66%" />
+   alt="Bitcoin - a popular Blockchain Deployment"
+   width="66%" />
 <p align="center">
 (Source: https://coinmarketcap.com/currencies/bitcoin/)
+</p>
 </p>
 <h3>
 Bitcoin Charts
 </h3>
 <p>
-<p>Check out <a target="_blank" rel="noopener" href="https://developerinsider.co">Developer
+<p>Check out <a target="_blank" href="https://developerinsider.co">Developer
 Insider</a>.</p>
-<p>According to <a target="_blank" rel="noopener" href="https://angel.co/company/blockchainhelp">Angel List </a>
+<p>According to <a target="_blank" href="https://angel.co/company/blockchainhelp">
 over five thousand startups have been created to leverage Bitcoin and
 blockchain-related technologies since the inception of the Bitcoin
 payment system.</p>
@@ -1008,7 +1110,7 @@ Bitcoin and Cryptoeconomics
 <p>
 <p>Bitcoin has also ushered in tremendous academic and research interest
 in the area of Cryptoeconomics and Cryptoeconomic security.</p>
-According to <a target="_blank" rel="noopener" 
+According to <a target="_blank" 
 href="https://www.youtube.com/watch?v=pKqdjaH1dRo">Vitalik Buterin</a>,<br>
 <blockquote>
 <p>"Cryptoeconomics is about building systems that have certain desired
@@ -1071,8 +1173,8 @@ Today, 24 March, 2022, Bitcoin’s valuation is over $836 billion.</p>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="images/image009.png"
-  alt="Ethereum - historical market cap."
-  width="66%" />
+   alt="Ethereum - historical market cap"
+   width="66%" />
 </p>
 <p align="center">
 Ether Historical Market Capitalization Chart
@@ -1101,7 +1203,7 @@ permissioned.
 <h3>
 Dapps
 </h3>
-<p>As <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=Clw-qf1sUZg">Stephan
+<p>As <a target="_blank" href="https://www.youtube.com/watch?v=Clw-qf1sUZg">Stephan
 Tual</a> explains, Ethereum applications do not have a middleman;
 instead, users interact in a P2P fashion with other users through a
 variety of interfaces - social, financial, gaming, etc. Since the
@@ -1114,10 +1216,10 @@ are actively interacting with it).</p>
 <p>Since they are cryptographically secured, Dapps are referred to as
 "secure applications".</p>
 <p>Some of the high profile Dapps built on the Ethereum platform
-include: * <a target="_blank" rel="noopener" href="https://augur.net">Augur</a>, which is a
-Decentralized Prediction Market, * <a target="_blank" rel="noopener" 
+include: * <a target="_blank" href="https://augur.net">Augur</a>, which is a
+Decentralized Prediction Market, * <a target="_blank" 
 href="https;//digix.global">Digix</a>, which tokenizes gold on Ethereum,
-* <a target="_blank" rel="noopener" href="https://makerdao.com">Maker</a>, which is a Decentralized
+* <a target="_blank" href="https://makerdao.com">Maker</a>, which is a Decentralized
 Autonomous Organization (DAO).</p>
 <p>The Ethereum network is a distributed global public network, which
 means it is not run on central servers in a certain geographical
@@ -1160,13 +1262,13 @@ specific players in a permissionless public blockchain, as Ethereum
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="images/image010.png"
-  alt="Ethereum Smart Contracts."
-  width="66%" />
+   alt="Ethereum Smart Contracts"
+   width="66%" />
 </p>
 <p>Note: With the advent of the Ethereum blockchain platform and the
 scripting functionality or smart contracts that it enables, there are
 ongoing attempts to do the same for the Bitcoin blockchain, which does
-not allow for this, due to security reasons. <a target="_blank" rel="noopener" 
+not allow for this, due to security reasons. <a target="_blank" 
 href="https://www.rsk.co/">RSK</a> is one such smart contract platform
 that seeks to achieve this "with a 2-way peg to Bitcoin". The added
 functionality can go a long way in making the Bitcoin blockchain useful
@@ -1320,7 +1422,7 @@ In PoET, each validator is given a random wait time.
 block is elected the leader".
 </blockquote>
 <ul>
-<li><a  target="_blank" rel="noopener" 
+<li><a target="_blank" 
 href="https://sawtooth.hyperledger.org/">sawtooth.hyperledger.org</a></li>
 </ul>
 <p>This "leader" gets to create the next block on the chain.</p>
@@ -1328,7 +1430,7 @@ href="https://sawtooth.hyperledger.org/">sawtooth.hyperledger.org</a></li>
 Simplified Byzantine Fault Tolerance (SBFT)
 </h3>
 <p>The Simplified Byzantine Fault Tolerant consensus algorithm
-implements an adopted version of the <a target="_blank" rel="noopener" 
+implements an adopted version of the <a target="_blank" 
 href="https://blog.acolyer.org/2015/05/18/practical-byzantine-fault-tolerance/">Practical
 Byzantine Fault Tolerant</a> (PBFT) algorithm, and seeks to provide
 significant improvements over Bitcoin’s Proof of Work consensus
@@ -1344,7 +1446,7 @@ that must reach consensus is 2f+1 in a system containing 3f+1 nodes,
 where f is the number of faults in the system.</p>
 <p>For example, if we have 7 nodes in the system, then 5 of those nodes
 must agree if 2 of the nodes are acting in a faulty manner.</p>
-<p>The practical example would be that of <a target="_blank" rel="noopener" 
+<p>The practical example would be that of <a target="_blank" 
 href="https://hackingdistributed.com/2016/08/04/byzcoin/">ByzCoin</a>,
 which seeks to make key improvements over the original Bitcoin
 protocol.</p>
@@ -1352,7 +1454,7 @@ protocol.</p>
 ByzCoin transactions are irreversibly committed to the blockchain within
 seconds.</p>
 The added advantage is the communication trees to "(…) optimize
-transaction commitments and verification under normal operations" (<a target="_blank" rel="noopener" 
+transaction commitments and verification under normal operations" (<a target="_blank" 
 href="https://kudelskisecurity.com/resources/resource-center/?_sft_resource_type=research-reports">2016
 Kudelski Security report</a>).
 </p>
@@ -1388,7 +1490,7 @@ approaches to reaching consensus.
   alt="Comparing permissioned consensus approaches and standard PoW." />
 </p>
 <h2 id="hyperledger-2"><a id="ch1-6"></a>1.6 Hyperledger</h2>
-<p><a target="_blank" rel="noopener" href="https://www.hyperledger.org/">Hyperledger</a> is an open
+<p><a target="_blank" href="https://www.hyperledger.org/">Hyperledger</a> is an open
 source effort created to advance cross-industry blockchain
 technologies.</p>
 <p>Hosted by The Linux Foundation, it is a global collaboration of
@@ -1402,7 +1504,7 @@ projects in the coming chapters.</p>
 <p>"One of the first things people learn when coming to Hyperledger is
 that Hyperledger isn’t, like its name may imply, a ledger. It is a
 collection of blockchain technology projects."<br>
-Dan Middleton, <a target="_blank" rel="noopener" 
+Dan Middleton, <a target="_blank"
 href="https://www.hyperledger.org/blog/2018/12/03/all-are-welcome-here">All
 Are Welcome Here</a> (2018)</p>
 <h3>
@@ -1492,7 +1594,7 @@ Quorum was created and open sourced by JPMorgan.</p>
 <h3>
 Chain Core
 </h3>
-<p><a target="_blank" rel="noopener" href="https://brandpa.com/names/fedchains/landing">Chain Core</a>
+<p><a target="_blank" href="https://brandpa.com/names/fedchains/landing">Chain Core</a>
 is an enterprise permissioned blockchain system that is mostly focused
 on financial services, like currencies, securities, derivatives, gift
 cards, and loyalty points.</p>
@@ -1501,7 +1603,7 @@ under the client’s brand. Thanks to its strategic partnerships with
 companies such as Capital One, Citigroup, Fiserv, Nasdaq, Orange, Visa,
 etc., the company raised over $40 million in funding since 2014.</p>
 <p>Within the Chain Core network, the creation and transfer of assets is
-decentralized. However, as stated in the <a target="_blank" rel="noopener" 
+decentralized. However, as stated in the <a target="_blank" 
 href="https://kudelskisecurity.com/">2016 Kudelski Security
 report</a>,<br>
 "the operation of the network is governed by a designated set of
@@ -1512,7 +1614,7 @@ the Initiative for Cryptocurrencies and Contracts (IC3).</p>
 <h3>
 Corda
 </h3>
-<p><a target="_blank" rel="noopener" href="https://www.r3.com/about/">R3</a> is an enterprise
+<p><a target="_blank" href="https://www.r3.com/about/">R3</a> is an enterprise
 blockchain software firm that works with over three hundred members and
 partners across multiple industries, that seeks to leverage distributed
 ledger technologies to record, manage, and automate legal agreements
@@ -1546,10 +1648,10 @@ platform. <br></p>
 <h3>
 IOTA
 </h3>
-<p><a target="_blank" rel="noopener" href="https://www.iota.org/">IOTA</a> is an open source
+<p><a target="_blank" href="https://www.iota.org/">IOTA</a> is an open source
 permissionless distributed ledger technology that has been around since
 2015; it has a cryptocurrency called mIOTA.</p>
-<p>According to <a target="_blank" rel="noopener" 
+<p>According to <a target="_blank" 
 href="https://medium.com/@MartinRosulek/how-iota-makes-future-for-internet-of-things-af14fd77d2a3">Martin
 Rosulek</a>, "It is the first cryptocurrency that provides the whole
 ecosystem based on blockless blockchain" to enable machine-to-machine
@@ -1576,7 +1678,7 @@ Internet of Things<br>
 every technological resource a potential service to be traded on an open
 market in real time, with no fees".</p>
 <ul>
-<li><p><a target="_blank" rel="noopener" 
+<li><p><a target="_blank" 
 href="https://www.forbes.com/sites/rogeraitken/2017/06/15/iotas-bitfinex-listing-surges-to-1-5b-record-breaking-crypto-capitalization-on-market-debut/?sh=a0caa6d75a5a">Roger
 Aitken</a>, 2017</p>
 <p>IOTA focuses mainly on enabling the emerging Internet of Things
@@ -1630,7 +1732,7 @@ associated with a fragmented ecosystem. Standards are critical not just
 for the distributed ledger itself, but also for supporting services,
 like identity, privacy, and data governance.</p>
 <p>Furthermore, the management of keys, as well as protocols and
-standards around key loss and theft, will be critical (<a target="_blank" rel="noopener" 
+standards around key loss and theft, will be critical (<a target="_blank" 
 href="https://www.bsigroup.com/en-GB/">Deshpande, Stewart, Lepetit,
 &amp; Gunashekar, 2017</a>).</p>
 <p>As a result, the International Organization for Standardization for
@@ -1643,8 +1745,8 @@ ISO/TC 307 website. <br></p>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="images/image011.png"
-  alt="Standards Role in Supporting Blockchain/DLT."
-  width="66%" />
+   alt="Standards Role in Supporting Blockchain/DLT"
+   width="66%" />
 </p>
 <h3>
 Regulation
@@ -1655,11 +1757,11 @@ an environment of uncertainty for all players.</p>
 <p>Highly regulated industries like financial services are treading
 carefully in the DLT space.</p>
 <p>The Securities and Exchange Commission of the United States has
-clarified its stance on <a target="_blank" rel="noopener" 
+clarified its stance on <a target="_blank" 
 href="https://www.sec.gov/oiea/investor-alerts-and-bulletins/ib_coinofferings">Initial
 Coin Offerings (ICOs) in 2017</a>.</p>
 <p>The Chinese government has, in fact, banned all ICOs, while 60 major
-ICO platforms are being investigated (<a target="_blank" rel="noopener" 
+ICO platforms are being investigated (<a target="_blank" 
 href="https://www.cnbc.com/2017/09/04/chinese-icos-china-bans-fundraising-through-initial-coin-offerings-report-says.html">Saheli
 Roy Choudhury</a>, 2017).</p>
 <p>Similarly, there are no regulatory guidelines governing smart
@@ -1689,11 +1791,11 @@ Blockchain Search Volume
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="images/image012.png"
-  alt="Blockchain Search Volume."
-  width="85%" />
+   alt="Blockchain Search Volume"
+   width="85%" />
 </p>
 <p>Jobs in the blockchain development space are among the top 20 fastest
-growing, and the number of positions available increased <a target="_blank" rel="noopener" 
+growing, and the number of positions available increased <a target="_blank" 
 href="https://www.computerworld.com/article/3277617/the-top-blockchain-jobs-you-need-to-know-about.html">over
 200% in 2018</a> over those available the previous year.</p>
 <p>However, there is not a large enough pool of qualified blockchain
@@ -1762,7 +1864,7 @@ security protocols, all for the enterprise.</p>
 <h3 id="ch2-2">
 2.2 Hyperledger
 </h3>
-<p><a target="_blank" rel="noopener" href="https://www.hyperledger.org/about">Hyperledger</a> incubates
+<p><a target="_blank" href="https://www.hyperledger.org/about">Hyperledger</a> incubates
 and promotes a range of business blockchain technologies, including
 distributed ledger frameworks, smart contract engines, client libraries,
 graphical interfaces, utility libraries, and sample applications.</p>
@@ -1782,7 +1884,7 @@ frameworks.</p>
    alt="Hyperledger"
    width="100%" />
 </p>
-<p>As <a  target="_blank" rel="noopener" href="https://www.hyperledger.org/blog/2017/09/12/3431">Arnaud
+<p>As <a target="_blank" href="https://www.hyperledger.org/blog/2017/09/12/3431">Arnaud
 Le Hors</a>, member of the Hyperledger Technical Steering Committee,
 emphasized,<br>
 "these projects show how broadly applicable blockchain technology really
@@ -1871,8 +1973,8 @@ Now, let’s explore the Hyperledger frameworks (as of November 2020)
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="images/image014.jpg"
-  alt="Hyperledger Goals."
-  width="85%" />
+   alt="Hyperledger Goals"
+   width="85%" />
 </p>
 <h3>
 The Importance of Open-Source
@@ -2374,7 +2476,7 @@ process that includes 6 possible states. For a project to join the
 Hyperledger Greenhouse, it must have a certain degree of maturity even
 in the early proposal and incubation stages.</p>
 <blockquote>
-<a target="_blank" rel="noopener" href="https://www.hyperledger.org/participate/labs">Hyperledger
+<a target="_blank" href="https://www.hyperledger.org/participate/labs">Hyperledger
 Labs</a> provides a space where work can easily be started without the
 creation of an official Hyperledger project. Developers working on
 projects that are immature (incomplete code, not ready from a
@@ -2593,8 +2695,8 @@ Hyperledger frameworks include:</p>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="images/image015.jpg"
-  alt="Hyperledger frameworks (as of November, 2020)."
-  width="50%" />
+   alt="Hyperledger frameworks (as of November 2020"
+   width="50%" />
 </p>
 <p>
 Now, let’s explore the Hyperledger frameworks (as of November 2020)!
@@ -2647,8 +2749,8 @@ parties</li>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="images/image017.png"
-  alt="Hyperledger Burrow logo."
-  width="50%" />
+   alt="Hyperledger Burrow logo"
+   width="50%" />
 </p>
 <p>Welcome to the Hyperledger greenhouse, an open-source consortium for
 developing business blockchain technologies hosted by the Linux
@@ -2729,8 +2831,8 @@ Hyperledger Fabric
 </h3>
 <p align="center" width="100%">
 <img src="images/image018.jpg"
-  alt="Hyperledger Fabric logo."
-  width="50%" />
+   alt="Hyperledger Fabric logo"
+   width="50%" />
 </p>
 <p>Welcome to the Hyperledger greenhouse, an open-source consortium for
 developing business blockchain technologies hosted by the Linux
@@ -2804,8 +2906,8 @@ Hyperledger Indy
 </h3>
 <p align="center" width="100%">
 <img src="images/image019.png"
-  alt="Hyperledger Indy logo."
-  width="50%" />
+   alt="Hyperledger Indy logo"
+   width="50%" />
 </p>
 <p>
 <p>Welcome to the Hyperledger greenhouse, an open-source consortium for
@@ -2916,8 +3018,8 @@ website.
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="images/image020.png"
-  alt="Frequency of lost or stolen data records."
-  width="50%" />
+   alt="Frequency of lost or stolen data records"
+   width="50%" />
 </p>
 <p>One of the key principles of Hyperledger Indy is its "privacy by
 design" approach. Given the immutable nature of the DLT, it is all the
@@ -2942,8 +3044,8 @@ Hyperledger Iroha
 </h3>
 <p align="center" width="100%">
 <img src="images/image021.jpg"
-  alt="Hyperledger Iroha logo."
-  width="50%" />
+   alt="Hyperledger Iroha logo"
+   width="50%" />
 </p>
 <p>Welcome to the Hyperledger greenhouse, an open-source consortium for
 developing business blockchain technologies hosted by the Linux
@@ -3040,8 +3142,8 @@ Hyperledger Sawtooth
 </h3>
 <p align="center" width="100%">
 <img src="images/Hyperledger_Sawtooth_Logo_Color.png"
-  alt="Hyperledger Sawtooth logo."
-  width="50%" />
+   alt="Hyperledger Sawtooth logo"
+   width="50%" />
 </p>
 <p>Welcome to the Hyperledger greenhouse, an open-source consortium for
 developing business blockchain technologies hosted by the Linux
@@ -3214,8 +3316,8 @@ traceability in a trustless world.</p>
 </h3>
 <p align="center" width="100%">
 <img src="images/image023.png"
-  alt="Hyperledger Grid logo."
-  width="50%" />
+   alt="Hyperledger Grid " logo
+   width="50%" />
 </p>
 <p>Hyperledger Grid is a domain-specific business blockchain technology
 for building supply chain solutions that include distributed ledger
@@ -3291,6 +3393,7 @@ prototype, and extend blockchain networks.</p>
 November 2020): Hyperledger Avalon, Hyperledger Cactus, Hyperledger
 Caliper, Hyperledger Cello, Hyperledger Explorer.</li>
 </ul>
+
 <!------------------------------------------------------------------------------------------------>
 <!--------------------------------- 24. Hyperledger Avalon (68) ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -3299,8 +3402,8 @@ Caliper, Hyperledger Cello, Hyperledger Explorer.</li>
 </h3>
 <p align="center" width="100%">
 <img src="images/image024.png"
-  alt="Hyperledger Avalon logo."
-  width="50%" />
+   alt="Hyperledger Avalon"
+   width="50%" />
 </p>
 <p>Hyperledger Avalon is a ledger independent implementation of the
 Off-Chain Trusted Compute Specification published by the Enterprise
@@ -3338,8 +3441,8 @@ Hyperledger Cactus
 </h3>
 <p align="center" width="100%">
 <img src="images/image025.png"
-  alt="Hyperledger Cactus logo."
-  width="50%" />
+   alt="Hyperledger Cactus logo"
+   width="50%" />
 </p>
 <p>Hyperledger Cactus is an open-source project jointly contributed by
 Accenture and Fujitsu; it joined the Hyperledger Greenhouse in May
@@ -3364,8 +3467,8 @@ Hyperledger Caliper
 </h3>
 <p align="center" width="100%">
 <img src="images/image026.png"
-  alt="Hyperledger Caliper logo."
-  width="50%" />
+   alt="Hyperledger Caliper logo"
+   width="50%" />
 </p>
 <p>Welcome to the Hyperledger greenhouse, an open-source consortium for
 developing business blockchain technologies hosted by the Linux
@@ -3432,8 +3535,8 @@ Hyperledger Cello
 </h3>
 <p align="center" width="100%">
 <img src="images/image027.png"
-  alt="Hyperledger Cello logo."
-  width="50%" />
+   alt="Hyperledger Cello logo"
+   width="50%" />
 </p>
 <p>Hyperledger Cello is a blockchain module toolkit helping businesses
 use and manage blockchains in a more efficient way. Particularly for
@@ -3478,8 +3581,8 @@ behavior.
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="images/image028.jpg"
-  alt="Hyperledger Cello - how it works."
-  width="50%" />
+   alt="Hyperledger Cello - how it works"
+   width="50%" />
 </p>
 <h5 align="center" width="100%">
 Hyperledger Cello
@@ -3497,8 +3600,8 @@ Hyperledger Explorer
 </h3>
 <p align="center" width="100%">
 <img src="images/image029.png"
-  alt="Hyperledger Explorer logo."
-  width="50%" />
+   alt="Hyperledger Explorer logo"
+   width="50%" />
 </p>
 <p>Hyperledger Explorer is a simple, but powerful open-source tool for
 visualizing blockchain operations.</p>
@@ -3566,8 +3669,8 @@ Transact, and Hyperledger Ursa.
 </h3>
 <p align="center" width="100%">
 <img src="images/image030.jpg"
-  alt="Hyperledger Aries logo."
-  width="50%" />
+   alt="Hyperledger Aries logo"
+   width="50%" />
 </p>
 <p>Hyperledger Aries "provides a shared, reusable, and interoperable
 tool kit designed for initiatives and solutions focused on creating,
@@ -3602,8 +3705,8 @@ Hyperledger Quilt
 </h3>
 <p align="center" width="100%">
 <img src="images/image031.jpg"
-  alt="Hyperledger Quilt logo."
-  width="50%" />
+   alt="Hyperledger Quilt logo"
+   width="50%" />
 </p>
 <p>Welcome to the Hyperledger greenhouse, an open-source consortium for
 developing business blockchain technologies hosted by the
@@ -3672,8 +3775,8 @@ Hyperledger Transact
 </h3>
 <p align="center" width="100%">
 <img src="images/image032.png"
-  alt="Hyperledger Transact logo."
-  width="50%" />
+   alt="Hyperledger Transact logo"
+   width="50%" />
 </p>
 
 <p>Hyperledger Transact is a transaction execution platform designed to
@@ -3714,8 +3817,8 @@ Hyperledger Ursa
 </h3>
 <p align="center" width="100%">
 <img src="images/image033.jpg"
-  alt="Hyperledger Ursa logo."
-  width="50%" />
+   alt="Hyperledger Ursa logo"
+   width="50%" />
 </p>
 <p>Hyperledger Ursa is a shared cryptographic library that would enable
 people and projects to avoid duplicating existing cryptographic work and
@@ -4067,8 +4170,8 @@ companies for lending.</p>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="images/image034.png"
-  alt="Supply chain management."
-  width="66%" />
+   alt="Supply Chain Management"
+   width="66%" />
 </p>
 <p align="center">
 Source: Nishan Degnarain (used with permission)
@@ -4191,8 +4294,8 @@ established, and that they are the origin of the work.</p>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="images/image035.jpg"
-  alt="Property titles on a blockchain via a smart contract."
-  width="66%" />
+   alt="Property Titles on a Blockchain via a Smart Contract"
+   width="66%" />
 </p>
 <h3>
 Property Titles on a Blockchain via a Smart Contract
@@ -4238,8 +4341,8 @@ decisions.   <br></p>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="images/image036.jpg"
-  alt="How provenance works."
-  width="65%" />
+   alt="How Provenance Works"
+   width="65%" />
 </p>
 
 <p style="text-align:center;" 
@@ -4270,7 +4373,7 @@ phones in 2015 (Karen Gilchrist, cnbc.com, 2017).</p>
 <p>Also, "the Interprofessional Council of Bordeaux Wine estimates that
 30,000 bottles of fake imported wine are sold per hour in China",
 whereby some estimate half of the wines retailing for more than $35 in
-China are counterfeit (Pamela Ambler, <a target="_blank" rel="noopener" 
+China are counterfeit (Pamela Ambler, <a target="_blank" 
 href="https://www.forbes.com/sites/pamelaambler/2017/07/27/china-is-facing-an-epidemic-of-counterfeit-and-contraband-wine/?sh=5121fe9a5843">forbes.com</a>,
 2017).</p>
 <h3>
@@ -4341,7 +4444,7 @@ Macedonia.</p>
 <p>On top of that, Circulor aims to expand the system they built to
 cover other minerals and countries.</p>
 <p>You can read more about tantalum traceability success story on the
-Hyperledger website: <a target="_blank" rel="noopener" 
+Hyperledger website: <a target="_blank" 
 href="https://www.hyperledger.org/learn/publications/tantalum-case-study">Circulor
 achieves first-ever mine-to-manufacturer traceability of a conflict
 mineral with Hyperledger Fabric</a>.</p>
@@ -4358,18 +4461,18 @@ increasing efficiency and opening up entirely new business models".
 <ul>
 <li>David Treat, Accenture</li>
 </ul>
-<p>The Bitcoin blockchain was created as a <a target="_blank" rel="noopener" 
+<p>The Bitcoin blockchain was created as a <a target="_blank" 
 href="https://bitcoin.org/bitcoin.pdf">"peer-to-peer electronic cash
 system" (Satoshi Nakamoto, Bitcoin)</a>. Therefore, the first blockchain
 use case in existence was payments. However, Bitcoin proved to be quite
 slow to process payments, "somewhere in the region of 7 transactions per
 second", when compared to Visa, which "averages around 2,000
 transactions per second, with peak capacity of perhaps 50,000
-transactions per second" (<a target="_blank" rel="noopener" 
+transactions per second" (<a target="_blank" 
 href="https://due.com/blog/can-the-blockchain-scale/">Guy Brandon,
 due.com</a>, February 2017). Developers are actively working to increase
 the throughput capacity of Bitcoin and other blockchain payment systems
-<a target="_blank" rel="noopener" href="https://lightning.network/">(lightning.network)</a>. Payments,
+<a target="_blank" href="https://lightning.network/">(lightning.network)</a>. Payments,
 especially international payments, can be quite costly. Blockchain
 technologies plan to decrease the costs associated with payments, by
 allowing parties to interact directly, instead of transferring through
@@ -4481,8 +4584,8 @@ execute clauses within it.  </p>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="images/image037.jpg"
-  alt="Automation of back-office processes involved in trade confirmation and post-trade settlement via DLT."
-  width="66%" />
+   alt="Automation of back-office processes involved in trade confirmation and post-trade settlement via DLT"
+   width="66%" />
 </p>
 <p>The image above shows the automation of back-office processes
 involved in trade confirmation and post-trade settlement via DLT.</p>
@@ -4621,11 +4724,11 @@ credentials for license verification.</p>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="images/image038.png"
-  alt="By The BlockRx Project, retrieved from the Hyperledger Healthcare Working Group, August 22nd, 017 Meeting."
-  width="66%" />
+   alt="By The BlockRx Project, retrieved from the Hyperledger Healthcare Working Group, August 22nd, 2017 Meeting"
+   width="66%" />
 </p>
 <h5 align="center">
-By The BlockRx Project, retrieved from the <a target="_blank" rel="noopener" 
+By The BlockRx Project, retrieved from the <a target="_blank" 
 href="https://wiki-archive.hyperledger.org/doku.php?id=groups/healthcare/healthcare-wg-meetings">Hyperledger
 Healthcare Working Group, August 22nd, 2017 Meeting</a>
 </h5>
@@ -4633,7 +4736,7 @@ Healthcare Working Group, August 22nd, 2017 Meeting</a>
 cybercrime.</p>
 <p>Data breaches happen on a daily basis across all industries, and
 healthcare is no different.</p>
-<p>In fact, <a target="_blank" rel="noopener" 
+<p>In fact, <a target="_blank" 
 href="https://onlinenursing.duq.edu/blog/healthcares-blockchain-security-solution/">1
 in 4 data breaches</a> occur in the healthcare sector, affecting
 millions of people: more exactly, 1 in 13 patients in the U.S. are
@@ -4683,7 +4786,7 @@ Streamlining the public assistance system for families and students.
 </li>
 </ul>
 <p>You can learn more about the potential advantages of using blockchain
-solutions for education from the following article: <a target="_blank" rel="noopener" 
+solutions for education from the following article: <a target="_blank" 
 href="https://www.forbes.com/sites/tomvanderark/2018/08/20/26-ways-blockchain-will-transform-ok-may-improve-education/?sh=2f3d475a4ac9">20
 Ways Blockchain Will Transform (Okay, May Improve) Education.</a></p>
 <h3>
@@ -4712,7 +4815,7 @@ of Internal Affairs and Communications to develop a next-generation
 system for managing digital transcripts based on their tested solution,
 aiming to secure the authenticity of transcripts and allow them to be
 safely shared within a trusted network.</p>
-<p>You can learn more about this use case reading <a target="_blank" rel="noopener" 
+<p>You can learn more about this use case reading <a target="_blank" 
 href="https://www.hyperledger.org/wp-content/uploads/2017/12/Hyperledger_CaseStudy_Sony.pdf">Sony
 Global Education Chooses Hyperledger Fabric for a Next-Generation
 Credentials Platform</a>.</p>
@@ -4736,7 +4839,7 @@ solutions.</p>
 important and innovative role in an increasing number of industry
 sectors, including the energy sector.</p>
 <p>In 2017, IBM partnered with TenneT, sonnen and Vandebron to develop a
-<a target="_blank" rel="noopener" href="https://newsroom.ibm.com/">distributed database for managing
+<a target="_blank" href="https://newsroom.ibm.com/">distributed database for managing
 the electricity grid</a> in the Netherlands and Germany:</p>
 <ul>
 <li>TenneT is focusing on finding new sustainable ways to cope with the
@@ -4765,7 +4868,7 @@ TenneT operator to see available, ready-to-activate residential solar
 batteries, and then record the batteries’ input to the electricity
 grid.</li>
 </ul>
-<p>If tests are successful, this <a target="_blank" rel="noopener" 
+<p>If tests are successful, this <a target="_blank" 
 href="https://www.youtube.com/watch?v=IJ3U7wACSc8">Hyperledger
 Fabric-based implementation</a> could then be implemented worldwide,
 adding much needed flexibility and security in the energy management
@@ -4777,7 +4880,7 @@ Smart Cities Use Case: Smart Dubai
 touristic destination.</p>
 <p>Dubai aims to become the world’s first government fully powered by
 blockchain technologies by 2020.</p>
-<p><a target="_blank" rel="noopener" href="https://www.digitaldubai.ae/">Smart Dubai</a> is a city-wide
+<p><a target="_blank" href="https://www.digitaldubai.ae/">Smart Dubai</a> is a city-wide
 effort to empower residents and visitors alike via digital
 transformation, an effort that relies on the partnership between the
 private sector and government entities. It aims "to make Dubai the
@@ -4791,14 +4894,14 @@ applicable government transactions through blockchain by 2020.</p>
 <p>The Decentralized Data Marketplace leverages blockchain technology to
 ensure the security and immutability of transactions, tokenization to
 hide sensitive information, etc.</p>
-<p>The <a target="_blank" rel="noopener" 
+<p>The <a target="_blank" 
 href="https://www.digitaldubai.ae/apps-services/details/uae-pass">UAEPASS</a>
 is the national digital identity platform, giving UAE citizens,
 residents and visitors access to local and federal government services,
 as well as those of private companies, all on a single smart
 application, allowing them to authenticate and sign documents
 digitally.</p>
-<p>The <a target="_blank" rel="noopener" 
+<p>The <a target="_blank" 
 href="https://www.digitaldubai.ae/apps-services/details/dubai-now">DubaiNow</a>
 mobile application is a one-stop shop for smart services, unifying more
 than 55 key services from 22 government agencies.</p>
@@ -4821,7 +4924,7 @@ value every year."</p>
 <p>Smart Dubai is embracing a multi-blockchain business model to deliver
 services, such as IBM’s Hyperledger Fabric-based and ConsenSys’ private
 blockchain implementation based on Ethereum.</p>
-<p>In October 2018, Smart Dubai and IBM launched the <a target="_blank" rel="noopener" 
+<p>In October 2018, Smart Dubai and IBM launched the <a target="_blank" 
 href="https://www.digitaldubai.ae/newsroom/news/2018/10/30/smart-dubai-and-ibm-to-offer-first-government-endorsed-blockchain-platform#listingPage=1">Dubai
 Blockchain Platform</a>, the first government-endorsed
 blockchain-as-a-service platform in the UAE.</p>
@@ -4838,7 +4941,7 @@ the cities of the future, transforming human communities and activities
 <p>We are constantly on the lookout for new opportunities to meet
 representatives from other like-minded organisations who share our
 vision for a smart, connected future that allows people to enjoy
-seamless city experiences." <a target="_blank" rel="noopener" 
+seamless city experiences." <a target="_blank" 
 href="https://www.khaleejtimes.com/business/smart-dubai-an-engine-driving-the-cities-of-the-future">(Khaleej
 Times)</a></p>
 <p>Dr. Aisha Bint Butti Bin Bishr, Director General of the Smart Dubai
@@ -4911,7 +5014,7 @@ its strengths for their businesses. <br></li>
 <h3>
 The Outlook of Blockchain for Business
 </h3>
-<p>The <a target="_blank" rel="noopener" 
+<p>The <a target="_blank" 
 href="https://assets.kpmg/content/dam/kpmg/us/pdf/2019/02/blockchain-tech-survey-2019-infographic.pdf">2019
 Technology Industry Innovation conducted by KPMG</a> Another important
 aspect revealed by this survey is that 48 percent of enterprises believe
@@ -4950,7 +5053,7 @@ transform businesses over the next three years, and beyond. <br></p>
 <p>The 2019 KPMG survey ranked blockchain at number 4, compared to 7
 just a year ago.</p>
 <p>And, according to the Worldwide Semiannual Blockchain Spending Guide
-(March 2019) from <a target="_blank" rel="noopener" href="https://www.idc.com/">International Data
+(March 2019) from <a target="_blank" href="https://www.idc.com/">International Data
 Corporation (IDC)</a>, worldwide spending on blockchain-related
 solutions is expected to reach $2.9 billion in 2019 (an increase of over
 88% from the previous year), and $12.4 billion by 2022.</p>
@@ -5174,8 +5277,8 @@ Blockchain Decision Path
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="images/image039.png"
-  alt="Blockchain Decision Path."
-  width="66%" />
+   alt="Blockchain Decision Path"
+   width="66%" />
 </p>
 <p align="center">
 The above diagram provides generalized, high-level decision points about
@@ -5188,7 +5291,7 @@ Hyperledger Community
 of technical, open-source contributors.</p>
 <p>We are always looking for help to build an open-source ecosystem of
 business blockchain technologies. If you are interested in contributing
-to and learning from the community, we welcome you to <a target="_blank" rel="noopener" 
+to and learning from the community, we welcome you to <a target="_blank" 
 href="https://www.hyperledger.org/participate">join the Hyperledger
 effort</a>.</p>
 <h4>
@@ -5196,30 +5299,30 @@ Joining the Hyperledger Community
 </h4>
 <p>You too can join the Hyperledger Community:</p>
 <p><strong>For developers</strong><br>
-Read the Hyperledger code on <a target="_blank" rel="noopener" 
+Read the Hyperledger code on <a target="_blank" 
 href="https://github.com/hyperledger/hyperledger">GitHub</a>. Join the
-Hyperledger discussion at <a target="_blank" rel="noopener" 
+Hyperledger discussion at <a target="_blank" 
 href="http://chat.hyperledger.org/home">Rocket.Chat</a>. Search for
-open bugs, or report a new one in the <a target="_blank" rel="noopener" 
+open bugs, or report a new one in the <a target="_blank" 
 href="https://jira.hyperledger.org/secure/Dashboard.jspa">Hyperledger’s
 bug database</a>.</p>
 <p><strong>For business leaders</strong><br>
-For key updates from Hyperledger, join the <a target="_blank" rel="noopener" 
+For key updates from Hyperledger, join the <a target="_blank" 
 href="https://lists.hyperledger.org/g/main">mailing list</a>. Explore
-all <a target="_blank" rel="noopener" href="https://www.hyperledger.org/use">Hyperledger business
+all <a target="_blank" href="https://www.hyperledger.org/use">Hyperledger business
 solutions</a>.</p>
 <p><strong>For educators and community leaders</strong><br>
-You can start or join a <a target="_blank" rel="noopener" 
+You can start or join a <a target="_blank" 
 href="https://www.meetup.com/pro/hyperledger/">Hyperledger meetup</a>.
-Development updates from Wiki can be found <a target="_blank" rel="noopener" 
+Development updates from Wiki can be found <a target="_blank" 
 href="https://wiki.hyperledger.org/">here</a>.</p>
 <!------------------------------------------------------------------------------------------------>
 <!--------------------------- 40. hyperledger global meetings (101) ------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="images/image040.png" 
-  alt="Hyperledger Global Meetups (as of 06/24/2019)."
-  width="100%" />
+   alt="Hyperledger Global Meetups (as of 06/24/2019)"
+   width="100%" />
 <h5 align="center">
 Hyperledger Global Meetups (as of 06/24/2019)
 </h5>
@@ -5274,7 +5377,7 @@ the emerging technical user and contributor community in China.
 Learning Materials Development Working Group
 </h3>
 <p>
-<p><a target="_blank" rel="noopener" 
+<p><a target="_blank" 
 href="https://wiki.hyperledger.org/display/LMDWG/Learning+Materials+Development+Working+Group">The
 Hyperledger Learning Materials Development Working Group</a> is focused
 on developing training materials that aims to expand people’s knowledge
@@ -5348,5 +5451,5 @@ Good luck to all of you in your future endeavors!
 </p>
 </body>
 <p>
-<h4><b><i>lfs171x Last Updated: 12/26/2022 Mon 10:28am</i></b></h4>
+<h4><b><i>lfs171x Last Updated: 12/26/2022 Mon 11:30am</i></b></h4>
 </html>

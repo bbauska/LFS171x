@@ -3,10 +3,9 @@ lfs171x:: "Linux Foundation: Introduction to Hyperledger Blockchain Technology"
 ---
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------------------------- readme.md of LFS171x.bauska.org ------------------------------->
+<!-------------------------------- readme.md of lfs171x.bauska.org ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <h2 align="center">LFS171x - Linux FoundationX</h2>
-
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------------------- linux logo ------------------------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -18,11 +17,11 @@ lfs171x:: "Linux Foundation: Introduction to Hyperledger Blockchain Technology"
 
 <h2 align="center">Introduction to Hyperledger Blockchain Technology</h2>
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------------------- LFS171x logo ------------------------------------------>
+<!---------------------------------------- lfs171x logo ------------------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/image-logo.png?raw=true"
-   alt="LFS171x Hyperledger Blockchain logo"
+   alt="LFS171x Hyperledger Blockchain logo."
    width="50%" />
 </p>
 
@@ -65,11 +64,15 @@ Armed with better information of the blockchain landscape, this program will hel
 >### 6.1 [**Introduction and Learning Objectives**](#ch6-1)
 >### 6.2 [**Existing Hyperledger Blockchain Use Cases**](#ch6-2)
 >### 6.3 [**When to Use or Not to Use Blockchain Technologies**](#ch6-3)
+
 <div align="right">
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
 </div>
+
 <h2 id="ch1">Chapter 1. Discovering Blockchain Technologies</h2>
+
 <h3>A Word from Brian Behlendorf, Executive Director at Hyperledger</h3>
+
 Hi, I'm Brian Behlendorf. I'm Executive Director of Hyperledger, a collaborative project hosted at the Linux Foundation.  <br/>
 
 I want to welcome you to the first ever training course for Hyperledger and our related technology projects.  
@@ -350,10 +353,9 @@ A blockchain can be both permissionless (like Bitcoin or Ethereum) or permission
 A permissionless blockchain is also known as a public blockchain, because anyone can join the network. 
 
 A permissioned blockchain, or private blockchain, requires pre-verification of the participating parties within the network, and these parties are usually known to each other.  
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!------------------------------------ types of blockchain --------------------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image004.png?raw=true"
 	width="66%" 
@@ -407,13 +409,13 @@ Permissioned P2P networks have to guarantee uptime and require a high level of q
 <div align="right">
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
 </div>
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!------------------------------------ peer to peer network -------------------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image005.png?raw=true"
-	width="66%" 
-    alt="Peer to peer network"</>
+  width="66%"
+  alt="Peer to peer network." />
 </p>
 
 <h3>Peer-to-Peer Networks (Robert Schwentker)</h3>
@@ -476,13 +478,13 @@ In addition, the Previous Block hash stored in Block 12 also needs to be modifie
 <div align="right">
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
 </div>
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!----------------------------------- immutability of data --------------------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="/images/image006.png?raw=true"
-	width="85%" 
-    alt="Immutability of data"</>
+  width="85%" 
+  alt="Immutability of data." />
 </p>
 
 <h3>Blockchain Applications</h3>
@@ -519,13 +521,13 @@ Smart contracts provide the language of transactions that allow the ledger state
 
 They can facilitate the exchange and transfer of anything of value (e.g. shares, money, content, property).
 </p>
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!------------------------------------- smart contracts ------------------------------------------>
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-  <img width="66%" src="https://user-images.githubusercontent.com/41387907/138574893-8aac4d02-8a64-428b-99c2-999a445dc2ae.png"
-    alt="Smart contracts"</>
+<img width="66%" 
+  src="https://user-images.githubusercontent.com/41387907/138574893-8aac4d02-8a64-428b-99c2-999a445dc2ae.png"
+  alt="Smart contracts." />
 </p>
 
 <h3>Bitcoin – A Popular Blockchain Deployment</h3>
@@ -537,13 +539,13 @@ There is a persuasive case that Bitcoin is the first "killer application" of dec
 One can send and receive bitcoins anywhere in the world in a completely P2P manner, without having to intermediate through a trusted third party, such as a bank.  
 
 According to the [Coin Market Capitalization website](https://coinmarketcap.com), as of November 2020, bitcoin's market capitalization (market cap) was over $286 billion.  Today, 23-Mar-2022 it is $836 billion.
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!------------------------- bitcoin - a popular blockchain deployment ---------------------------->
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-  <img width="66%" src="https://user-images.githubusercontent.com/41387907/138574896-b923c968-2909-4c47-8333-fbe77d089177.png"
-       alt="Bitcoin - a popular blockchain deployment"</>
+<img width="66%" 
+  src="https://user-images.githubusercontent.com/41387907/138574896-b923c968-2909-4c47-8333-fbe77d089177.png"
+  alt="Bitcoin - a popular blockchain deployment." />
 	   
 <p align="center"> (Source: https://coinmarketcap.com/currencies/bitcoin/)  </p>
 </p>
@@ -635,14 +637,15 @@ As a result, unlike the Bitcoin blockchain, it does not just track transactions,
 Technically, Ethereum is a Turing-complete virtual machine with its native cryptocurrency called "ether". The platform was proposed in 2013 in a white paper by the then 19-year old Vitalik Buterin.  
 
 As of November 2020, Ethereum had a market cap of over $49 billion, making Ether the second most valuable cryptocurrency after Bitcoin.  Today, 24 March, 2022, Bitcoin's valuation is over $836 billion.
-
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!---------------------------- ethereum - an alternative to bitcoin ------------------------------>
-<!------------------------------------------------------------------------------------------------>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-  <img width="66%" src="https://user-images.githubusercontent.com/41387907/138574908-341e5a60-7337-42d2-9ac5-988144beab2b.png"
-    alt="Ethereum - an alternative to bitcoin"</>
+<img width="66%" 
+  src="https://user-images.githubusercontent.com/41387907/138574908-341e5a60-7337-42d2-9ac5-988144beab2b.png"
+  alt="Ethereum - an alternative to bitcoin." />
 </p>
+
 <p align="center">Ether Historical Market Capitalization Chart</p>
 <p align="center">(Source: https://etherscan.io/chart/marketcap)</p>
 
@@ -702,13 +705,13 @@ Once hitting a triggering event, like an expiration date or a strike price that 
 
 As an added benefit, regulators are able to scrutinize the market activity on an ongoing basis, without compromising the identity of specific players in a permissionless public blockchain, as Ethereum (Panel 3).
 </p>
-
 <!------------------------------------------------------------------------------------------------>
 <!--------------------------------- ethereum smart contracts ------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-  <img width="66%" src="https://user-images.githubusercontent.com/41387907/138574916-7517cbeb-780a-48ad-b96c-062caf795147.png"
-       alt="Ethereum smart contracts"</>
+<img width="66%" 
+  src="https://user-images.githubusercontent.com/41387907/138574916-7517cbeb-780a-48ad-b96c-062caf795147.png"
+  alt="Ethereum smart contracts." />
 </p>
 <p>
 Note: With the advent of the Ethereum blockchain platform and the scripting functionality or smart contracts that it enables, there are ongoing attempts to do the same for the Bitcoin blockchain, which does not allow for this, due to security reasons. 
@@ -731,20 +734,19 @@ We will look at block heights, transaction times, mining pools, timestamps, and 
 <p>
 Let's take a look at a couple of public blockchains: those of Bitcoin and Ethereum, and let's examine the genesis block, or the first block, of each one of them.  
 
-Then, we'll take a look at a couple of large transactions, including the most famous transaction in cryptocurrency history: the purchase of a pizza for 10,000 bitcoins.  
+Then, we'll take a look at a couple of large transactions, including the most famous transaction in cryptocurrency history: the purchase of a pizza for 10,000 bitcoins. 
 
-First, we'll go to this blockchain explorer, and see that there is a Height column, which indicates the number of blocks in this particular blockchain; it's nearing a half a million.  
+First, we'll go to this blockchain explorer, and see that there is a Height column, which indicates the number of blocks in this particular blockchain; it's nearing a half a million.
 
-These blocks are created approximately every 10 minutes,  
-and there's a Transactions column that shows how many transactions are included in each block, as well as the Total Sent, or the amount of Bitcoin that was transferred in each of those blocks.  
+These blocks are created approximately every 10 minutes, and there's a Transactions column that shows how many transactions are included in each block, as well as the Total Sent, or the amount of Bitcoin that was transferred in each of those blocks.
 
-Finally, you can notice that there's... they relate by column, which is essentially the miner or mining pool that created that block.  
+Finally, you can notice that there's... they relate by column, which is essentially the miner or mining pool that created that block.
 
-From here, let's take a look at another blockchain explorer, and you can see here the genesis block of the Bitcoin blockchain.  
+From here, let's take a look at another blockchain explorer, and you can see here the genesis block of the Bitcoin blockchain.
 
-Notice that the timestamp is January 3rd 2009.  
+Notice that the timestamp is January 3rd 2009.
 
-That's the genesis block of the Bitcoin blockchain.  
+That's the genesis block of the Bitcoin blockchain.
 
 Now, moving on to the Ethereum blockchain, we'll look at another blockchain explorer.  
 

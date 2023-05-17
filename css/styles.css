@@ -13,17 +13,17 @@ body {
   bottom: 20px;
   right: 30px;
   z-index: 99;
-  font-size: 13px;
+  font-size: 11px;
   border: none;
   outline: none;
-  background-color: #8b0000;
-  color: #f4f5f0;
+  background-color: #8b0000;  /* dark red */
+  color: #f4f5f0;  /* light grayish yellow */
   cursor: pointer;
   padding: 8px;
   border-radius: 2px;
 }
 
 #myBtn:hover {
-  background-color: #555;
+  background-color: #555;  /* very dark gray */
 }
 </style>

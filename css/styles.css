@@ -3,7 +3,6 @@ body {
   font-family: Bahnschrift, Inter, Arial, Helvetica, sans-serif;
   font-size: 13.5px;
 }
-
 #myBtn {
   display: none;
   position: fixed;
@@ -144,23 +143,4 @@ body {
   font-family: Bahnschrift, Helvetica, sans-serif;
   font-size: 15px;
   margin: 10px;
-}
-#myBtn {
-  display: none;
-  position: fixed;
-  bottom: 20px;
-  right: 30px;
-  z-index: 99;
-  font-size: 11px;
-  border: none;
-  outline: none;
-  background-color: #8b0000;  /* dark red */
-  color: #f4f5f0;  /* light grayish yellow */
-  cursor: pointer;
-  padding: 8px;
-  border-radius: 2px;
-}
-
-#myBtn:hover {
-  background-color: #555;  /* very dark gray */
 }

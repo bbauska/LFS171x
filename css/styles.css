@@ -62,10 +62,20 @@ body {
 
 body {
   font-family: "Avenir Next", Bahnschrift, Calibri, Verdana, sans-serif;
+  font-size: 1.2rem;
+  background-color: #EEEEEE;  /* very light gray */
+  color: #000000;  /* black */
+  text-align: left;
+  margin-left: 15px;
+  padding: 10px;
 }
+
 p {
-  margin: 15px;
+  margin-left: 15px;
+  font-size: 15px;
+  text-align: left; 
 }
+
 ul.a {list-style-type: circle;}
 ul.b {list-style-type: square;}
 
@@ -128,6 +138,25 @@ h1 {
   background: inherit;
   text-align: left;
   margin-left: 5px;
+}
+
+blockquote {
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+blockquote p {
+  display: inline;
 }
 
 img.displayed {

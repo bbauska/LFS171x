@@ -12,19 +12,19 @@ body {
   font-size: 14px;
   border: none;
   outline: none;
-  background-color: #ee4b2b;
-  color: #fdfeff;
+  background-color: #ee4b2b;  /* bright red */
+  color: #fdfeff;  /* very pale (mostly white) blue */
   cursor: pointer;
   padding: 11px;
   border-radius: 3px;
 }
 
 #myBtn:hover {
-  background-color: #555;
+  background-color: #555555;  /* very dark gray */
 }
 
 .dropbtn {
-  background-color: #04006D;
+  background-color: #04006d;  /* very dark blue */
   color: white;
   padding: 11px;
   font-size: 12px;  /* was 14 */
@@ -40,7 +40,7 @@ body {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #f1f1f1;
+  background-color: #f1f1f1;  /* very light gray */
   min-width: 40rem;  /* 160px */
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   font-size: 11px;
@@ -54,16 +54,16 @@ body {
   display: block;
 }
 
-.dropdown-content a:hover {background-color: #ccc;}
+.dropdown-content a:hover {background-color: #cccccc;}  /* light gray */
 
 .dropdown:hover .dropdown-content {display: block;}
 
-.dropdown:hover .dropbtn {background-color: #398e41;}
+.dropdown:hover .dropbtn {background-color: #398e41;}  /* dark moderate lime green */
 
 body {
   font-family: "Avenir Next", Bahnschrift, Calibri, Verdana, sans-serif;
   font-size: 1.2rem;
-  background-color: #EEEEEE;  /* very light gray */
+  background-color: #eeeeee;  /* very light gray */
   color: #000000;  /* black */
   text-align: left;
   margin-left: 15px;
@@ -89,7 +89,7 @@ h1 {
   font-size: 24px;
   text-transform: uppercase;
   letter-spacing: 3px;
-  color: #acaf2c;		<!-- olive -->
+  color: #acaf2c;  <!-- dark yellow [olive tone] -->
   background: inherit;
   text-align: center;
 }
@@ -97,7 +97,7 @@ h1 {
   font: normal 1.8em BBahnschrift, Verdana, Helvetica, sans-serif, tahoma;
   font-size: 22px;
   letter-spacing: 3px;
-  color: #3800aa;   <!-- dark purple -->
+  color: #3800aa;   <!-- dark violet -->
   background: inherit;
   text-align: left;
   margin-left; 5px;
@@ -106,8 +106,7 @@ h1 {
   font: normal 1.6em Bahnschrift, Verdana, Helvetica, arial, sans-serif;
   letter-spacing: 3px;
   font-size: 20px;
-<!--  color: #3899ff; light blue -->
-  color: #326908;    <!-- green -->
+  color: #326908;    <!-- very dark green -->
   background: inherit;
   text-align: left;
   margin-left: 5px;
@@ -116,7 +115,7 @@ h1 {
   font-size: 18px;
   font: normal 1.4em Bahnschrift, Verdana, Helvetica, sans-serif;
   letter-spacing: 3px;
-  color: #900001 ;    <!-- red -->
+  color: #900001 ;    <!-- dark red -->
   background: inherit;
   text-align: left;
   margin-left: 5px;
@@ -125,7 +124,7 @@ h1 {
   font-size: 16px;
   font: normal 1.3em Bahnschrift, Verdana, Helvetica, arial, sans-serif;
   letter-spacing: 3px;
-  color: #326908;    <!-- green -->
+  color: #326908;    <!-- very dark green -->
   background: inherit;
   text-align: left;
   margin-left: 5px;
@@ -134,21 +133,21 @@ h1 {
   font-size: 14px;
   font: normal 1.3em Bahnschrift, Verdana, Helvetica, arial, sans-serif;
   letter-spacing: 3px;
-  color: #326908;    <!-- green -->
+  color: #326908;    <!-- very dark green -->
   background: inherit;
   text-align: left;
   margin-left: 5px;
 }
 
 blockquote {
-  background: #f9f9f9;
-  border-left: 10px solid #ccc;
+  background: #f9f9f9;  /* very light gray (mostly white) */
+  border-left: 10px solid #cccccc;  /* light gray */
   margin: 1.5em 10px;
   padding: 0.5em 10px;
   quotes: "\201C""\201D""\2018""\2019";
 }
 blockquote:before {
-  color: #ccc;
+  color: #cccccc;  /* light gray */
   content: open-quote;
   font-size: 4em;
   line-height: 0.1em;
@@ -165,7 +164,7 @@ img.displayed {
 
 .border {
   border-width: 1px;
-  border-color: #778899;
+  border-color: #778899;  /* dark grayish blue */
   border-style: solid; }
 
 body {

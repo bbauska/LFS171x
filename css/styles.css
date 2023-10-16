@@ -15,8 +15,8 @@ body {
   background-color: #900001;  /* dark red */
   color: #ffffff;  /* white */
   cursor: pointer;
-  padding: 11px;
-  border-radius: 3px;
+  padding: 7px;
+  border-radius: 2px;
 }
 
 #myBtn:hover {

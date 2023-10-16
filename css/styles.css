@@ -12,8 +12,8 @@ body {
   font-size: 14px;
   border: none;
   outline: none;
-  background-color: #ee4b2b;  /* bright red */
-  color: #fdfeff;  /* very pale (mostly white) blue */
+  background-color: #900001;  /* dark red */
+  color: #ffffff;  /* white */
   cursor: pointer;
   padding: 11px;
   border-radius: 3px;
@@ -26,10 +26,11 @@ body {
 .dropbtn {
   background-color: #04006d;  /* very dark blue */
   color: #ffffff;  /* white */
-  padding: 11px;
+  padding: 7px;
+  border-radius: 3px;  /* blank */
   font-size: 12px;  /* was 14 */
-  left: 15px;
   border: none;
+  border-radius: 2px;  /*  border: none; */
 }
 
 .dropdown {
@@ -41,7 +42,7 @@ body {
   display: none;
   position: absolute;
   background-color: #f1f1f1;  /* very light gray */
-  min-width: 40rem;  /* 160px */
+  min-width: 20rem;  /* 160px */
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   font-size: 11px;
   z-index: 1;
@@ -49,7 +50,7 @@ body {
 
 .dropdown-content a {
   color: #000000;  /* black */
-  padding: 12px 16px;
+  padding: 10px 12px;
   text-decoration: none;
   display: block;
 }
@@ -58,7 +59,7 @@ body {
 
 .dropdown:hover .dropdown-content {display: block;}
 
-.dropdown:hover .dropbtn {background-color: #398e41;}  /* dark moderate lime green */
+.dropdown:hover .dropbtn {background-color: #398e41;}  /* dark moderate cyan (lime green) */
 
 body {
   font-family: "Avenir Next", Bahnschrift, Calibri, Verdana, sans-serif;
@@ -88,8 +89,8 @@ h1 {
   font-family: normal 2.0em Bahnschrift, Verdana, Helvetica, sans-serif, helvetica;
   font-size: 24px;
   text-transform: uppercase;
-  letter-spacing: 3px;
-  color: #acaf2c;  <!-- dark yellow [olive tone] -->
+  letter-spacing: 2px;
+  color: #000000;  <!-- black, was dark yellow [olive tone] -->
   background: inherit;
   text-align: center;
 }
@@ -167,8 +168,7 @@ img.displayed {
   border-color: #778899;  /* dark grayish blue */
   border-style: solid; }
 
-body {
-  font-family: Bahnschrift, Helvetica, sans-serif, Inter;
-  font-size: 15px;
-  margin: 10px;
-}
+.emphasis {
+  background: #ffff88;  /* very light yellow */
+  font-style: italics;
+  }

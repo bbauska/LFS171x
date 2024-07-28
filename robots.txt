@@ -1,2 +1,2 @@
-user-agents: *
-disallow:
+User-agent: *
+Disallow: /LFS171*.*

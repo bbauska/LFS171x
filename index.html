@@ -31,30 +31,25 @@
 <div style="background-color:black;color:white;padding:30px">Scroll Down</div>
 <div style="background-color:lightgrey;padding:30px 30px 950px"></div>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ script function: scrollFunction() ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ script functions: scrollFunction() & topFunction() ~~~~~~~~~~~~~~~~~~~~~-->
 <script>
-// get the button
-var mybutton = document.getElementById("myBtn");
+  // get the button
+  var mybutton = document.getElementById("myBtn");
+  window.onscroll = function() {scrollFunction()};
 
-// when the user scrolls down 20px from the top of the document, show the button.
-window.onscroll = function() {scrollFunction()};
-
-function scrollFunction() {
-  if (document.body.scrollTop > 5 || document.documentElement.scrollTop > 5) {
-    mybutton.style.display = "block";
-  } else {
-    mybutton.style.display = "none";
+  // when the user scrolls down 5px from the top of the document, show the button.
+  function scrollFunction() {
+    if (document.body.scrollTop > 5 || document.documentElement.scrollTop > 5) {
+      mybutton.style.display = "block";
+    } else {
+      mybutton.style.display = "none";
+    }
   }
-}
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ script function: topFunction() ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-// when the user clicks on the button, scroll to the table of contents (860px down from top of document).
-function topFunction() {
-  document.body.scrollTop = 0;
-  document.documentElement.scrollTop = 0;
-}
+
+  // when the user clicks on the button, scroll to the table of contents near top of document.
+  function topFunction() {
+    document.getElementById('table-of-contents').scrollIntoView();
+  }
 </script>
 
 <h4>Welcome to LFS171x: Introduction to Hyperledger Blockchain Technology</h4>

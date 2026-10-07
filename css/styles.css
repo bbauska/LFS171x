@@ -86,17 +86,17 @@ ol.f {list-style-type: lower-alpha;}
 ol.g {list-style-type: lower-latin;}
 
 h1 {
-  font-family: normal 2.0em Bahnschrift, Verdana, Helvetica, sans-serif, helvetica;
   font-size: 24px;
+  font-family: Bahnschrift, Verdana, Helvetica, sans-serif, helvetica;
   text-transform: uppercase;
-  letter-spacing: 2px;
+  letter-spacing: 3px;
   color: #000000;  <!-- black, was dark yellow [olive tone] -->
   background: inherit;
   text-align: center;
 }
  h2 {
-  font: normal 1.8em BBahnschrift, Verdana, Helvetica, sans-serif, tahoma;
   font-size: 22px;
+  font: BBahnschrift, Verdana, Helvetica, sans-serif, tahoma;
   letter-spacing: 3px;
   color: #3800aa;   <!-- dark violet -->
   background: inherit;
@@ -104,9 +104,9 @@ h1 {
   margin-left; 15px;
 }
  h3 {
-  font: normal 1.6em Bahnschrift, Verdana, Helvetica, arial, sans-serif;
-  letter-spacing: 3px;
   font-size: 20px;
+  font: Bahnschrift, Verdana, Helvetica, arial, sans-serif;
+  letter-spacing: 3px;
   color: #326908;    <!-- very dark green -->
   background: inherit;
   text-align: left;
@@ -114,8 +114,8 @@ h1 {
 }
  h4 {
   font-size: 18px;
-  font: normal 1.4em Bahnschrift, Verdana, Helvetica, sans-serif;
-  letter-spacing: 3px;
+  font: Bahnschrift, Verdana, Helvetica, sans-serif;
+  letter-spacing: 2.5px;
   color: #900001 ;    <!-- dark red -->
   background: inherit;
   text-align: left;
@@ -123,8 +123,8 @@ h1 {
 }
  h5 {
   font-size: 16px;
-  font: normal 1.3em Bahnschrift, Verdana, Helvetica, arial, sans-serif;
-  letter-spacing: 3px;
+  font: Bahnschrift, Verdana, Helvetica, arial, sans-serif;
+  letter-spacing: 2px;
   color: #326908;    <!-- very dark green -->
   background: inherit;
   text-align: left;
@@ -132,8 +132,8 @@ h1 {
 }
  h6 {
   font-size: 14px;
-  font: normal 1.3em Bahnschrift, Verdana, Helvetica, arial, sans-serif;
-  letter-spacing: 3px;
+  font: Bahnschrift, Verdana, Helvetica, arial, sans-serif;
+  letter-spacing: 2px;
   color: #326908;    <!-- very dark green -->
   background: inherit;
   text-align: left;
